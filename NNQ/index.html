@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Neural Network Methods for Quantifiers -- January 2018 Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Neural Network Methods for Quantifiers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#description">Description</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#logistics">Logistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#resources">Resources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-secondary text-white">
+      <div class="container text-center">
+        <h1>Neural Network Methods for Quantifiers</h1>
+        <p class="lead">January 2018 Coordinated Project @ ILLC</p>
+      </div>
+    </header>
+
+    <section id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>News and Updates</h2>
+	    <p class="lead">Scroll down for a detailed description of this project's motivation and structure.</p>
+	    <p>If you are interested in this project, please contact the instructor -- <a href="http://shane.st">Shane Steinert-Threlkeld</a> -- by e-mail: S.N.M.Steinert-Threlkeld (at) uva.nl.</p>
+	    <ul>
+		    <li>23 Jan: reading list updated</li>
+		    <li>22 Jan: updated notebook with predictions/output, which will be useful for many of your projects</li>
+		    <li>22 Jan: updated reading list</li>
+		    <li>19 Jan: updates to projects list and Jupyter notebook</li>
+		    <li>18 Jan: uploaded <a href="projects.txt">list of possible projects</a> (access information provided in e-mail)</li>
+		    <li>18 Jan: reading list updated</li>
+		    <li>17 Jan: added <a href="https://github.com/shanest/quantifier-rnn-learning/blob/master/Intro_NeuralNetworks_TensorFlow_Estimators.ipynb">Jupyter notebook</a> introducing TensorFlow and neural networks, which can be used for familiarizing oneself and experiment with TF.</li>
+		    <li>17 Jan: refactoring of shanest/quantifier-rnn-learning has been completed.  Feel free to inspect the code now!</li>
+		    <li>15 Jan: updated reading list</li>
+		    <li>19 Dec: updated reading list</li>
+		    <li>13 Dec: updated reading list</li>
+		    <li>06 Dec: website created!</li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+    </section>
+
+    <section id="description" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Project Description</h2>
+	    <p class="lead">In this project, students will develop tools and run (computational) experiments to test the hypothesis that <em>semantic universals</em> arise because expressions satisfying them are easier to learn than those that do not.</p>
+	    <p>A semantic universal is a property of meaning shared by (almost) all natural languages (possibly conditional on the languages having additional properties).  Because languages vary quite a bit, when one finds a universal, one naturally wonders whether there's an explanation for it.  Why do all languages have this semantic property?  We are interested in exploring the following hypothesis.</p>
+	    <p><b>Hypothesis:</b> Semantic universals arise because they make meaning systems easier to learn.</p>
+	    <p>Of course, the hypothesis can only be supported or refuted when a model of learning a semantic system has been specified. Thus, the hypothesis naturally gives rise to a challenge.</p>
+	    <p><b>Challenge:</b> Provide a model of learning which makes good on the Hypothesis (at least, for some semantic universals).</p>
+	    <p>In recent work, <a href="http://semanticsarchive.net/Archive/mQ2Y2Y2Z/LearnabilitySemanticUniversals.pdf">Steinert-Threlkeld and Szymanik</a> attempt to meet the Challenge by training <em>recurrent neural networks</em> to learn the meanings of <em>quantifiers</em>, a domain where many semantic universals have been posited.  They use this framework to explain universals like <em>monotonicity</em> and <em>quantity</em>.  The monotonicity universal works as follows.  Consider the following two sentences.</p>
+	    <ol>
+		    <li>Many French people <span class="text-warning">smoke cigarettes</span>.</li>
+		    <li>Many French people <span class="text-warning">smoke</span>.</li>
+	    </ol>
+	    <p>Sentence (1) entails sentence (2): the former cannot be true without the latter being true.  Notice that all we have done is replaced the term &quot;smoke cigarettes&quot; with the strictly more general term &quot;smoke&quot;.  Also notice that the inference pattern holds for any choice of the restrictor (not just &quot;French people&quot;) and pairs of nuclear scope that stand in the same specific-general relation.  Because of this, we say that the quantifier &quot;many&quot; is <em>upward monotone</em>.  If &quot;many&quot; is replaced by &quot;few&quot;, the inference pattern reverses.  &quot;few&quot; is <em>downward monotone</em>.  The proposed universal then states:</p>
+	    <p><b>Monotonicity:</b> All simple determiners are monotone.</p>
+	    <p>In the paper, neural networks are trained to learn monotone and non-monotone quantifiers and it is shown that the former are learned significantly faster than the latter.  We also show that this pattern holds for another universal called Quantity, which states that quantifiers only care about the sizes of sets, and not the identity of objects or their position in a structure.  (This is related to a conception of logicality.)</p>
+	    <p>In this project, students will develop new tools and run more experiments in order to further develop the explanation of semantic universals in terms of learnability.  They will be doing original research that could become (part of) publications.  Existing code as well as access to computing infrastructure will be provided.  Possible topics that can be addressed are:</p>
+	    <ul>
+		    <li>Running larger experiments, with many more quantifiers being learned at once, using their semantic properties as statistical factors in their learning rate.</li>
+		    <li>Developing tools to look inside the resulting neural networks and see how they actually process quantifiers.  Do they behave similarly to other proposals from the semantics literature, like semantic automata?</li>
+		    <li>Extending the framework to explain more universals for quantifiers (such as Extensionality).</li>
+		    <li>Extending the framework to explain semantic universals in other domains.</li>
+		    <li>Developing theoretical connections between learnability in neural networks and semantic properties.</li>
+		    <li>A project of your own choice!</li>
+	    </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logistics">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Logistics</h2>
+            <p class="lead">The class will meet 3 times a week in the four weeks from January 8 to February 2. We will provide necessary background in the first two weeks, then transition into coding / experimenting sessions in the last two weeks.  The course should be mostly self-contained, though some pre-requisites are listed.</p>
+
+	    <h3>Schedule</h3>
+	    <p><b>Week 1:</b> theoretical background on semantic universals and quantifiers (possibly color as well)</p>
+	    <p><b>Week 2:</b> background on training neural networks, tutorials on how to run your own experiments by modifying provided code</p>
+	    <p><b>Week 3:</b> run experiments! We will have in-class coding sessions for support and question answering.</p>
+	    <p><b>Week 4:</b> finish experiments; write up the results and deliver short presentation</p>
+
+	    <h3>Prerequisites</h3>
+	    <p>Working knowledge of Python will be very valuable.  Knowledge of specific libraries (Numpy, TensorFlow/Keras) will be helpful, but can be learned on the fly.  While we will cover neural networks and their training and evaluation in the second week, familiarity with those topics will also help.</p>
+
+	    <h3>Evaluation</h3>
+	    <p>Students will be conducting their own (computational) experiments.  They will be expected to produce a short write-up (~5 pages) of at least one experimental result, explaining the motivation for their experiment and what they found.  On the final day of class, there will be short presentations of results and discussion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Reading &amp; Resources</h2>
+            <p class="lead">Here we include both reading and coding resources.</p>
+	    <h3>Required Reading</h3>
+	    <ul>
+		    <li><a href="https://link.springer.com/article/10.1007%2FBF00350139">Barwise and Cooper 1981</a>, &quot;Generalized Quantifiers and Natural Language&quot;<br />This very influential paper introduced generalized quantifiers in to natural language semantics and developed many semantic universals.</li>
+		    <li><a href="http://semanticsarchive.net/Archive/mQ2Y2Y2Z/LearnabilitySemanticUniversals.pdf">Steinert-Threlkeld and Szymanik 2017/2018</a>, &quot;Learnability and Semantic Universals&quot;<br />We attempt to meet the Challenge above by training neural networks to learn the meanings of quantifiers.  This paper forms the motivational basis for this project.</li>
+	    </ul>
+	    <h3>Semantic Background</h3>
+	    <ul>
+		    <li><a href="JvB_EssaysLogicalSemantics.pdf">van Benthem 1986</a>, &quot;Essays in Logical Semantics&quot;<br />Chapter 6 introduces the semantic automata framework and contains many important results.  Earlier chapters also provide very nice background for many of the semantic universals we discuss.</li>
+		    <li><a href="ParteeTerMeulenWall_MathematicalMethodsLingusitics.pdf">Partee, ter Meulen, and Wall 1990</a>, &quot;Mathematical Methods in Linguistics&quot;<br />Terrific introduction to syntax, semantics, and the mathematics required to study them.  Chapter 14 covers much of the ground on quantifiers that we need.  The book also includes an introduction to automata theory and an appendix on semantic automata.</li>
+		    <li><a href="https://plato.stanford.edu/entries/generalized-quantifiers/">Westerst&aring;hl 2011</a>, &quot;Generalized Quantifiers&quot;<br />A modern overview of generalized quantifiers.</li>
+		    <li><a href="https://link.springer.com/book/10.1007%2F978-3-319-28749-2">Szymanik 2016</a>, <em>Quantifiers and Cognition</em> (especially chapter 4): <br />An overview of quantifiers integrating logic and cognitive science. Chapter 4 introduces the semantic automata approach, which could be connected to the approach in our paper above.</li>
+	    </ul>
+	    <h3>Neural Network Background</h3>
+	    <ul>
+		    <li><a href="http://3b1b.co/neural-networks">3Blue1Brown 2017</a>, &quot;Deep learning&quot;<br />Very well-produced videos introducing neural networks, gradient descent, and back-propagation.</li>
+		    <li><a href="http://neuralnetworksanddeeplearning.com/">Nielsen 2015</a>, &quot;Neural Networks and Deep Learning&quot;<br />Good e-book explaining the basic concepts behind neural networks and their training. (I find the notation can be a bit cumbersome here.)</li>
+		    <li><a href="https://www.nature.com/articles/nature14539">LeCun, Bengio, &amp; Hinton 2015</a>, &quot;Deep learning&quot;<br />A great scientific review in <em>Nature</em> of deep learning.</li>
+		    <li><a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Colah 2015</a>, &quot;Understanding LSTM Networks&quot;<br />A step-by-step walk-through of the LSTM computation, showing how it can be seen as gated reading/writing to a form of memory.</li>
+		    <li><a href="http://deeplearningbook.org">Goodfellow, Bengio, and Courvill 2016</a>, &quot;Deep Learning&quot;<br />A fantastic textbook introduction to neural networks and deep learning.</li>
+	    </ul>
+	    <h3>Topical Reading</h3>
+	    <ul>
+		    <li>Transfer learning:</li>
+		    <ul>
+			    <li><a href="https://www.coursera.org/learn/machine-learning-projects/lecture/WNPap/transfer-learning">Andrew Ng lecture</a>: introduces the idea of transfer learning.</li>
+			    <li><a href="https://arxiv.org/abs/1310.1531">Donahue et al 2013</a>, &quot;DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition&quot;<br />A very influential example of transfer learning for computer vision.</li>
+			    <li><a href="https://arxiv.org/abs/1411.1792">Yosinki et al 2014</a>, &quot;How transferable are features in deep neural networks?&quot;<br />Another case study of transfer learning in vision, showing that early layers in a deep network are more 'general'.</li>
+		    </ul>
+		    <li>Relationship between automata and RNNs:</li>
+		    <ul>
+			    <li><a href="https://arxiv.org/abs/1711.10203">Hupkes, Veldhoen, and Zuidema 2017</a>, &quot;Visualisation and 'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure&quot;<br />Their method of diagnostic classifiers for an RNN could be used to test whether the LSTMs trained in Steinert-Threlkeld &amp; Szymanik 2017/2018 are implementing a strategy like semantic automata.</li>
+			    <li><a href="https://arxiv.org/abs/1711.09576">Weiss, Goldberg, and Yahav 2017</a>, &quot;Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples&quot;<br />A general method for extracting automata from RNNs.  Do the automata extracted from our trained LSTMs match semantic automata?</li>
+		    </ul>
+		    <li>Looking inside the &quot;black box&quot; of a network:</li>
+		    <ul>
+			    <li><a href="https://arxiv.org/abs/1506.02078">Karpathy, Johnson, and Fei-Fei 2015</a>, &quot;Visualizing and Understanding Recurrent Networks&quot;<br />Some general methods for 'looking inside' and understanding what RNNs are doing.</li>
+		    </ul>
+	    </ul>
+	    <h3>Coding Resources</h3>
+	    <ul>
+		    <li><a href="https://github.com/shanest/quantifier-rnn-learning">shanest/quantifier-rnn-learning</a>: source code for running experiments in the Steinert-Threlkeld and Szymanik paper.<br />
+			    <b>Note:</b> I refactored the code very heavily to make it easier to read, extend, and modify. The exact version from the paper can still be found at <a href="https://github.com/shanest/quantifier-rnn-learning/tree/semantics-paper">the semantics-paper branch</a> of the repository.</li>
+		    <li><a href="https://keras.io/">Keras</a>: library for building and training neural network models</li>
+		    <li><a href="http://tensorflow.org">TensorFlow</a>: Google's open source machine learning library; this is what we used in our paper and is the back-end behind Keras</li>
+		    <li><a href="https://arxiv.org/abs/1708.02637">TensorFlow Estimators paper</a>: section 3 does a good job explaining the Estimators API that we are using to train networks.</li>
+	    </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Shane Steinert-Threlkeld 2017-2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>

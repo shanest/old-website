@@ -1,0 +1,59 @@
+/* for bootstrap scrollspy */
+html {
+	height: 100%;
+}
+
+body {
+	padding-top: 70px;
+	position: relative;
+}
+
+a { 
+	text-decoration: none; 
+	color: #d54e21; 
+}
+
+a.black {
+	color: #000000;
+}
+
+h1, h2 {
+	color: #d54e21; 
+	font-variant: small-caps;
+}
+
+h3 {
+	font-variant: small-caps;
+}
+
+img.full-width {
+	width: 100%;
+}
+
+.navbar-name {
+	float: left;
+	font-size: 25px;
+	padding: 15px 15px;
+}
+
+.topnav {
+	border-bottom: 3px solid #d54e21;
+	background-color: #423834;
+}
+
+li.active {
+	background-color: #eee;
+}
+
+p.citation {
+	margin-left: 20px;
+	text-indent: -20px;
+}
+
+.journaltitle {
+  color: #2a6496;
+}
+
+h3.subsection {
+	border-bottom: 2px solid #eee;
+}
