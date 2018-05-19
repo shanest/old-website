@@ -153,7 +153,6 @@ function make_slides(f) {
 	    function display_two(init_time) {
 		    $(document).unbind('keydown');
 		    $(document).unbind('keyup');
-		    // brief white screen before the new sentence?
 		    $(".display_condition").html(stim.Q + " of the " + stim.A + "s are " + stim.B + ".");
 		    $(".display_condition").show();
 

@@ -59,6 +59,135 @@ var percents = _.map(_.range(quants.length*AB_pairs.length), function() {
 	return _.sample(_.without(_.range(1, 100), 50)) });
 var pairs = cartesianProduct(AB_pairs, quants);
 var with_percent = _.zip(pairs, percents);
+var all_stims = _.shuffle(_.map(with_percent, function(ls) {
+	    return {A: ls[0][0][0], B: ls[0][0][1], Q: ls[0][1], percent: ls[1]}
+}));
+
+function slide_builder(name, stims) {
+
+	return slide({
+		"name": name,
+
+		present: stims,
+
+		present_handle: function(stim) {
+
+			this.stim = stim;
+		    $(document).unbind('keydown');
+
+		    function clearAll() {
+			    $(".err").hide();
+			    $(".right_response").hide();
+			    $(".left_response").hide();
+			    $(".display_condition").hide();
+		    }
+
+		    clearAll();
+		    // TODO: make this an argument
+		    CHAR = 40; // down arrow
+		    press_and_hold(CHAR, display_one);
+
+		    function press_and_hold(char_code, fn_to_call) {
+			    $(document).unbind('keydown');
+			    clearAll();
+			    $(document).keydown(function(event) {
+				    if(event.which == char_code) {
+					    press_time = Date.now()
+					    fn_to_call(press_time);
+				    }
+			    });
+		    }
+
+		    function display_one(init_time) {
+			    $(document).unbind('keydown');
+			    $(document).unbind('keyup');
+			    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
+			    $(".display_condition").show();
+			    // record the initial time
+			    // init_time = Date.now();
+
+			    // listen for a space bar
+			    $(document).keyup(function(event) {
+				    if(event.which == CHAR) {
+					    _s.read_time_one = Date.now() - init_time; // in milliseconds
+					    press_and_hold(CHAR, display_two);
+				    } else {
+					    $(".err").html("Release the ARROW DOWN BUTTON to advance.");
+					    $(".err").show();
+				    }
+			    });
+		    }
+
+		    function display_two(init_time) {
+			    $(document).unbind('keydown');
+			    $(document).unbind('keyup');
+			    // brief white screen before the new sentence?
+			    $(".display_condition").html(stim.Q + " of the " + stim.A + "s are " + stim.B + ".");
+			    $(".display_condition").show();
+
+			    $(document).keyup(function(event) {
+				    if(event.which == CHAR) { // space bar = 32
+					    _s.read_time_two = Date.now() - init_time; // in milliseconds
+					    press_and_hold(CHAR, display_three);
+				    }
+				    else {
+					    $(".err").html("Release the ARROW DOWN BUTTON to advance.");
+					    $(".err").show();
+				    }
+			    });
+		    }
+
+		    function display_three(init_time) {
+			    $(document).unbind('keydown');
+			    $(document).unbind('keyup');
+			    // brief white screen before the new sentence?
+			    $(".display_condition").html("Was the sentence true or false?")
+			    $(".display_condition").show();
+			    // TODO: make this dependent on condition?
+			    left_text = exp.condition == "left arrow" ? "True" : "False";
+			    right_text = exp.condition == "left arrow" ? "False" : "True";
+			    $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
+			    $(".left_response").show();
+			    $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
+			    $(".right_response").show();
+
+			    true_code = exp.condition == "left arrow" ? 37 : 39;
+
+			    $(document).keydown(function(event) {
+				    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
+					    _s.decision_time = Date.now() - init_time; // in milliseconds
+					    _s.response = event.which == true_code ? "True" : "False"; // TODO: depends on condition?
+					    clearAll();
+					    _s.log_responses();
+				    }
+			    });
+		    }
+		},
+
+    log_responses : function() {
+      exp.data_trials.push({
+	      "quant": this.stim.Q,
+	      "percent": this.stim.percent,
+	      "A": this.stim.A,
+	      "B": this.stim.B,
+	      "read_time_one": this.read_time_one,
+	      "read_time_two": this.read_time_two,
+	      "decision_time": this.decision_time,
+	      "response": this.response
+      });
+	    // TODO: make sure we still have more trials, else call exp.go()
+	    if(_s.present.length > 0) {
+		    _stream.apply(this)
+	    } else{
+		    //end of block
+		    console.log("End of block")
+		    $(document).unbind('keydown');
+		    exp.go();
+	    }
+    }
+
+})
+};
 
 function make_slides(f) {
   var   slides = {};
@@ -89,136 +218,32 @@ function make_slides(f) {
     */
   });
 
-  slides.single_trial = slide({
-    name : "single_trial",
+  slides.training = slide_builder("training", [
+	  {A: 'glerb', B: 'fizzda', Q: 'All', percent: 20},
+	  {A: 'thonk', B: 'krangly', Q: 'Some', percent: 82},
+	  {A: 'slarm', B: 'briddle', Q: 'None', percent: 11},
+	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62}
+  ]);
 
-    /* trial information for this block
-     (the variable 'stim' will change between each of these values,
-      and for each of these, present_handle will be run.) */
-	  // TODO: make trials! 5Qs, each with 50 A/B pairs; percents are 1-99, without 50, drawn randomly
-    present : _.shuffle(_.map(with_percent, function(ls) {
-	    return {A: ls[0][0][0], B: ls[0][0][1], Q: ls[0][1], percent: ls[1]}
-    })),
-
-    //this gets run only at the beginning of the block
-    present_handle : function(stim) {
-
-            this.stim = stim; //I like to store this information in the slide so I can record it later
-	    $(document).unbind('keydown');
-
-	    function clearAll() {
-		    $(".err").hide();
-		    $(".right_response").hide();
-		    $(".left_response").hide();
-		    $(".display_condition").hide();
-	    }
-
-	    clearAll();
-	    // TODO: make this an argument
-	    CHAR = 40; // down arrow
-	    press_and_hold(CHAR, display_one);
-
-	    function press_and_hold(char_code, fn_to_call) {
-		    $(document).unbind('keydown');
-		    clearAll();
-		    $(document).keydown(function(event) {
-			    if(event.which == char_code) {
-				    press_time = Date.now()
-				    fn_to_call(press_time);
-			    }
-		    });
-	    }
-
-	    // TODO: white screens between displays?
-	    function display_one(init_time) {
-		    $(document).unbind('keydown');
-		    $(document).unbind('keyup');
-		    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
-		    $(".display_condition").show();
-		    // record the initial time
-		    // init_time = Date.now();
-
-		    // listen for a space bar
-		    $(document).keyup(function(event) {
-			    if(event.which == CHAR) {
-				    _s.read_time_one = Date.now() - init_time; // in milliseconds
-				    press_and_hold(CHAR, display_two);
-			    } else {
-				    $(".err").html("Release the arrow down button to advance.");
-				    $(".err").show();
-			    }
-		    });
-	    }
-
-	    function display_two(init_time) {
-		    $(document).unbind('keydown');
-		    $(document).unbind('keyup');
-		    // brief white screen before the new sentence?
-		    $(".display_condition").html(stim.Q + " of the " + stim.A + "s are " + stim.B + ".");
-		    $(".display_condition").show();
-
-		    $(document).keyup(function(event) {
-			    if(event.which == CHAR) { // space bar = 32
-				    _s.read_time_two = Date.now() - init_time; // in milliseconds
-				    press_and_hold(CHAR, display_three);
-			    }
-			    else {
-				    $(".err").html("Release the arrow down button to advance.");
-				    $(".err").show();
-			    }
-		    });
-	    }
-
-	    function display_three(init_time) {
-		    $(document).unbind('keydown');
-		    $(document).unbind('keyup');
-		    // brief white screen before the new sentence?
-		    $(".display_condition").html("Was the sentence true or false?")
-		    $(".display_condition").show();
-		    // TODO: make this dependent on condition?
-		    left_text = exp.condition == "left arrow" ? "True" : "False";
-		    right_text = exp.condition == "left arrow" ? "False" : "True";
-		    $(".left_response").html("Press &larr; (left arrow) for " + left_text + ".");
-		    $(".left_response").show();
-		    $(".right_response").html("Press &rarr; (right arrow) for " + right_text + ".");
-		    $(".right_response").show();
-
-		    true_code = exp.condition == "left arrow" ? 37 : 39;
-
-		    $(document).keydown(function(event) {
-			    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
-				    _s.decision_time = Date.now() - init_time; // in milliseconds
-				    _s.response = event.which == true_code ? "True" : "False"; // TODO: depends on condition?
-				    clearAll();
-				    _s.log_responses();
-			    }
-		    });
-	    }
-
-    },
-
-    log_responses : function() {
-      exp.data_trials.push({
-	      "quant": this.stim.Q,
-	      "percent": this.stim.percent,
-	      "A": this.stim.A,
-	      "B": this.stim.B,
-	      "read_time_one": this.read_time_one,
-	      "read_time_two": this.read_time_two,
-	      "decision_time": this.decision_time,
-	      "response": this.response
-      });
-	    // TODO: make sure we still have more trials, else call exp.go()
-	    if(_s.present.length > 0) {
-		    _stream.apply(this)
-	    } else{
-		    //end of block
-		    console.log("End of block")
-		    $(document).unbind('keydown');
-		    exp.go();
-	    }
+	
+  slides.begin_slide = slide({
+    name : "begin_slide",
+	  present : ['dummy'],
+	  present_handle : function() {
+		  $(document).keydown(function(event) {
+			  if(event.which == 40) {
+				  exp.go();
+			  }
+		  });
+	  }
+	  /*
+    button : function() {
+      exp.go(); //use exp.go() if and only if there is no "present" data.
     }
+    */
   });
+
+  slides.single_trial = slide_builder("single_trial", all_stims); 
 
   slides.subj_info =  slide({
     name : "subj_info",
@@ -280,7 +305,7 @@ function init() {
     };
   //blocks of the experiment:
 	// TODO: two or more blocks, with rest?
-  exp.structure=["i0", "instructions", "single_trial", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "training", "begin_slide", "single_trial", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
