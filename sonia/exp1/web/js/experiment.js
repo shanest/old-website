@@ -178,9 +178,9 @@ function make_slides(f) {
 		    // TODO: make this dependent on condition?
 		    left_text = exp.condition == "left arrow" ? "True" : "False";
 		    right_text = exp.condition == "left arrow" ? "False" : "True";
-		    $(".left_response").html("Press 'left arrow' for " + left_text + ".");
+		    $(".left_response").html("Press &larr; (left arrow) for " + left_text + ".");
 		    $(".left_response").show();
-		    $(".right_response").html("Press 'right arrow' for " + right_text + ".");
+		    $(".right_response").html("Press &rarr; (right arrow) for " + right_text + ".");
 		    $(".right_response").show();
 
 		    true_code = exp.condition == "left arrow" ? 37 : 39;
