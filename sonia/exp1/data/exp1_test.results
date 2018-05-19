@@ -1,0 +1,2458 @@
+Debug mode
+
+Here is the data that would have been submitted to Turk:
+{
+"trials": [{
+"quant": "More than half"
+"percent": 14
+"A": "puggle"
+"B": "entand"
+"read_time_one": 581
+"read_time_two": 684
+"decision_time": 2763
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 96
+"A": "isbant"
+"B": "unairs"
+"read_time_one": 596
+"read_time_two": 756
+"decision_time": 3392
+"response": "False"
+},{
+"quant": "Most"
+"percent": 30
+"A": "gukbar"
+"B": "soarse"
+"read_time_one": 560
+"read_time_two": 672
+"decision_time": 1732
+"response": "False"
+},{
+"quant": "Most"
+"percent": 43
+"A": "raster"
+"B": "movell"
+"read_time_one": 541
+"read_time_two": 587
+"decision_time": 1425
+"response": "False"
+},{
+"quant": "Most"
+"percent": 40
+"A": "fleeve"
+"B": "scalfs"
+"read_time_one": 480
+"read_time_two": 509
+"decision_time": 1562
+"response": "False"
+},{
+"quant": "Few"
+"percent": 73
+"A": "fleeve"
+"B": "scalfs"
+"read_time_one": 540
+"read_time_two": 633
+"decision_time": 3135
+"response": "True"
+},{
+"quant": "Most"
+"percent": 14
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 161
+"read_time_two": 356
+"decision_time": 1068
+"response": "False"
+},{
+"quant": "Few"
+"percent": 37
+"A": "chevel"
+"B": "podden"
+"read_time_one": 532
+"read_time_two": 584
+"decision_time": 2430
+"response": "True"
+},{
+"quant": "Few"
+"percent": 21
+"A": "devole"
+"B": "sholly"
+"read_time_one": 584
+"read_time_two": 759
+"decision_time": 1057
+"response": "True"
+},{
+"quant": "Most"
+"percent": 11
+"A": "hadder"
+"B": "ollidy"
+"read_time_one": 585
+"read_time_two": 504
+"decision_time": 910
+"response": "False"
+},{
+"quant": "Few"
+"percent": 54
+"A": "raster"
+"B": "movell"
+"read_time_one": 576
+"read_time_two": 568
+"decision_time": 1290
+"response": "True"
+},{
+"quant": "Most"
+"percent": 39
+"A": "clidge"
+"B": "hensly"
+"read_time_one": 469
+"read_time_two": 500
+"decision_time": 1381
+"response": "False"
+},{
+"quant": "Most"
+"percent": 68
+"A": "shurry"
+"B": "preser"
+"read_time_one": 608
+"read_time_two": 652
+"decision_time": 753
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 70
+"A": "zetten"
+"B": "unfobs"
+"read_time_one": 360
+"read_time_two": 369
+"decision_time": 644
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 32
+"A": "padnet"
+"B": "fanely"
+"read_time_one": 485
+"read_time_two": 345
+"decision_time": 915
+"response": "False"
+},{
+"quant": "Few"
+"percent": 17
+"A": "clidge"
+"B": "hensly"
+"read_time_one": 507
+"read_time_two": 473
+"decision_time": 3419
+"response": "False"
+},{
+"quant": "Few"
+"percent": 65
+"A": "cosutz"
+"B": "spover"
+"read_time_one": 405
+"read_time_two": 604
+"decision_time": 1833
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 71
+"A": "pliper"
+"B": "sesare"
+"read_time_one": 500
+"read_time_two": 472
+"decision_time": 2531
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 26
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 492
+"read_time_two": 377
+"decision_time": 806
+"response": "False"
+},{
+"quant": "Most"
+"percent": 79
+"A": "puggle"
+"B": "entand"
+"read_time_one": 428
+"read_time_two": 381
+"decision_time": 1405
+"response": "True"
+},{
+"quant": "Few"
+"percent": 2
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 432
+"read_time_two": 420
+"decision_time": 1701
+"response": "True"
+},{
+"quant": "Most"
+"percent": 17
+"A": "tecker"
+"B": "biller"
+"read_time_one": 193
+"read_time_two": 64
+"decision_time": 639
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 88
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 468
+"read_time_two": 616
+"decision_time": 2720
+"response": "False"
+},{
+"quant": "Most"
+"percent": 18
+"A": "bameta"
+"B": "unzast"
+"read_time_one": 484
+"read_time_two": 600
+"decision_time": 1081
+"response": "False"
+},{
+"quant": "Many"
+"percent": 70
+"A": "dorder"
+"B": "coggon"
+"read_time_one": 368
+"read_time_two": 328
+"decision_time": 1241
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 13
+"A": "pluset"
+"B": "stubad"
+"read_time_one": 268
+"read_time_two": 256
+"decision_time": 2523
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 1
+"A": "tiklet"
+"B": "hullaw"
+"read_time_one": 388
+"read_time_two": 452
+"decision_time": 793
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 11
+"A": "devole"
+"B": "sholly"
+"read_time_one": 461
+"read_time_two": 524
+"decision_time": 724
+"response": "True"
+},{
+"quant": "Many"
+"percent": 30
+"A": "cather"
+"B": "funder"
+"read_time_one": 337
+"read_time_two": 489
+"decision_time": 962
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 87
+"A": "pirter"
+"B": "secent"
+"read_time_one": 484
+"read_time_two": 609
+"decision_time": 2424
+"response": "False"
+},{
+"quant": "Many"
+"percent": 79
+"A": "boddle"
+"B": "molill"
+"read_time_one": 620
+"read_time_two": 689
+"decision_time": 4281
+"response": "False"
+},{
+"quant": "Few"
+"percent": 87
+"A": "mecket"
+"B": "plumry"
+"read_time_one": 652
+"read_time_two": 525
+"decision_time": 688
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 75
+"A": "ancits"
+"B": "smeath"
+"read_time_one": 604
+"read_time_two": 569
+"decision_time": 1471
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 4
+"A": "menner"
+"B": "nandow"
+"read_time_one": 440
+"read_time_two": 533
+"decision_time": 675
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 83
+"A": "mecket"
+"B": "plumry"
+"read_time_one": 472
+"read_time_two": 384
+"decision_time": 765
+"response": "False"
+},{
+"quant": "Many"
+"percent": 25
+"A": "pobbit"
+"B": "spippy"
+"read_time_one": 324
+"read_time_two": 189
+"decision_time": 570
+"response": "False"
+},{
+"quant": "Most"
+"percent": 63
+"A": "puctor"
+"B": "recure"
+"read_time_one": 440
+"read_time_two": 245
+"decision_time": 578
+"response": "True"
+},{
+"quant": "Few"
+"percent": 23
+"A": "isbant"
+"B": "unairs"
+"read_time_one": 376
+"read_time_two": 425
+"decision_time": 3056
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 7
+"A": "zetten"
+"B": "unfobs"
+"read_time_one": 125
+"read_time_two": 901
+"decision_time": 454
+"response": "True"
+},{
+"quant": "Many"
+"percent": 96
+"A": "umpond"
+"B": "marire"
+"read_time_one": 640
+"read_time_two": 620
+"decision_time": 493
+"response": "True"
+},{
+"quant": "Many"
+"percent": 57
+"A": "pengyl"
+"B": "sedest"
+"read_time_one": 720
+"read_time_two": 701
+"decision_time": 580
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 32
+"A": "jallem"
+"B": "sildal"
+"read_time_one": 441
+"read_time_two": 446
+"decision_time": 389
+"response": "True"
+},{
+"quant": "Few"
+"percent": 8
+"A": "zetten"
+"B": "unfobs"
+"read_time_one": 309
+"read_time_two": 225
+"decision_time": 8914
+"response": "False"
+},{
+"quant": "Few"
+"percent": 34
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 272
+"read_time_two": 234
+"decision_time": 815
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 39
+"A": "hadder"
+"B": "ollidy"
+"read_time_one": 313
+"read_time_two": 389
+"decision_time": 514
+"response": "True"
+},{
+"quant": "Few"
+"percent": 4
+"A": "ancits"
+"B": "smeath"
+"read_time_one": 620
+"read_time_two": 617
+"decision_time": 569
+"response": "True"
+},{
+"quant": "Few"
+"percent": 21
+"A": "shurry"
+"B": "preser"
+"read_time_one": 440
+"read_time_two": 648
+"decision_time": 488
+"response": "True"
+},{
+"quant": "Many"
+"percent": 27
+"A": "pliper"
+"B": "sesare"
+"read_time_one": 369
+"read_time_two": 404
+"decision_time": 573
+"response": "False"
+},{
+"quant": "Few"
+"percent": 15
+"A": "sporer"
+"B": "firtly"
+"read_time_one": 444
+"read_time_two": 408
+"decision_time": 3229
+"response": "True"
+},{
+"quant": "Many"
+"percent": 80
+"A": "coppar"
+"B": "hunene"
+"read_time_one": 425
+"read_time_two": 377
+"decision_time": 3290
+"response": "True"
+},{
+"quant": "Many"
+"percent": 53
+"A": "bameta"
+"B": "unzast"
+"read_time_one": 296
+"read_time_two": 145
+"decision_time": 459
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 3
+"A": "fleeve"
+"B": "scalfs"
+"read_time_one": 472
+"read_time_two": 99
+"decision_time": 924
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 2
+"A": "gukbar"
+"B": "soarse"
+"read_time_one": 552
+"read_time_two": 545
+"decision_time": 610
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 15
+"A": "pengyl"
+"B": "sedest"
+"read_time_one": 576
+"read_time_two": 485
+"decision_time": 4651
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 47
+"A": "werner"
+"B": "hurmer"
+"read_time_one": 520
+"read_time_two": 633
+"decision_time": 6470
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 71
+"A": "middor"
+"B": "drooty"
+"read_time_one": 552
+"read_time_two": 828
+"decision_time": 1925
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 87
+"A": "middor"
+"B": "drooty"
+"read_time_one": 500
+"read_time_two": 556
+"decision_time": 530
+"response": "True"
+},{
+"quant": "Most"
+"percent": 5
+"A": "cosutz"
+"B": "spover"
+"read_time_one": 600
+"read_time_two": 712
+"decision_time": 2101
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 14
+"A": "isbant"
+"B": "unairs"
+"read_time_one": 580
+"read_time_two": 641
+"decision_time": 796
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 7
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 608
+"read_time_two": 656
+"decision_time": 683
+"response": "True"
+},{
+"quant": "Many"
+"percent": 26
+"A": "puggle"
+"B": "entand"
+"read_time_one": 588
+"read_time_two": 591
+"decision_time": 937
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 92
+"A": "puggle"
+"B": "entand"
+"read_time_one": 532
+"read_time_two": 712
+"decision_time": 757
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 10
+"A": "spunge"
+"B": "wenple"
+"read_time_one": 540
+"read_time_two": 644
+"decision_time": 718
+"response": "True"
+},{
+"quant": "Few"
+"percent": 5
+"A": "puggle"
+"B": "entand"
+"read_time_one": 256
+"read_time_two": 277
+"decision_time": 381
+"response": "True"
+},{
+"quant": "Many"
+"percent": 29
+"A": "middor"
+"B": "drooty"
+"read_time_one": 332
+"read_time_two": 95
+"decision_time": 589
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 49
+"A": "pirter"
+"B": "secent"
+"read_time_one": 272
+"read_time_two": 177
+"decision_time": 855
+"response": "True"
+},{
+"quant": "Few"
+"percent": 77
+"A": "strant"
+"B": "potind"
+"read_time_one": 381
+"read_time_two": 116
+"decision_time": 1243
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 2
+"A": "sporer"
+"B": "firtly"
+"read_time_one": 520
+"read_time_two": 718
+"decision_time": 1986
+"response": "False"
+},{
+"quant": "Many"
+"percent": 73
+"A": "pirter"
+"B": "secent"
+"read_time_one": 597
+"read_time_two": 756
+"decision_time": 645
+"response": "True"
+},{
+"quant": "Few"
+"percent": 51
+"A": "shrile"
+"B": "athoid"
+"read_time_one": 432
+"read_time_two": 465
+"decision_time": 812
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 59
+"A": "pobbit"
+"B": "spippy"
+"read_time_one": 548
+"read_time_two": 820
+"decision_time": 415
+"response": "False"
+},{
+"quant": "Many"
+"percent": 97
+"A": "puggle"
+"B": "entand"
+"read_time_one": 616
+"read_time_two": 548
+"decision_time": 459
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 41
+"A": "cather"
+"B": "funder"
+"read_time_one": 489
+"read_time_two": 697
+"decision_time": 507
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 83
+"A": "beckel"
+"B": "racual"
+"read_time_one": 521
+"read_time_two": 665
+"decision_time": 533
+"response": "False"
+},{
+"quant": "Most"
+"percent": 3
+"A": "birler"
+"B": "enciad"
+"read_time_one": 432
+"read_time_two": 684
+"decision_time": 447
+"response": "False"
+},{
+"quant": "Many"
+"percent": 75
+"A": "clidge"
+"B": "hensly"
+"read_time_one": 341
+"read_time_two": 135
+"decision_time": 454
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 26
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 305
+"read_time_two": 81
+"decision_time": 958
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 34
+"A": "tecker"
+"B": "biller"
+"read_time_one": 301
+"read_time_two": 125
+"decision_time": 361
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 55
+"A": "chulks"
+"B": "vulhor"
+"read_time_one": 541
+"read_time_two": 1040
+"decision_time": 616
+"response": "False"
+},{
+"quant": "Most"
+"percent": 66
+"A": "middor"
+"B": "drooty"
+"read_time_one": 573
+"read_time_two": 556
+"decision_time": 704
+"response": "True"
+},{
+"quant": "Most"
+"percent": 99
+"A": "puggle"
+"B": "entand"
+"read_time_one": 852
+"read_time_two": 981
+"decision_time": 572
+"response": "True"
+},{
+"quant": "Many"
+"percent": 72
+"A": "bemble"
+"B": "squank"
+"read_time_one": 585
+"read_time_two": 745
+"decision_time": 598
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 85
+"A": "jallem"
+"B": "sildal"
+"read_time_one": 584
+"read_time_two": 544
+"decision_time": 530
+"response": "True"
+},{
+"quant": "Many"
+"percent": 67
+"A": "coamin"
+"B": "mucond"
+"read_time_one": 1177
+"read_time_two": 669
+"decision_time": 804
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 60
+"A": "cather"
+"B": "funder"
+"read_time_one": 580
+"read_time_two": 340
+"decision_time": 445
+"response": "False"
+},{
+"quant": "Most"
+"percent": 77
+"A": "shamer"
+"B": "bloifs"
+"read_time_one": 580
+"read_time_two": 619
+"decision_time": 688
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 25
+"A": "pluset"
+"B": "stubad"
+"read_time_one": 560
+"read_time_two": 700
+"decision_time": 506
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 92
+"A": "devole"
+"B": "sholly"
+"read_time_one": 596
+"read_time_two": 629
+"decision_time": 709
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 96
+"A": "werner"
+"B": "hurmer"
+"read_time_one": 618
+"read_time_two": 565
+"decision_time": 780
+"response": "True"
+},{
+"quant": "Few"
+"percent": 62
+"A": "boddle"
+"B": "molill"
+"read_time_one": 476
+"read_time_two": 417
+"decision_time": 737
+"response": "False"
+},{
+"quant": "Few"
+"percent": 99
+"A": "bemble"
+"B": "squank"
+"read_time_one": 345
+"read_time_two": 37
+"decision_time": 650
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 68
+"A": "raster"
+"B": "movell"
+"read_time_one": 732
+"read_time_two": 868
+"decision_time": 691
+"response": "True"
+},{
+"quant": "Most"
+"percent": 53
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 744
+"read_time_two": 665
+"decision_time": 1135
+"response": "True"
+},{
+"quant": "Most"
+"percent": 6
+"A": "coppar"
+"B": "hunene"
+"read_time_one": 624
+"read_time_two": 832
+"decision_time": 682
+"response": "False"
+},{
+"quant": "Few"
+"percent": 42
+"A": "bameta"
+"B": "unzast"
+"read_time_one": 832
+"read_time_two": 920
+"decision_time": 845
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 8
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 666
+"read_time_two": 717
+"decision_time": 658
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 36
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 1012
+"read_time_two": 796
+"decision_time": 487
+"response": "False"
+},{
+"quant": "Few"
+"percent": 26
+"A": "hadder"
+"B": "ollidy"
+"read_time_one": 636
+"read_time_two": 825
+"decision_time": 1685
+"response": "True"
+},{
+"quant": "Few"
+"percent": 48
+"A": "monter"
+"B": "melelt"
+"read_time_one": 693
+"read_time_two": 948
+"decision_time": 1025
+"response": "True"
+},{
+"quant": "Most"
+"percent": 8
+"A": "boddle"
+"B": "molill"
+"read_time_one": 633
+"read_time_two": 980
+"decision_time": 595
+"response": "False"
+},{
+"quant": "Many"
+"percent": 43
+"A": "awplor"
+"B": "fasees"
+"read_time_one": 665
+"read_time_two": 892
+"decision_time": 1031
+"response": "False"
+},{
+"quant": "Many"
+"percent": 63
+"A": "beckel"
+"B": "racual"
+"read_time_one": 744
+"read_time_two": 909
+"decision_time": 570
+"response": "True"
+},{
+"quant": "Many"
+"percent": 93
+"A": "russer"
+"B": "huttle"
+"read_time_one": 656
+"read_time_two": 923
+"decision_time": 667
+"response": "True"
+},{
+"quant": "Few"
+"percent": 35
+"A": "werner"
+"B": "hurmer"
+"read_time_one": 764
+"read_time_two": 770
+"decision_time": 946
+"response": "True"
+},{
+"quant": "Few"
+"percent": 29
+"A": "tecker"
+"B": "biller"
+"read_time_one": 624
+"read_time_two": 704
+"decision_time": 435
+"response": "True"
+},{
+"quant": "Many"
+"percent": 92
+"A": "menner"
+"B": "nandow"
+"read_time_one": 769
+"read_time_two": 1061
+"decision_time": 860
+"response": "True"
+},{
+"quant": "Few"
+"percent": 33
+"A": "coppar"
+"B": "hunene"
+"read_time_one": 733
+"read_time_two": 853
+"decision_time": 696
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 53
+"A": "shamer"
+"B": "bloifs"
+"read_time_one": 1032
+"read_time_two": 861
+"decision_time": 502
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 81
+"A": "russer"
+"B": "huttle"
+"read_time_one": 833
+"read_time_two": 892
+"decision_time": 524
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 55
+"A": "chevel"
+"B": "podden"
+"read_time_one": 741
+"read_time_two": 704
+"decision_time": 493
+"response": "True"
+},{
+"quant": "Most"
+"percent": 7
+"A": "russer"
+"B": "huttle"
+"read_time_one": 537
+"read_time_two": 768
+"decision_time": 347
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 67
+"A": "boddle"
+"B": "molill"
+"read_time_one": 927
+"read_time_two": 820
+"decision_time": 580
+"response": "True"
+},{
+"quant": "Few"
+"percent": 40
+"A": "middor"
+"B": "drooty"
+"read_time_one": 539
+"read_time_two": 1096
+"decision_time": 1599
+"response": "True"
+},{
+"quant": "Many"
+"percent": 96
+"A": "beckel"
+"B": "racual"
+"read_time_one": 416
+"read_time_two": 528
+"decision_time": 786
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 33
+"A": "shamer"
+"B": "bloifs"
+"read_time_one": 312
+"read_time_two": 532
+"decision_time": 527
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 20
+"A": "pengyl"
+"B": "sedest"
+"read_time_one": 747
+"read_time_two": 812
+"decision_time": 504
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 92
+"A": "boddle"
+"B": "molill"
+"read_time_one": 688
+"read_time_two": 792
+"decision_time": 5669
+"response": "False"
+},{
+"quant": "Few"
+"percent": 76
+"A": "birler"
+"B": "enciad"
+"read_time_one": 425
+"read_time_two": 628
+"decision_time": 852
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 63
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 509
+"read_time_two": 371
+"decision_time": 753
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 61
+"A": "russer"
+"B": "huttle"
+"read_time_one": 520
+"read_time_two": 128
+"decision_time": 608
+"response": "False"
+},{
+"quant": "Few"
+"percent": 84
+"A": "pobbit"
+"B": "spippy"
+"read_time_one": 529
+"read_time_two": 793
+"decision_time": 472
+"response": "False"
+},{
+"quant": "Few"
+"percent": 19
+"A": "padnet"
+"B": "fanely"
+"read_time_one": 721
+"read_time_two": 856
+"decision_time": 511
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 33
+"A": "ingell"
+"B": "nalill"
+"read_time_one": 736
+"read_time_two": 781
+"decision_time": 503
+"response": "True"
+},{
+"quant": "Most"
+"percent": 41
+"A": "chevel"
+"B": "podden"
+"read_time_one": 916
+"read_time_two": 876
+"decision_time": 510
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 95
+"A": "cosutz"
+"B": "spover"
+"read_time_one": 1157
+"read_time_two": 896
+"decision_time": 450
+"response": "True"
+},{
+"quant": "Few"
+"percent": 90
+"A": "russer"
+"B": "huttle"
+"read_time_one": 917
+"read_time_two": 769
+"decision_time": 385
+"response": "False"
+},{
+"quant": "Many"
+"percent": 40
+"A": "gukbar"
+"B": "soarse"
+"read_time_one": 969
+"read_time_two": 1172
+"decision_time": 396
+"response": "False"
+},{
+"quant": "Most"
+"percent": 97
+"A": "menner"
+"B": "nandow"
+"read_time_one": 892
+"read_time_two": 854
+"decision_time": 2529
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 66
+"A": "schook"
+"B": "jabant"
+"read_time_one": 820
+"read_time_two": 964
+"decision_time": 449
+"response": "True"
+},{
+"quant": "Few"
+"percent": 56
+"A": "tiklet"
+"B": "hullaw"
+"read_time_one": 620
+"read_time_two": 796
+"decision_time": 3460
+"response": "False"
+},{
+"quant": "Many"
+"percent": 75
+"A": "fleeve"
+"B": "scalfs"
+"read_time_one": 436
+"read_time_two": 697
+"decision_time": 552
+"response": "True"
+},{
+"quant": "Many"
+"percent": 16
+"A": "shurry"
+"B": "preser"
+"read_time_one": 528
+"read_time_two": 873
+"decision_time": 1195
+"response": "False"
+},{
+"quant": "Few"
+"percent": 24
+"A": "pirter"
+"B": "secent"
+"read_time_one": 201
+"read_time_two": 160
+"decision_time": 1246
+"response": "True"
+},{
+"quant": "Many"
+"percent": 91
+"A": "sporer"
+"B": "firtly"
+"read_time_one": 532
+"read_time_two": 548
+"decision_time": 313
+"response": "True"
+},{
+"quant": "Many"
+"percent": 68
+"A": "ancits"
+"B": "smeath"
+"read_time_one": 445
+"read_time_two": 636
+"decision_time": 461
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 35
+"A": "monter"
+"B": "melelt"
+"read_time_one": 568
+"read_time_two": 585
+"decision_time": 423
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 58
+"A": "hadder"
+"B": "ollidy"
+"read_time_one": 576
+"read_time_two": 724
+"decision_time": 426
+"response": "True"
+},{
+"quant": "Most"
+"percent": 79
+"A": "bemble"
+"B": "squank"
+"read_time_one": 503
+"read_time_two": 552
+"decision_time": 689
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 23
+"A": "raster"
+"B": "movell"
+"read_time_one": 488
+"read_time_two": 733
+"decision_time": 398
+"response": "True"
+},{
+"quant": "Most"
+"percent": 22
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 568
+"read_time_two": 84
+"decision_time": 2102
+"response": "False"
+},{
+"quant": "Many"
+"percent": 87
+"A": "chulks"
+"B": "vulhor"
+"read_time_one": 624
+"read_time_two": 773
+"decision_time": 522
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 42
+"A": "padnet"
+"B": "fanely"
+"read_time_one": 596
+"read_time_two": 668
+"decision_time": 749
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 45
+"A": "awplor"
+"B": "fasees"
+"read_time_one": 712
+"read_time_two": 1076
+"decision_time": 1228
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 94
+"A": "dorder"
+"B": "coggon"
+"read_time_one": 637
+"read_time_two": 991
+"decision_time": 4533
+"response": "False"
+},{
+"quant": "Few"
+"percent": 93
+"A": "ingell"
+"B": "nalill"
+"read_time_one": 620
+"read_time_two": 864
+"decision_time": 432
+"response": "False"
+},{
+"quant": "Many"
+"percent": 61
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 689
+"read_time_two": 794
+"decision_time": 498
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 52
+"A": "puctor"
+"B": "recure"
+"read_time_one": 532
+"read_time_two": 731
+"decision_time": 1121
+"response": "False"
+},{
+"quant": "Most"
+"percent": 63
+"A": "strant"
+"B": "potind"
+"read_time_one": 732
+"read_time_two": 917
+"decision_time": 665
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 96
+"A": "chevel"
+"B": "podden"
+"read_time_one": 637
+"read_time_two": 788
+"decision_time": 445
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 89
+"A": "puctor"
+"B": "recure"
+"read_time_one": 732
+"read_time_two": 828
+"decision_time": 405
+"response": "True"
+},{
+"quant": "Many"
+"percent": 12
+"A": "shamer"
+"B": "bloifs"
+"read_time_one": 516
+"read_time_two": 520
+"decision_time": 900
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 92
+"A": "menner"
+"B": "nandow"
+"read_time_one": 644
+"read_time_two": 839
+"decision_time": 450
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 67
+"A": "mecket"
+"B": "plumry"
+"read_time_one": 473
+"read_time_two": 644
+"decision_time": 2137
+"response": "True"
+},{
+"quant": "Many"
+"percent": 88
+"A": "zetten"
+"B": "unfobs"
+"read_time_one": 516
+"read_time_two": 712
+"decision_time": 365
+"response": "True"
+},{
+"quant": "Many"
+"percent": 47
+"A": "isbant"
+"B": "unairs"
+"read_time_one": 501
+"read_time_two": 657
+"decision_time": 818
+"response": "False"
+},{
+"quant": "Few"
+"percent": 22
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 652
+"read_time_two": 921
+"decision_time": 580
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 8
+"A": "sporer"
+"B": "firtly"
+"read_time_one": 749
+"read_time_two": 685
+"decision_time": 391
+"response": "True"
+},{
+"quant": "Most"
+"percent": 15
+"A": "isbant"
+"B": "unairs"
+"read_time_one": 1081
+"read_time_two": 737
+"decision_time": 474
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 88
+"A": "spunge"
+"B": "wenple"
+"read_time_one": 640
+"read_time_two": 1045
+"decision_time": 832
+"response": "True"
+},{
+"quant": "Many"
+"percent": 58
+"A": "cosutz"
+"B": "spover"
+"read_time_one": 617
+"read_time_two": 716
+"decision_time": 3328
+"response": "True"
+},{
+"quant": "Most"
+"percent": 72
+"A": "chulks"
+"B": "vulhor"
+"read_time_one": 688
+"read_time_two": 840
+"decision_time": 526
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 96
+"A": "gukbar"
+"B": "soarse"
+"read_time_one": 600
+"read_time_two": 788
+"decision_time": 645
+"response": "False"
+},{
+"quant": "Few"
+"percent": 67
+"A": "menner"
+"B": "nandow"
+"read_time_one": 896
+"read_time_two": 599
+"decision_time": 416
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 46
+"A": "coppar"
+"B": "hunene"
+"read_time_one": 604
+"read_time_two": 812
+"decision_time": 677
+"response": "True"
+},{
+"quant": "Most"
+"percent": 79
+"A": "coamin"
+"B": "mucond"
+"read_time_one": 875
+"read_time_two": 805
+"decision_time": 576
+"response": "True"
+},{
+"quant": "Most"
+"percent": 46
+"A": "mecket"
+"B": "plumry"
+"read_time_one": 1141
+"read_time_two": 740
+"decision_time": 586
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 86
+"A": "tiklet"
+"B": "hullaw"
+"read_time_one": 749
+"read_time_two": 884
+"decision_time": 437
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 30
+"A": "coamin"
+"B": "mucond"
+"read_time_one": 1352
+"read_time_two": 881
+"decision_time": 672
+"response": "True"
+},{
+"quant": "Many"
+"percent": 11
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 492
+"read_time_two": 621
+"decision_time": 2731
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 9
+"A": "cosutz"
+"B": "spover"
+"read_time_one": 676
+"read_time_two": 848
+"decision_time": 637
+"response": "True"
+},{
+"quant": "Few"
+"percent": 17
+"A": "jallem"
+"B": "sildal"
+"read_time_one": 740
+"read_time_two": 889
+"decision_time": 850
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 20
+"A": "bemble"
+"B": "squank"
+"read_time_one": 692
+"read_time_two": 988
+"decision_time": 605
+"response": "False"
+},{
+"quant": "Few"
+"percent": 96
+"A": "schook"
+"B": "jabant"
+"read_time_one": 1092
+"read_time_two": 921
+"decision_time": 577
+"response": "False"
+},{
+"quant": "Few"
+"percent": 92
+"A": "pluset"
+"B": "stubad"
+"read_time_one": 696
+"read_time_two": 993
+"decision_time": 707
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 20
+"A": "umpond"
+"B": "marire"
+"read_time_one": 889
+"read_time_two": 1208
+"decision_time": 591
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 71
+"A": "fleeve"
+"B": "scalfs"
+"read_time_one": 1008
+"read_time_two": 2597
+"decision_time": 2837
+"response": "True"
+},{
+"quant": "Many"
+"percent": 8
+"A": "shrile"
+"B": "athoid"
+"read_time_one": 557
+"read_time_two": 645
+"decision_time": 432
+"response": "False"
+},{
+"quant": "Many"
+"percent": 5
+"A": "pluset"
+"B": "stubad"
+"read_time_one": 812
+"read_time_two": 828
+"decision_time": 383
+"response": "False"
+},{
+"quant": "Many"
+"percent": 30
+"A": "mecket"
+"B": "plumry"
+"read_time_one": 445
+"read_time_two": 689
+"decision_time": 2037
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 9
+"A": "dorder"
+"B": "coggon"
+"read_time_one": 412
+"read_time_two": 495
+"decision_time": 562
+"response": "False"
+},{
+"quant": "Few"
+"percent": 59
+"A": "puggle"
+"B": "entand"
+"read_time_one": 465
+"read_time_two": 529
+"decision_time": 1267
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 46
+"A": "birler"
+"B": "enciad"
+"read_time_one": 504
+"read_time_two": 352
+"decision_time": 2138
+"response": "False"
+},{
+"quant": "Most"
+"percent": 31
+"A": "werner"
+"B": "hurmer"
+"read_time_one": 605
+"read_time_two": 581
+"decision_time": 576
+"response": "False"
+},{
+"quant": "Many"
+"percent": 59
+"A": "werner"
+"B": "hurmer"
+"read_time_one": 692
+"read_time_two": 977
+"decision_time": 544
+"response": "True"
+},{
+"quant": "Few"
+"percent": 62
+"A": "shamer"
+"B": "bloifs"
+"read_time_one": 689
+"read_time_two": 789
+"decision_time": 895
+"response": "False"
+},{
+"quant": "Many"
+"percent": 12
+"A": "ingell"
+"B": "nalill"
+"read_time_one": 652
+"read_time_two": 700
+"decision_time": 599
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 83
+"A": "bameta"
+"B": "unzast"
+"read_time_one": 848
+"read_time_two": 837
+"decision_time": 629
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 65
+"A": "shurry"
+"B": "preser"
+"read_time_one": 572
+"read_time_two": 553
+"decision_time": 8470
+"response": "True"
+},{
+"quant": "Most"
+"percent": 94
+"A": "pobbit"
+"B": "spippy"
+"read_time_one": 481
+"read_time_two": 724
+"decision_time": 558
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 58
+"A": "shurry"
+"B": "preser"
+"read_time_one": 752
+"read_time_two": 840
+"decision_time": 1300
+"response": "False"
+},{
+"quant": "Few"
+"percent": 78
+"A": "umpond"
+"B": "marire"
+"read_time_one": 448
+"read_time_two": 392
+"decision_time": 552
+"response": "False"
+},{
+"quant": "Most"
+"percent": 3
+"A": "zetten"
+"B": "unfobs"
+"read_time_one": 485
+"read_time_two": 805
+"decision_time": 558
+"response": "False"
+},{
+"quant": "Few"
+"percent": 36
+"A": "cather"
+"B": "funder"
+"read_time_one": 608
+"read_time_two": 644
+"decision_time": 625
+"response": "True"
+},{
+"quant": "Few"
+"percent": 45
+"A": "awplor"
+"B": "fasees"
+"read_time_one": 564
+"read_time_two": 544
+"decision_time": 462
+"response": "True"
+},{
+"quant": "Most"
+"percent": 1
+"A": "ingell"
+"B": "nalill"
+"read_time_one": 637
+"read_time_two": 688
+"decision_time": 468
+"response": "False"
+},{
+"quant": "Few"
+"percent": 83
+"A": "spunge"
+"B": "wenple"
+"read_time_one": 540
+"read_time_two": 681
+"decision_time": 494
+"response": "False"
+},{
+"quant": "Most"
+"percent": 49
+"A": "tiklet"
+"B": "hullaw"
+"read_time_one": 309
+"read_time_two": 688
+"decision_time": 519
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 54
+"A": "schook"
+"B": "jabant"
+"read_time_one": 497
+"read_time_two": 537
+"decision_time": 387
+"response": "False"
+},{
+"quant": "Many"
+"percent": 14
+"A": "birler"
+"B": "enciad"
+"read_time_one": 244
+"read_time_two": 469
+"decision_time": 676
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 78
+"A": "tecker"
+"B": "biller"
+"read_time_one": 545
+"read_time_two": 705
+"decision_time": 395
+"response": "True"
+},{
+"quant": "Many"
+"percent": 41
+"A": "jallem"
+"B": "sildal"
+"read_time_one": 656
+"read_time_two": 572
+"decision_time": 427
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 23
+"A": "umpond"
+"B": "marire"
+"read_time_one": 276
+"read_time_two": 149
+"decision_time": 1720
+"response": "False"
+},{
+"quant": "Most"
+"percent": 72
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 545
+"read_time_two": 788
+"decision_time": 562
+"response": "True"
+},{
+"quant": "Most"
+"percent": 33
+"A": "beckel"
+"B": "racual"
+"read_time_one": 624
+"read_time_two": 936
+"decision_time": 1067
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 23
+"A": "shrile"
+"B": "athoid"
+"read_time_one": 705
+"read_time_two": 693
+"decision_time": 584
+"response": "True"
+},{
+"quant": "Few"
+"percent": 6
+"A": "puctor"
+"B": "recure"
+"read_time_one": 813
+"read_time_two": 1193
+"decision_time": 443
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 23
+"A": "shrile"
+"B": "athoid"
+"read_time_one": 744
+"read_time_two": 865
+"decision_time": 472
+"response": "False"
+},{
+"quant": "Few"
+"percent": 38
+"A": "coamin"
+"B": "mucond"
+"read_time_one": 671
+"read_time_two": 637
+"decision_time": 2169
+"response": "True"
+},{
+"quant": "Few"
+"percent": 85
+"A": "pliper"
+"B": "sesare"
+"read_time_one": 232
+"read_time_two": 340
+"decision_time": 432
+"response": "False"
+},{
+"quant": "Most"
+"percent": 5
+"A": "padnet"
+"B": "fanely"
+"read_time_one": 508
+"read_time_two": 473
+"decision_time": 955
+"response": "False"
+},{
+"quant": "Most"
+"percent": 48
+"A": "cather"
+"B": "funder"
+"read_time_one": 420
+"read_time_two": 833
+"decision_time": 623
+"response": "False"
+},{
+"quant": "Many"
+"percent": 80
+"A": "tecker"
+"B": "biller"
+"read_time_one": 540
+"read_time_two": 309
+"decision_time": 456
+"response": "True"
+},{
+"quant": "Many"
+"percent": 18
+"A": "padnet"
+"B": "fanely"
+"read_time_one": 653
+"read_time_two": 748
+"decision_time": 389
+"response": "False"
+},{
+"quant": "Many"
+"percent": 69
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 252
+"read_time_two": 564
+"decision_time": 627
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 27
+"A": "chulks"
+"B": "vulhor"
+"read_time_one": 468
+"read_time_two": 612
+"decision_time": 758
+"response": "False"
+},{
+"quant": "Few"
+"percent": 1
+"A": "chulks"
+"B": "vulhor"
+"read_time_one": 580
+"read_time_two": 520
+"decision_time": 1330
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 15
+"A": "strant"
+"B": "potind"
+"read_time_one": 612
+"read_time_two": 776
+"decision_time": 383
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 14
+"A": "bemble"
+"B": "squank"
+"read_time_one": 656
+"read_time_two": 896
+"decision_time": 716
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 37
+"A": "beckel"
+"B": "racual"
+"read_time_one": 624
+"read_time_two": 536
+"decision_time": 541
+"response": "True"
+},{
+"quant": "Few"
+"percent": 43
+"A": "pengyl"
+"B": "sedest"
+"read_time_one": 468
+"read_time_two": 350
+"decision_time": 533
+"response": "True"
+},{
+"quant": "Most"
+"percent": 24
+"A": "awplor"
+"B": "fasees"
+"read_time_one": 697
+"read_time_two": 428
+"decision_time": 512
+"response": "False"
+},{
+"quant": "Many"
+"percent": 5
+"A": "raster"
+"B": "movell"
+"read_time_one": 612
+"read_time_two": 696
+"decision_time": 413
+"response": "False"
+},{
+"quant": "Most"
+"percent": 12
+"A": "spunge"
+"B": "wenple"
+"read_time_one": 468
+"read_time_two": 533
+"decision_time": 1173
+"response": "False"
+},{
+"quant": "Most"
+"percent": 97
+"A": "shrile"
+"B": "athoid"
+"read_time_one": 560
+"read_time_two": 548
+"decision_time": 395
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 83
+"A": "puggle"
+"B": "entand"
+"read_time_one": 445
+"read_time_two": 628
+"decision_time": 562
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 23
+"A": "strant"
+"B": "potind"
+"read_time_one": 637
+"read_time_two": 792
+"decision_time": 567
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 1
+"A": "beckel"
+"B": "racual"
+"read_time_one": 564
+"read_time_two": 705
+"decision_time": 539
+"response": "False"
+},{
+"quant": "Few"
+"percent": 12
+"A": "gukbar"
+"B": "soarse"
+"read_time_one": 573
+"read_time_two": 793
+"decision_time": 470
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 71
+"A": "ingell"
+"B": "nalill"
+"read_time_one": 729
+"read_time_two": 801
+"decision_time": 456
+"response": "True"
+},{
+"quant": "Most"
+"percent": 68
+"A": "ancits"
+"B": "smeath"
+"read_time_one": 472
+"read_time_two": 808
+"decision_time": 413
+"response": "True"
+},{
+"quant": "Many"
+"percent": 87
+"A": "chevel"
+"B": "podden"
+"read_time_one": 708
+"read_time_two": 747
+"decision_time": 373
+"response": "True"
+},{
+"quant": "Most"
+"percent": 37
+"A": "pirter"
+"B": "secent"
+"read_time_one": 632
+"read_time_two": 876
+"decision_time": 322
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 58
+"A": "bameta"
+"B": "unzast"
+"read_time_one": 648
+"read_time_two": 492
+"decision_time": 1261
+"response": "False"
+},{
+"quant": "Few"
+"percent": 97
+"A": "dorder"
+"B": "coggon"
+"read_time_one": 156
+"read_time_two": 80
+"decision_time": 832
+"response": "False"
+},{
+"quant": "Most"
+"percent": 13
+"A": "monter"
+"B": "melelt"
+"read_time_one": 565
+"read_time_two": 647
+"decision_time": 2095
+"response": "False"
+},{
+"quant": "Many"
+"percent": 2
+"A": "devole"
+"B": "sholly"
+"read_time_one": 524
+"read_time_two": 605
+"decision_time": 511
+"response": "False"
+},{
+"quant": "Most"
+"percent": 7
+"A": "devole"
+"B": "sholly"
+"read_time_one": 425
+"read_time_two": 748
+"decision_time": 337
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 36
+"A": "clidge"
+"B": "hensly"
+"read_time_one": 669
+"read_time_two": 585
+"decision_time": 399
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 57
+"A": "birler"
+"B": "enciad"
+"read_time_one": 552
+"read_time_two": 492
+"decision_time": 488
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 1
+"A": "monter"
+"B": "melelt"
+"read_time_one": 528
+"read_time_two": 677
+"decision_time": 350
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 80
+"A": "pobbit"
+"B": "spippy"
+"read_time_one": 491
+"read_time_two": 572
+"decision_time": 339
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 12
+"A": "coppar"
+"B": "hunene"
+"read_time_one": 725
+"read_time_two": 1000
+"decision_time": 299
+"response": "False"
+},{
+"quant": "Most"
+"percent": 16
+"A": "sporer"
+"B": "firtly"
+"read_time_one": 812
+"read_time_two": 784
+"decision_time": 884
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 33
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 669
+"read_time_two": 777
+"decision_time": 858
+"response": "False"
+},{
+"quant": "Many"
+"percent": 65
+"A": "strant"
+"B": "potind"
+"read_time_one": 905
+"read_time_two": 788
+"decision_time": 397
+"response": "True"
+},{
+"quant": "Few"
+"percent": 32
+"A": "beckel"
+"B": "racual"
+"read_time_one": 137
+"read_time_two": 69
+"decision_time": 739
+"response": "True"
+},{
+"quant": "Many"
+"percent": 75
+"A": "kustle"
+"B": "reshix"
+"read_time_one": 612
+"read_time_two": 604
+"decision_time": 535
+"response": "True"
+},{
+"quant": "Many"
+"percent": 56
+"A": "spunge"
+"B": "wenple"
+"read_time_one": 568
+"read_time_two": 580
+"decision_time": 388
+"response": "True"
+},{
+"quant": "Most"
+"percent": 75
+"A": "schook"
+"B": "jabant"
+"read_time_one": 596
+"read_time_two": 649
+"decision_time": 353
+"response": "True"
+},{
+"quant": "Many"
+"percent": 95
+"A": "tiklet"
+"B": "hullaw"
+"read_time_one": 545
+"read_time_two": 651
+"decision_time": 539
+"response": "True"
+},{
+"quant": "Few"
+"percent": 18
+"A": "chadop"
+"B": "shaple"
+"read_time_one": 605
+"read_time_two": 300
+"decision_time": 338
+"response": "True"
+},{
+"quant": "Most"
+"percent": 49
+"A": "jallem"
+"B": "sildal"
+"read_time_one": 432
+"read_time_two": 753
+"decision_time": 372
+"response": "False"
+},{
+"quant": "Fewer than half"
+"percent": 62
+"A": "puggle"
+"B": "entand"
+"read_time_one": 520
+"read_time_two": 133
+"decision_time": 4098
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 25
+"A": "beckel"
+"B": "racual"
+"read_time_one": 301
+"read_time_two": 377
+"decision_time": 350
+"response": "False"
+},{
+"quant": "Many"
+"percent": 14
+"A": "puctor"
+"B": "recure"
+"read_time_one": 357
+"read_time_two": 524
+"decision_time": 1283
+"response": "False"
+},{
+"quant": "Most"
+"percent": 27
+"A": "pengyl"
+"B": "sedest"
+"read_time_one": 481
+"read_time_two": 705
+"decision_time": 400
+"response": "False"
+},{
+"quant": "Many"
+"percent": 90
+"A": "schook"
+"B": "jabant"
+"read_time_one": 318
+"read_time_two": 296
+"decision_time": 433
+"response": "True"
+},{
+"quant": "Most"
+"percent": 85
+"A": "pluset"
+"B": "stubad"
+"read_time_one": 520
+"read_time_two": 375
+"decision_time": 313
+"response": "True"
+},{
+"quant": "Most"
+"percent": 8
+"A": "beckel"
+"B": "racual"
+"read_time_one": 456
+"read_time_two": 207
+"decision_time": 471
+"response": "False"
+},{
+"quant": "Most"
+"percent": 53
+"A": "pliper"
+"B": "sesare"
+"read_time_one": 343
+"read_time_two": 365
+"decision_time": 1494
+"response": "True"
+},{
+"quant": "Most"
+"percent": 51
+"A": "dorder"
+"B": "coggon"
+"read_time_one": 427
+"read_time_two": 597
+"decision_time": 392
+"response": "True"
+},{
+"quant": "Most"
+"percent": 58
+"A": "umpond"
+"B": "marire"
+"read_time_one": 641
+"read_time_two": 755
+"decision_time": 387
+"response": "True"
+},{
+"quant": "Many"
+"percent": 19
+"A": "hadder"
+"B": "ollidy"
+"read_time_one": 648
+"read_time_two": 665
+"decision_time": 373
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 83
+"A": "pliper"
+"B": "sesare"
+"read_time_one": 497
+"read_time_two": 635
+"decision_time": 329
+"response": "True"
+},{
+"quant": "More than half"
+"percent": 26
+"A": "clidge"
+"B": "hensly"
+"read_time_one": 473
+"read_time_two": 648
+"decision_time": 362
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 91
+"A": "awplor"
+"B": "fasees"
+"read_time_one": 624
+"read_time_two": 503
+"decision_time": 1087
+"response": "False"
+},{
+"quant": "More than half"
+"percent": 60
+"A": "coamin"
+"B": "mucond"
+"read_time_one": 440
+"read_time_two": 660
+"decision_time": 409
+"response": "True"
+},{
+"quant": "Few"
+"percent": 18
+"A": "beckel"
+"B": "racual"
+"read_time_one": 627
+"read_time_two": 619
+"decision_time": 1056
+"response": "True"
+},{
+"quant": "Many"
+"percent": 52
+"A": "monter"
+"B": "melelt"
+"read_time_one": 476
+"read_time_two": 536
+"decision_time": 3900
+"response": "True"
+},{
+"quant": "Fewer than half"
+"percent": 52
+"A": "ancits"
+"B": "smeath"
+"read_time_one": 421
+"read_time_two": 336
+"decision_time": 870
+"response": "False"
+}]
+"catch_trials": []
+"system": {
+"Browser": "Safari"
+"OS": "Mac"
+"screenH": 900
+"screenUH": [undefined]
+"screenW": 1440
+"screenUW": [undefined]
+}
+"condition": "left arrow"
+"subject_information": {
+"language": "English"
+"enjoyment": "2"
+"asses": "No"
+"age": "91"
+"gender": "Other"
+"education": "0"
+"comments": ""
+"fairprice": ""
+"fluent": "Yes"
+}
+"time_in_minutes": 22.834233333333334
+}
