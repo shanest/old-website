@@ -74,7 +74,6 @@ function slide_builder(name, stims) {
 
 			this.stim = stim;
 		    $(document).unbind('keydown');
-			$(document).unbind('keyup');
 
 		    function clearAll() {
 			    $(".err").hide();
@@ -102,7 +101,7 @@ function slide_builder(name, stims) {
 		    function display_one(init_time) {
 			    $(document).unbind('keydown');
 			    $(document).unbind('keyup');
-			    $(".display_condition").html(stim.Q + " of the " + stim.A + "s are " + stim.B + ".");
+			    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
 			    $(".display_condition").show();
 			    // record the initial time
 			    // init_time = Date.now();
@@ -123,38 +122,19 @@ function slide_builder(name, stims) {
 			    $(document).unbind('keydown');
 			    $(document).unbind('keyup');
 			    // brief white screen before the new sentence?
-			    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
+			    $(".display_condition").html(stim.Q + " of the " + stim.A + "s are " + stim.B + ".");
 			    $(".display_condition").show();
-			    var keyup_time;
+
 			    $(document).keyup(function(event) {
-				    if(event.which == CHAR) { 
-					    keyup_time = Date.now();
-					    _s.read_time_two = keyup_time - init_time; // in milliseconds
-					    //press_and_hold(CHAR, display_three);
-					    left_text = exp.condition == "left arrow" ? "True" : "False";
-					    right_text = exp.condition == "left arrow" ? "False" : "True";
-					    $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
-					    $(".left_response").show();
-					    $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
-					    $(".right_response").show();
-
-					    true_code = exp.condition == "left arrow" ? 37 : 39;
-
-					    $(document).keydown(function(event) {
-						    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
-							    _s.decision_time = Date.now() - keyup_time; // in milliseconds
-							    _s.response = event.which == true_code ? "True" : "False"; // TODO: depends on condition?
-							    clearAll();
-							    _s.log_responses();
-						    }
-					    });
+				    if(event.which == CHAR) { // space bar = 32
+					    _s.read_time_two = Date.now() - init_time; // in milliseconds
+					    press_and_hold(CHAR, display_three);
 				    }
 				    else {
 					    $(".err").html("Release the ARROW DOWN BUTTON to advance.");
 					    $(".err").show();
 				    }
 			    });
-/*
 		    }
 
 		    function display_three(init_time) {
@@ -164,7 +144,23 @@ function slide_builder(name, stims) {
 			    $(".display_condition").html("Was the sentence true or false?")
 			    $(".display_condition").show();
 			    // TODO: make this dependent on condition?
-*/
+			    left_text = exp.condition == "left arrow" ? "True" : "False";
+			    right_text = exp.condition == "left arrow" ? "False" : "True";
+			    $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
+			    $(".left_response").show();
+			    $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
+			    $(".right_response").show();
+
+			    true_code = exp.condition == "left arrow" ? 37 : 39;
+
+			    $(document).keydown(function(event) {
+				    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
+					    _s.decision_time = Date.now() - init_time; // in milliseconds
+					    _s.response = event.which == true_code ? "True" : "False"; // TODO: depends on condition?
+					    clearAll();
+					    _s.log_responses();
+				    }
+			    });
 		    }
 		},
 
@@ -229,7 +225,7 @@ function make_slides(f) {
 	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62}
   ]);
 
-
+	
   slides.begin_slide = slide({
     name : "begin_slide",
 	  present : ['dummy'],
@@ -247,7 +243,7 @@ function make_slides(f) {
     */
   });
 
-  slides.single_trial = slide_builder("single_trial", all_stims);
+  slides.single_trial = slide_builder("single_trial", all_stims); 
 
   slides.subj_info =  slide({
     name : "subj_info",
