@@ -4,10 +4,6 @@ var AB_pairs = [
 	['beckel', 'racual'],
 	['puggle', 'entand'],
 	['chadop', 'shaple'],
-  ['kustle', 'reshix'],
-	['beckel', 'racual'],
-	['puggle', 'entand'],
-	['chadop', 'shaple'],
   ['chulks', 'vulhor'],
 	['werner',	'hurmer'],
 	['mecket',	'plumry'],
@@ -127,7 +123,8 @@ function slide_builder(name, stims) {
 			    $(".display_condition").show();
 			    var keyup_time;
 			    $(document).keyup(function(event) {
-				    if(event.which == CHAR) { 
+				    if(event.which == CHAR) {
+					    $('.err').hide();
 					    keyup_time = Date.now();
 					    _s.read_time_two = keyup_time - init_time; // in milliseconds
 					    //press_and_hold(CHAR, display_three);
