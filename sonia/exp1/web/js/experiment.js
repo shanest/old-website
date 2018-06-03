@@ -219,12 +219,16 @@ function make_slides(f) {
     */
   });
 
-  slides.training = slide_builder("training", [
+  slides.training = slide_builder("training", _.shuffle([
 	  {A: 'glerb', B: 'fizzda', Q: 'All', percent: 20},
 	  {A: 'thonk', B: 'krangly', Q: 'Some', percent: 82},
 	  {A: 'slarm', B: 'briddle', Q: 'None', percent: 11},
-	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62}
-  ]);
+	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62},
+	  {A: 'dring', B: 'larfy', Q: 'None', percent: 28},
+	  {A: 'floom', B: 'plerful', Q: 'Some', percent: 92},
+	  {A: 'blek', B: 'orkital', Q: 'None', percent: 54},
+	  {A: 'tenk', B: 'glurgy', Q: 'All', percent: 8}
+  ]));
 
 
   slides.begin_slide = slide({
