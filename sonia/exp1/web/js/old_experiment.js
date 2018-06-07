@@ -121,38 +121,25 @@ function slide_builder(name, stims) {
 			    // brief white screen before the new sentence?
 			    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
 			    $(".display_condition").show();
-			    //var keyup_time;
-          left_text = exp.condition == "left arrow" ? "True" : "False";
-          right_text = exp.condition == "left arrow" ? "False" : "True";
-          $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
-          $(".left_response").show();
-          $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
-          $(".right_response").show();
-
-          true_code = exp.condition == "left arrow" ? 37 : 39;
-
-          var keyup_time;
-
-          $(document).keyup(function(event) {
+			    var keyup_time;
+			    $(document).keyup(function(event) {
 				    if(event.which == CHAR) {
 					    $('.err').hide();
 					    keyup_time = Date.now();
 					    _s.read_time_two = keyup_time - init_time; // in milliseconds
 					    //press_and_hold(CHAR, display_three);
-					    /*left_text = exp.condition == "left arrow" ? "True" : "False";
+					    left_text = exp.condition == "left arrow" ? "True" : "False";
 					    right_text = exp.condition == "left arrow" ? "False" : "True";
 					    $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
 					    $(".left_response").show();
 					    $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
 					    $(".right_response").show();
 
-
 					    true_code = exp.condition == "left arrow" ? 37 : 39;
-*/
 
 					    $(document).keydown(function(event) {
 						    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
-							    _s.nondecision_time = Date.now() - keyup_time; // in milliseconds
+							    _s.decision_time = Date.now() - keyup_time; // in milliseconds
 							    _s.response = event.which == true_code ? "True" : "False"; // TODO: depends on condition?
 							    clearAll();
 							    _s.log_responses();
@@ -185,8 +172,8 @@ function slide_builder(name, stims) {
 	      "A": this.stim.A,
 	      "B": this.stim.B,
 	      "read_time_one": this.read_time_one,
-	      "read_time_two_and_decision": this.read_time_two,
-	      "nondecision_time": this.nondecision_time,
+	      "read_time_two": this.read_time_two,
+	      "decision_time": this.decision_time,
 	      "response": this.response
       });
 	    // TODO: make sure we still have more trials, else call exp.go()
@@ -232,12 +219,16 @@ function make_slides(f) {
     */
   });
 
-  slides.training = slide_builder("training", [
+  slides.training = slide_builder("training", _.shuffle([
 	  {A: 'glerb', B: 'fizzda', Q: 'All', percent: 20},
 	  {A: 'thonk', B: 'krangly', Q: 'Some', percent: 82},
 	  {A: 'slarm', B: 'briddle', Q: 'None', percent: 11},
-	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62}
-  ]);
+	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62},
+	  {A: 'dring', B: 'larfy', Q: 'None', percent: 28},
+	  {A: 'floom', B: 'plerful', Q: 'Some', percent: 92},
+	  {A: 'blek', B: 'orkital', Q: 'None', percent: 54},
+	  {A: 'tenk', B: 'glurgy', Q: 'All', percent: 8}
+  ]));
 
 
   slides.begin_slide = slide({
