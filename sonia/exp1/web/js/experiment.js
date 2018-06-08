@@ -122,18 +122,18 @@ function slide_builder(name, stims) {
 			    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
 			    $(".display_condition").show();
 			    //var keyup_time;
-          left_text = exp.condition == "left arrow" ? "True" : "False";
-          right_text = exp.condition == "left arrow" ? "False" : "True";
-          $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
-          $(".left_response").show();
-          $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
-          $(".right_response").show();
+			  left_text = exp.condition == "left arrow" ? "True" : "False";
+			  right_text = exp.condition == "left arrow" ? "False" : "True";
+			  $(".left_response").html("Press <b>&larr; (left arrow)</b> for " + left_text + ".");
+			  $(".left_response").show();
+			  $(".right_response").html("Press <b>&rarr; (right arrow)</b> for " + right_text + ".");
+			  $(".right_response").show();
 
-          true_code = exp.condition == "left arrow" ? 37 : 39;
+			  true_code = exp.condition == "left arrow" ? 37 : 39;
 
-          var keyup_time;
+			  var keyup_time;
 
-          $(document).keyup(function(event) {
+			  $(document).keyup(function(event) {
 				    if(event.which == CHAR) {
 					    $('.err').hide();
 					    keyup_time = Date.now();
