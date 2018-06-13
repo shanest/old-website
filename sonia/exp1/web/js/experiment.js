@@ -51,12 +51,30 @@ var AB_pairs = [
 	['bemble',	'squank'],
 	['isbant',	'unairs']
 ];
-var percents = _.map(_.range(quants.length*AB_pairs.length), function() {
+
+function get_balanced_percents(N) {
+	var first_half = _.range(1, 50);
+	var second_half = _.range(51, 99);
+	first_percents = _.sample(first_half, N/2);
+	second_percents = _.sample(second_half, N/2);
+	if(Math.random() < 0.5) {
+		pcts = [first_percents, second_percents];
+	} else {
+		pcts = [second_percents, first_percents];
+	}
+	return _.flatten(pcts)
+}
+
+// the below depends on 'Most' and 'More than half' being the first two quantifiers in quants
+var most_percents = get_balanced_percents(AB_pairs.length);
+var mthalf_percents = get_balanced_percents(AB_pairs.length);
+var other_percents = _.map(_.range((quants.length-2)*AB_pairs.length), function() {
 	return _.sample(_.without(_.range(1, 100), 50)) });
-var pairs = cartesianProduct(AB_pairs, quants);
+var percents = _.flatten([most_percents, mthalf_percents, other_percents])
+var pairs = cartesianProduct(quants, AB_pairs);
 var with_percent = _.zip(pairs, percents);
 var all_stims = _.shuffle(_.map(with_percent, function(ls) {
-	    return {A: ls[0][0][0], B: ls[0][0][1], Q: ls[0][1], percent: ls[1]}
+	    return {A: ls[0][1][0], B: ls[0][1][1], Q: ls[0][0], percent: ls[1]}
 }));
 
 function slide_builder(name, stims) {
@@ -131,6 +149,18 @@ function slide_builder(name, stims) {
 
 			  true_code = exp.condition == "left arrow" ? 37 : 39;
 
+			    $(document).keydown(function(event) {
+				    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
+					    _s.read_and_decide_time = Date.now() - init_time; // in milliseconds
+					    _s.response = event.which == true_code;
+					    clearAll();
+					    _s.log_responses();
+				    }
+			    });
+		    }
+		},
+
+			    /*
 			  var keyup_time;
 
 			  $(document).keyup(function(event) {
@@ -148,24 +178,15 @@ function slide_builder(name, stims) {
 
 
 					    true_code = exp.condition == "left arrow" ? 37 : 39;
-*/
 
-					    $(document).keydown(function(event) {
-						    if(event.which == 37 || event.which == 39 ) { // left = 37, right = 39
-							    _s.nondecision_time = Date.now() - keyup_time; // in milliseconds
-							    _s.response = event.which == true_code ? "True" : "False"; // TODO: depends on condition?
-							    clearAll();
-							    _s.log_responses();
-						    }
-					    });
 				    }
 				    else {
 					    $(".err").html("Release the ARROW DOWN BUTTON to advance.");
 					    $(".err").show();
 				    }
 			    });
+*/
 /*
-		    }
 
 		    function display_three(init_time) {
 			    $(document).unbind('keydown');
@@ -174,9 +195,8 @@ function slide_builder(name, stims) {
 			    $(".display_condition").html("Was the sentence true or false?")
 			    $(".display_condition").show();
 			    // TODO: make this dependent on condition?
-*/
 		    }
-		},
+*/
 
     log_responses : function() {
       exp.data_trials.push({
@@ -185,8 +205,8 @@ function slide_builder(name, stims) {
 	      "A": this.stim.A,
 	      "B": this.stim.B,
 	      "read_time_one": this.read_time_one,
-	      "read_time_two_and_decision": this.read_time_two,
-	      "nondecision_time": this.nondecision_time,
+	      "read_and_decide_time": this.read_and_decide_time,
+	      // "nondecision_time": this.nondecision_time,
 	      "response": this.response
       });
 	    // TODO: make sure we still have more trials, else call exp.go()
@@ -236,7 +256,11 @@ function make_slides(f) {
 	  {A: 'glerb', B: 'fizzda', Q: 'All', percent: 20},
 	  {A: 'thonk', B: 'krangly', Q: 'Some', percent: 82},
 	  {A: 'slarm', B: 'briddle', Q: 'None', percent: 11},
-	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62}
+	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62},
+	  {A: 'dring', B: 'larfy', Q: 'None', percent: 28},
+	  {A: 'floom', B: 'plerful', Q: 'Some', percent: 92},
+	  {A: 'blek', B: 'orkital', Q: 'None', percent: 54},
+	  {A: 'tenk', B: 'glurgy', Q: 'All', percent: 8}
   ]);
 
 
