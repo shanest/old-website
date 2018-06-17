@@ -71,7 +71,7 @@ var mthalf_percents = get_balanced_percents(AB_pairs.length);
 var fthalf_percents = get_balanced_percents(AB_pairs.length);
 var other_percents = _.map(_.range((quants.length-3)*AB_pairs.length), function() {
 	return _.sample(_.without(_.range(1, 100), 50)) });
-var percents = _.flatten([most_percents, mthalf_percents, other_percents])
+var percents = _.flatten([most_percents, mthalf_percents, fthalf_percents, other_percents])
 var pairs = cartesianProduct(quants, AB_pairs);
 var with_percent = _.zip(pairs, percents);
 var all_stims = _.shuffle(_.map(with_percent, function(ls) {
