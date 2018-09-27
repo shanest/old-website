@@ -179,8 +179,8 @@ function slide_builder(name, stims) {
 			    $(document).unbind('keydown');
 			    $(document).unbind('keyup');
 			    // get image here, to load it; but don't display it until display_two
-			    $(".image_display").html("<img src="+fname+" width='95%' />");
 			    fname = "images/scattered_split_"+stim.P+"_"+stim.S+"_"+P_to_idx[stim.P]+".png";
+			    $(".image_display").html("<img src="+fname+" width='95%' />");
 			    if (stim.Q=='More') {
 				 if (stim.C=='yellow') {
 				 	var sec_colour = colour[0];
