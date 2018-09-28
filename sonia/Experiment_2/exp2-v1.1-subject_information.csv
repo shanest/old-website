@@ -1,0 +1,11 @@
+workerid,language,enjoyment,gender,age,comments,fluent,asses,fairprice,education
+0,"""English""","""0""","""Male""","""33""","""Poor design of experiment. Very hard to see. Use of down arrow causes the window to scroll down so you can&quotechart see the sentences or dots properly. Test your experiment in all browsers please!""","""No""","""Yes""","""8""","""3"""
+1,"""english""","""1""","""Male""","""34""","""""","""No""","""Yes""","""4.50""","""2"""
+2,"""English""","""0""","""Male""","""35""","""The frame for the interactive portion of the study didn&quotechart lock the scroll bar for the browser window. Using the down arrow caused browser window to jump to the bottom of the screen, obscuring the text. I had fewer than 2 frames, 1/30th of a second, to read the text for each prompt, making the task incredibly difficult. This sort of task needs to open itself in a new frame, or warn the user that they must use a monitor in portrait mode prior to starting the task.""","""Yes""","""Yes""","""4.50""","""2"""
+3,"""English""","""1""","""Male""","""47""","""none thanks""","""No""","""Yes""","""4""","""3"""
+4,"""english""","""2""","""Female""","""30""","""""","""No""","""Yes""","""yes""","""3"""
+5,"""English""","""2""","""Male""","""42""","""Some were hard to guesstimate but, I guess that&quotechars the point.""","""No""","""Yes""","""4.00""","""2"""
+6,"""English""","""1""","""Female""","""22""","""For my browser, the down arrow made it scroll down. I had to keep scrolling up between pages to make sure I could read the statement.""","""No""","""Yes""","""$4""","""2"""
+7,"""English""","""2""","""Male""","""43""","""""","""No""","""Yes""","""4.00""","""3"""
+8,"""English""","""0""","""Male""","""35""","""This survey scrolled down uncontrollably on my 1440 monitor.  It was EXTREMEL annoying to finish this in the small amount of time provided.""","""No""","""Yes""","""12""","""4"""
+9,"""english""","""2""","""Male""","""33""","""""","""No""","""Yes""","""""","""3"""
