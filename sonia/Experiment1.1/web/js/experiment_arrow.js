@@ -1,4 +1,4 @@
-var quants = ['Most', 'More than half', 'Fewer than half', 'The majority','Many', 'Few'];
+var quants = ['Most', 'More than half', 'Fewer than half', "Many", "Few"];
 var AB_pairs = [
   ['kustle', 'reshix'],
 	['beckel', 'racual'],
@@ -52,6 +52,119 @@ var AB_pairs = [
 	['isbant',	'unairs']
 ];
 
+var percent_ub =
+[["99", "1"],
+["98", "2"],
+["97", "3"],
+["96", "4"],
+["95", "5"],
+["94", "6"],
+["93", "7"],
+["92", "8"],
+["91", "9"],
+["90", "10"],
+["89", "11"],
+["88", "12"],
+["87", "13"],
+["86", "14"],
+["85", "15"],
+["84", "16"],
+["83", "17"],
+["82", "18"],
+["81", "19"],
+["80", "20"],
+["79", "21"],
+["78", "22"],
+["77", "23"],
+["76", "24"],
+["1", "99"],
+["2", "98"],
+["3", "97"],
+["4", "96"],
+["5", "95"],
+[ "6", "94"],
+["7", "93"],
+["8", "92"],
+["9", "91"],
+["10", "90"],
+["11", "89"],
+["12", "88"],
+["13", "87"],
+["14", "86"],
+["15", "85"],
+["16", "84"],
+["17", "83"],
+["18", "82"],
+["19", "81"],
+["20", "80"],
+["21", "79"],
+["22", "78"],
+["23", "77"],
+["24","76"]]
+
+var percent = {
+'above':[["99", "1"],
+["98", "2"],
+["97", "3"],
+["96", "4"],
+["95", "5"],
+["94", "6"],
+["93", "7"],
+["92", "8"],
+["91", "9"],
+["90", "10"],
+["89", "11"],
+["88", "12"],
+["87", "13"],
+["86", "14"],
+["85", "15"],
+["84", "16"],
+["83", "17"],
+["82", "18"],
+["81", "19"],
+["80", "20"],
+["79", "21"],
+["78", "22"],
+["77", "23"],
+["76", "24"]],
+'below':[["1", "99"],
+["2", "98"],
+["3", "97"],
+["4", "96"],
+["5", "95"],
+[ "6", "94"],
+["7", "93"],
+["8", "92"],
+["9", "91"],
+["10", "90"],
+["11", "89"],
+["12", "88"],
+["13", "87"],
+["14", "86"],
+["15", "85"],
+["16", "84"],
+["17", "83"],
+["18", "82"],
+["19", "81"],
+["20", "80"],
+["21", "79"],
+["22", "78"],
+["23", "77"],
+["24","76"]]
+};
+
+function sample_with_replacement(ls, n) {
+	return _.map(_.range(n), function (idx) { return _.sample(ls) })
+};
+
+function get_balanced_percents(N){
+	percent_above = sample_with_replacement(percent['above'], N/2);
+	percent_below = sample_with_replacement(percent['below'], N/2);
+	balance_percent = [percent_above, percent_below];
+	return balance_percent
+};
+
+/*
 function get_balanced_percents(N) {
 	var first_half = _.range(1, 50);
 	var second_half = _.range(51, 99);
@@ -64,20 +177,44 @@ function get_balanced_percents(N) {
 	}
 	return _.flatten(pcts)
 }
-
+*/
 // the below depends on 'Most' and 'More than half' being the first two quantifiers in quants
 var most_percents = get_balanced_percents(AB_pairs.length);
 var mthalf_percents = get_balanced_percents(AB_pairs.length);
 var fthalf_percents = get_balanced_percents(AB_pairs.length);
-var maj_percents = get_balanced_percents(AB_pairs.length);
+var many_percents = sample_with_replacement(percent_ub, AB_pairs.length);
+var few_percents = sample_with_replacement(percent_ub, AB_pairs.length);
+/*
 var other_percents = _.map(_.range((quants.length-4)*AB_pairs.length), function() {
 	return _.sample(_.without(_.range(1, 100), 50)) });
-var percents = _.flatten([most_percents, mthalf_percents, fthalf_percents, maj_percents, other_percents])
+  */
+var percents = _.flatten([most_percents, mthalf_percents, fthalf_percents, many_percents, few_percents])
+//var percents = _.flatten([most_percents, mthalf_percents, fthalf_percents])
+// the splitIntoSubArray is from: https://gist.github.com/baybatu/5663f238534290d15be7
+function splitIntoSubArray(arr, count) {
+  var newArray = [];
+  while (arr.length > 0) {
+    newArray.push(arr.splice(0, count));
+  }
+  return newArray;
+};
+var percents_1 = splitIntoSubArray(percents, 2);
+
 var pairs = cartesianProduct(quants, AB_pairs);
-var with_percent = _.zip(pairs, percents);
+var with_percent = _.zip(pairs, percents_1);
 var all_stims = _.shuffle(_.map(with_percent, function(ls) {
-	    return {A: ls[0][1][0], B: ls[0][1][1], Q: ls[0][0], percent: ls[1]}
+	    return {A: ls[0][1][0], B: ls[0][1][1], Q: ls[0][0], P_1: ls[1][0], P_2:ls[1][1]}
 }));
+/*
+var pairs = cartesianProduct(quants, AB_pairs);
+
+var pairs_with_percent = _.flatten(_.map(pairs, //['most', 'yellow']
+	function(pair) { return _.map(get_balanced_percents(50),
+		function(colour) { return [pair, percent]; });
+	}), true);
+
+*/
+
 
 function slide_builder(name, stims) {
 
@@ -139,7 +276,7 @@ function slide_builder(name, stims) {
 			    $(document).unbind('keydown');
 			    $(document).unbind('keyup');
 			    // brief white screen before the new sentence?
-			    $(".display_condition").html(stim.percent + "% of the " + stim.A + "s are " + stim.B + ".");
+			    $(".display_condition").html(stim.P_1 + "% of the " + stim.A + "s are " + stim.B + " and " + stim.P_2 + "% of the " + stim.A + "s are not " + stim.B + ".");
 			    $(".display_condition").show();
 			    //var keyup_time;
 			  left_text = exp.condition == "left arrow" ? "True" : "False";
@@ -203,7 +340,8 @@ function slide_builder(name, stims) {
     log_responses : function() {
       exp.data_trials.push({
 	      "quant": this.stim.Q,
-	      "percent": this.stim.percent,
+	      "percent_1": this.stim.P_1,
+        "percent_2": this.stim.P_2,
 	      "A": this.stim.A,
 	      "B": this.stim.B,
 	      "read_time_one": this.read_time_one,
@@ -255,14 +393,14 @@ function make_slides(f) {
   });
 
   slides.training = slide_builder("training", [
-	  {A: 'glerb', B: 'fizzda', Q: 'All', percent: 20},
-	  {A: 'thonk', B: 'krangly', Q: 'Some', percent: 82},
-	  {A: 'slarm', B: 'briddle', Q: 'None', percent: 11},
-	  {A: 'klong', B: 'nooty', Q: 'All', percent: 62},
-	  {A: 'dring', B: 'larfy', Q: 'None', percent: 28},
-	  {A: 'floom', B: 'plerful', Q: 'Some', percent: 92},
-	  {A: 'blek', B: 'orkital', Q: 'None', percent: 54},
-	  {A: 'tenk', B: 'glurgy', Q: 'All', percent: 8}
+	  {A: 'glerb', B: 'fizzda', Q: 'All', P_1: 20, P_2: 80},
+	  {A: 'thonk', B: 'krangly', Q: 'Some', P_1: 82, P_2: 18},
+	  {A: 'slarm', B: 'briddle', Q: 'None', P_1: 11, P_2: 89},
+	  {A: 'klong', B: 'nooty', Q: 'All', P_1: 62, P_2: 38},
+	  {A: 'dring', B: 'larfy', Q: 'None', P_1: 28, P_2: 72},
+	  {A: 'floom', B: 'plerful', Q: 'Some', P_1: 92, P_2: 8},
+	  {A: 'blek', B: 'orkital', Q: 'None', P_1: 54, P_2: 46},
+	  {A: 'tenk', B: 'glurgy', Q: 'All', P_1: 3, P_2: 97}
   ]);
 
 
