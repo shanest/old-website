@@ -1,0 +1,11 @@
+workerid,language,enjoyment,gender,age,comments,fluent,asses,fairprice,education
+0,"""English""","""1""","""Male""","""31""","""""","""No""","""Yes""","""Yes""","""3"""
+1,"""English""","""2""","""Male""","""55""","""It was interesting.  There were a few where I hit the wrong key by mistake...maybe a back button??""","""No""","""Yes""","""4.00""","""3"""
+2,"""English""","""1""","""Male""","""28""","""""","""No""","""Yes""","""5.00""","""2"""
+3,"""English""","""2""","""Female""","""59""","""""","""No""","""Yes""","""4.00""","""3"""
+4,"""English""","""2""","""Female""","""51""","""Thank you for the opportunity to participate in this study""","""No""","""Yes""","""4.00""","""2"""
+5,"""English""","""1""","""Male""","""59""","""""","""No""","""Yes""","""4.00""","""2"""
+6,"""English""","""1""","""Male""","""30""","""No issues to report.""","""Yes""","""Yes""","""Yes""","""1"""
+7,"""English""","""2""","""Male""","""33""","""Interesting hit. Was a bit annoying at first because I kept forgetting to hold down the key to read the sentence in time, but after a minute I got used to it and it was fun.""","""No""","""Yes""","""4.00""","""2"""
+8,"""English""","""1""","""Male""","""39""","""I really enjoyed this study. Thank you! ""","""No""","""Yes""","""4.50""","""3"""
+9,"""English""","""2""","""Female""","""29""","""I answered three incorrectly because I got interrupted. I believe the ones I answered opposite were two \""more than half\"" and one \""fewer than half\"". I apologize for this. ""","""No""","""Yes""","""$3""","""4"""
