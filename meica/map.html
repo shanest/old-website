@@ -131,6 +131,16 @@
 		return str;
 	}
 
+	function getRandom(min, max) {
+		return Math.random() * (max-min) + min;
+	}
+
+	function toggleLoc(loc) {
+		return new google.maps.LatLng(
+			loc.lat() + getRandom(-0.03, 0.03),
+			loc.lng() + getRandom(-0.03, 0.03));
+	}
+
       /**
        * Populate the map with markers from a particular spreadsheet 
        */
@@ -151,9 +161,11 @@
 			});
 			geocoder.geocode({'address': value[1]}, function(results, status) {
 				if(status == 'OK') {
+					var loc = toggleLoc(results[0].geometry.location);
+					console.log(loc)
 					var marker = new google.maps.Marker({
 						map: map,
-						position: results[0].geometry.location
+						position: loc //results[0].geometry.location
 					});
 					marker.addListener('click', function() {
 						infowindow.open(map, marker);
