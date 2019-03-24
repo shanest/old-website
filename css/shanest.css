@@ -10,7 +10,11 @@ body {
 
 a { 
 	text-decoration: none; 
-	color: #d54e21; 
+	color: #d14c00;
+}
+
+a:hover {
+	color: #4b2e83;
 }
 
 a.black {
@@ -18,7 +22,7 @@ a.black {
 }
 
 h1, h2 {
-	color: #d54e21; 
+	color: #d14c00; 
 	font-variant: small-caps;
 }
 
@@ -37,12 +41,12 @@ img.full-width {
 }
 
 .topnav {
-	border-bottom: 3px solid #d54e21;
-	background-color: #423834;
+	border-bottom: 3px solid #d14c00;
+	background-color: #b7a57a;
 }
 
-li.active {
-	background-color: #eee;
+li.active, .nav li a:hover {
+	background-color: #d8d8d8;
 }
 
 p.citation {
@@ -51,9 +55,10 @@ p.citation {
 }
 
 .journaltitle {
-  color: #2a6496;
+  /* color: #2a6496; */
+	color: #4b2e83;
 }
 
 h3.subsection {
-	border-bottom: 2px solid #eee;
+	border-bottom: 2px solid #b7a57a;
 }
