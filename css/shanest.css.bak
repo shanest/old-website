@@ -3,12 +3,6 @@ html {
 	height: 100%;
 }
 
-:root {
-	--gold: #b7a57a;
-	--purple: #4b2e83;
-	--orange: #d14c00;
-}
-
 body {
 	padding-top: 70px;
 	position: relative;
@@ -16,32 +10,28 @@ body {
 
 a { 
 	text-decoration: none; 
-	color: var(--purple);
+	color: #d14c00;
 }
 
 a:hover {
-	color: var(--gold);
+	color: #4b2e83;
 }
 
 a.black {
 	color: #000000;
 }
 
-h1, h2, h3 {
-	color: var(--gold); 
+h1, h2 {
+	color: #d14c00; 
 	font-variant: small-caps;
 }
 
-h3.subsection {
-	border-bottom: 2px solid var(--gold);
+h3 {
+	font-variant: small-caps;
 }
 
 img.full-width {
 	width: 100%;
-}
-
-.navbar-brand {
-	font-size: 24px;
 }
 
 .navbar-name {
@@ -51,16 +41,12 @@ img.full-width {
 }
 
 .topnav {
-	border-bottom: 3px solid var(--purple);
-	background-color: var(--orange);
+	border-bottom: 3px solid #d14c00;
+	background-color: #b7a57a;
 }
 
 li.active, .nav li a:hover {
-	background-color: var(--purple);
-}
-
-.navbar a {
-	color: #fff;
+	background-color: #d8d8d8;
 }
 
 p.citation {
@@ -70,5 +56,9 @@ p.citation {
 
 .journaltitle {
   /* color: #2a6496; */
-	color: var(--gold);
+	color: #4b2e83;
+}
+
+h3.subsection {
+	border-bottom: 2px solid #b7a57a;
 }
