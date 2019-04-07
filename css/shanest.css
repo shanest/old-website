@@ -16,11 +16,11 @@ body {
 
 a { 
 	text-decoration: none; 
-	color: var(--purple);
+	color: var(--gold);
 }
 
 a:hover {
-	color: var(--gold);
+	color: var(--purple);
 }
 
 a.black {
@@ -28,12 +28,12 @@ a.black {
 }
 
 h1, h2, h3 {
-	color: var(--gold); 
+	color: var(--orange); 
 	font-variant: small-caps;
 }
 
 h3.subsection {
-	border-bottom: 2px solid var(--gold);
+	border-bottom: 2px solid var(--orange);
 }
 
 img.full-width {
@@ -51,12 +51,12 @@ img.full-width {
 }
 
 .topnav {
-	border-bottom: 3px solid var(--purple);
-	background-color: var(--orange);
+	border-bottom: 3px solid var(--orange);
+	background-color: var(--purple);
 }
 
 li.active, .nav li a:hover {
-	background-color: var(--purple);
+	background-color: var(--orange);
 }
 
 .navbar a {
@@ -70,5 +70,5 @@ p.citation {
 
 .journaltitle {
   /* color: #2a6496; */
-	color: var(--gold);
+	color: var(--purple);
 }
