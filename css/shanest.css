@@ -12,6 +12,9 @@ html {
 body {
 	padding-top: 70px;
 	position: relative;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	text-align: justify;
 }
 
 a { 
@@ -41,13 +44,7 @@ img.full-width {
 }
 
 .navbar-brand {
-	font-size: 24px;
-}
-
-.navbar-name {
-	float: left;
-	font-size: 30pt;
-	padding: 15px 15px;
+	font-size: 20pt;
 }
 
 .topnav {
@@ -66,6 +63,8 @@ li.active, .nav li a:hover {
 p.citation {
 	margin-left: 20px;
 	text-indent: -20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 .journaltitle {
