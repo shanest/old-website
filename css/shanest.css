@@ -17,6 +17,10 @@ body {
 	text-align: justify;
 }
 
+section {
+	padding: 50px 0;
+}
+
 a { 
 	text-decoration: none; 
 	color: var(--gold);
@@ -32,28 +36,27 @@ a.black {
 
 h1, h2, h3 {
 	color: var(--orange); 
-	font-variant: small-caps;
-}
-
-h3.subsection {
-	border-bottom: 2px solid var(--orange);
 }
 
 img.full-width {
 	width: 100%;
 }
 
+.navbar {
+	padding: 0.3rem 1rem;
+}
+
+.nav-item {
+	font-size: 13pt;
+}
+
 .navbar-brand {
-	font-size: 20pt;
+	font-size: 18pt;
 }
 
 .topnav {
 	border-bottom: 3px solid var(--orange);
 	background-color: var(--purple);
-}
-
-li.active, .nav li a:hover {
-	background-color: var(--orange);
 }
 
 .navbar a {
