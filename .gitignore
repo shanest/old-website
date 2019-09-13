@@ -1,3 +1,4 @@
 old
 *.key
 .DS_Store
+*.swp
