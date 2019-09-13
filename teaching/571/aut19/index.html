@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>UW LING 571: Fall 2019</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/scrolling-nav.css" rel="stylesheet">
+
+	</head>
+
+	<body id="page-top">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">LING 571: Deep Processing Methods for NLP [Aut '19]</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#information">Information</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#policies">Policies</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--
+		<header class="bg-primary text-white">
+			<div class="container text-center">
+				<h1>Welcome to Scrolling Nav</h1>
+				<p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+			</div>
+		</header>
+		-->
+
+		<section id="information">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+						<h2>Course Description</h2>
+						<p class="lead">This course covers algorithms for associating deep or elaborated linguistic structures with naturally occurring data, covering parsing, semantics, and discourse.</p>
+
+						<table class="table">
+							<thead>
+								<tr>
+								<th>Days</th>
+								<th>Time</th>
+								<th>Location</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Monday and Wednesday</td>
+									<td>1:00 - 2:20 PM</td>
+									<td><a href="https://goo.gl/maps/dMPA2onU68WMFhcr8">Gould</a> 435</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<h2 class="pt-2">Teaching Staff</h2>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Role</th>
+									<th>Name</th>
+									<th>Office</th>
+									<th>Office Hours</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Instructor</td>
+									<td><a href="https://shane.st">Shane Steinert-Threlkeld</a></td>
+									<td>Guggenheim 418-D</td>
+									<td>Thurs, 1-3PM (or by appointment)</td>
+								</tr>
+								<tr>
+									<td>Teaching Assistant</td>
+									<td><a href="https://linguistics.washington.edu/people/yuanhe-tian">Yuanhe Tian</a></td>
+									<td>Guggenheim 407</td>
+									<td>TBD</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<h2 class="pt-2">Textbook</h2>
+
+						<p>The course textbook is <em><a href="https://www.amazon.com/Speech-Language-Processing-Daniel-Jurafsky/dp/0131873210/">Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition, 2nd edition</a></em>, by Daniel Jurafsky and James Martin.</p>
+
+						<p><strong>N.B.:</strong> The authors have a nearly-complete draft of the 3rd edition <a href="https://web.stanford.edu/~jurafsky/slp3/">available online</a>.  Essentially every chapter that we use in this course has a corresponding version in that edition.  The chapters referenced below are from the 2nd edition, but you can find the corresponding chapter in the 3rd edition either by using the website for the 3rd or by looking at the detailed table of contents on the Amazon page for the 2nd edition or <a href="https://github.com/rain1024/slp2-pdf/blob/master/chapter-wise-pdf/%5B00%5D%20Table%20of%20Contents.pdf">here</a>.</p>
+
+						<h2 class="pt-2">Prerequisites</h2>
+						<ul>
+							<li>CSE 373 (Data Structures) or Equivalent</li>
+							<li>MATH/STAT 394 (Intro to Probability) or Equivalent</li>
+							<li>Formal grammars, languages, and automata</li>
+							<li>Programming in one or more of Java, Python, C/C++, or Perl</li>
+							<li>Linux/Unix Commands</li>
+						</ul>
+
+						<h2 class="pt-2">Course Resources</h2>
+
+						<ul>
+							<li>Zoom Meeting Room: <a href="https://washington.zoom.us/my/clingzoom">https://washington.zoom.us/my/clingzoom</a></li>
+							<li><a href="https://vervet.ling.washington.edu/db/accountrequest-form.php">Patas Account Request</a></li>
+							<li><a href="#">Computing Resources Orientation</a></li>
+							<li><a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/CondorClusterHomepage">Condor Wiki Pages</a></li>
+						</ul>
+
+						<p><strong>N.B.:</strong> All homework grading will take place on the patas cluster using Condor, so your code must run there.  I strongly encourage you to ensure you have an account set up by the time of the first course meeting.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="policies" class="bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+						<h2>Policies</h2>
+						<p class="lead">Unless explicitly mentioned below, the <a href="http://depts.washington.edu/uwcl/clms/course-policy.pdf">shared policies of the LING 57x course series</a> apply to this course.  Please read those policies for more information.</p>
+
+						<h2 class="pt-2">Grading</h2>
+						<ul>
+							<li>100%: Homework Assignments</li>
+							<li>Up to 2% adjustment for significant in-class or discussion participation</li>
+						</ul>
+
+						<h2 class="pt-2">Communication</h2>
+						<p>As per the policy above, all communication outside of the classroom should take place on Canvas.  You can expect responses from teaching staff within 48 hours, but only during normal business hours, and excluding weekends.</p>
+						<p><strong>N.B.:</strong> while CLMS students have a private Slack channel, I strongly encourage questions concerning course content and assignments to be posted to the Canvas discussion board, for two reasons.  (i) Teaching staff will not look at Canvas, so misinformation can spread.  (ii) Not every student in the course is in the CLMS program, but they deserve to be included in course discussions and likely have many of the same questions.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="schedule">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+
+						<h2>Schedule</h2>
+
+						<br />
+
+						<table class="table">
+							<thead>
+								<tr>
+									<th width="10%">Date</th>
+									<th>Topics</th>
+									<th><em>Jurafsky &amp; Martin</em></th>
+									<th width="20%">Additional Readings</th>
+									<th width="15%">Assignment out</th>
+									<th>Slides</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sept 25</td>
+									<td>Introduction; Syntax</td>
+									<td>Chapter 1, 12</td>
+									<td><a href="#">Patas and Condor</a></td>
+									<td><a href="#">HW #1</a><br />Due Sept 30</td>
+									<td>
+										Introduction<br />
+										Syntax<br />
+										Computing
+									</td>
+								</tr>
+								<tr>
+									<td>Sept 30</td>
+									<td>CFGs and Parsing</td>
+									<td>Chapter 12, 13.1-13.3</td>
+									<td>&nbsp;</td>
+									<td>HW #2<br />Due Oct 3</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class2_grammar_flat.pdf">CFGs and Parsing</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 2</td>
+									<td>CKY; CNF</td>
+									<td>Chapter 13.4.1</td>
+									<td>&nbsp;</td>
+									<td></td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class3_cnf_cky_flat.pdf">CKY parsing</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/to_cnf.pptx">Example Grammar</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/converted_grammar.pptx">Converted Grammar</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW2.pdf">HW#2</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 7</td>
+									<td>Parsing: CKY, Probabilistic CKY</td>
+									<td>Chapter 13.4.2-14.11</td>
+									<td>&nbsp;</td>
+									<td>HW #3<br />Due Oct 10</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class4_cky_pcfg_flat.pdf">CKY &amp; PCFGs</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW3.pptx">HW#3</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 9</td>
+									<td>PCFGs: Algorithms and Evaluation</td>
+									<td>Chapter 14-14.11</td>
+									<td>&nbsp;</td>
+									<td>&nbsp;</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class5_pcfg_eval_flat.pdf">PCKY</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 14</td>
+									<td>PCFGs: evaluation; improvement</td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td>HW #4<br />Due Oct 17</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class6_pcfg_impr_flat.pdf">Evaluation &amp; Improvements</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW4.pptx">HW #4</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 16</td>
+									<td>Dependency Parsing</td>
+									<td>Chapter 12.7</td>
+									<td>
+										<a href="http://nlp.stanford.edu/pubs/LREC06_dependencies.pdf">De Marneffe et al, 2006</a>
+										<br /><a href="http://www.aclweb.org/anthology/H/H05/H05-1066.pdf">McDonald et al, 2005</a>									</td>
+									<td> &nbsp; </td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class7_depparse_flat.pdf">Dependency Parsing</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 21</td>
+									<td>Dependency Parsing (cont'd) + Features</td>
+									<td>Chapter 15-15.4</td>
+									<td> &nbsp; </td>
+									<td>HW #5<br />Due Oct 24</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class8_depp_feat.pptx">Dependency; Features (draft)</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW5.pptx">HW5</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 23</td>
+									<td>Semantics Intro</td>
+									<td>Chapter 17</td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class9_semantics_flat.pdf">Semantics</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 28</td>
+									<td>Semantics (cont'd)</td>
+									<td>Chapter 15.5-15.7; 17, 18</td>
+									<td> &nbsp; </td>
+									<td>HW #6<br />Due Oct 31</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class10_semana_flat.pdf">Semantic Analysis </a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/20170208-ling571.pdf">TFS and parsing</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW6.pptx">HW #6</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Oct 30</td>
+									<td>Lambda Calculus (cont'd)</td>
+									<td>Chapter 18.2</td>
+									<td><a class="external" href="http://www.coli.uni-saarland.de/publikationen/softcopies/Blackburn:1997:RIN.pdf" target="_blank" rel="noreferrer noopener">Blackburn &amp; Bos, 1999, 2.3–2.4</a></td>
+									<td></td>
+									<td></td>
+								<tr>
+									<td>Nov 4</td>
+									<td>Lexical, distributional semantics</td>
+									<td>Chapter 19.1-19.3, 20.1-20.4, 20.7, 20.10</td>
+									<td> &nbsp; </td>
+									<td>HW #7<br />Due Nov 7</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class11_lex_sem_flat.pdf">Lexical, Distrib. Semantics </a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Nov 6</td>
+									<td>Distributional, Dictionary-based Models</td>
+									<td>Chapter 20</td>
+									<td> &nbsp; </td>
+									<td></td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class12_distr_thes_flat.pdf">Distributional &amp; Thesaurus-based models</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW7.pdf">HW#7</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Nov 11</td>
+									<td colspan="5" align="center">Veterans Day: No class</td>
+								</tr>
+								<tr>
+									<td>Nov 13</td>
+									<td>Thesaurus similarity
+										<br />Semantic roles labeling
+									</td>
+									<td>Chapter 19.4, 20.9</td>
+									<td><a href="http://jair.org/media/514/live-514-1722-jair.pdf">Resnik WSD, esp. Sec 5.1</a>
+										<br /><a href="http://www.cs.rochester.edu/~gildea/gildea-cl02.pdf">Jurafsky &amp; Gildea, 2002</a>, p. 1-19.
+									</td>
+									<td></td>
+									<td><!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class13_thessim_flat.pdf">Thesauri &amp; Semantic Roles</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW8.pptx">HW#8</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Nov 18</td>
+									<td>SRL; Intro to Discourse</td>
+									<td>Chapter 20, 21.0</td>
+									<td>&nbsp;</td>
+									<td>HW #8<br />Due Nov 21</td>
+									<td><!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class14_srl_disc_flat.pdf">SRL &amp; Discourse</a> --></td>
+								</tr>
+								<tr>
+									<td>Nov 20</td>
+									<td>Computational Discourse Reference</td>
+									<td>Chapter 21.4-21.8</td>
+									<td><a href="http://www.aclweb.org/anthology/D10-1048">Ragunathan et al, 2010</a></td>
+									<td></td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class15_refres_flat.pdf">Co-reference</a>
+										<br /><a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/HW9.pptx">HW#9 </a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Nov 25</td>
+									<td>Computational Discourse Structure</td>
+									<td>Chapter 21.1-21.3</td>
+									<td><a href="https://www-sciencedirect-com.offcampus.lib.washington.edu/science/article/pii/0024384178900062">Hobbs 1978</a></td>
+									<td>HW #9<br />Due Dec 5</td>
+									<td>
+										<!-- <a href="http://courses.washington.edu/ling571/ling571_WIN2017/slides/ling571_class16_coref_dstruct_flat.pdf">Coreference &amp; Coherence</a> -->
+									</td>
+								</tr>
+								<tr>
+									<td>Nov 27</td>
+									<td colspan="5" align="center">No Class</td>
+								</tr>
+								<tr>
+									<td>Dec 2</td>
+									<td> Wrap-up (I): </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+								</tr>
+								<tr>
+									<td>Dec 4</td>
+									<td> Wrap-up (II): </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+		<!-- Custom JavaScript for this theme -->
+		<script src="js/scrolling-nav.js"></script>
+
+	</body>
+
+</html>
