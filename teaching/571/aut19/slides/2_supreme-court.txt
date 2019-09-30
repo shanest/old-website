@@ -1,0 +1,1 @@
+[NP [NP [Adj Supreme] [NN Court]] [PP [IN of] [NP [Det the] [NP [NNP United] [NNPS States]]]]]
