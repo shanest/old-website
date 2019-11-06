@@ -165,6 +165,12 @@
 					</ul>
 				</li>
 			</ol>
+			<p><strong>NB:</strong> If you want to play with pre-trained embeddings before doing your own training, try:</p>
+			<pre>
+			import gensim.downloader as api
+			wv = api.load('word2vec-google-news-300')
+			</pre>
+			<p>and have a look at their <a href="https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html" target="_blank">tutorial</a>.</p>
 			<p><a href="#top">[Back to Top]</a></p>
 			<h3>Programming #2</h3>
 			<p>Create a program <strong><span style="font-family: courier;">hw7_cbow_similarity.sh</span></strong> that implements the creation and evaluation of the Continuous Bag-of-Words similarity model as described above and invoked as: <br /><strong><span style="font-family: courier;">hw7_cbow_similarity.sh &lt;window&gt; &lt;judgment_filename&gt; &lt;output_filename&gt;</span></strong>, where:</p>
