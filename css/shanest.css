@@ -35,7 +35,7 @@ a.black {
 }
 
 h1, h2, h3 {
-	color: var(--orange); 
+	color: var(--purple); 
 }
 
 img.full-width {
@@ -55,8 +55,8 @@ img.full-width {
 }
 
 .topnav {
-	border-bottom: 3px solid var(--orange);
-	background-color: var(--purple);
+	border-bottom: 3px solid var(--purple);
+	background-color: var(--orange);
 }
 
 .navbar a {
