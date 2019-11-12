@@ -70,7 +70,10 @@
 				<li>Read in a corpus that will form the basis of the distributional model and perform basic preprocessing.
 					<ul>
 						<li>All words should be lowercase.</li>
-						<li>Punctuation should removed.</li>
+						<li>Punctuation should removed, both from individual words and from the corpus (e.g. &quot;,&quot; should not be a word). <br />
+							Only alphanumeric (a-z, 0-9) characters should remain. <br />
+							Note: in many regex packages, including Python's, <span style="font-family: courier">\w</span> matches a single alphanumeric character, while <span style="font-family: courier">\W</span> denotes a single non-alphanumeric character.
+						</li>
 					</ul>
 				</li>
 				<li>For each word in the corpus:
