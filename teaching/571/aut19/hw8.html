@@ -72,8 +72,10 @@
 			<p>[<a href="#top">Back to Top</a>]</p>
 			<h2><a name="implement"></a>Implementing Word Sense Disambinguation and Similarity using Resnik&#8217;s Similarity Measure</h2>
 			<p>Based on the examples in the text, class slides, and other resources, implement a program to perform Word Sense Disambiguation based on noun groups, using Resnik&#8217;s method and WordNet-based similarity measure. Then compute and compare similarity scores for a set of human judgments. Specifically, your program should:</p>
+			<!--
 			<ol start="0">
 				<li><strong>(<em>Optionally, for extra credit</em></strong>) Create a file associating information with WordNet concepts, computed based on the Brown corpus (e.g. with NLTK's SemCor).</li>				
+			-->
 				<li>Load information content values for WordNet from a file.</li>
 				<li>Read in a file of (<span style="font-family: courier;">probe word, noun group</span>) pairs</li>
 				<li>For each (<span style="font-family: courier;">probe word, noun group</span>) pair:
@@ -112,16 +114,11 @@
 			<p>[<a href="#top">Back to Top</a>]</p>
 			<h2><a name="program"></a>Programming</h2>
 			<p>Create a program <strong><span style="font-family: courier;">hw8_resnik_wsd.sh</span></strong> that implements the disambiguation specified as above invoked as:</p>
-			<p><span style="font-family: courier;">hw8_resnik_wsd.sh &lt;information_content_file_type&gt; &lt;wsd_test_filename&gt; &lt;judgment_file&gt; &lt;output_filename&gt; </span></p>
+			<p><span style="font-family: courier;">hw8_resnik_wsd.sh &lt;information_content_file&gt; &lt;wsd_test_filename&gt; &lt;judgment_file&gt; &lt;output_filename&gt; </span></p>
 			<ul>
-				<li><span style="font-family: courier;">&lt;information_content_file_type&gt;</span>
+				<li><span style="font-family: courier;">&lt;information_content_file&gt;</span>
 					<ul>
-						<li>This string should specify the source of the information content file.
-							<ul>
-								<li>The value should be <strong><span style="font-family: courier;">nltk</span></strong> if you use the built-in information content file: <strong><span style="font-family: courier;">ic-brown-resnik-add1.dat</span></strong>.</li>
-								<li>The value should be <strong><span style="font-family: courier;">myic</span></strong> if you choose to do the extra credit creation of the IC file yourself.</li>
-							</ul>
-						</li>
+						<li>This string should specify the source of the information content file.  It will be passed to <span style="font-family: courier">nltk.corpus.wordnet_ic.ic()</span> on patas.  </li>
 					</ul>
 				</li>
 				<li><span style="font-family: courier;">&lt;wsd_test_filename&gt;</span>
@@ -162,10 +159,12 @@
 					</li>
 				</ul>
 			</ul>
+			<!--
 			<h3>Extra credit notes:</h3>
 			<p>If you wish, for extra credit, you may implement a procedure to calculate the information content measure yourself using one of the WordNet synset-tagged corpus excerpts provided with NLTK (such as the SemCor corpus) or elsewhere on the department cluster.</p>
 			<p>It should produce an output file of a format similar to that in the NLTK WordNet IC files.</p>
 			<p>[<a href="#top">Back to Top</a>]</p>
+			-->
 			<h2><a name="files"></a>Files</h2>
 			<p>All files are found in <span style="font-family: courier;">/dropbox/19-20/571/hw8/</span> on patas:</p>
 			<h3>Test, Gold Standard, and Example</h3>
@@ -202,7 +201,7 @@
 				<li><strong><span style="font-family: courier;">example_output.txt</span></strong>
 					<ul>
 						<li>Formatted (partial) example output file.</li>
-						<li><strong>Note:</strong> Please note that the Resnik WSD approach may not be able to disambiguate these words corectly. You will probably achieve about 60% accuracy overall. The earlier instances are generally easier than the later ones.</li>
+						<li><strong>Note:</strong> Please note that the Resnik WSD approach may not be able to disambiguate these words correctly. You will probably achieve about 60% accuracy overall. The earlier instances are generally easier than the later ones.</li>
 					</ul>
 				</li>
 			</ul>
@@ -212,8 +211,10 @@
 					<ul>
 						<li><strong><span style="font-family: courier;"> hw8_resnik_wsd.sh</span></strong>: Program which implements and evaluates your WordNet-based word sense disambiguation algorithm based on Resnik&#8217;s approach.</li>
 						<li><strong><span style="font-family: courier;"> hw8_output.txt</span></strong>: Output of running your program with the NLTK information content file.</li>
+						<!--
 						<li><strong><em>(Optional)</em>: <span style="font-family: courier;">hw8_myic_output.txt</span></strong>: Output of running your program with your own self-calculated information content values.</li>
 						<li><strong><em>(Optional)</em>: <span style="font-family: courier;">hw8_myic.txt</span></strong>: The information content file that you created yourself for extra credit based on the Brown corpus.</li>
+						-->
 					</ul>
 				</li>
 				<li><strong><span style="font-family: courier;">readme.{txt|pdf}</span></strong>: Write-up file
