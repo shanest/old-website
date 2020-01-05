@@ -27,17 +27,17 @@ title = {{Analysing Neural Language Models: Contextual Decomposition Reveals Def
 url = {http://arxiv.org/abs/1909.08975},
 year = {2019}
 }
-@article{McCoy2018,
+@inproceedings{McCoy2018,
 abstract = {Recurrent neural networks (RNNs) can learn continuous vector representations of symbolic structures such as sequences and sentences; these representations often exhibit linear regularities (analogies). Such regularities motivate our hypothesis that RNNs that show such regularities implicitly compile symbolic structures into tensor product representations (TPRs; Smolensky, 1990), which additively combine tensor products of vectors representing roles (e.g., sequence positions) and vectors representing fillers (e.g., particular words). To test this hypothesis, we introduce Tensor Product Decomposition Networks (TPDNs), which use TPRs to approximate existing vector representations. We demonstrate using synthetic data that TPDNs can successfully approximate linear and tree-based RNN autoencoder representations, suggesting that these representations exhibit interpretable compositional structure; we explore the settings that lead RNNs to induce such structure-sensitive representations. By contrast, further TPDN experiments show that the representations of four models trained to encode naturally-occurring sentences can be largely approximated with a bag-of-words, with only marginal improvements from more sophisticated structures. We conclude that TPDNs provide a powerful method for interpreting vector representations, and that standard RNNs can induce compositional sequence representations that are remarkably well approximated by TPRs; at the same time, existing training tasks for sentence representation learning may not be sufficient for inducing robust structural representations.},
 archivePrefix = {arXiv},
 arxivId = {1812.08718},
 author = {McCoy, R. Thomas and Linzen, Tal and Dunbar, Ewan and Smolensky, Paul},
+booktitle = {International Conference of Learning Representations (ICLR)},
 eprint = {1812.08718},
-file = {:Users/shanest/Documents/Library/McCoy et al/Unknown/McCoy et al. - 2018 - RNNs Implicitly Implement Tensor Product Representations.pdf:pdf},
-pages = {1--22},
+file = {:Users/shanest/Documents/Library/McCoy et al/International Conference of Learning Representations (ICLR)/McCoy et al. - 2019 - RNNs Implicitly Implement Tensor Product Representations.pdf:pdf},
 title = {{RNNs Implicitly Implement Tensor Product Representations}},
 url = {http://arxiv.org/abs/1812.08718},
-year = {2018}
+year = {2019}
 }
 @inproceedings{Peters2019,
 abstract = {Contextual word representations derived from pre-trained bidirectional language models (biLMs) have recently been shown to provide significant improvements to the state of the art for a wide range of NLP tasks. However, many questions remain as to how and why these models are so effective. In this paper, we present a detailed empirical study of how the choice of neural architecture (e.g. LSTM, CNN, or self attention) influences both end task accuracy and qualitative properties of the representations that are learned. We show there is a tradeoff between speed and accuracy, but all architectures learn high quality contextual representations that outperform word embeddings for four challenging NLP tasks. Additionally, all architectures learn representations that vary with network depth, from exclusively morphological based at the word embedding layer through local syntax based in the lower contextual layers to longer range semantics such coreference at the upper layers. Together, these results suggest that unsupervised biLMs, independent of architecture, are learning much more about the structure of language than previously appreciated.},
@@ -110,18 +110,6 @@ file = {:Users/shanest/Documents/Library/Coenen et al/Proceedings of the 33rd Co
 title = {{Visualizing and Measuring the Geometry of BERT}},
 year = {2019}
 }
-@article{Lake2017,
-abstract = {Humans can understand and produce new utterances effortlessly, thanks to their systematic compositional skills. Once a person learns the meaning of a new verb "dax," he or she can immediately understand the meaning of "dax twice" or "sing and dax." In this paper, we introduce the SCAN domain, consisting of a set of simple compositional navigation commands paired with the corresponding action sequences. We then test the zero-shot generalization capabilities of a variety of recurrent neural networks (RNNs) trained on SCAN with sequence-to-sequence methods. We find that RNNs can generalize well when the differences between training and test commands are small, so that they can apply "mix-and-match" strategies to solve the task. However, when generalization requires systematic compositional skills (as in the "dax" example above), RNNs fail spectacularly. We conclude with a proof-of-concept experiment in neural machine translation, supporting the conjecture that lack of systematicity is an important factor explaining why neural networks need very large training sets.},
-archivePrefix = {arXiv},
-arxivId = {1711.00350},
-author = {Lake, Brenden M. and Baroni, Marco},
-eprint = {1711.00350},
-file = {:Users/shanest/Documents/Library/Lake, Baroni/Unknown/Lake, Baroni - 2017 - Still not systematic after all these years On the compositional skills of sequence-to-sequence recurrent networks.pdf:pdf},
-pages = {1--12},
-title = {{Still not systematic after all these years: On the compositional skills of sequence-to-sequence recurrent networks}},
-url = {http://arxiv.org/abs/1711.00350},
-year = {2017}
-}
 @article{Hahn2019,
 abstract = {Recurrent neural networks (RNNs) have reached striking performance in many natural language processing tasks. This has renewed interest in whether these generic sequence processing devices are inducing genuine linguistic knowledge. Nearly all current analytical studies, however, initialize the RNNs with a vocabulary of known words, and feed them tokenized input during training. We present a multi-lingual study of the linguistic knowledge encoded in RNNs trained as character-level language models, on input data with word boundaries removed. These networks face a tougher and more cognitively realistic task, having to discover any useful linguistic unit from scratch based on input statistics. The results show that our “near tabula rasa” RNNs are mostly able to solve morphological, syntactic and semantic tasks that intuitively presuppose word-level knowledge, and indeed they learned, to some extent, to track word boundaries. Our study opens the door to speculations about the necessity of an explicit, rigid word lexicon in language learning and usage.},
 archivePrefix = {arXiv},
@@ -136,21 +124,21 @@ title = {{ Tabula Nearly Rasa: Probing the Linguistic Knowledge of Character-lev
 volume = {7},
 year = {2019}
 }
-@article{Sengupta2014,
-abstract = {It has been proposed that the ability of humans to quickly perceive numerosity involves a visual sense of number. Different paradigms of enumeration and numerosity comparison have produced a gamut of behavioral and neuroimaging data, but there has been no unified conceptual framework that can explain results across the entire range of numerosity. The current work tries to address the ongoing debate concerning whether the same mechanism operates for enumeration of small and large numbers, through a computational approach. We describe the workings of a single-layered, fully connected network characterized by self-excitation and recurrent inhibition that operates at both subitizing and estimation ranges. We show that such a network can account for classic numerical cognition effects (the distance effect, Fechner's law, Weber fraction for numerosity comparison) through the network steady state activation response across different recurrent inhibition values. The model also accounts for fMRI data previously reported for different enumeration related tasks. The model also allows us to generate an estimate of the pattern of reaction times in enumeration tasks. Overall, these findings suggest that a single network architecture can account for both small and large number processing.},
-author = {Sengupta, Rakesh and Surampudi, Bapi Raju and Melcher, David},
-doi = {10.1016/j.brainres.2014.03.014},
-file = {:Users/shanest/Documents/Library/Sengupta, Surampudi, Melcher/Brain Research/Sengupta, Surampudi, Melcher - 2014 - A visual sense of number emerges from the dynamics of a recurrent on-center off-surround neural ne.pdf:pdf},
-issn = {18726240},
-journal = {Brain Research},
-keywords = {Computational model On-center off-surround,Enumeration,Neural network,Numerical cognition,Spatial attention Individuation,Visual sense of numbers},
-pages = {114--124},
-pmid = {25108042},
-publisher = {Elsevier},
-title = {{A visual sense of number emerges from the dynamics of a recurrent on-center off-surround neural network}},
-url = {http://dx.doi.org/10.1016/j.brainres.2014.03.014},
-volume = {1582},
-year = {2014}
+@inproceedings{McCoy2019,
+abstract = {Machine learning systems can often achieve high performance on a test set by relying on heuristics that are effective for frequent example types but break down in more challenging cases. We study this issue within natural language inference (NLI), the task of determining whether one sentence entails another. Based on an analysis of the task, we hypothesize three fallible syntactic heuristics that NLI models are likely to adopt: the lexical overlap heuristic, the subsequence heuristic, and the constituent heuristic. To determine whether models have adopted these heuristics, we introduce a controlled evaluation set called HANS (Heuristic Analysis for NLI Systems), which contains many examples where the heuristics fail. We find that models trained on MNLI, including the state-of-the-art model BERT, perform very poorly on HANS, suggesting that they have indeed adopted these heuristics. We conclude that there is substantial room for improvement in NLI systems, and that the HANS dataset can motivate and measure progress in this area.},
+address = {Stroudsburg, PA, USA},
+archivePrefix = {arXiv},
+arxivId = {1902.01007},
+author = {McCoy, Tom and Pavlick, Ellie and Linzen, Tal},
+booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+doi = {10.18653/v1/P19-1334},
+eprint = {1902.01007},
+file = {:Users/shanest/Documents/Library/McCoy, Pavlick, Linzen/Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics/McCoy, Pavlick, Linzen - 2019 - Right for the Wrong Reasons Diagnosing Syntactic Heuristics in Natural Language Inference.pdf:pdf},
+pages = {3428--3448},
+publisher = {Association for Computational Linguistics},
+title = {{Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference}},
+url = {https://www.aclweb.org/anthology/P19-1334},
+year = {2019}
 }
 @article{Goldberg2019,
 abstract = {I assess the extent to which the recently introduced BERT model captures English syntactic phenomena, using (1) naturally-occurring subject-verb agreement stimuli; (2) "coloreless green ideas" subject-verb agreement stimuli, in which content words in natural sentences are randomly replaced with words sharing the same part-of-speech and inflection; and (3) manually crafted stimuli for subject-verb agreement and reflexive anaphora phenomena. The BERT model performs remarkably well on all cases.},
@@ -175,19 +163,6 @@ journal = {Transactions of the Association for Computational Linguistics},
 title = {{Neural Network Acceptability Judgments}},
 url = {http://arxiv.org/abs/1805.12471},
 year = {2019}
-}
-@article{Stoianov2012,
-abstract = {Numerosity estimation is phylogenetically ancient and foundational to human mathematical learning, but its computational bases remain controversial. Here we show that visual numerosity emerges as a statistical property of images in 'deep networks' that learn a hierarchical generative model of the sensory input. Emergent numerosity detectors had response profiles resembling those of monkey parietal neurons and supported numerosity estimation with the same behavioral signature shown by humans and animals.},
-author = {Stoianov, Ivilin and Zorzi, Marco},
-doi = {10.1038/nn.2996},
-file = {:Users/shanest/Documents/Library/Stoianov, Zorzi/Nature Neuroscience/Stoianov, Zorzi - 2012 - Emergence of a `visual number sense' in hierarchical generative models.pdf:pdf;:Users/shanest/Documents/Library/Stoianov, Zorzi/Nature Neuroscience/Stoianov, Zorzi - 2012 - Emergence of a `visual number sense' in hierarchical generative models(2).pdf:pdf},
-journal = {Nature Neuroscience},
-number = {2},
-pages = {194--196},
-publisher = {Nature Publishing Group},
-title = {{Emergence of a `visual number sense' in hierarchical generative models}},
-volume = {15},
-year = {2012}
 }
 @article{Potts2018,
 archivePrefix = {arXiv},
@@ -405,9 +380,9 @@ year = {2019}
 abstract = {Recent work has improved our ability to detect linguistic knowledge in word representations. However, current methods for detecting syntactic knowledge do not test whether syntax trees are represented in their entirety. In this work, we propose a structural probe, which evaluates whether syntax trees are embedded in a linear transformation of a neural network's word representation space. The probe identifies a linear transformation under which squared L2 distance encodes the distance between words in the parse tree, and one in which squared L2 norm encodes depth in the parse tree. Using our probe, we show that such transformations exist for both ELMo and BERT but not in baselines, providing evidence that entire syntax trees are embedded implicitly in deep models' vector geometry.},
 address = {Stroudsburg, PA, USA},
 author = {Hewitt, John and Manning, Christopher D.},
-booktitle = {Proceedings of the 2019 Conference of the North},
+booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
 doi = {10.18653/v1/N19-1419},
-file = {:Users/shanest/Documents/Library/Hewitt, Manning/Proceedings of the 2019 Conference of the North/Hewitt, Manning - 2019 - A Structural Probe for Finding Syntax in Word Representations.pdf:pdf},
+file = {:Users/shanest/Documents/Library/Hewitt, Manning/Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics Human Language Technologie./Hewitt, Manning - 2019 - A Structural Probe for Finding Syntax in Word Representations.pdf:pdf},
 pages = {4129--4138},
 publisher = {Association for Computational Linguistics},
 title = {{A Structural Probe for Finding Syntax in Word Representations}},
@@ -498,12 +473,11 @@ title = {{Linguistic Knowledge and Transferability of Contextual Representations
 url = {http://arxiv.org/abs/1903.08855 http://aclweb.org/anthology/N19-1112},
 year = {2019}
 }
-@article{Linzen2018,
+@inproceedings{Linzen2018,
 author = {Linzen, Tal and Leonard, Brian},
-file = {:Users/shanest/Documents/Library/Linzen, Leonard/CogSci/Linzen, Leonard - 2018 - Distinct patterns of syntactic agreement errors in recurrent networks and humans.pdf:pdf},
-journal = {CogSci},
+booktitle = {Proceedings of the 40th Annual Conference of the Cognitive Science Society},
+file = {:Users/shanest/Documents/Library/Linzen, Leonard/Proceedings of the 40th Annual Conference of the Cognitive Science Society/Linzen, Leonard - 2018 - Distinct patterns of syntactic agreement errors in recurrent networks and humans.pdf:pdf},
 keywords = {agreement attraction,psycholinguistics,recurrent neural net-,syntax,works},
-number = {Figure 1},
 title = {{Distinct patterns of syntactic agreement errors in recurrent networks and humans}},
 year = {2018}
 }
@@ -527,6 +501,21 @@ journal = {CEUR Workshop Proceedings},
 title = {{Diagnostic classifiers: Revealing how neural networks process hierarchical structure}},
 volume = {1773},
 year = {2016}
+}
+@inproceedings{Lin2019,
+address = {Stroudsburg, PA, USA},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1906.01698v1},
+author = {Lin, Yongjie and Tan, Yi Chern and Frank, Robert},
+booktitle = {Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP},
+doi = {10.18653/v1/W19-4825},
+eprint = {arXiv:1906.01698v1},
+file = {:Users/shanest/Documents/Library/Lin, Tan, Frank/Proceedings of the 2019 ACL Workshop BlackboxNLP Analyzing and Interpreting Neural Networks for NLP/Lin, Tan, Frank - 2019 - Open Sesame Getting inside BERT's Linguistic Knowledge.pdf:pdf},
+pages = {241--253},
+publisher = {Association for Computational Linguistics},
+title = {{Open Sesame: Getting inside BERT's Linguistic Knowledge}},
+url = {https://www.aclweb.org/anthology/W19-4825},
+year = {2019}
 }
 @inproceedings{Bolukbasi2016,
 abstract = {The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors which has been used in many machine learning and natural language processing tasks. We show that even word embeddings trained on Google News articles exhibit female/male gender stereotypes to a disturbing extent. This raises concerns because their widespread use, as we describe, often tends to amplify these biases. Geometrically, gender bias is first shown to be captured by a direction in the word embedding. Second, gender neutral words are shown to be linearly separable from gender definition words in the word embedding. Using these properties, we provide a methodology for modifying an embedding to remove gender stereotypes, such as the association between between the words receptionist and female, while maintaining desired associations such as between the words queen and female. We define metrics to quantify both direct and indirect gender biases in embeddings, and develop algorithms to "debias" the embedding. Using crowd-worker evaluation as well as standard benchmarks, we empirically demonstrate that our algorithms significantly reduce gender bias in embeddings while preserving the its useful properties such as the ability to cluster related concepts and to solve analogy tasks. The resulting embeddings can be used in applications without amplifying gender bias.},
@@ -555,6 +544,21 @@ title = {{Correlating Neural and Symbolic Representations of Language}},
 url = {https://www.aclweb.org/anthology/P19-1283},
 year = {2019}
 }
+@inproceedings{Lakretz2019,
+address = {Stroudsburg, PA, USA},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1903.07435v1},
+author = {Lakretz, Yair and Kruszewski, German and Desbordes, Theo and Hupkes, Dieuwke and Dehaene, Stanislas and Baroni, Marco},
+booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
+doi = {10.18653/v1/N19-1002},
+eprint = {arXiv:1903.07435v1},
+file = {:Users/shanest/Documents/Library/Lakretz et al/Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics Human Language Technologie./Lakretz et al. - 2019 - The emergence of number and syntax units in LSTM language models.pdf:pdf},
+pages = {11--20},
+publisher = {Association for Computational Linguistics},
+title = {{The emergence of number and syntax units in LSTM language models}},
+url = {http://aclweb.org/anthology/N19-1002},
+year = {2019}
+}
 @article{Pater2019,
 abstract = {The birthdate of both generative linguistics and neural networks can be taken as 1957, the year of the publication of foundational work by both Noam Chomsky and Frank Rosenblatt. This paper traces the development of these two approaches to cognitive science, from their largely autonomous early development in their first thirty years, through their collision in the 1980s around the past tense debate (Rumelhart and McClelland 1986, Pinker and Prince 1988), and their integration in much subsequent work up to the present, 2017. Although this integration has produced a considerable body of results, the continued general gulf between these two lines of research is likely impeding progress in both: on learning in generative linguistics, and on the representation of language in neural modeling. The paper concludes with a brief argument that generative linguistics is unlikely to fulfill its promise of accounting for language learning if it continues to maintain its distance from neural and other statistical approaches to learning.},
 author = {Pater, Joe},
@@ -565,20 +569,6 @@ number = {1},
 title = {{Generative linguistics and neural networks at 60: Foundation, friction, and fusion}},
 volume = {95},
 year = {2019}
-}
-@article{Monner2012,
-abstract = {Fodor and Pylyshyn [(1988). Connectionism and cognitive architecture: A critical analysis. Cognition, 28(1-2), 3-71] famously argued that neural networks cannot behave systematically short of implementing a combinatorial symbol system. A recent response from Frank et al. [(2009). Connectionist semantic systematicity. Cognition, 110(3), 358-379] claimed to have trained a neural network to behave systematically without implementing a symbol system and without any in-built predisposition towards combinatorial representations. We believe systems like theirs may in fact implement a symbol system on a deeper and more interesting level: one where the symbols are latent - not visible at the level of network structure. In order to illustrate this possibility, we demonstrate our own recurrent neural network that learns to understand sentence-level language in terms of a scene. We demonstrate our model's learned understanding by testing it on novel sentences and scenes. By paring down our model into an architecturally minimal version, we demonstrate how it supports combinatorial computation over distributed representations by using the associative memory operations of Vector Symbolic Architectures. Knowledge of the model's memory scheme gives us tools to explain its errors and construct superior future models. We show how the model designs and manipulates a latent symbol system in which the combinatorial symbols are patterns of activation distributed across the layers of a neural network, instantiating a hybrid of classical symbolic and connectionist representations that combines advantages of both. {\textcopyright} 2012 Copyright Taylor and Francis Group, LLC.},
-author = {Monner, Derek and Reggia, James A.},
-doi = {10.1080/09540091.2013.798262},
-file = {:Users/shanest/Documents/Library/Monner, Reggia/Connection Science/Monner, Reggia - 2012 - Emergent latent symbol systems in recurrent neural networks.pdf:pdf},
-issn = {09540091},
-journal = {Connection Science},
-keywords = {associative memory,distributed symbolic representation,latent symbol system,long short-term memory,recurrent neural network},
-number = {4},
-pages = {193--225},
-title = {{Emergent latent symbol systems in recurrent neural networks}},
-volume = {24},
-year = {2012}
 }
 @article{Baroni2019,
 abstract = {In the last decade, deep artificial neural networks have achieved astounding performance in many natural language processing tasks. Given the high productivity of language, these models must possess effective generalization abilities. It is widely assumed that humans handle linguistic productivity by means of algebraic compositional rules: Are deep networks similarly compositional? After reviewing the main innovations characterizing current deep language processing networks, I discuss a set of studies suggesting that deep networks are capable of subtle grammar-dependent generalizations, but also that they do not rely on systematic compositional rules. I argue that the intriguing behaviour of these devices (still awaiting a full understanding) should be of interest to linguists and cognitive scientists, as it offers a new perspective on possible computational strategies to deal with linguistic productivity beyond rule-based compositionality, and it might lead to new insights into the less systematic generalization patterns that also appear in natural language.},
