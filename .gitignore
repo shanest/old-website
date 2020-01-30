@@ -8,3 +8,4 @@ evals.pdf
 teaching/**/hw/*.*
 !teaching/**/hw/*.tex
 !teaching/**/hw/*.pdf
+*.gsheet
