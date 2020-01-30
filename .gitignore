@@ -9,3 +9,4 @@ teaching/**/hw/*.*
 !teaching/**/hw/*.tex
 !teaching/**/hw/*.pdf
 *.gsheet
+*.pptx
