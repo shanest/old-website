@@ -10,3 +10,4 @@ teaching/**/hw/*.*
 !teaching/**/hw/*.pdf
 *.gsheet
 *.pptx
+sonia/*/data/
