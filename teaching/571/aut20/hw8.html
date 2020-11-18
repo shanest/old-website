@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+		<title>UW LING 571: HW8 (Fall 2020)</title>
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/navbar-top-fixed.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '20]</a>
+				<a class="navbar-brand ml-auto" href="#">Homework 8</a>
+				<!--
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item active">
+	    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	    </li>
+	    <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	    </li>
+	    </ul>
+	    </div>
+				-->
+			</div>
+		</nav>
+
+		<main role="main" class="container">
+			<p class="lead">This assignment is due <strong>Wednesday, November 25 at 11PM</strong>.</p>
+			<p><a name="top"></a></p>
+			<ol>
+				<li><a href="#goals"> Goals </a></li>
+				<li><a href="#bg">Background</a></li>
+				<li><a href="#implement">Implementing WSD using Resnik&#8217;s Similarity Measure</a></li>
+				<li><a href="#program">Programming</a></li>
+				<li><a href="#files">Files</a></li>
+			</ol>
+			<h2><a name="goals"></a>Goals</h2>
+			<p>Through this assignment you will:</p>
+			<ul>
+				<li>Explore issues in word sense disambiguation.</li>
+				<li>Gain familiarity with WordNet and the WordNet API.</li>
+				<li>Gain some further familiarity with NLTK.</li>
+				<li>Implement a thesaurus-based word sense disambiguation technique on standard data.</li>
+			</ul>
+			<p>[<a href="#top">Back to Top</a>]</p>
+			<h2><a name="bg"></a>Background</h2>
+			<p>Please review the class slides and readings in the textbook on lexical semantics, including WordNet, and word sense disambiguation. Also please read the <a href="https://doi.org/10.1613/jair.514">article</a> Section 5.1, describing Resnik&#8217;s word sense disambiguation in groupings approach in detail.</p>
+			<p><strong>Note:</strong> You will be implementing a somewhat simplified version of Resnik&#8217;s approach as detailed below.</p>
+			<p>For additional information on NLTK&#8217;s WordNet API and information content measures, see:</p>
+			<ul>
+				<li><a href="http://www.nltk.org/howto/wordnet.html">the NLTK WordNet HowTo</a></li>
+				<li><a href="http://www.nltk.org/api/nltk.corpus.reader.html#module-nltk.corpus.reader.wordnet">NLTK Word corpus reader info</a></li>
+			</ul>
+			<p>[<a href="#top">Back to Top</a>]</p>
+			<h2><a name="implement"></a>Implementing Word Sense Disambinguation and Similarity using Resnik&#8217;s Similarity Measure</h2>
+			<p>Based on the examples in the text, class slides, and other resources, implement a program to perform Word Sense Disambiguation based on noun groups, using Resnik&#8217;s method and WordNet-based similarity measure. Then compute and compare similarity scores for a set of human judgments. Specifically, your program should:</p>
+			<!--
+			<ol start="0">
+				<li><strong>(<em>Optionally, for extra credit</em></strong>) Create a file associating information with WordNet concepts, computed based on the Brown corpus (e.g. with NLTK's SemCor).</li>				
+			-->
+				<li>Load information content values for WordNet from a file.</li>
+				<li>Read in a file of (<span style="font-family: courier;">probe word, noun group</span>) pairs</li>
+				<li>For each (<span style="font-family: courier;">probe word, noun group</span>) pair:
+					<ol type="a">
+						<li>Use &#8220;Resnik similarity&#8221; based on WordNet and information content to compute the preferred WordNet sense for the probe word given the noun group context.</li>
+						<li>On a single line, for each <span style="font-family: courier;">(probe word, noun group word)</span> pair:</li>
+					</ol>
+					<ul>
+						<li>print the similarity between the probe word and each noun group word in the format
+							<ul>
+								<li><span style="font-family: courier;">(probe word, noun group word, Resnik similarity score)</span></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>On a separate line, print out the preferred sense, by synsetID, of the word.</li>
+				<li>Read in a file of human judgments of similarity between pairs of words.</li>
+				<li>For each word pair in the file:
+					<ul>
+						<li>Compute the similarity between the two words, using the <strong>Resnik similarity</strong> measure</li>
+						<li>Print out the similarity as:
+							<ul>
+								<li><span style="font-family: courier;">wd1,wd2:similarity</span></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>Lastly, compute and print the Spearman correlation between the similarity scores you have computed and the human-generated similarity scores in the provided file as:
+					<ul>
+						<li><span style="font-family: courier;">Correlation:computed_correlation</span>.</li>
+						<li>You may use any available software for computing the correlation. In Python, you can use <strong><span style="font-family: courier;">spearmanr</span></strong> from <strong><span style="font-family: courier;">scipy.stats</span></strong>.</li>
+					</ul>
+				</li>
+			</ol>
+			<p><strong>NOTE:</strong> You do not need to select senses for all words, only for the probe word; this is a simplification of the word group disambiguation model in the paper. <br /><strong>NOTE:</strong> You may treat all the words in context groups as nouns. You are not responsible for cross-POS similarity.</p>
+			<p>[<a href="#top">Back to Top</a>]</p>
+			<h2><a name="program"></a>Programming</h2>
+			<p>Create a program <strong><span style="font-family: courier;">hw8_resnik_wsd.sh</span></strong> that implements the disambiguation specified as above invoked as:</p>
+			<p><span style="font-family: courier;">hw8_resnik_wsd.sh &lt;information_content_file&gt; &lt;wsd_test_filename&gt; &lt;judgment_file&gt; &lt;output_filename&gt; </span></p>
+			<ul>
+				<li><span style="font-family: courier;">&lt;information_content_file&gt;</span>
+					<ul>
+						<li>This string should specify the source of the information content file.  It will be passed to <span style="font-family: courier">nltk.corpus.wordnet_ic.ic()</span> on patas.  </li>
+					</ul>
+				</li>
+				<li><span style="font-family: courier;">&lt;wsd_test_filename&gt;</span>
+					<ul>
+						<li>This is the name of the file that contains the lines of <span style="font-family: courier;">&#8220;probe-word, noun group words&#8221;</span> pairs on which to evaluate your system.</li>
+					</ul>
+				</li>
+				<li><span style="font-family: courier;">&lt;judgment_filename&gt;</span>
+					<ul>
+						<li>The name of the input file holding human judgments of the pairs of words and their similarity to evaluate against, <span style="font-family: courier;">mc_similarity.txt</span>.</li>
+						<li>Each line is of the form:
+							<ul>
+								<li><span style="font-family: courier;">wd1,wd2,similarity_score </span></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><span style="font-family: courier;">&lt;output_filename&gt;</span>
+					<ul>
+						<li>This is the name of the file to which you should write your results.</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>Implementation Resources</h3>
+			<p>Resnik&#8217;s similarity measure relies on two components:</p>
+			<ul>
+				<li>the WordNet taxonomy</li>
+				<ul>
+					<li>NLTK implements a Python implementation of the WordNet API which you are encouraged to use. There are other WordNet APIs, and you may use them, but they come with no warranty, and may require substantial effort to work with.
+						<p><strong>NOTE:</strong> You may use the API to access components of WordNet, extract synsets, identify hypernyms, etc. You may <strong>NOT</strong> use the methods which directly implement the similarity measure or the identification of Most Informative Subsumer. You <strong>must</strong> implement those functions yourself as procedures for the similarity calculcation. You may use accessors such as common_hypernyms and information_content. If you have questions about the admissibility of a procedure, please ask; I&#8217;ll clarify as quickly as I can.</p>
+					</li>
+				</ul>
+				<li>a corpus-based information content measure.</li>
+				<ul>
+					<li>The NLTK corpus reader provides a number of resources for information content calculation including frequency tables indexed by WordNet offset and part-of-speech in <span style="font-family: courier;">/corpora/nltk/nltk-data/corpora/wordnet_ic/</span>.
+						<p>For consistency and quality, I would suggest that you use <span style="font-family: courier;">/corpora/nltk/nltk-data/corpora/wordnet_ic/ic-brown-resnik-add1.dat</span>, which derives its counts from the &#8216;balanced&#8217; Brown Corpus, using fractional counts and add1 smoothing to avoid zero counts. (Not that there aren&#8217;t other problems with words not in WordNet&#8230;) You may use this source either through the NLTK API (as in <span style="font-family: courier;">wnic = nltk.corpus.wordnet_ic.ic(&#8216;ic-brown-resnik-add1.dat&#8217;)</span> or directly through methods that you implement yourself. The file is flat text.</p>
+						<p><strong>NOTE:</strong> The IC files assume that you are using WordNet 3.0. If you choose to use a different API but want to use the precomputed IC measures, you must make sure to use WordNet version 3.0, or the IC measures will be inconsistent.</p>
+					</li>
+				</ul>
+			</ul>
+			<!--
+			<h3>Extra credit notes:</h3>
+			<p>If you wish, for extra credit, you may implement a procedure to calculate the information content measure yourself using one of the WordNet synset-tagged corpus excerpts provided with NLTK (such as the SemCor corpus) or elsewhere on the department cluster.</p>
+			<p>It should produce an output file of a format similar to that in the NLTK WordNet IC files.</p>
+			<p>[<a href="#top">Back to Top</a>]</p>
+			-->
+			<h2><a name="files"></a>Files</h2>
+			<p>All files are found in <span style="font-family: courier;">/dropbox/20-21/571/hw8/</span> on patas:</p>
+			<h3>Test, Gold Standard, and Example</h3>
+			<ul>
+				<li><strong><span style="font-family: courier;">wsd_contexts.txt</span></strong>
+					<ul>
+						<li>File of probe words with disambiguation word grouping lists. Each line is formatted as:
+							<ul>
+								<li><span style="font-family: courier;">probe_word\tnoun_group</span>
+									<ul>
+										<li><span style="font-family: courier;">probe_word</span> is the word to disambiguate</li>
+										<li><span style="font-family: courier;">noun_group</span> is the comma-separated word list that serves as disambiguation context</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">wsd_contexts.txt.gold</span></strong>
+					<ul>
+						<li>Corresponding file with gold standard sense tags, in which the sense id and gloss are prepended to the original line.</li>
+						<li><strong>NOTE:</strong> These are manually constructed gold standards and glosses; you are not expected to produce the gloss in your own output. This file is for reference purposes.</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">mc_similarity.txt</span></strong>
+					<ul>
+						<li>These are the pairs of words whose similarity is to be evaluated under each of your models, along with human similarity judgments from [<a href="https://www.tandfonline.com/doi/abs/10.1080/01690969108406936">Miller and Charles, 1991</a>]. Each line is of the form
+							<ul>
+								<li><span style="font-family: courier;"> wd1,wd2,similarity_score </span></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">example_output.txt</span></strong>
+					<ul>
+						<li>Formatted (partial) example output file.</li>
+						<li><strong>Note:</strong> Please note that the Resnik WSD approach may not be able to disambiguate these words correctly. You will probably achieve about 60% accuracy overall. The earlier instances are generally easier than the later ones.</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>Submission Files</h3>
+			<ul>
+				<li><strong><span style="font-family: courier;">hw8.tar.gz</span></strong>: Tarball containing the following:
+					<ul>
+						<li><strong><span style="font-family: courier;"> hw8_resnik_wsd.sh</span></strong>: Program which implements and evaluates your WordNet-based word sense disambiguation algorithm based on Resnik&#8217;s approach.</li>
+						<li><strong><span style="font-family: courier;"> hw8_output.txt</span></strong>: Output of running your program with the NLTK information content file.</li>
+						<!--
+						<li><strong><em>(Optional)</em>: <span style="font-family: courier;">hw8_myic_output.txt</span></strong>: Output of running your program with your own self-calculated information content values.</li>
+						<li><strong><em>(Optional)</em>: <span style="font-family: courier;">hw8_myic.txt</span></strong>: The information content file that you created yourself for extra credit based on the Brown corpus.</li>
+						-->
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">readme.{txt|pdf}</span></strong>: Write-up file
+					<ul>
+						<li>This file should describe and discuss your work on this assignment. Include problems you came across and how (or if) you were able to solve them, any insights, special features, and what you learned. Give examples if possible. If you were not able to complete parts of the project, discuss what you tried and/or what did not work. This will allow you to receive maximum credit for partial work.
+							<ul>
+								<li>In particular, you should discuss the successes and failures of the algorithm in predicting the desired word senses, as well as comparing the quality of correlation with human judgment.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<p>[<a href="#top">Back to Top</a>]</p>
+		</main>
+
+
+
+
+		<!-- Bootstrap core JavaScript
+	  ================================================== -->
+	  <!-- Placed at the end of the document so the pages load faster -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	  <!-- Google analytics -->
+	  <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-6353489-4', 'auto');
+ga('send', 'pageview');
+	  </script>
+	</body>
+</html>
