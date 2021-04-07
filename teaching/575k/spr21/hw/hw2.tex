@@ -9,7 +9,29 @@
 \maketitle
 
 
+In this assignment, you will answer some written questions about and then implement word2vec; in particular, the method \emph{skip-gram with negative sampling (SGNS)}.  By doing so you will:
+\begin{itemize}
+  \item Count parameters
+  \item Take derivatives of a loss
+  \item Translate mathematics into implemented code
+  \item Train your own set of word vectors and briefly analyze them
+\end{itemize}
+
 \section{Understanding Word2Vec}
+
+\noindent {\bf Q1: Parameters}  How many parameters are there in the SGNS model?  Write your answer in terms of $V$ (the vocabulary) and $d_e$, the embedding dimension.  [Hint: one parameter is \emph{a single real number}.]
+
+
+\vspace{2em}
+\noindent {\bf Q2: Sigmoid}  Sigmoid is the logistic curve $\sigma(x) = \frac{1}{1+e^{-x}}$.
+\begin{itemize}
+  \item What is the range of $\sigma(x)$?
+  \item How is it used in the SGNS model?
+  \item Compute $\frac{d\sigma}{dx}$; show your work.  [Hint: write your final answer in terms of $\sigma(x)$.]
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q3: Loss function}
 
 
 \section{Implementing Word2Vec}
