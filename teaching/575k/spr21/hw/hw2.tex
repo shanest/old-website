@@ -16,6 +16,7 @@ In this assignment, you will answer some written questions about and then implem
   \item Translate mathematics into implemented code
   \item Train your own set of word vectors and briefly analyze them
 \end{itemize}
+We \textbf{strongly recommend} doing this assignment in order.  Your answers in the written portion will make your implementation much easier, especially for the gradient computations.
 
 \section{Understanding Word2Vec}
 
@@ -31,20 +32,66 @@ In this assignment, you will answer some written questions about and then implem
 \end{itemize}
 
 \vspace{2em}
-\noindent {\bf Q3: Loss function}
+\noindent {\bf Q3: Loss function's gradients}  In the slides for lecture 3, we saw that the total loss for one positive example and $k$ negative examples is given by:
+$$ L_{CE} = -\log P(1 | w, c_+) - \sum_{i=1}^k P(0 | w, c_{-i})$$
+In what follows, where $x$ is a vector and $f$ a function of $x$ and possibly more variables, we will define $\nabla_x f := \langle \frac{\partial f}{\partial x_1} , \frac{\partial f}{\partial x_2}, \dots , \frac{\partial f}{\partial x_n} \rangle$.
+\begin{itemize}
+  \item Rewrite this loss in terms of the parameter matrices $E$ and $C$ (i.e. replace the $P(\cdot)$s with the definition of the model).
+
+        Use $w$ as the integer index of the target word, $c_+$ as the integer index of the positive context word, and $c_{-i}$ as the integer index of the $i$th negative sampled context word.
+  \item Using the chain rule, compute $\frac{d}{dx} -\log\sigma(x)$.  [Hint: first, show that $\sigma(x) = \frac{e^x}{e^x+1}$.]
+  \item Show that $\nabla_x x \cdot y = y$ (where $x \cdot y$ is the dot product of two vectors).
+  \item Compute $\nabla_{C_{c_+}} L_{CE}$.
+  \item Compute $\nabla_{C_{c_{-i}}} L_{CE}$.
+  \item Compute $\nabla_{E_w} L_{CE}$.
+\end{itemize}
 
 
 \section{Implementing Word2Vec}
 
+\noindent {\bf Q1: Data generation} In \texttt{data.py}
+\begin{itemize}
+  \item Implement \texttt{get\_positive\_samples}, which generates positive examples from a list of tokens.
+  \item Implement \texttt{negative\_samples}, which samples negative context words.  [Hint: \texttt{random.choices} is your friend.]
+\end{itemize}
+
 \vspace{2em}
-\noindent {\bf Q1: } 
+\noindent {\bf Q2: Model computation} In \texttt{word2vec.py}
+\begin{itemize}
+  \item Implement \texttt{SGNS.forward}.  This represents one ``forward pass'' of the skip-gram with negative sampling model, i.e. this computes $P(1 | w, c)$.  Note: use \texttt{self.embeddings} and \texttt{self.context\_embeddings}, which are defined in \texttt{\_\_init\_\_}.
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q3: Gradient computation} In \texttt{word2vec.py}, implement the following methods
+\begin{itemize}
+  \item \texttt{get\_positive\_context\_gradient}: this computes $\nabla_{C_{c_+}} L_{CE}$.
+  \item \texttt{get\_negative\_context\_gradients}: this computes the list of $\nabla_{C_{c_{-i}}} L_{CE}$ for each negative context word $c_{-i}$.
+  \item \texttt{get\_target\_word\_gradient}: this computes $\nabla_{E_w} L_{CE}$.
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q4: Train word vectors} Run the main training loop by calling \texttt{word2vec.py} with the following command-line arguments (defined in \texttt{util.py}):
+\begin{itemize}
+  \item 20 epochs
+  \item Save vectors to a file called vectors.tsv
+  \item Embedding dimension: 15
+  \item Learning rate: 0.25
+  \item Minimum frequency: 5
+\end{itemize}
+After that, run \texttt{python analysis.py --save\_vectors vectors.tsv --save\_plot vectors.png}.  This will take your saved vectors and produce a plot with the vectors (after using PCA to reduce dimensionality to 2) of a select choice of words.  In your readme file, please include: 
+\begin{itemize}
+  \item The total run-time of your training loop.  This will be printed by the main script.
+  \item The generated plot.
+  \item Describe in 2-3 sentences any trends that you see in these embeddings.
+\end{itemize}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Submission Instructions}
 
 In your submission, include the following:
 \begin{itemize}
-  \item readme.(txt$\mid$pdf) that includes your answers to \S1. 
+  \item readme.(txt$\mid$pdf) that includes your answers to \S1 as well as Q4 of \S2. 
   \item \texttt{hw2.tar.gz} containing:
   \begin{itemize}
     \item 
