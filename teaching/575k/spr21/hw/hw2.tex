@@ -40,7 +40,7 @@ In what follows, where $x$ is a vector and $f$ a function of $x$ and possibly mo
   \item Rewrite this loss in terms of the parameter matrices $E$ and $C$ (i.e. replace the $P(\cdot)$s with the definition of the model). [2 pts]
 
         Use $w$ as the integer index of the target word, $c_+$ as the integer index of the positive context word, and $c_{-i}$ as the integer index of the $i$th negative sampled context word.
-  \item Using the chain rule, compute $\frac{d}{dx} -\log\sigma(x)$.  [Hint: first, show that $\sigma(x) = \frac{e^x}{e^x+1}$.] [4 pts]
+  \item Using the chain rule, compute $\frac{d}{dx} -\log\sigma(x)$.  [Hint: first, show that $\sigma(x) = \frac{e^x}{e^x+1}$.  Note: $\log$ here is the natural logarithm, i.e. logarithm with base $e$.] [4 pts]
   \item Show that $\nabla_x x \cdot y = y$ (where $x \cdot y$ is the dot product of two vectors). [2 pts]
   \item Compute $\nabla_{C_{c_+}} L_{CE}$. [4 pts]
   \item Compute $\nabla_{C_{c_{-i}}} L_{CE}$. [4 pts]
@@ -53,6 +53,7 @@ In what follows, where $x$ is a vector and $f$ a function of $x$ and possibly mo
 Before getting started, a few notes on the implementation:
 \begin{itemize}
   \item Always start with small data!  To test various components of the pipeline, you can use the toy files in \texttt{/dropbox/20-21/575k/data/}.
+  \item All files referenced here are in \texttt{/dropbox/20-21/575k/hw2} on patas.
   \item The main training loop is at the bottom of \texttt{word2vec.py}.  You do not have to touch this, but can read it to see how the various components you implement are being used.
   \item This implementation uses a Vocabulary class, as implemented in HW1.  We will make a reference implementation available for use on Monday morning (after the late submission deadline); until then, you can use your own, by placing vocabulary.py in the same directory as your copy of the files for this assignment.
 \end{itemize}
