@@ -19,16 +19,16 @@
 
 \section{Understanding Computation Graphs}
 
-\noindent {\bf Q1: Worked example}  Consider the function $f(x) = x^2 \times 3x$.
+\noindent {\bf Q1: Worked example}  Consider the function $f(x) = x^2 \times cx$.
 \begin{itemize}
   \item Draw a computaton graph for this expression.
   \item How many nodes are there?  [Including input and output.]
-  \item For $x = 2$:
+  \item For $x = 2$ and $c=3$:
     \begin{itemize}
       \item Compute the value of each node in a forward pass.
       \item Compute $\frac{df}{dn}$ for each node $n$, using backpropagation.
     \end{itemize}
-  \item Consider the node corresponding to $x^2$ in the graph.  For each of the following, write a symbolic expression and the numerical value (at $x=2$) for:
+  \item Consider the node corresponding to $x^2$ in the graph.  For each of the following, write a symbolic expression and the numerical value (at $x=2$, $c=3$) for:
     \begin{itemize}
       \item The upstream derivative.
       \item The local derivative.
