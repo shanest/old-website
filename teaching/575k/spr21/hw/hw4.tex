@@ -20,7 +20,11 @@
 
 \section{Implementing the Deep Averaging Network + Loss}
 
-\noindent {\bf Q1: Implement DeepAveragingNetwork.forward} 
+\noindent {\bf Q1: Implement bag of words representation}
+
+\noindent {\bf Q2: Implement DeepAveragingNetwork.forward} 
+
+\noindent {\bf Q3: Cross Entropy Loss}
 
 
 \section{Implementing Adagrad}
@@ -38,13 +42,36 @@ In \texttt{run.py}, you will find a basic training loop for building a DAN and t
 \end{itemize}
 Each run will print to stdout (and, therefore, the output file you specify in your condor job script) the training and dev set loss for each epoch, and then the final model's accuracy on the dev set.
 
-
 \vspace{2em}
 \noindent {\bf Q1: Run 1, default arguments} Run the main training loop by calling \texttt{run.py} with all of the default arguments.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
 
-\vspace{2em}
+\vspace{4em}
 
 \noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+
+
+\vspace{2em}
+\noindent {\bf Q2: Run 2, $L_2$ regularization} Recall that $L_2$ regularization adds a penalty to the loss function corresponding to the size of the model's parameters:
+\[ \mathcal{L}'(\theta, y) = \mathcal{L}(\theta, y) + \lambda \|\theta\|^2 \]
+Run the main training loop by calling \texttt{run.py}, but with the $L_2$ parameter set to $1\times10^{-5}$ (this corresponds to $\lambda$ in the above equation).  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
+
+\vspace{4em}
+
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+
+
+\vspace{2em}
+\noindent {\bf Q3: Run 3, $L_2$ regularization + Word Dropout} Recall that word dropout randomly drops some percentage of word embeddings from the input.
+Run the main training loop by calling \texttt{run.py}, but with the $L_2$ parameter set to $1\times10^{-5}$ and word dropout set to $0.3$.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
+
+\vspace{4em}
+
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+
+
+\vspace{2em}
+\noindent {\bf Q4: Cross-run comparison} What trends do you notice in these metrics across the three runs?  What do they suggest to you about the impact of these hyperparameters on the model's performance?
+
 
 
 \section{Testing your code}
@@ -57,12 +84,13 @@ In the dropbox folder for this assignment, we will include a file \texttt{test\_
 
 In your submission, include the following:
 \begin{itemize}
-  \item readme.(txt$\mid$pdf) that includes your answers to \S1 as well as Q3 of \S2. 
-  \item \texttt{hw3.tar.gz} containing:
+  \item readme.(txt$\mid$pdf) that includes your answers to \S3. 
+  \item \texttt{hw4.tar.gz} containing:
   \begin{itemize}
-    \item run\_hw3.sh.  This should contain the code for activating the conda environment and your two commands for Q3 above.  You can use run\_hw2.sh from the previous assignment as a template.
-    \item word2vec.py
+    \item run\_hw4.sh.  This should contain the code for activating the conda environment and your three run commands for \S3 above.  You can use run\_hw2.sh from the previous assignment as a template.
+    \item model.py
     \item ops.py
+    \item data.py
   \end{itemize}
 \end{itemize}
 
