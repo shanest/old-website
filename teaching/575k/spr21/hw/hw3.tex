@@ -59,7 +59,7 @@ Recall: (i) you can use the list \texttt{ctx} in forward to store any values tha
 \noindent {\bf Q2: Model and BCE Loss} In \texttt{word2vec.py}
 \begin{itemize}
   \item Implement \texttt{dot\_product\_rows}.  Read the docstring for specification and hints.
-  \item Implement \texttt{SGNS.forward}.  This represents one ``forward pass'' of the skip-gram with negative sampling model, i.e. this computes $P(1 | w, c)$ for a batch of inputs.  You should use dot\_product\_rows here.
+  \item Implement \texttt{Word2Vec.forward}.  This represents one ``forward pass'' of the skip-gram with negative sampling model, i.e. this computes $P(1 | w, c)$ for a batch of inputs.  You should use dot\_product\_rows here.
   \item Implement \texttt{bce\_loss}.
 \end{itemize}
 
@@ -92,7 +92,7 @@ In your submission, include the following:
   \item readme.(txt$\mid$pdf) that includes your answers to \S1 as well as Q3 of \S2. 
   \item \texttt{hw3.tar.gz} containing:
   \begin{itemize}
-    \item run\_hw3.sh
+    \item run\_hw3.sh.  This should contain the code for activating the conda environment and your two commands for Q3 above.  You can use run\_hw2.sh from the previous assignment as a template.
     \item word2vec.py
     \item ops.py
   \end{itemize}
