@@ -20,9 +20,13 @@
 
 \section{Implementing the Deep Averaging Network + Loss}
 
-\noindent {\bf Q1: Implement bag of words representation}
+\noindent {\bf Q1: Implement bag of words representation}  The input to a DAN model is a \emph{bag of words}: a vector (a batch of such vectors, really) with counts of the vocabulary items at the corresponding indices (see slide 14 in lecture 6).  
 
-\noindent {\bf Q2: Implement DeepAveragingNetwork.forward} 
+\noindent In \texttt{data.py}, implement the building of this representation in \texttt{SSTClassificationDataset.example\_to\_tensors}.
+
+
+\vspace{2em}
+\noindent {\bf Q2: Implement DeepAveragingNetwork.forward}  
 
 \noindent {\bf Q3: Cross Entropy Loss}
 
@@ -33,10 +37,10 @@
 
 In \texttt{run.py}, you will find a basic training loop for building a DAN and training it on the Stanford Sentiment Treebank.  There are several command-line arguments specifying different arguments.  The default arguments for various hyper-parameters are:
 \begin{itemize}
-  \item Hidden dimension: 100
-  \item Embedding dimension: 100
+  \item Hidden dimension: 50
+  \item Embedding dimension: 50
   \item Batch size: 32
-  \item Number of epochs: 8
+  \item Number of epochs: 6
   \item Word dropout: 0.0 [i.e. no word dropout is applied]
   \item $L_2$ regularization: 0.0 [i.e. no regularization is applied]
 \end{itemize}
