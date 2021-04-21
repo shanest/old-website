@@ -1,0 +1,76 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+
+\begin{document}
+
+\title{LING 575K HW4}
+\date{\vspace{-0.2in}Due 11PM on Apr 30, 2021}
+\maketitle
+
+
+\noindent In this assignment, you will 
+\begin{itemize}
+  \item Develop your understanding of feed-forward networks for text classification
+  \item Implement the Deep Averaging Network
+  \item Understand a more sophisticated optimizer than vanilla SGD
+  \item Explore some regularization techniques
+\end{itemize}
+
+
+\section{Implementing the Deep Averaging Network + Loss}
+
+\noindent {\bf Q1: Implement DeepAveragingNetwork.forward} 
+
+
+\section{Implementing Adagrad}
+
+\section{Running the Deep Averaging Network}
+
+In \texttt{run.py}, you will find a basic training loop for building a DAN and training it on the Stanford Sentiment Treebank.  There are several command-line arguments specifying different arguments.  The default arguments for various hyper-parameters are:
+\begin{itemize}
+  \item Hidden dimension: 100
+  \item Embedding dimension: 100
+  \item Batch size: 32
+  \item Number of epochs: 8
+  \item Word dropout: 0.0 [i.e. no word dropout is applied]
+  \item $L_2$ regularization: 0.0 [i.e. no regularization is applied]
+\end{itemize}
+Each run will print to stdout (and, therefore, the output file you specify in your condor job script) the training and dev set loss for each epoch, and then the final model's accuracy on the dev set.
+
+
+\vspace{2em}
+\noindent {\bf Q1: Run 1, default arguments} Run the main training loop by calling \texttt{run.py} with all of the default arguments.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
+
+\vspace{2em}
+
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+
+
+\section{Testing your code}
+
+In the dropbox folder for this assignment, we will include a file \texttt{test\_all.py} with a few very simple unit tests for the methods that you need to implement.  You can verify that your code passes the tests by running \texttt{pytest} from your code's directory, with the course's conda environment activated.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Submission Instructions}
+
+In your submission, include the following:
+\begin{itemize}
+  \item readme.(txt$\mid$pdf) that includes your answers to \S1 as well as Q3 of \S2. 
+  \item \texttt{hw3.tar.gz} containing:
+  \begin{itemize}
+    \item run\_hw3.sh.  This should contain the code for activating the conda environment and your two commands for Q3 above.  You can use run\_hw2.sh from the previous assignment as a template.
+    \item word2vec.py
+    \item ops.py
+  \end{itemize}
+\end{itemize}
+
+
+
+
+
+\end{document}
+
+
+
