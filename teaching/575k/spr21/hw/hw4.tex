@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage{hyperref}
 \usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath}
 
 \begin{document}
 
@@ -26,12 +27,30 @@
 
 
 \vspace{2em}
-\noindent {\bf Q2: Implement DeepAveragingNetwork.forward}  
+\noindent {\bf Q2: Implement DeepAveragingNetwork.forward}  In \texttt{model.py}, you will find the skeleton of a Deep Averaging Network (with two hidden layers).  In particular, we have implemented the initialization of the Module.  You need to implement the forward method, which takes two inputs: a batch of bag-of-words representations and a list of lengths, and then outputs scores for each class label for each row in the batch.  See the doc-string for more information.  Note: the edugrad repository (and the slides for HW4) has an example of implementing forward for an MLP that you can use for inspiration.
 
-\noindent {\bf Q3: Cross Entropy Loss}
+
+\vspace{2em}
+\noindent {\bf Q3: Cross Entropy Loss}  In \texttt{ops.py}, you will find some ops already defined, and some for you to implement.
+\begin{itemize}
+  \item Implement the \texttt{exp} op.
+  \item Implement the \texttt{softmax\_rows} method.  Note: you should be using already defined ops/methods to define this method, so there's no separate backward here.
+  \item Implement \texttt{cross\_entropy\_loss}.  The same note above applies here.
+\end{itemize}
 
 
 \section{Implementing Adagrad}
+
+Recall from the lecture on DANs the update rule for Adagrad:
+\begin{align*}
+  \theta_{t+1, i} &= \theta_{t, i} - \frac{\alpha}{\sqrt{G_{t, i} + \epsilon}} g_{t, i}
+  \\
+  G_{t, i} &= \sum_{k=0}^t g_{k, i}^2
+  \\
+  \text{where } g_{t, i} &:= \nabla_{\theta_{t,i}} \mathcal{L}(\theta_t)
+\end{align*}
+In \texttt{optim.py}, please implement this update rule by incrementing $G_{t, i}$, computing the adjusted learning rate, and finally updating the parameter values.  Note: you can look at edugrad.optim.SGD for an example step method.
+
 
 \section{Running the Deep Averaging Network}
 
