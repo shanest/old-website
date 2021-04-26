@@ -17,18 +17,18 @@
 \end{itemize}
 
 
-\section{Understanding Computation Graphs}
+\section{Understanding Computation Graphs [20 pts]}
 
 \noindent {\bf Q1: Worked example}  Consider the function $f(x) = x^2 \times cx$.
 \begin{itemize}
-  \item Draw a computaton graph for this expression.
-  \item How many nodes are there?  [Including input and output.]
-  \item For $x = 2$ and $c=3$:
+  \item Draw a computaton graph for this expression. [5 pts]
+  \item How many nodes are there (including input and output)? [2 pts]
+  \item For $x = 2$ and $c=3$: [10 pts]
     \begin{itemize}
       \item Compute the value of each node in a forward pass.
       \item Compute $\frac{df}{dn}$ for each node $n$, using backpropagation.
     \end{itemize}
-  \item Consider the node corresponding to $x^2$ in the graph.  For each of the following, write a symbolic expression and the numerical value (at $x=2$, $c=3$) for:
+  \item Consider the node corresponding to $x^2$ in the graph.  For each of the following, write a symbolic expression and the numerical value (at $x=2$, $c=3$) for: [3 pts]
     \begin{itemize}
       \item The upstream derivative.
       \item The local derivative.
@@ -36,7 +36,7 @@
     \end{itemize}
 \end{itemize}
 
-\section{Implementing Word2Vec in Edugrad}
+\section{Implementing Word2Vec in Edugrad [55 pts]}
 
 Before getting started, a few notes on the implementation:
 \begin{itemize}
@@ -47,16 +47,16 @@ Before getting started, a few notes on the implementation:
 \end{itemize}
 
 \vspace{2em}
-\noindent {\bf Q1: Basic Operations} In \texttt{ops.py}, implement the forward and backward methods of the following operations:
+\noindent {\bf Q1: Basic Operations} In \texttt{ops.py}, implement the forward and backward methods of the following operations: [24 pts]
 \begin{itemize}
   \item \texttt{log}
   \item \texttt{sigmoid}
   \item \texttt{multiply}.  This is \emph{element-wise} multiplication of two matrices.
 \end{itemize}
-Recall: (i) you can use the list \texttt{ctx} in forward to store any values that you need when computing gradients in \texttt{backward}; (ii) backward needs to return a \emph{list} of the same size as the number of inputs to forward; each eleemnt of the list contains the gradient for the respective input.  We have provided shell lists for this purpose.
+Recall: (i) you can use the list \texttt{ctx} in forward to store any values that you need when computing gradients in \texttt{backward}; (ii) backward needs to return a \emph{list} of the same size as the number of inputs to forward; each element of the list contains the gradient for the respective input.  We have provided shell lists for this purpose.
 
 \vspace{2em}
-\noindent {\bf Q2: Model and BCE Loss} In \texttt{word2vec.py}
+\noindent {\bf Q2: Model and BCE Loss} In \texttt{word2vec.py} [24 pts]
 \begin{itemize}
   \item Implement \texttt{dot\_product\_rows}.  Read the docstring for specification and hints.
   \item Implement \texttt{Word2Vec.forward}.  This represents one ``forward pass'' of the skip-gram with negative sampling model, i.e. this computes $P(1 | w, c)$ for a batch of inputs.  You should use dot\_product\_rows here.
@@ -64,7 +64,7 @@ Recall: (i) you can use the list \texttt{ctx} in forward to store any values tha
 \end{itemize}
 
 \vspace{2em}
-\noindent {\bf Q3: Train word vectors} Run the main training loop by calling \texttt{word2vec.py} with the following command-line arguments (defined in \texttt{util.py}):
+\noindent {\bf Q3: Train word vectors} Run the main training loop by calling \texttt{word2vec.py} with the following command-line arguments (defined in \texttt{util.py}): [7 pts]
 \begin{itemize}
   \item 6 epochs
   \item Embedding dimension: 15
