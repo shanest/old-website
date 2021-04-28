@@ -12,17 +12,46 @@
 
 \noindent In this assignment, you will 
 \begin{itemize}
-  \item 
+  \item Develop understanding of a feed-forward neural language model
+  \item Implement components of data processing and text generation
+  \item Implement key pieces of the model architecture
 \end{itemize}
+All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on patas.
 
 
-\section{}
+\section{Understanding the Feed-Forward Language Model}
 
 \noindent {\bf Q1: }  
 
 
 \vspace{2em}
-\noindent {\bf Q2: }  
+\noindent {\bf Q2: tanh} The model uses the hyperbolic tangent (tanh) activation function, defined as:
+\[ \tanh(x) = \frac{e^a - e^{-a}}{e^a + e^{-a}} \]
+\begin{itemize}
+  \item Show that $\tanh(x) = 2\sigma(2x) - 1$, where $\sigma(x)$ is the sigmoid function.
+  \item Show that $\frac{d}{dx}\tanh(x) = 1 - \tanh^2(x)$.
+\end{itemize}
+
+
+\section{Implementing the Feed-Forward Language Model}
+
+\noindent {\bf Q1: Data processing} The basic ingredient of a language model is a dataset of next-token predictions. In \texttt{data.py}, you will find a basic dataset class SSTLanguageModelingDataset.  In its from\_file method, it iterates through the lines in a file, and calls a helper function to generate example pairs.
+\begin{itemize}
+  \item Implement the method \texttt{examples\_from\_characters}.  Read the docstring closely for desired behavior.
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q2: Implementing tanh}  In \texttt{ops.py}, you will find a skeleton Operation for tanh.  Using your written answer above as a guide, implement the forward and backward methods for this op.
+
+\vspace{2em}
+\noindent {\bf Q3: Implementing the Language Model} In \texttt{model.py}, you will find the main model class FeedForwardLanguageModel, with its initialization method written.  Implement the \texttt{.forward} method, using its docstring as a guide.  [Hint: \texttt{ops.concat}, which we provide, will be necessary.]
+
+\vspace{2em}
+\noindent {\bf Q4: Generating the next character}
+
+
+\section{Running the Language Model}
+
 
 
 \section{Testing your code}
@@ -42,6 +71,7 @@ In your submission, include the following:
     \item data.py
     \item model.py
     \item ops.py
+    \item run.py
   \end{itemize}
 \end{itemize}
 
