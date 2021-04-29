@@ -21,12 +21,17 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on
 
 \section{Understanding the Feed-Forward Language Model}
 
-\noindent {\bf Q1: Architecture}  
+\noindent {\bf Q1: Architecture}  You can find a description of the model in the second half of the slides from lecture \#6.
+\begin{itemize}
+  \item How many parameters are there?  Please write your answer in terms of the following quantities: $d_e$, the token embedding dimension; $|V|$, the size of the vocabulary; $d_h$: the dimension of the hidden layer; $n$: the $n$-gram size, i.e.\ how many previous tokens are used as input to the model.
+  \item A traditional $n$-gram language model estimates probabilities $p(w_t | w_{t-1} , \dots , w_{t-n})$ using counts from a corpus.  How does the feed-forward language model compute this probability?  Answer with a sentence or two describing the overall computation.
+  \item What is a major advantage of the feed-forward language model over traditional $n$-gram models?
+\end{itemize}
 
 
 \vspace{2em}
 \noindent {\bf Q2: tanh} The model uses the hyperbolic tangent (tanh) activation function, defined as:
-\[ \tanh(x) = \frac{e^a - e^{-a}}{e^a + e^{-a}} \]
+\[ \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \]
 \begin{itemize}
   \item Show that $\tanh(x) = 2\sigma(2x) - 1$, where $\sigma(x)$ is the sigmoid function.
   \item Show that $\frac{d}{dx}\tanh(x) = 1 - \tanh^2(x)$.
@@ -35,6 +40,9 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on
 
 \section{Implementing the Feed-Forward Language Model}
 
+In the remainder, you will implement key components of a \emph{character-level} language model.  Technically, moving from words to characters just changes the data pre-processing and vocabulary.  But it has one big advantage for us: character-level language models have a very small vocabulary (on the order of 50-70) when compared to words (tens of thousands usually).  The output of a language model is a softmax over the vocabulary, and so having a much smaller vocabulary greatly speeds up computation at that step (since the sum in the denominator of softmax is costly).
+
+\vspace{2em}
 \noindent {\bf Q1: Data processing} The basic ingredient of a language model is a dataset of next-token predictions. In \texttt{data.py}, you will find a basic dataset class SSTLanguageModelingDataset.  In its from\_file method, it iterates through the lines in a file, and calls a helper function to generate example pairs.
 \begin{itemize}
   \item Implement the method \texttt{examples\_from\_characters}.  Read the docstring closely for desired behavior.
@@ -47,12 +55,27 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on
 \noindent {\bf Q3: Implementing the Language Model} In \texttt{model.py}, you will find the main model class FeedForwardLanguageModel, with its initialization method written.  Implement the \texttt{.forward} method, using its docstring as a guide.  [Hint: \texttt{ops.concat}, which we provide, will be necessary.]
 
 \vspace{2em}
-\noindent {\bf Q4: Generating the next character}
+\noindent {\bf Q4: Generating the next character}  In \texttt{run.py}, there is code for generating text from a language model.  You will implement one helper method: \texttt{sample\_next\_character.py}.  The docstring specifies the method's behavior: it takes a batch of distributions over the vocabulary (characters), and samples a batch of next characters.  Text generation basically loops over this operation. [Hint: \texttt{np.random.choice} is your friend.]
 
 
 \section{Running the Language Model}
 
+\texttt{run.py} contains a basic training loop for a feed-forward language model, which will record the training loss and generate text every $N$ epochs (controlled by the flat \texttt{--generate\_every}, set to 4 by default).
 
+\vspace{2em}
+\noindent {\bf Q1: Basic parameters}  Execute \texttt{run.py} with its default arguments.  Paste below the texts that are generated every 4 epochs.  In 2-3 sentences, describe any trends that you see.  [Note that generated text will not necessarily be completely coherent: recall that this is a \emph{character-level}language model.]
+
+\vspace{2em}
+\noindent {\bf Q2: Modify one hyper-parameter} Re-run the training loop, modifying one of the following hyper-parameters, which are specified by command-line flags:
+\begin{itemize}
+  \item Hidden layer size
+  \item Embedding size
+  \item Number of previous characters (i.e.\ $n$-gram size; this is \texttt{--num\_prev\_chars})
+  \item Learning rate
+  \item Number of epochs
+  \item Softmax temperature.  (We did not cover this in class: higher values of this temperature make the softmax probabilities more closely approximate $\arg\max$, while lower values make it look more and more like a uniform distribution.  A value of 1 is the `default' softmax value.)
+\end{itemize}
+Include your model's generated texts here.  In 2-3 sentences, state exactly what hyper-parameter change you made, and what effects (if any) you see in terms of the text that the model generated.
 
 \section{Testing your code}
 
@@ -64,10 +87,10 @@ In the dropbox folder for this assignment, we will include a file \texttt{test\_
 
 In your submission, include the following:
 \begin{itemize}
-  \item readme.(txt$\mid$pdf) that includes your answers to . 
+  \item readme.(txt$\mid$pdf) that includes your answers to \S1 and \S3. 
   \item \texttt{hw5.tar.gz} containing:
   \begin{itemize}
-    \item run\_hw5.sh.  This should contain the code for activating the conda environment and your run commands for XX above.  You can use run\_hw2.sh from the previous assignment as a template.
+    \item run\_hw5.sh.  This should contain the code for activating the conda environment and your run commands for \S3 above.  You can use run\_hw2.sh from the previous assignment as a template.
     \item data.py
     \item model.py
     \item ops.py
