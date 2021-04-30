@@ -23,7 +23,7 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on
 
 \noindent {\bf Q1: Architecture}  You can find a description of the model in the second half of the slides from lecture \#6.
 \begin{itemize}
-  \item How many parameters are there?  Please write your answer in terms of the following quantities: $d_e$, the token embedding dimension; $|V|$, the size of the vocabulary; $d_h$: the dimension of the hidden layer; $n$: the $n$-gram size, i.e.\ how many previous tokens are used as input to the model.
+  \item How many parameters are there?  Please write your answer in terms of the following quantities: $d_e$, the token embedding dimension; $|V|$, the size of the vocabulary; $d_h$: the dimension of the hidden layer; $n$: the $n$-gram size, i.e.\ how many previous tokens are used as input to the model.  [Note: you may assume that there are no ``direct connections'' between the embeddings and the final layer.]
   \item A traditional $n$-gram language model estimates probabilities $p(w_t | w_{t-1} , \dots , w_{t-n})$ using counts from a corpus.  How does the feed-forward language model compute this probability?  Answer with a sentence or two describing the overall computation.
   \item What is a major advantage of the feed-forward language model over traditional $n$-gram models?
 \end{itemize}
@@ -52,7 +52,7 @@ In the remainder, you will implement key components of a \emph{character-level} 
 \noindent {\bf Q2: Implementing tanh}  In \texttt{ops.py}, you will find a skeleton Operation for tanh.  Using your written answer above as a guide, implement the forward and backward methods for this op.
 
 \vspace{2em}
-\noindent {\bf Q3: Implementing the Language Model} In \texttt{model.py}, you will find the main model class FeedForwardLanguageModel, with its initialization method written.  Implement the \texttt{.forward} method, using its docstring as a guide.  [Hint: \texttt{ops.concat}, which we provide, will be necessary.]
+\noindent {\bf Q3: Implementing the Language Model} In \texttt{model.py}, you will find the main model class FeedForwardLanguageModel, with its initialization method written.  Implement the \texttt{.forward} method, using its docstring as a guide.  [Hint: \texttt{ops.concat}, which we provide, will be necessary.  As above, do not provide any ``direct connections''.]
 
 \vspace{2em}
 \noindent {\bf Q4: Generating the next character}  In \texttt{run.py}, there is code for generating text from a language model.  You will implement one helper method: \texttt{sample\_next\_character.py}.  The docstring specifies the method's behavior: it takes a batch of distributions over the vocabulary (characters), and samples a batch of next characters.  Text generation basically loops over this operation. [Hint: \texttt{np.random.choice} is your friend.]
