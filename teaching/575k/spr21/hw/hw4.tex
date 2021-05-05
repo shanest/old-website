@@ -19,27 +19,27 @@
 \end{itemize}
 
 
-\section{Implementing the Deep Averaging Network + Loss}
+\section{Implementing the Deep Averaging Network + Loss [40 pts]}
 
-\noindent {\bf Q1: Implement bag of words representation}  The input to a DAN model is a \emph{bag of words}: a vector (a batch of such vectors, really) with counts of the vocabulary items at the corresponding indices (see slide 14 in lecture 6).  
+\noindent {\bf Q1: Implement bag of words representation }  The input to a DAN model is a \emph{bag of words}: a vector (a batch of such vectors, really) with counts of the vocabulary items at the corresponding indices (see slide 14 in lecture 6).   \hfill [5 pts]
 
 \noindent In \texttt{data.py}, implement the building of this representation in \texttt{SSTClassificationDataset.example\_to\_tensors}.
 
 
 \vspace{2em}
-\noindent {\bf Q2: Implement DeepAveragingNetwork.forward}  In \texttt{model.py}, you will find the skeleton of a Deep Averaging Network (with two hidden layers).  In particular, we have implemented the initialization of the Module.  You need to implement the forward method, which takes two inputs: a batch of bag-of-words representations and a list of lengths, and then outputs scores for each class label for each row in the batch.  See the doc-string for more information.  Note: the edugrad repository (and the slides for HW4) has an example of implementing forward for an MLP that you can use for inspiration.
+\noindent {\bf Q2: Implement DeepAveragingNetwork.forward}  In \texttt{model.py}, you will find the skeleton of a Deep Averaging Network (with two hidden layers).  In particular, we have implemented the initialization of the Module.  You need to implement the forward method, which takes two inputs: a batch of bag-of-words representations and a list of lengths, and then outputs scores for each class label for each row in the batch.  See the doc-string for more information.  Note: the edugrad repository (and the slides for HW4) has an example of implementing forward for an MLP that you can use for inspiration. \hfill [15 pts]
 
 
 \vspace{2em}
 \noindent {\bf Q3: Cross Entropy Loss}  In \texttt{ops.py}, you will find some ops already defined, and some for you to implement.
 \begin{itemize}
-  \item Implement the \texttt{exp} op.
-  \item Implement the \texttt{softmax\_rows} method.  Note: you should be using already defined ops/methods to define this method, so there's no separate backward here.
-  \item Implement \texttt{cross\_entropy\_loss}.  The same note above applies here.
+  \item Implement the \texttt{exp} op. \hfill [6 pts]
+  \item Implement the \texttt{softmax\_rows} method.  Note: you should be using already defined ops/methods to define this method, so there's no separate backward here. \hfill [4 pts]
+  \item Implement \texttt{cross\_entropy\_loss}.  The same note above applies here. \hfill [10 pts]
 \end{itemize}
 
 
-\section{Implementing Adagrad}
+\section{Implementing Adagrad [15 pts]}
 
 Recall from the lecture on DANs the update rule for Adagrad:
 \begin{align*}
@@ -52,7 +52,7 @@ Recall from the lecture on DANs the update rule for Adagrad:
 In \texttt{optim.py}, please implement this update rule by incrementing $G_{t, i}$, computing the adjusted learning rate, and finally updating the parameter values.  Note: you can look at edugrad.optim.SGD for an example step method.
 
 
-\section{Running the Deep Averaging Network}
+\section{Running the Deep Averaging Network [20 pts]}
 
 In \texttt{run.py}, you will find a basic training loop for building a DAN and training it on the Stanford Sentiment Treebank.  There are several command-line arguments specifying different arguments.  The default arguments for various hyper-parameters are:
 \begin{itemize}
@@ -66,11 +66,11 @@ In \texttt{run.py}, you will find a basic training loop for building a DAN and t
 Each run will print to stdout (and, therefore, the output file you specify in your condor job script) the training and dev set loss for each epoch, and then the final model's accuracy on the dev set.
 
 \vspace{2em}
-\noindent {\bf Q1: Run 1, default arguments} Run the main training loop by calling \texttt{run.py} with all of the default arguments.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
+\noindent {\bf Q1: Run 1, default arguments} Run the main training loop by calling \texttt{run.py} with all of the default arguments.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here: 
 
 \vspace{4em}
 
-\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you? \hfill [5 pts]
 
 
 \vspace{2em}
@@ -80,7 +80,7 @@ Run the main training loop by calling \texttt{run.py}, but with the $L_2$ parame
 
 \vspace{4em}
 
-\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you? \hfill [5 pts]
 
 
 \vspace{2em}
@@ -89,11 +89,11 @@ Run the main training loop by calling \texttt{run.py}, but with the $L_2$ parame
 
 \vspace{4em}
 
-\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you?
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you? \hfill [5 pts]
 
 
 \vspace{2em}
-\noindent {\bf Q4: Cross-run comparison} What trends do you notice in these metrics across the three runs?  What do they suggest to you about the impact of these hyperparameters on the model's performance?
+\noindent {\bf Q4: Cross-run comparison} What trends do you notice in these metrics across the three runs?  What do they suggest to you about the impact of these hyperparameters on the model's performance? \hfill [5 pts]
 
 
 
