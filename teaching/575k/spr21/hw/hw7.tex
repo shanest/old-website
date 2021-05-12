@@ -3,6 +3,11 @@
 \usepackage[margin=0.75in]{geometry}
 \usepackage{amsmath}
 
+\newcommand{\bos}{\textless s\textgreater\:}
+\newcommand{\eos}{\textless /s\textgreater\:}
+\newcommand{\pad}{PAD\:}
+
+
 \begin{document}
 
 \title{LING 575K HW7}
@@ -21,10 +26,44 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw7/} on
 
 \section{Recurrent Neural Network Decoders/Taggers}
 
-\noindent {\bf Q1: Understanding RNNs}
+\noindent {\bf Q1: Understanding Masking}  Suppose that we want to train a (word-level) language model on the following two sentences:
+\begin{center}
+  \bos the cat sits \eos
+
+  \bos the model reads the sentence \eos
+\end{center}
+We saw in HW6 that padding is necessary to make these sentences have the same length so that they can be batched together, as:
+\begin{center}
+  \bos the cat sits \eos \pad \pad
+
+  \bos the model reads the sentence \eos
+\end{center}
+Please answer the following questions about these sequences:
+\begin{itemize}
+  \item In a recurrent language model, what would the input batch be?  What would the target labels be? [Hint: \bos is never predicted as a target, and \eos is only ever a target.]
+  \item Recurrent language models use a \emph{mask} of ones and zeros to `eliminate' the loss for \pad tokens.  What would the mask be for this batch?
+  \item Suppose that we have the following per-token losses:
+    \[ \begin{bmatrix} 0.1 & 0.3 & 0.2 & 0.4 & 0.7 & 0.5 \\ 0.2 & 0.6 & 0.1 & 0.8 & 0.9 & 0.4 \end{bmatrix} \]
+    What is the \emph{masked} loss matrix?
+  \item Why is it important to mask losses in this way?  What might a model learn to do if the loss is not masked?
+\end{itemize}
 
 \vspace{2em}
-\noindent {\bf Q2: }  
+\noindent {\bf Q2: Evaluating Language Models} Given a corpus $W = w_1 w_2 \dots w_N$ (so $N$ is the number of tokens in the corpus), a common (intrinsic) evaluation metric for language models is \emph{perplexity}, defined as
+\[ PP(W) = P(w_1 \dots w_N)^{-\frac{1}{N}} \]
+This can be thought of as the inverse probability that the model assigns to the corpus, normalized by the size of the corpus.
+\begin{itemize}
+  \item Is a lower or higher perplexity better?
+  \item For a recurrent language model, write an expression for $P(w_1 \dots w_n)$ using the chain rule of probability.  How is this different from the expression for a feed-forward language model?
+  \item Show that
+  \[ PP(W) = e^{-\frac{1}{N} \sum_{i=1}^N \log P(w_i \mid w_{<i})} \]
+  where $w_{<i} = w_1 w_2 \dots w_{i-1}$ and $\log$ is the natural (base $e$) logarithm.
+  
+  [Note: using base $e$ measures perplexity in a unit known as \emph{nats}.  Using base $2$ would measure it in bits.]
+
+  \item What is another name for the exponent $-\frac{1}{N} \sum_{i=1}^N \log P(w_i \mid w_{<i})$ in the above expression? [Hint: it appears in training as well.]
+  \item Suppose that the same text corpus were tokenized with two different vocabularies of different sizes (perhaps, e.g., one replaces infrequent tokens with an UNK token) and two language models were trained on the resulting tokenized text.  All else being equal, would you expect perplexity to be lower or higher for the model with a smaller vocabulary?  What consequences does this have for comparing different language models?
+\end{itemize}
 
 
 \section{Implementing an RNN Character Language Model}
@@ -32,24 +71,17 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw7/} on
 In the coding portion of this assignment, you will implement (components of) an LSTM character-level language model for the Stanford Sentiment Treebank, using an RNN as tagger.
 
 \vspace{2em}
-\noindent {\bf Q1: Data processing} The reviews in the SST dataset come in various lengths.  In the previous models we have looked at in the class, this has not been an issue because they rely either on a bag-of-words representation (Deep Averaging Network) or a fixed-sized window of previous tokens (Feed-Forward Language Model).  RNNs, however, require the use of \emph{padding}: given a batch of reviews of various lengths, we pad the shorter sequences with a special padding token so that all sequences are as long as the longest one.
+\noindent {\bf Q1: Data processing} Recall from the lectures that we can view language modeling as a sequence tagging task.  That is, each element of an input sequence is tagged with a certain target.  This gets operationalized in the data processing pipeline; you will generate the inputs/targets for one line of text.
 
-\noindent In \texttt{data.py}, please implement the \texttt{pad\_batch} method.  Please read the method signature and docstring carefully for details on the input and output.
-
-
-\vspace{2em}
-\noindent {\bf Q2: Vanilla RNN Cell} The ``cell'' of an RNN does one time-step of computation.  For a Vanilla RNN, we saw that this was
-\[ h_t = \tanh\left( W_h h_{t-1} + b_h + W_x x_t + b_x \right) \]
-where $h_{t-1}$ is the previous hidden state, $x_t$ is the current input, and the $W$s and $b$s are parameters for linear transformations.
-
-\noindent In \texttt{model.py}, implement this computation in \texttt{VanillaRNNCell.forward}.  The initializer defines the linear layers that you will need.
+\noindent In \texttt{data.py}, please implement the \texttt{example\_from\_characters} method.  Please read the method signature and docstring carefully for details on the input and output.
 
 
 \vspace{2em}
-\noindent {\bf Q3: LSTM Cell} An LSTM cell computes the next hidden state and \emph{memory} based on the previous hidden state and memory together with the current input.  Please consult \href{https://www.shane.st/teaching/575k/spr21/slides/8_lstm.pdf}{these slides} for the entire set of equations (and details about motivation).
-
-\noindent In \texttt{model.py}, implement this computation in \texttt{LSTMCell.forward}.  The initializer defines the linear layers that you will need.
-
+\noindent {\bf Q2: Masking the Loss} In the written portion above, you explained why masking the loss is important for a recurrent language model.  Now, you will implement said masking.  In \texttt{run.py}:
+\begin{itemize}
+  \item Implement \texttt{get\_mask}, which generates the mask to apply to the losses.
+  \item Implement \texttt{mask\_loss}, which takes per-token losses, masks out the `bad' ones, and then returns a mean.  See the doc-string for details.
+\end{itemize}
 
 
 \section{Running the Language Model}
@@ -57,11 +89,23 @@ where $h_{t-1}$ is the previous hidden state, $x_t$ is the current input, and th
 \texttt{run.py} contains a basic training loop for SST language modeling. It will record the training and dev loss (and perplexity) at each epoch, and save the best model according to dev loss.  Periodically (as specified by a command-line flag), it also outputs generated text from the best model.
 
 \vspace{2em}
-\noindent {\bf Q1: Default parameters} 
-
+\noindent {\bf Q1: Default parameters} Execute \texttt{run.py} with its default arguments.  Paste below the texts that are generated every 4 epochs, as well as the epoch with the best dev loss and the dev perplexity from that epoch.  In 2-3 sentences, describe any trends that you see.  [Note that generated text will not necessarily be completely coherent: recall that this is a \emph{character-level}language model.]
 
 \vspace{2em}
-\noindent {\bf Q2: Modify hyper-parameterr} 
+\noindent {\bf Q2: Modify hyper-parameter(s)} Re-run the training loop, modifying some combination of the following hyper-parameters, which are specified by command-line flags:
+\begin{itemize}
+  \item Hidden layer size
+  \item Embedding size
+  \item Learning rate
+  \item Number of epochs [in particular: making it larger]
+  \item Softmax temperature. 
+  \item $L_2$ regularization coefficient.
+  \item Dropout (probability with which neurons are dropped from the input and to the output during training)
+\end{itemize}
+Include your model's generated texts here.  In 2-3 sentences, state exactly what hyper-parameter change(s) you made, and what effects (if any) you see in terms of the dev set perplexity and text that the model generated.
+
+\vspace{2em}
+\noindent {\bf Q3: Comparison to feed-forward language model} In 2-3 sentences, please explain what differences you see in the text generated by this LSTM language model and the feed-forward language model that you trained in HW5. What do you think may be causing these effects (or lack thereof)?
 
 
 \section{Testing your code}
