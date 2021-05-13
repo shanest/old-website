@@ -19,9 +19,9 @@
 All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on patas.
 
 
-\section{Understanding the Feed-Forward Language Model}
+\section{Understanding the Feed-Forward Language Model [20 pts]}
 
-\noindent {\bf Q1: Architecture}  You can find a description of the model in the second half of the slides from lecture \#6.
+\noindent {\bf Q1: Architecture}  You can find a description of the model in the second half of the slides from lecture \#6. \hfill [12 pts]
 \begin{itemize}
   \item How many parameters are there?  Please write your answer in terms of the following quantities: $d_e$, the token embedding dimension; $|V|$, the size of the vocabulary; $d_h$: the dimension of the hidden layer; $n$: the $n$-gram size, i.e.\ how many previous tokens are used as input to the model.  [Note: you may assume that there are no ``direct connections'' between the embeddings and the final layer.]
   \item A traditional $n$-gram language model estimates probabilities $p(w_t | w_{t-1} , \dots , w_{t-n})$ using counts from a corpus.  How does the feed-forward language model compute this probability?  Answer with a sentence or two describing the overall computation.
@@ -30,7 +30,7 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on
 
 
 \vspace{2em}
-\noindent {\bf Q2: tanh} The model uses the hyperbolic tangent (tanh) activation function, defined as:
+\noindent {\bf Q2: tanh} The model uses the hyperbolic tangent (tanh) activation function, defined as: \hfill [8 pts]
 \[ \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \]
 \begin{itemize}
   \item Show that $\tanh(x) = 2\sigma(2x) - 1$, where $\sigma(x)$ is the sigmoid function.
@@ -38,32 +38,32 @@ All files referenced herein may be found in \texttt{/dropbox/20-21/575k/hw5/} on
 \end{itemize}
 
 
-\section{Implementing the Feed-Forward Language Model}
+\section{Implementing the Feed-Forward Language Model [40 pts]}
 
 In the remainder, you will implement key components of a \emph{character-level} language model.  Technically, moving from words to characters just changes the data pre-processing and vocabulary.  But it has one big advantage for us: character-level language models have a very small vocabulary (on the order of 50-70) when compared to words (tens of thousands usually).  The output of a language model is a softmax over the vocabulary, and so having a much smaller vocabulary greatly speeds up computation at that step (since the sum in the denominator of softmax is costly).
 
 \vspace{2em}
-\noindent {\bf Q1: Data processing} The basic ingredient of a language model is a dataset of next-token predictions. In \texttt{data.py}, you will find a basic dataset class SSTLanguageModelingDataset.  In its from\_file method, it iterates through the lines in a file, and calls a helper function to generate example pairs.
+\noindent {\bf Q1: Data processing} The basic ingredient of a language model is a dataset of next-token predictions. In \texttt{data.py}, you will find a basic dataset class SSTLanguageModelingDataset.  In its from\_file method, it iterates through the lines in a file, and calls a helper function to generate example pairs. \hfill [10 pts]
 \begin{itemize}
   \item Implement the method \texttt{examples\_from\_characters}.  Read the docstring closely for desired behavior.
 \end{itemize}
 
 \vspace{2em}
-\noindent {\bf Q2: Implementing tanh}  In \texttt{ops.py}, you will find a skeleton Operation for tanh.  Using your written answer above as a guide, implement the forward and backward methods for this op.
+\noindent {\bf Q2: Implementing tanh}  In \texttt{ops.py}, you will find a skeleton Operation for tanh.  Using your written answer above as a guide, implement the forward and backward methods for this op. \hfill [12 pts]
 
 \vspace{2em}
-\noindent {\bf Q3: Implementing the Language Model} In \texttt{model.py}, you will find the main model class FeedForwardLanguageModel, with its initialization method written.  Implement the \texttt{.forward} method, using its docstring as a guide.  [Hint: \texttt{ops.concat}, which we provide, will be necessary.  As above, do not provide any ``direct connections''.]
+\noindent {\bf Q3: Implementing the Language Model} In \texttt{model.py}, you will find the main model class FeedForwardLanguageModel, with its initialization method written.  Implement the \texttt{.forward} method, using its docstring as a guide.  [Hint: \texttt{ops.concat}, which we provide, will be necessary.  As above, do not provide any ``direct connections''.] \hfill [10 pts]
 
 \vspace{2em}
-\noindent {\bf Q4: Generating the next character}  In \texttt{run.py}, there is code for generating text from a language model.  You will implement one helper method: \texttt{sample\_next\_character.py}.  The docstring specifies the method's behavior: it takes a batch of distributions over the vocabulary (characters), and samples a batch of next characters.  Text generation basically loops over this operation. [Hint: \texttt{np.random.choice} is your friend.]
+\noindent {\bf Q4: Generating the next character}  In \texttt{run.py}, there is code for generating text from a language model.  You will implement one helper method: \texttt{sample\_next\_character.py}.  The docstring specifies the method's behavior: it takes a batch of distributions over the vocabulary (characters), and samples a batch of next characters.  Text generation basically loops over this operation. [Hint: \texttt{np.random.choice} is your friend.] \hfill [8 pts]
 
 
-\section{Running the Language Model}
+\section{Running the Language Model [15 pts]}
 
 \texttt{run.py} contains a basic training loop for a feed-forward language model, which will record the training loss and generate text every $N$ epochs (controlled by the flat \texttt{--generate\_every}, set to 4 by default).
 
 \vspace{2em}
-\noindent {\bf Q1: Basic parameters}  Execute \texttt{run.py} with its default arguments.  Paste below the texts that are generated every 4 epochs.  In 2-3 sentences, describe any trends that you see.  [Note that generated text will not necessarily be completely coherent: recall that this is a \emph{character-level}language model.]
+\noindent {\bf Q1: Basic parameters}  Execute \texttt{run.py} with its default arguments.  Paste below the texts that are generated every 4 epochs.  In 2-3 sentences, describe any trends that you see.  [Note that generated text will not necessarily be completely coherent: recall that this is a \emph{character-level}language model.] \hfill [5 pts]
 
 \vspace{2em}
 \noindent {\bf Q2: Modify one hyper-parameter} Re-run the training loop, modifying one of the following hyper-parameters, which are specified by command-line flags:
@@ -75,7 +75,7 @@ In the remainder, you will implement key components of a \emph{character-level} 
   \item Number of epochs [in particular: making it larger]
   \item Softmax temperature.  (We did not cover this in class: higher values of this temperature make the softmax probabilities more closely approximate $\arg\max$, while lower values make it look more and more like a uniform distribution.  A value of 1 is the `default' softmax value.)
 \end{itemize}
-Include your model's generated texts here.  In 2-3 sentences, state exactly what hyper-parameter change you made, and what effects (if any) you see in terms of the text that the model generated.
+Include your model's generated texts here.  In 2-3 sentences, state exactly what hyper-parameter change you made, and what effects (if any) you see in terms of the text that the model generated. \hfill [10 pts]
 
 \section{Testing your code}
 
