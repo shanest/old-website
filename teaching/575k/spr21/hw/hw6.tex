@@ -40,11 +40,12 @@ This equation performs an essential update of one part of the LSTM.  Please answ
 \end{itemize}
 
 \vspace{2em}
-\noindent {\bf Q3: Counting parameters}  Let $d_e$ be the dimension of word embeddings and $d_h$ the hidden state size.  Focusing on just the recurrent cell (and so ignoring the embedding layer):
+\noindent {\bf Q3: Counting parameters}  Let $d_e$ be the dimension of word embeddings and $d_h$ the hidden state size.  Focusing on just the recurrent cell (and so ignoring the embedding and output layers):
 \begin{itemize}
   \item How many parameters are there in a Vanilla RNN cell?
   \item How many parameters are there in an LSTM cell?
 \end{itemize}
+Note: for this problem, you can assume that the RNN cell is at the `bottom' of a possibly-deep RNN, so the inputs to the cell are word embeddings, not earlier layers' hidden states.
 
 
 \section{Implementing an RNN Sentiment Classifier}
