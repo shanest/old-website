@@ -54,7 +54,7 @@ Please answer the following questions about these sequences:
 This can be thought of as the inverse probability that the model assigns to the corpus, normalized by the size of the corpus.
 \begin{itemize}
   \item Is a lower or higher perplexity better?
-  \item For a recurrent language model, write an expression for $P(w_1 \dots w_n)$ using the chain rule of probability.  How is this different from the expression for a feed-forward language model?
+  \item For a recurrent language model, write an expression for $P(w_1 \dots w_N)$ using the chain rule of probability.  How is this different from the expression for a feed-forward language model?
   \item Show that
   \[ PP(W) = e^{-\frac{1}{N} \sum_{i=1}^N \log P(w_i \mid w_{<i})} \]
   where $w_{<i} = w_1 w_2 \dots w_{i-1}$ and $\log$ is the natural (base $e$) logarithm.
