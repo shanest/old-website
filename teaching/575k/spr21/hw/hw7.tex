@@ -40,7 +40,7 @@ We saw in HW6 that padding is necessary to make these sentences have the same le
 \end{center}
 Please answer the following questions about these sequences:
 \begin{itemize}
-  \item In a recurrent language model, what would the input batch be?  What would the target labels be? [Hint: \bos is never predicted as a target, and \eos is only ever a target.]
+  \item In a recurrent language model, what would the input batch be?  What would the target labels be? 
   \item Recurrent language models use a \emph{mask} of ones and zeros to `eliminate' the loss for \pad tokens.  What would the mask be for this batch?
   \item Suppose that we have the following per-token losses:
     \[ \begin{bmatrix} 0.1 & 0.3 & 0.2 & 0.4 & 0.7 & 0.5 \\ 0.2 & 0.6 & 0.1 & 0.8 & 0.9 & 0.4 \end{bmatrix} \]
