@@ -7,7 +7,7 @@
 		<meta name="author" content="">
 		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-		<title>UW LING 571: HW4 (Fall 2020)</title>
+		<title>UW LING 571: HW4 (Fall 2021)</title>
 
 		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
 
@@ -22,7 +22,7 @@
 
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '20]</a>
+				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '21]</a>
 				<a class="navbar-brand ml-auto" href="#">Homework 4</a>
 				<!--
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
 		</nav>
 
 		<main role="main" class="container">
-			<p class="lead">This assignment is due <strong>Wednesday, October 28 at 11PM</strong>.</p>
+			<p class="lead">This assignment is due <strong>Wednesday, November 3 at 11:59PM</strong>.</p>
 			<p><a name="top"></a></p>
 			<ol start="0">
 				<li><a href="#goals">Goals</a></li>
@@ -91,7 +91,7 @@
 			<p><a href="#top">[Back to Top]</a></p>
 			<h2><a name="pcky"></a>2. Converting from CKY to Probabilistic CKY</h2>
 			<p>Implement a probabilistic version of the CKY parsing algorithm. Given a probabilistic context-free grammar and an input string, the algorithm should return the highest probability parse tree for that input string.</p>
-			<p>You should follow the approach outlined in the textbook and course notes. You may adapt the CKY implementation that you created for HW#3. You may use any language that you like, in keeping with the <a href="http://depts.washington.edu/uwcl/clms/course-policy.pdf">course policies</a>.</p>
+			<p>You should follow the approach outlined in the textbook and course notes. You may adapt the CKY implementation that you created for HW#3.</p>
 			<p>Specifically, your program should:</p>
 			<ul>
 				<li>Read in a PCFG in NLTK format as generated above</li>
@@ -115,7 +115,7 @@
 			<p><a href="#top">[Back to Top]</a></p>
 			<h2><a name="eval"></a>3. Evaluating the PCKY Parser</h2>
 			<p>Use the <strong><span style="font-family: courier;">evalb</span></strong> program to evaluate your parser.</p>
-			<p>The executable may be found in <span style="font-family: courier;">/dropbox/20-21/571/hw4/tools/ </span>along with the required parameter file. It should be run as:</p>
+			<p>The executable may be found in <span style="font-family: courier;">/dropbox/21-22/571/hw4/tools/ </span>along with the required parameter file. It should be run as:</p>
 			<p><span style="font-family: courier;">$dir/evalb -p $dir/COLLINS.prm &lt;gold_standard_parse_file&gt; &lt;hypothesis_parse_file&gt;</span></p>
 			<p>where</p>
 			<ul>
@@ -189,7 +189,7 @@
 			<p><a href="#top">[Back to Top]</a></p>
 			<h2><a name="files"></a>6. Files</h2>
 			<p>Training, Test, Evaluation, Example Data</p>
-			<p>You will use the following files, derived from the Air Travel Information System (ATIS) subset of the Penn Treebank as described in class. All files can be found on patas in <span style="font-family: courier;">/dropbox/20-21/571/hw4/data/</span>, unless otherwise mentioned:</p>
+			<p>You will use the following files, derived from the Air Travel Information System (ATIS) subset of the Penn Treebank as described in class. All files can be found on patas in <span style="font-family: courier;">/dropbox/21-22/571/hw4/data/</span>, unless otherwise mentioned:</p>
 			<ul>
 				<li><span style="font-family: courier;"><strong>parses.train</strong></span>: parses of 514 sentences from the Air Travel Information System domain. These parses will form your (relatively small) training treebank for this assignment. They will form the basis for inducing your PCFG rules.</li>
 				<li><span style="font-family: courier;"><strong>sentences.txt</strong></span>: over 50 sentences from the Air Travel Information System domain. These are the test sentences your system must parse and will be evaluated on, both for the baseline and for your improved system.</li>
@@ -197,7 +197,7 @@
 				<li><strong><span style="font-family: courier;">toy.pcfg</span></strong>: This file contains a simple Probabilistic Context-Free Grammar (in Chomsky Normal Form) that parses a simple toy set of sentences.</li>
 				<li><strong><span style="font-family: courier;">toy_sentences.txt</span></strong>: This file contains a small set of toy example sentences.</li>
 				<li><strong><span style="font-family: courier;">toy_output.txt</span></strong>: Example output from parsing with the pcfg in the one parse per line format required by evalb.</li>
-				<li><strong><span style="font-family: courier;">example_cky.py</span></strong>: Example implementation of CKY in Python, available for reference. In <span style="font-family: courier;">/dropbox/20-21/571/hw4/tools/</span></li>
+				<li><strong><span style="font-family: courier;">example_cky.py</span></strong>: Example implementation of CKY in Python, available for reference. In <span style="font-family: courier;">/dropbox/21-22/571/hw4/tools/</span></li>
 			</ul>
 			<h3>Submission Files</h3>
 			<ul>
