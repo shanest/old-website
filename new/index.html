@@ -27,13 +27,19 @@
       }
     }
 
-    body {
+    body:before {
+      content: " ";
       background-image: url('images/rainier.jpg');
       background-size: cover;
+      opacity: 0.6;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
     }
 
     main a {
-      color: darkgrey;
+      color: grey;
     }
   </style>
 
@@ -42,9 +48,9 @@
   <link href="cover.css" rel="stylesheet">
 </head>
 
-<body class="d-flex h-100 text-white bg-dark">
+<body class="d-flex h-100">
 
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-white">
     <header class="mb-auto">
       <div>
         <h3 class="float-md-start mb-0">Shane Steinert-Threlkeld</h3>
@@ -56,7 +62,7 @@
       </div>
     </header>
 
-    <main class="px-3 bg-dark bg-opacity-50 opacity-75">
+    <main class="px-3 text-dark bg-light bg-opacity-25 my-5">
       <section class="row">
         <h1>Research</h1>
         <p>For more information on my research, please see the website for my lab: <a
@@ -66,7 +72,7 @@
       </section>
       <section class="row">
         <h1>Teaching</h1>
-        <ul>
+        <ul class="px-3">
           <li>LING 571: Deep Processing Techniques for Natural Language Processing. [<a href="teaching/571/aut19">Aut
               '19</a>, <a href="teaching/571/aut20">Aut '20</a>, <a href="teaching/571/aut21">Aut '21</a>]</li>
           <li>LING 572: Advanced Statistical Methods for Natural Language Processing. [<a href="teaching/572/win20">Win
@@ -82,7 +88,7 @@
       </section>
       <section class="row">
         <h1>Resources</h1>
-        <ul>
+        <ul class="px-3">
           <li><a href="https://montreean.shane.st">Montreean</a>: visualize constituency parse
             trees vaguely in the style of Piet Mondrian.</li>
           <li><a href="https://github.com/shanest/edugrad">edugrad</a>: a minimal re-implementation of the PyTorch API
