@@ -2,6 +2,11 @@
 layout: cv
 title: Shane Steinert-Threlkeld's CV
 style: kjhealy
+css:
+    - file: media/kjhealy-screen.css
+      media: screen
+    - file: media/kjhealy-print.css
+      media: print
 bibliography: ~/sync/bibs/sst-pubs.yaml
 ---
 
@@ -24,6 +29,7 @@ TODO:
     - from Zotero export
         - does pandoc have a CSL YAML renderer built in? or BibTeX renderer
         - do I want to write my own template for that?!
+        - yes, specify bib, put CSL from healy
 
 ## Currently
 
