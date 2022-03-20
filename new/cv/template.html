@@ -21,7 +21,7 @@ $endif$
     $styles.html()$
   </style>
 $for(css)$
-  <link rel="stylesheet" href="$css$" />
+  <link rel="stylesheet" href="$css.file$" type="text/css" $if(css.media)$media="$css.media$"$endif$ />
 $endfor$
 $for(header-includes)$
   $header-includes$
@@ -32,8 +32,6 @@ $endif$
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <link href="media/$style$-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/$style$-print.css" type="text/css" rel="stylesheet" media="print">
 </head>
 <body>
 $for(include-before)$
