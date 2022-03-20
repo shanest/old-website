@@ -2,6 +2,7 @@
 layout: cv
 title: Shane Steinert-Threlkeld's CV
 style: kjhealy
+bibliography: ~/sync/bibs/sst-pubs.yaml
 ---
 
 # Isaac Newton
@@ -9,10 +10,11 @@ Physicist, Mathematician, Cambridge professor.
 
 <div id="webaddress">
 <a href="mailto:shanest@uw.edu">shanest@uw.edu</a>
-| <a href="https://www.shane.st">shane.st</a> | <a href="https://clmbr.shane.st">
+| <a href="https://www.shane.st">shane.st</a> | <a href="https://clmbr.shane.st">CLMBR (lab)</a>
 </div>
 
-%% TODO:
+TODO:
+
 - use style yaml to include spreadsheet (or just HTML tempplate instead of standalone?)
     - does pandoc allow you to specify that in yaml header?
 - no header (maybe this is also via no standalone?)
