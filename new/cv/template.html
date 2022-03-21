@@ -17,9 +17,6 @@ $if(description-meta)$
   <meta name="description" content="$description-meta$" />
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
-  <style>
-    $styles.html()$
-  </style>
 $for(css)$
   <link rel="stylesheet" href="$css.file$" type="text/css" $if(css.media)$media="$css.media$"$endif$ />
 $endfor$
@@ -37,7 +34,9 @@ $endif$
 $for(include-before)$
 $include-before$
 $endfor$
+
 $body$
+
 $for(include-after)$
 $include-after$
 $endfor$

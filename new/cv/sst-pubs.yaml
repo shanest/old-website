@@ -1,0 +1,164 @@
+---
+references:
+- id: Steinert-Threlkeld2020b
+  abstract: >-
+    While the languages of the world vary greatly, linguists have discovered
+    many restrictions on possible variation. Semantic universals are
+    restrictions on the range of variation in meaning across languages.
+    Recently, in several domains-e.g. kinship terms, color terms-such universals
+    have been argued to arise from a trade-off between simplicity and
+    informativeness. In this paper, we apply this method to a prominent domain
+    of functions words, showing that the quantifiers in natural language also
+    appear to be optimized for this trade-off. We do this by using an
+    evolutionary algorithm to estimate the optimal languages, systematically
+    manipulating the degree of naturalness of languages, and showing that
+    languages become closer to optimal as they become more natural. Our results
+    suggest that very general communicative and cognitive pressures may shape
+    the lexica of natural languages across both content and function words.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: Steinert-Threlkeld2020b
+  container-title: Proceedings of the 22nd Amsterdam Colloquium
+  editor:
+    - family: Schl\"{o}der
+      given: Julian J
+    - family: McHugh
+      given: Dean
+    - family: Roelofsen
+      given: Floris
+  issued:
+    - year: 2020
+  page: 513-522
+  title: >-
+    Quantifiers in natural language optimize the simplicity/informativeness
+    trade-off
+  type: paper-conference
+
+- id: Steinert-Threlkeld2021
+  abstract: >-
+    While the languages of the world vary greatly, they exhibit systematic
+    patterns, as well. Semantic universals are restrictions on the variation in
+    meaning exhibit cross-linguistically (e.g., that, in all languages,
+    expressions of a certain type can only denote meanings with a certain
+    special property). This paper pursues an efficient communication analysis to
+    explain the presence of semantic universals in a domain of function words:
+    quantifiers. Two experiments measure how well languages do in optimally
+    trading off between competing pressures of simplicity and informativeness.
+    First, we show that artificial languages which more closely resemble natural
+    languages are more optimal. Then, we introduce information-theoretic
+    measures of degrees of semantic universals and show that these are not
+    correlated with optimality in a random sample of artificial languages. These
+    results suggest both that efficient communication shapes semantic typology
+    in both content and function word domains, as well as that semantic
+    universals may not stand in need of independent explanation.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: Steinert-Threlkeld2021
+  container-title: Entropy
+  DOI: 10.3390/e23101335
+  issue: '10'
+  issued:
+    - year: 2021
+  page: '1335'
+  title: >-
+    Quantifiers in Natural Language: Efficient Communication and Degrees of
+    Semantic Universals
+  type: article-journal
+  volume: '23'
+
+- id: steinert-threlkeldSemanticUniversalModality2022
+  accessed:
+    - year: 2022
+      month: 1
+      day: 28
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Imel
+      given: Nathaniel
+    - family: Guo
+      given: Qingxia
+  citation-key: steinert-threlkeldSemanticUniversalModality2022
+  issued:
+    - year: 2022
+  title: A Semantic Universal for Modality
+  type: manuscript
+  URL: https://lingbuzz.net/lingbuzz/006399
+
+- id: SteinertThrelkeld2018
+  abstract: >-
+    One of the great successes of the application of generalized quantifiers to
+    natural language has been the ability to formulate robust semantic
+    universals. When such a universal is attested, the question arises as to the
+    source of the universal. In this paper, we explore the hypothesis that many
+    semantic universals arise because expressions satisfying the universal are
+    easier to learn than those that do not. While the idea that learnability
+    explains universals is not new, explicit accounts of learning that can make
+    good on this hypothesis are few and far between. We develop a model of
+    learning — back-propogation through a recurrent neural network — which can
+    make good on this promise. In particular, we discuss the universals of
+    monotonicity, quantity, and conservativity and perform computational
+    experiments of training such a network to learn to verify quantifiers. Our
+    results are able to explain monotonicity and quantity quite well. We suggest
+    that conservativity may have a different source than the other universals.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: SteinertThrelkeld2018
+  container-title: Semantics & Pragmatics
+  DOI: 10.3765/sp.12.4
+  issue: '4'
+  issued:
+    - year: 2019
+  title: Learnability and Semantic Universals
+  type: article-journal
+  volume: '12'
+
+- id: SteinertThrelkeld2019
+  abstract: >-
+    A semantic universal, which we here dub the Veridical Uniformity Universal,
+    has recently been argued to hold of responsive verbs (those that take both
+    declarative and interrogative complements). This paper offers a preliminary
+    explanation of this universal: verbs satisfying it are easier to learn than
+    those that do not. This claim is supported by a computational experiment
+    using artificial neural networks, mirroring a recent proposal for explaining
+    semantic universals of quantifiers. This preliminary study opens up many
+    avenues for future work on explaining semantic universals more generally,
+    which are discussed in the conclusion.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: SteinertThrelkeld2019
+  container-title: Journal of Semantics
+  DOI: 10.1093/jos/ffz019
+  ISSN: 0167-5133
+  issue: '1'
+  issued:
+    - year: 2020
+      month: 2
+      day: 14
+  page: 129-144
+  title: An Explanation of the Veridical Uniformity Universal
+  type: article-journal
+  URL: https://academic.oup.com/jos/article/37/1/129/5683663
+  volume: '37'
+
+- id: SteinertThrelkeld2020
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: SteinertThrelkeld2020
+  container-title: Cognition
+  DOI: 10.1016/j.cognition.2019.104076
+  issued:
+    - year: 2020
+  title: Ease of Learning Explains Semantic Universals
+  type: article-journal
+  volume: '195'
+...
