@@ -1,3 +1,14 @@
+# Changes I made
+
+Below is the full README from `markdown-cv`.  Here I just record some changes I made, so that I can compile with `pandoc` to (i) not rely on jekyll (ii) build publication list from BibTeX/CSL instead of manually.
+
+- `template.html`: lightly modified version of the default html5 template from pandoc
+- `chicago-syllabus.csl`: modified from Kieran Healy, removed `bibliography`
+
+I compile with `pandoc -s -o index.html index.md --template template.html --citeproc`
+
+
+
 # markdown-cv
 
 A curriculum vitae maintained in plain text and rendered to HTML and PDF using CSS.

@@ -1,74 +1,83 @@
 ---
 layout: cv
 title: Shane Steinert-Threlkeld's CV
-style: kjhealy
 css:
-    - file: media/kjhealy-screen.css
+    - file: media/davewhipp-screen.css
       media: screen
-    - file: media/kjhealy-print.css
+    - file: media/davewhipp-print.css
       media: print
-bibliography: ~/sync/bibs/sst-pubs.yaml
+bibliography: sst-pubs.yaml
+csl: chicago-syllabus.csl
 ---
 
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Shane Steinert-Threlkeld
+Computational Linguist and Cognitive Scientist
 
 <div id="webaddress">
 <a href="mailto:shanest@uw.edu">shanest@uw.edu</a>
-| <a href="https://www.shane.st">shane.st</a> | <a href="https://clmbr.shane.st">CLMBR (lab)</a>
+| <a href="https://www.shane.st">shane.st</a> | <a href="https://clmbr.shane.st">clmbr.shane.st (lab)</a>
 </div>
 
-TODO:
 
-- use style yaml to include spreadsheet (or just HTML tempplate instead of standalone?)
-    - does pandoc allow you to specify that in yaml header?
-- no header (maybe this is also via no standalone?)
-    - or does pandoc have a flag for no header?
-- bibliography....
-    - manual
-    - from Zotero export
-        - does pandoc have a CSL YAML renderer built in? or BibTeX renderer
-        - do I want to write my own template for that?!
-        - yes, specify bib, put CSL from healy
+## Employment
 
-## Currently
+`2019 - now`
+__University of Washington__
 
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+- Assistant Professor, Linguistics
 
 
-### Research interests
+`2017 - 2019`
+__Universiteit van Amsterdam__
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+- Postdoctoral Researcher, Institute for Logic, Language and Computation
+- ERC Funded "Cognitive Semantics and Quanities" (PI: Jakub Szymanik)
+
+
+`2017`
+__Ecole Normale Superieure__
+
+- Visiting Researcher, Institut Jean Nicod
+- ERC Funded "New Frontiers of Formal Semantics" (PI: Philippe Schlenker)
+
+
+`2016`
+__Google Reserach and Machine Intelligence__
+
+- Research software engineering intern
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2011-2017`
+__PhD., Stanford University__
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+- Philosophy and Symbolic Systems
+- Dissertation: "Communication and Computation: New Questions About Compositionality" \
+  (committee: Johan van Benthem (chair), Thomas Icard, Chris Potts, Brian Skyrms)
 
-- Sizar
+`2007-2011`
+__B.A., The Johns Hopkins University__
 
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
+- Philosophy and Mathematics
+- Minor: Computer Science
 
 
-## Awards
+## Grants and Awards
 
-`2012`
-President, *Royal Society*, London, UK
+`2021`
+__UW Royalty Research Fund__
 
-Associate, *French Academy of Science*, Paris, France
+- "Learning to Translate by Learning to Communicate" (1 year; $37,270)
 
+`2016-2017`
+__Mellon Foundation Dissertation Completion Fellowship__
+
+`2011-2016`
+__Patrick Suppes Fellowship in Philosophy of Science__
+
+`2007-2011`
+__Hodson Trust Scholar__
 
 
 ## Publications
@@ -77,32 +86,29 @@ Associate, *French Academy of Science*, Paris, France
 
 ### Journals
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+`2021`
+@Steinert-Threlkeld2021
 
-`1669`
-Lectiones opticæ.
+### Conference Proceedings
 
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+### Other
 
 
-## Occupation
+## Talks
 
-`1600`
-__Royal Mint__, London
+### Invited
 
-- Warden
-- Minted coins
+### Refereed
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+## Teaching
 
+## Advising
 
+### PhD students
+
+### CLMS theses 
+
+### Other
 
 <!-- ### Footer
 
