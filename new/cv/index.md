@@ -86,8 +86,51 @@ __Hodson Trust Scholar__
 
 ### Journals
 
+`2022`
+@steinert-threlkeldExplainingSemanticTypology2022
+
 `2021`
-@Steinert-Threlkeld2021
+@steinert-threlkeldQuantifiersNaturalLanguage2021
+
+`2021`
+@steinert-threlkeldReferentialGeneralCalls2021
+
+`2020`
+@steinert-threlkeldEaseLearningExplains2020
+
+`2020`
+@steinert-threlkeldEmergenceNontrivialCompositionality2020
+
+`2020`
+@steinert-threlkeldExplanationVeridicalUniformity2020
+
+`2020`
+@hawkeSemanticExpressivismEpistemic2021
+
+`2019`
+@steinert-threlkeldLearnabilitySemanticUniversals2019
+
+`2016/2018`
+@hawkeInformationalDynamicsEpistemic2018
+
+`2016`
+@steinert-threlkeldCompositionalSignalingComplex2016
+
+`2016`
+@steinert-threlkeldCompositionalityCompetitionMonkey2016
+
+`2016`
+@steinert-threlkeldPropertiesIteratedLanguages2016
+
+`2013/2016`
+@mintsADCMethodProof2016
+
+`2013`
+@steinert-threlkeldIteratingSemanticAutomata2013
+
+`2012`
+@steinert-threlkeldOntologicalLabelsAutomated2012
+
 
 ### Conference Proceedings
 
