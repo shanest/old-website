@@ -1,24 +1,5 @@
 ---
 references:
-- id: Carcassi2019
-  author:
-    - family: Carcassi
-      given: Fausto
-    - family: Steinert-Threlkeld
-      given: Shane
-    - family: Szymanik
-      given: Jakub
-  citation-key: Carcassi2019
-  container-title: >-
-    Proceedings of the 41st Annual Meeting of the Cognitive Science Society
-    (CogSci 2019)
-  issued:
-    - year: 2019
-  page: 190-196
-  title: The emergence of monotone quantifiers via iterated learning
-  type: paper-conference
-  URL: https://psyarxiv.com/8swtd
-
 - id: Carcassi2021
   author:
     - family: Carcassi
@@ -34,7 +15,64 @@ references:
   title: Monotone Quantifiers Emerge via Iterated Learning
   type: article-journal
 
-- id: Denic2020
+- id: carcassiEmergenceMonotoneQuantifiers2019
+  author:
+    - family: Carcassi
+      given: Fausto
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: carcassiEmergenceMonotoneQuantifiers2019
+  container-title: >-
+    Proceedings of the 41st Annual Meeting of the Cognitive Science Society
+    (CogSci 2019)
+  issued:
+    - year: 2019
+  page: 190-196
+  title: The emergence of monotone quantifiers via iterated learning
+  type: paper-conference
+  URL: https://psyarxiv.com/8swtd
+
+- id: carcassiMonotoneQuantifiersEmerge2021
+  abstract: >-
+    Natural languages exhibit many semantic universals, that is, properties of
+    meaning shared across all languages. In this paper, we develop an
+    explanation of one very prominent semantic universal, the monotonicity
+    universal. While the existing work has shown that quantifiers satisfying the
+    monotonicity universal are easier to learn, we provide a more complete
+    explanation by considering the emergence of quantifiers from the perspective
+    of cultural evolution. In particular, we show that quantifiers satisfy the
+    monotonicity universal evolve reliably in an iterated learning paradigm with
+    neural networks as agents.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Carcassi
+      given: Fausto
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: carcassiMonotoneQuantifiersEmerge2021
+  container-title: Cognitive Science
+  DOI: 10.1111/cogs.13027
+  ISSN: 1551-6709
+  issue: '8'
+  issued:
+    - year: 2021
+  language: en
+  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13027'
+  page: e13027
+  source: Wiley Online Library
+  title: Monotone Quantifiers Emerge via Iterated Learning
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13027
+  volume: '45'
+
+- id: denicComplexityInformativenessTradeoff2020
   abstract: >-
     The vocabulary of human languages has been argued to support efficient
     communication by optimizing the trade-off between complexity and
@@ -58,7 +96,7 @@ references:
       given: Shane
     - family: Szymanik
       given: Jakub
-  citation-key: Denic2020
+  citation-key: denicComplexityInformativenessTradeoff2020
   container-title: Proceedings of Semantics and Linguistic Theory (SALT 30)
   DOI: 10.3765/salt.v30i0.4811
   issued:
@@ -89,7 +127,7 @@ references:
   type: manuscript
   URL: https://lingbuzz.net/lingbuzz/006192
 
-- id: GeffenLan2020
+- id: geffenlanSpontaneousEmergenceDiscrete2020
   abstract: >-
     We propose a general framework to study language emergence through signaling
     games with neural agents. Using a continuous latent space, we are able to
@@ -103,7 +141,7 @@ references:
       given: Emmanuel
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: GeffenLan2020
+  citation-key: geffenlanSpontaneousEmergenceDiscrete2020
   container-title: >-
     Proceedings of the 58th Annual Meeting of the Association for Computational
     Linguistics
@@ -183,6 +221,47 @@ references:
   URL: https://doi.org/10.1007/s11229-016-1216-8
   volume: '195'
 
+- id: hawkeInformationalDynamicsMight2015
+  abstract: >-
+    We investigate, in a logical setting, the proposal that assertion primarily
+    functions to express and coordinate doxastic states and that ‘might’
+    fundamentally expresses lack of belief. We provide a formal model of an
+    agent’s doxastic state and precise assertability conditions for an
+    associated formal language. We thereby prove that an arbitrary assertion
+    (including a complex of ‘might’ and ‘factual’ claims) always succeeds in
+    expressing a well-defined doxastic state. We then propose a fully general
+    and intuitive doxastic update operation as a model of an agent coming to
+    accept an arbitrary assertion. We provide reduction axioms for some novel
+    update operations related to this proposal.
+  author:
+    - family: Hawke
+      given: Peter
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: hawkeInformationalDynamicsMight2015
+  collection-title: Lecture Notes in Computer Science
+  container-title: Logic, Rationality, and Interaction
+  DOI: 10.1007/978-3-662-48561-3_12
+  editor:
+    - family: Hoek
+      given: Wiebe
+      non-dropping-particle: van der
+    - family: Holliday
+      given: Wesley H.
+    - family: Wang
+      given: Wen-fang
+  event-place: Berlin, Heidelberg
+  ISBN: 978-3-662-48561-3
+  issued:
+    - year: 2015
+  language: en
+  page: 143-155
+  publisher: Springer
+  publisher-place: Berlin, Heidelberg
+  source: Springer Link
+  title: Informational Dynamics of ‘Might’ Assertions
+  type: paper-conference
+
 - id: hawkeSemanticExpressivismEpistemic2021
   abstract: >-
     Expressivists about epistemic modals deny that ‘Jane might be late’
@@ -241,6 +320,91 @@ references:
   title: Modals in natural language optimize the simplicity/informativeness trade-off
   type: paper-conference
 
+- id: jumeletLanguageModelsUse2021
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Jumelet
+      given: Jaap
+    - family: Denic
+      given: Milica
+    - family: Szymanik
+      given: Jakub
+    - family: Hupkes
+      given: Dieuwke
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: jumeletLanguageModelsUse2021
+  container-title: 'Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021'
+  DOI: 10.18653/v1/2021.findings-acl.439
+  event: Findings 2021
+  event-place: Online
+  issued:
+    - year: 2021
+      month: 8
+  page: 4958–4969
+  publisher: Association for Computational Linguistics
+  publisher-place: Online
+  source: ACLWeb
+  title: Language Models Use Monotonicity to Assess NPI Licensing
+  type: paper-conference
+  URL: https://aclanthology.org/2021.findings-acl.439
+
+- id: liLinguisticallyInformedTransformationsLIT2020
+  abstract: >-
+    Although large-scale pretrained language models, such as BERT and RoBERTa,
+    have achieved superhuman performance on in-distribution test sets, their
+    performance suffers on out-of-distribution test sets (e.g., on contrast
+    sets). Building contrast sets often requires human-expert annotation, which
+    is expensive and hard to create on a large scale. In this work, we propose a
+    Linguistically-Informed Transformation (LIT) method to automatically
+    generate contrast sets, which enables practitioners to explore linguistic
+    phenomena of interests as well as compose different phenomena. Experimenting
+    with our method on SNLI and MNLI shows that current pretrained language
+    models, although being claimed to contain sufficient linguistic knowledge,
+    struggle on our automatically generated contrast sets. Furthermore, we
+    improve models' performance on the contrast sets by applying LIT to augment
+    the training data, without affecting performance on the original data.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Li
+      given: Chuanrong
+    - family: Shengshuo
+      given: Lin
+    - family: Liu
+      given: Zeyu
+    - family: Wu
+      given: Xinyi
+    - family: Zhou
+      given: Xuhui
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: liLinguisticallyInformedTransformationsLIT2020
+  container-title: >-
+    Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting
+    Neural Networks for NLP
+  DOI: 10.18653/v1/2020.blackboxnlp-1.12
+  event: BlackboxNLP-EMNLP 2020
+  event-place: Online
+  issued:
+    - year: 2020
+      month: 11
+  page: 126–135
+  publisher: Association for Computational Linguistics
+  publisher-place: Online
+  source: ACLWeb
+  title: >-
+    Linguistically-Informed Transformations (LIT): A Method for Automatically
+    Generating Contrast Sets
+  title-short: Linguistically-Informed Transformations (LIT)
+  type: paper-conference
+  URL: https://aclanthology.org/2020.blackboxnlp-1.12
+
 - id: mintsADCMethodProof2016
   author:
     - family: Mints
@@ -259,7 +423,7 @@ references:
   type: article-journal
   volume: '26'
 
-- id: OSullivan2019
+- id: osullivanNeuralModelsPsychosemantics2019
   abstract: >-
     How are the meanings of linguistic expressions related to their use in
     concrete cognitive tasks? Visual identification tasks show human speakers
@@ -280,7 +444,7 @@ references:
       given: Lewis
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: OSullivan2019
+  citation-key: osullivanNeuralModelsPsychosemantics2019
   container-title: >-
     Proceedings of the Workshop on Cognitive Modeling and Computational
     Linguistics
@@ -317,27 +481,49 @@ references:
     Predicting Quantifiers
   type: paper-conference
 
-- id: Pol2019
+- id: pezzelleThemCanBe2018
+  abstract: >-
+    We study the role of linguistic context in predicting quantifiers (`few',
+    `all'). We collect crowdsourced data from human participants and test
+    various models in a local (single-sentence) and a global context
+    (multi-sentence) condition. Models significantly out-perform humans in the
+    former setting and are only slightly better in the latter. While human
+    performance improves with more linguistic context (especially on
+    proportional quantifiers), model performance suffers. Models are very
+    effective in exploiting lexical and morpho-syntactic patterns; humans are
+    better at genuinely understanding the meaning of the (global) context.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
   author:
-    - family: Pol
-      given: Iris
-      dropping-particle: van de
+    - family: Pezzelle
+      given: Sandro
     - family: Steinert-Threlkeld
       given: Shane
+    - family: Bernardi
+      given: Raffaella
     - family: Szymanik
       given: Jakub
-  citation-key: Pol2019
+  citation-key: pezzelleThemCanBe2018
   container-title: >-
-    Proceedings of the 41st Annual Meeting of the Cognitive Science Society
-    (CogSci 2019)
+    Proceedings of the 56th Annual Meeting of the Association for Computational
+    Linguistics (Volume 2: Short Papers)
+  DOI: 10.18653/v1/P18-2019
+  event: ACL 2018
+  event-place: Melbourne, Australia
   issued:
-    - year: 2019
-  page: 3015-3021
+    - year: 2018
+      month: 7
+  page: 114–119
+  publisher: Association for Computational Linguistics
+  publisher-place: Melbourne, Australia
+  source: ACLWeb
   title: >-
-    Complexity and learnability in the explanation of semantic universals of
-    quantifiers
+    Some of Them Can be Guessed! Exploring the Effect of Linguistic Context in
+    Predicting Quantifiers
   type: paper-conference
-  URL: https://psyarxiv.com/f8dbp/
+  URL: https://aclanthology.org/P18-2019
 
 - id: Pol2021
   author:
@@ -361,6 +547,115 @@ references:
   type: paper-conference
   URL: https://escholarship.org/uc/item/1vm445rp
   volume: '43'
+
+- id: polComplexityLearnabilityExplanation2019
+  author:
+    - family: Pol
+      given: Iris
+      dropping-particle: van de
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: polComplexityLearnabilityExplanation2019
+  container-title: >-
+    Proceedings of the 41st Annual Meeting of the Cognitive Science Society
+    (CogSci 2019)
+  issued:
+    - year: 2019
+  page: 3015-3021
+  title: >-
+    Complexity and learnability in the explanation of semantic universals of
+    quantifiers
+  type: paper-conference
+  URL: https://psyarxiv.com/f8dbp/
+
+- id: ramotowskaMostNotMore2020
+  abstract: >-
+    In this study we test individual differences in the meaning representations
+    of two natural language quantifiers – most and more than half – in a novel,
+    purely linguistic task. We operationalized differences in meaning
+    representations as differences in individual thresholds which were estimated
+    using logistic regression. We show that the representation ofmost varies
+    across subjects and its verification depends on proportion. Moreover, the
+    choice of the representation of most affects the verification process. These
+    effects are not present for more than half. The study demonstrates the
+    cognitive differences between most and more than half and individual
+    variation in meaning representations.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Ramotowska
+      given: Sonia
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Maanen
+      given: Leendert Van
+    - family: Szymanik
+      given: Jakub
+  citation-key: ramotowskaMostNotMore2020
+  container-title: Proceedings of Sinn und Bedeutung
+  DOI: 10.18148/sub/2020.v24i2.891
+  ISSN: 2629-6055
+  issue: '2'
+  issued:
+    - year: 2020
+  language: en
+  number: '2'
+  page: 165-182
+  source: ojs.ub.uni-konstanz.de
+  title: >-
+    Most, but not more than half, is proportion-dependent and sensitive to
+    individual differences
+  type: article-journal
+  URL: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/891
+  volume: '24'
+
+- id: shapiroMultilabelApproachMorphosyntactic2021
+  abstract: >-
+    We propose using a multilabel probing task to assess the morphosyntactic
+    representations of multilingual word embeddings. This tweak on canonical
+    probing makes it easy to explore morphosyntactic representations, both
+    holistically and at the level of individual features (e.g., gender, number,
+    case), and leads more naturally to the study of how language models handle
+    co-occurring features (e.g., agreement phenomena). We demonstrate this task
+    with multilingual BERT (Devlin et al., 2018), training probes for seven
+    typologically diverse languages: Afrikaans, Croatian, Finnish, Hebrew,
+    Korean, Spanish, and Turkish. Through this simple but robust paradigm, we
+    verify that multilingual BERT renders many morphosyntactic features
+    simultaneously extractable. We further evaluate the probes on six held-out
+    languages: Arabic, Chinese, Marathi, Slovenian, Tagalog, and Yoruba. This
+    zero-shot style of probing has the added benefit of revealing which
+    cross-linguistic properties a language model recognizes as being shared by
+    multiple languages.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Shapiro
+      given: Naomi
+    - family: Paullada
+      given: Amandalynne
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: shapiroMultilabelApproachMorphosyntactic2021
+  container-title: 'Findings of the Association for Computational Linguistics: EMNLP 2021'
+  DOI: 10.18653/v1/2021.findings-emnlp.382
+  event: EMNLP-Findings 2021
+  event-place: Punta Cana, Dominican Republic
+  issued:
+    - year: 2021
+      month: 11
+  page: 4486–4524
+  publisher: Association for Computational Linguistics
+  publisher-place: Punta Cana, Dominican Republic
+  source: ACLWeb
+  title: A multilabel approach to morphosyntactic probing
+  type: paper-conference
+  URL: https://aclanthology.org/2021.findings-emnlp.382
 
 - id: Steinert-Threlkeld2009
   abstract: >-
@@ -393,51 +688,6 @@ references:
   type: article-journal
   URL: http://mathdl.maa.org/mathDL/55/?pa=content&sa=viewDocument&nodeId=3340
   volume: '1'
-
-- id: Steinert-Threlkeld2011
-  abstract: >-
-    Semantics based Analysis Natural language processing Image and video
-    analysis Audio and speech analysis Data and web mining Behavior of software,
-    services and networks Security Semantic Integration Metadata and other
-    description languages Ontology integration Interoperability and service
-    integration Applications using Semantics Search engines and question
-    answering Semantic web services Content-based multimedia retrieval and
-    editing Context-aware networks of sensors, devices and applications Machine
-    translation Creative art description Medicine and biology Semantic
-    programming languages and software engineering System design and synthesis
-    GIS Semantic Interfaces Natural language interfaces Multimodal interfaces
-    Human centered computing. © 2011 IEEE.
-  author:
-    - family: Steinert-Threlkeld
-      given: S.
-    - family: Ardekani
-      given: S.
-    - family: Mejinoz
-      given: J.L.V.
-    - family: Detwilerz
-      given: L.T.
-    - family: Brinkleyz
-      given: J.F.
-    - family: Halle
-      given: M.
-    - family: Kikinis
-      given: R.
-    - family: Winslowy
-      given: R.L.
-    - family: Miller
-      given: M.I.
-    - family: Ratnanather
-      given: J.T.
-  citation-key: Steinert-Threlkeld2011
-  container-title: >-
-    Proceedings - 5th IEEE International Conference on Semantic Computing, ICSC
-    2011
-  DOI: 10.1109/ICSC.2011.99
-  ISBN: 978-0-7695-4492-2
-  issued:
-    - year: 2011
-  title: Ontological labels for automated location of left ventricular remodeling
-  type: paper-conference
 
 - id: Steinert-Threlkeld2011
   author:
@@ -488,82 +738,27 @@ references:
   title: 'Communication and Computation: New Questions About Compositionality'
   type: thesis
 
-- id: Steinert-Threlkeld2017b
+- id: steinert-threlkeldAlternativeRepresentationsFormal2015
   author:
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: Steinert-Threlkeld2017b
-  container-title: Proceedings of the 21st Amsterdam Colloquium
+    - family: Munneke
+      given: Gert-Jan
+    - family: Szymanik
+      given: Jakub
+  citation-key: steinert-threlkeldAlternativeRepresentationsFormal2015
+  container-title: Proceedings of the 20th Amsterdam Colloquium
   editor:
-    - family: Cremers
-      given: Alexandre
-    - family: Gessel
-      given: Thom
-      dropping-particle: van
+    - family: Brochhagen
+      given: Thomas
     - family: Roelofsen
       given: Floris
+    - family: Thelier
+      given: Nadine
   issued:
-    - year: 2017
-  page: 445-454
-  title: Uniform Definability in Assertability Semantics
-  type: paper-conference
-
-- id: Steinert-Threlkeld2019
-  abstract: >-
-    All natural languages exhibit a distinction between content words (like
-    nouns and adjectives) and function words (like determiners, auxiliaries,
-    prepositions). Yet surprisingly little has been said about the emergence of
-    this universal architectural feature of natural languages. Why have human
-    languages evolved to exhibit this division of labor between content and
-    function words? How could such a distinction have emerged in the first
-    place? This paper takes steps towards answering these questions by showing
-    how the distinction can emerge through reinforcement learning in agents
-    playing a signaling game across contexts which contain multiple objects that
-    possess multiple perceptually salient gradable properties.
-  author:
-    - family: Steinert-Threlkeld
-      given: Shane
-  citation-key: Steinert-Threlkeld2019
-  container-title: Emergent Communication Workshop @ NeurIPS 2018
-  issued:
-    - year: 2019
-  title: Paying Attention to Function Words
-  type: paper-conference
-  URL: http://arxiv.org/abs/1909.11060
-
-- id: Steinert-Threlkeld2020b
-  abstract: >-
-    While the languages of the world vary greatly, linguists have discovered
-    many restrictions on possible variation. Semantic universals are
-    restrictions on the range of variation in meaning across languages.
-    Recently, in several domains-e.g. kinship terms, color terms-such universals
-    have been argued to arise from a trade-off between simplicity and
-    informativeness. In this paper, we apply this method to a prominent domain
-    of functions words, showing that the quantifiers in natural language also
-    appear to be optimized for this trade-off. We do this by using an
-    evolutionary algorithm to estimate the optimal languages, systematically
-    manipulating the degree of naturalness of languages, and showing that
-    languages become closer to optimal as they become more natural. Our results
-    suggest that very general communicative and cognitive pressures may shape
-    the lexica of natural languages across both content and function words.
-  author:
-    - family: Steinert-Threlkeld
-      given: Shane
-  citation-key: Steinert-Threlkeld2020b
-  container-title: Proceedings of the 22nd Amsterdam Colloquium
-  editor:
-    - family: Schl\"{o}der
-      given: Julian J
-    - family: McHugh
-      given: Dean
-    - family: Roelofsen
-      given: Floris
-  issued:
-    - year: 2020
-  page: 513-522
-  title: >-
-    Quantifiers in natural language optimize the simplicity/informativeness
-    trade-off
+    - year: 2015
+  page: 368-378
+  title: 'Alternative Representations in Formal Semantics: A case study of quantifiers'
   type: paper-conference
 
 - id: steinert-threlkeldCompositionalityCompetitionMonkey2016
@@ -595,6 +790,23 @@ references:
   title: Compositional Signaling in a Complex World
   type: article-journal
   volume: '25'
+
+- id: steinert-threlkeldDecidabilityIteratedLanguages2014
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: steinert-threlkeldDecidabilityIteratedLanguages2014
+  container-title: >-
+    Proceedings of Philosophy, Mathematics, Linguistics: Aspects of Interaction
+    (PhML2014)
+  editor:
+    - family: Prosorov
+      given: Oleg
+  issued:
+    - year: 2014
+  page: 215-224
+  title: On the Decidability of Iterated Languages
+  type: paper-conference
 
 - id: steinert-threlkeldEaseLearningExplains2020
   abstract: >-
@@ -714,6 +926,47 @@ references:
   URL: https://academic.oup.com/jos/article/37/1/129/5683663
   volume: '37'
 
+- id: steinert-threlkeldHowSocialNetworks2021
+  abstract: >-
+    Scholars have offered multiple theoretical resolutions to explain
+    inconsistent findings about the relationship of state repression and
+    protests, but this repression-dissent puzzle remains unsolved. We simulate
+    the spread of protest on social networks to suggest that the
+    repression-dissent puzzle arises from the nature of statistical sampling.
+    Even though the paper’s simulations construct repression so it can only
+    decrease protest size, the strength of repression sometimes correlates with
+    a decrease, increase, or no change in protest size, regardless of the type
+    of network or sample size chosen. Moreover, the results are most
+    contradictory when the repression rate most closely matches that observed in
+    real-world data. These results offer a new framework for understanding state
+    and protester behavior and suggest the importance of collecting network data
+    when studying protests.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Steinert-Threlkeld
+      given: Zachary
+  citation-key: steinert-threlkeldHowSocialNetworks2021
+  container-title: PLOS ONE
+  container-title-short: PLOS ONE
+  DOI: 10.1371/journal.pone.0250784
+  ISSN: 1932-6203
+  issue: '5'
+  issued:
+    - year: 2021
+  language: en
+  page: e0250784
+  publisher: Public Library of Science
+  source: PLoS Journals
+  title: How social networks affect the repression-dissent puzzle
+  type: article-journal
+  URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250784
+  volume: '16'
+
 - id: steinert-threlkeldIteratingSemanticAutomata2013
   author:
     - family: Steinert-Threlkeld
@@ -761,6 +1014,51 @@ references:
   title: Learnability and Semantic Universals
   type: article-journal
   volume: '12'
+
+- id: steinert-threlkeldOntologicalLabelsAutomated2011
+  abstract: >-
+    Semantics based Analysis Natural language processing Image and video
+    analysis Audio and speech analysis Data and web mining Behavior of software,
+    services and networks Security Semantic Integration Metadata and other
+    description languages Ontology integration Interoperability and service
+    integration Applications using Semantics Search engines and question
+    answering Semantic web services Content-based multimedia retrieval and
+    editing Context-aware networks of sensors, devices and applications Machine
+    translation Creative art description Medicine and biology Semantic
+    programming languages and software engineering System design and synthesis
+    GIS Semantic Interfaces Natural language interfaces Multimodal interfaces
+    Human centered computing. © 2011 IEEE.
+  author:
+    - family: Steinert-Threlkeld
+      given: S.
+    - family: Ardekani
+      given: S.
+    - family: Mejinoz
+      given: J.L.V.
+    - family: Detwilerz
+      given: L.T.
+    - family: Brinkleyz
+      given: J.F.
+    - family: Halle
+      given: M.
+    - family: Kikinis
+      given: R.
+    - family: Winslowy
+      given: R.L.
+    - family: Miller
+      given: M.I.
+    - family: Ratnanather
+      given: J.T.
+  citation-key: steinert-threlkeldOntologicalLabelsAutomated2011
+  container-title: >-
+    Proceedings - 5th IEEE International Conference on Semantic Computing, ICSC
+    2011
+  DOI: 10.1109/ICSC.2011.99
+  ISBN: 978-0-7695-4492-2
+  issued:
+    - year: 2011
+  title: Ontological labels for automated location of left ventricular remodeling
+  type: paper-conference
 
 - id: steinert-threlkeldOntologicalLabelsAutomated2012
   abstract: >-
@@ -815,6 +1113,29 @@ references:
   URL: http://dx.doi.org/10.1016/j.jbi.2012.02.013
   volume: '45'
 
+- id: steinert-threlkeldPayingAttentionFunction2018
+  abstract: >-
+    All natural languages exhibit a distinction between content words (like
+    nouns and adjectives) and function words (like determiners, auxiliaries,
+    prepositions). Yet surprisingly little has been said about the emergence of
+    this universal architectural feature of natural languages. Why have human
+    languages evolved to exhibit this division of labor between content and
+    function words? How could such a distinction have emerged in the first
+    place? This paper takes steps towards answering these questions by showing
+    how the distinction can emerge through reinforcement learning in agents
+    playing a signaling game across contexts which contain multiple objects that
+    possess multiple perceptually salient gradable properties.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: steinert-threlkeldPayingAttentionFunction2018
+  container-title: Emergent Communication Workshop @ NeurIPS 2018
+  issued:
+    - year: 2018
+  title: Paying Attention to Function Words
+  type: paper-conference
+  URL: http://arxiv.org/abs/1909.11060
+
 - id: steinert-threlkeldPropertiesIteratedLanguages2016
   author:
     - family: Steinert-Threlkeld
@@ -830,6 +1151,41 @@ references:
   title: Some Properties of Iterated Languages
   type: article-journal
   volume: '25'
+
+- id: steinert-threlkeldQuantifiersNaturalLanguage2019
+  abstract: >-
+    While the languages of the world vary greatly, linguists have discovered
+    many restrictions on possible variation. Semantic universals are
+    restrictions on the range of variation in meaning across languages.
+    Recently, in several domains-e.g. kinship terms, color terms-such universals
+    have been argued to arise from a trade-off between simplicity and
+    informativeness. In this paper, we apply this method to a prominent domain
+    of functions words, showing that the quantifiers in natural language also
+    appear to be optimized for this trade-off. We do this by using an
+    evolutionary algorithm to estimate the optimal languages, systematically
+    manipulating the degree of naturalness of languages, and showing that
+    languages become closer to optimal as they become more natural. Our results
+    suggest that very general communicative and cognitive pressures may shape
+    the lexica of natural languages across both content and function words.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: steinert-threlkeldQuantifiersNaturalLanguage2019
+  container-title: Proceedings of the 22nd Amsterdam Colloquium
+  editor:
+    - family: Schl\"{o}der
+      given: Julian J
+    - family: McHugh
+      given: Dean
+    - family: Roelofsen
+      given: Floris
+  issued:
+    - year: 2019
+  page: 513-522
+  title: >-
+    Quantifiers in natural language optimize the simplicity/informativeness
+    trade-off
+  type: paper-conference
 
 - id: steinert-threlkeldQuantifiersNaturalLanguage2021
   abstract: >-
@@ -925,47 +1281,27 @@ references:
   type: manuscript
   URL: https://lingbuzz.net/lingbuzz/006399
 
-- id: SteinertThrelkeld2014
+- id: steinert-threlkeldUniformDefinabilityAssertability2017a
   author:
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: SteinertThrelkeld2014
-  container-title: >-
-    Proceedings of Philosophy, Mathematics, Linguistics: Aspects of Interaction
-    (PhML2014)
+  citation-key: steinert-threlkeldUniformDefinabilityAssertability2017a
+  container-title: Proceedings of the 21st Amsterdam Colloquium
   editor:
-    - family: Prosorov
-      given: Oleg
-  issued:
-    - year: 2014
-  page: 215-224
-  title: On the Decidability of Iterated Languages
-  type: paper-conference
-
-- id: SteinertThrelkeld2015
-  author:
-    - family: Steinert-Threlkeld
-      given: Shane
-    - family: Munneke
-      given: Gert-Jan
-    - family: Szymanik
-      given: Jakub
-  citation-key: SteinertThrelkeld2015
-  container-title: Proceedings of the 20th Amsterdam Colloquium
-  editor:
-    - family: Brochhagen
-      given: Thomas
+    - family: Cremers
+      given: Alexandre
+    - family: Gessel
+      given: Thom
+      dropping-particle: van
     - family: Roelofsen
       given: Floris
-    - family: Thelier
-      given: Nadine
   issued:
-    - year: 2015
-  page: 368-378
-  title: 'Alternative Representations in Formal Semantics: A case study of quantifiers'
+    - year: 2017
+  page: 445-454
+  title: Uniform Definability in Assertability Semantics
   type: paper-conference
 
-- id: Szymanik2013
+- id: szymanikAutomataComplexityMultipleQuantifier2013
   author:
     - family: Szymanik
       given: Jakub
@@ -975,10 +1311,51 @@ references:
       given: Marcin
     - family: Icard III.
       given: Thomas F.
-  citation-key: Szymanik2013
+  citation-key: szymanikAutomataComplexityMultipleQuantifier2013
   container-title: Proceedings of the 12th International Conference on Cognitive Modeling
   issued:
     - year: 2013
   title: Automata and Complexity in Multiple-Quantifier Sentence Verification
   type: paper-conference
+
+- id: vandepolQuantifiersSatisfyingSemantic2021
+  abstract: >-
+    Despite wide variation among natural languages, there are linguistic
+    properties thought to be universal to all or almost all natural languages.
+    Here, we consider universals at the semantic level, in the domain of
+    quantifiers, which are given by the properties of monotonicity, quantity,
+    and conservativity. We investigate whether these universals might be
+    explained by differences in complexity. We generate a large collection of
+    quantifiers, based on a simple yet expressive grammar, and compute both
+    their complexities and whether they adhere to these universal properties. We
+    find that quantifiers satisfying semantic universals are less complex: they
+    have a shorter minimal description length.
+  accessed:
+    - year: 2022
+      month: 3
+      day: 27
+  author:
+    - family: Pol
+      given: Iris
+      non-dropping-particle: van de
+    - family: Lodder
+      given: Paul
+    - family: Maanen
+      given: Leendert
+      non-dropping-particle: van
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: vandepolQuantifiersSatisfyingSemantic2021
+  container-title: Proceedings of the Annual Meeting of the Cognitive Science Society
+  issue: '43'
+  issued:
+    - year: 2021
+  language: en
+  source: escholarship.org
+  title: Quantifiers satisfying semantic universals are simpler
+  type: article-journal
+  URL: https://escholarship.org/uc/item/1vm445rp
+  volume: '43'
 ...
