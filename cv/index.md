@@ -207,7 +207,18 @@ __Hodson Trust Scholar__
 
 ## Talks
 
+(NB: this and the rest of the CV are woefully incomplete right now, but will be updated soon.)
+
 ### Invited
+
+`03/30/2022`
+"Unnatural Language Semantics":
+Center for Linguistic Theory and Studies in Probability (CLASP) @ Gothenburg
+
+`03/04/2022`
+"Unnatural Language Semantics":
+Allyson Ettinger lab @ Chicago
+
 
 ### Refereed
 
