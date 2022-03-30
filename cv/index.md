@@ -2,9 +2,9 @@
 layout: cv
 title: Shane Steinert-Threlkeld's CV
 css:
-    - file: media/davewhipp-screen.css
+    - file: media/shanest-screen.css
       media: screen
-    - file: media/davewhipp-print.css
+    - file: media/shanest-print.css
       media: print
 bibliography: sst-pubs.yaml
 csl: chicago-syllabus.csl
@@ -23,30 +23,31 @@ Computational Linguist and Cognitive Scientist
 
 ## Employment
 
-`2019 - now`
-__University of Washington__
+#### University of Washington 
 
 - Assistant Professor, Linguistics
+`2019 - now`
 
 
-`2017 - 2019`
-__Universiteit van Amsterdam__
+
+#### Universiteit van Amsterdam
 
 - Postdoctoral Researcher, Institute for Logic, Language and Computation
+`2017 - 2019`
 - ERC Funded "Cognitive Semantics and Quanities" (PI: Jakub Szymanik)
 
 
-`2017`
-__Ecole Normale Superieure__
+#### Ecole Normale Superieure
 
 - Visiting Researcher, Institut Jean Nicod
+`2017`
 - ERC Funded "New Frontiers of Formal Semantics" (PI: Philippe Schlenker)
 
 
-`2016`
-__Google Reserach and Machine Intelligence__
+#### Google Reserach and Machine Intelligence
 
 - Research software engineering intern
+`2016`
 
 
 ## Education
@@ -211,13 +212,42 @@ __Hodson Trust Scholar__
 
 ### Invited
 
+<!-- TODO: make h4 style for these headers so that they are more semantically coherent -->
+
+#### Unnatural Language Semantics
+
 `03/30/2022`
-"Unnatural Language Semantics":
 Center for Linguistic Theory and Studies in Probability (CLASP) @ Gothenburg
 
 `03/04/2022`
-"Unnatural Language Semantics":
 Allyson Ettinger lab @ Chicago
+
+
+#### Two Approaches to Explaining Semantic Universals
+
+`09/08/2021`
+Computational Psycholinguistics Lab @ MIT (PI: Levy)
+
+`06/17/2021`
+Konstanz Philosophy Colloquium
+
+`02/17/2021`
+Language Change: Theoretical and Empirical Perspectives (@ Hebrew University of Jerusalem)
+
+`10/01/2020`
+Computation and Langauge Lab @ Berkeley (PI: Piantadosi)
+
+
+#### Cognitive Science to / from NLP
+
+`02/22/2021`
+Montana State University Computer Science Colloquium
+
+
+#### Degrees of Monotonicity
+
+`06/12/2019`
+Workshop in Honor of Johan van Benthem's 70th Birthday
 
 
 ### Refereed
