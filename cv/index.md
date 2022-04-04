@@ -37,7 +37,7 @@ Computational Linguist and Cognitive Scientist
 - ERC Funded "Cognitive Semantics and Quanities" (PI: Jakub Szymanik)
 
 
-#### Ecole Normale Superieure
+#### École Normale Supérieure
 
 - Visiting Researcher, Institut Jean Nicod
 `2017`
