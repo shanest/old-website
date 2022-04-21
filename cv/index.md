@@ -212,7 +212,11 @@ __Hodson Trust Scholar__
 
 ### Invited
 
-<!-- TODO: make h4 style for these headers so that they are more semantically coherent -->
+#### Efficient Communication in Closed Classes
+
+`05/18/2022`
+Cognitive Semantics and Quantities closing workshop
+
 
 #### Unnatural Language Semantics
 
@@ -248,6 +252,95 @@ Montana State University Computer Science Colloquium
 
 `06/12/2019`
 Workshop in Honor of Johan van Benthem's 70th Birthday
+
+#### Explaining Semantic Universals
+
+`05/24/2019`
+Social Models of Meaning Acquisition (U Warsaw)
+
+`04/17/2019`
+Universität Osnabrück Institute of Cognitive Science Colloquium
+
+`04/05/2019`
+AwesomeIT Symposium (U Amsterdam)
+
+`03/07/2019`
+Logic and Interactive Rationality Seminar (ILLC, Amsterdam)
+
+`02/20/2019`
+University of Washington Linguistics Colloquium
+
+`01/24/2019`
+Cornell University Linguistics Colloquium
+
+
+#### Ease of Learning Explains Semantic Universals
+
+`12/15/2018`
+Workshop on Universals in the Modal Domain (Utrecht)
+
+`09/10/2018`
+Cognition, Language and Communication Seminar (Amsterdam)
+
+`11/14/2017`
+Computational Linguistics Seminar (Amsterdam)
+
+`11/10/2017`
+Paris-Amsterdam-London Meeting
+
+`09/28/2017`
+Cognitive Semantics and Quantities kick-off workshop
+
+
+#### How to be an Expressivist About Epistemic Modals
+
+`06/26/2017`
+Inquisitiveness Below and Beyond the Sentence Boundary (with Peter Hawke)
+
+
+#### Pragmatic Expressivism and Non-disjunctive Properties
+
+`03/22/2017`
+Institut Jean Nicod
+
+
+#### Compositional Signaling in a Complex World
+
+`12/11/2015`
+Center for Logic, Language, and Mind (Stockholm University)
+
+
+#### Signaling Games
+
+`12/10/2015`
+Higher Seminar in Theoretical Philosophy (Stockholm University)
+
+
+#### Epistemic Modality and the Dynamics of Discourse
+
+`05/31/2015`
+Fourth CSLI Workshop on Logic, Rationality and Intelligent Interaction
+
+`04/14/2015`
+Stanford Mathematical Logic Seminar
+
+
+#### Learning to Use Function Words in Signaling Games
+
+`12/11/2013`
+Knowledge, Argumentation and Games in Amsterdam
+
+
+#### Iterating Semantic Automata
+
+`01/09/2014`
+Cognition and Language Workshop
+
+`05/14/2013`
+Stanford Mathematical Logic Seminar
+
+`06/02/2012`
+First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 
 ### Refereed
