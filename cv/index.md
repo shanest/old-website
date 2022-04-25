@@ -347,6 +347,14 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 ## Teaching
 
+### Washington
+
+### Amsterdam
+
+### Stanford
+
+### Summer Schools
+
 ## Advising
 
 ### PhD students
@@ -354,6 +362,8 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 ### CLMS theses 
 
 ### Other
+
+## Service
 
 <!-- ### Footer
 
