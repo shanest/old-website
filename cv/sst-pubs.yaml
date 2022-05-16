@@ -876,6 +876,36 @@ references:
   URL: https://www.journals.uchicago.edu/doi/10.1086/710628
   volume: '87'
 
+- id: steinert-threlkeldEmergentCommunicationFinetuning2022
+  abstract: >-
+    We describe an approach of using emergent communication to fine-tune large
+    pretrained langauge models, with suggestive pilot results for unsupervised
+    translation.
+  accessed:
+    - year: 2022
+      month: 5
+      day: 12
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Zhou
+      given: Xuhui
+    - family: Liu
+      given: Zeyu
+    - family: Downey
+      given: C. M.
+  citation-key: steinert-threlkeldEmergentCommunicationFinetuning2022
+  event: Emergent Communication Workshop at ICLR 2022
+  issued:
+    - year: 2022
+      month: 3
+      day: 7
+  language: en
+  source: openreview.net
+  title: Emergent Communication Fine-tuning (EC-FT) for Pretrained Language Models
+  type: paper-conference
+  URL: https://openreview.net/forum?id=SUqrM7WR7W5
+
 - id: steinert-threlkeldExplainingSemanticTypology2022
   accessed:
     - year: 2022
