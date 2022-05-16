@@ -145,6 +145,11 @@ __Hodson Trust Scholar__
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
 
+`2022`
+@steinert-threlkeldEmergentCommunicationFinetuning2022
+
+- **Note:** Runner-up best paper award
+
 `2021`
 @shapiroMultilabelApproachMorphosyntactic2021
 
@@ -212,9 +217,9 @@ __Hodson Trust Scholar__
 
 ### Invited
 
-#### Efficient Communication in Closed Classes
+#### An Efficient Communication Analysis of Modal Typology
 
-`05/18/2022`
+`05/19/2022`
 Cognitive Semantics and Quantities closing workshop
 
 
@@ -345,9 +350,25 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 ### Refereed
 
+#### An Efficient Communication Analysis of Modal Typology
+
+`06/10/2022`
+Semantics and Linguistic Theory (SALT 32)
+
 ## Teaching
 
 ### Washington
+
+LING 571 Deep Processing Methods for NLP: Aut '19, '20, '21
+
+LING 572 Advanced Statistical Methods for NLP: Win '20
+
+LING 574 Deep Learning for NLP: Spr '21, '22
+
+- NB: New course development
+
+LING 575 Analyzing Neural Language Models: Win '20, Spr '21, '22
+
 
 ### Amsterdam
 
@@ -358,6 +379,28 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 ## Advising
 
 ### PhD students
+
+
+__Primary Advisor__
+
+- Naomi Tachikawa Shapiro
+- C.M. Downey (co-advisor: Gina-Anne Levow)
+- Megan Barnes (left with terminal M.S.)
+
+
+__Committee Member__
+
+- Angelina McMillan-Major (chair: Emily M Bender)
+- Yuanhe Tian (chair: Fei Xia)
+- Bryan Thompson (chair: Toshi Ogihara)
+- Nicolas Guerin (Institut Jean Nicod, chair: Emmanuel Chemla)
+
+
+__Graduate Student Representative__
+
+- Julian Michael (computer science)
+- Jungo Kasai (computer science)
+- Ofir Press (computer science)
 
 ### CLMS theses 
 
