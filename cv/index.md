@@ -146,6 +146,9 @@ __Hodson Trust Scholar__
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
 
 `2022`
+@tienBilingualAlignmentTransfers2022a
+
+`2022`
 @steinert-threlkeldEmergentCommunicationFinetuning2022
 
 - **Note:** Runner-up best paper award
