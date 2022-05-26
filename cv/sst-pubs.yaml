@@ -109,10 +109,26 @@ references:
   volume: '30'
 
 - id: denicIndefinitePronounsOptimize2022
+  abstract: >-
+    The vocabulary of human languages has been argued to support efficient
+    communication by optimizing the trade-off between simplicity and
+    informativeness. The argument has been originally based on cross-linguistic
+    analyses of vocabulary in semantic domains of content words, such as
+    kinship, color, and number terms. The present work applies this analysis to
+    a category of function words: indefinite pronouns (e.g., someone, anyone, no
+    one). We build on previous work to establish the meaning space and featural
+    make-up for indefinite pronouns, and show that indefinite pronoun systems
+    across languages optimize the simplicity/informativeness trade-off. This
+    demonstrates that pressures for efficient communication shape both content
+    and function word categories. In doing so, our work aligns with several
+    concurrent studies exploring the simplicity/informativeness trade-off in
+    functional vocabulary. Importantly, we further argue that the trade-off may
+    explain some of the universal properties of indefinite pronouns, thus
+    reducing the explanatory load for linguistic theories.
   accessed:
     - year: 2022
-      month: 1
-      day: 31
+      month: 5
+      day: 26
   author:
     - family: Denić
       given: Milica
@@ -121,11 +137,20 @@ references:
     - family: Szymanik
       given: Jakub
   citation-key: denicIndefinitePronounsOptimize2022
+  container-title: Cognitive Science
+  DOI: 10.1111/cogs.13142
+  ISSN: 1551-6709
+  issue: '5'
   issued:
     - year: 2022
-  title: Indefinite pronouns optimize the simplicity/informativeness trade-off
-  type: manuscript
-  URL: https://lingbuzz.net/lingbuzz/006192
+  language: en
+  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13142'
+  page: e13142
+  source: Wiley Online Library
+  title: Indefinite Pronouns Optimize the Simplicity/Informativeness Trade-Off
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13142
+  volume: '46'
 
 - id: geffenlanSpontaneousEmergenceDiscrete2020
   abstract: >-
@@ -895,6 +920,7 @@ references:
     - family: Downey
       given: C. M.
   citation-key: steinert-threlkeldEmergentCommunicationFinetuning2022
+  container-title: Emergent Communication Workshop at ICLR 2022
   event: Emergent Communication Workshop at ICLR 2022
   issued:
     - year: 2022

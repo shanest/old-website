@@ -90,6 +90,9 @@ __Hodson Trust Scholar__
 ### Journals
 
 `2022`
+@denicIndefinitePronounsOptimize2022
+
+`2022`
 @steinert-threlkeldExplainingSemanticTypology2022
 
 `2021`
@@ -214,11 +217,13 @@ __Hodson Trust Scholar__
 ### Other
 
 
-## Talks
+## Invited Talks
 
+<!--
 (NB: this and the rest of the CV are woefully incomplete right now, but will be updated soon.)
 
 ### Invited
+-->
 
 #### An Efficient Communication Analysis of Modal Typology
 
@@ -351,12 +356,15 @@ Stanford Mathematical Logic Seminar
 First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 
+<!--
 ### Refereed
 
 #### An Efficient Communication Analysis of Modal Typology
 
 `06/10/2022`
 Semantics and Linguistic Theory (SALT 32)
+-->
+
 
 ## Teaching
 
@@ -375,9 +383,24 @@ LING 575 Analyzing Neural Language Models: Win '20, Spr '21, '22
 
 ### Amsterdam
 
+Causality, Decisions, and Games (with Robert van Rooij)
+
+Neural Network Methods for Quantifiers
+
+
 ### Stanford
 
+PHIL 152 Computability and Logic
+PHIL 23A Cognitive Science of Mathematics
+PHIL 150e Logic in Action (with Thomas Icard and Peter Hawke)
+
+
 ### Summer Schools
+
+Learnability of Quantifiers (with Jakub Szymanik): ESSLLI 2019; NASSLLI 2022
+
+Quantification and Computation (with Jakub Szymanik): ESSLLI 2014
+
 
 ## Advising
 
@@ -399,7 +422,7 @@ __Committee Member__
 - Nicolas Guerin (Institut Jean Nicod, chair: Emmanuel Chemla)
 
 
-__Graduate Student Representative__
+__Graduate Student Representative (external member)__
 
 - Julian Michael (computer science)
 - Jungo Kasai (computer science)
