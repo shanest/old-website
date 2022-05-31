@@ -411,7 +411,6 @@ __Primary Advisor__
 
 - Naomi Tachikawa Shapiro
 - C.M. Downey (co-advisor: Gina-Anne Levow)
-- Megan Barnes (left with terminal M.S.)
 
 
 __Committee Member__
@@ -428,7 +427,41 @@ __Graduate Student Representative (external member)__
 - Jungo Kasai (computer science)
 - Ofir Press (computer science)
 
+
 ### CLMS theses 
+
+`2022`
+Nathaniel Imel (PhD Student, Logic and Philosophy of Science @ UC Irvine), "Modals in natural language optimize the simplicity/informativeness tradeoff"
+
+`2022`
+Katya Simpson (Software Engineer @ Twitter), " "Obama never said that": Evaluating fact-checks for topical consistency and quality"
+
+`2021` 
+Megan Barnes (Software Engineer @ Google), "Latent Compositional Representations for English Function Word Comprehension"
+
+`2021`
+Jessica Sweeney (Data Scientist @ Coastal Community Bank), "Comparing Methods for Automatic Identification of Mislabeled Data"
+
+`2021`
+Shunjie Wang (Data Scientist AI/NLP @ Happify Health), "Evaluating Transformer's Ability to Learn Mildly Context-Sensitive Languages"
+
+`2021`
+Wes Rose (Language Engineer @ Amazon), "Toward the Emergence of Quantifiers"
+
+`2021`
+Devin Johnson (PhD student, Linguistics @ Northwestern), "Semantic Universals in Bayesian Learning of Quantifiers"
+
+`2020`
+Benny Longwill (Research Engineer @ ETS), "The Suitability of Generative Adversarial Training for BERT Natural Language Generation"
+
+`2020`
+Chih-chan Tien (PhD student, CS @ Chicago), "Bilingual alignment transfers to multilingual alignment for unsupervised parallel text mining"
+
+`2020`
+Daniel Campos (PhD student, CS @ UIUC), "Explorations In Curriculum Learning Methods For Training Language Models"
+
+`2020`
+Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine Translation: Harnessing Human Feed- back for Machine Translation"
 
 ### Other
 
