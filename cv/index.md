@@ -27,6 +27,7 @@ Computational Linguist and Cognitive Scientist
 
 - Assistant Professor, Linguistics
 `2019 - now`
+- Director: Computation, Language, and Meaning Band of Researchers (CLMBR; [clmbr.shane.st](https://clmbr.shane.st))
 
 
 
@@ -66,7 +67,7 @@ __B.A., The Johns Hopkins University__
 - Minor: Computer Science
 
 
-## Grants and Awards
+## Awards
 
 `2022-2023`
 __UW Linguistics Fund__
@@ -149,7 +150,7 @@ __Hodson Trust Scholar__
 @steinert-threlkeldOntologicalLabelsAutomated2012
 
 
-### Conference Proceedings
+### Proceedings
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
 
