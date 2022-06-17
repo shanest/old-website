@@ -181,6 +181,36 @@ references:
   type: paper-conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.433
 
+- id: guoDatabaseModalSemantic2022
+  abstract: >-
+    We present and describe a database for recording information on the
+    semantics of modals cross-linguistically, including instructions on how to
+    contribute.
+  accessed:
+    - year: 2022
+      month: 5
+      day: 31
+  author:
+    - family: Guo
+      given: Qingxia
+    - family: Imel
+      given: Nathaniel
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: guoDatabaseModalSemantic2022
+  container-title: The Fourth Workshop on Computational Typology and Multilingual NLP (SIGTYP)
+  event: The Fourth Workshop on Computational Typology and Multilingual NLP
+  issued:
+    - year: 2022
+      month: 4
+      day: 21
+  language: en
+  source: openreview.net
+  title: A Database for Modal Semantic Typology
+  type: paper-conference
+  URL: >-
+    https://openreview.net/forum?id=n8xAFSkJqCK&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FNAACL%2F2022%2FWorkshop%2FSIGTYP%2FAuthors%23your-submissions)
+
 - id: Hawke2015
   author:
     - family: Hawke
@@ -682,50 +712,6 @@ references:
   type: paper-conference
   URL: https://aclanthology.org/2021.findings-emnlp.382
 
-- id: Steinert-Threlkeld2009
-  abstract: >-
-    Interactive math tutorials, often called mathlets, are designed to provide a
-    more visceral learning experience than traditional textbook methods and to
-    enhance intuitive understanding of complex ideas by allowing users to alter
-    parameters that influence visual scenes. We describe methods for creating
-    such tutorials using the HTML5 canvas element. First, we discuss some
-    motivations for writing such mathlets, then walk-through the process of
-    creating a mathlet with canvas. Then, we compare canvas to alternatives,
-    explaining our decision to use it, and provide links to other demonstrations
-    and resources. Copyright 2012, All Rights Reserved, The Mathematical
-    Association of America.
-  author:
-    - family: Steinert-Threlkeld
-      given: Shane
-    - family: Tilak Ratnanather
-      given: J.
-    - family: Ratnanather
-      given: Tilak
-  citation-key: Steinert-Threlkeld2009
-  container-title: 'Loci: Developers'
-  DOI: 10.4169/loci003340
-  ISSN: '19419198'
-  issued:
-    - year: 2009
-  title: >-
-    Open Standards, Web-Based Mathlets: Making Interactive Tutorials Using the
-    HTML5 canvas Element
-  type: article-journal
-  URL: http://mathdl.maa.org/mathDL/55/?pa=content&sa=viewDocument&nodeId=3340
-  volume: '1'
-
-- id: Steinert-Threlkeld2011
-  author:
-    - family: Steinert-Threlkeld
-      given: Shane
-  citation-key: Steinert-Threlkeld2011
-  container-title: The Internet Encyclopedia of Philosophy
-  issued:
-    - year: 2011
-  title: Lambda Calculi
-  type: article-journal
-  URL: http://www.iep.utm.edu/lambda-calculi/
-
 - id: Steinert-Threlkeld2014
   author:
     - family: Steinert-Threlkeld
@@ -752,17 +738,6 @@ references:
   title: Experimenting with Epistemic Free Choice
   type: article-journal
 
-- id: Steinert-Threlkeld2017a
-  author:
-    - family: Steinert-Threlkeld
-      given: Shane
-  citation-key: Steinert-Threlkeld2017a
-  issued:
-    - year: 2017
-  publisher: Stanford University
-  title: 'Communication and Computation: New Questions About Compositionality'
-  type: thesis
-
 - id: steinert-threlkeldAlternativeRepresentationsFormal2015
   author:
     - family: Steinert-Threlkeld
@@ -785,6 +760,19 @@ references:
   page: 368-378
   title: 'Alternative Representations in Formal Semantics: A case study of quantifiers'
   type: paper-conference
+
+- id: steinert-threlkeldCommunicationComputationNew2017
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: steinert-threlkeldCommunicationComputationNew2017
+  genre: PhD Dissertation
+  issued:
+    - year: 2017
+  publisher: Stanford University
+  title: 'Communication and Computation: New Questions About Compositionality'
+  type: thesis
+  URL: https://eprints.illc.uva.nl/id/document/12050
 
 - id: steinert-threlkeldCompositionalityCompetitionMonkey2016
   author:
@@ -1040,6 +1028,18 @@ references:
   type: article-journal
   volume: '36'
 
+- id: steinert-threlkeldLambdaCalculi2011
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: steinert-threlkeldLambdaCalculi2011
+  container-title: The Internet Encyclopedia of Philosophy
+  issued:
+    - year: 2011
+  title: Lambda Calculi
+  type: article-journal
+  URL: http://www.iep.utm.edu/lambda-calculi/
+
 - id: steinert-threlkeldLearnabilitySemanticUniversals2019
   abstract: >-
     One of the great successes of the application of generalized quantifiers to
@@ -1168,6 +1168,38 @@ references:
   type: article-journal
   URL: http://dx.doi.org/10.1016/j.jbi.2012.02.013
   volume: '45'
+
+- id: steinert-threlkeldOpenStandardsWebBased2009
+  abstract: >-
+    Interactive math tutorials, often called mathlets, are designed to provide a
+    more visceral learning experience than traditional textbook methods and to
+    enhance intuitive understanding of complex ideas by allowing users to alter
+    parameters that influence visual scenes. We describe methods for creating
+    such tutorials using the HTML5 canvas element. First, we discuss some
+    motivations for writing such mathlets, then walk-through the process of
+    creating a mathlet with canvas. Then, we compare canvas to alternatives,
+    explaining our decision to use it, and provide links to other demonstrations
+    and resources. Copyright 2012, All Rights Reserved, The Mathematical
+    Association of America.
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Tilak Ratnanather
+      given: J.
+    - family: Ratnanather
+      given: Tilak
+  citation-key: steinert-threlkeldOpenStandardsWebBased2009
+  container-title: 'Loci: Developers'
+  DOI: 10.4169/loci003340
+  ISSN: '19419198'
+  issued:
+    - year: 2009
+  title: >-
+    Open Standards, Web-Based Mathlets: Making Interactive Tutorials Using the
+    HTML5 canvas Element
+  type: article-journal
+  URL: http://mathdl.maa.org/mathDL/55/?pa=content&sa=viewDocument&nodeId=3340
+  volume: '1'
 
 - id: steinert-threlkeldPayingAttentionFunction2018
   abstract: >-

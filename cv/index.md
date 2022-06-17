@@ -68,6 +68,11 @@ __B.A., The Johns Hopkins University__
 
 ## Grants and Awards
 
+`2022-2023`
+__UW Linguistics Fund__
+
+- "Crowdsourcing semantic fieldwork in the modal domain" (1 year; $39,888)
+
 `2021-2022`
 __UW Royalty Research Fund__
 
@@ -215,6 +220,15 @@ __Hodson Trust Scholar__
 
 
 ### Other
+
+`2017`
+@steinert-threlkeldCommunicationComputationNew2017
+
+`2011`
+@steinert-threlkeldLambdaCalculi2011
+
+`2009`
+@steinert-threlkeldOpenStandardsWebBased2009
 
 
 ## Invited Talks
@@ -391,7 +405,9 @@ Neural Network Methods for Quantifiers
 ### Stanford
 
 PHIL 152 Computability and Logic
+
 PHIL 23A Cognitive Science of Mathematics
+
 PHIL 150e Logic in Action (with Thomas Icard and Peter Hawke)
 
 
@@ -411,13 +427,13 @@ __Primary Advisor__
 
 - Naomi Tachikawa Shapiro
 - C.M. Downey (co-advisor: Gina-Anne Levow)
+- Cassandra Maz
 
 
 __Committee Member__
 
 - Angelina McMillan-Major (chair: Emily M Bender)
 - Yuanhe Tian (chair: Fei Xia)
-- Bryan Thompson (chair: Toshi Ogihara)
 - Nicolas Guerin (Institut Jean Nicod, chair: Emmanuel Chemla)
 
 
