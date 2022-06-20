@@ -480,9 +480,25 @@ Daniel Campos (PhD student, CS @ UIUC), "Explorations In Curriculum Learning Met
 `2020`
 Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine Translation: Harnessing Human Feed- back for Machine Translation"
 
-### Other
+<!-- ### Other -->
 
 ## Service
+
+### Refereeing
+
+#### Journals
+
+Semantics & Pragmatics (4); Mind; Noûs; Mind \& Language; Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (2); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology
+
+#### Conferences
+
+Association for Computational Linguistics (ACL); Empirical Methods in Natural Language Processing (EMNLP); International Conference of Learning Representations (ICLR); Semantics and Linguistic Theory (SALT); North American ACL (NAACL); *SEM (Joint Conference on Lexical and Computational Semantics); Neural Information Processing Systems (NeurIPS); Experiments in Linguistic Meaning (ELM); BlackboxNLP; West Coast NLP (WeCNLP); International Conference on Machine Learning (ICML); COLING; Semantics and Philosophy in Europe (SPE); Amsterdam Colloquium; Annual Meeting of the Cognitive Science Society; AACL-IJCNLP (Asia-Pacific ACL - International Joint Conference in NLP); Joint Conference on Language Evolution (JCoLE); Experimental approaches to language universals in structure and meaning; Approaches to implicature: rational choice and/or exhaustification; WeSSLLI (Web Summer School in Logic, Language and Information) Student Session; ACL Student Research Workshop
+
+### Mentorship
+
+Regular participant in Pop-Up Mentoring Program (PUMP) for LSA events (e.g. SALT, NASSLLI)
+
+Have also led mentoring sessions at EMNLP and ACL
 
 <!-- ### Footer
 
