@@ -152,6 +152,55 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13142
   volume: '46'
 
+- id: downeyMaskedSegmentalLanguage2022
+  abstract: >-
+    We introduce a Masked Segmental Language Model (MSLM) for joint language
+    modeling and unsupervised segmentation. While near-perfect supervised
+    methods have been developed for segmenting human-like linguistic units in
+    resource-rich languages such as Chinese, many of the world's languages are
+    both morphologically complex, and have no large dataset of “gold”
+    segmentations for supervised training. Segmental Language Models offer a
+    unique approach by conducting unsupervised segmentation as the byproduct of
+    a neural language modeling objective. However, current SLMs are limited in
+    their scalability due to their recurrent architecture. We propose a new type
+    of SLM for use in both unsupervised and lightly supervised segmentation
+    tasks. The MSLM is built on a span-masking transformer architecture,
+    harnessing a masked bidirectional modeling context and attention, as well as
+    adding the potential for model scalability. In a series of experiments, our
+    model outperforms the segmentation quality of recurrent SLMs on Chinese, and
+    performs similarly to the recurrent model on English.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 11
+  author:
+    - family: Downey
+      given: C.m.
+    - family: Xia
+      given: Fei
+    - family: Levow
+      given: Gina-Anne
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: downeyMaskedSegmentalLanguage2022
+  container-title: >-
+    Proceedings of the 19th SIGMORPHON Workshop on Computational Research in
+    Phonetics, Phonology, and Morphology
+  event: NAACL-SIGMORPHON 2022
+  event-place: Seattle, Washington
+  issued:
+    - year: 2022
+      month: 7
+  page: 39–50
+  publisher: Association for Computational Linguistics
+  publisher-place: Seattle, Washington
+  source: ACLWeb
+  title: >-
+    A Masked Segmental Language Model for Unsupervised Natural Language
+    Segmentation
+  type: paper-conference
+  URL: https://aclanthology.org/2022.sigmorphon-1.5
+
 - id: geffenlanSpontaneousEmergenceDiscrete2020
   abstract: >-
     We propose a general framework to study language emergence through signaling
@@ -181,15 +230,21 @@ references:
   type: paper-conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.433
 
-- id: guoDatabaseModalSemantic2022
+- id: guoDatabaseModalSemantic2022a
   abstract: >-
-    We present and describe a database for recording information on the
-    semantics of modals cross-linguistically, including instructions on how to
-    contribute.
+    This paper introduces a database for crosslinguistic modal semantics. The
+    purpose of this database is to (1) enable ongoing consolidation of modal
+    semantic typological knowledge into a repository according to uniform data
+    standards and to (2) provide data for investigations in crosslinguistic
+    modal semantic theory and experiments explaining such theories. We describe
+    the kind of semantic variation that the database aims to record, the format
+    of the data, and a current snapshot of the database, emphasizing access and
+    contribution to the database in light of the goals above. We release the
+    database at https://clmbr.shane.st/modal-typology.
   accessed:
     - year: 2022
-      month: 5
-      day: 31
+      month: 7
+      day: 11
   author:
     - family: Guo
       given: Qingxia
@@ -197,19 +252,22 @@ references:
       given: Nathaniel
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: guoDatabaseModalSemantic2022
-  container-title: The Fourth Workshop on Computational Typology and Multilingual NLP (SIGTYP)
-  event: The Fourth Workshop on Computational Typology and Multilingual NLP
+  citation-key: guoDatabaseModalSemantic2022a
+  container-title: >-
+    Proceedings of the 4th Workshop on Research in Computational Linguistic
+    Typology and Multilingual NLP
+  event: NAACL-SIGTYP 2022
+  event-place: Seattle, Washington
   issued:
     - year: 2022
-      month: 4
-      day: 21
-  language: en
-  source: openreview.net
+      month: 7
+  page: 42–51
+  publisher: Association for Computational Linguistics
+  publisher-place: Seattle, Washington
+  source: ACLWeb
   title: A Database for Modal Semantic Typology
   type: paper-conference
-  URL: >-
-    https://openreview.net/forum?id=n8xAFSkJqCK&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FNAACL%2F2022%2FWorkshop%2FSIGTYP%2FAuthors%23your-submissions)
+  URL: https://aclanthology.org/2022.sigtyp-1.6
 
 - id: Hawke2015
   author:
