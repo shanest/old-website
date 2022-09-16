@@ -45,7 +45,7 @@ Computational Linguist and Cognitive Scientist
 - ERC Funded "New Frontiers of Formal Semantics" (PI: Philippe Schlenker)
 
 
-#### Google Reserach and Machine Intelligence
+#### Google Research and Machine Intelligence
 
 - Research software engineering intern
 `2016`
