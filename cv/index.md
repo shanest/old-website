@@ -449,6 +449,8 @@ __Graduate Student Representative (external member)__
 - Julian Michael (computer science)
 - Jungo Kasai (computer science)
 - Ofir Press (computer science)
+- Suchin Gururangan (computer science)
+- Saadia Gabriel (computer science)
 
 
 ### CLMS theses 
