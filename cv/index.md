@@ -246,19 +246,37 @@ __Hodson Trust Scholar__
 ### Invited
 -->
 
-#### An Efficient Communication Analysis of Modal Typology
+#### TBD
 
-`05/19/2022`
-Cognitive Semantics and Quantities closing workshop
+`02/28/23`
+UC Irvine Language Science Colloquium
+
+`02/23`
+MIT Linguistics Colloquium
 
 
 #### Unnatural Language Semantics
+
+`09/22/22`
+South by Semantics Workshop (SXSW) @ University of Texas
 
 `03/30/2022`
 Center for Linguistic Theory and Studies in Probability (CLASP) @ Gothenburg
 
 `03/04/2022`
 Allyson Ettinger lab @ Chicago
+
+
+#### Learning to Translate by Learning to Communicate
+
+`09/21/22`
+Computational Linguistics Seminar @ University of Texas
+
+
+#### An Efficient Communication Analysis of Modal Typology
+
+`05/19/2022`
+Cognitive Semantics and Quantities closing workshop
 
 
 #### Two Approaches to Explaining Semantic Universals
@@ -391,7 +409,7 @@ Semantics and Linguistic Theory (SALT 32)
 
 ### Washington
 
-LING 571 Deep Processing Methods for NLP: Aut '19, '20, '21
+LING 571 Deep Processing Methods for NLP: Aut '19, '20, '21, '22
 
 LING 572 Advanced Statistical Methods for NLP: Win '20
 
