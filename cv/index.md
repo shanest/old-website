@@ -451,7 +451,7 @@ Quantification and Computation (with Jakub Szymanik): ESSLLI 2014
 
 ## Advising
 
-### PhD students
+### PhD
 
 
 __Primary Advisor__
@@ -477,7 +477,7 @@ __Graduate Student Representative (external member)__
 - Saadia Gabriel (computer science)
 
 
-### CLMS theses 
+### MS theses 
 
 `2022`
 Nathaniel Imel (PhD Student, Logic and Philosophy of Science @ UC Irvine), "Modals in natural language optimize the simplicity/informativeness tradeoff"
