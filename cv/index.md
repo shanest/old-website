@@ -69,10 +69,10 @@ __B.A., The Johns Hopkins University__
 
 ## Awards
 
-`2022-2023`
+`2022-2024`
 __UW Linguistics Fund__
 
-- "Crowdsourcing semantic fieldwork in the modal domain" (1 year; $39,888)
+- "Crowdsourcing semantic fieldwork in the modal domain" (2 years; $39,888)
 
 `2021-2022`
 __UW Royalty Research Fund__
@@ -153,6 +153,9 @@ __Hodson Trust Scholar__
 ### Proceedings
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
+
+`2022*`
+@imelModalSemanticUniversals2022
 
 `2022`
 @guoDatabaseModalSemantic2022a
@@ -251,8 +254,11 @@ __Hodson Trust Scholar__
 `02/28/23`
 UC Irvine Language Science Colloquium
 
-`02/23`
+`03/17/23`
 MIT Linguistics Colloquium
+
+`TBD 23`
+UC Davis Linguistics Colloquium
 
 
 #### Unnatural Language Semantics
@@ -514,7 +520,7 @@ Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine T
 
 #### Journals
 
-Semantics & Pragmatics (4); Mind; Noûs; Mind \& Language; Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (2); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology
+Semantics & Pragmatics (4); Glossa Psycholinguistics; Mind; Noûs; Mind \& Language; Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (2); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology
 
 #### Conferences
 

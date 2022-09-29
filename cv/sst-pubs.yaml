@@ -186,8 +186,8 @@ references:
   container-title: >-
     Proceedings of the 19th SIGMORPHON Workshop on Computational Research in
     Phonetics, Phonology, and Morphology
-  event: NAACL-SIGMORPHON 2022
   event-place: Seattle, Washington
+  event-title: NAACL-SIGMORPHON 2022
   issued:
     - year: 2022
       month: 7
@@ -256,8 +256,8 @@ references:
   container-title: >-
     Proceedings of the 4th Workshop on Research in Computational Linguistic
     Typology and Multilingual NLP
-  event: NAACL-SIGTYP 2022
   event-place: Seattle, Washington
+  event-title: NAACL-SIGTYP 2022
   issued:
     - year: 2022
       month: 7
@@ -420,18 +420,19 @@ references:
   URL: https://doi.org/10.1007/s10988-020-09295-7
   volume: '44'
 
-- id: imelModalsNaturalLanguage2022
+- id: imelModalSemanticUniversals2022
   author:
     - family: Imel
       given: Nathaniel
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: imelModalsNaturalLanguage2022
+  citation-key: imelModalSemanticUniversals2022
   container-title: Proceedings of Semantics and Linguistic Theory (SALT 32)
   issued:
     - year: 2022
-  title: Modals in natural language optimize the simplicity/informativeness trade-off
+  title: Modal semantic universals optimize the simplicity/informativeness trade-off
   type: paper-conference
+  URL: https://lingbuzz.net/lingbuzz/006740
 
 - id: jumeletLanguageModelsUse2021
   accessed:
@@ -452,8 +453,8 @@ references:
   citation-key: jumeletLanguageModelsUse2021
   container-title: 'Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021'
   DOI: 10.18653/v1/2021.findings-acl.439
-  event: Findings 2021
   event-place: Online
+  event-title: Findings 2021
   issued:
     - year: 2021
       month: 8
@@ -502,8 +503,8 @@ references:
     Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting
     Neural Networks for NLP
   DOI: 10.18653/v1/2020.blackboxnlp-1.12
-  event: BlackboxNLP-EMNLP 2020
   event-place: Online
+  event-title: BlackboxNLP-EMNLP 2020
   issued:
     - year: 2020
       month: 11
@@ -623,8 +624,8 @@ references:
     Proceedings of the 56th Annual Meeting of the Association for Computational
     Linguistics (Volume 2: Short Papers)
   DOI: 10.18653/v1/P18-2019
-  event: ACL 2018
   event-place: Melbourne, Australia
+  event-title: ACL 2018
   issued:
     - year: 2018
       month: 7
@@ -716,6 +717,9 @@ references:
   issued:
     - year: 2020
   language: en
+  license: >-
+    Copyright (c) 2020 Sonia Ramotowska, Shane Steinert-Threlkeld, Leendert Van
+    Maanen, Jakub Szymanik
   number: '2'
   page: 165-182
   source: ojs.ub.uni-konstanz.de
@@ -757,8 +761,8 @@ references:
   citation-key: shapiroMultilabelApproachMorphosyntactic2021
   container-title: 'Findings of the Association for Computational Linguistics: EMNLP 2021'
   DOI: 10.18653/v1/2021.findings-emnlp.382
-  event: EMNLP-Findings 2021
   event-place: Punta Cana, Dominican Republic
+  event-title: EMNLP-Findings 2021
   issued:
     - year: 2021
       month: 11
@@ -967,7 +971,7 @@ references:
       given: C. M.
   citation-key: steinert-threlkeldEmergentCommunicationFinetuning2022
   container-title: Emergent Communication Workshop at ICLR 2022
-  event: Emergent Communication Workshop at ICLR 2022
+  event-title: Emergent Communication Workshop at ICLR 2022
   issued:
     - year: 2022
       month: 3
@@ -1022,6 +1026,7 @@ references:
   issue: '1'
   issued:
     - year: 2020
+  license: All rights reserved
   page: 129-144
   title: An Explanation of the Veridical Uniformity Universal
   type: article-journal
@@ -1125,6 +1130,7 @@ references:
   issue: '4'
   issued:
     - year: 2019
+  license: All rights reserved
   title: Learnability and Semantic Universals
   type: article-journal
   volume: '12'
@@ -1327,6 +1333,7 @@ references:
       given: Floris
   issued:
     - year: 2019
+  license: All rights reserved
   page: 513-522
   title: >-
     Quantifiers in natural language optimize the simplicity/informativeness
@@ -1359,6 +1366,7 @@ references:
   issue: '10'
   issued:
     - year: 2021
+  license: All rights reserved
   page: '1335'
   title: >-
     Quantifiers in Natural Language: Efficient Communication and Degrees of
@@ -1423,6 +1431,7 @@ references:
   citation-key: steinert-threlkeldSemanticUniversalModality2022
   issued:
     - year: 2022
+  license: All rights reserved
   title: A Semantic Universal for Modality
   type: manuscript
   URL: https://lingbuzz.net/lingbuzz/006399
@@ -1494,8 +1503,8 @@ references:
   container-title: >-
     Proceedings of the 60th Annual Meeting of the Association for Computational
     Linguistics (Volume 1: Long Papers)
-  event: ACL 2022
   event-place: Dublin, Ireland
+  event-title: ACL 2022
   issued:
     - year: 2022
       month: 5
