@@ -537,6 +537,19 @@ references:
   type: article-journal
   volume: '26'
 
+- id: ogiharaDefenseExtensionalAnalysissubmitted
+  author:
+    - family: Ogihara
+      given: Toshiyuki
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: ogiharaDefenseExtensionalAnalysissubmitted
+  container-title: Semantics & Pragmatics
+  issued:
+    - literal: submitted
+  title: A Defense of an Extensional Analysis of `Before'
+  type: article-journal
+
 - id: osullivanNeuralModelsPsychosemantics2019
   abstract: >-
     How are the meanings of linguistic expressions related to their use in
@@ -684,6 +697,30 @@ references:
   type: paper-conference
   URL: https://psyarxiv.com/f8dbp/
 
+- id: polQuantifiersSatisfyingSemanticforthcoming
+  author:
+    - family: Pol
+      given: Iris
+      dropping-particle: van de
+    - family: Lodder
+      given: Paul
+    - family: Maanen
+      given: Leendert
+      dropping-particle: van
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: polQuantifiersSatisfyingSemanticforthcoming
+  container-title: Cognition
+  DOI: 10.1016/j.cognition.2022.105150
+  issued:
+    - literal: forthcoming
+  title: >-
+    Quantifiers satisfying semantic universals have shorter minimal description
+    length
+  type: article-journal
+
 - id: ramotowskaMostNotMore2020
   abstract: >-
     In this study we test individual differences in the meaning representations
@@ -729,6 +766,47 @@ references:
   type: article-journal
   URL: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/891
   volume: '24'
+
+- id: ramotowskaUncoveringStructureSemanticunderrevision
+  author:
+    - family: Ramotowska
+      given: Sonia
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Maanen
+      given: Leendert
+      dropping-particle: van
+    - family: Szymanik
+      given: Jakub
+  citation-key: ramotowskaUncoveringStructureSemanticunderrevision
+  container-title: Cognitive Science
+  issued:
+    - literal: under revision
+  title: >-
+    Uncovering the structure of semantic representations using a computational
+    model of decision-making
+  type: article-journal
+
+- id: schlenkerAnthropocentrismComparativeCognitionforthcoming
+  author:
+    - family: Schlenker
+      given: Philippe
+    - family: Coye
+      given: Camille
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Klinedinst
+      given: Nathan
+    - family: Chemla
+      given: Emmanuel
+  citation-key: schlenkerAnthropocentrismComparativeCognitionforthcoming
+  container-title: Cognitive Science
+  issued:
+    - literal: forthcoming
+  title: >-
+    Beyond Anthropocentrism in Comparative Cognition: Recentering Animal
+    Linguistics
+  type: article-journal
 
 - id: shapiroMultilabelApproachMorphosyntactic2021
   abstract: >-
@@ -1416,11 +1494,7 @@ references:
   URL: https://doi.org/10.1007/s10988-021-09322-1
   volume: '44'
 
-- id: steinert-threlkeldSemanticUniversalModality2022
-  accessed:
-    - year: 2022
-      month: 1
-      day: 28
+- id: steinert-threlkeldSemanticUniversalModalityunderrevision
   author:
     - family: Steinert-Threlkeld
       given: Shane
@@ -1428,12 +1502,13 @@ references:
       given: Nathaniel
     - family: Guo
       given: Qingxia
-  citation-key: steinert-threlkeldSemanticUniversalModality2022
+  citation-key: steinert-threlkeldSemanticUniversalModalityunderrevision
+  container-title: Semantics & Pragmatics
   issued:
-    - year: 2022
+    - literal: under revision
   license: All rights reserved
   title: A Semantic Universal for Modality
-  type: manuscript
+  type: article-journal
   URL: https://lingbuzz.net/lingbuzz/006399
 
 - id: steinert-threlkeldUniformDefinabilityAssertability2017a
