@@ -554,7 +554,12 @@ Association for Computational Linguistics (ACL); Empirical Methods in Natural La
 
 Regular participant in Pop-Up Mentoring Program (PUMP) for LSA events (e.g. SALT, NASSLLI)
 
-Have also led mentoring sessions at EMNLP and ACL
+- Via the Diversity and Inclusion Committees at various *CL conferences, I have led:
+  - early career mentoring session on work-life balance
+  - early career mentoring session on finding research questions
+  - birds-of-a-feather for interpretability and analysis
+  - birds-of-a-feather for semantics and natural langauge understanding
+- As the above have been replaced, I am now a standing mentor for the ACL Year-round Mentorship Program.
 
 <!-- ### Footer
 
