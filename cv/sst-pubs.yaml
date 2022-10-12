@@ -1,5 +1,41 @@
 ---
 references:
+- id: banTestingPretrainedLanguage2022
+  abstract: >-
+    To what extent do pre-trained language models grasp semantic knowledge
+    regarding the phenomenon of distributivity? In this paper, we introduce
+    DistNLI, a new diagnostic dataset for natural language inference that
+    targets the semantic difference arising from distributivity, and employ the
+    causal mediation analysis framework to quantify the model behavior and
+    explore the underlying mechanism in this semantically-related task. We find
+    that the extent of models' understanding is associated with model size and
+    vocabulary size. We also provide insights into how models encode such
+    high-level semantic knowledge.
+  accessed:
+    - year: 2022
+      month: 10
+      day: 12
+  author:
+    - family: Ban
+      given: Pangbo
+    - family: Jiang
+      given: Yifan
+    - family: Liu
+      given: Tianran
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: banTestingPretrainedLanguage2022
+  container-title: >-
+    Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting
+    Neural Networks for NLP
+  issued:
+    - year: 2022
+  title: >-
+    Testing Pre-trained Language Models’ Understanding of Distributivity via
+    Causal Mediation Analysis
+  type: paper-conference
+  URL: https://openreview.net/forum?id=D3U5fpVsZIN
+
 - id: Carcassi2021
   author:
     - family: Carcassi
@@ -807,6 +843,7 @@ references:
     Beyond Anthropocentrism in Comparative Cognition: Recentering Animal
     Linguistics
   type: article-journal
+  URL: https://ling.auf.net/lingbuzz/006851
 
 - id: shapiroMultilabelApproachMorphosyntactic2021
   abstract: >-
@@ -1633,4 +1670,45 @@ references:
   type: article-journal
   URL: https://escholarship.org/uc/item/1vm445rp
   volume: '43'
+
+- id: yiProbingUnderstandingEnglish2022
+  abstract: >-
+    We investigate the extent to which verb alternation classes, as described by
+    Levin (1993), are encoded in the embeddings of Large Pre-trained Language
+    Models (PLMs) such as BERT, RoBERTa, ELECTRA, and DeBERTa using selectively
+    constructed diagnostic classifiers for word and sentence-level prediction
+    tasks. We follow and expand upon the experiments of Kann et al. (2019),
+    which aim to probe whether static embeddings encode frame-selectional
+    properties of verbs. At both the word and sentence level, we find that
+    contextual embeddings from PLMs not only outperform non-contextual
+    embeddings, but achieve astonishingly high accuracies on tasks across most
+    alternation classes. Additionally, we find evidence that the middle-to-upper
+    layers of PLMs achieve better performance on average than the lower layers
+    across all probing tasks.
+  accessed:
+    - year: 2022
+      month: 10
+      day: 12
+  author:
+    - family: Yi
+      given: David K
+    - family: Bruno
+      given: James V
+    - family: Han
+      given: Jiayu
+    - family: Zukerman
+      given: Peter
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: yiProbingUnderstandingEnglish2022
+  container-title: >-
+    Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting
+    Neural Networks for NLP
+  issued:
+    - year: 2022
+  title: >-
+    Probing for Understanding of English Verb Classes and Alternations in Large
+    Pre-trained Language Models
+  type: paper-conference
+  URL: https://openreview.net/forum?id=Fmn3YQmUPYZ
 ...
