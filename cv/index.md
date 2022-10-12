@@ -154,6 +154,12 @@ __Hodson Trust Scholar__
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
 
+`2022`
+@yiProbingUnderstandingEnglish2022
+
+`2022`
+@banTestingPretrainedLanguage2022
+
 `2022*`
 @imelModalSemanticUniversals2022
 
