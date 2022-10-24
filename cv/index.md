@@ -547,7 +547,7 @@ Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine T
 
 #### Journals
 
-Semantics & Pragmatics (4); Glossa Psycholinguistics; The Psychological Review; Mind; Noûs; Mind \& Language; Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (2); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology
+Semantics & Pragmatics (5); Glossa Psycholinguistics; The Psychological Review; Mind; Noûs; Mind \& Language; Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (3); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology
 
 #### Conferences
 
