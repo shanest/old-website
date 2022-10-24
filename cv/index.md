@@ -275,6 +275,9 @@ __Hodson Trust Scholar__
 
 #### TBD
 
+`12/05/22`
+McDonnell Foundation workshop on monotonicity
+
 `02/28/23`
 UC Irvine Language Science Colloquium
 
