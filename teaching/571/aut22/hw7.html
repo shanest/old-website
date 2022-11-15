@@ -94,7 +94,7 @@
 								</li>
 							</ul>
 						</li>
-						<li>Compute the similarity between the two words, based on <strong>cosine similarity</strong> (e.g. using <span style="font-family: courier">scipy.spatial.distance.cosine</span>).</li>
+						<li>Compute the similarity between the two words, based on <strong>cosine similarity</strong> (e.g. using <span style="font-family: courier">scipy.spatial.distance.cosine</span>, though not that this returns a <em>distance</em>, not a similarity, so read the docs for it carefully).</li>
 						<li>Print out the similarity as: <span style="font-family: courier;">wd1,wd2:similarity</span></li>
 					</ul>
 				</li>
@@ -153,7 +153,11 @@
 						<li>Punctuation should removed.</li>
 					</ul>
 				</li>
-				<li>Build a continuous bag of words model using a standard implementation package, such as <a href="https://radimrehurek.com/gensim/models/word2vec.html">gensim&#8217;s word2vec</a></li>
+				<li>
+					Build a continuous bag of words model using a standard implementation package, such as <a href="https://radimrehurek.com/gensim/models/word2vec.html">gensim&#8217;s word2vec</a>
+					<br />
+					An example call would be: <span style="font-family: courier;">model = gensim.models.word2vec.Word2Vec(sents, vector_size=100, window=2, min_count=1, workers=1)</span>, where <span style="font-family: courier;">sents</span> is a list of lists of tokens.  See the above documentation for more details.
+				</li>
 				<li>Read in a file of human judgments of similarity between pairs of words.</li>
 				<li>For each word pair in the file:
 					<ul>
