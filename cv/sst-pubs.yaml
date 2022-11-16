@@ -188,6 +188,48 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13142
   volume: '46'
 
+- id: downeyLearningTranslateLearning2022a
+  abstract: >-
+    We formulate and test a technique to use Emergent Communication (EC) with a
+    pretrained multilingual model to improve on modern Unsupervised NMT systems,
+    especially for low-resource languages. It has been argued that the currently
+    dominant paradigm in NLP of pretraining on text-only corpora will not yield
+    robust natural language understanding systems, and the need for grounded,
+    goal-oriented, and interactive language learning has been highlighted. In
+    our approach, we embed a modern multilingual model (mBART, Liu et. al. 2020)
+    into an EC image-reference game, in which the model is incentivized to use
+    multilingual generations to accomplish a vision-grounded task, with the
+    hypothesis that this will align multiple languages to a shared task space.
+    We present two variants of EC Fine-Tuning (Steinert-Threlkeld et. al. 2022),
+    one of which outperforms a backtranslation-based baseline in 6/8 translation
+    settings, and proves especially beneficial for the very low-resource
+    languages of Nepali and Sinhala.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 10
+  author:
+    - family: Downey
+      given: C. M.
+    - family: Liu
+      given: Leo Z.
+    - family: Zhou
+      given: Xuhui
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: downeyLearningTranslateLearning2022a
+  DOI: 10.48550/arXiv.2207.07025
+  issued:
+    - year: 2022
+      month: 7
+      day: 14
+  number: arXiv:2207.07025
+  publisher: arXiv
+  source: arXiv.org
+  title: Learning to translate by learning to communicate
+  type: article
+  URL: http://arxiv.org/abs/2207.07025
+
 - id: downeyMaskedSegmentalLanguage2022
   abstract: >-
     We introduce a Masked Segmental Language Model (MSLM) for joint language
@@ -266,7 +308,7 @@ references:
   type: paper-conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.433
 
-- id: guoDatabaseModalSemantic2022a
+- id: guoDatabaseModalSemantic2022
   abstract: >-
     This paper introduces a database for crosslinguistic modal semantics. The
     purpose of this database is to (1) enable ongoing consolidation of modal
@@ -288,10 +330,11 @@ references:
       given: Nathaniel
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: guoDatabaseModalSemantic2022a
+  citation-key: guoDatabaseModalSemantic2022
   container-title: >-
     Proceedings of the 4th Workshop on Research in Computational Linguistic
     Typology and Multilingual NLP
+  DOI: 10.18653/v1/2022.sigtyp-1.6
   event-place: Seattle, Washington
   event-title: NAACL-SIGTYP 2022
   issued:
@@ -981,6 +1024,20 @@ references:
   type: article-journal
   volume: '25'
 
+- id: steinert-threlkeldComputationalExplanationsSemanticinprep
+  author:
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik, Jakub
+      given: ''
+  citation-key: steinert-threlkeldComputationalExplanationsSemanticinprep
+  collection-title: Cambridge Elements in Semantics and Pragmatics
+  issued:
+    - literal: in prep
+  publisher: Cambridge University Press
+  title: Computational Explanations of Semantic Universals
+  type: book
+
 - id: steinert-threlkeldDecidabilityIteratedLanguages2014
   author:
     - family: Steinert-Threlkeld
@@ -1440,7 +1497,7 @@ references:
   citation-key: steinert-threlkeldQuantifiersNaturalLanguage2019
   container-title: Proceedings of the 22nd Amsterdam Colloquium
   editor:
-    - family: Schl\"{o}der
+    - family: Schlöder
       given: Julian J
     - family: McHugh
       given: Dean
