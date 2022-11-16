@@ -4,7 +4,7 @@ Below is the full README from `markdown-cv`.  Here I just record some changes I 
 
 - `template.html`: lightly modified version of the default html5 template from pandoc
 - `chicago-syllabus.csl`: modified from Kieran Healy, removed `bibliography`
-- `shanest-X.css`: modified from the davewhipp versions to include styles for `h4`
+- `shanest-X.css`: modified from the davewhipp versions to include styles for `h4`, font sizes and margins for print version...
 
 I compile with `pandoc -s -o index.html index.md --template template.html --citeproc`
 
