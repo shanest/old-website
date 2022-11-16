@@ -164,7 +164,7 @@ __Hodson Trust Scholar__
 @imelModalSemanticUniversals2022
 
 `2022`
-@guoDatabaseModalSemantic2022a
+@guoDatabaseModalSemantic2022
 
 `2022`
 @downeyMaskedSegmentalLanguage2022
@@ -264,6 +264,9 @@ __Hodson Trust Scholar__
 `submitted`
 @ogiharaDefenseExtensionalAnalysissubmitted
 
+`in prep`
+@steinert-threlkeldComputationalExplanationsSemanticinprep
+
 
 ## Invited Talks
 
@@ -284,7 +287,7 @@ UC Irvine Language Science Colloquium
 `03/17/23`
 MIT Linguistics Colloquium
 
-`TBD 23`
+`05/01/23`
 UC Davis Linguistics Colloquium
 
 
