@@ -96,6 +96,9 @@ __Hodson Trust Scholar__
 ### Journals
 
 `2022`
+@schlenkerAnthropocentrismComparativeCognition2022
+
+`2022`
 @denicIndefinitePronounsOptimize2022
 
 `2022`
@@ -249,16 +252,13 @@ __Hodson Trust Scholar__
 
 ### In Process
 
-`forthcoming`
+`accepted`
 @polQuantifiersSatisfyingSemanticforthcoming
 
-`forthcoming`
-@schlenkerAnthropocentrismComparativeCognitionforthcoming
-
-`in revision`
+`accepted`
 @steinert-threlkeldSemanticUniversalModalityunderrevision
 
-`in revision`
+`accepted`
 @ramotowskaUncoveringStructureSemanticunderrevision
 
 `submitted`
@@ -278,9 +278,6 @@ __Hodson Trust Scholar__
 
 #### TBD
 
-`12/05/22`
-McDonnell Foundation workshop on monotonicity
-
 `02/28/23`
 UC Irvine Language Science Colloquium
 
@@ -290,6 +287,11 @@ MIT Linguistics Colloquium
 `05/01/23`
 UC Davis Linguistics Colloquium
 
+
+#### Degrees of Monotonicity
+
+`12/06/22`
+McDonell Foundation Workshop on The Nature and Origins of the Human Capacity for Abstract Combinatorial Thought
 
 #### Unnatural Language Semantics
 
