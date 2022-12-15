@@ -866,7 +866,11 @@ references:
     model of decision-making
   type: article-journal
 
-- id: schlenkerAnthropocentrismComparativeCognitionforthcoming
+- id: schlenkerAnthropocentrismComparativeCognition2022
+  accessed:
+    - year: 2022
+      month: 12
+      day: 15
   author:
     - family: Schlenker
       given: Philippe
@@ -878,15 +882,24 @@ references:
       given: Nathan
     - family: Chemla
       given: Emmanuel
-  citation-key: schlenkerAnthropocentrismComparativeCognitionforthcoming
+  citation-key: schlenkerAnthropocentrismComparativeCognition2022
   container-title: Cognitive Science
+  DOI: 10.1111/cogs.13220
+  ISSN: 1551-6709
+  issue: '12'
   issued:
-    - literal: forthcoming
+    - year: 2022
+  language: en
+  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13220'
+  page: e13220
+  source: Wiley Online Library
   title: >-
     Beyond Anthropocentrism in Comparative Cognition: Recentering Animal
     Linguistics
+  title-short: Beyond Anthropocentrism in Comparative Cognition
   type: article-journal
-  URL: https://ling.auf.net/lingbuzz/006851
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13220
+  volume: '46'
 
 - id: shapiroMultilabelApproachMorphosyntactic2021
   abstract: >-
