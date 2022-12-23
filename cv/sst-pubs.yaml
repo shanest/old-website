@@ -776,7 +776,7 @@ references:
   type: paper-conference
   URL: https://psyarxiv.com/f8dbp/
 
-- id: polQuantifiersSatisfyingSemanticforthcoming
+- id: polQuantifiersSatisfyingSemantic2023
   author:
     - family: Pol
       given: Iris
@@ -790,15 +790,17 @@ references:
       given: Shane
     - family: Szymanik
       given: Jakub
-  citation-key: polQuantifiersSatisfyingSemanticforthcoming
+  citation-key: polQuantifiersSatisfyingSemantic2023
   container-title: Cognition
   DOI: 10.1016/j.cognition.2022.105150
   issued:
-    - literal: forthcoming
+    - year: 2023
+  page: '105150'
   title: >-
     Quantifiers satisfying semantic universals have shorter minimal description
     length
   type: article-journal
+  volume: '232'
 
 - id: ramotowskaMostNotMore2020
   abstract: >-

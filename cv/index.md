@@ -95,6 +95,9 @@ __Hodson Trust Scholar__
 
 ### Journals
 
+`2023`
+@polQuantifiersSatisfyingSemantic2023
+
 `2022`
 @schlenkerAnthropocentrismComparativeCognition2022
 
@@ -251,9 +254,6 @@ __Hodson Trust Scholar__
 
 
 ### In Process
-
-`accepted`
-@polQuantifiersSatisfyingSemanticforthcoming
 
 `accepted`
 @steinert-threlkeldSemanticUniversalModalityunderrevision
