@@ -10,6 +10,7 @@ bibliography: sst-pubs.yaml
 csl: chicago-syllabus.csl
 header-includes: |
     <script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+test: true
 ---
 
 # Shane Steinert-Threlkeld

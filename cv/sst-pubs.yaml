@@ -500,18 +500,30 @@ references:
   volume: '44'
 
 - id: imelModalSemanticUniversals2022
+  abstract: "The\_meanings\_expressed\_by\_the\_world’s\_languages\_have\_been\_argued\_to support efficient communication.\_Evidence for this hypothesis has drawn on\_cross-linguistic analyses of vocabulary in semantic domains of both content words\_(e.g. kinship terms (Kemp & Regier 2012); color terms (Regier, Kay & Khetarpal\_2007; Zaslavsky, Kemp, Regier & Tishby 2018)) and function words (e.g.quantifiers(Steinert-Threlkeld2021);\_indefinite\_pronouns(Deni ́c,\_Steinert-Threlkeld\_& Szymanik 2022)) approaching the hypothesis concretely in terms of a trade-off\_between simplicity and informativeness. We apply the analysis to\_modals\_(e.g.\_can,\_ought,\_might).\_Two proposed universals in this domain from Nauze (2008) and\_Vander Klok (2013) are used for generating many artificial languages with varying\_degrees of quasi-naturalness as a proxy for natural data. A computational experiment\_shows that most of the optimal solutions to the trade-off problem are predicted by\_Vander Klok; meanwhile, as languages more robustly satisfy Nauze’s universal, they\_also become more optimal. This suggests that efficient communication is a leading\_explanation for constraints on modal semantic variation."
+  accessed:
+    - year: 2022
+      month: 12
+      day: 29
   author:
     - family: Imel
       given: Nathaniel
     - family: Steinert-Threlkeld
       given: Shane
   citation-key: imelModalSemanticUniversals2022
-  container-title: Proceedings of Semantics and Linguistic Theory (SALT 32)
+  container-title: Semantics and Linguistic Theory (SALT 32)
+  DOI: 10.3765/salt.v1i0.5346
   issued:
     - year: 2022
+  language: en
+  license: Copyright (c) 2022 Nathaniel Imel
+  number: '0'
+  page: 227-248
+  source: journals.linguisticsociety.org
   title: Modal semantic universals optimize the simplicity/informativeness trade-off
   type: paper-conference
-  URL: https://lingbuzz.net/lingbuzz/006740
+  URL: >-
+    http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/32.012
 
 - id: jumeletLanguageModelsUse2021
   accessed:
