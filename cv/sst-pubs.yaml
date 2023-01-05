@@ -1615,7 +1615,7 @@ references:
   URL: https://doi.org/10.1007/s10988-021-09322-1
   volume: '44'
 
-- id: steinert-threlkeldSemanticUniversalModalityunderrevision
+- id: steinert-threlkeldSemanticUniversalModality2023
   author:
     - family: Steinert-Threlkeld
       given: Shane
@@ -1623,14 +1623,17 @@ references:
       given: Nathaniel
     - family: Guo
       given: Qingxia
-  citation-key: steinert-threlkeldSemanticUniversalModalityunderrevision
+  citation-key: steinert-threlkeldSemanticUniversalModality2023
   container-title: Semantics & Pragmatics
+  DOI: 10.3765/sp.16.1
+  issue: '1'
   issued:
-    - literal: under revision
+    - year: 2023
   license: All rights reserved
   title: A Semantic Universal for Modality
   type: article-journal
-  URL: https://lingbuzz.net/lingbuzz/006399
+  URL: https://doi.org/10.3765/sp.16.1
+  volume: '16'
 
 - id: steinert-threlkeldUniformDefinabilityAssertability2017a
   author:
