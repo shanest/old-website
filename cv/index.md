@@ -97,6 +97,9 @@ __Hodson Trust Scholar__
 ### Journals
 
 `2023`
+@steinert-threlkeldSemanticUniversalModality2023
+
+`2023`
 @polQuantifiersSatisfyingSemantic2023
 
 `2022`
@@ -255,9 +258,6 @@ __Hodson Trust Scholar__
 
 
 ### In Process
-
-`accepted`
-@steinert-threlkeldSemanticUniversalModalityunderrevision
 
 `accepted`
 @ramotowskaUncoveringStructureSemanticunderrevision
