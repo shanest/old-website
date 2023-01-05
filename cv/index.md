@@ -288,6 +288,9 @@ MIT Linguistics Colloquium
 `05/01/23`
 UC Davis Linguistics Colloquium
 
+`xx/xx/23`
+UMass Amherst Linguistics Colloquium
+
 
 #### Degrees of Monotonicity
 
