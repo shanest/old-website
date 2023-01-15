@@ -860,7 +860,41 @@ references:
   URL: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/891
   volume: '24'
 
-- id: ramotowskaUncoveringStructureSemanticunderrevision
+- id: ramotowskaUncoveringStructureSemantic2023
+  abstract: >-
+    According to logical theories of meaning, a meaning of an expression can be
+    formalized and encoded in truth conditions. Vagueness of the language and
+    individual differences between people are a challenge to incorporate into
+    the meaning representations. In this paper, we propose a new approach to
+    study truth-conditional representations of vague concepts. For a case study,
+    we selected two natural language quantifiers most and more than half. We
+    conducted two online experiments, each with 90 native English speakers. In
+    the first experiment, we tested between-subjects variability in meaning
+    representations. In the second experiment, we tested the stability of
+    meaning representations over time by testing the same group of participants
+    in two experimental sessions. In both experiments, participants performed
+    the verification task. They verified a sentence with a quantifier (e.g.,
+    “Most of the gleerbs are feezda.”) based on the numerical information
+    provided in the second sentence, (e.g., “60% of the gleerbs are feezda”). To
+    investigate between-subject and within-subject differences in meaning
+    representations, we proposed an extended version of the Diffusion Decision
+    Model with two parameters capturing truth conditions and vagueness. We fit
+    the model to responses and reaction times data. In the first experiment, we
+    found substantial between-subject differences in representations of most as
+    reflected by the variability in the truth conditions. Moreover, we found
+    that the verification of most is proportion-dependent as reflected in the
+    reaction time effect and model parameter. In the second experiment, we
+    showed that quantifier representations are stable over time as reflected in
+    stable model parameters across two experimental sessions. These findings
+    challenge semantic theories that assume the truth-conditional equivalence of
+    most and more than half and contribute to the representational theory of
+    vague concepts. The current study presents a promising approach to study
+    semantic representations, which can have a wide application in experimental
+    linguistics.
+  accessed:
+    - year: 2023
+      month: 1
+      day: 15
   author:
     - family: Ramotowska
       given: Sonia
@@ -868,17 +902,26 @@ references:
       given: Shane
     - family: Maanen
       given: Leendert
-      dropping-particle: van
+      non-dropping-particle: van
     - family: Szymanik
       given: Jakub
-  citation-key: ramotowskaUncoveringStructureSemanticunderrevision
+  citation-key: ramotowskaUncoveringStructureSemantic2023
   container-title: Cognitive Science
+  DOI: 10.1111/cogs.13234
+  ISSN: 1551-6709
+  issue: '1'
   issued:
-    - literal: under revision
+    - year: 2023
+  language: en
+  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13234'
+  page: e13234
+  source: Wiley Online Library
   title: >-
-    Uncovering the structure of semantic representations using a computational
-    model of decision-making
+    Uncovering the Structure of Semantic Representations Using a Computational
+    Model of Decision-Making
   type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13234
+  volume: '47'
 
 - id: schlenkerAnthropocentrismComparativeCognition2022
   accessed:

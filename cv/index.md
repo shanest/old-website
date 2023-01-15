@@ -102,6 +102,9 @@ __Hodson Trust Scholar__
 `2023`
 @polQuantifiersSatisfyingSemantic2023
 
+`2023`
+@ramotowskaUncoveringStructureSemantic2023
+
 `2022`
 @schlenkerAnthropocentrismComparativeCognition2022
 
@@ -259,9 +262,6 @@ __Hodson Trust Scholar__
 
 ### In Process
 
-`accepted`
-@ramotowskaUncoveringStructureSemanticunderrevision
-
 `submitted`
 @ogiharaDefenseExtensionalAnalysissubmitted
 
@@ -282,14 +282,14 @@ __Hodson Trust Scholar__
 `02/28/23`
 UC Irvine Language Science Colloquium
 
+`03/10/23`
+UMass Amherst Linguistics Colloquium
+
 `03/17/23`
 MIT Linguistics Colloquium
 
 `05/01/23`
 UC Davis Linguistics Colloquium
-
-`xx/xx/23`
-UMass Amherst Linguistics Colloquium
 
 
 #### Degrees of Monotonicity
