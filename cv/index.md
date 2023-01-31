@@ -282,14 +282,14 @@ __Hodson Trust Scholar__
 `02/28/23`
 UC Irvine Language Science Colloquium
 
-`03/10/23`
-UMass Amherst Linguistics Colloquium
-
 `03/17/23`
 MIT Linguistics Colloquium
 
 `05/01/23`
 UC Davis Linguistics Colloquium
+
+`Fall 2023`
+UMass Amherst Linguistics Colloquium
 
 
 #### Degrees of Monotonicity
@@ -511,6 +511,7 @@ __Graduate Student Representative (external member)__
 - Ofir Press (computer science)
 - Suchin Gururangan (computer science)
 - Saadia Gabriel (computer science)
+- Jacob Geffen (computer science)
 
 
 ### MS theses 
