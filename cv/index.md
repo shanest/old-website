@@ -279,17 +279,20 @@ __Hodson Trust Scholar__
 
 #### TBD
 
-`02/28/23`
-UC Irvine Language Science Colloquium
-
-`03/17/23`
-MIT Linguistics Colloquium
-
 `05/01/23`
 UC Davis Linguistics Colloquium
 
 `Fall 2023`
 UMass Amherst Linguistics Colloquium
+
+
+#### Unnatural Language Semantics 
+
+`03/17/23`
+Inaugural MIT Breakstone Speakers Series on Language, Mind, and Computation
+
+`02/28/23`
+UC Irvine Language Science Colloquium
 
 
 #### Degrees of Monotonicity
@@ -478,7 +481,9 @@ PHIL 23A Cognitive Science of Mathematics
 PHIL 150e Logic in Action (with Thomas Icard and Peter Hawke)
 
 
-### Summer Schools
+### Summer Schools and Mini-courses
+
+The Artificial Language Toolkit: MIT Linguistics March 15-16 2023
 
 Learnability of Quantifiers (with Jakub Szymanik): ESSLLI 2019; NASSLLI 2022
 
@@ -512,6 +517,8 @@ __Graduate Student Representative (external member)__
 - Suchin Gururangan (computer science)
 - Saadia Gabriel (computer science)
 - Jacob Geffen (computer science)
+- Bo-Ru (Roy) Lu (electrical and computer engineering)
+- Bhargavi Paranjape (computer science)
 
 
 ### MS theses 
