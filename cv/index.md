@@ -449,6 +449,11 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 Semantics and Linguistic Theory (SALT 32)
 -->
 
+## Public Scholarship
+
+### Text Media Appearances
+
+`2023` "[Tech’s hottest new job: AI whisperer. No coding required.](https://www.washingtonpost.com/technology/2023/02/25/prompt-engineers-techs-next-big-job/)" by Drew Harwell in _The Washington Post_
 
 ## Teaching
 
