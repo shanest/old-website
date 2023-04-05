@@ -279,14 +279,14 @@ __Hodson Trust Scholar__
 
 #### TBD
 
-`05/01/23`
-UC Davis Linguistics Colloquium
-
 `Fall 2023`
 UMass Amherst Linguistics Colloquium
 
 
 #### Unnatural Language Semantics 
+
+`05/01/23`
+UC Davis Linguistics Colloquium
 
 `03/17/23`
 Inaugural MIT Breakstone Speakers Series on Language, Mind, and Computation
@@ -452,6 +452,8 @@ Semantics and Linguistic Theory (SALT 32)
 ## Public Scholarship
 
 ### Text Media Appearances
+
+`2023` "[Google’s Bard Writes Convincingly About Known Conspiracy Theories](https://www.bloomberg.com/news/articles/2023-04-04/google-s-bard-writes-convincingly-about-known-conspiracy-theories?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTY4MDYyMzU3OCwiZXhwIjoxNjgxMjI4Mzc4LCJhcnRpY2xlSWQiOiJSU0xER1pEV1gyUFMwMSIsImJjb25uZWN0SWQiOiJFNzAxNENGQzIzNTI0MzU0QTVENUY2QkREMDAxOEU3NiJ9.Odn8lGbFzIufan19kvqfUUcpmUTTBpSmnQYe8E5a374)" by Davey Alba in _Bloomberg_
 
 `2023` "[Tech’s hottest new job: AI whisperer. No coding required.](https://www.washingtonpost.com/technology/2023/02/25/prompt-engineers-techs-next-big-job/)" by Drew Harwell in _The Washington Post_
 
