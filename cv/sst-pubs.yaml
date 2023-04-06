@@ -100,7 +100,6 @@ references:
   issued:
     - year: 2021
   language: en
-  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13027'
   page: e13027
   source: Wiley Online Library
   title: Monotone Quantifiers Emerge via Iterated Learning
@@ -180,7 +179,6 @@ references:
   issued:
     - year: 2022
   language: en
-  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13142'
   page: e13142
   source: Wiley Online Library
   title: Indefinite Pronouns Optimize the Simplicity/Informativeness Trade-Off
@@ -913,7 +911,6 @@ references:
   issued:
     - year: 2023
   language: en
-  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13234'
   page: e13234
   source: Wiley Online Library
   title: >-
@@ -947,7 +944,6 @@ references:
   issued:
     - year: 2022
   language: en
-  note: '_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13220'
   page: e13220
   source: Wiley Online Library
   title: >-
@@ -957,6 +953,21 @@ references:
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13220
   volume: '46'
+
+- id: shapiroIconicArtificialLanguage2023
+  author:
+    - family: Shapiro
+      given: Naomi Tachikawa
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: shapiroIconicArtificialLanguage2023
+  container-title: Proceedings of the Annual Meeting of the Cognitive Science Society
+  issued:
+    - year: 2023
+  title: >-
+    Iconic Artificial Language Learning: A Conceptual Replication with English
+    Speakers
+  type: paper-conference
 
 - id: shapiroMultilabelApproachMorphosyntactic2021
   abstract: >-
