@@ -203,7 +203,11 @@ strong {
 	display: none;
 }
 
+#date {
+	display: none;
+}
 
+/* 
 #date {
 	position: absolute;
 	right: 0;
@@ -217,7 +221,7 @@ strong {
 	width: 100%;
 	left: 0%;
 }
-
+*/
 
 /*
 @media only screen and (max-width: 480px) {
