@@ -208,4 +208,23 @@ strong {
 }
 
 
+#date {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#date p {
+	font-size: 6pt;
+	color: #aaa;
+	text-align: right;
+	width: 100%;
+	left: 0%;
+}
+
+
+/*
+@media only screen and (max-width: 480px) {
+	make one column somehow...
+}*/
 

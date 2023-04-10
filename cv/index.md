@@ -21,6 +21,10 @@ Computational Linguist and Cognitive Scientist
 | <a href="https://www.shane.st">shane.st</a> | <a href="https://clmbr.shane.st">clmbr.shane.st (lab)</a>
 </div>
 
+<div id="date">
+Last modified: 04/10/23
+</div>
+
 
 ## Employment
 
