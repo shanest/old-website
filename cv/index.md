@@ -276,13 +276,9 @@ __Hodson Trust Scholar__
 @steinert-threlkeldComputationalExplanationsSemanticinprep
 
 
-## Invited Talks
-
-<!--
-(NB: this and the rest of the CV are woefully incomplete right now, but will be updated soon.)
+## Talks
 
 ### Invited
--->
 
 #### TBD
 
@@ -447,14 +443,137 @@ Stanford Mathematical Logic Seminar
 First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 
-<!--
 ### Refereed
+
+#### Iconic Artificial Language Learning
+`07/xx/2023`
+Annual Meeting of the Cognitive Science Society (CogSci 44); with Naomi Tachikawa Shapiro
+
+#### Northwest Sahaptin modal expressions: a case study
+`04/21/2023`
+Workshop on Modality in Underdescribed Languages: Methods and Insights; with Sharon Hargus and Virginia Beavert
+
+#### Testing Pre-Trained Language Models’ Understanding of Distributivity via Causal Mediation Analysis
+`12/08/2022`
+Analyzing and Interpreting Neural Networks for NLP (BlackboxNLP 5, at EMNLP); with Pangbo Ban, Yifan Jiang, Tianran Liu
+
+#### Probing for Understanding of English Verb Classes and Alternations in Large Pre-Trained Language Models
+`12/08/2022`
+Analyzing and Interpreting Neural Networks for NLP (BlackboxNLP 5, at EMNLP); with David K Yi, James V Bruno, Jiayu Han, Peter Zukerman
 
 #### An Efficient Communication Analysis of Modal Typology
 
 `06/10/2022`
-Semantics and Linguistic Theory (SALT 32)
--->
+Semantics and Linguistic Theory (SALT 32); with Nathaniel Imel
+
+`05/20/2022`
+Experiments in Linguistic Meaning (ELM 32); with Nathaniel Imel
+
+
+#### A Database for Modal Semantic Typology
+`07/14/2022`
+4th Workshop on Research in Computational Linguistic Typology and Multilingual NLP at NAACL; with Qingxia Guo, Nathaniel Imel
+
+#### A Masked Segmental Language Model for Unsupervised Natural Language Segmentation
+`07/14/2022`
+19th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at NAACL; with C.M. Downey, Fei Xia, Gina-Anne Levow
+
+#### Bilingual Alignment Transfers to Multilingual Alignment for Unsupervised Parallel Text Mining
+`05/23/2022`
+Association for Computational Linguistics (ACL); with Chih-chan Tien
+
+#### Emergent Communication Fine-Tuning (EC-FT) for Pretrained Language Models
+`04/29/2022`
+Workshop on Emergent Communication: New Frontiers at ICLR; with C.M. Downey, Zeyu Liu, Xuhui Zhou
+
+#### Linguistically-Informed Transformations (LIT): A Method for Automatically Generating Contrast Sets
+`11/20/2020`
+Analyzing and interpreting neural networks for NLP (BlackboxNLP); with Chuanrong Li, Lin Shengshuo, Zeyu Liu, Xinyi Wu, Xuhui Zhou
+
+#### Complexity/informativeness trade-off in the domain of indefinite pronouns
+`08/18/2020`
+Semantics and Linguistic Theory (SALT 30); online, with Milica Denic
+
+#### Quantifiers Satisfying Semantic Universals are Simpler
+`07/30/2020`
+Annual Meeting of the Cognitive Science Society (CogSci 43); with Iris van de Pol, Paul Lodder, Leendert van Maanen, Jakub Szymanik 
+
+#### On the Spontaneous Emergence of Discrete and Compositional Signals
+`07/07/2020`
+Association for Computational Linguistics (ACL 2020); online, with Nur Lan and Emmanuel Chemla
+
+#### Quantifiers in natural language optimize the simplicity/informativeness tradeoff
+`12/18/2019`
+Amsterdam Colloquium (AC 2019)
+
+#### Most, but not more than haf, is proportion-dependent and sensitive to individual differences
+`09/06/2019`
+Sinn und Bedeutung 24; with Sonia Ramotowska, Leendert van Maanen, Jakub Szymanik
+
+#### The emergence of monotone quantifiers via iterated learning
+`07/27/2019`
+Annual Meeting of the Cognitive Science Society (CogSc 41); with Fausto Carcassi, Jakub Szymanik
+
+#### Complexity and learnability in the explanation of semantic universals of quantifiers
+`07/27/2019`
+Annual Meeting of the Cognitive Science Society (CogSc 41); with Iris van de Pol, Leendert van Maanen, Jakub Szymanik
+
+#### Semantic expressivism for epistemic modals, conditionals, and quantifiers
+`06/22/2019`
+Bilateral Approaches to Meaning; with Peter Hawke
+
+#### Nueral Models of the Pyschosemantics of "most"
+`06/07/2019`
+Workshop on Cognitive Modeling and Computational Linguistics (CMCL); with Lewis O'Sullivan
+
+#### Individual differences in semantic representations affect quantifier processing
+`04/03/2019`
+Reasoning, Argumentation and Logic in Natural Language: Experiments and Models; with Sonia Ramotowska, Leendert van Maanen, and Jakub Szymanik
+
+#### Function Words and Context Variability
+
+`12/08/2018`
+Neural Information Processing Systems (NeurIPS2018), workshop on Emergent Communication
+
+`11/04/2018`
+Philosophy of Science Association, symposium on Evolutionary Explanations of Compositional Communication
+
+#### Assertability Semantics for Conditionals, Quantification, and Modality
+`03/29/2018`
+Pacific Division of the American Philosophical Association; with Peter Hawke
+
+#### Uniform Definability in Assertability Semantics
+`12/22/2017`
+Amsterdam Colloquium (AC 2017)
+
+#### Alternative Representations in Proportional Quantifier Verification
+
+`12/17/2015`
+Amsterdam Colloquium (AC 2015); with Gert-Jan Munneke, Jakub Szymanik
+
+`10/17/2015`
+Linguistic and Cognitive Aspects of Quantification; with Gert-Jan Munneke, Jakub Szymanik
+
+#### Epistemic Modality and the Dynamics of Discourse
+`05/02/2015`
+Berkeley-Stanford-Davis Graduate Conference in Philosophy; with Peter Hawke
+
+#### On the Decidability of Iterated Languages
+`04/25/2014`
+Philosophy, Mathematics, Linguistics: Aspects of Interaction (PhML 2014)
+
+#### Quantifier Scope and Tensed Clauses
+`10/11/2013`
+California Universities Semantics and Pragmatics Conference (CUSP 6); with Eric Acton and Daria Popova
+
+#### Deflationism, Gaps, and Expressive Power
+`04/26/2013`
+Berkley-Stanford-Davis Graduate Conference in Philosophy
+
+#### Ontological Labels for Automated Location of Left-Ventricular Remodeling
+`09/21/2011`
+Fifth IEEE International Conference on Semantic Computing
+
 
 ## Public Scholarship
 
