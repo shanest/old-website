@@ -693,6 +693,8 @@ Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine T
 
 ## Service
 
+<!-- add more service stuff here -->
+
 ### Refereeing
 
 #### Journals
@@ -702,6 +704,22 @@ Semantics & Pragmatics (5); Glossa Psycholinguistics; The Psychological Review; 
 #### Conferences
 
 Association for Computational Linguistics (ACL); Empirical Methods in Natural Language Processing (EMNLP); International Conference of Learning Representations (ICLR); Semantics and Linguistic Theory (SALT); North American ACL (NAACL); *SEM (Joint Conference on Lexical and Computational Semantics); Neural Information Processing Systems (NeurIPS); Experiments in Linguistic Meaning (ELM); BlackboxNLP; West Coast NLP (WeCNLP); International Conference on Machine Learning (ICML); COLING; Semantics and Philosophy in Europe (SPE); Amsterdam Colloquium; Annual Meeting of the Cognitive Science Society; AACL-IJCNLP (Asia-Pacific ACL - International Joint Conference in NLP); Joint Conference on Language Evolution (JCoLE); Experimental approaches to language universals in structure and meaning; Approaches to implicature: rational choice and/or exhaustification; WeSSLLI (Web Summer School in Logic, Language and Information) Student Session; ACL Student Research Workshop
+
+### Conference Organization
+
+#### General Chair
+
+- Computational and Experimental Explanations in Semantics and Pragmatics, at ESSLLI 2021 (with Jakub Szymanik)
+- Quantity in Language and Thought, at ESSLLI 2018 (with Jakub Szymanik)
+- Discourse in Philosophy Colloquium Series (with Thom van Gessel, Peter Hawke)
+- Cognitive Semantics and Quantities Kick-off Workshop (with Peter Hawke)
+- NASSLLI 2014 Student Session
+- First, Second, Third, Fourth CSLI Workshop on Logic, Rationality and Intelligent Interaction (with Peter Hawke, JT Chipman, Thomas Icard, Johan van Benthem)
+
+#### Area Chair
+
+- ESSLLI 2023: Language and Computation
+- CoNLL 2023: Lexical, Compositional and Discourse Semantics
 
 ### Mentorship
 
@@ -713,6 +731,12 @@ Regular participant in Pop-Up Mentoring Program (PUMP) for LSA events (e.g. SALT
   - birds-of-a-feather for interpretability and analysis
   - birds-of-a-feather for semantics and natural langauge understanding
 - As the above have been replaced, I am now a standing mentor for the ACL Year-round Mentorship Program.
+
+### Professional Societies
+
+- Association for Computational Linguistics
+- Special Interest Group in Typology
+- Cognitive Science Society
 
 <!-- ### Footer
 
