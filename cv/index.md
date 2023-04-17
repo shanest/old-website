@@ -655,6 +655,7 @@ __Graduate Student Representative (external member)__
 - Jacob Geffen (computer science)
 - Bo-Ru (Roy) Lu (electrical and computer engineering)
 - Bhargavi Paranjape (computer science)
+- Sewon Min (computer science)
 
 
 ### MS theses 
