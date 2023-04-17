@@ -285,6 +285,9 @@ __Hodson Trust Scholar__
 `Fall 2023`
 UMass Amherst Linguistics Colloquium
 
+`July 2023`
+Internal and external pressures shaping language
+
 
 #### Unnatural Language Semantics 
 
