@@ -11,6 +11,7 @@ csl: chicago-syllabus.csl
 header-includes: |
     <script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 test: true
+panflute-verbose: true
 ---
 
 # Shane Steinert-Threlkeld
@@ -102,6 +103,8 @@ __Hodson Trust Scholar__
 
 `2023`
 @steinert-threlkeldSemanticUniversalModality2023
+
+- Contributions: conceptualization, data curation
 
 `2023`
 @polQuantifiersSatisfyingSemantic2023

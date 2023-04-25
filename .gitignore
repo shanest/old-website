@@ -11,3 +11,4 @@ teaching/**/hw/*.*
 *.gsheet
 *.pptx
 sonia/*/data/
+.vscode
