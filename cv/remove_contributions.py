@@ -7,7 +7,7 @@ def action(elem, doc):
     """
     if isinstance(elem, pf.ListItem) or isinstance(elem, pf.Para):
         string_rep = pf.stringify(elem)
-        if string_rep.startswith("Contributions:"):
+        if string_rep.startswith("Contribution:"):
             return []
 
 

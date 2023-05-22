@@ -99,24 +99,34 @@ __Hodson Trust Scholar__
 
 <!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
 
+Contribution: as required, for each non-single-authored publication, an esimate of my percentage contribution is included.  In addition, in parentheses, I have included the roles that I played in the publication, according to the [Contributor Role Taxonomy (CRediT)](https://doi.org/10.1002/leap.1210) system.
+
 ### Journals
 
 `2023`
 @steinert-threlkeldSemanticUniversalModality2023
 
-- Contributions: conceptualization, data curation
+- Contribution: 90% (conceptualization, formal analysis, data curation, writing --- original draft, writing --- review and editing, supervision)
 
 `2023`
 @polQuantifiersSatisfyingSemantic2023
 
+- Contribution: 25% (conceptualization, methodology, writing --- review and editing, supervision)
+
 `2023`
 @ramotowskaUncoveringStructureSemantic2023
+
+- Contribution: 30% (conceptualization, methodology, software, data curation, writing --- review and editing, supervision)
 
 `2022`
 @schlenkerAnthropocentrismComparativeCognition2022
 
+- Contribution: 20% (conceptualization, writing --- review and editing)
+
 `2022`
 @denicIndefinitePronounsOptimize2022
+
+- Contribution: 40% (conceptualization, methodology, software, writing --- original draft, writing --- review and editing)
 
 `2022`
 @steinert-threlkeldExplainingSemanticTypology2022
@@ -127,8 +137,12 @@ __Hodson Trust Scholar__
 `2021`
 @steinert-threlkeldReferentialGeneralCalls2021
 
+- Contribution: 75% (conceptualization, methodology, software, formal analysis, writing --- original draft, writing --- review and editing)
+
 `2021`
 @carcassiMonotoneQuantifiersEmerge2021
+
+- Contribution: 45% (conceptualization, methodology, software, writing --- original draft, writing --- review and editing)
 
 `2021`
 @steinert-threlkeldHowSocialNetworks2021
