@@ -23,7 +23,7 @@ Computational Linguist and Cognitive Scientist
 </div>
 
 <div id="date">
-Last modified: 04/10/23
+Last modified: 05/24/23
 </div>
 
 
@@ -34,6 +34,7 @@ Last modified: 04/10/23
 - Assistant Professor, Linguistics
 `2019 - now`
 - Director: Computation, Language, and Meaning Band of Researchers (CLMBR; [clmbr.shane.st](https://clmbr.shane.st))
+- Data Science Affiliate, [eScience Institute](https://escience.washington.edu/)
 
 
 
@@ -147,8 +148,12 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2021`
 @steinert-threlkeldHowSocialNetworks2021
 
+- Contribution: 60% (conceptualization, methodology, software, formal analysis, writing --- original draft, writing --- review and editing)
+
 `2020`
 @steinert-threlkeldEaseLearningExplains2020
+
+- Contribution: 90% (conceptualization, methodology, software, formal analysis, writing --- original draft, writing --- review and editing)
 
 `2020`
 @steinert-threlkeldEmergenceNontrivialCompositionality2020
@@ -159,11 +164,17 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2020`
 @hawkeSemanticExpressivismEpistemic2021
 
+- Contribution: 50% (conceptualization, methodology, writing --- original draft, writing --- review and editing)
+
 `2019`
 @steinert-threlkeldLearnabilitySemanticUniversals2019
 
+- Contribution: 90% (conceptualization, methodology, software, formal analysis, writing --- original draft, writing --- review and editing)
+
 `2016/2018`
 @hawkeInformationalDynamicsEpistemic2018
+
+- Contribution: 50% (conceptualization, methodology, writing --- original draft, writing --- review and editing)
 
 `2016`
 @steinert-threlkeldCompositionalSignalingComplex2016
@@ -177,11 +188,17 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2013/2016`
 @mintsADCMethodProof2016
 
+- Contribution: 30% (conceptualization, methodology, writing --- original draft, writing --- review and editing)
+
 `2013`
 @steinert-threlkeldIteratingSemanticAutomata2013
 
+- Contribution: 60% (conceptualization, methodology, writing --- original draft, writing --- review and editing)
+
 `2012`
 @steinert-threlkeldOntologicalLabelsAutomated2012
+
+- Contribution: 60% (software, formal analysis, methodology, writing --- original draft, writing --- review and editing)
 
 
 ### Proceedings
@@ -191,49 +208,78 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2023`
 @shapiroIconicArtificialLanguage2023
 
+- Contribution: 40% (conceptualization, methodology, writing --- review and editing, supervision, funding acquisition)
+
 `2022`
 @yiProbingUnderstandingEnglish2022
+
+- Contribution: 20% (conceptualization, methodology, writing --- review and editing, supervision, project administration)
 
 `2022`
 @banTestingPretrainedLanguage2022
 
+- Contribution: 20% (conceptualization, methodology, writing --- review and editing, supervision, project administration)
+
 `2022*`
 @imelModalSemanticUniversals2022
+
+- Contribution: 45% (conceptualization, methodology, software, formal analysis, visualization, writing --- review and editing, supervision, project administration)
 
 `2022`
 @guoDatabaseModalSemantic2022
 
+- Contribution: 60% (conceptualization, methodology, software, data curation, writing --- original draft, writing --- review and editing, supervision, project administration)
+
 `2022`
 @downeyMaskedSegmentalLanguage2022
 
+- Contribution: 25% (conceptualization, writing --- review and editing, supervision, project administration)
+
 `2022`
 @tienBilingualAlignmentTransfers2022a
+
+- Contribution: 40% (conceptualization, methodology, writing --- review and editing, supervision, project administration)
 
 `2022`
 @steinert-threlkeldEmergentCommunicationFinetuning2022
 
 - **Note:** Runner-up best paper award
+- Contribution: 60% (conceptualization, methodology, writing --- original draft, writing --- review and editing, supervision, project administration, funding acquisition)
 
 `2021`
 @shapiroMultilabelApproachMorphosyntactic2021
 
+- Contribution: 30% (conceptualization, methodology, writing --- review and editing, supervision)
+
 `2021`
 @jumeletLanguageModelsUse2021
+
+- Contribution: 30% (conceptualization, methodology, writing --- review and editing, supervision)
 
 `2021`
 @vandepolQuantifiersSatisfyingSemantic2021
 
+- Contribution: 25% (conceptualization, methodology, writing --- review and editing, supervision)
+
 `2020`
 @liLinguisticallyInformedTransformationsLIT2020
+
+- Contribution: 20% (conceptualization, methodology, writing --- review and editing, supervision, project administration)
 
 `2020`
 @geffenlanSpontaneousEmergenceDiscrete2020
 
+- Contribution: 35% (conceptualization, methodology, visualization, writing --- original draft, writing --- review and editing, supervision)
+
 `2020*`
 @denicComplexityInformativenessTradeoff2020
 
+- Contribution: 40% (conceptualization, methodology, software, writing --- original draft, writing --- review and editing)
+
 `2020*`
 @ramotowskaMostNotMore2020
+
+- Contribution: 30% (conceptualization, methodology, software, data curation, writing --- review and editing, supervision)
 
 `2019*`
 @steinert-threlkeldQuantifiersNaturalLanguage2019
@@ -241,11 +287,17 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2019`
 @carcassiEmergenceMonotoneQuantifiers2019
 
+- Contribution: 45% (conceptualization, methodology, software, writing --- original draft, writing --- review and editing)
+
 `2019`
 @polComplexityLearnabilityExplanation2019
 
+- Contribution: 35% (conceptualization, methodology, software, writing --- review and editing, supervision)
+
 `2019`
 @osullivanNeuralModelsPsychosemantics2019
+
+- Contribution: 40% (conceptualization, methodology, software, writing --- review and editing, supervision)
 
 `2018`
 @steinert-threlkeldPayingAttentionFunction2018
@@ -253,14 +305,20 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2018`
 @pezzelleThemCanBe2018
 
+- Contribution: 45% (conceptualization, methodology, software, investigation, writing --- original draft, writing --- review and editing)
+
 `2017*`
 @steinert-threlkeldUniformDefinabilityAssertability2017a
 
 `2015`
 @hawkeInformationalDynamicsMight2015
 
+- Contribution: 50% (conceptualization, methodology, writing --- original draft, writing --- review and editing)
+
 `2015*`
 @steinert-threlkeldAlternativeRepresentationsFormal2015
+
+- Contribution: 70% (conceptualization, methodology, formal analysis, investigation, writing --- original draft, writing --- review and editing)
 
 `2014`
 @steinert-threlkeldDecidabilityIteratedLanguages2014
@@ -268,8 +326,12 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2013`
 @szymanikAutomataComplexityMultipleQuantifier2013
 
+- Contribution: 60% (conceptualization, methodology, formal analysis, investigation, writing --- original draft, writing --- review and editing)
+
 `2011`
 @steinert-threlkeldOntologicalLabelsAutomated2011
+
+- Contribution: 60% (software, formal analysis, methodology, writing --- original draft, writing --- review and editing)
 
 
 ### Other
@@ -283,13 +345,24 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `2009`
 @steinert-threlkeldOpenStandardsWebBased2009
 
+- Contribution: 70% (conceptualization, software, visualization, writing --- original draft, writing --- review and editing)
+
 
 ### In Process
 
-`submitted`
-@ogiharaDefenseExtensionalAnalysissubmitted
+`revise and resubmit`
+@guerinImpactSyntacticSemanticsubmitted
 
-`in prep`
+`submitted`
+@jiangWeightedMobiusScoresubmitted
+
+`submitted`
+@downeyLearningTranslateLearningsubmitted
+
+`submitted`
+@ogiharaLimitationsModalAnalysissubmitted
+
+`under contract`
 @steinert-threlkeldComputationalExplanationsSemanticinprep
 
 

@@ -186,7 +186,7 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13142
   volume: '46'
 
-- id: downeyLearningTranslateLearning2022a
+- id: downeyLearningTranslateLearningsubmitted
   abstract: >-
     We formulate and test a technique to use Emergent Communication (EC) with a
     pretrained multilingual model to improve on modern Unsupervised NMT systems,
@@ -202,10 +202,6 @@ references:
     one of which outperforms a backtranslation-based baseline in 6/8 translation
     settings, and proves especially beneficial for the very low-resource
     languages of Nepali and Sinhala.
-  accessed:
-    - year: 2022
-      month: 11
-      day: 10
   author:
     - family: Downey
       given: C. M.
@@ -215,17 +211,14 @@ references:
       given: Xuhui
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: downeyLearningTranslateLearning2022a
+  citation-key: downeyLearningTranslateLearningsubmitted
+  container-title: Representation Learning for NLP (RepL4NLP)
   DOI: 10.48550/arXiv.2207.07025
   issued:
-    - year: 2022
-      month: 7
-      day: 14
-  number: arXiv:2207.07025
-  publisher: arXiv
+    - literal: submitted
   source: arXiv.org
   title: Learning to translate by learning to communicate
-  type: article
+  type: paper-conference
   URL: http://arxiv.org/abs/2207.07025
 
 - id: downeyMaskedSegmentalLanguage2022
@@ -305,6 +298,21 @@ references:
   title: On the Spontaneous Emergence of Discrete and Compositional Signals
   type: paper-conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.433
+
+- id: guerinImpactSyntacticSemanticsubmitted
+  author:
+    - family: Guerin
+      given: Nicolas
+    - family: Chemla
+      given: Emmanuel
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: guerinImpactSyntacticSemanticsubmitted
+  container-title: Transactions of the Association for Computational Linguistics
+  issued:
+    - literal: submitted
+  title: The Impact of Syntactic and Semantic Proximity on Back-Translation
+  type: article-journal
 
 - id: guoDatabaseModalSemantic2022
   abstract: >-
@@ -523,6 +531,38 @@ references:
   URL: >-
     http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/32.012
 
+- id: jiangWeightedMobiusScoresubmitted
+  abstract: >-
+    Feature attribution aims to explain the reasoning behind a black-box model's
+    prediction by identifying the impact of each feature on the prediction.
+    Recent work has extended feature attribution to interactions between
+    multiple features. However, the lack of a unified framework has led to a
+    proliferation of methods that are often not directly comparable. This paper
+    introduces a parameterized attribution framework -- the Weighted M\"obius
+    Score -- and (i) shows that many different attribution methods for both
+    individual features and feature interactions are special cases and (ii)
+    identifies some new methods. By studying the vector space of attribution
+    methods, our framework utilizes standard linear algebra tools and provides
+    interpretations in various fields, including cooperative game theory and
+    causal mediation analysis. We empirically demonstrate the framework's
+    versatility and effectiveness by applying these attribution methods to
+    feature interactions in sentiment analysis and chain-of-thought prompting.
+  author:
+    - family: Jiang
+      given: Yifan
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: jiangWeightedMobiusScoresubmitted
+  container-title: Neural Information Processing Systems
+  DOI: 10.48550/arXiv.2305.09204
+  issued:
+    - literal: submitted
+  source: arXiv.org
+  title: 'The Weighted Möbius Score: A Unified Framework for Feature Attribution'
+  title-short: The Weighted Möbius Score
+  type: paper-conference
+  URL: http://arxiv.org/abs/2305.09204
+
 - id: jumeletLanguageModelsUse2021
   accessed:
     - year: 2022
@@ -626,17 +666,17 @@ references:
   type: article-journal
   volume: '26'
 
-- id: ogiharaDefenseExtensionalAnalysissubmitted
+- id: ogiharaLimitationsModalAnalysissubmitted
   author:
     - family: Ogihara
       given: Toshiyuki
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: ogiharaDefenseExtensionalAnalysissubmitted
+  citation-key: ogiharaLimitationsModalAnalysissubmitted
   container-title: Semantics & Pragmatics
   issued:
     - literal: submitted
-  title: A Defense of an Extensional Analysis of `Before'
+  title: Limitations of a Modal Analysis of `Before'
   type: article-journal
 
 - id: osullivanNeuralModelsPsychosemantics2019
