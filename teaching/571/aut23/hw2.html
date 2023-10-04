@@ -7,7 +7,7 @@
 		<meta name="author" content="">
 		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-		<title>UW LING 571: HW2 (Fall 2022)</title>
+		<title>UW LING 571: HW2 (Fall 2023)</title>
 
 		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
 
@@ -22,7 +22,7 @@
 
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '22]</a>
+				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '23]</a>
 				<a class="navbar-brand ml-auto" href="#">Homework 2</a>
 				<!--
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
 		</nav>
 
 		<main role="main" class="container">
-			<p class="lead">This assignment is due <strong>Wednesday, October 12 at 11:59PM</strong>.</p>
+			<p class="lead">This assignment is due <strong>Wednesday, October 11 at 11:59PM</strong>.</p>
 			<ol>
 				<li><a href="#goals">Goals</a></li>
 				<li><a href="#background">Background</a></li>
@@ -70,8 +70,7 @@
 			<p>As noted in the text, the CKY algorithm requires a grammar in Chomsky Normal Form (CNF). While it is not always intuitively clear how to write a grammar from scratch in CNF, it is fairly straightforward to convert a context-free grammar into a weakly equivalent grammar in CNF.</p>
 			<p>Following the approach outlined in class, implement a procedure to convert an input grammar of the form to be used for the first assignment to a new weakly equivalent grammar in CNF.</p>
 			<p>You will want to create data structures corresponding to <span style="font-family: courier;">RULE</span>, <span style="font-family: courier;">RHS</span>, <span style="font-family: courier;">LHS</span>, etc. 
-				<!-- You may use whatever programming language you like, in accordance with the <a title="Course Policy" href="http://depts.washington.edu/uwcl/clms/course-policy.pdf">Course Policy</a>. -->
-				You may use existing implementations of these data structures in NLTK or other NLP toolkits (e.g. the Stanford Parser), but you <strong><em>must implement the grammar conversion algorithm yourself</em></strong>.</p>
+				You may use existing implementations of these data structures in NLTK or other NLP toolkits, but you <strong><em>must implement the grammar conversion algorithm yourself</em></strong>.</p>
 			<p><a href="#top">[back to top]</a></p>
 			<h2><a name="requirements"></a>4. Requirements</h2>
 			<p>The program you submit should do the following:</p>
@@ -92,14 +91,14 @@
 			<h3>Verification &amp; Parse Comparison</h3>
 			<p>Using your system from HW#1, you will parse a set of sentences with</p>
 			<ul>
-				<li>A General NLTK Context-Free Grammar, and&hellip;</li>
+				<li>A generic NLTK Context-Free Grammar, and&hellip;</li>
 				<li>A weakly equivalent Chomsky Normal Form context-free grammar, created by your CNF conversion program.</li>
 			</ul>
 			<p><em><strong>NOTE: </strong>You will need to run your code yourself in both these conditions with the files specified below. You will include the output parse files in your submission tar file. You do <strong>not</strong> need to run this code as part of your condor file. </em></p>
 			<p><a href="#top">[back to top]</a></p>
 			<h2><a name="files"></a>5. Files:</h2>
 			<h3>In the Dropbox</h3>
-			<p>You will find the following files in <span style="font-family: courier;">/dropbox/22-23/au571/hw2</span>:</p>
+			<p>You will find the following files in <span style="font-family: courier;">/mnt/dropbox/23-24/571/hw2</span>:</p>
 			<ul>
 				<li><span style="font-family: courier;"><strong>atis.cfg</strong></span>:
 					<ul>
@@ -113,7 +112,7 @@
 								<li>You will use your HW #1 system to parse these sentences both:
 									<ul>
 										<li>With the original <span style="font-family: courier;"><strong>atis.cfg</strong></span></li>
-										<li>With your CNF-convertd version of the ATIS grammar.</li>
+										<li>With your CNF-converted version of the ATIS grammar.</li>
 									</ul>
 								</li>
 							</ul>
