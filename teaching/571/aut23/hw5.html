@@ -1,30 +1,31 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-		<title>UW LING 571: HW5 (Fall 2022)</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+	<title>UW LING 571: HW5 (Fall 2023)</title>
 
-		<!-- Bootstrap core CSS -->
-		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
 
-		<!-- Custom styles for this template -->
-		<link href="css/navbar-top-fixed.css" rel="stylesheet">
-	</head>
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<body>
+	<!-- Custom styles for this template -->
+	<link href="css/navbar-top-fixed.css" rel="stylesheet">
+</head>
 
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '22]</a>
-				<a class="navbar-brand ml-auto" href="#">Homework 5</a>
-				<!--
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '23]</a>
+			<a class="navbar-brand ml-auto" href="#">Homework 5</a>
+			<!--
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	    </button>
@@ -39,90 +40,131 @@
 	    </ul>
 	    </div>
 				-->
-			</div>
-		</nav>
+		</div>
+	</nav>
 
-		<main role="main" class="container">
-			<p class="lead">This assignment is due <strong>Wednesday, November 2 at 11:59PM</strong>.</p>
-			<p><a name="top"></a></p>
-			<h2>Goals</h2>
-			<p>Through this assignment you will:</p>
-			<ul>
-				<li>Explore the role of features in implementing linguistic constraints.</li>
-				<li>Identify some of the challenges in building compact constraints to define a precise grammar.</li>
-				<li>Gain some further familiarity with NLTK.</li>
-				<li>Apply feature-based grammars to perform grammar checking.</li>
-			</ul>
-			<h2>Background</h2>
-			<p>Please review the class slides and readings in the textbook on feature-based grammars and parsing. Also, review <a href="http://www.nltk.org/book/ch09.html">Chapter 9</a> of the NLTK book for additional detail on feature structures and feature-based parsing in NLTK. A discussion of aspect, relevant to the last few test sentences can be found in J&amp;M 17.4.2 (15.4.2 in SLP3)</p>
-			<p><strong><em>NOTE:</em></strong><em> The NLTK book contains a discussion of HPSG-style handling of subcategorization. However, this framework is <strong>*NOT*</strong> implemented in NLTK as it stands. An analogous list structure using <span style="font-family: Courier;">[FIRST=?a,REST=?b]</span> pseudo-lists can achieve the same effect, but this should be considered an extra-credit option to be explored if you have spare time. It is not required for this assignment.</em></p>
-
-			<h3>Building a Feature-based Grammar</h3>
-			<p> Based on the materials above, create a set of context-free grammar rules augmented with features in the NLTK <span style="font-family: courier;">.fcfg</span> format that are adequate to analyze a small set of English natural language sentences. Sample grammars may be found in the NLTK Book Chapter 9 text, in the mini example file referenced below, and in some of the NLTK grammars under <span style="font-family: Courier;">/corpora/nltk/nltk-data/grammars</span>. The grammar should be loadable with <span style="font-family: Courier;">nltk.data.load()</span>.</p>
-			<p>Your grammar should be able to parse all well-formed sentences in the provided test sentence file and reject all ill-formed sentences in the list.  Your grammar should use rules and features that are linguistically motivated (e.g. phrase structures that we've seen; features based on things like gender, number, animacy, aspect, etc).  One way of thinking about this: while you will be evaluated on the set of judgments in <span style="font-family:courier">sentences_key.txt</span> (see below), your grammar should have broader coverage than that.</p>
-			<h3>Parsing</h3>
-			<p>Create a program to parse the example sentences based on your grammar and analyze the results. Specifically, your program should:</p>
-			<ul>
-				<li>Load your grammar.</li>
-				<li>Load the test sentences.</li>
-				<li>For each sentence, you program should output to a file:
-					<ul>
-						<li>Use <span style="font-family: courier;">nltk.parse.FeatureEarleyChartParser</span> (or your own or similar available feature-based parser) to parse the sentence.</li>
-						<li>If the sentence is grammatical and parses, print a single output parse on a single line. You may use the <span style="font-family: courier;">nltk.Tree._pformat_flat</span> function to get single-line output.</li>
-						<li>If the sentence is not grammatical and fails to parse, print a single blank line as output.</li>
-					</ul>
-				</li>
-			</ul>
-			<p><strong>Note: </strong> If the sentence is ambiguous, you only need to print a single parse.</p>
-			<h4>Programming</h4>
-			<p>Create a program called <span style="font-family: Courier;">hw5_parser.sh</span> which performs the feature parsing grammar check described above invoked as:<br /><span style="font-family: Courier;"> hw5_parser.sh &lt;input_grammar_filename&gt; &lt;input_sentence_filename&gt; &lt;output_filename&gt; </span> where,</p>
-			<ul>
-				<li><span style="font-family: Courier;">&lt;input_grammar_filename&gt;</span> is the name of the file holding the feature-based grammar that you created to implement the necessary grammatical constraints.</li>
-				<li><span style="font-family: Courier;">&lt;input_sentence_filename&gt;</span> is the name of the file holding the sentences to test for grammaticality and parse.</li>
-				<li><span style="font-family: Courier;">&lt;output_filename&gt;</span> is the name of the file to write the results of your grammaticality parsing test.</li>
-			</ul>
-			<h2>Files</h2>
-			<p>Please adhere to the naming conventions below:</p>
-			<h4>Example and Test Data Files</h4>
-			<p>All data and example files may be found in <span style="font-family: Courier;"><strong>/dropbox/22-23/au571/hw5/</strong></span>.</p>
-			<ul>
-				<li><strong><span style="font-family: Courier;">sentences.txt</span></strong>: Test set of basic sentences to analyze.</li>
-				<li><strong><span style="font-family: Courier;">sentences_key.txt</span></strong>: Same set of sentences, but marked for acceptability. &#8220;*&#8221; indicates unacceptability.</li>
-				<li><strong><span style="font-family: Courier;">example_grammar.fcfg</span></strong>: Toy grammar file in NLTK format with features.</li>
-				<li><strong><span style="font-family: Courier;">example_sentences.txt</span></strong>: Sentence file to be checked with the example grammar.</li>
-				<li><strong><span style="font-family: Courier;">example_sentences_key.txt</span></strong>: Same set of example sentences, but marked for acceptability. &#8220;*&#8221; indicates unacceptability.</li>
-				<li><strong><span style="font-family: Courier;">example_output.txt</span></strong>: Formatted output file consistent with running the acceptability check/parse on the example sentence file above.</li>
-			</ul>
-			<h4>Submission Files</h4>
-			<ul>
-				<li><strong><span style="font-family: courier;">hw5.tar.gz</span></strong>: Tarball containing:
-					<ul>
-						<li><strong><span style="font-family: Courier;">hw5_parser.sh</span></strong>: Primary program file with language-appropriate extension.</li>
-						<li><strong><span style="font-family: Courier;">hw5_feature_grammar.fcfg</span></strong>: This file should contain the grammar rules with feature augmentations required to parse the acceptable sentences in the test set and reject the ungrammatical ones. The file should be consistent with the NLTK <span style="font-family: courier;">.fcfg</span> format.</li>
-						<li><strong><span style="font-family: Courier;">hw5_output.txt</span></strong>: The output file with the results of parsing each of the input sentences in sentences.txt with your <span style="font-family: Courier;">hw5_feature_grammar.fcfg</span>.</li>
-						<li> All scripts/source code or binaries called by <span style="font-family: Courier;">hw5_parser.sh</span>.</li>
-					</ul>
-				</li>
-				<li><strong><span style="font-family: Courier;">readme.{txt|pdf}</span></strong>: Write-up file
-					<ul>
-						<li>This file should describe and discuss your work on this assignment. Include problems you came across and how (or if) you were able to solve them, any insights, special features, and what you learned. Give examples if possible. If you were not able to complete parts of the project, discuss what you tried and/or what did not work. This will allow you to receive maximum credit for partial work.</li>
-					</ul>
-				</li>
-			</ul>
-			<h3>Handing in your work</h3>
-				<p>All homework should be handed in using the Canvas submission tools.</li>
-		</main>
+	<main role="main" class="container">
+		<p class="lead">This assignment is due <strong>Wednesday, November 1 at 11:59PM</strong>.</p>
+		<p><a name="top"></a></p>
 
 
+		<h2>Goals</h2>
+		<p>Through this assignment you will:</p>
+		<ul>
+			<li>Explore dependency grammars and dependency parsing.</li>
+			<li>Investigate transition-based parsing approaches in dependency parsing.</li>
+			<li>Gain familiarity with representations of dependency parses.</li>
+			<li>Implement the arc-standard oracle to identify and apply the correct transition sequence associated with
+				a gold-standard dependency parse.</li>
+		</ul>
+		<h2>Background</h2>
+		<p>Please review the <a href="slides/8_Dependency-Feature-based.pdf" target="_blank">class slides</a>, homework
+			slides, and <a href="https://web.stanford.edu/~jurafsky/slp3/18.pdf" target="_blank">readings in the
+				textbook</a> on dependency parsing
+			in general and transition-based parsing in particular.&nbsp;</p>
+		<p>Dependency parsing relies on a transition set which converts the current state of the parse - referred to as
+			a "configuration" - into a new state, until some terminal state is reached. &nbsp;The arc-standard paradigm
+			employs three transitions:</p>
+		<ul>
+			<li>SHIFT</li>
+			<li>(LEFTARC,&lt;label&gt;)</li>
+			<li>(RIGHTARC,&lt;label&gt;)</li>
+		</ul>
+		<p>where &lt;label&gt; is the dependency relation that holds between the head and dependent identified by the
+			transition.</p>
+		<p>The configuration consists of the <em>stack, buffer, and arcs</em> as discussed in class and in the readings.
+			&nbsp;It may be most straightforward to represent these as lists of different types, as in [0 1], [2,3,4],[]
+			for a stack with two elements (including ROOT), a buffer with three elements, and (here) an empty set of
+			arcs. &nbsp;The elements here refer to the words in the sentence by their indexes. &nbsp;Of course,
+			alternate data structures are possible as well.</p>
+		<p>You will need to implement a function that applies a specified transition to a given configuration, and have
+			code which implements the oracle which determines which transition should be applied to the current
+			configuration, while working through each sentence with its accompanying dependency parse.</p>
+		<h3>Oracle&nbsp;</h3>
+		<p>Create a program to implement the arc-standard oracle and apply it to a set of dependency-parsed sentences.
+			Specifically, your program should:</p>
+		<ul>
+			<li>Read in a set of dependency parses of sentences, in a simplified CONLL format.</li>
+			<li>For each dependency parse, you program should output:
+				<ul>
+					<li>to one file, the ordered sequence of transitions corresponding to the parse</li>
+					<li>to another file, the dependency arcs corresponding to the application of the above transitions
+						to the sentence.</li>
+				</ul>
+			</li>
+		</ul>
+		<p><strong>Note:</strong>&nbsp;You are only responsible for implementing the oracle. &nbsp;You do not need to
+			train a model based on the oracle transitions.</p>
+		<h4>Programming</h4>
+		<p>Create a program called hw5_oracle.sh which applies the arc-standard oracle to identify and apply the correct
+			sequence of transitions from the dependency parses provided &nbsp;invoked as:<br>hw5_oracle.sh
+			&lt;input_dependency_parse_filename&gt; &lt;output_dependency_filename&gt; &lt;output_sequence_filename&gt;
+			where,</p>
+		<ul>
+			<li>&lt;input_dependency_parse_filename&gt; is the name of the file holding the gold-standard dependency
+				parses which you will use to derive the transition sequence.</li>
+			<li>&lt;output_dependency_filename&gt; is the name of the file to write the resulting dependency arcs
+				created by applying the oracle transitions.</li>
+			<li>&lt;output_sequence_filename&gt; is the name of the file to write the resulting sequence of transitions
+				derived by the arc-standard oracle, which could be used in training a full dependency parser.</li>
+		</ul>
+		<h2>Files</h2>
+		<p>Please adhere to the naming conventions below:</p>
+		<h3>Example and Test Data Files</h3>
+		<p>All data and example files may be found in <strong>/dropbox/23-24/571/hw5/</strong>.</p>
+		<ul>
+			<li><strong>conll.simple</strong>: Set of English dependency parses from the CONLL 2007 shared task, in a
+				simplified four column format,<br>
+				<ul>
+					<li>&lt;index&gt;\t&lt;word&gt;\t&lt;depenendency_relation&gt;\t&lt;head_index&gt;</li>
+					<li><strong>ROOT</strong> corresponds to head_index 0</li>
+					<li>Blank lines separate parses</li>
+				</ul>
+			</li>
+			<li><strong>toy.dep</strong>: Toy set of dependency parses.</li>
+			<li><strong>toy.seq</strong>: Oracle sequence of transitions corresponding the dependency parses in
+				<strong>toy.dep</strong>.
+			</li>
+		</ul>
+		<h3>Submission Files</h3>
+		<ul>
+			<li><strong>hw.tar.gz</strong>: Tarball containing:
+				<ul>
+					<li><strong>hw5_oracle.sh</strong>: Primary program file with language-appropriate extension.</li>
+					<li><strong>hw5_dependencies_output.txt</strong>: This file should contain the dependency arcs
+						resulting from applying the oracle transitions. &nbsp;They should be in the simplified CONLL
+						format described above, and sorted by word index. &nbsp;Correct output should replicate the
+						original dependency parse.</li>
+					<li><strong>hw5_transitions_output.txt</strong>: The output file with the sequence of transitions
+						derived from the original dependency parses, using the arc-standard transition inventory, given
+						above.</li>
+				</ul>
+			</li>
+			<li><strong>readme.{txt|pdf}</strong>: Write-up file
+				<ul>
+					<li>This file should describe and discuss your work on this assignment. Include problems you came
+						across and how (or if) you were able to solve them, any insights, special features, and what you
+						learned. Give examples if possible. If you were not able to complete parts of the project,
+						discuss what you tried and/or what did not work. This will allow you to receive maximum credit
+						for partial work.</li>
+				</ul>
+			</li>
+		</ul>
+		<h2>Handing in your work</h2>
+		<p>All homework should be handed in using the Canvas submission tools.</p>
+	</main>
 
-		<!-- Bootstrap core JavaScript
+
+
+	<!-- Bootstrap core JavaScript
 	  ================================================== -->
-	  <!-- Placed at the end of the document so the pages load faster -->
-	  <script src="vendor/jquery/jquery.min.js"></script>
-	  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-		<!-- Goatcounter analytics -->
-		<script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	<!-- Goatcounter analytics -->
+	<script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-	</body>
+</body>
+
 </html>
