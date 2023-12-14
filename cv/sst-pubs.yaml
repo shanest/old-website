@@ -1054,6 +1054,60 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13234
   volume: '47'
 
+- id: reymondMSCANDatasetMultilingual2023
+  abstract: >-
+    Language models achieve remarkable results on a variety of tasks, yet still
+    struggle on compositional generalisation benchmarks. The majority of these
+    benchmarks evaluate performance in English only, leaving us with the
+    question of whether these results generalise to other languages. As an
+    initial step to answering this question, we introduce mSCAN, a multilingual
+    adaptation of the SCAN dataset. It was produced by a rule-based translation,
+    developed in cooperation with native speakers. We then showcase this novel
+    dataset on some in-context learning experiments, and GPT3.5 and the
+    multilingual large language model BLOOM
+  accessed:
+    - year: 2023
+      month: 12
+      day: 14
+  author:
+    - family: Reymond
+      given: Amélie
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: reymondMSCANDatasetMultilingual2023
+  container-title: >-
+    Proceedings of the 1st GenBench Workshop on (Benchmarking) Generalisation in
+    NLP
+  editor:
+    - family: Hupkes
+      given: Dieuwke
+    - family: Dankers
+      given: Verna
+    - family: Batsuren
+      given: Khuyagbaatar
+    - family: Sinha
+      given: Koustuv
+    - family: Kazemnejad
+      given: Amirhossein
+    - family: Christodoulopoulos
+      given: Christos
+    - family: Cotterell
+      given: Ryan
+    - family: Bruni
+      given: Elia
+  event-place: Singapore
+  issued:
+    - year: 2023
+      month: 12
+  page: 143–151
+  publisher: Association for Computational Linguistics
+  publisher-place: Singapore
+  source: ACLWeb
+  title: 'mSCAN: A Dataset for Multilingual Compositional Generalisation Evaluation'
+  title-short: mSCAN
+  type: paper-conference
+  URL: https://aclanthology.org/2023.genbench-1.11
+
 - id: schlenkerAnthropocentrismComparativeCognition2022
   accessed:
     - year: 2022
@@ -1945,6 +1999,113 @@ references:
   type: article-journal
   URL: https://escholarship.org/uc/item/1vm445rp
   volume: '43'
+
+- id: wangEvaluatingTransformerAbility2023
+  abstract: >-
+    Despite the fact that Transformers perform well in NLP tasks, recent studies
+    suggest that self-attention is theoretically limited in learning even some
+    regular and context-free languages. These findings motivated us to think
+    about their implications in modeling natural language, which is hypothesized
+    to be mildly context-sensitive. We test the Transformer's ability to learn
+    mildly context-sensitive languages of varying complexities, and find that
+    they generalize well to unseen in-distribution data, but their ability to
+    extrapolate to longer strings is worse than that of LSTMs. Our analyses show
+    that the learned self-attention patterns and representations modeled
+    dependency relations and demonstrated counting behavior, which may have
+    helped the models solve the languages.
+  accessed:
+    - year: 2023
+      month: 12
+      day: 14
+  author:
+    - family: Wang
+      given: Shunjie
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: wangEvaluatingTransformerAbility2023
+  container-title: >-
+    Proceedings of the 6th BlackboxNLP Workshop: Analyzing and Interpreting
+    Neural Networks for NLP
+  editor:
+    - family: Belinkov
+      given: Yonatan
+    - family: Hao
+      given: Sophie
+    - family: Jumelet
+      given: Jaap
+    - family: Kim
+      given: Najoung
+    - family: McCarthy
+      given: Arya
+    - family: Mohebbi
+      given: Hosein
+  event-place: Singapore
+  issued:
+    - year: 2023
+      month: 12
+  page: 271–283
+  publisher: Association for Computational Linguistics
+  publisher-place: Singapore
+  source: ACLWeb
+  title: Evaluating Transformer's Ability to Learn Mildly Context-Sensitive Languages
+  type: paper-conference
+  URL: https://aclanthology.org/2023.blackboxnlp-1.21
+
+- id: wangGQGGeneralizedQuantifier2023
+  abstract: >-
+    We present a new dataset consisting of various quantifier expressions to
+    evaluate the generalization abilities of language models. The dataset
+    contains 18,360 prompts encompassing diverse quantifiers, forming the basis
+    of a new framework for assessing semantic understanding in this domain. We
+    test the effectiveness of our dataset using Pythia models, ranging from 410
+    million to 6.9 billion, showing that quantifier-based tasks can be
+    challenging for current language models. We make our code and data publicly
+    available, such that the dataset can be easily extended or updated based on
+    different evaluation needs.
+  accessed:
+    - year: 2023
+      month: 12
+      day: 14
+  author:
+    - family: Wang
+      given: Leroy Zhifei
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: wangGQGGeneralizedQuantifier2023
+  container-title: >-
+    Proceedings of the 1st GenBench Workshop on (Benchmarking) Generalisation in
+    NLP
+  editor:
+    - family: Hupkes
+      given: Dieuwke
+    - family: Dankers
+      given: Verna
+    - family: Batsuren
+      given: Khuyagbaatar
+    - family: Sinha
+      given: Koustuv
+    - family: Kazemnejad
+      given: Amirhossein
+    - family: Christodoulopoulos
+      given: Christos
+    - family: Cotterell
+      given: Ryan
+    - family: Bruni
+      given: Elia
+  event-place: Singapore
+  issued:
+    - year: 2023
+      month: 12
+  page: 185–192
+  publisher: Association for Computational Linguistics
+  publisher-place: Singapore
+  source: ACLWeb
+  title: >-
+    GQG: Generalized Quantifier Generalization - A Dataset for Evaluating
+    Quantifier Semantics Understanding in Language Models
+  title-short: GQG
+  type: paper-conference
+  URL: https://aclanthology.org/2023.genbench-1.15
 
 - id: yiProbingUnderstandingEnglish2022
   abstract: >-

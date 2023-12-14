@@ -214,6 +214,15 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 @downeyLearningTranslateLearning2023
 
 `2023`
+@wangEvaluatingTransformerAbility2023
+
+`2023`
+@reymondMSCANDatasetMultilingual2023
+
+`2023`
+@wangGQGGeneralizedQuantifier2023
+
+`2023`
 @shapiroIconicArtificialLanguage2023
 
 - Contribution: 40% (conceptualization, methodology, writing --- review and editing, supervision, funding acquisition)
