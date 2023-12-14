@@ -36,21 +36,6 @@ references:
   type: paper-conference
   URL: https://openreview.net/forum?id=D3U5fpVsZIN
 
-- id: Carcassi2021
-  author:
-    - family: Carcassi
-      given: Fausto
-    - family: Steinert-Threlkeld
-      given: Shane
-    - family: Szymanik
-      given: Jakub
-  citation-key: Carcassi2021
-  container-title: Cognitive Science
-  issued:
-    - year: 2021
-  title: Monotone Quantifiers Emerge via Iterated Learning
-  type: article-journal
-
 - id: carcassiEmergenceMonotoneQuantifiers2019
   author:
     - family: Carcassi
@@ -100,6 +85,46 @@ references:
   issued:
     - year: 2021
   language: en
+  page: e13027
+  source: Wiley Online Library
+  title: Monotone Quantifiers Emerge via Iterated Learning
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13027
+  volume: '45'
+
+- id: carcassiMonotoneQuantifiersEmerge2021b
+  abstract: >-
+    Natural languages exhibit many semantic universals, that is, properties of
+    meaning shared across all languages. In this paper, we develop an
+    explanation of one very prominent semantic universal, the monotonicity
+    universal. While the existing work has shown that quantifiers satisfying the
+    monotonicity universal are easier to learn, we provide a more complete
+    explanation by considering the emergence of quantifiers from the perspective
+    of cultural evolution. In particular, we show that quantifiers satisfy the
+    monotonicity universal evolve reliably in an iterated learning paradigm with
+    neural networks as agents.
+  accessed:
+    - year: 2023
+      month: 10
+      day: 5
+  author:
+    - family: Carcassi
+      given: Fausto
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Szymanik
+      given: Jakub
+  citation-key: carcassiMonotoneQuantifiersEmerge2021b
+  container-title: Cognitive Science
+  DOI: 10.1111/cogs.13027
+  ISSN: 1551-6709
+  issue: '8'
+  issued:
+    - year: 2021
+  language: en
+  license: >-
+    © 2021 The Authors. Cognitive Science published by Wiley Periodicals LLC on
+    behalf of Cognitive Science Society (CSS).
   page: e13027
   source: Wiley Online Library
   title: Monotone Quantifiers Emerge via Iterated Learning
@@ -185,6 +210,75 @@ references:
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13142
   volume: '46'
+
+- id: downeyEmbeddingStructureMatters2023
+  accessed:
+    - year: 2023
+      month: 12
+      day: 5
+  author:
+    - family: Downey
+      given: C.m.
+    - family: Blevins
+      given: Terra
+    - family: Goldfine
+      given: Nora
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: downeyEmbeddingStructureMatters2023
+  container-title: >-
+    Proceedings of the 3rd Workshop on Multi-lingual Representation Learning
+    (MRL)
+  editor:
+    - family: Ataman
+      given: Duygu
+  event-place: Singapore
+  issued:
+    - year: 2023
+      month: 12
+  page: 268–281
+  publisher: Association for Computational Linguistics
+  publisher-place: Singapore
+  source: ACLWeb
+  title: >-
+    Embedding Structure Matters: Comparing Methods to Adapt Multilingual
+    Vocabularies to New Languages
+  title-short: Embedding Structure Matters
+  type: paper-conference
+  URL: https://aclanthology.org/2023.mrl-1.20
+
+- id: downeyLearningTranslateLearning2023
+  accessed:
+    - year: 2023
+      month: 12
+      day: 5
+  author:
+    - family: Downey
+      given: C.m.
+    - family: Zhou
+      given: Xuhui
+    - family: Liu
+      given: Zeyu
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: downeyLearningTranslateLearning2023
+  container-title: >-
+    Proceedings of the 3rd Workshop on Multi-lingual Representation Learning
+    (MRL)
+  editor:
+    - family: Ataman
+      given: Duygu
+  event-place: Singapore
+  issued:
+    - year: 2023
+      month: 12
+  page: 218–238
+  publisher: Association for Computational Linguistics
+  publisher-place: Singapore
+  source: ACLWeb
+  title: Learning to translate by learning to communicate
+  type: paper-conference
+  URL: https://aclanthology.org/2023.mrl-1.17
 
 - id: downeyLearningTranslateLearningsubmitted
   abstract: >-
@@ -1032,7 +1126,7 @@ references:
       day: 27
   author:
     - family: Shapiro
-      given: Naomi
+      given: Naomi Tachikawa
     - family: Paullada
       given: Amandalynne
     - family: Steinert-Threlkeld

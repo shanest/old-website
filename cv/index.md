@@ -206,6 +206,14 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
 
 `2023`
+@downeyEmbeddingStructureMatters2023
+
+- **best paper award**
+
+`2023`
+@downeyLearningTranslateLearning2023
+
+`2023`
 @shapiroIconicArtificialLanguage2023
 
 - Contribution: 40% (conceptualization, methodology, writing --- review and editing, supervision, funding acquisition)
