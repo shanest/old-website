@@ -104,6 +104,9 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 ### Journals
 
+`2024`
+@ogiharaLimitationsModalAnalysis2024
+
 `2023`
 @steinert-threlkeldSemanticUniversalModality2023
 
@@ -373,12 +376,6 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `submitted`
 @jiangWeightedMobiusScoresubmitted
 
-`submitted`
-@downeyLearningTranslateLearningsubmitted
-
-`submitted`
-@ogiharaLimitationsModalAnalysissubmitted
-
 `under contract`
 @steinert-threlkeldComputationalExplanationsSemanticinprep
 
@@ -389,10 +386,23 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 #### TBD
 
-`Fall 2023`
+`03/11/2024`
+Edinburgh Center for Language Evolution
+
+#### Unnatural Language Semantics 
+
+`12/08/2023`
 UMass Amherst Linguistics Colloquium
 
-`July 2023`
+`09/29/2023`
+Ohio State Linguistics Colloquium
+
+#### Degrees of Monotonicity
+
+`10/18/2023`
+Computational approaches to language typology and evolution
+
+`08/04/2023`
 Internal and external pressures shaping language
 
 

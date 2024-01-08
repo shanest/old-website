@@ -760,18 +760,50 @@ references:
   type: article-journal
   volume: '26'
 
-- id: ogiharaLimitationsModalAnalysissubmitted
+- id: ogiharaLimitationsModalAnalysis2024
+  abstract: >-
+    This article takes a critical view of Beaver &amp; Condoravdi’s (2003) modal
+    analysis of before and after. According to their proposal, the clause headed
+    by before or after denotes the earliest possible time at which it is true.
+    We first show that the original proposal presented by Beaver &amp;
+    Condoravdi (2003) faces difficulty with anti-veridical before-clause cases.
+    We then incorporate eventualities (events and states) into a revamped
+    proposal in which the existence of an eventuality that could lead to a
+    before-clause eventuality and that parallels a very similar eventuality in
+    the actual world is used as a criterion for selecting the set of alternative
+    worlds. This allows the alternative worlds to differ from the actual one at
+    a time earlier than the matrix clause predication time. However, this
+    revision still suffers from counterexamples that involve before clauses that
+    refer back to a time before the matrix clause eventuality. This discussion
+    leaves room for the possibility that an extensional account might offer a
+    better analysis.
+
+    EARLY ACCESS
+  accessed:
+    - year: 2024
+      month: 1
+      day: 8
   author:
     - family: Ogihara
       given: Toshiyuki
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: ogiharaLimitationsModalAnalysissubmitted
-  container-title: Semantics & Pragmatics
+  citation-key: ogiharaLimitationsModalAnalysis2024
+  container-title: Semantics and Pragmatics
+  DOI: 10.3765/sp.17.1
+  ISSN: 1937-8912
   issued:
-    - literal: submitted
-  title: Limitations of a Modal Analysis of `Before'
+    - year: 2024
+      month: 1
+      day: 5
+  language: en
+  license: Copyright (c) 2024 Toshiyuki Ogihara, Shane Steinert-Threlkeld
+  page: 1:EA-1:EA
+  source: semprag.org
+  title: Limitations of a modal analysis of *before* and *after*
   type: article-journal
+  URL: https://semprag.org/index.php/sp/article/view/sp.17.1
+  volume: '17'
 
 - id: osullivanNeuralModelsPsychosemantics2019
   abstract: >-
