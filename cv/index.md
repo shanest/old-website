@@ -23,7 +23,7 @@ Computational Linguist and Cognitive Scientist
 </div>
 
 <div id="date">
-Last modified: 05/24/23
+Last modified: 02/12/24
 </div>
 
 
