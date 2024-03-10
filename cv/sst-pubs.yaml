@@ -792,13 +792,11 @@ references:
   container-title: Semantics and Pragmatics
   DOI: 10.3765/sp.17.1
   ISSN: 1937-8912
+  issue: '1'
   issued:
     - year: 2024
-      month: 1
-      day: 5
   language: en
   license: Copyright (c) 2024 Toshiyuki Ogihara, Shane Steinert-Threlkeld
-  page: 1:EA-1:EA
   source: semprag.org
   title: Limitations of a modal analysis of *before* and *after*
   type: article-journal
@@ -1174,6 +1172,68 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13220
   volume: '46'
 
+- id: schlenkerMinimalCompositionalityBird2024
+  abstract: >-
+    It was argued in a series of experimental studies that Japanese tits (Parus
+    minor) have an ABC call that has an alert function, a D call that has a
+    recruitment function, and an ABC-D call that is compositionally derived from
+    ABC and D, and has a mobbing function. A key conclusion was that ABC-D
+    differs from the combination of separate utterances of ABC and of D (e.g. as
+    played by distinct but close loudspeakers). While the logic of the argument
+    is arguably sound, no explicit rule has been proposed to derive the meaning
+    of ABC-D from that of its parts. We compare two analyses. One posits a
+    limited instance of semantic compositionality ('Minimal Compositionality');
+    the other does without compositionality, but with a more sophisticated
+    pragmatics ('Bird Implicatures'). Minimal Compositionality takes the
+    composition of ABC and D to deviate only minimally from what would be found
+    with two independent utterances: ABC means that 'there is something that
+    licenses an alert', D means that 'there is something that licenses
+    recruitment', and ABC-D means that 'there is something that licenses both an
+    alert and recruitment'. By contrast, ABC and D as independent utterances
+    yield something weaker, namely: 'there is something that licenses an alert,
+    and there is something that licenses recruitment', without any 'binding'
+    across the two utterances. The second theory, Bird Implicatures, only
+    requires that ABC-D should be more informative than ABC, and/or than D. It
+    builds on the idea, proposed for several monkey species, that a less
+    informative call competes with a more informative one (‘Informativity
+    Principle’): when produced alone, ABC and D trigger an inference that ABC-D
+    is false. We explain how both Minimal Compositionality and Bird Implicatures
+    could have evolved, and we compare the predictions of the two theories.
+    Finally, we extend the discussion to some chimpanzee and meerkat sequences
+    that might raise related theoretical problems.
+  accessed:
+    - year: 2024
+      month: 2
+      day: 26
+  author:
+    - family: Schlenker
+      given: Philippe
+    - family: Salis
+      given: Ambre
+    - family: Leroux
+      given: Maël
+    - family: Coye
+      given: Camille
+    - family: Rizzi
+      given: Luigi
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Chemla
+      given: Emmanuel
+  citation-key: schlenkerMinimalCompositionalityBird2024
+  container-title: Biological Reviews
+  DOI: 10.1111/brv.13068
+  issued:
+    - year: 2024
+  note: 'LingBuzz Published In: To appear in Biological Reviews'
+  source: LingBuzz
+  title: >-
+    Minimal Compositionality versus Bird Implicatures:  Two Theories of ABC-D
+    Sequences in Japanese Tits
+  title-short: Minimal Compositionality versus Bird Implicatures
+  type: article-journal
+  URL: https://ling.auf.net/lingbuzz/007422
+
 - id: shapiroIconicArtificialLanguage2023
   author:
     - family: Shapiro
@@ -1187,6 +1247,20 @@ references:
   title: >-
     Iconic Artificial Language Learning: A Conceptual Replication with English
     Speakers
+  type: paper-conference
+
+- id: shapiroIconicArtificialLanguagesubmitted
+  author:
+    - family: Shapiro
+      given: Naomi Tachikawa
+    - family: Hedding
+      given: Andrew
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: shapiroIconicArtificialLanguagesubmitted
+  issued:
+    - literal: submitted
+  title: Iconic artificial language learning in the field
   type: paper-conference
 
 - id: shapiroMultilabelApproachMorphosyntactic2021

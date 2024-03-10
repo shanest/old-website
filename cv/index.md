@@ -23,7 +23,7 @@ Computational Linguist and Cognitive Scientist
 </div>
 
 <div id="date">
-Last modified: 02/12/24
+Last modified: 02/26/24
 </div>
 
 
@@ -103,6 +103,9 @@ __Hodson Trust Scholar__
 Contribution: as required, for each non-single-authored publication, an esimate of my percentage contribution is included.  In addition, in parentheses, I have included the roles that I played in the publication, according to the [Contributor Role Taxonomy (CRediT)](https://doi.org/10.1002/leap.1210) system.
 
 ### Journals
+
+`2024`
+@schlenkerMinimalCompositionalityBird2024
 
 `2024`
 @ogiharaLimitationsModalAnalysis2024
@@ -376,6 +379,9 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 `submitted`
 @jiangWeightedMobiusScoresubmitted
 
+`submitted`
+@shapiroIconicArtificialLanguagesubmitted
+
 `under contract`
 @steinert-threlkeldComputationalExplanationsSemanticinprep
 
@@ -385,6 +391,9 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 ### Invited
 
 #### TBD
+
+`04/18/2024`
+University of Toronto Computational Linguistics Colloquium
 
 `03/11/2024`
 Edinburgh Center for Language Evolution
@@ -564,6 +573,10 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 
 ### Refereed
+
+#### Deontic priority: converging evidence for a semantic universal in the modal domain
+`01/26/2024`
+North East Linguistics Society (NELS 52); with Wataru Uegaki, Anne Mucha, Nathaniel Imel
 
 #### Iconic Artificial Language Learning
 `07/xx/2023`
@@ -750,9 +763,10 @@ Quantification and Computation (with Jakub Szymanik): ESSLLI 2014
 
 __Primary Advisor__
 
-- Naomi Tachikawa Shapiro
-- C.M. Downey (co-advisor: Gina-Anne Levow)
+- Naomi Tachikawa Shapiro (now: postdoc at Radbound University, Nijmegen)
+- C.M. Downey (co-advisor: Gina-Anne Levow; Fall '24: Assistant Professor in Linguistics and Data Science, University of Rochester)
 - Cassandra Maz
+- Christopher Haberland
 
 
 __Committee Member__
@@ -764,8 +778,6 @@ __Committee Member__
 
 __Graduate Student Representative (external member)__
 
-- Julian Michael (computer science)
-- Jungo Kasai (computer science)
 - Ofir Press (computer science)
 - Suchin Gururangan (computer science)
 - Saadia Gabriel (computer science)
@@ -773,6 +785,7 @@ __Graduate Student Representative (external member)__
 - Bo-Ru (Roy) Lu (electrical and computer engineering)
 - Bhargavi Paranjape (computer science)
 - Sewon Min (computer science)
+- Yizhong Wang (computer science)
 
 
 ### MS theses 
@@ -841,6 +854,7 @@ Association for Computational Linguistics (ACL); Empirical Methods in Natural La
 
 - ESSLLI 2023: Language and Computation
 - CoNLL 2023: Lexical, Compositional and Discourse Semantics
+- NAACL 2024: Analysis and interpretability
 
 ### Mentorship
 
