@@ -1,1 +1,0 @@
-[VP [MD would] [VP [VB have] [S [NP-SBJ [-NONE- *-I] [VP [TO to] [VP [VB wait] [SBAR-TMP [IN until]] [NP-SBJ [PRP we]] [VP [VBN collected] [PP-CLR [IN on] [NP [DT those] [NNS assets]]]]]]]]]]
