@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UW LING 575 Compositionality and Generalization</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        section {
+            padding: 150px 0;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Compositionality and Generalization (UW LING 575, Spring '24)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#information">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#policies">Policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reading">Reading List</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Course Description</h2>
+                    <p class="lead">
+                        Compositionality---the fact that the meaning of complex expressions is built up from the
+                        meanings of the parts and the structure of the complex---has been argued to be a unique feature
+                        of human language, explaining our ability to systematically and productively produce and
+                        understand novel utterances. At the same time, this property has played a pivotal role in
+                        debates about cognitive architecture and artificial intelligence, with many arguing that
+                        standard neural models are fundamentally incapable of the requisite kind of systematic behavior.
+                        In this seminar, we will digest a wide range of literature starting with philosophical,
+                        linguistic, and cognitive foundations around compositionality, before looking at case studies in
+                        nonhuman animals and finally a wide range of recent literature on compositionality in modern
+                        language models. Topics include how to measure and detect compositionality, whether natural
+                        language and animal communication systems are compositional, how to build neural architectures
+                        that exhibit compositionality, compositionality versus generalization more generally, and data
+                        augmentation and meta-learning approaches. This will be an active research seminar, where
+                        students will work in small groups to execute a prototype research project on a topic of their
+                        choosing in consultation with the instructor as well as guide discussions of chosen readings.
+                    </p>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mondays</td>
+                                <td>3:30 - 5:50 PM</td>
+                                <td>
+                                    <a href="http://maps.google.com/maps?q=47.6584230003,-122.308888+(DEN)&z=18">DEN</a>
+                                    258
+                                    <br />
+                                    <a
+                                        href="https://washington.zoom.us/j/92812102564">https://washington.zoom.us/j/92812102564</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Note: while lectures will be delivered live at the above time and location, they will also be
+                        recorded and posted to the course Canvas page.</p>
+
+                    <h2 class="pt-2">Teaching Staff</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Role</th>
+                                <th>Name</th>
+                                <th>Office</th>
+                                <th>Office Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Instructor</td>
+                                <td>
+                                    <a href="https://shane.st" target="_blank">Shane Steinert-Threlkeld</a>
+                                </td>
+                                <td>
+                                    GUG 415K and
+                                    <br />
+                                    <a href="https://washington.zoom.us/my/shanest"
+                                        target="_blank">https://washington.zoom.us/my/shanest</a>
+                                </td>
+                                <td>Wednesday 3-5PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h2 class="pt-2">Preferred Prerequisites</h2>
+                    <ul>
+                        <li>LING 571</li>
+                        <li>LING 578</li>
+                        <li>LING 574 helpful</li>
+                    </ul>
+
+                    <h2 class="pt-2">Course Resources</h2>
+
+                    <ul>
+                        <li><a href="https://canvas.uw.edu/courses/1720019" target="_blank">Canvas</a>: lecture
+                            recordings, discussion board, homework submission / grading</li>
+                        <li><a href="https://vervet.ling.washington.edu/db/accountrequest-form.php"
+                                target="_blank">Patas Account Request</a></li>
+                        <li><a href="https://www.shane.st/teaching/571/aut23/computing-resources.pdf"
+                                target="_blank">Computing Resources
+                                Orientation</a></li>
+                        <li><a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/CondorClusterHomepage"
+                                target="_blank">Condor Wiki Pages</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="policies" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h1>Policies</h1>
+                    <p class="lead">As a project-oriented, student-driven, seminar-style class, active
+                        participation---in the classroom, or in Zoom, as well as on Canvas---is expected.</p>
+                    <p>All student work will be carried out in small groups. Groups are free to divide up work as they
+                        see fit, but will be required to explain the division of labor with their final project. Except
+                        under rare circumstances, every member of a group will receive the same grades.</p>
+
+                    <p>We understand that you may face hard times as we navigate an ever-changing world due to the
+                        COVID-19 pandemic and many other world events. If you find yourself struggling with a difficult
+                        concept; stressed over politics or health; slowed by monopolistic internet providers; or annoyed
+                        at a classmate, please remember that they might feel similar. Maybe not in your very moment, but
+                        certainly recently or soon. Some of you may find the return to hybrid teaching conducive to your
+                        style of learning and personality. Others may find it stressful or difficult. These are all
+                        normal reactions. Please have compassion and empathy, and assume that everyone is doing their
+                        best.</p>
+
+                    <p>If you find yourself having trouble learning in class, please do not hesitate to let me know. My
+                        goal is to make this class a bright spot in these unprecedented times, and to do whatever we can
+                        to promote a healthy learning environment for all.</p>
+
+                    <h2 class="pt-2">A note on time zones</h2>
+                    <p>All deadlines and meeting times for this class are in "Pacific Time". Now that we are in Daylight
+                        Savings Time, this is UTC-7.</p>
+
+                    <h2 class="pt-2">Grading</h2>
+                    <ul>
+                        <li></li>
+                    </ul>
+
+                    <h2 class="pt-2">Communication</h2>
+						<p>Any questions concerning course content and logistics should be posted on the Canvas discussion board.  If a more personal issue arises, you can email me personally; include &quot;LING575&quot; in the subject line.  You can expect responses from teaching staff within 24 hours, but only during normal business hours, and excluding weekends.</p>
+
+                    <h2 class="pt-2">Religious Accommodation</h2>
+                    <p>Washington state law requires that UW develop a policy for accommodation of student absences or
+                        significant hardship due to reasons of faith or conscience, or for organized religious
+                        activities. The UW's policy, including more information about how to request an accommodation,
+                        is available at <a
+                            href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/"
+                            target="_blank">Religious Accommodations Policy
+                            (https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/)</a>.
+                        Accommodations must be requested within the first two weeks of this course using the <a
+                            href="https://registrar.washington.edu/students/religious-accommodations-request/"
+                            target="_blank">Religious Accommodations Request form
+                            (https://registrar.washington.edu/students/religious-accommodations-request/)</a>.</p>
+
+                    <h2 class="pt-2">Access and Accommodations</h2>
+                    <p>Your experience in this class is important to me. If you have already established accommodations
+                        with Disability Resources for Students (DRS), please communicate your approved accommodations to
+                        me at your earliest convenience so we can discuss your needs in this course.</p>
+                    <p>If you have not yet established services through DRS, but have a temporary health condition or
+                        permanent disability that requires accommodations (conditions include but not limited to; mental
+                        health, attention-related, learning, vision, hearing, physical or health impacts), you are
+                        welcome to contact DRS at 206-543-8924 or uwdrs@uw.edu or disability.uw.edu. DRS offers
+                        resources and coordinates reasonable accommodations for students with disabilities and/or
+                        temporary health conditions. Reasonable accommodations are established through an interactive
+                        process between you, your instructor(s) and DRS. It is the policy and practice of the University
+                        of Washington to create inclusive and accessible learning environments consistent with federal
+                        and state law.</p>
+
+                    <h2 class="pt-2">Safety</h2>
+                    <p>Call SafeCampus at 206-685-7233 anytime---no matter where you work or study---to anonymously
+                        discuss safety and well-being concerns for yourself or others. SafeCampus's team of caring
+                        professionals will provide individualized support, while discussing short- and long-term
+                        solutions and connecting you with additional resources when requested.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+
+                    <h2>Schedule</h2>
+
+                    <br />
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="10%">Date</th>
+                                <th>Topics</th>
+                                <th width="25%">Primary Readings</th>
+                                <th width="20%">Secondary Readings</th>
+                                <th width="20%">Additional info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mar 25</td>
+                                <td>
+                                    Introduction
+                                    <br />
+                                    Definitions + Arguments
+                                </td>
+                                <td>
+                                    Pagin and Westerståhl 2010a (Sections 1 and 2)
+                                    <br />
+                                    Pagin and Westerståhl 2010b
+                                </td>
+                                <td>
+                                    Fodor and Pylyshyn 1988
+                                    <br />
+                                    Szabo 2022
+                                </td>
+                                <td>
+                                    HW1: Group formation (out)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 1</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    HW1 due
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 8</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    Proposal guidelines out
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 15</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 22</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    Proposal due
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 29</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 6</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 13</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 20</td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    Final paper guidelines out
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 27</td>
+                                <td colspan="4" align="center">
+                                    No Class (Memorial Day)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="reading" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Reading List</h2>
+                    <p class="lead">This is a BLAH BLAH BLAH. To find even more literature, I recommend:</p>
+                    <ul>
+                        <li>The references in these papers</li>
+                        <li>Search terms in Google Scholar/SemanticScholar: </li>
+                    </ul>
+                        to see everything.</p>
+                    <script src="https://bibbase.org/show?bib=https://www.shane.st/teaching/575/spr24/575_Compositionality.bib&jsonp=1&theme=dividers"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Goatcounter analytics -->
+    <script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

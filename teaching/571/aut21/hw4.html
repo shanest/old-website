@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+		<title>UW LING 571: HW4 (Fall 2021)</title>
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/navbar-top-fixed.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '21]</a>
+				<a class="navbar-brand ml-auto" href="#">Homework 4</a>
+				<!--
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item active">
+	    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	    </li>
+	    <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	    </li>
+	    </ul>
+	    </div>
+				-->
+			</div>
+		</nav>
+
+		<main role="main" class="container">
+			<p class="lead">This assignment is due <strong>Wednesday, November 3 at 11:59PM</strong>.</p>
+			<p><a name="top"></a></p>
+			<ol start="0">
+				<li><a href="#goals">Goals</a></li>
+				<li><a href="#inducing">Inducing a Probabilistic Context-Free Grammar</a></li>
+				<li><a href="#pcky">Converting from CKY to P(robabilistic)CKY</a></li>
+				<li><a href="#eval">Evaluating the Parser</a></li>
+				<li><a href="#improving">Improving the Parser</a></li>
+				<li><a href="#files">Files</a></li>
+				<li><a href="#handing-in">Handing in Your Work</a></li>
+			</ol>
+			<h2><a name="goals"></a>0. Goals</h2>
+			<p>Through this assignment you will:</p>
+			<ul>
+				<li>Explore issues in probabilistic parser design for natural language processing.</li>
+				<li>Learn how to extract rule probabilities and explore parser evaluation.</li>
+				<li>Improve your understanding of the probabilistic CKY algorithm through implementation.</li>
+				<li>Investigate the tradeoffs in probabilistic parser design in terms of speed and accuracy.</li>
+			</ul>
+			<p><em><strong>NOTE:</strong> You may work in teams of two (2) on this assignment. If you do so:</em></p>
+			<ul>
+				<li>Please include a brief discussion of each teammate&#8217;s contribution in the readme.</li>
+			</ul>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2>Background</h2>
+			<p>Please review the class slides and readings in the textbook on the probabilistic Cocke-Kasami-Younger algorithm, optimization, and evaluation.</p>
+			<h2><a name="inducing"></a>1. Inducing a Probabilistic Context-free Grammar</h2>
+			<p>Based on the material in the lectures and text, implement a procedure that takes a set of context-free grammar parses of sentences (a small treebank) and induces a probabilistic context-free grammar from them.</p>
+			<p>Your algorithm must create a grammar of the form:</p>
+			<p><span style="font-family: courier;">A -&gt; B C [0.38725]</span></p>
+			<p>All productions must have an associated probability.</p>
+			<p>Specifically, the program should:</p>
+			<ul>
+				<li>Read in a set of parsed sentences (a mini-treebank) from a file</li>
+				<li>Identify productions and estimate their probabilities</li>
+				<li>Print out the induced PCFG with production of the form above.</li>
+			</ul>
+			<h3>1.1 Programming</h3>
+			<p>Create a program named <span style="font-family: courier;">hw4_topcfg.sh</span> to perform PCFG induction invoked as:</p>
+			<p><span style="font-family: courier;">hw4_topcfg.sh &lt;treebank_filename&gt; &lt;output_PCFG_file&gt;</span></p>
+			<p>where:</p>
+			<ul>
+				<li><span style="font-family: courier;">&lt;treebank_filename&gt;</span> is the name of the file holding the parsed sentences, one parse per line, in Chomsky Normal Form.</li>
+				<li><span style="font-family: courier;">&lt;output_PCFG_file&gt;</span> is the name of the file where the induced grammar should be written.</li>
+			</ul>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2><a name="pcky"></a>2. Converting from CKY to Probabilistic CKY</h2>
+			<p>Implement a probabilistic version of the CKY parsing algorithm. Given a probabilistic context-free grammar and an input string, the algorithm should return the highest probability parse tree for that input string.</p>
+			<p>You should follow the approach outlined in the textbook and course notes. You may adapt the CKY implementation that you created for HW#3.</p>
+			<p>Specifically, your program should:</p>
+			<ul>
+				<li>Read in a PCFG in NLTK format as generated above</li>
+				<li>Read in a set of sentences to parse</li>
+				<li>For each sentence:
+					<ul>
+						<li>Parse the sentences using a PCKY algorithm that you implement</li>
+						<li>Print the highest scoring parse to a file, on a single line</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>2.1 Programming</h3>
+			<p>Create a program named hw4_parser.sh to perform PCKY parsing, invoked as:</p>
+			<p><span style="font-family: courier;">hw4_parser.sh &lt;input_PCFG_file&gt; &lt;test_sentence_filename&gt; &lt;output_parse_filename&gt;</span>, where:</p>
+			<ul>
+				<li><span style="font-family: courier;">&lt;input_PCFG_file&gt;</span> is the name of the file holding the induced PCFG grammar to be read.</li>
+				<li><span style="font-family: courier;">&lt;test_sentence_filename&gt;</span> is the name of the file holding the test sentences to be parsed.</li>
+				<li><span style="font-family: courier;">&lt;output_parse_filename&gt;</span> is the name of the file to which the best parse for each sentence will be written. Each parse should appear on only one line, and there should be one line per sentence in the output file. In other words, output a blank line if the sentence does not parse.</li>
+			</ul>
+			<p><em><strong>Note:</strong> The test sentences may include words not seen in training; this happens in real life. In a baseline system, these may fail to parse.</em></p>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2><a name="eval"></a>3. Evaluating the PCKY Parser</h2>
+			<p>Use the <strong><span style="font-family: courier;">evalb</span></strong> program to evaluate your parser.</p>
+			<p>The executable may be found in <span style="font-family: courier;">/dropbox/21-22/571/hw4/tools/ </span>along with the required parameter file. It should be run as:</p>
+			<p><span style="font-family: courier;">$dir/evalb -p $dir/COLLINS.prm &lt;gold_standard_parse_file&gt; &lt;hypothesis_parse_file&gt;</span></p>
+			<p>where</p>
+			<ul>
+				<li><span style="font-family: courier;">$dir</span> is the directory where the program resides</li>
+				<li><span style="font-family: courier;">&lt;gold_standard_parse_file&gt;</span> is the name of the file containing the gold standard parses for the sentences to be evaluated against. The file has one parse per line.</li>
+				<li><span style="font-family: courier;">&lt;hypothesis_parse_file&gt; </span>is the name of the file containing the parses output by your system to be evaluated against the gold standard parses. The file has one parse per line.</li>
+			</ul>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2><a name="improving"></a>4: Improving the Parser</h2>
+			<p>You will also need to improve your baseline parser. You can improve the parser either by:</p>
+			<ul>
+				<li>Improving the coverage of the parser in terms of sentences parsed,</li>
+				<li>Improving the accuracy of the parser as measured by evalb, or</li>
+				<li>Improving the efficiency of the parser as measured by running time, with little or no degradation in accuracy.</li>
+			</ul>
+			<p>You will either:</p>
+			<ul>
+				<li>Modify your grammar induction process</li>
+				<li>Modify your parsing process</li>
+				<li>Or both, depending on your approach</li>
+			</ul>
+			<p>Create a second script, either:</p>
+			<ol>
+				<li><strong><span style="font-family: courier;">hw4_improved_parser.sh</span></strong> &mdash; if you are modifying the parsing algorithm.</li>
+				<li><strong><span style="font-family: courier;">hw4_improved_induction.sh</span></strong> &mdash; if you are modifying the induction algorithm.</li>
+			</ol>
+			<p><span style="font-family: courier;"><strong>hw4_improved_parser.sh</strong> &lt;input_PCFG_file&gt; &lt;test_sentence_filename&gt; &lt;output_parse_filename&gt;</span></p>
+			<p><span style="font-family: courier;"><strong>hw4_improved_induction.sh</strong> &lt;treebank_filename&gt; &lt;output_PCFG_file&gt;</span></p>
+			<p>Re-run the evaluation script on your new parses to demonstrate your improvement (re-parsing using your new PCFG file if necessary).</p>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2>5. Combining it All</h2>
+			<p>Finally, write a script <span style="font-family: courier">hw4_run.sh</span> that will call all the components of the system:</p>
+			<ol>
+				<li>Grammar Induction</li>
+				<li>PCKY Parsing</li>
+				<li>Evaluation of Baseline System</li>
+				<li>Improved PCKY Parsing</li>
+				<li>Evaluation of Improved System</li>
+			</ol>
+			<h3>Calling specification:</h3>
+			<pre>hw4_run.sh &lt;treebank_filename&gt; &lt;output_PCFG_file&gt; \
+	   &lt;test_sentence_filename&gt; &lt;baseline_parse_output_filename&gt; \
+	   &lt;input_PCFG_file&gt; \
+	   &lt;improved_parse_output_filename&gt; \
+		    &lt;baseline_eval&gt; &lt;improved_eval&gt;</pre>
+			<p>Where</p>
+			<ul>
+				<li><span style="font-family: courier;"><strong>treebank_filename</strong></span>: Input parsed sentences.</li>
+				<li><span style="font-family: courier;"><strong>output_PCFG_file</strong></span>: Output PCFG for the <em><strong>unmodified</strong></em> grammar induction</li>
+				<li><span style="font-family: courier;"><strong>test_sentence_filename</strong></span>: input test sentences</li>
+				<li><span style="font-family: courier;"><strong>baseline_parse_output_filename</strong></span>: output parses from your baseline PCFG parser</li>
+				<li><strong><span style="font-family: courier;">input_PCFG_file</span></strong>:</li>
+			</ul>
+			<ol>
+				<li>If you have not modified the induction process:
+					<ul>
+						<li>You should take this argument in your script, but may ignore it and re-use the original induced PCFG output.</li>
+					</ul>
+				</li>
+				<li>If you have modified the induction process:
+					<ul>
+						<li>This argument should specify the output PCFG of the modified induction process.</li>
+					</ul>
+				</li>
+			</ol>
+			<ul>
+				<li><span style="font-family: courier;"><strong>improved_parse_output_filename</strong></span>: output parses from your improved PCFG parser</li>
+				<li><span style="font-family: courier;"><strong>baseline_eval</strong></span>: evalb output for your baseline parses</li>
+				<li><span style="font-family: courier;"><strong>improved_eval</strong></span>: evalb output for your improved parses.</li>
+			</ul>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2><a name="files"></a>6. Files</h2>
+			<p>Training, Test, Evaluation, Example Data</p>
+			<p>You will use the following files, derived from the Air Travel Information System (ATIS) subset of the Penn Treebank as described in class. All files can be found on patas in <span style="font-family: courier;">/dropbox/21-22/571/hw4/data/</span>, unless otherwise mentioned:</p>
+			<ul>
+				<li><span style="font-family: courier;"><strong>parses.train</strong></span>: parses of 514 sentences from the Air Travel Information System domain. These parses will form your (relatively small) training treebank for this assignment. They will form the basis for inducing your PCFG rules.</li>
+				<li><span style="font-family: courier;"><strong>sentences.txt</strong></span>: over 50 sentences from the Air Travel Information System domain. These are the test sentences your system must parse and will be evaluated on, both for the baseline and for your improved system.</li>
+				<li><span style="font-family: courier;"><strong>parses.gold</strong></span>: parses of the 50+ test sentences from the Air Travel Information System domain. These parses will provide the gold standard and will be used to be evaluate the output of your system on the test sentences above.</li>
+				<li><strong><span style="font-family: courier;">toy.pcfg</span></strong>: This file contains a simple Probabilistic Context-Free Grammar (in Chomsky Normal Form) that parses a simple toy set of sentences.</li>
+				<li><strong><span style="font-family: courier;">toy_sentences.txt</span></strong>: This file contains a small set of toy example sentences.</li>
+				<li><strong><span style="font-family: courier;">toy_output.txt</span></strong>: Example output from parsing with the pcfg in the one parse per line format required by evalb.</li>
+				<li><strong><span style="font-family: courier;">example_cky.py</span></strong>: Example implementation of CKY in Python, available for reference. In <span style="font-family: courier;">/dropbox/21-22/571/hw4/tools/</span></li>
+			</ul>
+			<h3>Submission Files</h3>
+			<ul>
+				<li><strong><span style="font-family: courier;">hw4.tar.gz</span></strong>: Tarball containing the following:
+					<ul>
+						<li>Output Files
+							<ul>
+								<li>You should generate output files, named as specified below, corresponding to each of the main components of this assignment:
+									<ul>
+										<li><span style="font-family: courier;"><strong>hw4_trained.pcfg</strong></span>: This file should contain the probabilistic context-free grammar trained on the <strong><span style="font-family: courier;">parses.train</span></strong> treebank.</li>
+										<li><span style="font-family: courier;">[ <strong>hw4_improved.pcfg</strong> ]</span>: If you are improving your induction algorithm, include your improved PCFG.</li>
+										<li><span style="font-family: courier;"><strong>parses_base.out</strong></span>: This file should contain the results of parsing the sentences in <strong><span style="font-family: courier;">sentences.txt</span></strong> using the PCFG induced in part 1 and your PCKY implementation. Your output file <strong>MUST</strong> have the same number of lines as the input strings to parse. If your algorithm fails to parse a sentence you should output a blank line in the output file corresponding to that input.</li>
+										<li><strong><span style="font-family: courier;">parses_base.eval</span></strong>: This file should contain the results of running evalb on your baseline parser output.</li>
+										<li><strong><span style="font-family: courier;">parses_improved.out</span></strong>: This file should contain the output of your improved parser, again run on the <strong><span style="font-family: courier;">sentences.txt</span></strong> test data. It should have the same format as <strong><span style="font-family: courier;">parses_base.out</span></strong>.</li>
+										<li><strong><span style="font-family: courier;">parses_improved.eval</span></strong>: This file should contain the results of running <span style="font-family: courier;">evalb</span> on your improved parser output.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>Program Files:
+							<ul>
+								<li><span style="font-family: courier;"><strong>hw4_topcfg.sh</strong></span>: Code to induce the PCFG.</li>
+								<li><span style="font-family: courier;"><strong>hw4_parser.sh</strong></span>: Code implementing PCKY.</li>
+								<li><span style="font-family: courier;"><strong>{ hw4_improved_parser.sh | hw4_improved_induction.sh}</strong></span>: Code invoking your parsing improvements.</li>
+								<li><span style="font-family: courier;"><strong>hw4_run.sh</strong></span>: Run all steps end-to-end:</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">readme.{txt|pdf}</span></strong>: Write-up file.
+					<ul>
+						<li>This file should describe and discuss your work on this assignment. Include problems you came across and how (or if) you were able to solve them, any insights, special features, and what you learned. Give examples if possible. If you were not able to complete parts of the project, discuss what you tried and/or what did not work. Make sure to discuss the improvements you implemented and compare your &#8216;improved&#8217; results to your baseline results. This will allow you to receive maximum credit for partial work.</li>
+					</ul>
+				</li>
+			</ul>
+			<p><a href="#top">[Back to Top]</a></p>
+			<h2><a name="handing-in"></a>6. Handing In your Work</h2>
+			<ul>
+				<li>If working in groups:
+					<ul>
+						<li>one groupmember should submit the tarball and readme</li>
+						<li>the other groupmember should submit a .txt file naming the other groupmate.</li>
+					</ul>
+				</li>
+			</ul>
+			<p><a href="#top">[Back to Top]</a></p>
+
+		</main>
+
+
+
+		<!-- Bootstrap core JavaScript
+	  ================================================== -->
+	  <!-- Placed at the end of the document so the pages load faster -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	  <!-- Google analytics -->
+	  <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-6353489-4', 'auto');
+ga('send', 'pageview');
+	  </script>
+	</body>
+</html>

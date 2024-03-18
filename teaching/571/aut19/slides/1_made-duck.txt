@@ -1,0 +1,2 @@
+[S [VP [V made]] [NP [POSS her] [N duck]]]
+[S [VP [V made]] [NP [PRO her]] [NP [N duck]]]

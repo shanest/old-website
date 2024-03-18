@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+		<title>UW LING 571: HW6 (Fall 2023)</title>
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/navbar-top-fixed.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '23]</a>
+				<a class="navbar-brand ml-auto" href="#">Homework 6</a>
+				<!--
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item active">
+	    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	    </li>
+	    <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	    </li>
+	    </ul>
+	    </div>
+				-->
+			</div>
+		</nav>
+
+		<main role="main" class="container">
+			<p class="lead">This assignment is due <strong>Wednesday, November 8 at 11:59PM</strong>.</p>
+			<p><a name="top"></a></p>
+
+			<h2>Goals</h2>
+			<p>Through this assignment you will:</p>
+			<ul>
+				<li>Explore the logic and lambda calculus based representations of natural language semantics.</li>
+				<li>Analyze the interaction between semantic attachments and syntactic structure for semantic analysis.</li>
+				<li>Gain some further familiarity with NLTK.</li>
+				<li>Augment grammars with semantic attachments to produce sentential analyses.</li>
+			</ul>
+			<h2>Background</h2>
+			<p>Please review the class slides and readings in the textbook on meaning representation and semantic analysis.</p>
+			<h2>Creating Target Semantic Representations</h2>
+			<p>Based on the examples in the text and class slides, <strong>manually</strong> create target representations in first-order logic for each of the sentences in the test sentence file (see the files section below). These forms constitute the semantic representations that your grammar and parsing process below <strong>should</strong> derive.</p>
+			<p><strong>NOTE:</strong>Your representations should employ the event-style semantics presented in class. In this format, events (primarily, verbs) typically have the form <br /><span style="font-family: courier;">exists e.(eventing(e) &amp; eventarg1(e,x1) &amp; eventarg2(e,x2) &#8230; ) </span></p>
+			<p>The format will parallel that of the automatically generated output. For each sentence you analyze, please write two lines:</p>
+			<ul>
+				<li>The sentence itself</li>
+				<li>The first-order logic representation of the sentence</li>
+			</ul>
+			<p>If you want to use &#8220;fancy&#8221; symbols, please use a PDF file. You may also choose to use the NLTK-style formatting instead; that can be stored in a .txt file if you wish.</p>
+			<p><strong>NOTE:</strong> Some of these sentences may be ambiguous, especially in relation to quantifier scope. Please provide only a single semantic representation for each.</p>
+			<h2>Building a Grammar with Semantic Attachments</h2>
+			<p>Based on the materials above and the format for implementing semantic attachments in NLTK <a href="http://www.nltk.org/book/ch10.html">Ch. 10</a> , create a set of context-free grammar rules augmented with semantic attachments that are adequate to analyze a small set of English natural language sentences and produce appropriate semantic analyses.</p>
+			<p>Your grammar should be able to produce an appropriate semantic analysis for each sentence in the test sentence file (see the files section below). It should be written using the NLTK <strong><span style="font-family: courier;">.fcfg</span></strong> format that can be read in by nltk.data.load().</p>
+			<p>Sample grammars made be found in NLTK book Chapter 10, the online grammars in <span style="font-family: courier;"><strong>/corpora/nltk/nltk-data/grammars/</strong></span>, and in the examples referenced above. <strong>NOTE:</strong> The NLTK grammars are provided largely to help with formatting the semantic attachments. Remember that the semantic analysis must employ the Neo-Davidsonian event-style semantics in the class slides. Many of the NLTK grammars do not.</p>
+			<h2>Semantic analysis</h2>
+			<p>Create a program to perform semantic analysis on the test sentences based on your grammar and output the results. Specifically, your program should:</p>
+			<ul>
+				<li>Load your grammar with semantic attachments.</li>
+				<li>Read in test sentences to analyze.</li>
+				<li>For each sentence
+					<ul>
+						<li>Write the sentence to an output file.</li>
+						<li>Parse the sentence and compositionally create a semantic analysis for it. Use the <span style="font-family: courier;">nltk.parse.FeatureChartParser</span> class (or similar) to perform this process.</li>
+						<li>Extract the semantic representation of the sentence.</li>
+						<li>Write that semantic representation to the output file.</li>
+					</ul>
+				</li>
+			</ul>
+			<p><strong>Note: </strong> You only need to print a single representation if the sentence is ambiguous.</p>
+			<h4>Programming</h4>
+			<p>Create a program called <span style="font-family: courier;"><strong>hw6_semantics.sh</strong></span> which performs the parsing and compositional semantic analysis described above invoked as:<br /><span style="font-family: courier;"><strong>hw6_semantics.sh</strong> <strong>&lt;input_grammar_filename&gt; &lt;input_sentences_filename&gt; &lt;output_filename&gt;</strong></span> where,</p>
+			<ul>
+				<li><span style="font-family: courier;"><strong>&lt;input_grammar_filename&gt;</strong></span> is the name of the file holding the grammar with FOL semantic attachments that you created to implement the rule-to-rule style compositional semantic analysis.</li>
+				<li><span style="font-family: courier;"><strong>&lt;input_sentences_filename&gt;</strong></span> is the name of the file holding the sentences to parse and perform semantic analysis on.</li>
+				<li><span style="font-family: courier;"><strong>&lt;output_filename&gt;</strong></span> is the name of the file to write the results of your automatic semantic analysis.</li>
+			</ul>
+			<h3>Files</h3>
+			<p>Please adhere to the naming conventions below.</p>
+			<h4>Test and Example Data Files</h4>
+			<p>All files related to this assignment may be found in <span style="font-family: courier;">/mnt/dropbox/23-24/571/hw6/</span>, as below:</p>
+			<ul>
+				<li><span style="font-family: courier;"><strong>sentences.txt</strong></span>: These are the sentences to analyze, first by creating target representation manually and then automatically.</li>
+				<li><strong><span style="font-family: courier;">semantics_example_grammar.fcfg</span></strong>: This file provides examples of the semantic attachment format for NLTK and shows the desired Neo-Davidsonian event-style representation.</li>
+				<li><strong><span style="font-family: courier;">semantics_example_sentences.txt</span></strong>: Example sentences analyzed by the grammar with semantic attachments above and corresponding to the example output.</li>
+				<li><strong><span style="font-family: courier;">semantics_example_output.txt</span></strong>: This file provides an example of the desired output format of semantic analysis.</li>
+			</ul>
+			<h4>Submission files</h4>
+			<ul>
+				<li><strong><span style="font-family: courier;">hw6.tar.gz</span></strong>: Tarball containing the following:
+					<ul>
+						<li><strong><span style="font-family: courier;">hw6_target_semantics.{txt|pdf}</span></strong>: This file should hold your manually created target semantic representations for all of the test sentences.</li>
+						<li><strong><span style="font-family: courier;">hw6_semantic_grammar.fcfg</span></strong>: This file should store the grammar you develop for the &#8220;rule-to-rule&#8221; semantic analysis model and should cover the test sentences. It should be in the NLTK .fcfg format.</li>
+						<li><strong><span style="font-family: courier;">hw6_semantics.sh</span></strong>: Primary program file to call your input grammar and parse the provided sentences.</li>
+						<li> All scripts/source code or binaries called by <span style="font-family: Courier;">hw6_semantics.sh</span>.</li>
+						<li><strong><span style="font-family: courier;">hw6_output.txt</span></strong>: The output file with the results of automatic semantic analysis of the input sentences in <span style="font-family: courier;"><strong>sentences.txt</strong></span> with your <strong><span style="font-family: courier;">hw6_semantic_grammar.fcfg</span></strong>.</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">readme.{txt|pdf}</span></strong>: Write-up file
+					<ul>
+						<li>This file should describe and discuss your work on this assignment. Include problems you came across and how (or if) you were able to solve them, any insights, special features, and what you learned. Give examples if possible, including whether your grammar generated any ambiguities. If you were not able to complete parts of the project, discuss what you tried and/or what did not work. This will allow you to receive maximum credit for partial work.</li>
+					</ul>
+				</li>
+			</ul>
+		</main>
+
+
+
+
+		<!-- Bootstrap core JavaScript
+	  ================================================== -->
+	  <!-- Placed at the end of the document so the pages load faster -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Goatcounter analytics -->
+		<script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+	</body>
+</html>

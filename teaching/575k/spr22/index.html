@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>UW LING 575k (Spring 2022)</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/scrolling-nav.css" rel="stylesheet">
+
+	</head>
+
+	<body id="page-top">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">LING 575k: Deep Learning for NLP [Spr '22]</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#information">Information</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#policies">Policies</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--
+		<header class="bg-primary text-white">
+			<div class="container text-center">
+				<h1>Welcome to Scrolling Nav</h1>
+				<p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+			</div>
+		</header>
+		-->
+
+		<section id="information">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+						<h2>Course Description</h2>
+						<p class="lead">
+							The application of neural network methods---under the name "deep learning"---has led to breakthroughs in a wide range of
+							fields, including in building language technologies (e.g. for search, translation, text input prediction). This course
+							will provide a hands-on introduction to the use of deep learning methods for processing natural language. Methods to be
+							covered include static word embeddings, feed-forward networks for text, recurrent neural networks, transformers,
+							pre-training and transfer learning, with applications including sentiment analysis, translation, and generation.
+						</p>
+
+						<table class="table">
+							<thead>
+								<tr>
+								<th>Days</th>
+								<th>Time</th>
+								<th>Location</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Monday and Wednesday</td>
+									<td>1:00 - 2:20 PM</td>
+									<td><a href="http://maps.google.com/maps?q=47.65666,-122.307147+(SMI)&z=18">SMI</a> 407<br /><a href="https://washington.zoom.us/j/97541252997">https://washington.zoom.us/j/97541252997</a></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>Note: while lectures will be delivered live at the above time and location, they will also be recorded and posted to the course Canvas page.</p>
+
+						<h2 class="pt-2">Teaching Staff</h2>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Role</th>
+									<th>Name</th>
+									<th>Office</th>
+									<th>Office Hours</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Instructor</td>
+									<td><a href="https://shane.st" target="_blank">Shane Steinert-Threlkeld</a></td>
+									<td><a href="https://washington.zoom.us/my/shanest" target="_blank">https://washington.zoom.us/my/shanest</a><br />or in-person by appointment</td>
+									<td>Monday 3-5PM</td>
+								</tr>
+								<tr>
+									<td>Teaching Assistant</td>
+									<td><a href="https://cmdowney88.github.io/" target="_blank">C.M. Downey</a></td>
+									<td><a href="https://washington.zoom.us/my/agathadowney" target="_blank">https://washington.zoom.us/my/agathadowney</a><br />or in-person by appointment</td>
+									<td>Monday 10-11AM<br />Wednesday 3:30 - 4:30PM</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<h2 class="pt-2">Recommended Textbooks</h2>
+
+						<p>While relevant readings are posted in the schedule below, the following are very good general resources.  Names that are used to refer to these works are included in parentheses.</p>
+						<ul>
+							<li>[JM] Jurafsky and Martin, <em><a href="https://web.stanford.edu/~jurafsky/slp3/" target="_blank">Speech and Language Processing (3rd ed)</a></em></li>
+							<li>[YG] Yoav Goldberg, <em><a href="https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/lvbsh/TN_cdi_crossref_primary_10_2200_S00762ED1V01Y201703HLT037" target="_blank">Neural Network Methods in Natural Language Processing</a></em> (digital access through UW librairies)</li>
+							<li>[GBC] Goodfellow, Bengio, and Courville, <em><a href="https://www.deeplearningbook.org/" target="_blank">Deep Learning</a></em></li>
+						</ul>
+
+
+						<h2 class="pt-2">Prerequisites</h2>
+						<ul>
+							<li>LING 572 or equivalent machine learning course</li>
+							<li>Programming in Python</li>
+							<li>Linux/Unix Commands</li>
+							<li>Linear algebra</li>
+							<li>Multivariable calculus (especially partial derivatives / gradients of multivariable functions)</li>
+						</ul>
+
+						<h2 class="pt-2">Course Resources</h2>
+
+						<ul>
+							<li><a href="https://canvas.uw.edu/courses/1548204" target="_blank">Canvas</a>: lecture recordings, discussion board, homework submission / grading</li>
+							<li><a href="https://vervet.ling.washington.edu/db/accountrequest-form.php" target="_blank">Patas Account Request</a></li>
+							<li><a href="../aut19/welcome_to_patas_1920.pdf" target="_blank">Computing Resources Orientation</a></li>
+							<li><a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/CondorClusterHomepage" target="_blank">Condor Wiki Pages</a></li>
+						</ul>
+
+						<p><strong>N.B.:</strong> All homework grading will take place on the patas cluster using Condor, so your code must run there.  I strongly encourage you to ensure you have an account set up by the time of the first course meeting.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="policies" class="bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+						<h1>Policies</h1>
+						<p class="lead">Unless explicitly mentioned below, the <a href="http://depts.washington.edu/uwcl/clms/course-policy.pdf" target="_blank">shared policies of the LING 57x course series</a> apply to this course. Please read those policies for more information.</p>
+
+						<p>This quarter is unprecedented, as we navigate an ever-changing world due to the COVID-19 pandemic.  Stress and anxiety are at all-time highs due to this, as well as other world events.  If you find yourself struggling with a difficult concept; stressed over politics or health; slowed by monopolistic internet providers; or annoyed at a classmate, please remember that they feel similar. Maybe not in your very moment, but certainly recently or soon. Some of you may find remote learning particularly conducive to your style of learning and personality. Others will find it difficult to concentrate and maintain enthusiasm.  These are all normal reactions.</p>
+
+						<p>If you find yourself having trouble learning in class, please do not hesitate to let one of us know.  Our goal is to make this class a bright spot in these unprecedented times, and to do whatever we can to promote a healthy learning environment for all.</p>
+
+						<h2 class="pt-2">A note on time zones</h2>
+						<p>All deadlines and meeting times for this class are in "Pacific Time". Now that we are in Daylight Savings Time, this is UTC-7.</p>
+
+						<h2 class="pt-2">Grading</h2>
+						<ul>
+							<li>100%: Homework Assignments</li>
+							<li>Up to 2% adjustment for significant in-class or discussion participation</li>
+						</ul>
+
+						<h2 class="pt-2">Communication</h2>
+						<p>As per the policy above, all communication outside of the classroom should take place on Canvas.  You can expect responses from teaching staff within 48 hours, but only during normal business hours, and excluding weekends.</p>
+						<p><strong>N.B.:</strong> while CLMS students have a private Slack channel, I strongly encourage questions concerning course content and assignments to be posted to the Canvas discussion board, for two reasons.  (i) Teaching staff will not look at Slack, so misinformation can spread.  (ii) Not every student in the course is in the CLMS program, but they deserve to be included in course discussions and likely have many of the same questions.</p>
+
+						<h2 class="pt-2">Religious Accommodation</h2>
+						<p>Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at <a href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/" target="_blank">Religious Accommodations Policy (https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/)</a>. Accommodations must be requested within the first two weeks of this course using the <a href="https://registrar.washington.edu/students/religious-accommodations-request/" target="_blank">Religious Accommodations Request form (https://registrar.washington.edu/students/religious-accommodations-request/)</a>.</p>
+
+						<h2 class="pt-2">Access and Accommodations</h2>
+						<p>Your experience in this class is important to me. If you have already established accommodations with Disability Resources for Students (DRS), please communicate your approved accommodations to me at your earliest convenience so we can discuss your needs in this course.</p>
+						<p>If you have not yet established services through DRS, but have a temporary health condition or permanent disability that requires accommodations (conditions include but not limited to; mental health, attention-related, learning, vision, hearing, physical or health impacts), you are welcome to contact DRS at 206-543-8924 or uwdrs@uw.edu or disability.uw.edu. DRS offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions.  Reasonable accommodations are established through an interactive process between you, your instructor(s) and DRS.  It is the policy and practice of the University of Washington to create inclusive and accessible learning environments consistent with federal and state law.</p>
+
+						<h2 class="pt-2">Safety</h2>
+						<p>Call SafeCampus at 206-685-7233 anytime – no matter where you work or study – to anonymously discuss safety and well-being concerns for yourself or others. SafeCampus’s team of caring professionals will provide individualized support, while discussing short- and long-term solutions and connecting you with additional resources when requested.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="schedule">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+
+						<h2>Schedule</h2>
+
+						<br />
+
+						<table class="table">
+							<thead>
+								<tr>
+									<th width="10%">Date</th>
+									<th>Topics + Slides</th>
+									<th>Readings</th>
+									<th width="15%">Events</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Mar 28</td>
+									<td>
+										<a href="slides/1_Intro.pdf" target="_blank">Introduction / Overview; History</a>
+									</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Mar 30</td>
+									<td>
+										<a href="slides/2_GD_WV.pdf" target="_blank">
+										Gradient descent; Word vectors
+										</a>
+									</td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf" target="_blank">ch 5.4-5.6</a>, <a href="https://web.stanford.edu/~jurafsky/slp3/6.pdf" target="_blank">ch 6</a>
+										<br />
+										YG ch 2
+									</td>
+									<td>
+										HW1 out
+										<br />
+										[<a href="hw/hw1.pdf" target="_blank">pdf</a>, <a href="hw/hw1.tex" target="_blank">tex</a>, <a href="slides/hw1.pdf" target="_blank">slides</a>]
+										<br />
+										[due Apr 7]
+									</td>
+								</tr>
+								<tr>
+									<td>Apr 4</td>
+									<td>
+										<a href="slides/3_word2vec.pdf" target="_blank">
+											Word vectors; Classification and language modeling
+										</a>
+									</td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/6.pdf" target="_blank">6.8 - 6.12</a>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Apr 6</td>
+									<td>
+										<a href="slides/4_NN.pdf" target="_blank">
+										Neural Networks 1
+										</a>
+									</td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/7.pdf" target="_blank">7.1 - 7.4</a>
+										<br />
+										YG ch 4
+									</td>
+									<td>
+										HW2 out
+										<br />
+										[<a href="hw/hw2.pdf" target="_blank">pdf</a>, <a href="hw/hw2.tex" target="_blank">tex</a>, <a href="slides/hw2.pdf" target="_blank">slides</a>]
+										<br />
+										[due Apr 14]
+									</td>
+								</tr>
+								<tr>
+									<td>Apr 11</td>
+									<td>
+										<a href="slides/5_comp-graph.pdf" target="_blank">
+										Computation graphs; backpropagation
+										</a>
+										<br />
+										<a href="slides/edugrad.pdf" target="_blank">edugrad library</a>
+									</td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/7.pdf" target="_blank">7.6.3 - 7.6.5</a>
+										<br />
+										YG 5.1.1 - 5.1.2
+										<br />
+										GBC <a href="https://www.deeplearningbook.org/contents/mlp.html" target="_blank">ch 6.5</a>
+										<br /><br />
+										<a href="https://colah.github.io/posts/2015-08-Backprop/" target="_blank">Calculus on computational graphs</a>
+										<br />
+										<a href="http://cs231n.github.io/optimization-2/" target="_blank">CS 231n notes 1</a>
+										<br />
+										<a href="http://cs231n.stanford.edu/vecDerivs.pdf" target="_blank">CS 231n notes 2 (vector/tensor derivatives)</a>
+										<br />
+										<a href="https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b" target="_blank">Yes, you should understand backprop</a>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Apr 13</td>
+									<td>
+										<a href="slides/6_FF-class-lm.pdf" target="_blank">
+										Feed-forward networks for LM and classification
+										</a>
+									</td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/7.pdf" target="_blank">7.5</a>
+										<br />
+										YG ch 9
+										<br /><br />
+										<a href="http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf" target="_blank">A Neural Probabilistic Language Model</a> (Bengio et al 2003)
+										<br />
+										<a href="https://www.aclweb.org/anthology/P15-1162/" target="_blank">Deep Unordered Composition Rivals Syntactic Methods for Text Classification</a> (Iyyer et al 2015)
+									</td>
+									<td>
+										HW3 out
+										<br />
+										[<a href="hw/hw3.pdf" target="_blank">pdf</a>, <a href="hw/hw3.tex" target="_blank">tex</a>, <a href="slides/hw3.pdf" target="_blank">slides</a>]
+										<br />
+										[due Apr <s>21</s> 23]
+									</td>
+								</tr>
+								<tr>
+									<td>Apr 18</td>
+									<td><a href="slides/7_rnn.pdf" target="_blank">Recurrent neural networks</a></td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/9.pdf" target="_blank">9.1-9.5</a>
+										<br /><br />
+										<a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/" target="_blank">The Unreasonable Effectiveness of Recurrent Neural Networks</a>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Apr 20</td>
+									<td><a href="slides/8_lstm.pdf" target="_blank">Vanishing gradients; RNN variants</a></td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/9.pdf" target="_blank">9.6</a>
+										<br />
+										YG ch 15
+										<br /><br />
+										<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank">Understanding LSTMs</a>
+										<br />
+										<a href="https://www.aclweb.org/anthology/D14-1179/" target="_blank">Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation</a>
+										<br />
+										<a href="http://proceedings.mlr.press/v28/pascanu13.html" target="_blank">On the difficulty of training recurrent neural networks</a>
+									</td>
+									<td>
+										HW4 out
+										<br />
+										[<a href="hw/hw4.pdf" target="_blank">pdf</a>, <a href="hw/hw4.tex" target="_blank">tex</a>, <a href="slides/hw4.pdf" target="_blank">slides</a>]
+										<br />
+										[due Apr 28]
+									</td>
+								</tr>
+								<tr>
+									<td>Apr 25</td>
+									<td><a href="slides/9_seq2seq.pdf" target="_blank">Sequence-to-sequence; Attention</a></td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/10.pdf" target="_blank">ch 10</a>
+										<br /><br />
+										<a href="https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks" target="_blank">Sequence to Sequence Learning with Neural Networks</a> (original seq2seq paper)
+										<br />
+										<a href="https://arxiv.org/pdf/1409.0473.pdf" target="_blank">Neural Machine Translation by Jointly Learning to Align and Translate</a> (original seq2seq + attention paper)
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Apr 27</td>
+									<td><a href="slides/10_transformers-1.pdf" target="_blank">Transformers 1</a></td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/9.pdf" target="_blank">9.7-9.9</a>
+										<br /><br />
+										<a href="https://arxiv.org/pdf/1706.03762.pdf" target="_blank">Attention is All You Need</a> (original Transformer paper)
+										<br />
+										<a href="https://nlp.seas.harvard.edu/2018/04/03/attention.html" target="_blank">The Annotated Transformer</a>
+										<br />
+										<a href="http://jalammar.github.io/illustrated-transformer/" target="_blank">The Illustrated Transformer</a>
+									</td>
+									<td>
+										HW5 out
+										<br />
+										[<a href="hw/hw5.pdf" target="_blank">pdf</a>, <a href="hw/hw5.tex" target="_blank">tex</a>]
+										<br />
+										[due May 5]
+									</td>
+								</tr>
+								<tr>
+									<td>May 2</td>
+									<td><a href="slides/11_Transformers-II.pdf" target="_blank">Transformers 2</a></td>
+									<td>&quot;</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>May 4</td>
+									<td><a href="slides/12-pretraining.pdf" target="_blank">Pre-training / fine-tuning paradigm</a></td>
+									<td>
+										JM <a href="https://web.stanford.edu/~jurafsky/slp3/11.pdf" target="_blank">ch 11</a>
+										<a href="https://dl.acm.org/doi/pdf/10.1145/3347145" target="_blank">Contextual Word Representations: Putting Words into Computers</a>
+										<br />
+										<a href="http://jalammar.github.io/illustrated-bert/">The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)</a>
+									</td>
+									<td>
+										HW6 out
+										<br />
+										[<a href="hw/hw6.pdf" target="_blank">pdf</a>, <a href="hw/hw6.tex" target="_blank">tex</a>]
+										<br />
+										[due May 12]
+									</td>
+								</tr>
+								<tr>
+									<td>May 9</td>
+									<td><a href="slides/12-pretraining.pdf" target="_blank">Pre-training / fine-tuning paradigm (cont.)</a></td>
+									<td>&quot;</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>May 11</td>
+									<td><a href="slides/13_interpretability.pdf" target="_blank">Interpretability and Analysis</a></td>
+									<td>
+										<a href="https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00254" target="_blank">Analysis Methods in Natural Language Processing</a>
+										<br />
+										<a href="https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00349" target="_blank">A Primer in BERTology</a>
+									</td>
+									<td>
+										HW7 out
+										<br />
+										[<a href="hw/hw7.pdf" target="_blank">pdf</a>, <a href="hw/hw7.tex" target="_blank">tex</a>]
+										<br />
+										[due May 19]
+									</td>
+								</tr>
+								<!--
+								<tr>
+									<td>May 12</td>
+									<td>Other architectures (CNN, recursive NNs, ...)</td>
+									<td>
+										YG ch 13, 18
+										<br /><br />
+										<a href="https://www.aclweb.org/anthology/D14-1181/" target="_blank">Convolutional Neural Networks for Sentence Classification</a>
+										<br />
+										<a href="https://www.aclweb.org/anthology/W18-5408/" target="_blank">Understanding Convolutional Neural Networks for Text Classification</a>
+										<br />
+										<a href="http://proceedings.mlr.press/v70/dauphin17a.html" target="_blank">Language Modeling with Gated Convolutional Networks</a>
+										<br /><br />
+										<a href="https://www.aclweb.org/anthology/D13-1170/" target="_blank">Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank</a>
+									</td>
+									<td>
+										HW7 out
+										<br />
+										[due May 20]
+									</td>
+								</tr>
+								-->
+								<tr>
+									<td>May 16</td>
+									<td colspan="2" align="center">No Class</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>May 18</td>
+									<td>Low-resource / Multilingual NLP <br /> Guest lecture: <a href="https://cmdowney88.github.io/" target="_blank">C.M. Downey</a></td>
+									<td>
+										<a href="https://proceedings.neurips.cc/paper/2019/file/c04c19c2c2474dbf5f7ac4372c5b9af1-Paper.pdf" target="_blank">Cross-Lingual Language Model Pretraining</a>
+										<br /><br />
+										Optional / peruse if interested:
+										<br />
+										<a href="https://www.aclweb.org/anthology/2020.repl4nlp-1.16/" target="_blank">Are All Languages Created Equal in Multilingual BERT?</a>
+										<br />
+										<a href="https://www.aclweb.org/anthology/2020.acl-main.536/" target="_blank">Emerging Cross-lingual Structure in Pretrained Language Models</a>
+										<br />
+										<a href="https://arxiv.org/abs/1910.11856" target="_blank">On the Cross-lingual Transferability of Monolingual Representations</a>
+										<br />
+										<a href="https://arxiv.org/abs/1710.04087" target="_blank">Word Translation Without Parallel Data</a>
+										<br />
+										<a href="https://arxiv.org/abs/2104.07642" target="_blank">Bilingual alignment transfers to multilingual alignment for unsupervised parallel text mining</a>
+									</td>
+									<td>
+										HW8 out
+										<br />
+										[<a href="hw/hw8.pdf" target="_blank">pdf</a>, <a href="hw/hw8.tex" target="_blank">tex</a>]
+										<br />
+										[due <s>May 26</s> June 2]
+									</td>
+								</tr>
+								<tr>
+									<td>May 23</td>
+									<td>
+										<a href="slides/jackh-multimodal-guestlec.pdf" target="_blank">Multimodal NLP</a>
+										<br />
+										Guest lecture: <a href="https://jmhessel.com/" target="_blank">Jack Hessel</a>
+									</td>
+									<td>
+										<a href="https://aclanthology.org/2020.emnlp-main.62/" target="_blank">Does my multimodal model learn cross-modal interactions? It's harder to tell than you might think!</a>
+										<br />
+										<a href="https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/tackling-multiple-tasks-with-a-single-visual-language-model/flamingo.pdf" target="_blank">Flamingo: a Visual Language Model for Few-Shot Learning</a>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>May 25</td>
+									<td>
+										Ethics, fairness, limitations
+										<br />
+										Guest lecture: <a href="https://sites.google.com/uw.edu/angelinamcmillan-major/home" target="_blank">Angelina McMillan-Major</a>
+									</td>
+									<td>
+									</td>
+										<!--
+										<br /> Guest lecture: <a href="https://yonatanbisk.com/" target="_blank">Yonatan Bisk</a></td>
+									<td>
+										<a href="https://www.aclweb.org/anthology/2020.emnlp-main.703/" target="_blank">Experience Grounds Language</a>
+										<br />
+										<a href="https://ieeexplore.ieee.org/document/8269806" target="_blank">Multimodal Machine Learning: A Survey and Taxonomy</a>
+									</td>
+								-->
+									<!--
+									<td>Overflow<br /><a href="slides/14_AMA.pdf" target="_blank">A(sk) M(e) A(nything) / student question / discussion day</a></td>
+									<td></td>
+									-->
+									<td>
+										HW9 out
+										<br />
+										[<a href="hw/hw9.pdf" target="_blank">pdf</a>, <a href="hw/hw9.tex" target="_blank">tex</a>]
+										<br />
+										[due <s>June 2</s> June 9]
+									</td>
+								</tr>
+								<tr>
+									<td>May 30</td>
+									<td colspan="3" align="center">Memorial Day: No Class</td>
+								</tr>
+								<tr>
+									<td>Jun 1</td>
+									<td><a href="slides/19_Summary.pdf" target="_blank">Overflow / Summary / Review</a></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Plugin JavaScript -->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+		<!-- Custom JavaScript for this theme -->
+		<script src="js/scrolling-nav.js"></script>
+
+		<!-- Goatcounter analytics -->
+		<script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	</body>
+
+</html>
