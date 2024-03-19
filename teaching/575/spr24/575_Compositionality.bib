@@ -63,12 +63,11 @@
   file = {/Users/shanest/sync/library/Chaabouni et al/2020/Chaabouni et al. - 2020 - Compositionality and Generalization In Emergent La3.pdf}
 }
 
-@inproceedings{drozdovCompositionalSemanticParsing2022,
+@inproceedings{drozdovCompositionalSemanticParsing2023,
   title = {Compositional {{Semantic Parsing}} with {{Large Language Models}}},
   booktitle = {The {{Eleventh International Conference}} on {{Learning Representations}}},
   author = {Drozdov, Andrew and Sch{\"a}rli, Nathanael and Aky{\"u}rek, Ekin and Scales, Nathan and Song, Xinying and Chen, Xinyun and Bousquet, Olivier and Zhou, Denny},
-  year = {2022},
-  month = sep,
+  year = {2023},
   url = {https://openreview.net/forum?id=gJW8hSGBys8},
   urldate = {2024-03-19},
   abstract = {Humans can reason compositionally when presented with new tasks. Previous research shows that appropriate prompting techniques enable large language models (LLMs) to solve artificial compositional generalization tasks such as SCAN. In this work, we identify additional challenges in more realistic semantic parsing tasks with larger vocabulary and refine these prompting techniques to address them. Our best method is based on least-to-most prompting: it decomposes the problem using prompting-based syntactic parsing, then uses this decomposition to select appropriate exemplars and to sequentially generate the semantic parse. This method allows us to set a new state of the art for CFQ while requiring only 1\% of the training data used by traditional approaches. Due to the general nature of our approach, we expect similar efforts will lead to new results in other tasks and domains, especially for knowledge-intensive applications.},
@@ -83,7 +82,7 @@
   author = {Dziri, Nouha and Lu, Ximing and Sclar, Melanie and Li, Xiang Lorraine and Jiang, Liwei and Lin, Bill Yuchen and Welleck, Sean and West, Peter and Bhagavatula, Chandra and Bras, Ronan Le and Hwang, Jena D. and Sanyal, Soumya and Ren, Xiang and Ettinger, Allyson and Harchaoui, Zaid and Choi, Yejin},
   year = {2023},
   month = nov,
-  url = {https://openreview.net/forum?id=Fkckkr3ya8&referrer=%5Bthe%20profile%20of%20Xiang%20Ren%5D(%2Fprofile%3Fid%3D~Xiang_Ren1)},
+  url = {https://openreview.net/forum?id=Fkckkr3ya},
   urldate = {2024-03-18},
   abstract = {Transformer large language models (LLMs) have sparked admiration for their exceptional performance on tasks that demand intricate multi-step reasoning. Yet, these models simultaneously show failures on surprisingly trivial problems. This begs the question: Are these errors incidental, or do they signal more substantial limitations? In an attempt to demystify transformer LLMs, we investigate the limits of these models across three representative compositional tasks---multi-digit multiplication, logic grid puzzles, and a classic dynamic programming problem. These tasks require breaking problems down into sub-steps and synthesizing these steps into a precise answer. We formulate compositional tasks as computation graphs to systematically quantify the level of complexity, and break down reasoning steps into intermediate sub-procedures. Our empirical findings suggest that transformer LLMs solve compositional tasks by reducing multi-step compositional reasoning into linearized subgraph matching, without necessarily developing systematic problem-solving skills. To round off our empirical study, we provide theoretical arguments on abstract multi-step reasoning problems that highlight how autoregressive generations' performance can rapidly decay with increased task complexity.},
   langid = {english},
@@ -173,7 +172,7 @@
   url = {https://aclanthology.org/2020.emnlp-main.731},
   urldate = {2024-03-18},
   abstract = {Natural language is characterized by compositionality: the meaning of a complex expression is constructed from the meanings of its constituent parts. To facilitate the evaluation of the compositional abilities of language processing architectures, we introduce COGS, a semantic parsing dataset based on a fragment of English. The evaluation portion of COGS contains multiple systematic gaps that can only be addressed by compositional generalization; these include new combinations of familiar syntactic structures, or new combinations of familiar words and familiar structures. In experiments with Transformers and LSTMs, we found that in-distribution accuracy on the COGS test set was near-perfect (96--99\%), but generalization accuracy was substantially lower (16--35\%) and showed high sensitivity to random seed (+-6--8\%). These findings indicate that contemporary standard NLP models are limited in their compositional generalization capacity, and position COGS as a good way to measure progress.},
-  file = {/Users/shanest/Zotero/storage/GRNZJHYS/Kim and Linzen - 2020 - COGS A Compositional Generalization Challenge Bas.pdf}
+  file = {/Users/shanest/sync/library/Kim_Linzen/2020/Kim and Linzen - 2020 - COGS A Compositional Generalization Challenge Bas.pdf}
 }
 
 @article{kirbyCompressionCommunicationCultural2015,
@@ -261,6 +260,23 @@
   urldate = {2024-03-18},
   abstract = {The goal of compositional generalization benchmarks is to evaluate how well models generalize to new complex linguistic expressions. Existing benchmarks often focus on lexical generalization, the interpretation of novel lexical items in syntactic structures familiar from training; structural generalization tasks, where a model needs to interpret syntactic structures that are themselves unfamiliar from training, are often underrepresented, resulting in overly optimistic perceptions of how well models can generalize. We introduce SLOG, a semantic parsing dataset that extends COGS (Kim and Linzen, 2020) with 17 structural generalization cases. In our experiments, the generalization accuracy of Transformer models, including pretrained ones, only reaches 40.6\%, while a structure-aware parser only achieves 70.8\%. These results are far from the near-perfect accuracy existing models achieve on COGS, demonstrating the role of SLOG in foregrounding the large discrepancy between models' lexical and structural generalization capacities.},
   file = {/Users/shanest/sync/library/Li et al/2023/Li et al. - 2023 - SLOG A Structural Generalization Benchmark for Se.pdf}
+}
+
+@inproceedings{mordatchEmergenceGroundedCompositional2018,
+  title = {Emergence of {{Grounded Compositional Language}} in {{Multi-Agent Populations}}},
+  booktitle = {Proceedings of the {{AAAI Conference}} on {{Artificial Intelligence}}},
+  author = {Mordatch, Igor and Abbeel, Pieter},
+  year = {2018},
+  month = apr,
+  volume = {32},
+  doi = {10.1609/aaai.v32i1.11492},
+  url = {https://ojs.aaai.org/index.php/AAAI/article/view/11492},
+  urldate = {2024-03-19},
+  abstract = {By capturing statistical patterns in large corpora, machine learning has enabled significant advances in natural language processing, including in machine translation, question answering, and sentiment analysis. However, for agents to intelligently interact with humans, simply capturing the statistical patterns is insufficient. In this paper we investigate if, and how, grounded compositional language can emerge as a means to achieve goals in multi-agent populations. Towards this end, we propose a multi-agent learning environment and learning methods that bring about emergence of a basic compositional language. This language is represented as streams of abstract discrete symbols uttered by agents over time, but nonetheless has a coherent structure that possesses a defined vocabulary and syntax. We also observe emergence of non-verbal communication such as pointing and guiding when language communication is unavailable.},
+  copyright = {Copyright (c)},
+  langid = {english},
+  keywords = {Language Emergence},
+  file = {/Users/shanest/sync/library/Mordatch_Abbeel/2018/Mordatch and Abbeel - 2018 - Emergence of Grounded Compositional Language in Mu.pdf;/Users/shanest/Zotero/storage/ZMYMA7FP/Mordatch and Abbeel - 2018 - Emergence of Grounded Compositional Language in Mu.pdf}
 }
 
 @article{paginCompositionalityDefinitionsVariants2010,
@@ -440,12 +456,11 @@
   url = {https://plato.stanford.edu/archives/fall2022/entries/compositionality/}
 }
 
-@inproceedings{zhouLeasttoMostPromptingEnables2022,
+@inproceedings{zhouLeasttoMostPromptingEnables2023,
   title = {Least-to-{{Most Prompting Enables Complex Reasoning}} in {{Large Language Models}}},
   booktitle = {The {{Eleventh International Conference}} on {{Learning Representations}}},
   author = {Zhou, Denny and Sch{\"a}rli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc V. and Chi, Ed H.},
-  year = {2022},
-  month = sep,
+  year = {2023},
   url = {https://openreview.net/forum?id=WZH7099tgfM},
   urldate = {2024-03-19},
   abstract = {Chain-of-thought prompting has demonstrated remarkable performance on various natural language reasoning tasks. However, it tends to perform poorly on tasks which requires solving problems harder than the exemplars shown in the prompts. To overcome this challenge of easy-to-hard generalization, we propose a novel prompting strategy, least-to-most prompting. The key idea in this strategy is to break down a complex problem into a series of simpler subproblems and then solve them in sequence. Solving each subproblem is facilitated by the answers to previously solved subproblems. Our experimental results on tasks related to symbolic manipulation, compositional generalization, and math reasoning reveal that least-to-most prompting is capable of generalizing to more difficult problems than those seen in the prompts. A notable finding is that when the GPT-3 code-davinci-002 model is used with least-to-most prompting, it can solve the compositional generalization benchmark SCAN in any split (including length split) with an accuracy of at least 99{\textbackslash}\% using just 14 exemplars, compared to only 16{\textbackslash}\% accuracy with chain-of-thought prompting. This is particularly noteworthy because neural-symbolic models in the literature that specialize in solving SCAN are trained on the entire training set containing over 15,000 examples. We have included prompts for all the tasks in the Appendix.},
