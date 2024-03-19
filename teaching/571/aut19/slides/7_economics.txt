@@ -1,1 +1,0 @@
-[S [NP [JJ Economic] [NN news]] [VP [VBD had] [NP [NP [JJ little] [NN impact]] [PP [P on] [NP [JJ financial] [NNS markets]]]]]]
