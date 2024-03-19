@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Shane Steinert-Threlkeld">
+  <title>Shane Steinert-Threlkeld</title>
+
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/tab.js"></script>
+  <script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    body:before {
+      content: " ";
+      background-image: url('images/rainier.jpg');
+      background-size: cover;
+      opacity: 0.9;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+    }
+
+    main a {
+      color: grey;
+    }
+
+    .nav-tabs .nav-link {
+      color: grey;
+    }
+  </style>
+
+</head>
+
+<body class="d-flex h-100">
+
+  <div class="cover-container d-flex w-100 p-3 mx-auto flex-column text-white">
+    <header>
+      <div>
+        <h3 class="float-md-start mb-0">Shane Steinert-Threlkeld</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link" href="https://clmbr.shane.st">CLMBR (lab)</a>
+          <a class="nav-link" href="cv/index.html">C.V.</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="px-3 text-dark mt-5 bg-light bg-opacity-50">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="research-tab" data-bs-toggle="tab" data-bs-target="#research"
+            type="button" role="tab" aria-controls="home" aria-selected="true">Research</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="teaching-tab" data-bs-toggle="tab" data-bs-target="#teaching" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">Teaching</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="resources-tab" data-bs-toggle="tab" data-bs-target="#resources" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">Resources</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button"
+            role="tab" aria-controls="profile" aria-selected="false">Personal</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+            role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+        </li>
+      </ul>
+      <div class="tab-content p-3" id="myTabContent">
+        <div class="tab-pane fade show active" id="research" role="tabpanel" aria-labelledby="research-tab">
+          <p class="my-auto">For more information on my research, please see the website for my lab: <a
+              href="https://clmbr.shane.st">CLMBR</a> (Computation, Langauge and Meaning Band of Researchers), my <a
+              href="cv/index.html">C.V.</a>, and/or <a
+              href="https://scholar.google.com/citations?user=8NjYcbUAAAAJ&hl=en">Google Scholar</a>.</p>
+        </div>
+        <div class="tab-pane fade" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
+          <ul class="px-3 my-auto">
+            <li>LING 571: Deep Processing Techniques for Natural Language Processing. [<a href="teaching/571/aut19">Aut
+                '19</a>, <a href="teaching/571/aut20">Aut '20</a>, <a href="teaching/571/aut21">Aut '21</a>, <a href="teaching/571/aut22">Aut '22</a>, <a href="teaching/571/aut23/">Aut '23</a>]</li>
+            <li>LING 572: Advanced Statistical Methods for Natural Language Processing. [<a
+                href="teaching/572/win20">Win
+                '20</a>]</li>
+            <li>LING 575K: Deep Learning for NLP [<a href="teaching/575k/spr21/index.html">Spr '21</a>, <a
+                href="teaching/575k/spr22/index.html">Spr '22</a>]</li>
+            <li>LING 575: Topics in Computational Linguistics
+              <ul>
+                <li>Analyzing Neural Language Models [<a href="teaching/575/win20/index.html">Win '20</a>, <a
+                    href="teaching/575/spr21/index.html">Spr '21</a>, <a href="teaching/575/spr22/index.html">Spr
+                    '22</a>]</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="resources" role="tabpanel" aria-labelledby="resources-tab">
+          <ul class="px-3 my-auto">
+            <li><a href="https://montreean.shane.st">Montreean</a>: visualize constituency parse
+              trees vaguely in the style of Piet Mondrian.</li>
+            <li><a href="https://github.com/shanest/edugrad">edugrad</a>: a minimal re-implementation of the PyTorch API
+              (dynamic computation graphs + backpropagation), designed for pedagogical purposes</li>
+            <li><a href="https://github.com/shanest/nn-tutorial">Tutorial introduction to neural networks</a>: slides
+              and
+              Jupyter notebook, explaining and introducing neural networks. Includes a worked example with quantifiers
+              (in
+              PyTorch) and additional practical advice. (Largely supersedes the tutorial linked below, though that one
+              can
+              still be useful for understanding TensorFlow's estimators interfactor.)</li>
+            <li><a href="https://github.com/shanest/decisions-games-ai">Decision and Game Theory for AI</a>: lecture
+              notes
+              (in the form of Jupyter Notebooks) for a mini-course on decision and game theory for undergraduates in AI.
+              Includes simple implementations of things like CDT/EDT, replicator dynamic, reinforcement learning in
+              signaling games.</li>
+            <li><a href="https://github.com/shanest/neural-vision-most/blob/master/image_generator.py">Generate Dot
+                Arrays
+                for Psycholinguistic Experiments</a>: Python script for generating colored dot arrays, including the
+              four
+              stimulus type from Pietroski et al 2009, &quot;Psychosemantics of `most'&quot;.</li>
+            <li><a href="JoyceProbabilism.nb">Joyce's Argument for Probabilism</a>: this is a Mathematica notebook that
+              carries out the construction in the proof of Joyce's most general argument for probabilism from his 2009
+              &quot;Accuracy and Coherence: Prospects for an Alethic Epistemology of Partial Belief&quot;</li>
+            <!--
+     <li><a href="RabinsTheorem.pdf">Rabin's Tree Theorem</a> (slides)</li>
+     <li><a href="NMIndDef.pdf">Nonmonotone Inductive Definitions</a> (slides)</li>
+     <li><a href="LinearLogicSlides.pdf">Linear Logic</a> (slides)</li>
+          -->
+          </ul>
+
+        </div>
+        <div class="tab-pane fade" id="personal" role="tabpanel" aria-labelledby="personal-tab">...</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <p>You can reach me via snail or electronic mail:</p>
+
+          <p>
+            Guggenheim Hall, room 415K<br />
+            Seattle, Washington 98195
+          </p>
+
+          <p>shanest AT uw DOT edu</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mt-auto text-opacity-50 text-center">
+      <p>Photo: <a href="https://en.wikipedia.org/wiki/Mount_Rainier" class="link-warning">Rainier / Tahoma</a>, from
+        the Northeast, on 7
+        March 2022.</p>
+    </footer>
+  </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Basic experiment</title>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="mmturkey.0.5.js"></script> 
+<script type="text/javascript" src="underscore-min.js"></script> 
+<script type="text/javascript" src="basic_mod.js"></script>
+<link rel="stylesheet" href="basic.css"></link>
+</head>
+<body>
+
+<div class='slide' id='intro'>
+
+<p>We are building software to grade short essays.  We would like your help in 
+understanding when certain sentences can follow others.</p>
+
+<p>Legalese here.</p>
+
+<p><button type='button' id='gotoInstructions'>Proceed to instructions</button></p>
+</div>
+
+<div class='slide' id='instructions'>
+<p>First, you will see a sentence alone on the screen.  After you understand what
+it says, click the 'Next Sentence' button.  A new sentence will appear.  You are
+then to rate how natural it was to hear that sentence following the original one.</p>
+
+<p><button type='button' id='startbutton'>Start experiment</button></p>
+</div>
+
+<div class='slide' id='stage'>
+
+<p><span id='currentStim'>{{{IF YOU SEE THIS SOMETHING IS WRONG!}}}</span></p>
+<br>
+<button type='button' id='nextsentence'>Next Sentence</button>
+<form id='responseForm'>
+<table>
+<tr>
+<td><input type='radio' class='response' name='response' id='likert1' value='1' /></td>
+<td><input type='radio' class='response' name='response' id='likert2' value='2' /></td>
+<td><input type='radio' class='response' name='response' id='likert3' value='3' /></td>
+<td><input type='radio' class='response' name='response' id='likert4' value='4' /></td>
+<td><input type='radio' class='response' name='response' id='likert5' value='5' /></td>
+</tr>
+<tr>
+<td><label for='v1'>Completely Unacceptable&nbsp;&nbsp;</label></td>
+<td><label for='v2'>&nbsp;&nbsp;Somewhat Unacceptable&nbsp;&nbsp;</label></td>
+<td><label for='v3'>&nbsp;&nbsp;Possible&nbsp;&nbsp;</label></td>
+<td><label for='v4'>&nbsp;&nbsp;Somewhat Acceptable&nbsp;&nbsp;</label></td>
+<td><label for='v5'>&nbsp;&nbsp;Completely Acceptable</label></td>
+</tr>
+</table>
+</form>
+<button type='button' id='continue'>Continue</button>
+
+<p id="warningtext">You must select an answer to proceed!</p>
+
+<p class='smalltext'>You are on slide number: <span id="slidenum"></span> out of <span id="slidetot"></span></p>
+
+</div>
+
+<div class='slide' id='langinfo'>
+	<p>You're almost done! We just want to get some information about you.</p>
+
+	<form id='langForm'>
+
+		<p>What is your native language?</p>
+		<input type='text' name='language' id='langinput' />
+
+		<p>Do you have any general comments?</p>
+		<input type='text' name='comments' id='usercomments' />
+
+	</form>
+	<button type='button' id='langsubmit'>Submit</button>
+
+	<p id="userwarning">Please input a language before submitting!</p>
+</div>
+
+<div class='slide' id='finish'>
+You're finished - thanks for participating! Submitting to Mechanical Turk...
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 400;
+	margin: 10px;
+}
+
+.responses {
+	margin-top: 500px;
+}
+
+.left_response {
+	display: block;
+	float: left;
+	text-align: left;
+}
+
+.right_response {
+	display: block;
+	float: right;
+	text-align: right;
+}

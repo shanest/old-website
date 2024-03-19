@@ -1,0 +1,1 @@
+[S [" "] [S-TPC-2 [NP-SBJ-1 [PRP We]] [VP [MD would] [VP [VB have] [S [NP-SBJ [-NONE- *-1]] [VP [TO to] [VP [VB wait] [SBAR-TMP [IN until]] [NP-SBJ [PRP we]] [VP [VBP have] [VP [VBN collected] [PP-CLR [IN on] [NP [DT those] [NNS assets]]]]]]]]]]] [, ,] [" "] [NP-SBJ [PRP he]] [VP [VBD said] [S [-NONE- *T*-2]]] [. .]]

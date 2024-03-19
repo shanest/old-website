@@ -1,0 +1,27 @@
+Here is a list of possible topics for your January project.  You can choose from this list or choose something of your own, either inspired by this list or by something else that interests you.  The project should be related to the overall goal of explaining semantic universals in terms of learnability.
+
+* Develop tools to interpret what the LSTMs that learn to do quantifier verification are actually doing.
+	- Compare the behavior of an LSTM as it processes sequences to what a semantic automaton would do.
+	- Use diagnostic classifiers to see whether the LSTM state can predict the behavior of an automaton. [See https://arxiv.org/abs/1711.10203]
+	- Transfer learning: take an LSTM that learned to verify quantifiers, and train it to perform other tasks (e.g. count the number of characters in a sequence).  Compare its performance with training a new model from scratch.
+	- Extract an automaton from a trained LSTM and study how it resembles a semantic automaton. [See https://arxiv.org/abs/1711.09576 and references therein.]
+	- Visualize the cell and/or gates of a trained LSTM as it processes a sequence. [See https://arxiv.org/pdf/1506.02078.pdf]
+	- Does an LSTM trained on `most' implement a OneToOnePlus strategy or a cardinality comparison (or something else entirely), as discussed in recent experimental psychosemantics literature? [See http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0017.2009.01374.x/full]
+
+* Extend the framework to other semantic universals.
+	- Extensionality: this one may resemble what we currently say about Conservativity, since each universal says that one zone of the Venn diagram is irrelevant.
+	- Conservativity: are there other ways of training neural networks to learn quantifiers that would make conservative quantifiers easier to learn?  Or other ways of running our experiments that would allow conservativity to work?
+	- Convexity of adjective/noun denotations: Gardenfors has argued that content words denote convex regions of conceptual spaces.  Jager has shown that this appears to hold true of color terms across languages.  I'm currently working on extending the learnability argument from quantifiers to colors. [See https://link.springer.com/chapter/10.1007%2F978-3-642-14287-1_2]
+
+* Run more experiments.  It would be best if new experiments had a particular theoretical motivation.  In other words, there should be a hypothesis that your experiment is testing.  Some experiments could be `robustness checks', making sure that our results hold against various modeling choices.
+	- Other quantifiers. Of particular interest here: getting an LSTM or other type of RNN to learn parity (even/odd) and, more generally, divisibility quantifiers on input like ours, i.e. sequences of variable length.
+	- More than two quantifiers at one time.  Theoretically, this allows us to test multiple universals at the same time, to look for a trade-off in terms 
+	- If we train a network to learn one quantifier at a time, do we still see the same patterns in the learning curves?
+	- Different neural network architectures.
+		- Different parameters: number of layers, size of layers
+		- Different recurrent cells besides LSTMs: simple RNNs, Gated Recurrent Units
+	- Different training methods / techniques: dropout, normalization, other optimizers, et cetera.
+
+* Other models of learning.
+	- Develop or find another model of learning quantifiers and see whether our results carry over to that setting.  [This would support the `cross-model transfer' argument we make in the paper.]
+	- Develop a natural way of learning semantic automata and compare the results to our RNN results.
