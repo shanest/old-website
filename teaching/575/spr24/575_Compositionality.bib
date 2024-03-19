@@ -46,6 +46,24 @@
   file = {/Users/shanest/sync/library/Brighton et al/2005/Brighton et al. - 2005 - Language as an evolutionary system.pdf;/Users/shanest/Zotero/storage/NFULIKPP/S1571064505000229.html}
 }
 
+@inproceedings{chaabouniCanTransformersJump2021,
+  title = {Can {{Transformers Jump Around Right}} in {{Natural Language}}? {{Assessing Performance Transfer}} from {{SCAN}}},
+  shorttitle = {Can {{Transformers Jump Around Right}} in {{Natural Language}}?},
+  booktitle = {Proceedings of the {{Fourth BlackboxNLP Workshop}} on {{Analyzing}} and {{Interpreting Neural Networks}} for {{NLP}}},
+  author = {Chaabouni, Rahma and Dess{\`i}, Roberto and Kharitonov, Eugene},
+  editor = {Bastings, Jasmijn and Belinkov, Yonatan and Dupoux, Emmanuel and Giulianelli, Mario and Hupkes, Dieuwke and Pinter, Yuval and Sajjad, Hassan},
+  year = {2021},
+  month = nov,
+  pages = {136--148},
+  publisher = {Association for Computational Linguistics},
+  address = {Punta Cana, Dominican Republic},
+  doi = {10.18653/v1/2021.blackboxnlp-1.9},
+  url = {https://aclanthology.org/2021.blackboxnlp-1.9},
+  urldate = {2024-03-19},
+  abstract = {Despite their failure to solve the compositional SCAN dataset, seq2seq architectures still achieve astonishing success on more practical tasks. This observation pushes us to question the usefulness of SCAN-style compositional generalization in realistic NLP tasks. In this work, we study the benefit that such compositionality brings about to several machine translation tasks. We present several focused modifications of Transformer that greatly improve generalization capabilities on SCAN and select one that remains on par with a vanilla Transformer on a standard machine translation (MT) task. Next, we study its performance in low-resource settings and on a newly introduced distribution-shifted English-French translation task. Overall, we find that improvements of a SCAN-capable model do not directly transfer to the resource-rich MT setup. In contrast, in the low-resource setup, general modifications lead to an improvement of up to 13.1\% BLEU score w.r.t. a vanilla Transformer. Similarly, an improvement of 14\% in an accuracy-based metric is achieved in the introduced compositional English-French translation task. This provides experimental evidence that the compositional generalization assessed in SCAN is particularly useful in resource-starved and domain-shifted scenarios.},
+  file = {/Users/shanest/sync/library/Chaabouni et al/2021/Chaabouni et al. - 2021 - Can Transformers Jump Around Right in Natural Lang.pdf}
+}
+
 @inproceedings{chaabouniCompositionalityGeneralizationEmergent2020,
   title = {Compositionality and {{Generalization In Emergent Languages}}},
   booktitle = {Proceedings of the 58th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}}},
@@ -61,6 +79,55 @@
   urldate = {2024-03-18},
   abstract = {Natural language allows us to refer to novel composite concepts by combining expressions denoting their parts according to systematic rules, a property known as compositionality. In this paper, we study whether the language emerging in deep multi-agent simulations possesses a similar ability to refer to novel primitive combinations, and whether it accomplishes this feat by strategies akin to human-language compositionality. Equipped with new ways to measure compositionality in emergent languages inspired by disentanglement in representation learning, we establish three main results: First, given sufficiently large input spaces, the emergent language will naturally develop the ability to refer to novel composite concepts. Second, there is no correlation between the degree of compositionality of an emergent language and its ability to generalize. Third, while compositionality is not necessary for generalization, it provides an advantage in terms of language transmission: The more compositional a language is, the more easily it will be picked up by new learners, even when the latter differ in architecture from the original agents. We conclude that compositionality does not arise from simple generalization pressure, but if an emergent language does chance upon it, it will be more likely to survive and thrive.},
   file = {/Users/shanest/sync/library/Chaabouni et al/2020/Chaabouni et al. - 2020 - Compositionality and Generalization In Emergent La3.pdf}
+}
+
+@inproceedings{chenCompositionalGeneralizationNeuralSymbolic2020,
+  title = {Compositional {{Generalization}} via {{Neural-Symbolic Stack Machines}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Chen, Xinyun and Liang, Chen and Yu, Adams Wei and Song, Dawn and Zhou, Denny},
+  year = {2020},
+  volume = {33},
+  pages = {1690--1701},
+  publisher = {Curran Associates, Inc.},
+  url = {https://proceedings.neurips.cc/paper/2020/hash/12b1e42dc0746f22cf361267de07073f-Abstract.html},
+  urldate = {2024-03-19},
+  abstract = {Despite achieving tremendous success, existing deep learning models have exposed limitations in compositional generalization, the capability to learn compositional rules and apply them to unseen cases in a systematic manner. To tackle this issue, we propose the Neural-Symbolic Stack Machine (NeSS). It contains a neural network to generate traces, which are then executed by a symbolic stack machine enhanced with sequence manipulation operations. NeSS combines the expressive power of neural sequence models with the recursion supported by the symbolic stack machine. Without training supervision on execution traces, NeSS achieves 100\% generalization performance in four domains: the SCAN benchmark of language-driven navigation tasks, the task of few-shot learning of compositional instructions, the compositional machine translation benchmark, and context-free grammar parsing tasks.},
+  file = {/Users/shanest/sync/library/Chen et al/2020/Chen et al. - 2020 - Compositional Generalization via Neural-Symbolic S.pdf}
+}
+
+@inproceedings{conklinMetaLearningCompositionallyGeneralize2021,
+  title = {Meta-{{Learning}} to {{Compositionally Generalize}}},
+  booktitle = {Proceedings of the 59th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}} and the 11th {{International Joint Conference}} on {{Natural Language Processing}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Conklin, Henry and Wang, Bailin and Smith, Kenny and Titov, Ivan},
+  editor = {Zong, Chengqing and Xia, Fei and Li, Wenjie and Navigli, Roberto},
+  year = {2021},
+  month = aug,
+  pages = {3322--3335},
+  publisher = {Association for Computational Linguistics},
+  address = {Online},
+  doi = {10.18653/v1/2021.acl-long.258},
+  url = {https://aclanthology.org/2021.acl-long.258},
+  urldate = {2024-03-19},
+  abstract = {Natural language is compositional; the meaning of a sentence is a function of the meaning of its parts. This property allows humans to create and interpret novel sentences, generalizing robustly outside their prior experience. Neural networks have been shown to struggle with this kind of generalization, in particular performing poorly on tasks designed to assess compositional generalization (i.e. where training and testing distributions differ in ways that would be trivial for a compositional strategy to resolve). Their poor performance on these tasks may in part be due to the nature of supervised learning which assumes training and testing data to be drawn from the same distribution. We implement a meta-learning augmented version of supervised learning whose objective directly optimizes for out-of-distribution generalization. We construct pairs of tasks for meta-learning by sub-sampling existing training data. Each pair of tasks is constructed to contain relevant examples, as determined by a similarity metric, in an effort to inhibit models from memorizing their input. Experimental results on the COGS and SCAN datasets show that our similarity-driven meta-learning can improve generalization performance.},
+  file = {/Users/shanest/sync/library/Conklin et al/2021/Conklin et al. - 2021 - Meta-Learning to Compositionally Generalize.pdf}
+}
+
+@inproceedings{csordasDevilDetailSimple2021,
+  title = {The {{Devil}} Is in the {{Detail}}: {{Simple Tricks Improve Systematic Generalization}} of {{Transformers}}},
+  shorttitle = {The {{Devil}} Is in the {{Detail}}},
+  booktitle = {Proceedings of the 2021 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}},
+  author = {Csord{\'a}s, R{\'o}bert and Irie, Kazuki and Schmidhuber, Juergen},
+  editor = {Moens, Marie-Francine and Huang, Xuanjing and Specia, Lucia and Yih, Scott Wen-tau},
+  year = {2021},
+  month = nov,
+  pages = {619--634},
+  publisher = {Association for Computational Linguistics},
+  address = {Online and Punta Cana, Dominican Republic},
+  doi = {10.18653/v1/2021.emnlp-main.49},
+  url = {https://aclanthology.org/2021.emnlp-main.49},
+  urldate = {2024-03-19},
+  abstract = {Recently, many datasets have been proposed to test the systematic generalization ability of neural networks. The companion baseline Transformers, typically trained with default hyper-parameters from standard tasks, are shown to fail dramatically. Here we demonstrate that by revisiting model configurations as basic as scaling of embeddings, early stopping, relative positional embedding, and Universal Transformer variants, we can drastically improve the performance of Transformers on systematic generalization. We report improvements on five popular datasets: SCAN, CFQ, PCFG, COGS, and Mathematics dataset. Our models improve accuracy from 50\% to 85\% on the PCFG productivity split, and from 35\% to 81\% on COGS. On SCAN, relative positional embedding largely mitigates the EOS decision problem (Newman et al., 2020), yielding 100\% accuracy on the length split with a cutoff at 26. Importantly, performance differences between these models are typically invisible on the IID data split. This calls for proper generalization validation sets for developing neural networks that generalize systematically. We publicly release the code to reproduce our results.},
+  file = {/Users/shanest/sync/library/Csordás et al/2021/Csordás et al. - 2021 - The Devil is in the Detail Simple Tricks Improve .pdf}
 }
 
 @inproceedings{drozdovCompositionalSemanticParsing2023,
@@ -101,6 +168,53 @@
   urldate = {2011-10-31},
   abstract = {This paper explores differences between Connectionist proposals for cognitive architecture and the sorts of models that have traditionally been assumed in cognitive science. We claim that the major distinction is that, while both Connectionist and Classical architectures postulate representational mental states, the latter but not the former are committed to a symbol-level of representation, or to a `language of thought': i.e., to representational states that have combinatorial syntactic and semantic structure. Several arguments for combinatorial structure in mental representations are then reviewed. These include arguments based on the `systematicity' of mental representation: i.e., on the fact that cognitive capacities always exhibit certain symmetries, so that the ability to entertain a given thought implies the ability to entertain thoughts with semantically related contents. We claim that such arguments make a powerful case that mind/brain architecture is not Connectionist at the cognitive level. We then consider the possibility that Connectionism may provide an account of the neural (or `abstract neurological') structures in which Classical cognitive architecture is implemented. We survey a number of the standard arguments that have been offered in favor of Connectionism, and conclude that they are coherent only on this interpretation.},
   file = {/Users/shanest/sync/library/Fodor_Pylyshyn/1988/Fodor and Pylyshyn - 1988 - Connectionism and Cognitive Architecture.pdf}
+}
+
+@inproceedings{gordonPermutationEquivariantModels2019,
+  title = {Permutation {{Equivariant Models}} for {{Compositional Generalization}} in {{Language}}},
+  booktitle = {International {{Conference}} on {{Learning Representations}}},
+  author = {Gordon, Jonathan and {Lopez-Paz}, David and Baroni, Marco and Bouchacourt, Diane},
+  year = {2019},
+  month = sep,
+  url = {https://openreview.net/forum?id=SylVNerFvr},
+  urldate = {2024-03-19},
+  abstract = {Humans understand novel sentences by composing meanings and roles of core language components. In contrast, neural network models for natural language modeling fail when such compositional generalization is required. The main contribution of this paper is to hypothesize that language compositionality is a form of group-equivariance. Based on this hypothesis, we propose a set of tools for constructing equivariant sequence-to-sequence models. Throughout a variety of experiments on the SCAN tasks, we analyze the behavior of existing models under the lens of equivariance, and demonstrate that our equivariant architecture is able to achieve the type compositional generalization required in human language understanding.},
+  langid = {english},
+  file = {/Users/shanest/sync/library/Gordon et al/2019/Gordon et al. - 2019 - Permutation Equivariant Models for Compositional G.pdf}
+}
+
+@inproceedings{herzigSpanbasedSemanticParsing2021,
+  title = {Span-Based {{Semantic Parsing}} for {{Compositional Generalization}}},
+  booktitle = {Proceedings of the 59th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}} and the 11th {{International Joint Conference}} on {{Natural Language Processing}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Herzig, Jonathan and Berant, Jonathan},
+  editor = {Zong, Chengqing and Xia, Fei and Li, Wenjie and Navigli, Roberto},
+  year = {2021},
+  month = aug,
+  pages = {908--921},
+  publisher = {Association for Computational Linguistics},
+  address = {Online},
+  doi = {10.18653/v1/2021.acl-long.74},
+  url = {https://aclanthology.org/2021.acl-long.74},
+  urldate = {2024-03-19},
+  abstract = {Despite the success of sequence-to-sequence (seq2seq) models in semantic parsing, recent work has shown that they fail in compositional generalization, i.e., the ability to generalize to new structures built of components observed during training. In this work, we posit that a span-based parser should lead to better compositional generalization. we propose SpanBasedSP, a parser that predicts a span tree over an input utterance, explicitly encoding how partial programs compose over spans in the input. SpanBasedSP extends Pasupat et al. (2019) to be comparable to seq2seq models by (i) training from programs, without access to gold trees, treating trees as latent variables, (ii) parsing a class of non-projective trees through an extension to standard CKY. On GeoQuery, SCAN and CLOSURE datasets, SpanBasedSP performs similarly to strong seq2seq baselines on random splits, but dramatically improves performance compared to baselines on splits that require compositional generalization: from 61.0 {$\rightarrow$} 88.9 average accuracy.},
+  file = {/Users/shanest/Zotero/storage/RG4I46J8/Herzig and Berant - 2021 - Span-based Semantic Parsing for Compositional Gene.pdf}
+}
+
+@inproceedings{hosseiniCompositionalGeneralizationGap2022,
+  title = {On the {{Compositional Generalization Gap}} of {{In-Context Learning}}},
+  booktitle = {Proceedings of the {{Fifth BlackboxNLP Workshop}} on {{Analyzing}} and {{Interpreting Neural Networks}} for {{NLP}}},
+  author = {Hosseini, Arian and Vani, Ankit and Bahdanau, Dzmitry and Sordoni, Alessandro and Courville, Aaron},
+  editor = {Bastings, Jasmijn and Belinkov, Yonatan and Elazar, Yanai and Hupkes, Dieuwke and Saphra, Naomi and Wiegreffe, Sarah},
+  year = {2022},
+  month = dec,
+  pages = {272--280},
+  publisher = {Association for Computational Linguistics},
+  address = {Abu Dhabi, United Arab Emirates (Hybrid)},
+  doi = {10.18653/v1/2022.blackboxnlp-1.22},
+  url = {https://aclanthology.org/2022.blackboxnlp-1.22},
+  urldate = {2024-03-19},
+  abstract = {Pretrained large generative language models have shown great performance on many tasks, but exhibit low compositional generalization abilities. Scaling such models has been shown to improve their performance on various NLP tasks even just by conditioning them on a few examples to solve the task without any fine-tuning (also known as in-context learning). In this work, we look at the gap between the in-distribution (ID) and out-of-distribution (OOD) performance of such models in semantic parsing tasks with in-context learning. In the ID settings, the demonstrations are from the same split (test or train) that the model is being evaluated on, and in the OOD settings, they are from the other split. We look at how the relative generalization gap of in-context learning evolves as models are scaled up. We evaluate four model families, OPT, BLOOM, CodeGen and Codex on three semantic parsing datasets, CFQ, SCAN and GeoQuery with different number of exemplars, and observe a trend of decreasing relative generalization gap as models are scaled up.},
+  file = {/Users/shanest/sync/library/Hosseini et al/2022/Hosseini et al. - 2022 - On the Compositional Generalization Gap of In-Cont.pdf}
 }
 
 @article{hupkesCompositionalityDecomposedHow2020,
@@ -155,6 +269,20 @@
   abstract = {State-of-the-art machine learning methods exhibit limited compositional generalization. At the same time, there is a lack of realistic benchmarks that comprehensively measure this ability, which makes it challenging to find and evaluate improvements. We introduce a novel method to systematically construct such benchmarks by maximizing compound divergence while guaranteeing a small atom divergence between train and test sets, and we quantitatively compare this method to other approaches for creating compositional generalization benchmarks. We present a large and realistic natural language question answering dataset that is constructed according to this method, and we use it to analyze the compositional generalization ability of three machine learning architectures. We find that they fail to generalize compositionally and that there is a surprisingly strong negative correlation between compound divergence and accuracy. We also demonstrate how our method can be used to create new compositionality benchmarks on top of the existing SCAN dataset, which confirms these findings.},
   langid = {english},
   file = {/Users/shanest/sync/library/Keysers et al/2019/Keysers et al. - 2019 - Measuring Compositional Generalization A Comprehe.pdf}
+}
+
+@inproceedings{kharitonovWhatTheyWhen2020,
+  title = {What They Do When in Doubt: A Study of Inductive Biases in Seq2seq Learners},
+  shorttitle = {What They Do When in Doubt},
+  booktitle = {International {{Conference}} on {{Learning Representations}}},
+  author = {Kharitonov, Eugene and Chaabouni, Rahma},
+  year = {2020},
+  month = oct,
+  url = {https://openreview.net/forum?id=YmA86Zo-P_t},
+  urldate = {2024-03-19},
+  abstract = {Sequence-to-sequence (seq2seq) learners are widely used, but we still have only limited knowledge about what inductive biases shape the way they generalize. We address that by investigating how popular seq2seq learners generalize in tasks that have high ambiguity in the training data. We use four new tasks to study learners' preferences for memorization, arithmetic, hierarchical, and compositional reasoning. Further, we connect to Solomonoff's theory of induction and propose to use description length as a principled and sensitive measure of inductive biases. In our experimental study, we find that LSTM-based learners can learn to perform counting, addition, and multiplication by a constant from a single training example. Furthermore, Transformer and LSTM-based learners show a bias toward the hierarchical induction over the linear one, while CNN-based learners prefer the opposite. The latter also show a bias toward a compositional generalization over memorization. Finally, across all our experiments, description length proved to be a sensitive measure of inductive biases.},
+  langid = {english},
+  file = {/Users/shanest/Zotero/storage/GCYIGIP8/Kharitonov and Chaabouni - 2020 - What they do when in doubt a study of inductive b.pdf}
 }
 
 @inproceedings{kimCOGSCompositionalGeneralization2020,
@@ -223,6 +351,22 @@
   file = {/Users/shanest/sync/library/Lake_Baroni/2018/Lake and Baroni - 2018 - Generalization without Systematicity On the Compo2.pdf;/Users/shanest/sync/library/Lake_Baroni/2018/Lake and Baroni - 2018 - Generalization without Systematicity On the Compo3.pdf}
 }
 
+@inproceedings{lakeHumanFewshotLearning2019,
+  title = {Human Few-Shot Learning of Compositional Instructions},
+  booktitle = {Proceedings of the 41st {{Annual Conference}} of the {{Cognitive Science Society}}},
+  author = {Lake, Brenden M. and Linzen, Tal and Baroni, Marco},
+  year = {2019},
+  month = may,
+  eprint = {1901.04587},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/1901.04587},
+  urldate = {2024-03-19},
+  abstract = {People learn in fast and flexible ways that have not been emulated by machines. Once a person learns a new verb "dax," he or she can effortlessly understand how to "dax twice," "walk and dax," or "dax vigorously." There have been striking recent improvements in machine learning for natural language processing, yet the best algorithms require vast amounts of experience and struggle to generalize new concepts in compositional ways. To better understand these distinctively human abilities, we study the compositional skills of people through language-like instruction learning tasks. Our results show that people can learn and use novel functional concepts from very few examples (few-shot learning), successfully applying familiar functions to novel inputs. People can also compose concepts in complex ways that go beyond the provided demonstrations. Two additional experiments examined the assumptions and inductive biases that people make when solving these tasks, revealing three biases: mutual exclusivity, one-to-one mappings, and iconic concatenation. We discuss the implications for cognitive modeling and the potential for building machines with more human-like language learning capabilities.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {/Users/shanest/sync/library/Lake et al/2019/Lake et al. - 2019 - Human few-shot learning of compositional instructi.pdf;/Users/shanest/Zotero/storage/82PMFXNQ/1901.html}
+}
+
 @article{lakeHumanlikeSystematicGeneralization2023a,
   title = {Human-like Systematic Generalization through a Meta-Learning Neural Network},
   author = {Lake, Brenden M. and Baroni, Marco},
@@ -244,6 +388,40 @@
   file = {/Users/shanest/sync/library/Lake_Baroni/2023/Lake and Baroni - 2023 - Human-like systematic generalization through a met.pdf}
 }
 
+@inproceedings{liCompositionalGeneralizationNeural2021,
+  title = {On {{Compositional Generalization}} of {{Neural Machine Translation}}},
+  booktitle = {Proceedings of the 59th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}} and the 11th {{International Joint Conference}} on {{Natural Language Processing}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Li, Yafu and Yin, Yongjing and Chen, Yulong and Zhang, Yue},
+  editor = {Zong, Chengqing and Xia, Fei and Li, Wenjie and Navigli, Roberto},
+  year = {2021},
+  month = aug,
+  pages = {4767--4780},
+  publisher = {Association for Computational Linguistics},
+  address = {Online},
+  doi = {10.18653/v1/2021.acl-long.368},
+  url = {https://aclanthology.org/2021.acl-long.368},
+  urldate = {2024-03-19},
+  abstract = {Modern neural machine translation (NMT) models have achieved competitive performance in standard benchmarks such as WMT. However, there still exist significant issues such as robustness, domain generalization, etc. In this paper, we study NMT models from the perspective of compositional generalization by building a benchmark dataset, CoGnition, consisting of 216k clean and consistent sentence pairs. We quantitatively analyze effects of various factors using compound translation error rate, then demonstrate that the NMT model fails badly on compositional generalization, although it performs remarkably well under traditional metrics.},
+  file = {/Users/shanest/sync/library/Li et al/2021/Li et al. - 2021 - On Compositional Generalization of Neural Machine .pdf}
+}
+
+@inproceedings{liCompositionalGeneralizationPrimitive2019,
+  title = {Compositional {{Generalization}} for {{Primitive Substitutions}}},
+  booktitle = {Proceedings of the 2019 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}} and the 9th {{International Joint Conference}} on {{Natural Language Processing}} ({{EMNLP-IJCNLP}})},
+  author = {Li, Yuanpeng and Zhao, Liang and Wang, Jianyu and Hestness, Joel},
+  editor = {Inui, Kentaro and Jiang, Jing and Ng, Vincent and Wan, Xiaojun},
+  year = {2019},
+  month = nov,
+  pages = {4293--4302},
+  publisher = {Association for Computational Linguistics},
+  address = {Hong Kong, China},
+  doi = {10.18653/v1/D19-1438},
+  url = {https://aclanthology.org/D19-1438},
+  urldate = {2024-03-19},
+  abstract = {Compositional generalization is a basic mechanism in human language learning, but current neural networks lack such ability. In this paper, we conduct fundamental research for encoding compositionality in neural networks. Conventional methods use a single representation for the input sentence, making it hard to apply prior knowledge of compositionality. In contrast, our approach leverages such knowledge with two representations, one generating attention maps, and the other mapping attended input words to output symbols. We reduce the entropy in each representation to improve generalization. Our experiments demonstrate significant improvements over the conventional methods in five NLP tasks including instruction learning and machine translation. In the SCAN domain, it boosts accuracies from 14.0\% to 98.8\% in Jump task, and from 92.0\% to 99.7\% in TurnLeft task. It also beats human performance on a few-shot learning task. We hope the proposed approach can help ease future research towards human-level compositional language learning.},
+  file = {/Users/shanest/sync/library/Li et al/2019/Li et al. - 2019 - Compositional Generalization for Primitive Substit.pdf}
+}
+
 @inproceedings{liSLOGStructuralGeneralization2023,
   title = {{{SLOG}}: {{A Structural Generalization Benchmark}} for {{Semantic Parsing}}},
   shorttitle = {{{SLOG}}},
@@ -262,6 +440,22 @@
   file = {/Users/shanest/sync/library/Li et al/2023/Li et al. - 2023 - SLOG A Structural Generalization Benchmark for Se.pdf}
 }
 
+@inproceedings{liuCompositionalGeneralizationLearning2020,
+  title = {Compositional Generalization by Learning Analytical Expressions},
+  booktitle = {Proceedings of the 34th {{International Conference}} on {{Neural Information Processing Systems}}},
+  author = {Liu, Qian and An, Shengnan and Lou, Jian-Guang and Chen, Bei and Lin, Zeqi and Gao, Yan and Zhou, Bin and Zheng, Nanning and Zhang, Dongmei},
+  year = {2020},
+  month = dec,
+  series = {{{NIPS}}'20},
+  pages = {11416--11427},
+  publisher = {Curran Associates Inc.},
+  address = {Red Hook, NY, USA},
+  urldate = {2024-03-19},
+  abstract = {Compositional generalization is a basic and essential intellective capability of human beings, which allows us to recombine known parts readily. However, existing neural network based models have been proven to be extremely deficient in such a capability. Inspired by work in cognition which argues compositionality can be captured by variable slots with symbolic functions, we present a refreshing view that connects a memory-augmented neural model with analytical expressions, to achieve compositional generalization. Our model consists of two cooperative neural modules, Composer and Solver, fitting well with the cognitive argument while being able to be trained in an end-to-end manner via a hierarchical reinforcement learning algorithm. Experiments on the well-known benchmark SCAN demonstrate that our model seizes a great ability of compositional generalization, solving all challenges addressed by previous works with 100\% accuracies.},
+  isbn = {978-1-71382-954-6},
+  file = {/Users/shanest/sync/library/Liu et al/2020/Liu et al. - 2020 - Compositional generalization by learning analytica.pdf}
+}
+
 @inproceedings{mordatchEmergenceGroundedCompositional2018,
   title = {Emergence of {{Grounded Compositional Language}} in {{Multi-Agent Populations}}},
   booktitle = {Proceedings of the {{AAAI Conference}} on {{Artificial Intelligence}}},
@@ -277,6 +471,37 @@
   langid = {english},
   keywords = {Language Emergence},
   file = {/Users/shanest/sync/library/Mordatch_Abbeel/2018/Mordatch and Abbeel - 2018 - Emergence of Grounded Compositional Language in Mu.pdf;/Users/shanest/Zotero/storage/ZMYMA7FP/Mordatch and Abbeel - 2018 - Emergence of Grounded Compositional Language in Mu.pdf}
+}
+
+@inproceedings{nyeLearningCompositionalRules2020,
+  title = {Learning {{Compositional Rules}} via {{Neural Program Synthesis}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Nye, Maxwell and {Solar-Lezama}, Armando and Tenenbaum, Josh and Lake, Brenden M},
+  year = {2020},
+  volume = {33},
+  pages = {10832--10842},
+  publisher = {Curran Associates, Inc.},
+  url = {https://papers.nips.cc/paper/2020/hash/7a685d9edd95508471a9d3d6fcace432-Abstract.html},
+  urldate = {2024-03-19},
+  abstract = {Many aspects of human reasoning, including language, require learning rules from very little data. Humans can do this, often learning systematic rules from very few examples, and combining these rules to form compositional rule-based systems. Current neural architectures, on the other hand, often fail to generalize in a compositional manner, especially when evaluated in ways that vary systematically from training. In this work, we present a neuro-symbolic model which learns entire rule systems from a small set of examples. Instead of directly predicting outputs from inputs, we train our model to induce the explicit system of rules governing a set of previously seen examples, drawing upon techniques from the neural program synthesis literature. Our rule-synthesis approach outperforms neural meta-learning techniques in three domains: an artificial instruction-learning domain used to evaluate human learning, the SCAN challenge datasets, and learning rule-based translations of number words into integers for a wide range of human languages.},
+  file = {/Users/shanest/sync/library/Nye et al/2020/Nye et al. - 2020 - Learning Compositional Rules via Neural Program Sy.pdf}
+}
+
+@inproceedings{ontanonMakingTransformersSolve2022,
+  title = {Making {{Transformers Solve Compositional Tasks}}},
+  booktitle = {Proceedings of the 60th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Ontanon, Santiago and Ainslie, Joshua and Fisher, Zachary and Cvicek, Vaclav},
+  editor = {Muresan, Smaranda and Nakov, Preslav and Villavicencio, Aline},
+  year = {2022},
+  month = may,
+  pages = {3591--3607},
+  publisher = {Association for Computational Linguistics},
+  address = {Dublin, Ireland},
+  doi = {10.18653/v1/2022.acl-long.251},
+  url = {https://aclanthology.org/2022.acl-long.251},
+  urldate = {2024-03-19},
+  abstract = {Several studies have reported the inability of Transformer models to generalize compositionally, a key type of generalization in many NLP tasks such as semantic parsing. In this paper we explore the design space of Transformer models showing that the inductive biases given to the model by several design decisions significantly impact compositional generalization. We identified Transformer configurations that generalize compositionally significantly better than previously reported in the literature in many compositional tasks. We achieve state-of-the-art results in a semantic parsing compositional generalization benchmark (COGS), and a string edit operation composition benchmark (PCFG).},
+  file = {/Users/shanest/sync/library/Ontanon et al/2022/Ontanon et al. - 2022 - Making Transformers Solve Compositional Tasks.pdf}
 }
 
 @article{paginCompositionalityDefinitionsVariants2010,
@@ -370,6 +595,19 @@
   file = {/Users/shanest/sync/library/Ruis et al/2020/Ruis et al. - 2020 - A Benchmark for Systematic Generalization in Groun.pdf}
 }
 
+@inproceedings{saparovTestingGeneralDeductive2023,
+  title = {Testing the {{General Deductive Reasoning Capacity}} of {{Large Language Models Using OOD Examples}}},
+  booktitle = {Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}},
+  author = {Saparov, Abulhair and Pang, Richard Yuanzhe and Padmakumar, Vishakh and Joshi, Nitish and Kazemi, Mehran and Kim, Najoung and He, He},
+  year = {2023},
+  month = nov,
+  url = {https://openreview.net/forum?id=MCVfX7HgPO&referrer=%5Bthe%20profile%20of%20He%20He%5D(%2Fprofile%3Fid%3D~He_He2)},
+  urldate = {2024-03-19},
+  abstract = {Given the intractably large size of the space of proofs, any model that is capable of general deductive reasoning must generalize to proofs of greater complexity. Recent studies have shown that large language models (LLMs) possess some abstract deductive reasoning ability given chain-of-thought prompts. However, they have primarily been tested on proofs using modus ponens or of a specific size, and from the same distribution as the in-context examples. To measure the general deductive reasoning ability of LLMs, we test on a broad set of deduction rules and measure their ability to generalize to more complex proofs from simpler demonstrations from multiple angles: depth-, width-, and compositional generalization. To facilitate systematic exploration, we construct a new synthetic and programmable reasoning dataset that enables control over deduction rules and proof complexity. Our experiments on four LLMs of various sizes and training objectives show that they are able to generalize to compositional proofs. However, they have difficulty generalizing to longer proofs, and they require explicit demonstrations to produce hypothetical subproofs, specifically in proof by cases and proof by contradiction.},
+  langid = {english},
+  file = {/Users/shanest/sync/library/Saparov et al/2023/Saparov et al. - 2023 - Testing the General Deductive Reasoning Capacity o.pdf}
+}
+
 @article{schlenkerFormalMonkeyLinguistics2016,
   title = {Formal Monkey Linguistics},
   author = {Schlenker, Philippe and Chemla, Emmanuel and Schel, Anne M and Fuller, James and Gautier, Jean-Pierre and Kuhn, Jeremy and Veselinovi{\textbackslash}'c, Dunja and Arnold, Kate and C{\textbackslash}"asar, Cristiane and Keenan, Sumir and Lemasson, Alban and Ouattara, Karim and Ryder, Robin and Zuberb{\textbackslash}"uhler, Klaus},
@@ -395,6 +633,24 @@
   keywords = {animal linguistics,animal semantics,bird calls,compositionality,implicatures,informativity principle,meerkat calls,minimal compositionality,morphology,semantics,syntax},
   annotation = {LingBuzz Published In: To appear in Biological Reviews},
   file = {/Users/shanest/sync/library/Schlenker et al/2024/Schlenker et al. - 2024 - Minimal Compositionality versus Bird Implicatures.pdf;/Users/shanest/Zotero/storage/DW8DDL8T/007422.html}
+}
+
+@inproceedings{shawCompositionalGeneralizationNatural2021,
+  title = {Compositional {{Generalization}} and {{Natural Language Variation}}: {{Can}} a {{Semantic Parsing Approach Handle Both}}?},
+  shorttitle = {Compositional {{Generalization}} and {{Natural Language Variation}}},
+  booktitle = {Proceedings of the 59th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}} and the 11th {{International Joint Conference}} on {{Natural Language Processing}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Shaw, Peter and Chang, Ming-Wei and Pasupat, Panupong and Toutanova, Kristina},
+  editor = {Zong, Chengqing and Xia, Fei and Li, Wenjie and Navigli, Roberto},
+  year = {2021},
+  month = aug,
+  pages = {922--938},
+  publisher = {Association for Computational Linguistics},
+  address = {Online},
+  doi = {10.18653/v1/2021.acl-long.75},
+  url = {https://aclanthology.org/2021.acl-long.75},
+  urldate = {2024-03-19},
+  abstract = {Sequence-to-sequence models excel at handling natural language variation, but have been shown to struggle with out-of-distribution compositional generalization. This has motivated new specialized architectures with stronger compositional biases, but most of these approaches have only been evaluated on synthetically-generated datasets, which are not representative of natural language variation. In this work we ask: can we develop a semantic parsing approach that handles both natural language variation and compositional generalization? To better assess this capability, we propose new train and test splits of non-synthetic datasets. We demonstrate that strong existing approaches do not perform well across a broad set of evaluations. We also propose NQG-T5, a hybrid model that combines a high-precision grammar-based approach with a pre-trained sequence-to-sequence model. It outperforms existing approaches across several compositional generalization challenges on non-synthetic data, while also being competitive with the state-of-the-art on standard evaluations. While still far from solving this problem, our study highlights the importance of diverse evaluations and the open challenge of handling both compositional generalization and natural language variation in semantic parsing.},
+  file = {/Users/shanest/sync/library/Shaw et al/2021/Shaw et al. - 2021 - Compositional Generalization and Natural Language .pdf}
 }
 
 @article{smithLinguisticStructureEvolutionary2013,
