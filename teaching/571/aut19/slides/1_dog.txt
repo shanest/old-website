@@ -1,1 +1,0 @@
-[S [NP [Det The] [Nom [N dog]]] [VP [V bit] [NP [Det the] [Nom [N man]]]]]
