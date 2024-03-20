@@ -1,0 +1,128 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{LING 575K HW4}
+\date{\vspace{-0.2in}Due 11PM on Apr 29, 2021}
+\maketitle
+
+
+\noindent In this assignment, you will 
+\begin{itemize}
+  \item Develop your understanding of feed-forward networks for text classification
+  \item Implement the Deep Averaging Network
+  \item Understand a more sophisticated optimizer than vanilla SGD
+  \item Explore some regularization techniques
+\end{itemize}
+
+
+\section{Implementing the Deep Averaging Network + Loss [40 pts]}
+
+\noindent {\bf Q1: Implement bag of words representation }  The input to a DAN model is a \emph{bag of words}: a vector (a batch of such vectors, really) with counts of the vocabulary items at the corresponding indices (see slide 14 in lecture 6).   \hfill [5 pts]
+
+\noindent In \texttt{data.py}, implement the building of this representation in \texttt{SSTClassificationDataset.example\_to\_tensors}.
+
+
+\vspace{2em}
+\noindent {\bf Q2: Implement DeepAveragingNetwork.forward}  In \texttt{model.py}, you will find the skeleton of a Deep Averaging Network (with two hidden layers).  In particular, we have implemented the initialization of the Module.  You need to implement the forward method, which takes two inputs: a batch of bag-of-words representations and a list of lengths, and then outputs scores for each class label for each row in the batch.  See the doc-string for more information.  Note: the edugrad repository (and the slides for HW4) has an example of implementing forward for an MLP that you can use for inspiration. \hfill [15 pts]
+
+
+\vspace{2em}
+\noindent {\bf Q3: Cross Entropy Loss}  In \texttt{ops.py}, you will find some ops already defined, and some for you to implement.
+\begin{itemize}
+  \item Implement the \texttt{exp} op. \hfill [6 pts]
+  \item Implement the \texttt{softmax\_rows} method.  Note: you should be using already defined ops/methods to define this method, so there's no separate backward here. \hfill [4 pts]
+  \item Implement \texttt{cross\_entropy\_loss}.  The same note above applies here. \hfill [10 pts]
+\end{itemize}
+
+
+\section{Implementing Adagrad [15 pts]}
+
+Recall from the lecture on DANs the update rule for Adagrad:
+\begin{align*}
+  \theta_{t+1, i} &= \theta_{t, i} - \frac{\alpha}{\sqrt{G_{t, i} + \epsilon}} g_{t, i}
+  \\
+  G_{t, i} &= \sum_{k=0}^t g_{k, i}^2
+  \\
+  \text{where } g_{t, i} &:= \nabla_{\theta_{t,i}} \mathcal{L}(\theta_t)
+\end{align*}
+In \texttt{optim.py}, please implement this update rule by incrementing $G_{t, i}$, computing the adjusted learning rate, and finally updating the parameter values.  Note: you can look at edugrad.optim.SGD for an example step method.
+
+
+\section{Running the Deep Averaging Network [20 pts]}
+
+In \texttt{run.py}, you will find a basic training loop for building a DAN and training it on the Stanford Sentiment Treebank.  There are several command-line arguments specifying different arguments.  The default arguments for various hyper-parameters are:
+\begin{itemize}
+  \item Hidden dimension: 50
+  \item Embedding dimension: 50
+  \item Batch size: 32
+  \item Number of epochs: 6
+  \item Word dropout: 0.0 [i.e. no word dropout is applied]
+  \item $L_2$ regularization: 0.0 [i.e. no regularization is applied]
+\end{itemize}
+Each run will print to stdout (and, therefore, the output file you specify in your condor job script) the training and dev set loss for each epoch, and then the final model's accuracy on the dev set.
+
+\vspace{2em}
+\noindent {\bf Q1: Run 1, default arguments} Run the main training loop by calling \texttt{run.py} with all of the default arguments.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here: 
+
+\vspace{4em}
+
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you? \hfill [5 pts]
+
+
+\vspace{2em}
+\noindent {\bf Q2: Run 2, $L_2$ regularization} Recall that $L_2$ regularization adds a penalty to the loss function corresponding to the size of the model's parameters:
+\[ \mathcal{L}'(\theta, y) = \mathcal{L}(\theta, y) + \lambda \|\theta\|^2 \]
+Run the main training loop by calling \texttt{run.py}, but with the $L_2$ parameter set to $1\times10^{-5}$ (this corresponds to $\lambda$ in the above equation).  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
+
+\vspace{4em}
+
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you? \hfill [5 pts]
+
+
+\vspace{2em}
+\noindent {\bf Q3: Run 3, $L_2$ regularization + Word Dropout} Recall that word dropout randomly drops some percentage of word embeddings from the input.
+Run the main training loop by calling \texttt{run.py}, but with the $L_2$ parameter set to $1\times10^{-5}$ and word dropout set to $0.3$.  Record the outputs of this run (per epoch train/dev loss, final dev accuracy) here:
+
+\vspace{4em}
+
+\noindent In 2-3 sentences, describe any trends that you see in the training and dev set losses over the course of training, and any differences between the two.  What do these trends suggest to you? \hfill [5 pts]
+
+
+\vspace{2em}
+\noindent {\bf Q4: Cross-run comparison} What trends do you notice in these metrics across the three runs?  What do they suggest to you about the impact of these hyperparameters on the model's performance? \hfill [5 pts]
+
+
+
+\section{Testing your code}
+
+In the dropbox folder for this assignment, we will include a file \texttt{test\_all.py} with a few very simple unit tests for the methods that you need to implement.  You can verify that your code passes the tests by running \texttt{pytest} from your code's directory, with the course's conda environment activated.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Submission Instructions}
+
+In your submission, include the following:
+\begin{itemize}
+  \item readme.(txt$\mid$pdf) that includes your answers to \S3. 
+  \item \texttt{hw4.tar.gz} containing:
+  \begin{itemize}
+    \item run\_hw4.sh.  This should contain the code for activating the conda environment and your three run commands for \S3 above.  You can use run\_hw2.sh from the previous assignment as a template.
+    \item data.py
+    \item model.py
+    \item ops.py
+    \item optim.py
+  \end{itemize}
+\end{itemize}
+
+
+
+
+
+\end{document}
+
+
+

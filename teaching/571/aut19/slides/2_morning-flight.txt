@@ -1,0 +1,1 @@
+[S [NP [Pro I]] [VP [V prefer] [NP [Det a] [Nom [Noun morning] [Noun flight]]]]]

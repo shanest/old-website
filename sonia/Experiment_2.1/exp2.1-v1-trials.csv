@@ -1,0 +1,3181 @@
+workerid,color,proportion,read_and_decide_time,quant,read_time_one,response,side
+0,"""blue""","""b7_y8""",2281,"""All""",1360,false,9
+0,"""yellow""","""b24_y20""",1425,"""Some""",1272,true,9
+0,"""blue""","""b12_y16""",1160,"""None""",896,false,8
+0,"""yellow""","""b18_y16""",7600,"""An even number""",841,false,8
+0,"""blue""","""b15_y30""",1864,"""At least ten""",553,true,9
+0,"""yellow""","""b6_y9""",2977,"""Some""",848,true,8
+0,"""yellow""","""b5_y10""",1217,"""Few""",975,true,1
+0,"""blue""","""b18_y12""",5279,"""Fewer than half""",1376,false,9
+0,"""blue""","""b18_y15""",1520,"""Few""",1377,false,5
+0,"""blue""","""b20_y24""",2056,"""More""",2055,false,2
+0,"""yellow""","""b18_y16""",1635,"""Most""",920,false,4
+0,"""blue""","""b24_y20""",2816,"""Fewer than half""",1176,false,5
+0,"""yellow""","""b27_y24""",1816,"""More""",1592,true,6
+0,"""yellow""","""b8_y9""",2073,"""More""",1120,true,0
+0,"""yellow""","""b16_y18""",1289,"""Most""",952,false,5
+0,"""blue""","""b10_y20""",3367,"""Fewer than half""",1680,true,3
+0,"""blue""","""b20_y24""",1624,"""More""",1312,false,4
+0,"""blue""","""b24_y20""",1168,"""Many""",1392,true,7
+0,"""yellow""","""b27_y24""",1105,"""Many""",977,true,1
+0,"""yellow""","""b8_y9""",1705,"""More""",1624,true,3
+0,"""yellow""","""b6_y9""",3128,"""More than half""",2200,true,5
+0,"""blue""","""b24_y20""",1592,"""More""",1288,false,8
+0,"""yellow""","""b8_y9""",1520,"""Most""",1056,true,6
+0,"""yellow""","""b8_y7""",3047,"""More than half""",1391,false,7
+0,"""blue""","""b18_y27""",1759,"""Fewer than half""",1408,false,7
+0,"""yellow""","""b5_y10""",3553,"""More than half""",1745,false,3
+0,"""yellow""","""b20_y24""",4408,"""Most""",1383,false,7
+0,"""blue""","""b8_y7""",1432,"""Many""",1024,true,4
+0,"""blue""","""b8_y9""",3519,"""Fewer than half""",1353,false,7
+0,"""yellow""","""b18_y15""",2168,"""More than half""",1001,false,6
+0,"""blue""","""b6_y8""",1657,"""Many""",960,false,4
+0,"""blue""","""b5_y6""",1729,"""Few""",1600,false,8
+0,"""blue""","""b6_y5""",1808,"""Few""",1024,false,5
+0,"""blue""","""b8_y6""",905,"""Many""",1113,true,2
+0,"""blue""","""b12_y18""",793,"""Few""",992,false,8
+0,"""yellow""","""b9_y6""",992,"""Many""",800,true,7
+0,"""blue""","""b21_y24""",1952,"""Most""",1256,false,2
+0,"""yellow""","""b15_y30""",943,"""More""",1295,true,2
+0,"""blue""","""b21_y24""",992,"""Fewer than half""",1944,false,5
+0,"""yellow""","""b27_y18""",1088,"""More""",1272,true,4
+0,"""yellow""","""b8_y9""",1201,"""Few""",1321,false,6
+0,"""yellow""","""b21_y24""",1583,"""Fewer than half""",1256,false,1
+0,"""yellow""","""b20_y10""",1079,"""Most""",912,false,2
+0,"""blue""","""b24_y27""",1439,"""More than half""",1167,true,2
+0,"""blue""","""b8_y9""",3064,"""Fewer than half""",1425,true,5
+0,"""yellow""","""b27_y18""",1153,"""More than half""",1728,true,8
+0,"""yellow""","""b18_y16""",2992,"""More""",1185,true,2
+0,"""blue""","""b10_y5""",3201,"""Most""",1223,true,2
+0,"""yellow""","""b6_y8""",1872,"""Fewer than half""",881,false,9
+0,"""blue""","""b27_y18""",831,"""More than half""",1160,true,4
+0,"""yellow""","""b6_y9""",881,"""Few""",1007,false,6
+0,"""blue""","""b5_y10""",1016,"""More than half""",1032,false,7
+0,"""yellow""","""b16_y12""",1655,"""More than half""",1015,false,4
+0,"""blue""","""b9_y8""",896,"""Many""",657,true,5
+0,"""blue""","""b8_y7""",753,"""Few""",879,false,3
+0,"""blue""","""b10_y5""",11433,"""More than half""",1032,true,7
+0,"""blue""","""b27_y24""",969,"""Fewer than half""",2351,false,3
+0,"""yellow""","""b6_y5""",1104,"""Most""",1167,false,3
+0,"""blue""","""b24_y18""",2903,"""Fewer than half""",1192,false,4
+0,"""blue""","""b20_y10""",1119,"""More than half""",816,true,6
+0,"""blue""","""b27_y24""",1305,"""Fewer than half""",1328,false,7
+0,"""yellow""","""b9_y8""",625,"""Few""",1455,false,6
+0,"""yellow""","""b10_y20""",583,"""Many""",872,true,2
+0,"""yellow""","""b20_y10""",1599,"""Fewer than half""",1096,true,8
+0,"""yellow""","""b12_y18""",800,"""Most""",809,true,9
+0,"""yellow""","""b10_y5""",775,"""Few""",808,false,4
+0,"""yellow""","""b24_y27""",1568,"""Fewer than half""",872,false,2
+0,"""blue""","""b6_y5""",1711,"""Few""",1824,false,3
+0,"""yellow""","""b10_y20""",1511,"""More""",1001,true,0
+0,"""blue""","""b27_y24""",1393,"""More""",977,false,4
+0,"""yellow""","""b16_y14""",1607,"""Fewer than half""",1336,true,0
+0,"""blue""","""b27_y24""",1288,"""More""",952,true,9
+0,"""blue""","""b12_y18""",2312,"""Few""",1048,true,6
+0,"""blue""","""b10_y5""",1152,"""Fewer than half""",1207,false,8
+0,"""yellow""","""b30_y15""",880,"""Most""",1031,false,1
+0,"""yellow""","""b5_y10""",887,"""More than half""",960,true,5
+0,"""yellow""","""b27_y18""",936,"""More""",959,false,4
+0,"""blue""","""b16_y18""",848,"""Fewer than half""",1056,false,4
+0,"""yellow""","""b10_y20""",2431,"""Many""",817,false,0
+0,"""blue""","""b8_y7""",2433,"""Many""",809,true,7
+0,"""blue""","""b15_y18""",936,"""Few""",928,false,1
+0,"""blue""","""b8_y6""",1513,"""Most""",1047,false,6
+0,"""yellow""","""b9_y6""",840,"""More than half""",1153,false,4
+0,"""blue""","""b5_y10""",1760,"""More""",1569,false,1
+0,"""blue""","""b21_y24""",2297,"""Many""",1328,true,2
+0,"""yellow""","""b14_y16""",1152,"""Most""",687,true,3
+0,"""blue""","""b16_y18""",1376,"""More than half""",1311,false,1
+0,"""yellow""","""b30_y15""",5233,"""Many""",785,true,2
+0,"""yellow""","""b20_y10""",2681,"""Few""",952,false,6
+0,"""yellow""","""b10_y5""",1049,"""More""",1280,false,3
+0,"""blue""","""b18_y27""",999,"""Most""",745,false,0
+0,"""blue""","""b8_y9""",2377,"""More""",952,true,6
+0,"""yellow""","""b8_y9""",2903,"""More than half""",816,false,7
+0,"""blue""","""b15_y30""",1160,"""Fewer than half""",1161,true,3
+0,"""yellow""","""b5_y6""",2304,"""More""",872,true,1
+0,"""blue""","""b15_y30""",937,"""Most""",936,false,9
+0,"""blue""","""b30_y15""",760,"""Many""",823,true,6
+0,"""blue""","""b18_y12""",720,"""More than half""",1104,true,3
+0,"""yellow""","""b24_y21""",608,"""Few""",801,false,1
+0,"""blue""","""b5_y6""",952,"""Fewer than half""",1207,true,6
+0,"""blue""","""b24_y21""",999,"""Most""",1056,true,9
+0,"""blue""","""b27_y18""",840,"""Fewer than half""",751,false,6
+0,"""blue""","""b24_y21""",3161,"""Fewer than half""",847,false,4
+0,"""yellow""","""b18_y24""",1288,"""Many""",697,true,4
+0,"""blue""","""b20_y24""",2071,"""Many""",657,true,3
+0,"""blue""","""b16_y14""",872,"""Most""",807,false,8
+0,"""blue""","""b16_y18""",1256,"""More""",1303,false,0
+0,"""yellow""","""b21_y24""",1448,"""Most""",848,true,0
+0,"""blue""","""b18_y15""",1000,"""Many""",784,true,7
+0,"""yellow""","""b9_y6""",1447,"""Many""",849,false,4
+0,"""blue""","""b6_y5""",895,"""Few""",784,false,2
+0,"""blue""","""b18_y27""",687,"""Many""",729,true,3
+0,"""blue""","""b24_y27""",2929,"""Most""",744,true,5
+0,"""yellow""","""b16_y18""",3183,"""More than half""",1145,false,9
+0,"""yellow""","""b5_y10""",599,"""Few""",736,false,8
+0,"""yellow""","""b20_y24""",791,"""Most""",1161,true,3
+0,"""yellow""","""b9_y8""",768,"""More than half""",1752,true,3
+0,"""blue""","""b10_y20""",1441,"""Most""",136,false,0
+0,"""blue""","""b10_y5""",1041,"""Most""",1249,true,9
+0,"""yellow""","""b24_y20""",1168,"""Most""",808,true,2
+0,"""blue""","""b6_y5""",1376,"""Many""",959,true,7
+0,"""blue""","""b18_y12""",1112,"""More than half""",1176,true,8
+0,"""blue""","""b15_y30""",616,"""Few""",1136,false,9
+0,"""yellow""","""b14_y16""",1169,"""Most""",871,true,8
+0,"""yellow""","""b6_y8""",1224,"""Fewer than half""",1121,false,2
+0,"""blue""","""b15_y30""",912,"""More than half""",863,false,8
+0,"""blue""","""b21_y24""",1840,"""More than half""",1111,false,9
+0,"""blue""","""b8_y6""",2048,"""Few""",1136,false,7
+0,"""yellow""","""b27_y24""",2153,"""More than half""",1097,true,3
+0,"""blue""","""b24_y20""",983,"""Many""",808,true,3
+0,"""blue""","""b24_y21""",2600,"""More""",1041,false,3
+0,"""yellow""","""b7_y8""",3375,"""Fewer than half""",1735,true,4
+0,"""blue""","""b20_y24""",1729,"""Few""",1592,false,9
+0,"""yellow""","""b18_y16""",551,"""Few""",935,false,5
+0,"""blue""","""b6_y9""",800,"""More than half""",1553,false,7
+0,"""yellow""","""b8_y9""",1432,"""Fewer than half""",1352,false,6
+0,"""blue""","""b24_y27""",536,"""Many""",736,true,7
+0,"""yellow""","""b18_y12""",1343,"""More than half""",1384,true,1
+0,"""blue""","""b20_y24""",2440,"""More""",815,true,7
+0,"""yellow""","""b27_y18""",1047,"""Many""",881,true,8
+0,"""blue""","""b24_y20""",800,"""More than half""",1648,true,0
+0,"""blue""","""b18_y24""",561,"""Few""",1104,false,9
+0,"""blue""","""b24_y21""",1336,"""Most""",784,false,7
+0,"""blue""","""b7_y8""",1233,"""Fewer than half""",1024,true,4
+0,"""blue""","""b12_y16""",799,"""Most""",833,false,4
+0,"""blue""","""b24_y20""",1569,"""More""",192,true,2
+0,"""blue""","""b14_y16""",865,"""Most""",1401,true,9
+0,"""blue""","""b16_y14""",2216,"""Many""",1416,false,6
+0,"""blue""","""b14_y16""",856,"""More""",1055,false,3
+0,"""blue""","""b21_y24""",1527,"""Fewer than half""",1072,true,9
+0,"""yellow""","""b9_y8""",1065,"""Many""",960,true,3
+0,"""yellow""","""b6_y8""",1272,"""Few""",1071,false,9
+0,"""yellow""","""b8_y9""",1448,"""More""",1199,true,9
+0,"""yellow""","""b18_y15""",1520,"""Few""",319,true,9
+0,"""yellow""","""b16_y12""",2032,"""More than half""",1304,false,4
+0,"""yellow""","""b15_y30""",1031,"""Fewer than half""",1184,false,1
+0,"""yellow""","""b16_y14""",1079,"""Many""",991,true,2
+0,"""blue""","""b18_y16""",1288,"""Most""",1232,false,1
+0,"""blue""","""b30_y15""",952,"""Most""",768,true,6
+0,"""yellow""","""b18_y24""",928,"""More than half""",1144,true,0
+0,"""blue""","""b6_y9""",752,"""Most""",1080,false,8
+0,"""yellow""","""b20_y24""",1056,"""More""",1800,true,6
+0,"""yellow""","""b20_y10""",1159,"""Most""",1055,false,8
+0,"""yellow""","""b7_y8""",1432,"""More than half""",1287,true,4
+0,"""yellow""","""b16_y14""",960,"""More than half""",999,true,9
+0,"""blue""","""b20_y24""",999,"""More than half""",1016,false,2
+0,"""blue""","""b30_y15""",520,"""More than half""",1215,true,9
+0,"""yellow""","""b12_y18""",1384,"""More than half""",1151,false,9
+0,"""yellow""","""b5_y10""",832,"""Fewer than half""",1983,false,7
+0,"""blue""","""b5_y10""",1047,"""Many""",1047,false,4
+0,"""yellow""","""b7_y8""",576,"""Few""",832,false,5
+0,"""yellow""","""b18_y15""",784,"""Most""",823,true,9
+0,"""yellow""","""b16_y12""",609,"""Few""",792,false,7
+0,"""yellow""","""b27_y18""",2207,"""Fewer than half""",1272,false,1
+0,"""yellow""","""b5_y10""",432,"""Few""",976,false,6
+0,"""yellow""","""b24_y20""",656,"""Many""",823,true,1
+0,"""blue""","""b18_y12""",1136,"""Most""",1616,true,9
+0,"""blue""","""b18_y12""",1023,"""More than half""",1329,true,8
+0,"""yellow""","""b6_y8""",664,"""Many""",745,true,9
+0,"""blue""","""b6_y9""",1175,"""Fewer than half""",1551,true,4
+0,"""yellow""","""b12_y18""",711,"""Many""",840,true,4
+0,"""yellow""","""b27_y24""",1649,"""Many""",191,true,3
+0,"""blue""","""b10_y5""",983,"""More than half""",1305,true,2
+0,"""yellow""","""b8_y7""",1679,"""Fewer than half""",1096,true,4
+0,"""blue""","""b16_y14""",808,"""Most""",736,false,9
+0,"""blue""","""b24_y18""",799,"""Few""",1263,false,6
+0,"""yellow""","""b24_y20""",735,"""Many""",1145,true,5
+0,"""yellow""","""b24_y21""",975,"""More""",975,false,5
+0,"""yellow""","""b24_y18""",1089,"""Few""",1047,false,5
+0,"""yellow""","""b6_y8""",720,"""Most""",1327,true,3
+0,"""yellow""","""b8_y7""",1489,"""Fewer than half""",1471,false,1
+0,"""blue""","""b21_y24""",1024,"""Few""",127,true,7
+0,"""blue""","""b24_y27""",720,"""Most""",1025,true,6
+0,"""yellow""","""b12_y16""",1663,"""Many""",847,true,4
+0,"""yellow""","""b5_y6""",960,"""Many""",1008,true,7
+0,"""yellow""","""b9_y8""",953,"""More""",1183,false,7
+0,"""blue""","""b8_y6""",1504,"""Fewer than half""",1536,false,2
+0,"""yellow""","""b9_y8""",3072,"""Many""",913,false,5
+0,"""yellow""","""b6_y8""",2520,"""Fewer than half""",1057,false,0
+0,"""yellow""","""b24_y18""",1145,"""More than half""",1072,true,0
+0,"""blue""","""b12_y18""",1296,"""Few""",983,true,4
+0,"""blue""","""b15_y30""",1001,"""Most""",712,false,0
+0,"""blue""","""b16_y12""",1512,"""Fewer than half""",864,true,7
+0,"""yellow""","""b10_y5""",2016,"""Most""",864,false,4
+0,"""yellow""","""b21_y24""",671,"""Many""",759,true,5
+0,"""blue""","""b9_y8""",1641,"""More than half""",888,false,0
+0,"""yellow""","""b16_y12""",1296,"""More""",1360,false,3
+0,"""yellow""","""b15_y30""",736,"""Many""",1687,true,6
+0,"""blue""","""b21_y24""",1159,"""Many""",1040,true,8
+0,"""blue""","""b27_y24""",2072,"""More than half""",999,false,9
+0,"""blue""","""b16_y12""",633,"""Few""",624,false,0
+0,"""yellow""","""b30_y15""",1088,"""Most""",824,true,5
+0,"""blue""","""b15_y18""",1009,"""Most""",863,false,0
+0,"""yellow""","""b7_y8""",1977,"""Fewer than half""",1039,false,5
+0,"""yellow""","""b12_y18""",1320,"""Most""",737,false,0
+0,"""yellow""","""b6_y8""",1321,"""More""",1536,true,5
+0,"""yellow""","""b12_y16""",817,"""More""",1089,true,5
+0,"""yellow""","""b16_y12""",953,"""Fewer than half""",1104,false,6
+0,"""yellow""","""b16_y14""",880,"""Fewer than half""",976,false,5
+0,"""yellow""","""b16_y14""",3152,"""More""",2377,false,8
+0,"""blue""","""b5_y10""",2808,"""More""",1231,false,8
+0,"""blue""","""b8_y7""",2560,"""More""",1127,true,3
+0,"""blue""","""b12_y18""",665,"""Most""",1464,false,6
+0,"""blue""","""b20_y10""",1537,"""More than half""",856,true,5
+0,"""yellow""","""b8_y6""",1648,"""Few""",961,false,1
+0,"""yellow""","""b15_y30""",2408,"""Few""",56,false,5
+0,"""yellow""","""b14_y16""",1352,"""More""",848,true,7
+0,"""blue""","""b14_y16""",2136,"""Few""",928,false,6
+0,"""yellow""","""b12_y18""",1608,"""More""",872,true,0
+0,"""yellow""","""b8_y6""",2376,"""Few""",1105,true,8
+0,"""yellow""","""b9_y8""",1368,"""More""",896,false,3
+0,"""yellow""","""b24_y18""",3127,"""Most""",1032,false,9
+0,"""blue""","""b27_y18""",1719,"""Many""",855,true,0
+0,"""yellow""","""b27_y18""",1103,"""More than half""",2624,true,7
+0,"""blue""","""b15_y30""",792,"""More than half""",824,false,0
+0,"""blue""","""b12_y18""",824,"""Fewer than half""",1528,true,3
+0,"""blue""","""b24_y18""",1064,"""More""",1311,true,6
+0,"""blue""","""b14_y16""",881,"""More than half""",992,false,0
+0,"""blue""","""b20_y24""",1280,"""More""",1071,false,8
+0,"""yellow""","""b8_y9""",2497,"""More""",2456,false,4
+0,"""blue""","""b24_y27""",1327,"""Fewer than half""",1071,true,6
+0,"""blue""","""b6_y8""",1616,"""More than half""",1144,false,4
+0,"""blue""","""b16_y18""",833,"""Many""",831,true,7
+0,"""blue""","""b5_y10""",919,"""More than half""",1119,false,2
+0,"""blue""","""b20_y24""",1480,"""Few""",1720,true,5
+0,"""yellow""","""b24_y21""",1033,"""More""",1207,true,3
+0,"""blue""","""b9_y8""",840,"""Most""",937,false,5
+0,"""blue""","""b9_y6""",1120,"""More""",1161,true,9
+0,"""blue""","""b18_y15""",1624,"""Few""",967,false,8
+0,"""yellow""","""b16_y14""",816,"""Many""",896,true,3
+0,"""blue""","""b18_y16""",1096,"""Most""",1024,true,1
+0,"""yellow""","""b7_y8""",815,"""More than half""",1273,false,5
+0,"""yellow""","""b14_y16""",1113,"""Fewer than half""",1871,false,8
+0,"""yellow""","""b20_y10""",1600,"""More""",1177,false,4
+0,"""yellow""","""b16_y18""",992,"""More than half""",808,true,5
+0,"""blue""","""b8_y9""",1416,"""Few""",1024,false,7
+0,"""blue""","""b18_y27""",4616,"""More than half""",1039,false,8
+0,"""blue""","""b14_y16""",960,"""More""",840,false,9
+0,"""blue""","""b24_y21""",1137,"""Many""",831,true,5
+0,"""yellow""","""b8_y7""",2193,"""Fewer than half""",2024,false,8
+0,"""yellow""","""b20_y10""",1313,"""Fewer than half""",2456,true,8
+0,"""yellow""","""b27_y24""",551,"""Many""",872,true,6
+0,"""blue""","""b12_y18""",848,"""More""",1671,false,8
+0,"""yellow""","""b15_y30""",631,"""More than half""",1642,true,3
+0,"""yellow""","""b18_y24""",856,"""More than half""",1975,true,4
+0,"""blue""","""b27_y24""",1041,"""More""",2528,true,8
+0,"""blue""","""b24_y18""",776,"""More""",1352,true,5
+0,"""blue""","""b16_y12""",2336,"""More""",952,true,9
+0,"""blue""","""b18_y12""",2009,"""Fewer than half""",1056,false,4
+0,"""blue""","""b9_y8""",2407,"""More""",952,false,7
+0,"""yellow""","""b24_y18""",535,"""Few""",943,false,1
+0,"""yellow""","""b24_y27""",1072,"""More than half""",1023,true,9
+0,"""yellow""","""b18_y24""",585,"""Many""",895,true,4
+0,"""yellow""","""b24_y27""",464,"""Few""",1464,false,4
+0,"""blue""","""b6_y9""",938,"""Most""",1193,false,9
+0,"""yellow""","""b27_y24""",480,"""Few""",767,false,4
+0,"""yellow""","""b15_y18""",753,"""Many""",983,true,4
+0,"""yellow""","""b5_y6""",1121,"""Few""",976,false,2
+0,"""blue""","""b20_y10""",744,"""More than half""",1583,true,8
+0,"""blue""","""b24_y20""",487,"""Few""",1160,false,6
+0,"""yellow""","""b15_y18""",688,"""Most""",905,true,8
+0,"""yellow""","""b18_y16""",1656,"""Fewer than half""",1959,false,3
+0,"""yellow""","""b15_y30""",1272,"""Fewer than half""",1104,false,9
+0,"""blue""","""b8_y6""",1280,"""Most""",920,true,7
+0,"""yellow""","""b24_y18""",1984,"""Fewer than half""",808,false,0
+0,"""yellow""","""b15_y30""",544,"""Few""",896,false,5
+0,"""yellow""","""b21_y24""",2112,"""Fewer than half""",1016,false,9
+0,"""yellow""","""b9_y8""",2144,"""Most""",1112,false,7
+0,"""yellow""","""b16_y12""",2633,"""Fewer than half""",840,false,3
+0,"""blue""","""b27_y18""",896,"""Few""",2583,false,1
+0,"""yellow""","""b24_y20""",1328,"""Most""",808,true,8
+0,"""blue""","""b16_y18""",1416,"""Many""",640,true,0
+0,"""blue""","""b24_y18""",1440,"""Fewer than half""",1008,false,4
+0,"""blue""","""b15_y30""",791,"""More""",1248,false,6
+0,"""yellow""","""b18_y27""",1088,"""Most""",983,true,7
+0,"""yellow""","""b5_y10""",768,"""Few""",1208,false,6
+0,"""blue""","""b24_y20""",792,"""More""",968,true,9
+0,"""blue""","""b18_y24""",3336,"""Many""",809,false,9
+0,"""blue""","""b16_y18""",1672,"""Few""",848,false,2
+0,"""blue""","""b12_y18""",1000,"""Many""",624,true,6
+0,"""blue""","""b24_y27""",1240,"""Many""",1288,true,8
+0,"""blue""","""b30_y15""",695,"""Many""",800,true,2
+0,"""yellow""","""b5_y10""",816,"""Most""",792,false,6
+0,"""yellow""","""b20_y24""",727,"""Many""",896,true,7
+0,"""yellow""","""b10_y5""",1224,"""Few""",929,true,8
+0,"""blue""","""b18_y16""",1809,"""Fewer than half""",1321,false,9
+0,"""yellow""","""b8_y9""",944,"""Few""",1161,false,9
+0,"""blue""","""b27_y18""",1944,"""Few""",112,false,8
+0,"""yellow""","""b18_y16""",1680,"""Fewer than half""",1440,false,2
+0,"""yellow""","""b9_y6""",1240,"""Most""",1072,false,8
+0,"""blue""","""b27_y24""",799,"""Few""",1399,false,0
+0,"""yellow""","""b15_y30""",887,"""Many""",1688,true,5
+0,"""yellow""","""b8_y7""",991,"""More than half""",1481,false,3
+0,"""yellow""","""b7_y8""",1928,"""More""",1231,false,7
+0,"""blue""","""b5_y10""",800,"""More""",913,false,2
+0,"""blue""","""b7_y8""",920,"""More than half""",1936,false,0
+0,"""blue""","""b5_y6""",1504,"""Many""",1272,false,3
+0,"""yellow""","""b24_y20""",1080,"""More""",959,true,3
+1,"""blue""","""b7_y8""",3304,"""All""",3097,false,9
+1,"""yellow""","""b24_y20""",820,"""Some""",1544,true,9
+1,"""blue""","""b12_y16""",580,"""None""",2001,false,8
+1,"""yellow""","""b18_y16""",6823,"""An even number""",6181,true,8
+1,"""blue""","""b15_y30""",2138,"""At least ten""",2884,true,9
+1,"""yellow""","""b6_y9""",894,"""Some""",2043,true,8
+1,"""blue""","""b20_y10""",597,"""Many""",2614,true,3
+1,"""blue""","""b24_y20""",1523,"""More than half""",2493,true,6
+1,"""yellow""","""b15_y30""",804,"""Many""",1590,true,6
+1,"""blue""","""b10_y20""",3761,"""Many""",2032,false,9
+1,"""yellow""","""b6_y5""",1456,"""Many""",1741,false,6
+1,"""yellow""","""b16_y12""",1565,"""More than half""",1609,false,6
+1,"""blue""","""b9_y6""",5592,"""Fewer than half""",1899,false,2
+1,"""blue""","""b18_y16""",2233,"""More than half""",1642,false,8
+1,"""blue""","""b18_y27""",1216,"""Few""",1348,false,5
+1,"""blue""","""b20_y24""",2099,"""More""",2016,false,3
+1,"""yellow""","""b24_y20""",1928,"""More than half""",1452,true,1
+1,"""yellow""","""b6_y9""",1932,"""More than half""",2024,true,4
+1,"""yellow""","""b24_y21""",1877,"""Fewer than half""",2014,true,6
+1,"""yellow""","""b15_y30""",973,"""Many""",1357,true,0
+1,"""yellow""","""b30_y15""",1408,"""Most""",1270,false,2
+1,"""blue""","""b6_y5""",4447,"""More""",1836,true,9
+1,"""blue""","""b30_y15""",2364,"""More than half""",1219,true,8
+1,"""blue""","""b8_y9""",1608,"""Fewer than half""",1470,true,2
+1,"""yellow""","""b16_y14""",1575,"""Most""",1096,false,5
+1,"""yellow""","""b8_y7""",2454,"""Many""",1097,true,2
+1,"""yellow""","""b5_y10""",1290,"""Few""",1267,false,7
+1,"""blue""","""b6_y8""",2014,"""Many""",1176,false,0
+1,"""yellow""","""b24_y18""",2132,"""More than half""",1853,true,4
+1,"""yellow""","""b6_y5""",3751,"""Few""",1131,false,7
+1,"""blue""","""b12_y16""",1469,"""Few""",907,false,4
+1,"""blue""","""b24_y20""",1125,"""Most""",1889,false,1
+1,"""yellow""","""b16_y14""",4647,"""Fewer than half""",1532,true,5
+1,"""blue""","""b10_y20""",2484,"""Few""",1279,true,1
+1,"""blue""","""b9_y6""",1902,"""Few""",1014,false,0
+1,"""yellow""","""b21_y24""",3318,"""More than half""",1542,true,5
+1,"""yellow""","""b20_y24""",1959,"""More than half""",1207,true,5
+1,"""yellow""","""b9_y6""",1758,"""More than half""",1298,false,6
+1,"""blue""","""b5_y10""",1498,"""Few""",1049,true,5
+1,"""yellow""","""b14_y16""",2252,"""More""",1694,true,6
+1,"""yellow""","""b7_y8""",1942,"""Fewer than half""",1482,false,5
+1,"""blue""","""b10_y5""",1665,"""Fewer than half""",2208,false,2
+1,"""blue""","""b24_y21""",1553,"""Most""",1228,false,3
+1,"""blue""","""b12_y18""",1453,"""More""",1295,false,6
+1,"""blue""","""b7_y8""",2988,"""Few""",1145,false,4
+1,"""yellow""","""b5_y10""",1241,"""Most""",1032,true,9
+1,"""yellow""","""b24_y18""",4034,"""More than half""",1429,false,4
+1,"""yellow""","""b24_y18""",2679,"""More""",1349,false,4
+1,"""yellow""","""b16_y12""",4712,"""Many""",1098,false,3
+1,"""yellow""","""b9_y8""",8929,"""More""",1302,false,4
+1,"""yellow""","""b24_y21""",1832,"""Most""",824,false,4
+1,"""blue""","""b21_y24""",1594,"""More than half""",1164,false,9
+1,"""yellow""","""b5_y6""",1849,"""Fewer than half""",1226,true,5
+1,"""blue""","""b27_y24""",1031,"""Few""",1152,false,5
+1,"""blue""","""b8_y9""",1556,"""Most""",1056,false,3
+1,"""blue""","""b8_y7""",5098,"""Fewer than half""",1296,false,7
+1,"""yellow""","""b24_y27""",3089,"""Many""",1358,true,9
+1,"""yellow""","""b24_y27""",2819,"""Most""",1030,false,2
+1,"""yellow""","""b27_y24""",768,"""Few""",1178,false,7
+1,"""blue""","""b24_y18""",1225,"""Few""",867,false,6
+1,"""yellow""","""b16_y14""",1577,"""Few""",1153,false,7
+1,"""blue""","""b18_y12""",2142,"""More than half""",1192,true,1
+1,"""yellow""","""b30_y15""",1079,"""Few""",877,false,2
+1,"""blue""","""b27_y24""",2166,"""Fewer than half""",1063,false,8
+1,"""yellow""","""b21_y24""",2936,"""Fewer than half""",1310,false,5
+1,"""blue""","""b16_y12""",3398,"""More""",1200,true,6
+1,"""yellow""","""b9_y8""",3484,"""Many""",1064,false,4
+1,"""blue""","""b6_y9""",1009,"""Most""",980,false,6
+1,"""yellow""","""b18_y16""",4259,"""Fewer than half""",1076,false,8
+1,"""yellow""","""b21_y24""",1086,"""Few""",915,false,4
+1,"""yellow""","""b18_y16""",3247,"""Fewer than half""",1079,false,5
+1,"""yellow""","""b6_y8""",7480,"""More than half""",1288,false,0
+1,"""yellow""","""b10_y20""",1605,"""More""",1145,true,2
+1,"""blue""","""b27_y18""",1769,"""Fewer than half""",1239,false,5
+1,"""blue""","""b9_y6""",1457,"""Many""",1039,true,5
+1,"""blue""","""b18_y15""",4256,"""Fewer than half""",1193,false,8
+1,"""blue""","""b16_y18""",2204,"""More than half""",1394,false,3
+1,"""blue""","""b12_y16""",2104,"""More""",1206,false,4
+1,"""yellow""","""b6_y5""",1516,"""Many""",1071,false,7
+1,"""yellow""","""b18_y16""",1784,"""Few""",1863,false,0
+1,"""yellow""","""b6_y9""",1271,"""Most""",993,false,8
+1,"""yellow""","""b18_y15""",1773,"""Many""",1053,true,3
+1,"""yellow""","""b5_y10""",2022,"""Fewer than half""",1322,false,0
+1,"""blue""","""b18_y24""",1167,"""Few""",986,false,2
+1,"""yellow""","""b18_y12""",3192,"""More than half""",963,false,7
+1,"""yellow""","""b30_y15""",2936,"""Few""",924,false,1
+1,"""yellow""","""b18_y27""",1047,"""Most""",850,false,3
+1,"""yellow""","""b20_y24""",2351,"""Most""",981,false,4
+1,"""yellow""","""b16_y18""",3579,"""More than half""",1115,true,1
+1,"""yellow""","""b12_y18""",1972,"""Most""",1016,false,0
+1,"""blue""","""b6_y8""",1497,"""Fewer than half""",1070,true,6
+1,"""blue""","""b16_y18""",1868,"""Many""",1024,false,2
+1,"""blue""","""b8_y7""",7465,"""More""",1262,true,2
+1,"""yellow""","""b8_y6""",2147,"""Most""",857,false,6
+1,"""yellow""","""b12_y18""",1392,"""More""",1128,true,7
+1,"""yellow""","""b7_y8""",1659,"""More than half""",969,false,0
+1,"""yellow""","""b16_y18""",2238,"""Fewer than half""",1026,false,7
+1,"""blue""","""b16_y18""",1945,"""Many""",894,true,7
+1,"""blue""","""b18_y16""",3551,"""Fewer than half""",1094,true,5
+1,"""yellow""","""b12_y18""",1967,"""Many""",939,true,5
+1,"""yellow""","""b12_y16""",2042,"""Many""",883,true,8
+1,"""yellow""","""b24_y18""",686,"""Few""",945,false,5
+1,"""yellow""","""b10_y5""",1251,"""Many""",964,false,0
+1,"""yellow""","""b18_y12""",4992,"""More than half""",1093,false,8
+1,"""blue""","""b16_y14""",1116,"""Many""",854,true,0
+1,"""blue""","""b15_y18""",1260,"""Most""",1004,false,9
+1,"""yellow""","""b18_y12""",1859,"""Fewer than half""",1738,true,3
+1,"""yellow""","""b6_y9""",1582,"""More""",1263,false,1
+1,"""yellow""","""b8_y7""",3228,"""More""",1220,true,6
+1,"""blue""","""b8_y7""",1788,"""More than half""",1144,false,9
+1,"""blue""","""b30_y15""",1642,"""More""",987,true,2
+1,"""blue""","""b10_y5""",1381,"""Fewer than half""",1053,false,0
+1,"""blue""","""b6_y5""",2442,"""More""",1359,true,6
+1,"""yellow""","""b18_y16""",989,"""Few""",199,false,7
+1,"""blue""","""b21_y24""",1334,"""Most""",811,false,9
+1,"""yellow""","""b16_y14""",2629,"""More""",1173,true,2
+1,"""blue""","""b8_y6""",3755,"""Most""",1805,true,7
+1,"""blue""","""b12_y16""",2194,"""More than half""",1197,false,1
+1,"""blue""","""b16_y18""",2087,"""Few""",1147,false,3
+1,"""yellow""","""b24_y27""",854,"""Many""",1090,true,3
+1,"""blue""","""b8_y7""",1638,"""Many""",1065,false,9
+1,"""blue""","""b27_y18""",4339,"""More""",1311,true,7
+1,"""yellow""","""b30_y15""",2019,"""More than half""",1228,false,2
+1,"""blue""","""b6_y5""",1844,"""More""",1214,true,2
+1,"""blue""","""b14_y16""",1655,"""Fewer than half""",1148,false,1
+1,"""yellow""","""b8_y7""",1528,"""Most""",872,false,3
+1,"""yellow""","""b8_y9""",1247,"""Most""",1522,false,0
+1,"""yellow""","""b16_y14""",2336,"""Fewer than half""",1295,true,0
+1,"""blue""","""b14_y16""",1808,"""Many""",935,true,5
+1,"""yellow""","""b6_y9""",1636,"""More""",124,true,2
+1,"""yellow""","""b24_y20""",1952,"""More""",1030,true,1
+1,"""yellow""","""b12_y18""",1396,"""More""",1040,true,3
+1,"""blue""","""b18_y27""",1267,"""More""",1109,false,1
+1,"""blue""","""b24_y27""",3131,"""More""",945,false,2
+1,"""yellow""","""b24_y18""",3096,"""More""",1113,true,9
+1,"""yellow""","""b18_y15""",1310,"""Most""",1184,false,7
+1,"""yellow""","""b12_y18""",1048,"""More than half""",1253,true,6
+1,"""blue""","""b30_y15""",1514,"""More""",1221,true,6
+1,"""blue""","""b27_y18""",2028,"""More""",1159,true,4
+1,"""blue""","""b24_y27""",6288,"""More than half""",1121,true,6
+1,"""blue""","""b14_y16""",4583,"""More""",1233,false,7
+1,"""yellow""","""b15_y18""",1875,"""More""",1147,true,2
+1,"""blue""","""b20_y10""",1547,"""Few""",945,false,6
+1,"""blue""","""b8_y6""",1343,"""More than half""",989,true,5
+1,"""yellow""","""b27_y24""",1931,"""Fewer than half""",1050,false,8
+1,"""blue""","""b8_y6""",1113,"""Few""",906,false,8
+1,"""blue""","""b24_y27""",1127,"""Most""",1125,false,4
+1,"""blue""","""b10_y20""",1763,"""Few""",971,true,1
+1,"""blue""","""b6_y8""",1375,"""Fewer than half""",1094,true,3
+1,"""yellow""","""b8_y7""",3423,"""Fewer than half""",1068,true,2
+1,"""blue""","""b18_y27""",1465,"""Most""",841,false,3
+1,"""blue""","""b9_y8""",1661,"""Most""",752,false,5
+1,"""blue""","""b16_y12""",748,"""Few""",898,false,5
+1,"""blue""","""b6_y9""",1489,"""Fewer than half""",1070,true,2
+1,"""blue""","""b24_y21""",4551,"""More than half""",1063,true,4
+1,"""blue""","""b15_y30""",1331,"""More than half""",932,false,5
+1,"""blue""","""b18_y24""",1327,"""Most""",892,false,6
+1,"""blue""","""b27_y24""",1166,"""Many""",860,true,5
+1,"""yellow""","""b6_y8""",1959,"""Few""",974,false,3
+1,"""yellow""","""b24_y18""",1014,"""Most""",1060,false,1
+1,"""blue""","""b16_y18""",4461,"""More than half""",1229,false,5
+1,"""yellow""","""b6_y9""",1523,"""Fewer than half""",983,false,9
+1,"""blue""","""b9_y6""",1432,"""More""",1078,true,9
+1,"""blue""","""b8_y9""",2997,"""Fewer than half""",1169,true,4
+1,"""yellow""","""b5_y10""",908,"""Few""",978,false,9
+1,"""yellow""","""b21_y24""",755,"""Many""",866,true,0
+1,"""yellow""","""b9_y8""",1482,"""Few""",1041,false,8
+1,"""blue""","""b24_y18""",1582,"""Fewer than half""",1057,true,1
+1,"""blue""","""b18_y27""",1525,"""Most""",944,false,5
+1,"""yellow""","""b14_y16""",2558,"""Most""",848,false,9
+1,"""blue""","""b18_y12""",3006,"""Many""",895,true,6
+1,"""yellow""","""b14_y16""",4818,"""Fewer than half""",1100,true,1
+1,"""yellow""","""b12_y16""",1410,"""More than half""",1115,true,4
+1,"""blue""","""b9_y6""",2060,"""Most""",984,false,4
+1,"""yellow""","""b18_y15""",1641,"""Fewer than half""",942,true,0
+1,"""blue""","""b24_y20""",1639,"""More than half""",911,true,8
+1,"""yellow""","""b24_y27""",1091,"""Many""",1041,true,4
+1,"""yellow""","""b27_y24""",2272,"""Few""",1145,false,1
+1,"""yellow""","""b8_y7""",1130,"""Most""",906,false,5
+1,"""blue""","""b21_y24""",714,"""Few""",987,false,5
+1,"""blue""","""b18_y15""",1161,"""Most""",945,false,8
+1,"""yellow""","""b27_y24""",1524,"""Most""",884,false,2
+1,"""yellow""","""b6_y8""",1680,"""Fewer than half""",1501,false,8
+1,"""blue""","""b24_y21""",903,"""Few""",998,false,6
+1,"""blue""","""b24_y18""",1380,"""Most""",828,false,7
+1,"""yellow""","""b15_y18""",1026,"""Most""",833,false,1
+1,"""blue""","""b30_y15""",1199,"""Most""",916,false,8
+1,"""blue""","""b18_y15""",1855,"""Most""",878,false,9
+1,"""yellow""","""b21_y24""",861,"""Few""",894,false,6
+1,"""yellow""","""b21_y24""",1726,"""Many""",885,true,1
+1,"""yellow""","""b20_y24""",712,"""Few""",898,false,7
+1,"""blue""","""b21_y24""",809,"""Few""",950,false,0
+1,"""blue""","""b20_y10""",1548,"""Few""",875,false,6
+1,"""yellow""","""b21_y24""",1240,"""More""",1090,true,3
+1,"""blue""","""b24_y20""",1282,"""Many""",864,true,0
+1,"""blue""","""b5_y6""",2553,"""Few""",1008,false,0
+1,"""yellow""","""b9_y8""",1424,"""Many""",889,false,1
+1,"""blue""","""b6_y8""",1484,"""More""",998,false,7
+1,"""yellow""","""b21_y24""",1101,"""Few""",868,false,0
+1,"""blue""","""b9_y8""",1255,"""Few""",897,false,6
+1,"""blue""","""b5_y10""",1000,"""Most""",822,false,4
+1,"""yellow""","""b12_y16""",1637,"""Most""",925,false,5
+1,"""blue""","""b24_y27""",1843,"""More""",886,false,8
+1,"""blue""","""b20_y10""",1278,"""Many""",846,true,6
+1,"""blue""","""b16_y18""",1442,"""Many""",958,false,9
+1,"""yellow""","""b27_y24""",2799,"""More""",852,true,4
+1,"""blue""","""b16_y14""",2643,"""Fewer than half""",925,true,3
+1,"""blue""","""b7_y8""",1087,"""More than half""",887,false,1
+1,"""yellow""","""b5_y10""",1113,"""Many""",840,true,1
+1,"""yellow""","""b18_y24""",782,"""Few""",924,false,1
+1,"""blue""","""b5_y10""",976,"""More""",1188,false,9
+1,"""yellow""","""b6_y8""",1256,"""Many""",845,true,7
+1,"""blue""","""b15_y18""",1952,"""More than half""",970,false,7
+1,"""yellow""","""b9_y6""",2502,"""More""",995,false,9
+1,"""yellow""","""b16_y18""",1256,"""Fewer than half""",824,false,9
+1,"""yellow""","""b27_y18""",1893,"""More""",877,true,9
+1,"""yellow""","""b18_y27""",1063,"""More than half""",877,true,4
+1,"""yellow""","""b6_y5""",1310,"""More than half""",1463,false,2
+1,"""yellow""","""b18_y16""",2247,"""Fewer than half""",1050,false,7
+1,"""yellow""","""b16_y18""",3803,"""Fewer than half""",890,false,1
+1,"""blue""","""b14_y16""",1743,"""Few""",706,false,9
+1,"""yellow""","""b5_y10""",1369,"""More""",757,true,5
+1,"""blue""","""b12_y16""",1026,"""Many""",779,false,8
+1,"""blue""","""b15_y30""",1053,"""Few""",776,false,8
+1,"""blue""","""b6_y9""",1178,"""Fewer than half""",865,true,6
+1,"""blue""","""b10_y20""",1259,"""Fewer than half""",898,true,6
+1,"""blue""","""b6_y5""",4370,"""Fewer than half""",970,false,0
+1,"""blue""","""b27_y18""",1772,"""Many""",822,true,8
+1,"""blue""","""b8_y9""",2129,"""More than half""",834,true,6
+1,"""yellow""","""b6_y5""",1191,"""Most""",757,false,6
+1,"""yellow""","""b16_y14""",1247,"""Few""",892,false,9
+1,"""blue""","""b27_y18""",1479,"""More""",1405,true,3
+1,"""yellow""","""b8_y6""",1429,"""Most""",845,false,1
+1,"""blue""","""b20_y10""",1068,"""More than half""",972,true,1
+1,"""blue""","""b18_y12""",1131,"""More than half""",1088,true,3
+1,"""yellow""","""b9_y8""",1805,"""More than half""",1037,false,5
+1,"""blue""","""b20_y24""",1852,"""More""",972,false,3
+1,"""yellow""","""b6_y5""",1695,"""More than half""",944,false,2
+1,"""blue""","""b10_y20""",1054,"""Most""",806,false,6
+1,"""yellow""","""b30_y15""",1079,"""Many""",1009,true,9
+1,"""blue""","""b6_y8""",1415,"""Most""",873,false,7
+1,"""yellow""","""b14_y16""",1258,"""Few""",833,false,4
+1,"""blue""","""b24_y18""",1129,"""Many""",766,true,5
+1,"""yellow""","""b27_y24""",1757,"""Fewer than half""",972,false,7
+1,"""blue""","""b8_y7""",1673,"""Few""",740,false,5
+1,"""blue""","""b15_y18""",1207,"""More""",889,false,4
+1,"""yellow""","""b9_y6""",1582,"""Few""",773,false,2
+1,"""blue""","""b18_y12""",1567,"""More than half""",972,true,4
+1,"""blue""","""b10_y20""",1046,"""More than half""",1032,false,9
+1,"""blue""","""b8_y7""",7131,"""Fewer than half""",945,false,9
+1,"""yellow""","""b18_y24""",1085,"""More""",875,false,6
+1,"""blue""","""b27_y18""",1030,"""Most""",804,false,0
+1,"""yellow""","""b6_y8""",1484,"""Fewer than half""",992,false,3
+1,"""yellow""","""b5_y10""",1285,"""Many""",996,true,7
+1,"""yellow""","""b12_y16""",958,"""Few""",792,false,3
+1,"""yellow""","""b12_y18""",972,"""Few""",851,false,0
+1,"""yellow""","""b6_y9""",1704,"""Fewer than half""",1017,false,2
+1,"""yellow""","""b5_y6""",1249,"""Few""",867,false,7
+1,"""yellow""","""b18_y16""",1590,"""Most""",815,false,0
+1,"""blue""","""b20_y24""",1426,"""More""",901,false,5
+1,"""blue""","""b20_y24""",1221,"""Fewer than half""",985,false,6
+1,"""blue""","""b24_y27""",1937,"""More than half""",1616,true,3
+1,"""yellow""","""b8_y6""",1191,"""More than half""",929,false,5
+1,"""blue""","""b16_y12""",1114,"""Most""",796,false,8
+1,"""blue""","""b24_y21""",1280,"""Most""",868,true,7
+1,"""blue""","""b16_y14""",787,"""Many""",839,true,4
+1,"""blue""","""b21_y24""",1130,"""Many""",906,true,9
+1,"""yellow""","""b6_y8""",1661,"""More""",1092,true,6
+1,"""yellow""","""b27_y24""",2801,"""Fewer than half""",903,false,5
+1,"""blue""","""b24_y27""",2678,"""Many""",1100,true,2
+1,"""blue""","""b27_y24""",910,"""Few""",776,false,8
+1,"""blue""","""b8_y7""",2152,"""Few""",828,false,9
+1,"""blue""","""b21_y24""",1520,"""Fewer than half""",925,true,6
+1,"""blue""","""b16_y14""",1843,"""Fewer than half""",995,false,3
+1,"""blue""","""b15_y30""",1453,"""Fewer than half""",918,true,7
+1,"""blue""","""b18_y16""",2148,"""More""",1675,false,7
+1,"""blue""","""b18_y24""",1211,"""Many""",902,false,7
+1,"""yellow""","""b24_y20""",1615,"""Many""",854,true,2
+1,"""yellow""","""b21_y24""",1024,"""More than half""",939,true,4
+1,"""blue""","""b21_y24""",1115,"""Most""",830,false,0
+1,"""blue""","""b6_y5""",1507,"""More than half""",835,true,1
+1,"""blue""","""b9_y6""",2694,"""Most""",829,true,5
+1,"""yellow""","""b8_y9""",1450,"""More than half""",844,true,5
+1,"""blue""","""b10_y20""",1104,"""More than half""",899,false,2
+1,"""blue""","""b18_y12""",1207,"""Many""",733,true,6
+1,"""blue""","""b18_y27""",1115,"""Fewer than half""",929,false,0
+1,"""yellow""","""b9_y6""",1201,"""Many""",786,false,9
+1,"""yellow""","""b20_y10""",1407,"""More""",856,false,5
+1,"""yellow""","""b15_y30""",2141,"""Most""",740,true,6
+1,"""yellow""","""b10_y20""",1257,"""More than half""",889,true,3
+1,"""yellow""","""b15_y18""",1592,"""Most""",778,true,4
+1,"""yellow""","""b27_y18""",749,"""Many""",814,true,9
+1,"""yellow""","""b8_y7""",7185,"""More""",1099,false,0
+1,"""yellow""","""b5_y10""",1487,"""Most""",788,true,4
+1,"""blue""","""b10_y5""",883,"""Few""",797,false,2
+1,"""yellow""","""b24_y21""",1120,"""Few""",836,false,4
+1,"""yellow""","""b12_y18""",1749,"""More than half""",905,true,8
+1,"""yellow""","""b5_y10""",1663,"""Many""",867,false,8
+1,"""blue""","""b8_y6""",1851,"""More than half""",761,true,1
+1,"""blue""","""b12_y18""",1866,"""Many""",727,false,6
+1,"""blue""","""b6_y9""",1317,"""More""",1331,false,3
+1,"""blue""","""b12_y16""",1828,"""Many""",1001,false,8
+1,"""blue""","""b6_y8""",1170,"""Most""",1030,false,3
+1,"""yellow""","""b18_y15""",1181,"""Many""",819,true,4
+1,"""blue""","""b9_y6""",1659,"""More""",882,true,7
+1,"""yellow""","""b5_y6""",2734,"""More""",941,true,0
+1,"""yellow""","""b10_y5""",1469,"""Fewer than half""",1032,true,7
+1,"""yellow""","""b24_y21""",2559,"""More""",831,true,7
+1,"""yellow""","""b8_y6""",1352,"""Most""",766,false,2
+1,"""blue""","""b18_y27""",1678,"""Fewer than half""",848,true,0
+1,"""yellow""","""b16_y18""",1912,"""Fewer than half""",918,false,6
+1,"""yellow""","""b27_y24""",3027,"""More than half""",872,false,2
+1,"""yellow""","""b5_y6""",3795,"""More""",815,true,5
+1,"""yellow""","""b8_y6""",1802,"""More""",795,false,2
+1,"""blue""","""b6_y9""",1510,"""More than half""",737,false,3
+1,"""blue""","""b21_y24""",1074,"""Many""",969,true,9
+1,"""yellow""","""b21_y24""",1467,"""Few""",910,false,0
+1,"""blue""","""b27_y18""",1148,"""Many""",788,true,2
+2,"""blue""","""b7_y8""",7217,"""All""",3288,false,9
+2,"""yellow""","""b24_y20""",2488,"""Some""",2616,true,9
+2,"""blue""","""b12_y16""",2281,"""None""",158,false,8
+2,"""yellow""","""b18_y16""",13481,"""An even number""",3320,true,8
+2,"""blue""","""b15_y30""",3823,"""At least ten""",3535,true,9
+2,"""yellow""","""b6_y9""",1264,"""Some""",1913,true,8
+2,"""yellow""","""b30_y15""",1224,"""Many""",2060,true,3
+2,"""yellow""","""b16_y18""",2640,"""Fewer than half""",7432,false,9
+2,"""blue""","""b16_y12""",12537,"""Most""",1592,true,5
+2,"""blue""","""b8_y9""",9529,"""Fewer than half""",2384,true,2
+2,"""blue""","""b8_y9""",12201,"""Most""",1488,true,1
+2,"""blue""","""b18_y12""",1616,"""More than half""",1760,true,7
+2,"""blue""","""b18_y27""",2105,"""Most""",2400,false,0
+2,"""yellow""","""b8_y7""",2593,"""Fewer than half""",2864,true,1
+2,"""yellow""","""b16_y12""",2176,"""Most""",1639,true,0
+2,"""yellow""","""b8_y9""",3361,"""Many""",1569,true,5
+2,"""yellow""","""b18_y24""",1416,"""Few""",2023,false,0
+2,"""blue""","""b6_y5""",4618,"""Many""",1488,true,4
+2,"""yellow""","""b18_y27""",1168,"""Many""",1200,true,1
+2,"""yellow""","""b6_y5""",4193,"""Most""",1272,false,5
+2,"""blue""","""b18_y24""",4128,"""Many""",1935,true,2
+2,"""yellow""","""b18_y15""",3057,"""Many""",1392,false,2
+2,"""yellow""","""b18_y16""",1264,"""Many""",1048,true,2
+2,"""yellow""","""b16_y18""",2201,"""More""",2415,true,6
+2,"""blue""","""b9_y6""",1704,"""Few""",1392,false,0
+2,"""blue""","""b30_y15""",1816,"""Fewer than half""",3424,false,1
+2,"""blue""","""b12_y16""",2265,"""More than half""",1887,false,0
+2,"""yellow""","""b24_y21""",1552,"""More than half""",1887,true,4
+2,"""yellow""","""b6_y8""",4921,"""Few""",2230,false,9
+2,"""blue""","""b5_y10""",2023,"""Most""",1888,false,0
+2,"""blue""","""b30_y15""",1600,"""Fewer than half""",1864,false,8
+2,"""yellow""","""b14_y16""",4496,"""Most""",1712,true,0
+2,"""yellow""","""b12_y18""",928,"""Few""",1224,false,1
+2,"""blue""","""b20_y24""",2824,"""Fewer than half""",2016,true,1
+2,"""yellow""","""b14_y16""",1615,"""More""",2640,true,6
+2,"""yellow""","""b24_y27""",2288,"""More than half""",2181,true,8
+2,"""yellow""","""b24_y20""",4488,"""Fewer than half""",2145,true,0
+2,"""yellow""","""b18_y12""",2504,"""More""",1888,false,6
+2,"""yellow""","""b8_y9""",8050,"""Fewer than half""",1656,false,2
+2,"""yellow""","""b24_y21""",1689,"""More than half""",1266,true,1
+2,"""blue""","""b16_y14""",1735,"""Most""",1084,false,1
+2,"""blue""","""b9_y8""",1688,"""Most""",1248,true,3
+2,"""blue""","""b7_y8""",8266,"""More""",1672,false,3
+2,"""yellow""","""b18_y27""",1720,"""Few""",1095,false,7
+2,"""yellow""","""b18_y24""",1168,"""Most""",1047,true,8
+2,"""blue""","""b9_y8""",1561,"""Few""",1183,false,4
+2,"""blue""","""b7_y8""",7544,"""Few""",1056,true,2
+2,"""yellow""","""b12_y18""",1399,"""Most""",1439,true,7
+2,"""yellow""","""b8_y7""",2113,"""Many""",1217,false,2
+2,"""blue""","""b12_y16""",2520,"""More""",1848,false,2
+2,"""yellow""","""b27_y24""",4328,"""More""",1792,false,9
+2,"""blue""","""b27_y18""",1608,"""Many""",1231,true,6
+2,"""blue""","""b18_y15""",1184,"""Many""",1073,true,3
+2,"""yellow""","""b16_y18""",2449,"""Fewer than half""",1840,false,8
+2,"""blue""","""b8_y9""",1592,"""Few""",1313,false,2
+2,"""blue""","""b15_y30""",1200,"""Fewer than half""",1880,true,7
+2,"""blue""","""b12_y18""",1057,"""Few""",1409,false,9
+2,"""yellow""","""b6_y8""",1145,"""Many""",1177,true,0
+2,"""yellow""","""b12_y18""",1152,"""Many""",2128,true,5
+2,"""blue""","""b16_y12""",1489,"""More""",2623,true,1
+2,"""blue""","""b12_y18""",3056,"""Many""",1415,false,1
+2,"""yellow""","""b9_y8""",2512,"""Few""",1247,true,3
+2,"""yellow""","""b12_y18""",1688,"""Most""",1040,true,1
+2,"""blue""","""b5_y6""",4961,"""Many""",1231,false,1
+2,"""blue""","""b20_y24""",2577,"""More""",1311,false,9
+2,"""blue""","""b16_y12""",2216,"""Few""",984,false,6
+2,"""blue""","""b5_y10""",1752,"""More than half""",1279,false,3
+2,"""yellow""","""b27_y18""",1448,"""Few""",1440,false,9
+2,"""yellow""","""b5_y10""",1551,"""Few""",1576,false,9
+2,"""yellow""","""b12_y16""",1624,"""Fewer than half""",1487,false,4
+2,"""yellow""","""b24_y18""",855,"""Few""",1465,false,5
+2,"""yellow""","""b8_y7""",1377,"""Most""",1288,false,2
+2,"""blue""","""b27_y18""",1280,"""Few""",1214,false,8
+2,"""blue""","""b18_y15""",1080,"""Most""",1055,true,0
+2,"""blue""","""b18_y16""",1559,"""More than half""",1560,false,2
+2,"""yellow""","""b27_y18""",2095,"""More than half""",1319,false,2
+2,"""yellow""","""b6_y5""",6186,"""Many""",1481,true,0
+2,"""blue""","""b21_y24""",1351,"""Most""",1040,false,2
+2,"""blue""","""b8_y9""",9088,"""Fewer than half""",1519,true,8
+2,"""yellow""","""b30_y15""",1828,"""Few""",1239,false,9
+2,"""yellow""","""b9_y6""",2363,"""Many""",1064,false,9
+2,"""yellow""","""b16_y18""",1328,"""More""",2120,true,4
+2,"""blue""","""b9_y6""",1336,"""Few""",1352,false,8
+2,"""blue""","""b10_y20""",1392,"""Fewer than half""",1420,true,8
+2,"""blue""","""b14_y16""",1993,"""More than half""",1495,false,6
+2,"""blue""","""b5_y10""",1496,"""More than half""",1119,false,4
+2,"""blue""","""b30_y15""",1617,"""More than half""",1408,true,9
+2,"""blue""","""b16_y14""",1016,"""Most""",1064,true,7
+2,"""blue""","""b6_y8""",1703,"""Few""",1416,false,8
+2,"""blue""","""b21_y24""",1800,"""More""",1864,false,0
+2,"""blue""","""b24_y18""",1536,"""More""",1488,true,2
+2,"""blue""","""b21_y24""",1063,"""More""",1360,false,8
+2,"""blue""","""b10_y20""",840,"""Few""",1296,false,1
+2,"""yellow""","""b10_y5""",1560,"""More""",1559,false,1
+2,"""yellow""","""b24_y21""",1521,"""More than half""",1391,true,8
+2,"""yellow""","""b27_y18""",3714,"""Fewer than half""",1528,true,7
+2,"""blue""","""b18_y24""",2496,"""Few""",1231,false,6
+2,"""blue""","""b7_y8""",3081,"""Few""",1168,true,0
+2,"""blue""","""b16_y12""",2105,"""Fewer than half""",1408,false,7
+2,"""blue""","""b18_y15""",1153,"""Many""",961,true,4
+2,"""blue""","""b18_y27""",1335,"""More than half""",1576,false,6
+2,"""blue""","""b27_y24""",1136,"""Many""",967,true,3
+2,"""yellow""","""b9_y6""",1810,"""More than half""",1632,false,9
+2,"""blue""","""b24_y20""",1320,"""Most""",985,false,7
+2,"""yellow""","""b24_y21""",4216,"""Fewer than half""",1489,false,0
+2,"""yellow""","""b20_y10""",1752,"""Fewer than half""",1472,true,5
+2,"""yellow""","""b24_y18""",2968,"""Most""",1000,true,5
+2,"""yellow""","""b6_y8""",6960,"""Fewer than half""",1319,false,1
+2,"""blue""","""b5_y10""",2104,"""Most""",1143,false,8
+2,"""yellow""","""b15_y30""",3344,"""Fewer than half""",1296,false,4
+2,"""blue""","""b16_y12""",1727,"""More""",1959,true,0
+2,"""yellow""","""b18_y27""",1120,"""Many""",1064,true,6
+2,"""blue""","""b16_y14""",3664,"""Fewer than half""",1552,true,8
+2,"""blue""","""b10_y5""",1385,"""More""",1656,true,1
+2,"""yellow""","""b18_y24""",2928,"""Fewer than half""",1288,false,2
+2,"""blue""","""b6_y5""",1527,"""Few""",1880,false,1
+2,"""blue""","""b9_y8""",2752,"""Fewer than half""",1504,false,6
+2,"""yellow""","""b8_y6""",1065,"""Few""",1208,true,8
+2,"""blue""","""b18_y15""",2706,"""Fewer than half""",1480,false,6
+2,"""blue""","""b24_y21""",1375,"""More than half""",1200,false,9
+2,"""yellow""","""b9_y8""",969,"""Few""",1584,false,3
+2,"""blue""","""b30_y15""",1072,"""Most""",999,true,2
+2,"""yellow""","""b5_y6""",6248,"""Fewer than half""",1487,false,6
+2,"""blue""","""b18_y12""",1682,"""Many""",976,true,8
+2,"""blue""","""b15_y18""",2464,"""More than half""",1448,true,7
+2,"""yellow""","""b8_y7""",5379,"""Fewer than half""",1184,true,7
+2,"""blue""","""b27_y24""",1889,"""More""",1216,false,1
+2,"""blue""","""b15_y30""",3223,"""Many""",896,false,6
+2,"""yellow""","""b15_y30""",2232,"""Few""",921,false,6
+2,"""yellow""","""b15_y30""",832,"""More than half""",1247,true,7
+2,"""blue""","""b7_y8""",1503,"""Many""",1056,true,7
+2,"""yellow""","""b9_y8""",1855,"""Fewer than half""",1512,false,7
+2,"""blue""","""b6_y8""",2841,"""More than half""",1455,false,0
+2,"""yellow""","""b18_y12""",960,"""Many""",952,true,2
+2,"""blue""","""b27_y24""",1736,"""Fewer than half""",1624,false,8
+2,"""yellow""","""b5_y10""",3392,"""More than half""",1279,false,3
+2,"""yellow""","""b24_y20""",1455,"""Many""",1111,true,2
+2,"""blue""","""b8_y6""",1344,"""More""",1536,true,3
+2,"""blue""","""b18_y16""",1564,"""Fewer than half""",1552,false,6
+2,"""yellow""","""b27_y24""",1016,"""Fewer than half""",1608,true,4
+2,"""blue""","""b10_y20""",1097,"""Most""",928,false,0
+2,"""blue""","""b24_y21""",1080,"""More""",1696,true,6
+2,"""yellow""","""b16_y12""",2088,"""Most""",1367,false,6
+2,"""blue""","""b9_y6""",1664,"""Few""",1752,false,9
+2,"""blue""","""b8_y7""",6073,"""More than half""",1671,true,4
+2,"""yellow""","""b8_y9""",6880,"""More than half""",1663,true,0
+2,"""blue""","""b8_y7""",8385,"""More""",1208,true,4
+2,"""blue""","""b24_y20""",2840,"""Fewer than half""",1888,true,3
+2,"""yellow""","""b6_y5""",1368,"""Many""",984,false,3
+2,"""blue""","""b9_y6""",1482,"""More""",1759,true,9
+2,"""yellow""","""b30_y15""",3223,"""More than half""",1215,false,1
+2,"""yellow""","""b12_y18""",1113,"""Most""",1024,true,8
+2,"""yellow""","""b5_y10""",1009,"""Most""",1048,true,9
+2,"""yellow""","""b7_y8""",2927,"""Fewer than half""",1375,false,2
+2,"""blue""","""b20_y24""",1921,"""Few""",936,false,6
+2,"""blue""","""b18_y12""",1793,"""Fewer than half""",1312,false,4
+2,"""blue""","""b14_y16""",2696,"""Fewer than half""",1232,true,3
+2,"""blue""","""b14_y16""",928,"""Many""",1687,true,1
+2,"""yellow""","""b8_y6""",1191,"""Most""",951,false,4
+2,"""yellow""","""b10_y5""",1328,"""Few""",1096,true,4
+2,"""yellow""","""b7_y8""",3064,"""Most""",1006,true,5
+2,"""blue""","""b8_y9""",1232,"""Many""",921,true,8
+2,"""yellow""","""b6_y9""",1201,"""Fewer than half""",1639,false,1
+2,"""blue""","""b12_y18""",1928,"""More""",2096,false,2
+2,"""yellow""","""b8_y9""",1696,"""Many""",918,true,7
+2,"""blue""","""b30_y15""",1736,"""More""",1248,true,4
+2,"""yellow""","""b8_y9""",1947,"""More than half""",1263,true,0
+2,"""yellow""","""b9_y8""",1289,"""Many""",937,true,6
+2,"""yellow""","""b8_y7""",1312,"""Few""",1751,false,5
+2,"""blue""","""b6_y9""",1320,"""Few""",1095,true,5
+2,"""blue""","""b10_y5""",1201,"""More than half""",1160,true,7
+2,"""yellow""","""b21_y24""",2048,"""Most""",872,true,8
+2,"""blue""","""b6_y9""",1913,"""Fewer than half""",1439,true,0
+2,"""blue""","""b24_y18""",2287,"""Most""",833,true,2
+2,"""blue""","""b8_y6""",1464,"""Most""",939,true,9
+2,"""yellow""","""b24_y20""",1584,"""Fewer than half""",1367,true,6
+2,"""yellow""","""b16_y18""",1856,"""More""",1864,true,2
+2,"""yellow""","""b21_y24""",656,"""Many""",1151,true,2
+2,"""yellow""","""b30_y15""",1080,"""More""",1352,false,8
+2,"""blue""","""b24_y20""",1267,"""Most""",1151,true,9
+2,"""blue""","""b5_y10""",953,"""Most""",912,false,4
+2,"""yellow""","""b15_y30""",1551,"""Fewer than half""",1359,false,5
+2,"""blue""","""b16_y14""",1665,"""Fewer than half""",1265,false,6
+2,"""blue""","""b9_y6""",1032,"""Many""",920,true,0
+2,"""yellow""","""b15_y18""",1624,"""More""",1335,true,6
+2,"""blue""","""b16_y14""",896,"""More than half""",2129,true,3
+2,"""blue""","""b16_y12""",2503,"""More""",1688,true,2
+2,"""blue""","""b10_y20""",1079,"""More""",1504,false,4
+2,"""yellow""","""b6_y9""",2154,"""More""",1232,true,5
+2,"""blue""","""b10_y20""",600,"""Few""",1270,false,9
+2,"""yellow""","""b14_y16""",1560,"""Most""",984,true,5
+2,"""blue""","""b12_y18""",1184,"""Many""",1136,true,5
+2,"""yellow""","""b5_y6""",5392,"""More than half""",1560,true,6
+2,"""yellow""","""b16_y12""",2249,"""Few""",3296,true,2
+2,"""yellow""","""b18_y16""",1504,"""Most""",2961,true,4
+2,"""yellow""","""b8_y7""",2489,"""Few""",10976,false,4
+2,"""blue""","""b8_y6""",3520,"""Few""",26056,false,9
+2,"""blue""","""b27_y24""",2863,"""Fewer than half""",1932,false,9
+2,"""blue""","""b16_y18""",928,"""More""",1560,true,5
+2,"""yellow""","""b9_y6""",1448,"""More than half""",1592,true,8
+2,"""blue""","""b5_y10""",1600,"""Fewer than half""",1239,false,1
+2,"""yellow""","""b24_y18""",512,"""Most""",792,true,8
+2,"""blue""","""b16_y12""",416,"""Most""",584,true,3
+2,"""blue""","""b12_y18""",432,"""Fewer than half""",511,true,5
+2,"""blue""","""b18_y15""",416,"""Many""",448,false,7
+2,"""yellow""","""b18_y15""",392,"""Many""",518,true,2
+2,"""yellow""","""b18_y24""",384,"""More than half""",392,false,4
+2,"""blue""","""b10_y20""",1240,"""Fewer than half""",431,true,3
+2,"""blue""","""b18_y15""",337,"""Many""",415,true,0
+2,"""yellow""","""b18_y27""",384,"""More""",424,true,5
+2,"""yellow""","""b16_y18""",320,"""Many""",561,true,6
+2,"""blue""","""b8_y9""",424,"""Many""",576,false,6
+2,"""blue""","""b9_y8""",304,"""More""",423,true,0
+2,"""yellow""","""b12_y18""",360,"""More""",304,false,5
+2,"""yellow""","""b10_y20""",272,"""Few""",272,true,7
+2,"""yellow""","""b18_y27""",9568,"""Many""",424,true,6
+2,"""blue""","""b18_y15""",2088,"""Many""",1448,true,0
+2,"""blue""","""b8_y6""",9568,"""More""",2367,true,1
+2,"""yellow""","""b9_y8""",1632,"""More than half""",1368,true,5
+2,"""yellow""","""b6_y9""",951,"""Many""",122,true,0
+2,"""blue""","""b10_y20""",655,"""More than half""",193,true,3
+2,"""yellow""","""b18_y15""",2447,"""More""",144,false,1
+2,"""yellow""","""b16_y14""",1560,"""More""",1367,true,6
+2,"""yellow""","""b24_y21""",1897,"""Most""",2287,false,6
+2,"""yellow""","""b12_y18""",2768,"""Most""",1264,true,5
+2,"""yellow""","""b16_y18""",743,"""Few""",1063,false,8
+2,"""blue""","""b12_y16""",1211,"""Most""",824,false,9
+2,"""yellow""","""b16_y14""",784,"""Many""",977,true,7
+2,"""blue""","""b15_y30""",1016,"""Most""",800,false,9
+2,"""blue""","""b6_y8""",1704,"""Many""",887,false,3
+2,"""blue""","""b5_y6""",3610,"""Most""",775,false,9
+2,"""blue""","""b20_y10""",1505,"""More than half""",1336,true,9
+2,"""blue""","""b12_y18""",929,"""Many""",799,false,7
+2,"""blue""","""b15_y30""",608,"""Many""",743,true,3
+2,"""yellow""","""b6_y8""",1136,"""More than half""",1025,false,4
+2,"""blue""","""b27_y24""",1680,"""More than half""",1015,true,6
+2,"""blue""","""b18_y12""",529,"""Few""",799,false,6
+2,"""yellow""","""b6_y5""",1344,"""Fewer than half""",1015,false,8
+2,"""blue""","""b6_y9""",762,"""More""",1576,true,1
+2,"""blue""","""b24_y27""",1224,"""Most""",792,true,0
+2,"""blue""","""b16_y18""",764,"""More""",856,true,8
+2,"""yellow""","""b10_y5""",873,"""Most""",696,false,3
+2,"""blue""","""b18_y24""",2569,"""More than half""",854,true,3
+2,"""blue""","""b18_y24""",1096,"""Few""",1128,true,3
+2,"""yellow""","""b15_y18""",864,"""More""",1158,true,7
+2,"""yellow""","""b20_y10""",1266,"""Most""",849,true,1
+2,"""blue""","""b5_y6""",4152,"""Fewer than half""",1088,true,7
+2,"""yellow""","""b16_y18""",824,"""Few""",1104,false,1
+2,"""blue""","""b5_y10""",1041,"""More than half""",1040,false,9
+2,"""yellow""","""b6_y8""",1016,"""More than half""",1336,true,6
+2,"""blue""","""b8_y7""",775,"""Few""",1112,false,9
+2,"""yellow""","""b21_y24""",816,"""Most""",903,true,4
+2,"""yellow""","""b24_y18""",2105,"""Fewer than half""",1552,false,5
+2,"""yellow""","""b24_y21""",903,"""Few""",856,true,5
+2,"""yellow""","""b18_y12""",1257,"""Most""",1199,false,5
+2,"""yellow""","""b5_y10""",1976,"""Many""",1056,true,9
+2,"""yellow""","""b9_y8""",1440,"""More than half""",1119,true,8
+2,"""blue""","""b9_y8""",976,"""Fewer than half""",944,false,0
+2,"""yellow""","""b18_y24""",791,"""Most""",1104,true,9
+2,"""yellow""","""b9_y6""",1752,"""More""",1648,false,1
+2,"""yellow""","""b12_y18""",2272,"""Fewer than half""",1639,false,5
+2,"""blue""","""b20_y24""",784,"""Few""",952,false,4
+2,"""yellow""","""b27_y24""",2545,"""More""",1368,true,3
+2,"""blue""","""b24_y27""",736,"""Fewer than half""",1207,false,9
+2,"""blue""","""b8_y7""",1680,"""Many""",992,true,7
+2,"""yellow""","""b10_y5""",951,"""More""",1128,true,4
+2,"""yellow""","""b18_y24""",434,"""Few""",736,true,5
+2,"""blue""","""b16_y12""",321,"""Most""",457,true,4
+2,"""yellow""","""b12_y18""",408,"""Most""",416,false,1
+2,"""yellow""","""b18_y15""",342,"""Few""",504,true,8
+2,"""yellow""","""b6_y5""",360,"""More than half""",456,false,7
+2,"""yellow""","""b18_y24""",376,"""Many""",440,true,8
+2,"""blue""","""b21_y24""",417,"""More""",472,true,0
+2,"""yellow""","""b12_y18""",440,"""Many""",480,false,5
+2,"""blue""","""b6_y9""",381,"""More than half""",591,true,9
+2,"""yellow""","""b15_y30""",461,"""Few""",489,false,2
+2,"""yellow""","""b15_y30""",337,"""Fewer than half""",439,true,3
+2,"""blue""","""b24_y27""",377,"""Fewer than half""",416,true,9
+2,"""blue""","""b16_y18""",368,"""Many""",408,true,3
+2,"""yellow""","""b21_y24""",385,"""Few""",520,false,6
+2,"""yellow""","""b30_y15""",335,"""Most""",392,true,6
+2,"""yellow""","""b20_y10""",400,"""Fewer than half""",423,false,3
+2,"""yellow""","""b5_y10""",328,"""More""",296,true,0
+2,"""blue""","""b27_y18""",384,"""Many""",351,false,1
+2,"""blue""","""b10_y5""",407,"""Many""",408,true,1
+2,"""yellow""","""b30_y15""",1770,"""More""",1689,false,3
+2,"""yellow""","""b8_y9""",2969,"""More than half""",2001,true,8
+2,"""yellow""","""b27_y24""",2443,"""More""",1455,false,7
+2,"""yellow""","""b15_y18""",1856,"""More than half""",1464,true,4
+2,"""blue""","""b20_y10""",769,"""Few""",1084,false,0
+2,"""blue""","""b15_y18""",1313,"""More""",1392,false,4
+2,"""yellow""","""b21_y24""",1136,"""More""",1118,true,9
+2,"""yellow""","""b24_y21""",1383,"""More than half""",1031,true,7
+2,"""yellow""","""b18_y15""",1392,"""More than half""",1656,false,4
+2,"""blue""","""b12_y18""",1439,"""Few""",1024,false,0
+2,"""yellow""","""b12_y16""",768,"""More than half""",1162,true,8
+2,"""yellow""","""b15_y18""",1113,"""More""",1504,false,9
+2,"""yellow""","""b9_y6""",1090,"""Many""",1376,false,5
+2,"""blue""","""b16_y14""",1440,"""More than half""",992,true,2
+2,"""yellow""","""b5_y6""",592,"""Few""",831,false,7
+2,"""yellow""","""b6_y5""",1992,"""More""",1767,false,0
+2,"""blue""","""b12_y18""",1096,"""Most""",920,false,2
+2,"""blue""","""b18_y15""",1161,"""More than half""",1104,true,7
+2,"""yellow""","""b27_y24""",400,"""More""",760,false,9
+2,"""yellow""","""b6_y5""",104,"""Fewer than half""",872,true,8
+2,"""blue""","""b8_y7""",424,"""Few""",257,false,4
+2,"""yellow""","""b18_y24""",320,"""More than half""",520,true,5
+2,"""yellow""","""b16_y12""",338,"""More than half""",335,false,9
+2,"""blue""","""b15_y18""",399,"""More""",256,true,3
+2,"""blue""","""b27_y18""",399,"""Few""",250,true,1
+2,"""blue""","""b5_y10""",351,"""More than half""",431,true,8
+2,"""blue""","""b24_y18""",1632,"""Most""",1224,true,2
+2,"""blue""","""b16_y14""",1024,"""More than half""",1655,true,1
+2,"""blue""","""b15_y18""",1097,"""More than half""",1183,false,3
+2,"""blue""","""b15_y18""",720,"""Most""",960,true,9
+2,"""yellow""","""b24_y27""",976,"""More""",1378,true,3
+2,"""blue""","""b9_y8""",1024,"""More than half""",1191,true,9
+2,"""yellow""","""b16_y12""",1696,"""Few""",968,true,1
+3,"""blue""","""b7_y8""",1504,"""All""",1017,false,9
+3,"""yellow""","""b24_y20""",1120,"""Some""",735,true,9
+3,"""blue""","""b12_y16""",1303,"""None""",608,false,8
+3,"""yellow""","""b18_y16""",4104,"""An even number""",1448,true,8
+3,"""blue""","""b15_y30""",2456,"""At least ten""",848,true,9
+3,"""yellow""","""b6_y9""",992,"""Some""",616,true,8
+3,"""blue""","""b24_y20""",1456,"""Many""",124,true,6
+3,"""blue""","""b6_y5""",1959,"""Fewer than half""",647,false,2
+3,"""blue""","""b27_y18""",1398,"""More than half""",608,false,9
+3,"""blue""","""b7_y8""",2942,"""Many""",544,true,0
+3,"""yellow""","""b6_y5""",767,"""Most""",543,false,8
+3,"""yellow""","""b16_y18""",1368,"""Most""",839,true,2
+3,"""blue""","""b16_y18""",1616,"""Few""",488,false,4
+3,"""yellow""","""b10_y5""",1472,"""Few""",600,true,3
+3,"""yellow""","""b15_y30""",1017,"""Many""",544,true,8
+3,"""blue""","""b18_y16""",2465,"""Fewer than half""",760,false,2
+3,"""yellow""","""b18_y16""",2167,"""Fewer than half""",448,true,1
+3,"""blue""","""b6_y9""",2223,"""More""",534,false,8
+3,"""yellow""","""b15_y18""",2023,"""Most""",529,true,5
+3,"""blue""","""b30_y15""",1760,"""More than half""",928,false,7
+3,"""yellow""","""b12_y16""",2608,"""Many""",522,true,9
+3,"""yellow""","""b18_y27""",2512,"""More than half""",520,true,9
+3,"""yellow""","""b27_y24""",7993,"""More""",1152,true,1
+3,"""yellow""","""b16_y12""",1967,"""More than half""",967,false,3
+3,"""yellow""","""b30_y15""",2616,"""Fewer than half""",831,true,2
+3,"""yellow""","""b18_y12""",1520,"""More""",823,false,4
+3,"""blue""","""b24_y21""",1136,"""Few""",1079,false,9
+3,"""blue""","""b30_y15""",736,"""Many""",792,true,1
+3,"""yellow""","""b21_y24""",2552,"""Fewer than half""",992,false,8
+3,"""yellow""","""b10_y5""",2968,"""Many""",455,false,2
+3,"""blue""","""b9_y8""",1471,"""Few""",487,true,3
+3,"""yellow""","""b6_y5""",1809,"""Most""",584,false,1
+3,"""yellow""","""b6_y5""",2928,"""More""",1799,false,8
+3,"""yellow""","""b18_y12""",1792,"""More than half""",497,false,4
+3,"""blue""","""b21_y24""",1952,"""Fewer than half""",471,true,4
+3,"""yellow""","""b16_y14""",2976,"""Many""",417,true,7
+3,"""blue""","""b8_y7""",2072,"""Many""",520,false,9
+3,"""blue""","""b8_y6""",2062,"""More""",616,true,3
+3,"""yellow""","""b27_y24""",1319,"""Few""",734,false,3
+3,"""yellow""","""b27_y18""",873,"""Few""",552,false,6
+3,"""blue""","""b6_y9""",4735,"""Most""",584,false,7
+3,"""yellow""","""b30_y15""",952,"""Few""",1111,false,3
+3,"""yellow""","""b6_y8""",1665,"""More than half""",719,true,8
+3,"""blue""","""b18_y27""",1991,"""Fewer than half""",815,true,9
+3,"""blue""","""b18_y16""",1127,"""Few""",534,false,6
+3,"""yellow""","""b7_y8""",4056,"""More""",1106,true,0
+3,"""yellow""","""b15_y18""",7535,"""More than half""",496,true,6
+3,"""yellow""","""b6_y8""",1183,"""Few""",1031,false,8
+3,"""yellow""","""b16_y12""",1809,"""More than half""",880,false,3
+3,"""blue""","""b18_y12""",1960,"""Most""",560,true,8
+3,"""blue""","""b20_y10""",1293,"""More than half""",896,true,7
+3,"""yellow""","""b6_y5""",1880,"""More""",1071,false,5
+3,"""yellow""","""b15_y18""",1504,"""More""",1424,true,0
+3,"""blue""","""b14_y16""",1688,"""Few""",566,false,7
+3,"""yellow""","""b18_y27""",1272,"""Many""",849,true,0
+3,"""yellow""","""b6_y9""",1664,"""Fewer than half""",728,false,2
+3,"""blue""","""b12_y18""",1392,"""Many""",502,true,8
+3,"""yellow""","""b27_y18""",2112,"""More than half""",976,false,7
+3,"""yellow""","""b18_y12""",1672,"""Many""",440,true,3
+3,"""yellow""","""b24_y27""",824,"""Many""",433,true,9
+3,"""yellow""","""b8_y7""",6512,"""Fewer than half""",191,true,9
+3,"""blue""","""b16_y18""",11407,"""More than half""",848,false,9
+3,"""blue""","""b8_y9""",1441,"""Fewer than half""",1024,true,1
+3,"""blue""","""b21_y24""",744,"""Many""",576,true,1
+3,"""blue""","""b12_y18""",1294,"""Fewer than half""",720,true,5
+3,"""blue""","""b24_y21""",2104,"""More""",601,false,9
+3,"""yellow""","""b5_y10""",1177,"""Most""",432,true,5
+3,"""yellow""","""b15_y18""",2512,"""Few""",1263,false,6
+3,"""blue""","""b16_y12""",6575,"""Fewer than half""",952,false,8
+3,"""yellow""","""b7_y8""",2887,"""More""",1640,false,0
+3,"""blue""","""b6_y9""",1226,"""Many""",689,false,9
+3,"""yellow""","""b5_y10""",1697,"""More""",848,true,0
+3,"""blue""","""b27_y24""",1822,"""Most""",176,false,0
+3,"""blue""","""b6_y9""",1567,"""Few""",983,false,0
+3,"""yellow""","""b20_y24""",2176,"""More than half""",1081,true,4
+3,"""blue""","""b27_y24""",3159,"""Many""",137,false,3
+3,"""blue""","""b10_y5""",847,"""Many""",761,true,2
+3,"""blue""","""b15_y30""",447,"""Many""",759,true,4
+3,"""yellow""","""b16_y14""",1359,"""Few""",1432,false,6
+3,"""yellow""","""b24_y21""",10527,"""Fewer than half""",1294,true,3
+3,"""blue""","""b15_y18""",9271,"""More""",1032,true,3
+3,"""yellow""","""b24_y27""",1336,"""Many""",752,true,8
+3,"""blue""","""b10_y20""",1248,"""More""",1048,false,8
+3,"""yellow""","""b12_y18""",1280,"""More than half""",945,true,1
+3,"""blue""","""b18_y27""",1449,"""Fewer than half""",935,true,7
+3,"""blue""","""b20_y10""",1567,"""More""",848,true,5
+3,"""yellow""","""b24_y27""",1520,"""Most""",575,true,0
+3,"""blue""","""b24_y20""",1143,"""Few""",176,false,4
+3,"""yellow""","""b8_y7""",1168,"""Few""",552,false,6
+3,"""yellow""","""b9_y8""",2169,"""More than half""",625,true,0
+3,"""blue""","""b27_y18""",1007,"""Fewer than half""",167,true,9
+3,"""blue""","""b6_y9""",1656,"""Fewer than half""",1056,true,9
+3,"""blue""","""b9_y8""",1377,"""Most""",543,true,4
+3,"""blue""","""b7_y8""",4647,"""Fewer than half""",687,true,6
+3,"""yellow""","""b10_y5""",1471,"""Most""",722,false,3
+3,"""yellow""","""b12_y18""",1584,"""Fewer than half""",654,false,9
+3,"""blue""","""b16_y12""",1488,"""Fewer than half""",616,false,6
+3,"""blue""","""b6_y9""",1168,"""More than half""",464,false,1
+3,"""yellow""","""b10_y5""",2200,"""Fewer than half""",585,true,3
+3,"""blue""","""b6_y8""",943,"""Fewer than half""",416,true,6
+3,"""blue""","""b8_y6""",1062,"""Few""",1016,false,1
+3,"""blue""","""b12_y16""",1184,"""Few""",689,false,9
+3,"""yellow""","""b15_y30""",1354,"""More""",1368,true,1
+3,"""blue""","""b18_y12""",1136,"""More""",1144,true,0
+3,"""yellow""","""b18_y15""",2224,"""More than half""",657,false,3
+3,"""yellow""","""b6_y8""",1080,"""More than half""",944,true,4
+3,"""yellow""","""b15_y18""",1551,"""Fewer than half""",792,false,6
+3,"""blue""","""b6_y9""",1209,"""Most""",615,false,7
+3,"""blue""","""b12_y18""",1038,"""More""",864,false,5
+3,"""yellow""","""b16_y12""",1527,"""More""",808,false,4
+3,"""yellow""","""b8_y6""",1525,"""Fewer than half""",632,true,1
+3,"""blue""","""b6_y5""",1678,"""More than half""",766,true,8
+3,"""yellow""","""b15_y18""",1016,"""Few""",1183,false,9
+3,"""blue""","""b6_y9""",1919,"""Few""",616,false,6
+3,"""blue""","""b20_y24""",1455,"""More than half""",679,false,8
+3,"""yellow""","""b5_y6""",1111,"""More""",1247,true,6
+3,"""yellow""","""b8_y6""",792,"""Most""",663,false,9
+3,"""blue""","""b18_y15""",856,"""Many""",759,true,9
+3,"""yellow""","""b6_y8""",416,"""Many""",632,true,8
+3,"""blue""","""b10_y20""",1359,"""More""",1009,false,9
+3,"""blue""","""b24_y27""",1480,"""Few""",799,false,4
+3,"""blue""","""b16_y14""",8376,"""Most""",783,true,7
+3,"""yellow""","""b8_y7""",1800,"""More""",1159,false,1
+3,"""blue""","""b20_y10""",1672,"""Most""",831,true,9
+3,"""blue""","""b24_y21""",1544,"""Fewer than half""",839,true,3
+3,"""yellow""","""b21_y24""",2241,"""More than half""",1160,true,7
+3,"""yellow""","""b24_y27""",961,"""Few""",912,false,2
+3,"""yellow""","""b10_y20""",1312,"""Fewer than half""",1216,false,2
+3,"""blue""","""b18_y24""",680,"""Many""",625,true,4
+3,"""yellow""","""b24_y27""",320,"""Many""",767,true,0
+3,"""yellow""","""b30_y15""",1016,"""Most""",534,false,1
+3,"""yellow""","""b18_y24""",1248,"""More""",840,true,5
+3,"""yellow""","""b15_y18""",1303,"""More""",488,false,9
+3,"""blue""","""b15_y18""",1521,"""Many""",600,true,1
+3,"""yellow""","""b8_y6""",2711,"""Most""",680,false,3
+3,"""yellow""","""b16_y14""",8728,"""Most""",624,false,5
+3,"""blue""","""b5_y10""",1808,"""Few""",992,false,0
+3,"""blue""","""b5_y10""",1767,"""Few""",872,true,7
+3,"""blue""","""b18_y27""",1440,"""Fewer than half""",1177,true,2
+3,"""blue""","""b27_y18""",1616,"""More than half""",903,true,0
+3,"""yellow""","""b12_y16""",664,"""Few""",1384,false,0
+3,"""blue""","""b5_y6""",4592,"""More than half""",1160,false,5
+3,"""yellow""","""b7_y8""",1264,"""Many""",760,true,3
+3,"""blue""","""b20_y24""",1239,"""More""",1120,false,1
+3,"""blue""","""b15_y18""",10575,"""More than half""",856,false,3
+3,"""blue""","""b8_y6""",5415,"""Most""",1095,true,6
+3,"""blue""","""b20_y24""",7103,"""Fewer than half""",840,true,7
+3,"""blue""","""b9_y8""",2639,"""More""",816,true,9
+3,"""blue""","""b6_y5""",1304,"""More than half""",1408,true,3
+3,"""yellow""","""b18_y15""",1016,"""Most""",600,false,0
+3,"""yellow""","""b24_y18""",952,"""Many""",534,true,6
+3,"""yellow""","""b21_y24""",567,"""Many""",464,true,0
+3,"""yellow""","""b9_y8""",624,"""Many""",680,true,6
+3,"""blue""","""b8_y6""",808,"""Few""",543,false,3
+3,"""yellow""","""b24_y20""",2393,"""More than half""",960,false,1
+3,"""yellow""","""b10_y20""",1545,"""Fewer than half""",480,true,7
+3,"""blue""","""b14_y16""",1376,"""Fewer than half""",647,true,4
+3,"""blue""","""b18_y27""",1345,"""Most""",534,false,6
+3,"""yellow""","""b20_y10""",2065,"""Most""",695,false,0
+3,"""yellow""","""b15_y18""",1216,"""Most""",566,true,4
+3,"""yellow""","""b12_y18""",968,"""Many""",577,true,9
+3,"""blue""","""b5_y6""",1080,"""Few""",439,false,7
+3,"""yellow""","""b6_y5""",2616,"""Most""",512,false,7
+3,"""blue""","""b24_y20""",1488,"""Many""",560,true,8
+3,"""blue""","""b8_y6""",727,"""Few""",615,false,2
+3,"""blue""","""b24_y27""",3934,"""More""",1399,true,3
+3,"""yellow""","""b20_y24""",3551,"""Most""",831,false,2
+3,"""blue""","""b6_y5""",3336,"""Fewer than half""",1441,false,0
+3,"""yellow""","""b9_y6""",1527,"""Fewer than half""",839,true,7
+3,"""yellow""","""b24_y21""",1390,"""Few""",1073,false,5
+3,"""blue""","""b18_y15""",1441,"""More""",1359,true,1
+3,"""blue""","""b20_y10""",1232,"""More than half""",1062,true,7
+3,"""yellow""","""b18_y16""",1201,"""Many""",663,true,1
+3,"""blue""","""b5_y10""",1320,"""Many""",888,false,4
+3,"""blue""","""b16_y18""",1959,"""More than half""",1840,false,8
+3,"""yellow""","""b7_y8""",5392,"""More than half""",1768,true,0
+3,"""blue""","""b15_y30""",1687,"""Few""",616,true,7
+3,"""yellow""","""b16_y12""",2576,"""More""",1048,false,5
+3,"""blue""","""b18_y16""",3056,"""Most""",560,true,3
+3,"""yellow""","""b24_y18""",1546,"""Most""",535,false,0
+3,"""blue""","""b8_y6""",4895,"""Fewer than half""",623,false,5
+3,"""blue""","""b18_y12""",1663,"""Few""",1120,false,3
+3,"""blue""","""b15_y30""",1319,"""More""",912,false,6
+3,"""yellow""","""b18_y24""",2527,"""More""",905,true,0
+3,"""yellow""","""b16_y12""",2015,"""More""",830,false,0
+3,"""blue""","""b12_y18""",1095,"""Most""",944,false,3
+3,"""blue""","""b6_y9""",1049,"""Most""",759,false,6
+3,"""yellow""","""b10_y20""",809,"""Few""",711,false,7
+3,"""yellow""","""b18_y12""",441,"""Many""",599,true,3
+3,"""yellow""","""b12_y16""",7200,"""Most""",1025,true,1
+3,"""yellow""","""b12_y16""",496,"""Few""",736,false,7
+3,"""yellow""","""b27_y24""",5108,"""More""",1009,false,7
+3,"""blue""","""b20_y10""",1494,"""Fewer than half""",999,false,3
+3,"""blue""","""b5_y6""",1368,"""More than half""",1206,false,9
+3,"""yellow""","""b10_y20""",1167,"""More than half""",920,true,0
+3,"""blue""","""b24_y21""",1263,"""More""",999,true,5
+3,"""yellow""","""b15_y30""",704,"""More""",720,true,4
+3,"""blue""","""b9_y8""",1112,"""Many""",1102,true,3
+3,"""yellow""","""b15_y30""",1144,"""More than half""",1216,true,0
+3,"""yellow""","""b18_y16""",600,"""Few""",639,false,9
+3,"""blue""","""b10_y20""",1680,"""More than half""",1784,false,8
+3,"""blue""","""b8_y6""",808,"""Many""",559,true,5
+3,"""yellow""","""b7_y8""",5592,"""Most""",697,true,7
+3,"""yellow""","""b18_y16""",1551,"""Few""",527,false,9
+3,"""yellow""","""b6_y5""",3801,"""More than half""",776,false,0
+3,"""yellow""","""b24_y18""",1863,"""Fewer than half""",904,true,9
+3,"""yellow""","""b27_y24""",8136,"""Fewer than half""",824,true,2
+3,"""yellow""","""b6_y5""",2369,"""More than half""",704,false,6
+3,"""yellow""","""b9_y8""",5370,"""More""",936,false,6
+3,"""blue""","""b9_y8""",5464,"""Most""",560,true,5
+3,"""blue""","""b24_y20""",2225,"""More than half""",888,true,3
+3,"""yellow""","""b9_y6""",2000,"""Most""",528,false,2
+3,"""blue""","""b24_y21""",808,"""Many""",503,true,4
+3,"""blue""","""b6_y5""",1216,"""More than half""",751,true,3
+3,"""yellow""","""b5_y6""",960,"""Few""",840,false,0
+3,"""blue""","""b15_y30""",1024,"""Few""",760,false,4
+3,"""blue""","""b10_y20""",1503,"""Most""",823,false,9
+3,"""yellow""","""b24_y21""",17720,"""Fewer than half""",936,false,7
+3,"""yellow""","""b8_y6""",7208,"""More than half""",992,false,2
+3,"""yellow""","""b12_y18""",1247,"""Most""",863,true,5
+3,"""blue""","""b24_y21""",1151,"""Most""",671,true,6
+3,"""blue""","""b18_y16""",1600,"""Fewer than half""",671,false,1
+3,"""yellow""","""b8_y6""",2080,"""Fewer than half""",928,true,4
+3,"""yellow""","""b8_y6""",1648,"""Few""",600,true,7
+3,"""yellow""","""b6_y5""",2351,"""Many""",729,true,5
+3,"""yellow""","""b18_y24""",2128,"""More than half""",1289,true,2
+3,"""blue""","""b8_y7""",896,"""Few""",1062,false,4
+3,"""blue""","""b12_y18""",2280,"""Most""",776,false,5
+3,"""yellow""","""b15_y30""",999,"""Many""",528,true,6
+3,"""blue""","""b5_y6""",2414,"""Most""",482,false,3
+3,"""yellow""","""b27_y24""",1480,"""More than half""",521,false,2
+3,"""yellow""","""b24_y18""",4096,"""Most""",1112,false,8
+3,"""blue""","""b18_y12""",1143,"""More than half""",913,true,0
+3,"""blue""","""b8_y7""",1295,"""Fewer than half""",601,true,3
+3,"""blue""","""b24_y21""",3624,"""More""",1352,true,1
+3,"""blue""","""b8_y6""",1688,"""More than half""",849,true,4
+3,"""blue""","""b20_y10""",864,"""Most""",575,true,2
+3,"""yellow""","""b6_y8""",744,"""Few""",648,false,4
+3,"""blue""","""b9_y6""",1104,"""Fewer than half""",656,false,8
+3,"""blue""","""b16_y14""",1240,"""More than half""",575,true,1
+3,"""yellow""","""b10_y20""",1119,"""Fewer than half""",752,false,3
+3,"""yellow""","""b9_y8""",1062,"""Fewer than half""",954,true,0
+3,"""blue""","""b24_y27""",2200,"""More than half""",784,false,9
+3,"""yellow""","""b18_y12""",848,"""Many""",568,true,5
+3,"""yellow""","""b24_y27""",5304,"""More""",990,false,4
+3,"""yellow""","""b15_y18""",1311,"""Few""",449,false,4
+3,"""blue""","""b8_y9""",10936,"""More""",1528,false,0
+3,"""blue""","""b6_y8""",1817,"""Many""",608,true,4
+3,"""blue""","""b18_y12""",1886,"""More""",928,true,1
+3,"""yellow""","""b18_y24""",2943,"""Fewer than half""",984,false,4
+3,"""blue""","""b8_y7""",7200,"""More""",703,true,1
+3,"""yellow""","""b27_y18""",534,"""Many""",600,false,2
+3,"""yellow""","""b12_y18""",744,"""Most""",760,false,6
+3,"""yellow""","""b18_y15""",1293,"""Fewer than half""",784,false,9
+3,"""blue""","""b24_y21""",1263,"""More""",838,true,6
+3,"""blue""","""b18_y27""",784,"""More""",1048,false,8
+3,"""blue""","""b7_y8""",913,"""Many""",711,true,6
+3,"""blue""","""b12_y18""",951,"""Most""",664,false,5
+3,"""yellow""","""b10_y20""",1376,"""Most""",680,true,2
+3,"""blue""","""b5_y10""",1248,"""More than half""",1001,false,5
+3,"""yellow""","""b14_y16""",2280,"""Fewer than half""",1663,false,6
+3,"""yellow""","""b20_y24""",2408,"""Fewer than half""",1039,false,0
+3,"""blue""","""b24_y18""",1376,"""Few""",664,true,4
+3,"""blue""","""b6_y9""",1063,"""More""",1151,false,5
+3,"""blue""","""b16_y18""",1017,"""Many""",720,true,4
+3,"""yellow""","""b18_y15""",670,"""Few""",552,false,4
+3,"""yellow""","""b24_y21""",15312,"""More than half""",704,false,8
+3,"""blue""","""b5_y10""",1345,"""Most""",1447,false,3
+3,"""blue""","""b18_y27""",2112,"""Most""",688,false,8
+3,"""blue""","""b5_y6""",2909,"""More than half""",735,false,3
+3,"""yellow""","""b6_y9""",4568,"""More""",1495,true,7
+3,"""blue""","""b10_y5""",1263,"""Fewer than half""",671,false,2
+3,"""blue""","""b10_y5""",1241,"""More""",887,true,6
+3,"""blue""","""b10_y5""",1161,"""Most""",594,true,2
+3,"""blue""","""b20_y24""",2024,"""More""",944,true,4
+3,"""yellow""","""b8_y7""",1294,"""More""",616,false,2
+3,"""blue""","""b6_y9""",663,"""Many""",664,true,2
+3,"""yellow""","""b15_y30""",1391,"""Most""",680,true,3
+3,"""yellow""","""b20_y10""",527,"""Few""",752,false,7
+3,"""blue""","""b18_y15""",1136,"""Many""",544,true,5
+3,"""blue""","""b10_y5""",1937,"""Most""",616,true,2
+3,"""yellow""","""b15_y30""",2960,"""Few""",767,false,3
+3,"""yellow""","""b5_y6""",1887,"""More than half""",848,true,4
+3,"""blue""","""b8_y6""",1089,"""Few""",792,false,8
+3,"""blue""","""b18_y15""",528,"""Few""",799,false,7
+3,"""yellow""","""b10_y20""",1455,"""Fewer than half""",599,false,9
+3,"""yellow""","""b18_y27""",2113,"""Fewer than half""",1271,false,4
+3,"""yellow""","""b16_y12""",1495,"""More""",1849,false,4
+3,"""blue""","""b15_y30""",1352,"""Fewer than half""",935,true,8
+3,"""blue""","""b24_y21""",648,"""Most""",559,true,6
+3,"""blue""","""b15_y30""",863,"""More than half""",584,false,4
+3,"""blue""","""b16_y12""",1008,"""More than half""",680,true,3
+3,"""yellow""","""b12_y16""",1784,"""Most""",673,true,5
+3,"""yellow""","""b9_y8""",1088,"""Many""",656,true,1
+3,"""blue""","""b18_y24""",672,"""Few""",464,false,3
+3,"""blue""","""b18_y12""",944,"""Many""",592,true,3
+3,"""blue""","""b8_y9""",767,"""Few""",593,false,6
+3,"""blue""","""b24_y18""",566,"""Few""",696,false,3
+3,"""blue""","""b12_y18""",680,"""Most""",672,false,6
+3,"""yellow""","""b15_y18""",1153,"""Few""",552,false,8
+3,"""yellow""","""b9_y6""",1288,"""Many""",559,false,0
+3,"""yellow""","""b24_y18""",3921,"""More than half""",744,false,9
+3,"""yellow""","""b18_y12""",1336,"""Many""",503,true,5
+3,"""yellow""","""b24_y27""",1127,"""Few""",584,false,5
+3,"""yellow""","""b18_y27""",1840,"""Many""",565,true,9
+3,"""blue""","""b15_y30""",1104,"""Fewer than half""",480,false,1
+3,"""blue""","""b21_y24""",1455,"""More""",1167,false,7
+3,"""blue""","""b24_y20""",735,"""Many""",543,true,7
+3,"""blue""","""b6_y8""",1615,"""Most""",616,false,2
+3,"""yellow""","""b10_y20""",1897,"""Fewer than half""",792,false,8
+3,"""yellow""","""b21_y24""",10512,"""More""",816,true,8
+3,"""blue""","""b18_y27""",1414,"""Many""",534,true,9
+3,"""yellow""","""b18_y16""",497,"""Few""",607,false,4
+3,"""blue""","""b18_y12""",4032,"""More""",1144,true,6
+3,"""yellow""","""b27_y18""",1048,"""More""",785,false,5
+3,"""yellow""","""b15_y18""",1016,"""Many""",472,true,4
+3,"""yellow""","""b5_y6""",3368,"""More than half""",728,true,8
+3,"""blue""","""b12_y18""",1728,"""More than half""",719,false,8
+4,"""blue""","""b7_y8""",6137,"""All""",191,true,9
+4,"""yellow""","""b24_y20""",3495,"""Some""",135,false,9
+4,"""blue""","""b12_y16""",6324,"""None""",119,false,8
+4,"""yellow""","""b18_y16""",800,"""An even number""",71,true,8
+4,"""blue""","""b15_y30""",495,"""At least ten""",71,true,9
+4,"""yellow""","""b6_y9""",480,"""Some""",111,true,8
+4,"""yellow""","""b15_y30""",1183,"""Few""",62,true,7
+4,"""blue""","""b16_y18""",864,"""Most""",89,false,0
+4,"""blue""","""b16_y18""",975,"""Fewer than half""",96,true,4
+4,"""yellow""","""b10_y20""",505,"""More than half""",90,true,1
+4,"""yellow""","""b27_y18""",393,"""More than half""",87,true,0
+4,"""yellow""","""b24_y27""",1072,"""Fewer than half""",73,false,7
+4,"""yellow""","""b15_y30""",504,"""Most""",89,true,2
+4,"""yellow""","""b27_y24""",808,"""Most""",88,false,9
+4,"""yellow""","""b5_y10""",632,"""Few""",64,false,1
+4,"""blue""","""b5_y10""",881,"""Most""",80,false,4
+4,"""yellow""","""b21_y24""",432,"""More than half""",72,false,5
+4,"""yellow""","""b12_y18""",410,"""More""",87,false,4
+4,"""blue""","""b6_y9""",345,"""More""",88,false,7
+4,"""yellow""","""b6_y5""",369,"""Most""",96,false,2
+4,"""yellow""","""b6_y9""",334,"""Fewer than half""",96,false,7
+4,"""blue""","""b14_y16""",1078,"""Most""",86,false,1
+4,"""blue""","""b24_y27""",354,"""Few""",98,true,3
+4,"""yellow""","""b7_y8""",351,"""Many""",94,true,6
+4,"""blue""","""b24_y21""",320,"""More""",89,true,1
+4,"""yellow""","""b20_y24""",344,"""Many""",104,true,4
+4,"""yellow""","""b16_y14""",304,"""More""",56,true,2
+4,"""yellow""","""b16_y14""",296,"""Most""",80,true,9
+4,"""yellow""","""b6_y9""",296,"""More than half""",96,true,4
+4,"""yellow""","""b27_y24""",329,"""Most""",96,false,3
+4,"""blue""","""b27_y18""",503,"""More""",96,false,9
+4,"""yellow""","""b30_y15""",400,"""Fewer than half""",112,true,3
+4,"""blue""","""b30_y15""",4601,"""Most""",80,true,2
+4,"""blue""","""b27_y18""",279,"""Most""",80,true,5
+4,"""blue""","""b20_y24""",305,"""Fewer than half""",72,true,7
+4,"""yellow""","""b16_y18""",550,"""More""",72,true,0
+4,"""yellow""","""b24_y18""",296,"""Fewer than half""",80,true,9
+4,"""blue""","""b14_y16""",264,"""More than half""",73,true,9
+4,"""yellow""","""b16_y12""",280,"""More than half""",55,true,7
+4,"""yellow""","""b6_y8""",272,"""Most""",79,true,4
+4,"""yellow""","""b18_y12""",634,"""Many""",79,true,0
+4,"""yellow""","""b5_y6""",8575,"""Few""",72,true,4
+4,"""blue""","""b14_y16""",288,"""Fewer than half""",81,true,2
+4,"""yellow""","""b27_y18""",264,"""More""",82,false,2
+4,"""blue""","""b24_y27""",271,"""Fewer than half""",78,false,9
+4,"""yellow""","""b20_y10""",272,"""Many""",87,false,0
+4,"""yellow""","""b21_y24""",271,"""Fewer than half""",78,false,5
+4,"""blue""","""b9_y8""",280,"""More""",79,false,8
+4,"""blue""","""b9_y8""",574,"""More than half""",80,false,8
+4,"""yellow""","""b20_y24""",345,"""More""",87,false,0
+4,"""blue""","""b5_y6""",295,"""Fewer than half""",80,false,3
+4,"""blue""","""b16_y14""",288,"""Few""",87,false,3
+4,"""yellow""","""b6_y5""",296,"""Most""",89,false,3
+4,"""blue""","""b18_y12""",280,"""Few""",96,false,5
+4,"""blue""","""b7_y8""",304,"""Most""",72,false,4
+4,"""yellow""","""b24_y20""",497,"""Few""",80,false,0
+4,"""yellow""","""b18_y12""",271,"""Fewer than half""",78,false,0
+4,"""blue""","""b15_y30""",296,"""Few""",96,false,8
+4,"""blue""","""b20_y10""",296,"""Few""",87,false,3
+4,"""blue""","""b8_y7""",303,"""Most""",87,false,1
+4,"""yellow""","""b24_y18""",272,"""Most""",71,false,2
+4,"""blue""","""b15_y18""",263,"""More""",78,false,7
+4,"""blue""","""b24_y20""",280,"""More""",112,false,6
+4,"""blue""","""b18_y15""",281,"""Most""",87,false,8
+4,"""blue""","""b14_y16""",280,"""More than half""",48,false,6
+4,"""yellow""","""b14_y16""",240,"""Fewer than half""",88,true,9
+4,"""yellow""","""b6_y8""",235,"""Many""",80,true,5
+4,"""blue""","""b14_y16""",224,"""Few""",96,true,3
+4,"""yellow""","""b6_y8""",209,"""More""",80,true,9
+4,"""yellow""","""b15_y30""",11,"""Most""",72,false,8
+4,"""yellow""","""b21_y24""",256,"""Many""",89,false,5
+4,"""blue""","""b20_y10""",254,"""More than half""",90,true,1
+4,"""blue""","""b24_y21""",248,"""More""",80,true,9
+4,"""blue""","""b24_y21""",528,"""Many""",88,true,0
+4,"""yellow""","""b24_y18""",240,"""More than half""",80,true,0
+4,"""blue""","""b7_y8""",264,"""More""",87,true,6
+4,"""blue""","""b24_y18""",312,"""Most""",87,false,6
+4,"""blue""","""b24_y21""",279,"""Many""",71,false,3
+4,"""blue""","""b5_y6""",272,"""More""",88,false,3
+4,"""blue""","""b16_y18""",288,"""Many""",80,false,0
+4,"""blue""","""b8_y7""",290,"""Fewer than half""",88,false,2
+4,"""yellow""","""b20_y10""",256,"""More""",88,true,4
+4,"""blue""","""b27_y18""",240,"""More""",86,true,6
+4,"""yellow""","""b10_y20""",240,"""More""",96,true,5
+4,"""yellow""","""b7_y8""",481,"""Many""",88,true,8
+4,"""blue""","""b7_y8""",225,"""Few""",87,true,7
+4,"""yellow""","""b14_y16""",8,"""Many""",80,true,2
+4,"""yellow""","""b21_y24""",233,"""More than half""",79,false,0
+4,"""yellow""","""b18_y12""",264,"""Most""",80,false,6
+4,"""blue""","""b8_y6""",239,"""More than half""",89,false,2
+4,"""blue""","""b24_y21""",264,"""Few""",86,false,5
+4,"""blue""","""b16_y12""",247,"""More than half""",79,false,8
+4,"""yellow""","""b14_y16""",232,"""Fewer than half""",87,false,0
+4,"""yellow""","""b9_y8""",224,"""Fewer than half""",72,true,0
+4,"""blue""","""b14_y16""",239,"""More than half""",87,true,2
+4,"""blue""","""b8_y6""",454,"""Most""",89,true,7
+4,"""yellow""","""b6_y5""",225,"""More""",96,true,0
+4,"""yellow""","""b27_y18""",264,"""More""",88,false,9
+4,"""yellow""","""b16_y14""",279,"""More""",57,false,0
+4,"""blue""","""b18_y27""",256,"""More""",81,false,9
+4,"""yellow""","""b12_y18""",272,"""More than half""",82,false,9
+4,"""yellow""","""b10_y5""",263,"""Many""",89,false,4
+4,"""yellow""","""b21_y24""",255,"""Most""",80,false,3
+4,"""yellow""","""b18_y24""",456,"""Many""",78,true,3
+4,"""blue""","""b18_y24""",248,"""Most""",88,false,3
+4,"""yellow""","""b24_y27""",200,"""More""",81,true,7
+4,"""blue""","""b6_y5""",241,"""Few""",88,true,6
+4,"""yellow""","""b27_y24""",231,"""Many""",96,true,8
+4,"""yellow""","""b16_y14""",225,"""Most""",88,true,1
+4,"""yellow""","""b20_y10""",232,"""More than half""",81,true,9
+4,"""blue""","""b18_y16""",217,"""More""",97,true,2
+4,"""blue""","""b8_y7""",225,"""Few""",80,true,1
+4,"""blue""","""b27_y24""",241,"""Many""",80,true,9
+4,"""yellow""","""b6_y8""",384,"""Fewer than half""",97,true,7
+4,"""blue""","""b6_y8""",1936,"""More than half""",88,false,7
+4,"""yellow""","""b16_y18""",215,"""Many""",88,true,1
+4,"""yellow""","""b14_y16""",218,"""Fewer than half""",80,true,8
+4,"""yellow""","""b18_y24""",225,"""Few""",88,true,4
+4,"""blue""","""b20_y10""",224,"""More than half""",96,true,9
+4,"""blue""","""b14_y16""",271,"""Many""",87,true,9
+4,"""blue""","""b18_y16""",200,"""More than half""",80,false,7
+4,"""yellow""","""b8_y6""",260,"""Many""",67,false,5
+4,"""blue""","""b5_y6""",450,"""Fewer than half""",88,false,0
+4,"""blue""","""b21_y24""",10,"""More""",38,true,6
+4,"""yellow""","""b6_y8""",792,"""Few""",79,true,6
+4,"""blue""","""b8_y9""",190,"""More than half""",97,true,8
+4,"""yellow""","""b8_y6""",256,"""More""",102,true,4
+4,"""yellow""","""b16_y18""",224,"""More than half""",64,false,9
+4,"""blue""","""b12_y16""",253,"""More""",62,false,1
+4,"""yellow""","""b12_y18""",224,"""More""",96,false,2
+4,"""blue""","""b15_y18""",240,"""More than half""",56,false,4
+4,"""blue""","""b16_y12""",240,"""Fewer than half""",80,false,9
+4,"""yellow""","""b9_y6""",240,"""Most""",88,false,9
+4,"""yellow""","""b20_y10""",255,"""Most""",96,false,2
+4,"""yellow""","""b18_y15""",240,"""Fewer than half""",80,false,8
+4,"""yellow""","""b24_y21""",432,"""Fewer than half""",78,false,9
+4,"""blue""","""b5_y6""",223,"""Fewer than half""",80,true,3
+4,"""yellow""","""b15_y30""",208,"""Fewer than half""",80,true,7
+4,"""yellow""","""b9_y8""",390,"""More than half""",80,true,1
+4,"""blue""","""b6_y8""",232,"""Many""",87,true,0
+4,"""blue""","""b6_y9""",215,"""Few""",88,true,1
+4,"""yellow""","""b18_y12""",272,"""Many""",89,true,3
+4,"""blue""","""b15_y18""",217,"""More than half""",79,true,0
+4,"""blue""","""b20_y10""",392,"""Many""",79,true,5
+4,"""yellow""","""b12_y16""",184,"""Few""",87,false,8
+4,"""yellow""","""b6_y8""",439,"""Few""",88,false,4
+4,"""blue""","""b24_y21""",399,"""Many""",88,false,6
+4,"""blue""","""b24_y20""",184,"""Many""",80,true,4
+4,"""blue""","""b21_y24""",344,"""More than half""",80,true,2
+4,"""blue""","""b7_y8""",32,"""Fewer than half""",86,false,5
+4,"""yellow""","""b10_y5""",201,"""More than half""",73,false,2
+4,"""blue""","""b10_y5""",200,"""Fewer than half""",88,true,7
+4,"""yellow""","""b6_y5""",192,"""Many""",104,true,4
+4,"""blue""","""b6_y9""",176,"""Most""",88,false,1
+4,"""blue""","""b10_y5""",152,"""Fewer than half""",112,true,2
+4,"""blue""","""b5_y10""",183,"""More than half""",80,false,9
+4,"""blue""","""b12_y16""",169,"""Many""",95,true,4
+4,"""blue""","""b24_y20""",160,"""More""",80,false,5
+4,"""blue""","""b14_y16""",359,"""Few""",88,true,9
+4,"""blue""","""b24_y20""",200,"""Many""",72,true,0
+4,"""blue""","""b12_y16""",183,"""Fewer than half""",79,true,1
+4,"""yellow""","""b9_y8""",184,"""More than half""",71,true,3
+4,"""blue""","""b8_y9""",184,"""Most""",48,true,1
+4,"""yellow""","""b18_y15""",199,"""More""",72,true,4
+4,"""yellow""","""b21_y24""",192,"""Fewer than half""",79,true,8
+4,"""yellow""","""b27_y24""",193,"""Few""",80,true,4
+4,"""yellow""","""b7_y8""",280,"""Few""",79,true,4
+4,"""yellow""","""b12_y18""",208,"""More""",80,false,0
+4,"""yellow""","""b16_y18""",144,"""Few""",87,false,6
+4,"""blue""","""b20_y10""",161,"""More""",80,false,6
+4,"""yellow""","""b5_y6""",152,"""More""",81,false,9
+4,"""blue""","""b5_y6""",151,"""Most""",89,false,3
+4,"""blue""","""b9_y6""",176,"""Few""",81,false,6
+4,"""blue""","""b30_y15""",183,"""Many""",79,false,4
+4,"""yellow""","""b16_y18""",160,"""Most""",72,false,7
+4,"""blue""","""b8_y7""",176,"""Many""",79,false,1
+4,"""yellow""","""b12_y16""",175,"""More than half""",79,false,8
+4,"""yellow""","""b7_y8""",192,"""Fewer than half""",88,false,0
+4,"""blue""","""b24_y21""",192,"""Most""",79,false,6
+4,"""blue""","""b20_y10""",210,"""Fewer than half""",72,false,4
+4,"""yellow""","""b24_y20""",8,"""Most""",81,true,5
+4,"""yellow""","""b12_y18""",240,"""Most""",80,false,2
+4,"""blue""","""b7_y8""",216,"""Many""",71,true,1
+4,"""yellow""","""b16_y14""",187,"""Many""",63,true,5
+4,"""blue""","""b15_y30""",184,"""Few""",80,true,7
+4,"""yellow""","""b16_y18""",192,"""Many""",72,true,3
+4,"""yellow""","""b24_y20""",169,"""More than half""",54,true,9
+4,"""yellow""","""b6_y5""",271,"""Many""",73,true,0
+4,"""blue""","""b6_y8""",118,"""Few""",55,true,6
+4,"""yellow""","""b10_y5""",9,"""More than half""",79,true,8
+4,"""blue""","""b7_y8""",207,"""Fewer than half""",95,true,8
+4,"""blue""","""b24_y21""",200,"""More than half""",79,true,5
+4,"""yellow""","""b18_y27""",190,"""Many""",80,true,1
+4,"""blue""","""b6_y5""",192,"""Many""",95,true,7
+4,"""yellow""","""b5_y6""",224,"""More than half""",87,true,9
+4,"""blue""","""b10_y20""",182,"""More""",87,true,1
+4,"""yellow""","""b18_y12""",97,"""More""",64,false,1
+4,"""yellow""","""b9_y6""",128,"""Fewer than half""",65,false,6
+4,"""yellow""","""b24_y20""",144,"""More""",63,false,0
+4,"""yellow""","""b9_y6""",144,"""Fewer than half""",78,false,1
+4,"""blue""","""b27_y18""",183,"""Many""",81,false,9
+4,"""yellow""","""b12_y18""",153,"""Most""",63,false,5
+4,"""blue""","""b24_y27""",169,"""Most""",72,false,9
+4,"""blue""","""b12_y16""",193,"""More than half""",66,false,6
+4,"""yellow""","""b10_y20""",6408,"""Fewer than half""",73,false,7
+4,"""yellow""","""b5_y10""",161,"""Most""",103,false,9
+4,"""yellow""","""b15_y18""",144,"""More than half""",88,false,3
+4,"""yellow""","""b30_y15""",159,"""Few""",72,false,0
+4,"""blue""","""b6_y5""",160,"""More than half""",73,false,6
+4,"""blue""","""b24_y27""",159,"""More""",71,false,0
+4,"""yellow""","""b27_y18""",169,"""Few""",79,false,8
+4,"""blue""","""b6_y8""",153,"""Few""",72,false,3
+4,"""blue""","""b27_y18""",202,"""More""",79,false,9
+4,"""blue""","""b6_y5""",152,"""Most""",57,false,0
+4,"""yellow""","""b18_y15""",215,"""Many""",81,true,6
+4,"""yellow""","""b16_y12""",215,"""Many""",80,false,9
+4,"""yellow""","""b6_y8""",159,"""Most""",81,true,7
+4,"""blue""","""b9_y6""",256,"""Most""",95,true,0
+4,"""blue""","""b8_y6""",176,"""Most""",75,true,5
+4,"""yellow""","""b15_y18""",177,"""More than half""",72,true,9
+4,"""blue""","""b5_y6""",345,"""More than half""",88,true,8
+4,"""yellow""","""b16_y14""",151,"""Fewer than half""",79,false,7
+4,"""blue""","""b30_y15""",144,"""Most""",79,false,0
+4,"""yellow""","""b9_y6""",185,"""Most""",79,false,3
+4,"""blue""","""b16_y14""",201,"""More""",89,false,2
+4,"""blue""","""b18_y16""",193,"""Most""",79,false,9
+4,"""yellow""","""b24_y21""",159,"""Most""",145,false,4
+4,"""yellow""","""b5_y6""",200,"""More""",104,false,4
+4,"""blue""","""b8_y6""",7,"""Few""",111,false,0
+4,"""yellow""","""b12_y16""",217,"""Few""",79,false,4
+4,"""blue""","""b8_y6""",248,"""Few""",80,false,9
+4,"""yellow""","""b5_y6""",144,"""More""",96,true,7
+4,"""yellow""","""b5_y6""",128,"""Fewer than half""",81,true,2
+4,"""yellow""","""b21_y24""",136,"""Most""",96,false,8
+4,"""blue""","""b7_y8""",121,"""Most""",95,true,0
+4,"""blue""","""b6_y9""",117,"""Many""",39,true,6
+4,"""blue""","""b24_y20""",367,"""Many""",115,false,9
+4,"""yellow""","""b9_y6""",136,"""More than half""",89,true,0
+4,"""yellow""","""b30_y15""",123,"""Few""",48,true,4
+4,"""yellow""","""b8_y9""",104,"""Many""",78,true,6
+4,"""blue""","""b12_y16""",121,"""Many""",72,true,7
+4,"""blue""","""b21_y24""",98,"""More""",64,true,2
+4,"""yellow""","""b24_y20""",106,"""More than half""",72,true,9
+4,"""blue""","""b12_y16""",272,"""Many""",72,false,5
+4,"""yellow""","""b6_y9""",112,"""Most""",112,false,2
+4,"""yellow""","""b16_y14""",87,"""More than half""",99,false,7
+4,"""blue""","""b5_y10""",127,"""Most""",79,false,6
+4,"""yellow""","""b8_y7""",168,"""Many""",103,true,9
+4,"""blue""","""b24_y20""",128,"""Many""",96,true,5
+4,"""blue""","""b8_y6""",112,"""Few""",58,true,1
+4,"""blue""","""b5_y6""",111,"""Many""",129,true,4
+4,"""yellow""","""b18_y12""",80,"""Few""",96,false,2
+4,"""yellow""","""b27_y24""",136,"""Few""",72,false,9
+4,"""blue""","""b9_y6""",71,"""More than half""",80,true,1
+4,"""yellow""","""b10_y5""",119,"""More""",88,true,7
+4,"""blue""","""b16_y14""",120,"""More than half""",89,true,8
+4,"""yellow""","""b15_y30""",104,"""Many""",192,false,0
+4,"""yellow""","""b16_y14""",181,"""Many""",78,true,7
+4,"""blue""","""b9_y8""",120,"""More""",72,true,1
+4,"""blue""","""b9_y8""",128,"""Fewer than half""",112,true,7
+4,"""yellow""","""b12_y16""",144,"""More""",81,true,5
+4,"""blue""","""b24_y27""",144,"""Many""",105,true,7
+4,"""yellow""","""b27_y24""",137,"""Few""",105,true,7
+4,"""yellow""","""b24_y27""",198,"""Fewer than half""",80,true,1
+4,"""blue""","""b18_y27""",439,"""More than half""",72,true,0
+4,"""yellow""","""b24_y27""",176,"""Many""",63,true,8
+4,"""blue""","""b15_y18""",272,"""Fewer than half""",26,true,2
+4,"""blue""","""b27_y24""",171,"""Few""",64,true,1
+4,"""yellow""","""b9_y6""",111,"""Few""",80,false,5
+4,"""blue""","""b5_y10""",128,"""Fewer than half""",72,false,2
+4,"""yellow""","""b24_y21""",208,"""Fewer than half""",80,true,4
+4,"""blue""","""b18_y15""",192,"""Fewer than half""",64,true,0
+4,"""yellow""","""b16_y12""",200,"""Fewer than half""",71,true,7
+4,"""yellow""","""b5_y10""",185,"""Few""",72,true,0
+4,"""yellow""","""b24_y18""",199,"""More than half""",64,true,7
+4,"""yellow""","""b10_y5""",231,"""Fewer than half""",88,false,7
+4,"""blue""","""b8_y9""",224,"""More""",97,false,5
+4,"""blue""","""b8_y7""",185,"""More than half""",80,false,6
+4,"""blue""","""b12_y16""",192,"""More""",65,true,7
+4,"""yellow""","""b7_y8""",192,"""Few""",65,true,5
+4,"""blue""","""b30_y15""",184,"""Fewer than half""",81,true,8
+4,"""blue""","""b8_y6""",216,"""Fewer than half""",80,true,4
+4,"""blue""","""b27_y24""",192,"""Fewer than half""",80,false,3
+4,"""yellow""","""b15_y18""",216,"""Most""",80,false,7
+4,"""yellow""","""b16_y12""",216,"""Few""",88,false,2
+4,"""yellow""","""b27_y18""",224,"""More""",88,false,5
+4,"""blue""","""b16_y12""",216,"""Few""",96,false,1
+4,"""yellow""","""b5_y6""",240,"""More than half""",87,true,1
+4,"""blue""","""b18_y27""",247,"""Fewer than half""",79,true,4
+4,"""yellow""","""b12_y18""",3408,"""More""",134,true,4
+4,"""blue""","""b24_y27""",297,"""Many""",128,true,4
+4,"""yellow""","""b20_y24""",256,"""Most""",64,true,8
+4,"""yellow""","""b8_y7""",264,"""Few""",81,true,4
+4,"""yellow""","""b15_y18""",152,"""More than half""",95,true,7
+4,"""blue""","""b5_y10""",640,"""Most""",128,true,2
+4,"""blue""","""b27_y24""",519,"""Most""",17,true,4
+4,"""blue""","""b16_y14""",472,"""Few""",95,true,5
+4,"""blue""","""b27_y24""",536,"""Fewer than half""",80,true,8
+4,"""blue""","""b24_y20""",136,"""More than half""",120,true,8
+4,"""blue""","""b12_y16""",136,"""Many""",96,true,1
+4,"""yellow""","""b8_y7""",105,"""More""",72,true,9
+4,"""blue""","""b27_y18""",157,"""More than half""",72,true,6
+4,"""blue""","""b5_y10""",313,"""Few""",124,false,8
+4,"""blue""","""b18_y12""",209,"""Fewer than half""",89,false,4
+4,"""blue""","""b5_y6""",224,"""More than half""",64,false,3
+4,"""yellow""","""b8_y9""",264,"""Few""",64,false,1
+4,"""blue""","""b9_y6""",192,"""More""",62,true,8
+4,"""blue""","""b15_y18""",144,"""Many""",73,true,4
+4,"""yellow""","""b16_y18""",119,"""More than half""",80,true,4
+4,"""blue""","""b15_y18""",136,"""Few""",81,true,4
+4,"""yellow""","""b27_y18""",120,"""Few""",79,true,1
+4,"""yellow""","""b9_y8""",128,"""Few""",87,true,4
+4,"""blue""","""b21_y24""",112,"""Most""",82,true,1
+4,"""blue""","""b20_y24""",119,"""More""",80,true,5
+4,"""blue""","""b16_y18""",177,"""Few""",87,true,8
+4,"""blue""","""b16_y12""",192,"""Fewer than half""",40,false,9
+4,"""blue""","""b8_y9""",183,"""Few""",73,false,7
+4,"""yellow""","""b9_y6""",207,"""Fewer than half""",63,false,8
+5,"""blue""","""b7_y8""",2526,"""All""",2160,false,9
+5,"""yellow""","""b24_y20""",1635,"""Some""",1363,true,9
+5,"""blue""","""b12_y16""",1504,"""None""",1196,false,8
+5,"""yellow""","""b18_y16""",8244,"""An even number""",1584,true,8
+5,"""blue""","""b15_y30""",5229,"""At least ten""",2253,true,9
+5,"""yellow""","""b6_y9""",1490,"""Some""",1192,true,8
+5,"""blue""","""b24_y27""",2245,"""More than half""",1585,false,4
+5,"""yellow""","""b8_y6""",1581,"""Many""",1423,true,5
+5,"""blue""","""b18_y27""",3052,"""More""",1810,false,7
+5,"""yellow""","""b14_y16""",2171,"""Fewer than half""",2046,true,6
+5,"""blue""","""b16_y18""",1306,"""More than half""",1993,true,5
+5,"""blue""","""b24_y20""",2222,"""Few""",1392,false,2
+5,"""yellow""","""b27_y24""",2956,"""Most""",207,false,7
+5,"""blue""","""b6_y8""",2437,"""Fewer than half""",146,false,2
+5,"""blue""","""b27_y18""",1474,"""Many""",1596,true,9
+5,"""yellow""","""b18_y27""",1234,"""Many""",1409,true,6
+5,"""yellow""","""b20_y10""",1765,"""Many""",1539,true,4
+5,"""blue""","""b7_y8""",1632,"""More than half""",1915,false,3
+5,"""yellow""","""b24_y18""",1818,"""More than half""",1682,false,0
+5,"""yellow""","""b24_y21""",1448,"""More""",2942,false,9
+5,"""blue""","""b30_y15""",1390,"""Many""",1422,true,0
+5,"""blue""","""b18_y15""",1616,"""Most""",1251,true,6
+5,"""yellow""","""b27_y18""",1413,"""More than half""",2622,false,5
+5,"""blue""","""b15_y18""",1417,"""Few""",1323,false,8
+5,"""yellow""","""b20_y24""",967,"""Few""",1323,false,7
+5,"""yellow""","""b27_y24""",926,"""Many""",1362,true,8
+5,"""yellow""","""b12_y18""",2056,"""More than half""",2322,true,3
+5,"""blue""","""b8_y6""",3532,"""More""",2186,true,3
+5,"""blue""","""b6_y9""",2119,"""Few""",1887,true,6
+5,"""yellow""","""b5_y6""",2022,"""More than half""",1568,true,1
+5,"""yellow""","""b10_y20""",1134,"""Few""",1440,false,6
+5,"""yellow""","""b20_y10""",1268,"""Most""",1132,false,1
+5,"""yellow""","""b12_y18""",3199,"""Most""",1059,true,8
+5,"""yellow""","""b6_y9""",2766,"""Most""",1124,false,0
+5,"""yellow""","""b27_y24""",1580,"""Most""",870,true,7
+5,"""yellow""","""b10_y20""",1828,"""More""",202,true,1
+5,"""yellow""","""b27_y24""",1239,"""Fewer than half""",1888,false,9
+5,"""blue""","""b9_y8""",3553,"""More than half""",1716,false,1
+5,"""yellow""","""b15_y18""",1931,"""More than half""",1158,true,4
+5,"""yellow""","""b24_y20""",2511,"""Many""",1402,true,3
+5,"""yellow""","""b9_y6""",1305,"""Most""",1387,false,2
+5,"""blue""","""b24_y20""",1297,"""Fewer than half""",1786,false,3
+5,"""blue""","""b21_y24""",899,"""Many""",1261,true,1
+5,"""blue""","""b18_y12""",1007,"""Fewer than half""",2608,false,8
+5,"""blue""","""b10_y20""",1716,"""Few""",1065,true,5
+5,"""yellow""","""b15_y18""",1900,"""More than half""",1065,true,4
+5,"""yellow""","""b30_y15""",1998,"""More""",2017,false,4
+5,"""blue""","""b30_y15""",1088,"""More than half""",1202,true,8
+5,"""blue""","""b24_y21""",1303,"""Fewer than half""",1198,false,2
+5,"""yellow""","""b20_y10""",1298,"""Most""",883,false,2
+5,"""yellow""","""b6_y8""",6007,"""More than half""",1582,true,1
+5,"""yellow""","""b21_y24""",2969,"""Most""",1094,false,6
+5,"""yellow""","""b27_y24""",2258,"""More""",1383,true,1
+5,"""blue""","""b15_y18""",999,"""Few""",1625,false,2
+5,"""yellow""","""b6_y5""",1535,"""More""",1426,false,3
+5,"""yellow""","""b18_y27""",1313,"""Most""",1225,true,2
+5,"""yellow""","""b10_y5""",2006,"""Most""",1415,false,9
+5,"""yellow""","""b18_y27""",1103,"""Few""",1164,false,3
+5,"""blue""","""b6_y9""",1464,"""Many""",1011,false,5
+5,"""blue""","""b6_y8""",1296,"""Most""",939,false,0
+5,"""yellow""","""b12_y18""",1430,"""Fewer than half""",1514,false,2
+5,"""yellow""","""b7_y8""",1673,"""Most""",1061,false,2
+5,"""blue""","""b27_y24""",2667,"""More""",964,false,6
+5,"""blue""","""b16_y18""",1116,"""More than half""",1045,true,2
+5,"""yellow""","""b20_y10""",1271,"""More""",901,false,2
+5,"""blue""","""b18_y27""",1504,"""More than half""",1433,false,4
+5,"""blue""","""b30_y15""",1376,"""More than half""",1241,true,2
+5,"""yellow""","""b24_y20""",1045,"""Many""",858,true,4
+5,"""blue""","""b18_y27""",1633,"""More than half""",784,true,8
+5,"""blue""","""b6_y9""",1753,"""Many""",375,true,5
+5,"""blue""","""b21_y24""",1691,"""Few""",894,false,1
+5,"""yellow""","""b30_y15""",2158,"""Few""",903,false,3
+5,"""yellow""","""b5_y10""",2161,"""Fewer than half""",1062,false,0
+5,"""yellow""","""b7_y8""",1411,"""More""",1381,true,9
+5,"""blue""","""b6_y5""",1909,"""Most""",1063,false,4
+5,"""yellow""","""b18_y27""",1304,"""Few""",1260,false,8
+5,"""yellow""","""b6_y5""",1247,"""Most""",1255,false,7
+5,"""yellow""","""b8_y6""",1878,"""More than half""",1305,false,8
+5,"""yellow""","""b16_y14""",4882,"""Many""",982,true,3
+5,"""blue""","""b21_y24""",1146,"""Fewer than half""",921,false,3
+5,"""yellow""","""b24_y18""",1028,"""Few""",957,false,5
+5,"""yellow""","""b27_y18""",1933,"""Fewer than half""",1089,false,4
+5,"""yellow""","""b8_y7""",1093,"""Most""",723,false,3
+5,"""blue""","""b9_y8""",1126,"""Few""",1000,false,8
+5,"""blue""","""b16_y18""",1598,"""More than half""",1049,true,5
+5,"""yellow""","""b18_y27""",1421,"""Many""",840,true,5
+5,"""yellow""","""b24_y18""",2663,"""More""",1180,false,4
+5,"""yellow""","""b18_y16""",2747,"""Few""",725,false,8
+5,"""blue""","""b8_y7""",3163,"""Fewer than half""",960,true,1
+5,"""blue""","""b24_y18""",1261,"""Fewer than half""",1126,false,1
+5,"""blue""","""b18_y12""",1480,"""More than half""",634,true,1
+5,"""yellow""","""b8_y6""",1433,"""Most""",679,false,3
+5,"""blue""","""b16_y14""",886,"""Many""",763,true,9
+5,"""yellow""","""b9_y6""",1091,"""More""",855,false,2
+5,"""blue""","""b12_y18""",1830,"""Fewer than half""",1027,true,9
+5,"""yellow""","""b6_y8""",1469,"""Many""",919,true,9
+5,"""blue""","""b15_y18""",1805,"""More""",722,false,7
+5,"""yellow""","""b18_y12""",898,"""Many""",960,true,4
+5,"""blue""","""b6_y8""",1514,"""Fewer than half""",1374,true,1
+5,"""yellow""","""b16_y14""",1163,"""Many""",952,true,0
+5,"""blue""","""b20_y10""",1151,"""Most""",896,true,1
+5,"""blue""","""b24_y20""",904,"""Few""",956,false,0
+5,"""blue""","""b5_y10""",1502,"""Many""",1030,false,0
+5,"""yellow""","""b9_y6""",1727,"""Many""",1053,false,0
+5,"""blue""","""b24_y21""",1016,"""More than half""",1195,true,2
+5,"""blue""","""b27_y24""",930,"""Many""",885,true,7
+5,"""blue""","""b6_y5""",1803,"""More than half""",1219,true,9
+5,"""yellow""","""b10_y20""",1390,"""More than half""",1101,true,5
+5,"""blue""","""b24_y21""",874,"""More than half""",1118,true,9
+5,"""yellow""","""b9_y6""",1542,"""Few""",2349,true,0
+5,"""blue""","""b18_y12""",1249,"""More than half""",1222,true,6
+5,"""yellow""","""b24_y27""",1077,"""Fewer than half""",1589,false,9
+5,"""yellow""","""b8_y9""",3189,"""More than half""",1843,true,6
+5,"""yellow""","""b24_y27""",3468,"""Fewer than half""",1219,false,2
+5,"""yellow""","""b8_y9""",1856,"""Many""",916,true,1
+5,"""yellow""","""b10_y20""",1169,"""More""",1240,true,6
+5,"""blue""","""b20_y24""",1927,"""More""",1323,false,2
+5,"""blue""","""b18_y12""",1119,"""More""",944,true,3
+5,"""blue""","""b9_y6""",1465,"""More than half""",1670,false,6
+5,"""blue""","""b10_y5""",896,"""Many""",1134,true,7
+5,"""yellow""","""b20_y10""",1437,"""More than half""",1413,false,3
+5,"""blue""","""b20_y24""",1029,"""More than half""",1351,true,6
+5,"""yellow""","""b20_y24""",2864,"""Most""",1308,true,6
+5,"""blue""","""b16_y18""",1681,"""More""",1885,true,2
+5,"""yellow""","""b10_y20""",1355,"""More""",1261,true,6
+5,"""yellow""","""b5_y6""",2752,"""Most""",1718,false,0
+5,"""blue""","""b15_y30""",2656,"""Few""",886,false,7
+5,"""yellow""","""b5_y10""",2149,"""Most""",899,true,5
+5,"""yellow""","""b8_y9""",2141,"""Many""",804,false,1
+5,"""yellow""","""b24_y21""",1098,"""Few""",1123,false,0
+5,"""blue""","""b10_y20""",1197,"""More""",1686,false,0
+5,"""yellow""","""b20_y10""",1374,"""Fewer than half""",2043,true,8
+5,"""blue""","""b8_y7""",1579,"""Few""",1106,false,9
+5,"""blue""","""b24_y27""",3477,"""Most""",1113,false,5
+5,"""yellow""","""b7_y8""",2069,"""Most""",1019,false,3
+5,"""yellow""","""b30_y15""",1781,"""Most""",821,false,9
+5,"""blue""","""b16_y18""",1156,"""Many""",801,true,5
+5,"""blue""","""b24_y21""",1966,"""More than half""",1552,true,7
+5,"""blue""","""b12_y16""",1304,"""More than half""",1426,false,5
+5,"""yellow""","""b24_y20""",2501,"""Fewer than half""",1457,true,1
+5,"""blue""","""b18_y24""",1148,"""Most""",975,false,1
+5,"""yellow""","""b8_y7""",2062,"""Few""",211,true,9
+5,"""yellow""","""b18_y15""",1504,"""Fewer than half""",1890,true,9
+5,"""blue""","""b12_y16""",1878,"""Few""",913,true,6
+5,"""blue""","""b20_y10""",1452,"""Fewer than half""",1194,false,7
+5,"""blue""","""b27_y24""",2371,"""Fewer than half""",1501,false,8
+5,"""yellow""","""b16_y18""",1123,"""More than half""",1256,false,5
+5,"""blue""","""b18_y27""",1217,"""Fewer than half""",1050,true,8
+5,"""yellow""","""b6_y8""",2022,"""Fewer than half""",882,false,5
+5,"""blue""","""b10_y20""",1715,"""Many""",1005,false,6
+5,"""blue""","""b20_y10""",1730,"""Most""",957,true,5
+5,"""yellow""","""b9_y8""",1665,"""Many""",857,true,1
+5,"""blue""","""b18_y24""",889,"""Many""",996,true,9
+5,"""yellow""","""b10_y20""",1195,"""More than half""",1160,true,6
+5,"""blue""","""b16_y14""",3139,"""Fewer than half""",1970,false,6
+5,"""blue""","""b16_y12""",1098,"""Few""",952,false,8
+5,"""blue""","""b8_y9""",2179,"""Most""",907,true,2
+5,"""blue""","""b6_y9""",1253,"""Few""",817,true,1
+5,"""yellow""","""b12_y18""",1156,"""Few""",1016,false,9
+5,"""blue""","""b18_y12""",2095,"""Most""",899,false,6
+5,"""yellow""","""b6_y8""",1698,"""Few""",837,false,2
+5,"""blue""","""b8_y9""",1790,"""More""",816,false,2
+5,"""blue""","""b12_y18""",2373,"""More than half""",955,false,3
+5,"""blue""","""b24_y21""",1469,"""More""",816,true,5
+5,"""yellow""","""b24_y18""",1272,"""More""",1259,false,3
+5,"""yellow""","""b24_y20""",2551,"""More than half""",1425,false,8
+5,"""yellow""","""b18_y16""",1513,"""More""",1263,true,4
+5,"""yellow""","""b8_y7""",3168,"""More""",1157,false,3
+5,"""blue""","""b21_y24""",1371,"""Most""",1059,false,9
+5,"""yellow""","""b7_y8""",1197,"""Most""",856,false,4
+5,"""blue""","""b8_y7""",2210,"""Fewer than half""",1518,true,2
+5,"""blue""","""b30_y15""",900,"""Most""",849,false,8
+5,"""blue""","""b27_y24""",1430,"""Most""",895,false,4
+5,"""blue""","""b27_y18""",1831,"""More""",1120,true,4
+5,"""blue""","""b18_y15""",1171,"""Many""",953,true,6
+5,"""blue""","""b7_y8""",1135,"""More than half""",888,false,6
+5,"""blue""","""b8_y9""",1246,"""Many""",811,false,0
+5,"""blue""","""b27_y18""",3379,"""More""",1026,true,3
+5,"""yellow""","""b10_y20""",1513,"""More""",876,true,6
+5,"""yellow""","""b8_y7""",1448,"""Few""",813,false,4
+5,"""blue""","""b16_y14""",3291,"""More than half""",1193,false,5
+5,"""yellow""","""b12_y16""",1359,"""More""",1499,false,5
+5,"""yellow""","""b24_y20""",1899,"""More than half""",1142,false,0
+5,"""yellow""","""b24_y27""",1174,"""Many""",981,true,0
+5,"""blue""","""b15_y18""",1117,"""Many""",935,true,0
+5,"""yellow""","""b6_y9""",1306,"""Fewer than half""",1275,false,1
+5,"""blue""","""b20_y24""",2211,"""More""",1315,false,0
+5,"""blue""","""b18_y16""",1803,"""Fewer than half""",1687,false,2
+5,"""blue""","""b24_y27""",2462,"""Most""",836,true,3
+5,"""yellow""","""b16_y18""",1272,"""Few""",253,false,9
+5,"""yellow""","""b30_y15""",1333,"""Few""",974,false,3
+5,"""yellow""","""b16_y14""",1486,"""Few""",895,false,5
+5,"""blue""","""b27_y24""",1238,"""Many""",931,true,5
+5,"""blue""","""b18_y24""",1935,"""Fewer than half""",1083,true,0
+5,"""yellow""","""b30_y15""",1989,"""Few""",1028,true,7
+5,"""blue""","""b24_y18""",960,"""Few""",1369,false,5
+5,"""blue""","""b27_y18""",1006,"""Most""",1065,true,6
+5,"""yellow""","""b14_y16""",1334,"""Many""",1125,true,6
+5,"""blue""","""b24_y21""",1303,"""Many""",705,true,2
+5,"""yellow""","""b10_y20""",1570,"""Most""",816,true,2
+5,"""blue""","""b15_y18""",1405,"""Most""",895,false,9
+5,"""blue""","""b24_y21""",1094,"""Few""",961,false,1
+5,"""yellow""","""b16_y18""",1242,"""More""",1516,true,2
+5,"""blue""","""b24_y18""",1120,"""Most""",956,true,2
+5,"""yellow""","""b24_y27""",1481,"""Many""",2132,true,5
+5,"""blue""","""b18_y24""",1136,"""Many""",1043,false,2
+5,"""yellow""","""b16_y12""",1676,"""More than half""",1192,false,0
+5,"""blue""","""b8_y7""",1366,"""More""",1193,true,6
+5,"""blue""","""b21_y24""",1301,"""More than half""",1285,true,7
+5,"""yellow""","""b16_y18""",993,"""Few""",1377,false,9
+5,"""yellow""","""b18_y16""",1792,"""Many""",1097,true,8
+5,"""blue""","""b12_y16""",1314,"""Fewer than half""",1351,true,4
+5,"""blue""","""b12_y18""",1058,"""Most""",1335,false,7
+5,"""yellow""","""b24_y18""",1906,"""More than half""",1116,false,7
+5,"""blue""","""b15_y18""",975,"""Few""",965,false,4
+5,"""blue""","""b20_y24""",1613,"""Few""",843,false,6
+5,"""yellow""","""b5_y10""",1647,"""Few""",942,false,6
+5,"""yellow""","""b9_y6""",2129,"""Fewer than half""",1072,false,7
+5,"""blue""","""b18_y15""",1752,"""Many""",961,true,5
+5,"""blue""","""b24_y21""",1478,"""Many""",855,true,0
+5,"""yellow""","""b20_y10""",1280,"""More than half""",951,false,7
+5,"""yellow""","""b18_y16""",1207,"""More""",858,false,6
+5,"""yellow""","""b30_y15""",1909,"""Fewer than half""",1444,true,2
+5,"""yellow""","""b14_y16""",1135,"""Fewer than half""",1190,false,3
+5,"""yellow""","""b5_y10""",1230,"""Many""",1015,true,7
+5,"""blue""","""b10_y5""",1700,"""More""",1315,true,7
+5,"""yellow""","""b24_y18""",1432,"""More than half""",1108,false,0
+5,"""yellow""","""b24_y21""",1243,"""Few""",992,false,1
+5,"""blue""","""b18_y24""",1301,"""Most""",1209,false,9
+5,"""yellow""","""b7_y8""",3105,"""More""",1381,true,1
+5,"""blue""","""b15_y18""",1580,"""Most""",878,false,1
+5,"""blue""","""b6_y9""",3943,"""Few""",794,false,3
+5,"""blue""","""b24_y20""",1218,"""Few""",1114,false,1
+5,"""blue""","""b16_y18""",1341,"""More""",1384,true,7
+5,"""yellow""","""b16_y18""",1776,"""More""",1396,true,2
+5,"""blue""","""b18_y24""",1432,"""More""",1367,false,9
+5,"""yellow""","""b7_y8""",2460,"""Fewer than half""",2128,false,1
+5,"""yellow""","""b8_y7""",2415,"""Fewer than half""",1250,false,3
+5,"""blue""","""b6_y8""",1562,"""More""",1427,false,0
+5,"""yellow""","""b15_y30""",1217,"""Fewer than half""",1218,false,0
+5,"""yellow""","""b10_y20""",3614,"""Most""",1068,true,8
+5,"""yellow""","""b21_y24""",1193,"""Most""",909,true,1
+5,"""yellow""","""b18_y12""",2471,"""Few""",979,false,0
+5,"""blue""","""b8_y7""",1662,"""Most""",989,false,8
+5,"""blue""","""b8_y6""",1584,"""Fewer than half""",1173,false,6
+5,"""blue""","""b24_y27""",1227,"""Few""",1050,false,9
+5,"""blue""","""b20_y10""",1680,"""Most""",1028,true,0
+5,"""yellow""","""b24_y27""",1642,"""More""",1413,true,6
+5,"""yellow""","""b6_y8""",2632,"""Fewer than half""",1635,false,1
+5,"""blue""","""b16_y12""",1053,"""More""",2029,true,2
+5,"""yellow""","""b6_y5""",4267,"""Many""",922,true,6
+5,"""blue""","""b5_y10""",1064,"""Most""",855,false,1
+5,"""blue""","""b6_y8""",1238,"""Fewer than half""",1246,true,6
+5,"""yellow""","""b15_y30""",1444,"""Fewer than half""",1014,false,7
+5,"""yellow""","""b27_y24""",2095,"""More than half""",1211,false,8
+5,"""yellow""","""b18_y12""",1259,"""Many""",1217,false,3
+5,"""yellow""","""b10_y5""",2051,"""Few""",1448,true,8
+5,"""yellow""","""b6_y8""",3392,"""Fewer than half""",1379,false,3
+5,"""blue""","""b6_y5""",1456,"""More""",1110,false,7
+5,"""blue""","""b9_y6""",1764,"""Fewer than half""",1235,false,5
+5,"""yellow""","""b5_y6""",2412,"""More""",1329,false,9
+5,"""yellow""","""b12_y16""",1130,"""Few""",1702,false,7
+5,"""blue""","""b7_y8""",1292,"""More""",1342,false,4
+5,"""yellow""","""b27_y24""",1998,"""Most""",1051,false,4
+5,"""blue""","""b8_y9""",1082,"""More than half""",1188,false,0
+5,"""yellow""","""b14_y16""",1852,"""More""",1251,true,3
+5,"""blue""","""b16_y12""",1350,"""More""",1102,true,2
+5,"""yellow""","""b10_y5""",1083,"""Most""",1371,false,5
+5,"""yellow""","""b30_y15""",1447,"""Most""",1070,false,3
+5,"""blue""","""b5_y10""",1681,"""Many""",1011,false,9
+5,"""yellow""","""b18_y24""",2517,"""More""",1844,false,9
+5,"""blue""","""b18_y15""",2319,"""Many""",939,true,9
+5,"""yellow""","""b27_y24""",1412,"""More""",1844,true,6
+5,"""blue""","""b24_y18""",2211,"""Most""",912,false,4
+5,"""blue""","""b9_y8""",1395,"""Many""",996,false,8
+5,"""yellow""","""b18_y27""",2517,"""More than half""",1103,true,1
+5,"""yellow""","""b8_y7""",949,"""Fewer than half""",1156,false,3
+5,"""yellow""","""b8_y6""",1171,"""More than half""",1208,false,4
+5,"""blue""","""b15_y30""",1319,"""Fewer than half""",1337,true,5
+5,"""blue""","""b9_y8""",1515,"""Few""",939,false,1
+5,"""yellow""","""b12_y16""",2824,"""More than half""",1431,true,3
+5,"""blue""","""b16_y12""",885,"""Few""",945,false,0
+5,"""blue""","""b18_y12""",1894,"""Fewer than half""",1208,false,3
+5,"""blue""","""b15_y30""",1647,"""Fewer than half""",1128,true,8
+5,"""yellow""","""b5_y6""",1796,"""Many""",972,true,8
+5,"""yellow""","""b20_y24""",1469,"""Many""",848,true,7
+5,"""blue""","""b7_y8""",1898,"""More""",1141,false,7
+5,"""yellow""","""b5_y10""",1536,"""More than half""",907,true,5
+5,"""blue""","""b27_y24""",1103,"""Many""",954,true,0
+5,"""yellow""","""b7_y8""",1284,"""Few""",887,false,9
+5,"""yellow""","""b10_y5""",1654,"""Fewer than half""",1268,false,0
+5,"""blue""","""b24_y18""",1714,"""More""",1369,true,1
+5,"""yellow""","""b21_y24""",1162,"""Many""",890,true,6
+5,"""blue""","""b10_y5""",1460,"""More""",1387,true,1
+5,"""blue""","""b14_y16""",2361,"""Fewer than half""",1500,false,3
+5,"""blue""","""b24_y27""",1176,"""Many""",966,true,8
+5,"""blue""","""b15_y18""",2066,"""Many""",920,false,7
+5,"""yellow""","""b18_y24""",1385,"""Few""",951,false,3
+5,"""yellow""","""b8_y7""",1924,"""Fewer than half""",1040,false,1
+5,"""blue""","""b18_y15""",2535,"""More than half""",996,false,2
+5,"""blue""","""b8_y7""",1669,"""More than half""",911,false,1
+5,"""blue""","""b18_y24""",1316,"""Most""",891,false,7
+5,"""blue""","""b12_y18""",1171,"""Fewer than half""",947,true,6
+5,"""blue""","""b15_y30""",2085,"""Few""",1047,true,8
+5,"""blue""","""b27_y18""",2370,"""Most""",831,true,5
+5,"""blue""","""b21_y24""",1161,"""Fewer than half""",1103,false,4
+5,"""yellow""","""b18_y16""",1774,"""Fewer than half""",1171,false,2
+5,"""yellow""","""b20_y10""",1662,"""More than half""",1004,false,9
+5,"""yellow""","""b9_y8""",1283,"""More""",1153,false,2
+5,"""blue""","""b21_y24""",1238,"""More""",1139,true,1
+5,"""blue""","""b18_y16""",1030,"""Few""",972,false,2
+5,"""yellow""","""b8_y9""",1369,"""More than half""",1308,false,2
+5,"""yellow""","""b8_y9""",1139,"""Few""",1471,false,0
+5,"""blue""","""b9_y8""",1753,"""Few""",874,true,4
+5,"""yellow""","""b8_y6""",2504,"""Fewer than half""",1122,false,2
+5,"""blue""","""b18_y15""",1535,"""Few""",985,false,8
+5,"""yellow""","""b12_y16""",1075,"""Many""",933,true,8
+5,"""blue""","""b6_y9""",1109,"""Most""",1173,false,4
+6,"""blue""","""b7_y8""",6065,"""All""",144,true,9
+6,"""yellow""","""b24_y20""",1896,"""Some""",183,true,9
+6,"""blue""","""b12_y16""",2272,"""None""",161,false,8
+6,"""yellow""","""b18_y16""",3016,"""An even number""",159,false,8
+6,"""blue""","""b15_y30""",2000,"""At least ten""",160,true,9
+6,"""yellow""","""b6_y9""",871,"""Some""",127,true,8
+6,"""yellow""","""b24_y27""",1343,"""Few""",167,true,6
+6,"""yellow""","""b27_y24""",1224,"""Few""",192,true,1
+6,"""blue""","""b21_y24""",1008,"""Many""",160,true,9
+6,"""blue""","""b21_y24""",624,"""Most""",191,true,1
+6,"""yellow""","""b30_y15""",1279,"""Fewer than half""",143,true,5
+6,"""blue""","""b8_y7""",920,"""More than half""",200,true,0
+6,"""yellow""","""b12_y18""",753,"""Most""",144,true,6
+6,"""blue""","""b16_y14""",3152,"""Fewer than half""",232,true,9
+6,"""blue""","""b24_y21""",1448,"""More than half""",200,true,9
+6,"""blue""","""b12_y18""",3009,"""More than half""",3015,true,0
+6,"""blue""","""b18_y16""",3089,"""Most""",2767,true,7
+6,"""yellow""","""b5_y10""",9201,"""More""",2121,true,6
+6,"""yellow""","""b18_y12""",3665,"""Most""",2495,false,2
+6,"""blue""","""b6_y9""",5080,"""Many""",1327,false,2
+6,"""blue""","""b27_y18""",1601,"""Many""",1583,true,9
+6,"""blue""","""b24_y27""",10858,"""Most""",1183,true,3
+6,"""yellow""","""b14_y16""",4000,"""More""",6104,true,2
+6,"""yellow""","""b24_y20""",1968,"""Fewer than half""",4432,true,1
+6,"""yellow""","""b16_y18""",1360,"""Most""",1161,true,7
+6,"""blue""","""b7_y8""",3890,"""Fewer than half""",1464,true,8
+6,"""blue""","""b7_y8""",2912,"""Fewer than half""",3016,false,9
+6,"""yellow""","""b18_y24""",2984,"""Few""",1583,false,7
+6,"""yellow""","""b15_y30""",1551,"""More than half""",10113,true,6
+6,"""blue""","""b16_y12""",2032,"""Most""",175,false,0
+6,"""blue""","""b20_y10""",1832,"""Few""",1182,false,1
+6,"""yellow""","""b9_y8""",562,"""Fewer than half""",151,true,3
+6,"""blue""","""b27_y24""",1079,"""More than half""",1415,true,9
+6,"""blue""","""b8_y7""",1824,"""Fewer than half""",1655,false,5
+6,"""yellow""","""b14_y16""",9746,"""Many""",2110,true,6
+6,"""blue""","""b18_y24""",1112,"""More""",3592,true,2
+6,"""blue""","""b16_y18""",1272,"""More""",1847,true,4
+6,"""blue""","""b27_y18""",1264,"""More than half""",1726,true,7
+6,"""yellow""","""b18_y24""",555,"""More than half""",960,true,9
+6,"""yellow""","""b9_y6""",2448,"""Most""",1376,false,7
+6,"""yellow""","""b12_y16""",3528,"""Many""",2281,true,0
+6,"""yellow""","""b8_y7""",2809,"""More than half""",2222,false,0
+6,"""yellow""","""b24_y27""",1559,"""Fewer than half""",2111,false,1
+6,"""yellow""","""b18_y12""",1392,"""Few""",1503,true,8
+6,"""yellow""","""b18_y27""",2618,"""More""",4383,true,6
+6,"""yellow""","""b24_y21""",769,"""More than half""",177,true,3
+6,"""blue""","""b21_y24""",1071,"""Fewer than half""",1479,true,8
+6,"""blue""","""b18_y27""",720,"""Many""",3617,true,6
+6,"""blue""","""b27_y24""",3776,"""Few""",1000,true,0
+6,"""blue""","""b16_y12""",1024,"""More than half""",1919,true,2
+6,"""yellow""","""b18_y27""",423,"""More than half""",183,true,8
+6,"""blue""","""b20_y24""",568,"""Few""",623,true,8
+6,"""yellow""","""b27_y24""",1640,"""More""",2736,false,4
+6,"""blue""","""b14_y16""",1265,"""Many""",1672,true,1
+6,"""yellow""","""b18_y27""",1480,"""More""",2167,false,3
+6,"""yellow""","""b18_y12""",1818,"""Most""",3112,true,5
+6,"""blue""","""b14_y16""",3121,"""More""",2656,false,9
+6,"""blue""","""b8_y6""",1503,"""Many""",3559,true,5
+6,"""yellow""","""b16_y14""",1648,"""Many""",1030,false,6
+6,"""yellow""","""b10_y20""",1577,"""More""",1335,true,4
+6,"""yellow""","""b16_y18""",352,"""Most""",959,true,2
+6,"""blue""","""b9_y6""",1096,"""More than half""",1152,true,9
+6,"""yellow""","""b24_y20""",464,"""Fewer than half""",1289,true,9
+6,"""yellow""","""b6_y5""",1536,"""Fewer than half""",1351,true,7
+6,"""blue""","""b27_y24""",744,"""Few""",1167,true,3
+6,"""blue""","""b18_y27""",441,"""More than half""",184,true,3
+6,"""blue""","""b10_y20""",384,"""Few""",223,true,3
+6,"""blue""","""b9_y8""",1074,"""Most""",178,true,8
+6,"""blue""","""b8_y6""",903,"""Most""",183,true,1
+6,"""blue""","""b20_y24""",3560,"""Most""",160,true,1
+6,"""blue""","""b6_y5""",1847,"""Few""",166,false,1
+6,"""blue""","""b20_y10""",472,"""Fewer than half""",168,false,1
+6,"""blue""","""b24_y21""",1240,"""Most""",169,true,8
+6,"""blue""","""b7_y8""",1383,"""Many""",184,true,7
+6,"""blue""","""b16_y18""",1128,"""More than half""",1087,false,6
+6,"""blue""","""b10_y20""",1144,"""More""",191,true,8
+6,"""yellow""","""b5_y6""",752,"""More""",159,true,1
+6,"""yellow""","""b6_y9""",2128,"""Fewer than half""",192,false,3
+6,"""yellow""","""b20_y10""",1880,"""More than half""",184,true,3
+6,"""yellow""","""b8_y6""",1343,"""More""",167,false,5
+6,"""blue""","""b30_y15""",873,"""Fewer than half""",168,true,1
+6,"""blue""","""b24_y20""",696,"""More than half""",329,true,4
+6,"""blue""","""b9_y6""",447,"""Most""",152,true,4
+6,"""yellow""","""b15_y18""",1064,"""Most""",968,true,7
+6,"""yellow""","""b15_y30""",488,"""Most""",809,true,8
+6,"""yellow""","""b15_y30""",2912,"""Fewer than half""",912,false,7
+6,"""yellow""","""b18_y15""",2401,"""Most""",1367,true,7
+6,"""yellow""","""b15_y30""",880,"""Most""",911,true,9
+6,"""blue""","""b18_y15""",447,"""More than half""",791,true,7
+6,"""blue""","""b24_y18""",536,"""Most""",1048,true,8
+6,"""yellow""","""b6_y5""",328,"""Few""",1001,true,4
+6,"""yellow""","""b14_y16""",552,"""Many""",105,true,4
+6,"""blue""","""b8_y7""",1080,"""Many""",159,true,1
+6,"""yellow""","""b6_y9""",1984,"""Most""",721,false,2
+6,"""blue""","""b10_y20""",560,"""Few""",137,true,1
+6,"""yellow""","""b20_y24""",1177,"""Many""",1001,true,5
+6,"""blue""","""b27_y18""",1433,"""More""",1392,true,6
+6,"""yellow""","""b15_y18""",1471,"""More than half""",153,true,3
+6,"""blue""","""b27_y24""",832,"""Many""",224,true,8
+6,"""yellow""","""b5_y6""",527,"""Most""",144,true,6
+6,"""blue""","""b27_y18""",575,"""Fewer than half""",496,true,4
+6,"""blue""","""b18_y15""",649,"""Fewer than half""",169,true,8
+6,"""yellow""","""b30_y15""",513,"""Few""",184,true,5
+6,"""yellow""","""b24_y27""",439,"""Many""",175,false,6
+6,"""yellow""","""b8_y7""",400,"""Most""",151,false,9
+6,"""blue""","""b5_y10""",1312,"""Most""",144,false,9
+6,"""yellow""","""b21_y24""",1344,"""Many""",223,false,3
+6,"""yellow""","""b16_y14""",511,"""More than half""",118,false,0
+6,"""blue""","""b6_y5""",465,"""Most""",223,true,2
+6,"""blue""","""b10_y5""",448,"""More than half""",192,true,6
+6,"""yellow""","""b27_y18""",1151,"""Most""",280,false,4
+6,"""blue""","""b24_y20""",575,"""More""",184,true,6
+6,"""yellow""","""b16_y12""",458,"""Few""",210,false,7
+6,"""blue""","""b18_y27""",360,"""More than half""",232,true,7
+6,"""blue""","""b21_y24""",520,"""More""",240,true,0
+6,"""blue""","""b6_y8""",407,"""More than half""",255,true,4
+6,"""yellow""","""b8_y7""",423,"""More""",216,false,1
+6,"""yellow""","""b16_y18""",328,"""Few""",232,true,3
+6,"""yellow""","""b20_y10""",375,"""More""",169,true,8
+6,"""blue""","""b27_y24""",473,"""More""",200,false,9
+6,"""blue""","""b24_y21""",1064,"""Few""",168,true,0
+6,"""yellow""","""b8_y7""",520,"""Fewer than half""",223,true,6
+6,"""yellow""","""b8_y7""",654,"""Most""",168,true,3
+6,"""yellow""","""b24_y18""",576,"""More""",209,true,9
+6,"""yellow""","""b14_y16""",4617,"""More than half""",185,true,1
+6,"""blue""","""b20_y10""",1063,"""Few""",273,true,4
+6,"""blue""","""b7_y8""",575,"""Fewer than half""",192,true,4
+6,"""yellow""","""b16_y12""",328,"""Few""",137,true,1
+6,"""blue""","""b10_y20""",416,"""Few""",136,true,2
+6,"""blue""","""b16_y14""",409,"""More""",199,true,7
+6,"""yellow""","""b8_y9""",1416,"""Few""",176,false,8
+6,"""blue""","""b16_y18""",1568,"""Most""",215,true,5
+6,"""yellow""","""b8_y6""",799,"""Fewer than half""",152,true,3
+6,"""blue""","""b21_y24""",679,"""Few""",238,true,9
+6,"""yellow""","""b10_y20""",487,"""Many""",175,true,1
+6,"""yellow""","""b10_y20""",454,"""Most""",209,true,0
+6,"""blue""","""b12_y18""",385,"""Most""",201,true,5
+6,"""yellow""","""b27_y24""",431,"""More than half""",215,true,7
+6,"""yellow""","""b14_y16""",978,"""More than half""",184,true,0
+6,"""blue""","""b6_y9""",383,"""More""",151,true,2
+6,"""yellow""","""b9_y6""",319,"""More""",161,true,0
+6,"""blue""","""b18_y15""",351,"""Fewer than half""",177,true,6
+6,"""blue""","""b8_y9""",296,"""Many""",96,true,0
+6,"""yellow""","""b10_y5""",295,"""More""",105,true,1
+6,"""blue""","""b12_y16""",376,"""More than half""",112,true,8
+6,"""yellow""","""b6_y8""",1616,"""More""",96,false,0
+6,"""yellow""","""b24_y18""",369,"""More""",80,false,7
+6,"""yellow""","""b9_y6""",376,"""Fewer than half""",104,true,1
+6,"""blue""","""b20_y24""",376,"""Few""",103,true,2
+6,"""yellow""","""b5_y10""",335,"""Many""",88,true,2
+6,"""blue""","""b5_y6""",248,"""More than half""",111,true,6
+6,"""yellow""","""b24_y27""",328,"""More than half""",111,false,4
+6,"""blue""","""b27_y18""",1352,"""Most""",182,true,5
+6,"""yellow""","""b16_y12""",488,"""More than half""",175,true,7
+6,"""yellow""","""b9_y8""",561,"""Many""",231,true,4
+6,"""blue""","""b30_y15""",561,"""More than half""",152,true,2
+6,"""yellow""","""b6_y9""",359,"""Most""",233,true,4
+6,"""blue""","""b27_y24""",503,"""Fewer than half""",200,true,7
+6,"""blue""","""b24_y27""",377,"""Fewer than half""",199,true,1
+6,"""yellow""","""b5_y10""",959,"""More""",185,true,4
+6,"""blue""","""b18_y16""",320,"""Many""",168,true,6
+6,"""yellow""","""b9_y8""",280,"""Few""",128,true,9
+6,"""blue""","""b9_y6""",1249,"""Few""",80,true,7
+6,"""yellow""","""b24_y27""",424,"""Few""",118,true,1
+6,"""blue""","""b6_y5""",440,"""More""",129,true,1
+6,"""yellow""","""b5_y6""",313,"""Many""",112,true,2
+6,"""yellow""","""b8_y9""",256,"""More""",136,true,1
+6,"""yellow""","""b18_y27""",447,"""More""",127,true,7
+6,"""yellow""","""b16_y12""",329,"""Many""",125,true,2
+6,"""yellow""","""b12_y16""",648,"""Few""",72,true,0
+6,"""blue""","""b6_y8""",569,"""Many""",56,true,9
+6,"""blue""","""b10_y20""",456,"""Many""",120,true,3
+6,"""blue""","""b6_y9""",304,"""More""",144,true,8
+6,"""blue""","""b6_y5""",336,"""More""",104,true,7
+6,"""yellow""","""b27_y18""",368,"""More than half""",112,true,2
+6,"""blue""","""b20_y10""",360,"""Many""",120,true,1
+6,"""yellow""","""b20_y10""",496,"""More than half""",121,false,4
+6,"""yellow""","""b16_y12""",464,"""Most""",153,false,2
+6,"""blue""","""b8_y6""",1392,"""Fewer than half""",727,true,0
+6,"""blue""","""b24_y20""",584,"""Few""",112,true,8
+6,"""yellow""","""b14_y16""",960,"""Many""",185,true,4
+6,"""blue""","""b21_y24""",689,"""Fewer than half""",111,true,9
+6,"""yellow""","""b16_y14""",305,"""Many""",143,true,3
+6,"""blue""","""b12_y18""",337,"""More than half""",153,true,3
+6,"""blue""","""b24_y18""",392,"""Most""",104,true,1
+6,"""blue""","""b24_y21""",495,"""Many""",120,false,2
+6,"""yellow""","""b10_y20""",311,"""Most""",89,true,4
+6,"""blue""","""b20_y24""",264,"""Many""",87,false,5
+6,"""yellow""","""b24_y27""",304,"""More than half""",79,true,6
+6,"""blue""","""b18_y27""",322,"""More than half""",111,false,9
+6,"""blue""","""b8_y7""",391,"""Many""",88,true,7
+6,"""yellow""","""b18_y15""",1281,"""Many""",97,true,5
+6,"""blue""","""b16_y14""",360,"""Few""",129,true,9
+6,"""blue""","""b8_y6""",320,"""Many""",96,false,0
+6,"""yellow""","""b7_y8""",505,"""More than half""",112,true,9
+6,"""yellow""","""b9_y6""",368,"""Few""",104,false,5
+6,"""blue""","""b16_y12""",410,"""More than half""",120,true,4
+6,"""blue""","""b15_y30""",556,"""Many""",120,false,8
+6,"""yellow""","""b14_y16""",547,"""Fewer than half""",122,true,6
+6,"""blue""","""b14_y16""",440,"""Few""",128,true,6
+6,"""yellow""","""b18_y24""",346,"""Many""",104,true,0
+6,"""yellow""","""b18_y12""",288,"""Fewer than half""",88,true,5
+6,"""blue""","""b20_y10""",253,"""More""",96,true,9
+6,"""blue""","""b12_y16""",225,"""Fewer than half""",104,true,4
+6,"""blue""","""b14_y16""",249,"""Fewer than half""",105,true,6
+6,"""yellow""","""b18_y15""",241,"""More than half""",137,true,3
+6,"""yellow""","""b18_y15""",304,"""Many""",120,true,3
+6,"""yellow""","""b24_y18""",336,"""Many""",95,false,0
+6,"""yellow""","""b16_y18""",359,"""Fewer than half""",87,true,8
+6,"""blue""","""b21_y24""",281,"""Most""",112,true,8
+6,"""yellow""","""b27_y18""",319,"""More than half""",96,true,9
+6,"""yellow""","""b6_y8""",303,"""More""",392,true,0
+6,"""blue""","""b12_y16""",256,"""Few""",105,true,1
+6,"""yellow""","""b6_y5""",393,"""More""",104,true,8
+6,"""yellow""","""b27_y18""",335,"""More""",95,true,1
+6,"""blue""","""b15_y30""",417,"""Fewer than half""",120,true,9
+6,"""blue""","""b18_y27""",409,"""More than half""",87,true,8
+6,"""yellow""","""b15_y30""",504,"""More""",95,true,9
+6,"""blue""","""b12_y16""",305,"""Fewer than half""",119,true,6
+6,"""blue""","""b14_y16""",359,"""Many""",95,true,7
+6,"""blue""","""b18_y12""",473,"""Fewer than half""",127,true,3
+6,"""yellow""","""b8_y7""",352,"""Many""",103,true,3
+6,"""yellow""","""b30_y15""",329,"""More""",104,true,3
+6,"""blue""","""b18_y16""",336,"""More""",95,true,4
+6,"""blue""","""b6_y5""",361,"""Many""",104,true,3
+6,"""yellow""","""b24_y18""",311,"""Fewer than half""",79,false,1
+6,"""yellow""","""b20_y24""",313,"""More""",88,false,3
+6,"""blue""","""b18_y24""",280,"""Many""",88,true,0
+6,"""yellow""","""b16_y12""",272,"""Many""",88,true,2
+6,"""blue""","""b27_y18""",248,"""More""",87,false,5
+6,"""yellow""","""b7_y8""",215,"""Fewer than half""",89,true,8
+6,"""blue""","""b16_y14""",247,"""Few""",79,false,2
+6,"""yellow""","""b10_y5""",200,"""Fewer than half""",88,true,6
+6,"""yellow""","""b6_y9""",240,"""Most""",81,false,6
+6,"""yellow""","""b24_y21""",184,"""Most""",88,true,2
+6,"""yellow""","""b12_y16""",240,"""Fewer than half""",137,false,8
+6,"""yellow""","""b9_y6""",210,"""Many""",96,true,8
+6,"""blue""","""b5_y6""",280,"""Fewer than half""",80,false,7
+6,"""blue""","""b20_y24""",207,"""More""",80,true,5
+6,"""yellow""","""b16_y12""",296,"""Few""",80,true,3
+6,"""yellow""","""b16_y12""",198,"""More than half""",80,false,8
+6,"""yellow""","""b24_y18""",303,"""Few""",113,true,2
+6,"""yellow""","""b6_y9""",287,"""Few""",80,false,9
+6,"""blue""","""b27_y18""",423,"""Many""",97,false,7
+6,"""yellow""","""b24_y21""",304,"""Many""",119,true,2
+6,"""blue""","""b6_y8""",320,"""Fewer than half""",80,true,0
+6,"""blue""","""b18_y15""",272,"""Most""",64,false,2
+6,"""yellow""","""b20_y10""",319,"""Many""",71,true,1
+6,"""blue""","""b18_y16""",312,"""More""",72,false,6
+6,"""blue""","""b9_y8""",305,"""More""",80,true,8
+6,"""blue""","""b8_y7""",312,"""Few""",65,true,8
+6,"""blue""","""b14_y16""",344,"""More than half""",80,true,1
+6,"""yellow""","""b6_y9""",343,"""Fewer than half""",80,false,1
+6,"""yellow""","""b20_y10""",400,"""Many""",72,true,5
+6,"""yellow""","""b30_y15""",249,"""More than half""",72,false,3
+6,"""blue""","""b18_y16""",361,"""Fewer than half""",73,true,0
+6,"""blue""","""b8_y9""",288,"""Most""",65,true,2
+6,"""blue""","""b10_y5""",319,"""More than half""",72,true,8
+6,"""blue""","""b5_y10""",271,"""More""",63,false,3
+6,"""blue""","""b27_y24""",352,"""Most""",71,true,7
+6,"""blue""","""b24_y27""",280,"""Most""",70,false,5
+6,"""blue""","""b10_y20""",230,"""Few""",63,true,5
+6,"""blue""","""b16_y14""",311,"""Many""",81,false,7
+6,"""blue""","""b6_y5""",816,"""Fewer than half""",87,false,2
+6,"""blue""","""b27_y18""",241,"""Few""",63,true,4
+6,"""yellow""","""b18_y27""",231,"""Fewer than half""",63,false,4
+6,"""yellow""","""b24_y18""",233,"""Fewer than half""",71,true,0
+6,"""yellow""","""b12_y18""",328,"""Most""",62,false,3
+6,"""yellow""","""b5_y6""",240,"""More than half""",72,true,8
+6,"""blue""","""b15_y18""",249,"""Most""",79,false,5
+6,"""blue""","""b27_y18""",377,"""More""",79,true,9
+6,"""blue""","""b6_y9""",312,"""More""",79,true,0
+6,"""blue""","""b7_y8""",608,"""More than half""",557,true,4
+6,"""yellow""","""b24_y20""",1162,"""Most""",89,true,0
+6,"""yellow""","""b18_y12""",729,"""More than half""",80,true,9
+6,"""blue""","""b27_y18""",567,"""Most""",96,true,2
+6,"""yellow""","""b16_y14""",393,"""More""",88,true,1
+6,"""blue""","""b12_y16""",400,"""More""",72,true,3
+6,"""blue""","""b6_y9""",392,"""Most""",88,true,1
+6,"""blue""","""b10_y20""",383,"""Few""",73,true,9
+6,"""blue""","""b20_y24""",401,"""More""",73,true,6
+6,"""yellow""","""b5_y10""",360,"""More than half""",88,true,7
+6,"""blue""","""b5_y10""",496,"""Few""",72,true,7
+6,"""yellow""","""b16_y18""",457,"""Many""",64,true,1
+6,"""blue""","""b24_y27""",408,"""Many""",72,true,4
+6,"""blue""","""b5_y6""",624,"""Most""",81,true,0
+6,"""blue""","""b24_y27""",343,"""More""",72,true,9
+6,"""blue""","""b16_y12""",328,"""Few""",72,true,5
+6,"""blue""","""b15_y18""",312,"""More than half""",65,true,3
+6,"""yellow""","""b15_y30""",328,"""Fewer than half""",72,false,1
+6,"""yellow""","""b18_y27""",697,"""Fewer than half""",74,true,2
+6,"""blue""","""b8_y9""",304,"""Few""",72,true,0
+6,"""yellow""","""b6_y9""",329,"""Few""",72,true,8
+6,"""yellow""","""b18_y27""",393,"""More than half""",79,true,4
+6,"""blue""","""b20_y10""",352,"""More than half""",152,true,1
+6,"""yellow""","""b9_y6""",296,"""More""",72,true,0
+6,"""yellow""","""b18_y12""",288,"""Most""",87,true,3
+6,"""yellow""","""b18_y16""",311,"""Fewer than half""",104,true,6
+6,"""blue""","""b14_y16""",399,"""Fewer than half""",72,true,0
+6,"""yellow""","""b6_y8""",248,"""Few""",80,false,0
+6,"""yellow""","""b21_y24""",1047,"""Many""",88,false,5
+6,"""blue""","""b7_y8""",231,"""Few""",102,false,3
+6,"""blue""","""b6_y5""",240,"""Fewer than half""",143,true,0
+6,"""yellow""","""b12_y18""",1647,"""Few""",111,false,3
+6,"""yellow""","""b10_y5""",241,"""Few""",128,true,4
+6,"""yellow""","""b18_y16""",248,"""Most""",144,true,5
+6,"""yellow""","""b8_y6""",273,"""Few""",119,false,4
+6,"""yellow""","""b20_y10""",2335,"""Few""",152,false,8
+6,"""yellow""","""b7_y8""",872,"""Fewer than half""",96,false,1
+6,"""yellow""","""b5_y6""",4360,"""More than half""",88,false,9
+6,"""yellow""","""b10_y20""",479,"""Few""",112,false,6
+6,"""yellow""","""b18_y16""",599,"""Most""",96,false,6
+6,"""yellow""","""b21_y24""",2784,"""Fewer than half""",112,true,8
+6,"""blue""","""b18_y16""",420,"""More""",120,true,6
+6,"""blue""","""b5_y6""",415,"""Most""",78,false,3
+6,"""yellow""","""b7_y8""",439,"""Few""",55,true,6
+6,"""blue""","""b18_y12""",639,"""Many""",96,true,0
+6,"""yellow""","""b12_y16""",472,"""Few""",111,true,2
+7,"""blue""","""b7_y8""",1543,"""All""",376,true,9
+7,"""yellow""","""b24_y20""",680,"""Some""",148,true,9
+7,"""blue""","""b12_y16""",3124,"""None""",216,false,8
+7,"""yellow""","""b18_y16""",628,"""An even number""",214,false,8
+7,"""blue""","""b15_y30""",742,"""At least ten""",200,true,9
+7,"""yellow""","""b6_y9""",2268,"""Some""",168,true,8
+7,"""yellow""","""b8_y9""",176,"""Many""",120,true,9
+7,"""blue""","""b6_y5""",214,"""Fewer than half""",88,true,3
+7,"""yellow""","""b8_y9""",432,"""More""",160,true,0
+7,"""yellow""","""b16_y14""",351,"""Many""",177,true,7
+7,"""blue""","""b24_y18""",392,"""Fewer than half""",171,true,5
+7,"""blue""","""b16_y18""",152,"""Most""",175,true,6
+7,"""blue""","""b8_y7""",145,"""Fewer than half""",136,true,9
+7,"""yellow""","""b24_y21""",810,"""More""",137,true,3
+7,"""yellow""","""b15_y18""",472,"""Many""",176,true,3
+7,"""yellow""","""b20_y24""",440,"""More than half""",104,true,5
+7,"""blue""","""b9_y8""",615,"""More than half""",144,true,5
+7,"""blue""","""b20_y24""",338,"""More""",170,true,8
+7,"""blue""","""b24_y21""",104,"""Few""",127,true,9
+7,"""yellow""","""b14_y16""",97,"""Most""",81,true,3
+7,"""blue""","""b5_y6""",124,"""Most""",80,true,9
+7,"""blue""","""b8_y6""",409,"""Most""",87,true,3
+7,"""blue""","""b16_y14""",439,"""Many""",136,true,3
+7,"""blue""","""b12_y16""",622,"""Few""",136,true,6
+7,"""blue""","""b6_y9""",519,"""Few""",114,true,9
+7,"""blue""","""b12_y16""",5616,"""Few""",121,true,2
+7,"""blue""","""b24_y27""",568,"""Fewer than half""",161,true,8
+7,"""yellow""","""b9_y6""",792,"""Fewer than half""",154,true,2
+7,"""yellow""","""b18_y16""",491,"""Many""",143,true,3
+7,"""yellow""","""b10_y20""",320,"""Fewer than half""",124,true,8
+7,"""blue""","""b12_y18""",129,"""Most""",126,true,9
+7,"""blue""","""b16_y14""",193,"""More than half""",119,true,9
+7,"""yellow""","""b6_y9""",144,"""Many""",120,true,8
+7,"""blue""","""b12_y16""",152,"""Few""",103,true,5
+7,"""yellow""","""b30_y15""",112,"""More than half""",111,true,1
+7,"""blue""","""b16_y14""",194,"""More than half""",128,true,0
+7,"""yellow""","""b15_y18""",198,"""Fewer than half""",136,true,7
+7,"""blue""","""b5_y6""",96,"""Most""",65,true,4
+7,"""yellow""","""b18_y15""",168,"""Most""",112,true,8
+7,"""blue""","""b15_y30""",118,"""More than half""",72,true,5
+7,"""yellow""","""b8_y6""",9,"""Many""",96,true,1
+7,"""blue""","""b9_y6""",16,"""More than half""",136,false,7
+7,"""blue""","""b6_y5""",84,"""More""",102,false,7
+7,"""blue""","""b8_y7""",167,"""Most""",55,false,2
+7,"""blue""","""b10_y20""",20,"""Fewer than half""",74,false,2
+7,"""blue""","""b18_y12""",96,"""Fewer than half""",92,false,0
+7,"""yellow""","""b6_y5""",328,"""Fewer than half""",96,false,2
+7,"""blue""","""b16_y14""",87,"""Few""",175,true,4
+7,"""blue""","""b8_y6""",89,"""Fewer than half""",159,true,2
+7,"""yellow""","""b18_y15""",48,"""More""",110,true,8
+7,"""yellow""","""b24_y20""",80,"""Most""",120,true,5
+7,"""blue""","""b21_y24""",16,"""Few""",75,false,1
+7,"""yellow""","""b16_y18""",96,"""Few""",88,false,1
+7,"""yellow""","""b24_y27""",11,"""Fewer than half""",81,false,0
+7,"""blue""","""b18_y12""",871,"""More""",72,true,4
+7,"""blue""","""b10_y5""",113,"""Many""",112,true,8
+7,"""yellow""","""b5_y6""",72,"""Most""",64,false,5
+7,"""blue""","""b27_y18""",32,"""More than half""",64,false,5
+7,"""yellow""","""b24_y18""",184,"""More""",129,true,6
+7,"""yellow""","""b21_y24""",40,"""More than half""",103,false,8
+7,"""blue""","""b18_y16""",110,"""Many""",30,false,4
+7,"""yellow""","""b30_y15""",48,"""Most""",176,true,4
+7,"""yellow""","""b5_y6""",48,"""More than half""",136,false,0
+7,"""blue""","""b9_y8""",72,"""Most""",72,false,3
+7,"""yellow""","""b12_y16""",95,"""Many""",56,true,9
+7,"""yellow""","""b9_y8""",400,"""Many""",65,false,6
+7,"""yellow""","""b18_y12""",151,"""Fewer than half""",71,false,0
+7,"""yellow""","""b15_y30""",18,"""Many""",80,false,7
+7,"""blue""","""b18_y12""",15,"""More""",61,true,6
+7,"""blue""","""b6_y8""",80,"""Most""",97,true,6
+7,"""blue""","""b8_y7""",151,"""Many""",96,false,4
+7,"""yellow""","""b27_y18""",41,"""Many""",97,true,8
+7,"""blue""","""b24_y21""",32,"""More""",45,true,5
+7,"""yellow""","""b6_y5""",80,"""More than half""",56,false,5
+7,"""blue""","""b14_y16""",89,"""Most""",47,false,1
+7,"""yellow""","""b8_y6""",40,"""Fewer than half""",84,true,9
+7,"""blue""","""b15_y30""",256,"""Most""",88,false,2
+7,"""yellow""","""b14_y16""",208,"""Most""",89,false,4
+7,"""blue""","""b20_y10""",25,"""More""",64,false,7
+7,"""yellow""","""b20_y10""",81,"""More""",129,true,8
+7,"""yellow""","""b8_y6""",292,"""Few""",104,false,2
+7,"""yellow""","""b14_y16""",135,"""More""",64,false,3
+7,"""yellow""","""b18_y15""",34,"""Many""",152,true,8
+7,"""blue""","""b24_y21""",191,"""Many""",105,false,9
+7,"""blue""","""b15_y30""",8,"""More""",71,false,5
+7,"""blue""","""b15_y30""",39,"""More""",104,true,1
+7,"""blue""","""b8_y7""",210,"""More""",88,false,0
+7,"""yellow""","""b18_y16""",25,"""Most""",65,false,8
+7,"""blue""","""b24_y20""",112,"""Most""",113,true,4
+7,"""yellow""","""b6_y8""",232,"""Many""",120,false,8
+7,"""blue""","""b8_y9""",335,"""Many""",47,true,6
+7,"""yellow""","""b18_y15""",193,"""Few""",183,true,8
+7,"""yellow""","""b9_y6""",273,"""More""",85,false,8
+7,"""yellow""","""b16_y14""",79,"""Many""",103,false,2
+7,"""yellow""","""b14_y16""",183,"""More than half""",111,true,6
+7,"""blue""","""b24_y18""",55,"""Many""",102,true,2
+7,"""blue""","""b12_y18""",104,"""Many""",64,false,5
+7,"""yellow""","""b30_y15""",177,"""More""",48,true,5
+7,"""yellow""","""b24_y21""",40,"""Many""",112,true,5
+7,"""blue""","""b18_y24""",120,"""Few""",136,false,5
+7,"""yellow""","""b6_y8""",8,"""Most""",64,false,5
+7,"""blue""","""b24_y27""",211,"""Most""",48,false,8
+7,"""yellow""","""b18_y15""",74,"""Few""",165,true,7
+7,"""yellow""","""b14_y16""",264,"""Most""",111,false,3
+7,"""blue""","""b9_y6""",32,"""Few""",64,false,4
+7,"""yellow""","""b27_y18""",152,"""Most""",103,true,7
+7,"""blue""","""b27_y18""",551,"""Fewer than half""",112,false,8
+7,"""blue""","""b7_y8""",17,"""Few""",63,false,8
+7,"""blue""","""b9_y6""",98,"""Most""",112,true,8
+7,"""blue""","""b16_y14""",352,"""Most""",96,false,8
+7,"""yellow""","""b20_y10""",303,"""More""",112,false,7
+7,"""blue""","""b5_y6""",55,"""More than half""",96,true,1
+7,"""yellow""","""b24_y18""",1063,"""More than half""",121,false,0
+7,"""blue""","""b27_y18""",128,"""Few""",167,true,0
+7,"""blue""","""b18_y16""",89,"""Fewer than half""",113,true,8
+7,"""blue""","""b10_y20""",72,"""More than half""",128,false,7
+7,"""blue""","""b18_y24""",135,"""Fewer than half""",79,true,9
+7,"""yellow""","""b16_y18""",128,"""More than half""",62,true,5
+7,"""yellow""","""b24_y27""",120,"""Most""",113,false,9
+7,"""blue""","""b5_y10""",139,"""Few""",87,false,9
+7,"""blue""","""b24_y27""",40,"""More than half""",95,true,4
+7,"""blue""","""b20_y10""",7,"""More than half""",89,true,6
+7,"""blue""","""b6_y5""",164,"""Many""",94,false,6
+7,"""yellow""","""b15_y18""",7,"""Few""",94,false,2
+7,"""yellow""","""b16_y12""",120,"""Most""",115,true,6
+7,"""blue""","""b9_y6""",265,"""Few""",133,false,2
+7,"""blue""","""b6_y9""",87,"""Most""",72,false,7
+7,"""yellow""","""b15_y30""",19,"""Few""",145,true,2
+7,"""yellow""","""b16_y12""",169,"""Fewer than half""",112,false,9
+7,"""yellow""","""b27_y18""",200,"""Most""",89,false,6
+7,"""blue""","""b20_y24""",12146,"""More than half""",120,true,9
+7,"""yellow""","""b18_y16""",153,"""Fewer than half""",102,true,1
+7,"""yellow""","""b24_y18""",114,"""More than half""",86,true,8
+7,"""yellow""","""b8_y9""",95,"""More than half""",88,true,6
+7,"""yellow""","""b6_y9""",132,"""More""",48,true,3
+7,"""blue""","""b12_y16""",7,"""More than half""",88,false,5
+7,"""blue""","""b30_y15""",602,"""Few""",135,true,4
+7,"""yellow""","""b30_y15""",65,"""More""",92,true,2
+7,"""yellow""","""b15_y18""",103,"""More""",135,true,8
+7,"""yellow""","""b6_y8""",289,"""More""",152,false,7
+7,"""blue""","""b18_y24""",45,"""More than half""",72,false,2
+7,"""yellow""","""b8_y6""",80,"""Most""",56,false,6
+7,"""blue""","""b16_y12""",97,"""Fewer than half""",48,true,3
+7,"""yellow""","""b27_y24""",64,"""Most""",120,true,5
+7,"""yellow""","""b10_y20""",248,"""Most""",111,false,0
+7,"""yellow""","""b27_y24""",111,"""More""",81,false,6
+7,"""blue""","""b24_y20""",24,"""More than half""",71,false,1
+7,"""yellow""","""b10_y20""",87,"""Most""",337,true,4
+7,"""yellow""","""b18_y15""",48,"""Most""",72,true,2
+7,"""blue""","""b15_y18""",111,"""More than half""",103,false,5
+7,"""blue""","""b16_y12""",192,"""Fewer than half""",56,false,8
+7,"""yellow""","""b18_y24""",81,"""Fewer than half""",128,true,1
+7,"""blue""","""b8_y6""",126,"""Many""",95,true,5
+7,"""blue""","""b16_y14""",120,"""More than half""",120,false,0
+7,"""yellow""","""b15_y18""",8,"""Few""",112,false,6
+7,"""yellow""","""b18_y12""",167,"""Most""",117,true,4
+7,"""yellow""","""b6_y9""",33,"""Fewer than half""",91,true,5
+7,"""yellow""","""b6_y9""",40,"""More than half""",88,true,6
+7,"""yellow""","""b6_y9""",7,"""Most""",168,false,9
+7,"""blue""","""b10_y5""",73,"""Many""",72,false,9
+7,"""yellow""","""b12_y18""",72,"""Few""",69,true,1
+7,"""yellow""","""b27_y24""",94,"""Fewer than half""",109,true,0
+7,"""yellow""","""b8_y6""",176,"""Fewer than half""",111,true,6
+7,"""yellow""","""b24_y18""",127,"""Few""",83,true,9
+7,"""blue""","""b9_y6""",160,"""More than half""",88,false,9
+7,"""yellow""","""b16_y18""",17,"""Fewer than half""",74,false,9
+7,"""blue""","""b18_y16""",151,"""Most""",81,true,4
+7,"""blue""","""b10_y5""",32,"""Many""",65,true,1
+7,"""yellow""","""b6_y9""",120,"""Few""",64,false,5
+7,"""blue""","""b18_y16""",239,"""Few""",67,false,3
+7,"""yellow""","""b14_y16""",17,"""More than half""",137,true,2
+7,"""blue""","""b12_y16""",111,"""Fewer than half""",57,true,4
+7,"""yellow""","""b9_y8""",144,"""Most""",72,false,3
+7,"""yellow""","""b27_y18""",335,"""More than half""",64,true,9
+7,"""yellow""","""b16_y14""",184,"""Few""",96,true,3
+7,"""yellow""","""b18_y12""",255,"""Fewer than half""",55,false,6
+7,"""yellow""","""b16_y18""",157,"""Few""",49,false,5
+7,"""blue""","""b24_y20""",65,"""Most""",120,true,0
+7,"""yellow""","""b6_y9""",87,"""Few""",57,true,5
+7,"""blue""","""b15_y18""",96,"""Fewer than half""",79,false,7
+7,"""blue""","""b15_y18""",176,"""Many""",58,true,7
+7,"""blue""","""b16_y18""",106,"""Fewer than half""",95,true,6
+7,"""yellow""","""b15_y18""",1745,"""Fewer than half""",72,true,5
+7,"""yellow""","""b18_y27""",34,"""Few""",120,true,2
+7,"""yellow""","""b27_y18""",504,"""More than half""",152,true,6
+7,"""yellow""","""b10_y5""",168,"""Few""",166,true,5
+7,"""yellow""","""b15_y18""",135,"""Many""",104,true,8
+7,"""yellow""","""b16_y18""",504,"""More""",145,true,3
+7,"""yellow""","""b5_y6""",40,"""Most""",167,true,0
+7,"""blue""","""b10_y20""",199,"""Many""",119,false,7
+7,"""yellow""","""b5_y10""",24,"""More""",47,false,6
+7,"""blue""","""b8_y7""",337,"""Many""",73,true,3
+7,"""blue""","""b15_y30""",73,"""More than half""",97,true,2
+7,"""blue""","""b24_y21""",109,"""More than half""",96,true,0
+7,"""yellow""","""b24_y27""",200,"""More than half""",120,false,7
+7,"""yellow""","""b8_y9""",226,"""Fewer than half""",55,false,2
+7,"""blue""","""b9_y6""",177,"""Few""",40,true,6
+7,"""yellow""","""b8_y6""",104,"""More than half""",72,true,5
+7,"""yellow""","""b5_y6""",41,"""Few""",48,true,0
+7,"""blue""","""b15_y18""",65,"""Most""",47,false,0
+7,"""yellow""","""b18_y16""",88,"""Few""",56,false,2
+7,"""yellow""","""b24_y20""",360,"""More""",64,true,6
+7,"""blue""","""b14_y16""",37,"""More""",88,true,7
+7,"""blue""","""b18_y27""",48,"""More""",104,true,9
+7,"""blue""","""b24_y21""",17,"""Few""",104,false,7
+7,"""yellow""","""b16_y12""",73,"""More""",73,false,1
+7,"""yellow""","""b18_y27""",118,"""Most""",287,true,7
+7,"""blue""","""b8_y6""",64,"""Few""",80,true,2
+7,"""blue""","""b6_y9""",158,"""Most""",95,false,5
+7,"""yellow""","""b20_y24""",32,"""More""",70,false,0
+7,"""blue""","""b10_y5""",71,"""Most""",119,true,5
+7,"""yellow""","""b5_y10""",144,"""Many""",88,false,0
+7,"""blue""","""b6_y8""",303,"""Fewer than half""",48,false,7
+7,"""blue""","""b21_y24""",106,"""Few""",160,true,6
+7,"""blue""","""b27_y18""",103,"""Few""",88,false,5
+7,"""yellow""","""b18_y24""",273,"""Fewer than half""",97,false,0
+7,"""yellow""","""b18_y12""",152,"""Fewer than half""",128,true,9
+7,"""blue""","""b24_y18""",32,"""Few""",64,true,3
+7,"""blue""","""b18_y27""",183,"""More""",72,false,4
+7,"""blue""","""b16_y12""",89,"""Most""",63,true,5
+7,"""blue""","""b24_y27""",40,"""More""",88,true,3
+7,"""blue""","""b21_y24""",144,"""Many""",88,false,5
+7,"""yellow""","""b16_y12""",8,"""Many""",72,false,7
+7,"""yellow""","""b9_y6""",95,"""Many""",143,true,3
+7,"""blue""","""b24_y27""",215,"""More""",71,false,9
+7,"""yellow""","""b14_y16""",58,"""Fewer than half""",131,true,4
+7,"""blue""","""b8_y6""",217,"""More than half""",114,false,6
+7,"""blue""","""b27_y24""",15,"""Fewer than half""",63,true,9
+7,"""blue""","""b5_y10""",32,"""Fewer than half""",89,true,7
+7,"""yellow""","""b9_y6""",399,"""Fewer than half""",183,false,8
+7,"""blue""","""b14_y16""",193,"""Many""",80,false,3
+7,"""yellow""","""b21_y24""",455,"""Many""",71,true,2
+7,"""yellow""","""b30_y15""",31,"""More than half""",127,true,8
+7,"""yellow""","""b8_y7""",50,"""More than half""",48,true,6
+7,"""blue""","""b24_y21""",88,"""Most""",90,false,4
+7,"""yellow""","""b24_y20""",53,"""More than half""",69,false,8
+7,"""blue""","""b6_y5""",152,"""More""",72,true,1
+7,"""yellow""","""b20_y24""",7,"""Many""",87,true,8
+7,"""yellow""","""b9_y8""",48,"""Few""",95,false,6
+7,"""blue""","""b7_y8""",88,"""More""",87,false,4
+7,"""yellow""","""b18_y15""",56,"""Few""",71,true,9
+7,"""blue""","""b24_y27""",107,"""More than half""",51,true,8
+7,"""yellow""","""b8_y6""",185,"""More""",79,false,8
+7,"""yellow""","""b24_y27""",16,"""Few""",58,false,5
+7,"""yellow""","""b8_y6""",122,"""More than half""",80,true,9
+7,"""blue""","""b8_y9""",312,"""More than half""",88,false,1
+7,"""yellow""","""b6_y8""",273,"""More""",79,false,1
+7,"""yellow""","""b18_y27""",120,"""Many""",104,true,8
+7,"""blue""","""b6_y9""",13,"""Few""",119,true,3
+7,"""blue""","""b18_y24""",89,"""Fewer than half""",72,false,2
+7,"""blue""","""b18_y24""",143,"""More""",71,false,0
+7,"""blue""","""b5_y10""",49,"""Few""",88,true,9
+7,"""blue""","""b24_y18""",360,"""More""",103,false,4
+7,"""blue""","""b18_y24""",407,"""Fewer than half""",88,true,5
+7,"""yellow""","""b18_y16""",152,"""Few""",95,true,4
+7,"""blue""","""b20_y24""",161,"""Many""",128,true,2
+7,"""blue""","""b9_y6""",104,"""Most""",72,true,1
+7,"""yellow""","""b24_y27""",135,"""More than half""",152,true,9
+7,"""yellow""","""b8_y7""",11,"""Few""",135,true,9
+7,"""blue""","""b24_y27""",48,"""More""",76,true,5
+7,"""blue""","""b8_y7""",63,"""Most""",138,true,9
+7,"""blue""","""b16_y12""",111,"""More""",104,true,8
+7,"""blue""","""b10_y20""",6,"""Many""",112,true,1
+7,"""blue""","""b20_y24""",56,"""Most""",108,true,3
+7,"""blue""","""b5_y10""",89,"""More""",159,true,9
+7,"""blue""","""b18_y12""",128,"""Many""",128,true,2
+7,"""blue""","""b21_y24""",24,"""Few""",127,false,6
+7,"""yellow""","""b24_y18""",23,"""More than half""",80,false,1
+7,"""blue""","""b18_y24""",1152,"""Many""",143,true,9
+7,"""blue""","""b14_y16""",166,"""Few""",121,true,0
+7,"""yellow""","""b24_y21""",153,"""Most""",88,true,1
+7,"""yellow""","""b8_y6""",56,"""More""",72,true,5
+7,"""yellow""","""b27_y24""",72,"""Fewer than half""",58,false,3
+7,"""yellow""","""b24_y21""",327,"""Few""",56,true,2
+7,"""yellow""","""b16_y18""",26,"""More than half""",49,true,1
+7,"""yellow""","""b7_y8""",104,"""More""",87,true,9
+7,"""blue""","""b14_y16""",1488,"""Fewer than half""",87,true,8
+7,"""yellow""","""b8_y6""",89,"""Many""",64,true,9
+7,"""yellow""","""b18_y27""",57,"""More""",111,false,6
+7,"""blue""","""b16_y18""",81,"""Many""",48,false,8
+7,"""blue""","""b8_y9""",215,"""More than half""",65,true,1
+7,"""yellow""","""b14_y16""",151,"""More than half""",152,true,8
+7,"""blue""","""b18_y15""",65,"""Fewer than half""",96,true,9
+7,"""blue""","""b10_y5""",152,"""Few""",104,true,7
+7,"""blue""","""b6_y9""",25,"""Many""",151,false,1
+7,"""yellow""","""b12_y18""",72,"""More""",87,true,7
+7,"""yellow""","""b18_y24""",256,"""Few""",64,true,6
+7,"""blue""","""b18_y15""",117,"""More""",128,true,6
+7,"""blue""","""b16_y18""",506,"""Most""",135,false,6
+7,"""yellow""","""b18_y27""",278,"""Fewer than half""",49,true,3
+7,"""yellow""","""b20_y10""",110,"""Many""",115,true,8
+7,"""yellow""","""b16_y12""",320,"""Many""",79,true,0
+7,"""yellow""","""b5_y6""",151,"""Fewer than half""",90,true,2
+7,"""blue""","""b20_y24""",8,"""Many""",96,true,0
+7,"""yellow""","""b12_y16""",97,"""Many""",167,false,7
+7,"""blue""","""b18_y15""",120,"""More""",48,false,7
+7,"""blue""","""b20_y24""",215,"""Many""",239,true,4
+7,"""blue""","""b9_y6""",159,"""More""",103,true,2
+7,"""blue""","""b10_y5""",41,"""Many""",87,true,6
+7,"""yellow""","""b5_y10""",47,"""Most""",184,false,1
+7,"""blue""","""b30_y15""",248,"""Fewer than half""",48,false,0
+7,"""yellow""","""b6_y5""",125,"""Few""",113,true,8
+7,"""blue""","""b24_y20""",80,"""More than half""",144,true,3
+7,"""yellow""","""b10_y20""",263,"""Many""",168,true,0
+7,"""blue""","""b27_y24""",800,"""More""",127,true,4
+7,"""yellow""","""b24_y18""",120,"""Fewer than half""",232,true,4
+7,"""yellow""","""b6_y9""",8,"""Fewer than half""",183,true,9
+7,"""yellow""","""b27_y24""",32,"""More than half""",196,true,8
+7,"""blue""","""b12_y16""",839,"""Fewer than half""",152,true,9
+7,"""blue""","""b15_y30""",87,"""More""",136,true,0
+7,"""blue""","""b20_y10""",48,"""More than half""",191,true,4
+7,"""yellow""","""b15_y18""",25,"""More""",200,true,9
+7,"""blue""","""b5_y10""",200,"""Fewer than half""",191,true,7
+7,"""yellow""","""b16_y18""",199,"""Most""",160,true,5
+7,"""yellow""","""b10_y20""",195,"""More than half""",160,true,0
+7,"""yellow""","""b12_y16""",143,"""Few""",167,true,7
+7,"""blue""","""b15_y30""",184,"""More than half""",127,true,4
+7,"""blue""","""b20_y10""",152,"""Fewer than half""",174,true,3
+8,"""blue""","""b7_y8""",10034,"""All""",774,true,9
+8,"""yellow""","""b24_y20""",3448,"""Some""",104,false,9
+8,"""blue""","""b12_y16""",1697,"""None""",103,true,8
+8,"""yellow""","""b18_y16""",2610,"""An even number""",78,true,8
+8,"""blue""","""b15_y30""",967,"""At least ten""",96,false,9
+8,"""yellow""","""b6_y9""",1234,"""Some""",58,true,8
+8,"""yellow""","""b24_y20""",1426,"""Few""",105,true,5
+8,"""yellow""","""b24_y21""",1208,"""Most""",81,true,8
+8,"""yellow""","""b18_y24""",910,"""More""",72,true,9
+8,"""blue""","""b7_y8""",449,"""Many""",80,false,5
+8,"""blue""","""b14_y16""",870,"""Most""",89,true,1
+8,"""yellow""","""b27_y18""",928,"""Few""",62,true,2
+8,"""yellow""","""b18_y24""",446,"""More than half""",103,false,7
+8,"""yellow""","""b27_y18""",535,"""Most""",96,true,4
+8,"""yellow""","""b9_y6""",680,"""More than half""",48,false,6
+8,"""blue""","""b5_y10""",615,"""Few""",71,true,6
+8,"""yellow""","""b5_y6""",808,"""Many""",55,true,0
+8,"""blue""","""b24_y27""",566,"""Many""",72,true,3
+8,"""yellow""","""b10_y20""",912,"""More than half""",53,false,2
+8,"""yellow""","""b16_y14""",872,"""Many""",65,true,7
+8,"""blue""","""b27_y24""",305,"""Few""",76,false,2
+8,"""yellow""","""b6_y8""",455,"""More than half""",103,true,7
+8,"""blue""","""b5_y10""",834,"""Most""",55,true,1
+8,"""blue""","""b27_y24""",422,"""More than half""",72,true,8
+8,"""blue""","""b24_y20""",408,"""More""",40,true,8
+8,"""blue""","""b6_y9""",360,"""More""",56,false,4
+8,"""yellow""","""b14_y16""",441,"""Most""",47,true,3
+8,"""blue""","""b24_y27""",398,"""Many""",81,false,3
+8,"""yellow""","""b7_y8""",1079,"""Most""",54,true,8
+8,"""blue""","""b12_y18""",12780,"""Fewer than half""",63,true,4
+8,"""yellow""","""b18_y16""",727,"""Most""",87,false,5
+8,"""blue""","""b18_y12""",426,"""Fewer than half""",96,true,1
+8,"""yellow""","""b7_y8""",296,"""Few""",72,true,6
+8,"""yellow""","""b18_y16""",328,"""More""",103,true,7
+8,"""blue""","""b20_y10""",479,"""More""",96,true,1
+8,"""blue""","""b5_y10""",599,"""Fewer than half""",95,true,6
+8,"""blue""","""b14_y16""",565,"""Most""",78,true,0
+8,"""yellow""","""b6_y9""",431,"""More than half""",87,true,2
+8,"""blue""","""b18_y15""",456,"""More""",64,true,7
+8,"""yellow""","""b20_y10""",818,"""Fewer than half""",134,false,1
+8,"""yellow""","""b12_y18""",530,"""Many""",24,true,5
+8,"""blue""","""b24_y18""",713,"""Fewer than half""",88,false,9
+8,"""blue""","""b8_y9""",1265,"""Most""",80,true,7
+8,"""blue""","""b6_y9""",1000,"""Fewer than half""",95,true,7
+8,"""yellow""","""b18_y24""",505,"""More""",61,true,9
+8,"""blue""","""b16_y14""",686,"""Fewer than half""",88,true,8
+8,"""yellow""","""b24_y21""",600,"""Most""",86,true,9
+8,"""blue""","""b8_y6""",1279,"""More""",63,false,2
+8,"""yellow""","""b18_y27""",616,"""Most""",64,true,9
+8,"""yellow""","""b10_y5""",1351,"""Many""",55,true,9
+8,"""yellow""","""b12_y18""",662,"""Many""",48,true,9
+8,"""blue""","""b5_y10""",488,"""Few""",85,false,7
+8,"""yellow""","""b6_y5""",456,"""Few""",111,true,2
+8,"""blue""","""b24_y21""",1033,"""More""",87,true,4
+8,"""blue""","""b16_y12""",431,"""Many""",78,false,8
+8,"""yellow""","""b20_y24""",856,"""Few""",47,true,0
+8,"""yellow""","""b30_y15""",792,"""More than half""",59,false,4
+8,"""yellow""","""b20_y10""",871,"""Fewer than half""",93,true,7
+8,"""yellow""","""b18_y12""",799,"""Few""",63,true,9
+8,"""blue""","""b24_y27""",586,"""Most""",70,true,1
+8,"""blue""","""b20_y10""",938,"""Few""",104,true,8
+8,"""yellow""","""b8_y9""",665,"""Few""",61,true,2
+8,"""yellow""","""b14_y16""",1440,"""More than half""",47,true,3
+8,"""blue""","""b18_y16""",992,"""More than half""",80,true,1
+8,"""blue""","""b5_y10""",1238,"""Most""",78,true,3
+8,"""yellow""","""b5_y10""",1265,"""Few""",80,true,8
+8,"""yellow""","""b5_y6""",640,"""Few""",66,true,0
+8,"""blue""","""b24_y21""",933,"""Most""",69,true,6
+8,"""blue""","""b18_y24""",816,"""Fewer than half""",73,true,6
+8,"""yellow""","""b12_y16""",859,"""Many""",62,true,8
+8,"""yellow""","""b7_y8""",1521,"""More than half""",80,true,1
+8,"""blue""","""b15_y30""",1057,"""Fewer than half""",94,true,2
+8,"""blue""","""b9_y6""",800,"""More""",64,true,3
+8,"""blue""","""b16_y12""",815,"""Most""",48,true,8
+8,"""blue""","""b10_y20""",543,"""More than half""",56,true,8
+8,"""blue""","""b5_y6""",760,"""Many""",87,true,8
+8,"""blue""","""b6_y9""",576,"""More""",63,true,8
+8,"""blue""","""b12_y18""",1353,"""More""",62,false,6
+8,"""blue""","""b10_y20""",1673,"""More""",80,true,5
+8,"""blue""","""b6_y5""",602,"""Many""",46,false,2
+8,"""blue""","""b27_y18""",528,"""More than half""",48,true,2
+8,"""blue""","""b5_y10""",1769,"""Few""",64,true,0
+8,"""yellow""","""b10_y20""",1047,"""Most""",56,true,1
+8,"""yellow""","""b16_y18""",938,"""Few""",58,true,5
+8,"""blue""","""b10_y20""",926,"""Most""",77,true,3
+8,"""blue""","""b6_y5""",950,"""Most""",80,true,4
+8,"""blue""","""b18_y27""",857,"""Many""",79,true,1
+8,"""yellow""","""b20_y24""",1016,"""Many""",79,true,4
+8,"""blue""","""b24_y20""",777,"""Many""",61,true,6
+8,"""blue""","""b9_y8""",1511,"""Many""",37,true,7
+8,"""yellow""","""b24_y21""",1193,"""Fewer than half""",49,true,7
+8,"""blue""","""b6_y9""",791,"""Most""",48,true,3
+8,"""blue""","""b10_y5""",671,"""More than half""",72,true,9
+8,"""blue""","""b12_y16""",778,"""More than half""",65,true,1
+8,"""yellow""","""b27_y24""",537,"""More""",56,false,8
+8,"""yellow""","""b18_y27""",833,"""Few""",55,true,5
+8,"""yellow""","""b14_y16""",632,"""More""",55,false,4
+8,"""yellow""","""b12_y16""",719,"""Many""",88,true,2
+8,"""blue""","""b8_y9""",967,"""More than half""",88,false,0
+8,"""yellow""","""b24_y20""",695,"""More""",61,true,6
+8,"""blue""","""b18_y16""",679,"""Many""",54,false,6
+8,"""blue""","""b18_y15""",511,"""Fewer than half""",72,true,8
+8,"""yellow""","""b18_y16""",472,"""Fewer than half""",79,false,8
+8,"""blue""","""b10_y20""",665,"""More than half""",62,true,2
+8,"""blue""","""b20_y10""",490,"""More than half""",48,true,9
+8,"""yellow""","""b16_y14""",488,"""More""",63,false,8
+8,"""blue""","""b7_y8""",1168,"""Most""",63,true,7
+8,"""blue""","""b18_y12""",427,"""Most""",47,false,8
+8,"""yellow""","""b9_y8""",536,"""Many""",70,true,5
+8,"""yellow""","""b24_y27""",423,"""Fewer than half""",55,false,5
+8,"""yellow""","""b24_y27""",385,"""More than half""",56,false,7
+8,"""yellow""","""b10_y20""",399,"""More""",66,true,3
+8,"""yellow""","""b27_y24""",439,"""Fewer than half""",55,false,9
+8,"""blue""","""b10_y20""",961,"""More than half""",55,true,3
+8,"""blue""","""b5_y10""",513,"""Few""",71,true,7
+8,"""blue""","""b20_y24""",328,"""Fewer than half""",88,true,5
+8,"""yellow""","""b12_y16""",328,"""Most""",64,true,2
+8,"""blue""","""b14_y16""",336,"""Most""",70,true,0
+8,"""blue""","""b5_y10""",272,"""Fewer than half""",73,true,6
+8,"""yellow""","""b24_y18""",331,"""Many""",73,true,2
+8,"""yellow""","""b16_y14""",314,"""Most""",63,false,4
+8,"""yellow""","""b16_y12""",344,"""Most""",94,true,8
+8,"""yellow""","""b8_y7""",273,"""More""",86,true,4
+8,"""yellow""","""b18_y15""",287,"""Fewer than half""",85,true,8
+8,"""yellow""","""b16_y12""",248,"""More""",64,true,9
+8,"""yellow""","""b16_y14""",264,"""More than half""",80,true,8
+8,"""yellow""","""b9_y8""",256,"""Most""",73,true,9
+8,"""blue""","""b27_y24""",808,"""Most""",89,true,5
+8,"""blue""","""b6_y9""",288,"""More""",96,true,1
+8,"""yellow""","""b27_y24""",288,"""Most""",64,true,4
+8,"""blue""","""b18_y15""",232,"""Many""",80,true,0
+8,"""yellow""","""b8_y6""",494,"""More than half""",79,true,8
+8,"""yellow""","""b30_y15""",208,"""More than half""",87,true,2
+8,"""yellow""","""b18_y16""",457,"""Few""",73,true,1
+8,"""yellow""","""b16_y14""",472,"""Most""",63,true,1
+8,"""yellow""","""b20_y24""",392,"""More""",71,true,8
+8,"""yellow""","""b6_y5""",344,"""Many""",73,true,4
+8,"""yellow""","""b8_y6""",368,"""Many""",87,true,6
+8,"""yellow""","""b18_y27""",631,"""Fewer than half""",87,true,1
+8,"""blue""","""b24_y20""",432,"""Many""",96,true,0
+8,"""yellow""","""b16_y18""",456,"""More""",80,true,4
+8,"""yellow""","""b18_y16""",394,"""More""",64,true,4
+8,"""blue""","""b6_y8""",415,"""Few""",80,true,2
+8,"""yellow""","""b18_y27""",639,"""Most""",81,true,4
+8,"""yellow""","""b20_y10""",464,"""Most""",72,true,4
+8,"""yellow""","""b6_y9""",616,"""Many""",88,true,7
+8,"""yellow""","""b20_y24""",426,"""Fewer than half""",57,true,7
+8,"""blue""","""b16_y14""",440,"""Many""",88,true,9
+8,"""yellow""","""b10_y20""",430,"""Few""",71,true,1
+8,"""yellow""","""b16_y14""",1040,"""More""",80,false,0
+8,"""blue""","""b24_y21""",456,"""Many""",88,true,5
+8,"""yellow""","""b12_y16""",664,"""More than half""",95,true,0
+8,"""blue""","""b6_y9""",359,"""Most""",72,true,5
+8,"""yellow""","""b6_y8""",257,"""More than half""",56,true,5
+8,"""yellow""","""b20_y24""",224,"""Many""",73,true,8
+8,"""blue""","""b24_y21""",290,"""More than half""",65,true,1
+8,"""blue""","""b24_y21""",231,"""Most""",92,true,0
+8,"""yellow""","""b20_y24""",231,"""Many""",104,true,0
+8,"""yellow""","""b6_y9""",679,"""Most""",104,true,8
+8,"""yellow""","""b30_y15""",288,"""Many""",89,true,3
+8,"""blue""","""b15_y18""",401,"""Fewer than half""",75,true,0
+8,"""yellow""","""b5_y10""",425,"""More""",72,true,8
+8,"""blue""","""b24_y18""",427,"""Few""",54,true,0
+8,"""blue""","""b8_y6""",424,"""More""",88,true,9
+8,"""yellow""","""b20_y24""",384,"""More""",79,true,6
+8,"""blue""","""b12_y16""",316,"""Fewer than half""",80,true,9
+8,"""blue""","""b12_y18""",335,"""More than half""",87,true,0
+8,"""blue""","""b24_y21""",415,"""Fewer than half""",81,true,5
+8,"""yellow""","""b16_y14""",215,"""Fewer than half""",88,true,9
+8,"""yellow""","""b18_y16""",306,"""More than half""",95,true,3
+8,"""blue""","""b18_y16""",375,"""Fewer than half""",93,true,8
+8,"""blue""","""b6_y9""",402,"""Few""",97,true,6
+8,"""blue""","""b24_y18""",320,"""Few""",88,true,5
+8,"""yellow""","""b14_y16""",312,"""Few""",80,true,4
+8,"""yellow""","""b20_y24""",400,"""More than half""",105,true,5
+8,"""yellow""","""b15_y30""",479,"""Fewer than half""",71,true,4
+8,"""yellow""","""b8_y6""",319,"""Fewer than half""",103,true,0
+8,"""yellow""","""b24_y18""",416,"""Fewer than half""",87,true,6
+8,"""blue""","""b18_y16""",274,"""Few""",79,true,0
+8,"""yellow""","""b12_y16""",208,"""Many""",96,true,6
+8,"""blue""","""b24_y27""",248,"""More than half""",103,true,3
+8,"""blue""","""b8_y6""",279,"""Few""",120,true,7
+8,"""blue""","""b20_y24""",224,"""More""",118,true,5
+8,"""blue""","""b18_y15""",249,"""More than half""",94,true,5
+8,"""blue""","""b30_y15""",271,"""Few""",94,true,9
+8,"""blue""","""b18_y12""",257,"""Fewer than half""",104,true,5
+8,"""blue""","""b30_y15""",177,"""Fewer than half""",120,true,4
+8,"""blue""","""b14_y16""",400,"""Many""",71,true,2
+8,"""yellow""","""b24_y21""",272,"""Few""",72,true,6
+8,"""yellow""","""b16_y18""",256,"""Fewer than half""",80,true,0
+8,"""yellow""","""b8_y6""",408,"""Few""",110,true,1
+8,"""blue""","""b18_y24""",464,"""More""",88,true,5
+8,"""blue""","""b16_y14""",304,"""More than half""",96,true,4
+8,"""blue""","""b18_y24""",386,"""Many""",72,true,6
+8,"""blue""","""b12_y16""",265,"""Few""",87,true,0
+8,"""yellow""","""b21_y24""",288,"""More than half""",81,true,0
+8,"""blue""","""b15_y18""",431,"""Fewer than half""",120,true,2
+8,"""yellow""","""b16_y12""",920,"""More""",86,true,1
+8,"""yellow""","""b5_y6""",655,"""Many""",81,true,5
+8,"""yellow""","""b12_y18""",536,"""Fewer than half""",80,true,3
+8,"""yellow""","""b24_y18""",593,"""Most""",80,true,6
+8,"""yellow""","""b8_y6""",527,"""More""",92,true,1
+8,"""blue""","""b15_y18""",681,"""More""",61,true,0
+8,"""yellow""","""b16_y18""",513,"""Most""",87,true,8
+8,"""yellow""","""b24_y27""",822,"""Fewer than half""",79,true,8
+8,"""blue""","""b24_y18""",609,"""More than half""",72,true,3
+8,"""blue""","""b18_y27""",601,"""More""",63,true,1
+8,"""blue""","""b8_y7""",536,"""Fewer than half""",93,false,8
+8,"""yellow""","""b9_y6""",728,"""Fewer than half""",96,false,7
+8,"""yellow""","""b16_y18""",504,"""Most""",111,true,5
+8,"""blue""","""b16_y18""",1784,"""Few""",80,true,6
+8,"""blue""","""b24_y21""",697,"""Many""",81,true,4
+8,"""yellow""","""b15_y18""",857,"""More than half""",88,true,8
+8,"""blue""","""b9_y6""",744,"""More""",80,true,2
+8,"""blue""","""b18_y12""",631,"""Most""",112,true,0
+8,"""blue""","""b10_y20""",449,"""More""",88,true,5
+8,"""yellow""","""b5_y6""",1536,"""Fewer than half""",87,true,2
+8,"""blue""","""b16_y14""",841,"""More""",96,false,3
+8,"""blue""","""b9_y8""",655,"""Most""",95,true,8
+8,"""blue""","""b8_y9""",775,"""More""",95,false,5
+8,"""yellow""","""b18_y16""",545,"""More than half""",101,true,4
+8,"""yellow""","""b6_y9""",536,"""More than half""",111,true,3
+8,"""blue""","""b18_y27""",334,"""Few""",94,true,3
+8,"""blue""","""b16_y12""",247,"""More than half""",112,false,6
+8,"""yellow""","""b16_y12""",408,"""More""",94,true,4
+8,"""yellow""","""b8_y9""",455,"""Many""",113,true,0
+8,"""yellow""","""b16_y18""",311,"""Few""",80,true,0
+8,"""yellow""","""b24_y18""",426,"""Many""",96,true,5
+8,"""yellow""","""b9_y6""",464,"""Many""",96,true,1
+8,"""yellow""","""b16_y14""",376,"""Few""",110,true,7
+8,"""yellow""","""b27_y18""",239,"""More than half""",102,true,5
+8,"""yellow""","""b21_y24""",463,"""Few""",97,true,2
+8,"""blue""","""b16_y18""",471,"""Few""",95,true,5
+8,"""blue""","""b10_y20""",529,"""Many""",88,true,6
+8,"""yellow""","""b21_y24""",448,"""More""",87,false,3
+8,"""yellow""","""b15_y18""",528,"""More""",94,true,9
+8,"""yellow""","""b24_y21""",320,"""Fewer than half""",95,true,9
+8,"""blue""","""b5_y10""",352,"""Most""",88,true,7
+8,"""yellow""","""b9_y6""",441,"""Fewer than half""",105,true,8
+8,"""blue""","""b24_y27""",455,"""More than half""",88,true,4
+8,"""blue""","""b21_y24""",447,"""Many""",110,true,3
+8,"""blue""","""b24_y18""",463,"""More than half""",97,true,5
+8,"""yellow""","""b27_y24""",472,"""Few""",102,true,9
+8,"""yellow""","""b7_y8""",522,"""Most""",94,true,4
+8,"""blue""","""b8_y6""",505,"""Fewer than half""",96,true,0
+8,"""blue""","""b27_y24""",439,"""Most""",103,true,9
+8,"""blue""","""b6_y8""",1735,"""Many""",79,true,7
+8,"""yellow""","""b18_y16""",529,"""More""",80,true,5
+8,"""yellow""","""b9_y8""",448,"""Many""",111,true,9
+8,"""blue""","""b8_y9""",430,"""Fewer than half""",111,true,5
+8,"""yellow""","""b14_y16""",438,"""More""",112,true,9
+8,"""yellow""","""b21_y24""",337,"""Few""",96,true,5
+8,"""blue""","""b18_y12""",384,"""More than half""",128,true,0
+8,"""blue""","""b24_y20""",393,"""Fewer than half""",72,true,1
+8,"""yellow""","""b27_y24""",383,"""More than half""",119,true,3
+8,"""yellow""","""b6_y5""",401,"""More than half""",104,true,0
+8,"""yellow""","""b8_y6""",480,"""Many""",120,true,1
+8,"""blue""","""b16_y18""",359,"""Many""",94,true,1
+8,"""blue""","""b6_y5""",449,"""More""",112,true,2
+8,"""yellow""","""b14_y16""",577,"""Many""",121,true,5
+8,"""yellow""","""b12_y18""",365,"""Fewer than half""",94,true,6
+8,"""yellow""","""b9_y8""",288,"""Many""",121,true,7
+8,"""blue""","""b24_y21""",425,"""Few""",118,true,9
+8,"""blue""","""b16_y18""",425,"""Many""",111,true,0
+8,"""blue""","""b24_y20""",776,"""More""",87,false,3
+8,"""yellow""","""b18_y16""",240,"""Most""",105,true,9
+8,"""blue""","""b18_y24""",384,"""Few""",103,true,7
+8,"""blue""","""b8_y7""",392,"""Few""",87,true,8
+8,"""yellow""","""b18_y12""",640,"""Few""",104,true,8
+8,"""yellow""","""b16_y12""",1466,"""More""",79,false,0
+8,"""blue""","""b14_y16""",377,"""Fewer than half""",97,true,3
+8,"""blue""","""b15_y30""",1137,"""Few""",81,false,3
+8,"""blue""","""b12_y18""",320,"""More than half""",111,true,7
+8,"""blue""","""b24_y21""",392,"""Most""",121,true,9
+8,"""yellow""","""b18_y27""",464,"""Few""",111,true,0
+8,"""blue""","""b12_y16""",384,"""Few""",127,true,9
+8,"""blue""","""b9_y6""",409,"""Few""",97,true,5
+8,"""yellow""","""b14_y16""",362,"""More""",88,true,9
+8,"""blue""","""b18_y24""",385,"""More than half""",87,true,9
+8,"""blue""","""b5_y6""",448,"""More""",72,true,9
+8,"""blue""","""b18_y12""",416,"""Few""",104,true,6
+8,"""yellow""","""b16_y14""",400,"""More than half""",110,true,1
+8,"""blue""","""b16_y12""",345,"""Most""",104,true,9
+8,"""blue""","""b12_y18""",345,"""More""",136,true,0
+8,"""blue""","""b8_y6""",369,"""Fewer than half""",110,true,0
+8,"""blue""","""b10_y5""",1599,"""Few""",111,true,7
+8,"""yellow""","""b10_y20""",434,"""Most""",112,true,1
+8,"""blue""","""b20_y10""",328,"""Fewer than half""",80,true,4
+8,"""yellow""","""b10_y5""",658,"""Most""",112,true,6
+8,"""yellow""","""b10_y5""",464,"""Fewer than half""",88,true,3
+8,"""yellow""","""b18_y24""",1001,"""Most""",81,true,4
+8,"""blue""","""b18_y16""",536,"""Many""",89,true,2
+8,"""blue""","""b10_y5""",512,"""Many""",79,true,2
+8,"""blue""","""b8_y9""",529,"""Many""",80,true,1
+8,"""yellow""","""b8_y7""",519,"""Few""",72,true,1
+8,"""yellow""","""b6_y5""",311,"""Few""",94,true,9
+8,"""blue""","""b10_y5""",529,"""More""",103,false,4
+8,"""blue""","""b18_y12""",600,"""More than half""",80,true,2
+8,"""blue""","""b18_y27""",929,"""More than half""",97,true,6
+8,"""yellow""","""b10_y20""",560,"""Fewer than half""",103,true,3
+8,"""blue""","""b8_y7""",433,"""Most""",104,true,5
+8,"""yellow""","""b27_y18""",551,"""More than half""",87,true,0
+8,"""blue""","""b6_y9""",1670,"""Most""",88,true,9
+8,"""yellow""","""b6_y9""",449,"""More""",103,true,6
+8,"""blue""","""b18_y12""",960,"""Most""",111,true,0
+8,"""blue""","""b12_y16""",528,"""Fewer than half""",94,true,7
+8,"""yellow""","""b14_y16""",487,"""Most""",96,true,4
+8,"""blue""","""b20_y24""",446,"""More than half""",94,true,7
+8,"""yellow""","""b6_y9""",607,"""Fewer than half""",104,true,4
+8,"""blue""","""b16_y14""",479,"""Few""",79,true,9
+8,"""yellow""","""b8_y7""",632,"""Few""",104,true,8
+8,"""yellow""","""b18_y16""",441,"""Many""",111,true,3
+8,"""blue""","""b27_y24""",2088,"""Many""",95,true,2
+8,"""blue""","""b20_y10""",880,"""More""",96,true,2
+8,"""yellow""","""b21_y24""",943,"""Fewer than half""",119,true,9
+8,"""blue""","""b10_y20""",759,"""More than half""",96,true,2
+8,"""yellow""","""b21_y24""",592,"""Fewer than half""",80,true,5
+8,"""yellow""","""b18_y16""",681,"""More than half""",71,true,7
+9,"""blue""","""b7_y8""",13889,"""All""",116,true,9
+9,"""yellow""","""b24_y20""",3642,"""Some""",2016,true,9
+9,"""blue""","""b12_y16""",4658,"""None""",2125,false,8
+9,"""yellow""","""b18_y16""",3513,"""An even number""",109,true,8
+9,"""blue""","""b15_y30""",4445,"""At least ten""",2026,true,9
+9,"""yellow""","""b6_y9""",1327,"""Some""",2985,true,8
+9,"""blue""","""b8_y9""",20761,"""More""",3066,false,9
+9,"""blue""","""b9_y8""",7493,"""Fewer than half""",5741,true,0
+9,"""blue""","""b16_y12""",7535,"""More""",3174,true,9
+9,"""yellow""","""b16_y14""",1237,"""Few""",1577,true,1
+9,"""blue""","""b5_y6""",4771,"""Most""",1386,false,3
+9,"""yellow""","""b18_y12""",8316,"""Most""",1167,false,5
+9,"""yellow""","""b9_y6""",6737,"""More than half""",2357,false,2
+9,"""yellow""","""b8_y7""",12462,"""Fewer than half""",2057,false,5
+9,"""blue""","""b9_y8""",15023,"""More""",2284,true,1
+9,"""yellow""","""b30_y15""",3452,"""Few""",1987,true,8
+9,"""yellow""","""b8_y6""",4252,"""Many""",1459,false,8
+9,"""yellow""","""b9_y8""",8814,"""Many""",1210,false,3
+9,"""blue""","""b15_y18""",12042,"""More""",4151,false,9
+9,"""yellow""","""b8_y7""",6940,"""Fewer than half""",2566,false,0
+9,"""yellow""","""b18_y24""",2267,"""Most""",1578,true,8
+9,"""blue""","""b9_y6""",1658,"""More""",4523,true,4
+9,"""blue""","""b10_y20""",4244,"""More""",1288,false,0
+9,"""yellow""","""b7_y8""",2436,"""Few""",2466,true,5
+9,"""blue""","""b12_y16""",4323,"""More than half""",1767,false,0
+9,"""blue""","""b15_y30""",2965,"""Fewer than half""",90,true,8
+9,"""yellow""","""b16_y14""",6862,"""More than half""",4134,true,8
+9,"""yellow""","""b20_y10""",5228,"""Many""",130,false,7
+9,"""blue""","""b15_y30""",1387,"""Fewer than half""",1577,false,7
+9,"""blue""","""b27_y18""",1739,"""More than half""",1409,true,1
+9,"""yellow""","""b18_y12""",5100,"""Fewer than half""",2096,false,6
+9,"""blue""","""b18_y16""",1428,"""Few""",1997,true,7
+9,"""yellow""","""b18_y15""",1539,"""Most""",99,true,8
+9,"""blue""","""b8_y6""",5521,"""Many""",1109,true,0
+9,"""yellow""","""b30_y15""",1558,"""More""",2497,false,0
+9,"""blue""","""b12_y18""",2416,"""Many""",968,false,7
+9,"""yellow""","""b21_y24""",1578,"""More than half""",4214,true,9
+9,"""yellow""","""b16_y18""",2376,"""Few""",960,true,6
+9,"""yellow""","""b18_y15""",8027,"""More than half""",1488,false,7
+9,"""yellow""","""b12_y18""",580,"""Most""",50,false,1
+9,"""yellow""","""b10_y20""",5293,"""Most""",90,false,7
+9,"""blue""","""b16_y14""",2168,"""Most""",1249,true,8
+9,"""blue""","""b18_y15""",2206,"""More than half""",1348,true,9
+9,"""yellow""","""b18_y15""",5850,"""Most""",1408,false,7
+9,"""blue""","""b16_y18""",3894,"""Most""",689,true,5
+9,"""blue""","""b6_y5""",2437,"""Few""",1249,true,6
+9,"""blue""","""b6_y9""",2437,"""Few""",768,true,7
+9,"""yellow""","""b15_y18""",1537,"""More""",1417,true,6
+9,"""yellow""","""b6_y8""",1458,"""More""",1447,true,5
+9,"""yellow""","""b15_y30""",1328,"""Few""",918,true,2
+9,"""blue""","""b30_y15""",1238,"""Few""",2167,true,5
+9,"""blue""","""b21_y24""",798,"""Most""",658,true,0
+9,"""yellow""","""b7_y8""",4912,"""More than half""",1468,true,4
+9,"""blue""","""b24_y20""",809,"""Most""",939,true,7
+9,"""blue""","""b20_y24""",888,"""Fewer than half""",889,true,9
+9,"""yellow""","""b15_y18""",1098,"""Most""",1357,true,9
+9,"""blue""","""b8_y7""",2655,"""Most""",1318,true,4
+9,"""yellow""","""b7_y8""",878,"""Most""",769,true,2
+9,"""yellow""","""b6_y5""",1238,"""Few""",1299,true,4
+9,"""blue""","""b27_y18""",858,"""Fewer than half""",1158,true,8
+9,"""yellow""","""b12_y18""",790,"""Fewer than half""",957,true,7
+9,"""blue""","""b5_y6""",1058,"""Few""",989,true,6
+9,"""yellow""","""b24_y27""",908,"""Few""",888,true,6
+9,"""blue""","""b6_y9""",1458,"""Most""",819,false,1
+9,"""blue""","""b20_y24""",639,"""More than half""",70,false,4
+9,"""yellow""","""b27_y24""",6238,"""Fewer than half""",2416,true,7
+9,"""yellow""","""b16_y12""",1467,"""More than half""",2865,false,8
+9,"""yellow""","""b7_y8""",400,"""More than half""",411,false,7
+9,"""blue""","""b6_y9""",4024,"""More""",1908,false,5
+9,"""blue""","""b7_y8""",889,"""Few""",869,true,1
+9,"""blue""","""b12_y18""",728,"""Fewer than half""",1119,true,9
+9,"""yellow""","""b20_y24""",520,"""Few""",1418,true,1
+9,"""blue""","""b6_y8""",751,"""Few""",649,true,2
+9,"""yellow""","""b8_y9""",589,"""Fewer than half""",759,true,2
+9,"""yellow""","""b27_y18""",1636,"""More""",1048,false,0
+9,"""yellow""","""b5_y6""",6324,"""More than half""",1108,true,5
+9,"""yellow""","""b18_y16""",3024,"""Most""",978,false,5
+9,"""blue""","""b27_y24""",2107,"""More""",1149,true,6
+9,"""yellow""","""b5_y6""",4073,"""Many""",818,false,5
+9,"""blue""","""b16_y14""",2486,"""Fewer than half""",1147,true,5
+9,"""blue""","""b10_y5""",1638,"""More""",1488,false,7
+9,"""blue""","""b10_y5""",3014,"""Fewer than half""",1210,true,3
+9,"""blue""","""b8_y6""",1238,"""More than half""",1027,true,6
+9,"""yellow""","""b16_y14""",3793,"""Many""",779,true,8
+9,"""yellow""","""b10_y5""",2635,"""Few""",638,false,7
+9,"""blue""","""b20_y24""",1326,"""Many""",718,true,5
+9,"""yellow""","""b16_y14""",3693,"""Many""",517,false,2
+9,"""yellow""","""b5_y6""",2865,"""Most""",820,false,5
+9,"""yellow""","""b24_y21""",898,"""Few""",1018,true,4
+9,"""yellow""","""b16_y14""",2984,"""Most""",568,false,6
+9,"""yellow""","""b27_y18""",1009,"""Fewer than half""",786,true,8
+9,"""blue""","""b12_y18""",1078,"""Most""",588,false,6
+9,"""blue""","""b18_y24""",1937,"""More""",749,true,2
+9,"""yellow""","""b16_y12""",894,"""Few""",1028,true,1
+9,"""blue""","""b21_y24""",1478,"""Fewer than half""",867,true,8
+9,"""blue""","""b10_y20""",1946,"""More""",1119,false,4
+9,"""blue""","""b8_y9""",3285,"""Fewer than half""",2357,false,2
+9,"""blue""","""b18_y12""",1614,"""Many""",679,true,3
+9,"""yellow""","""b21_y24""",758,"""Few""",710,true,6
+9,"""blue""","""b18_y15""",1797,"""Most""",659,false,2
+9,"""blue""","""b12_y18""",889,"""Many""",498,false,3
+9,"""yellow""","""b6_y5""",1038,"""Most""",528,true,0
+9,"""yellow""","""b18_y12""",1237,"""Fewer than half""",780,false,5
+9,"""yellow""","""b21_y24""",968,"""Many""",639,true,8
+9,"""yellow""","""b6_y5""",798,"""Few""",548,true,3
+9,"""blue""","""b16_y14""",1947,"""More""",749,true,5
+9,"""blue""","""b7_y8""",979,"""More than half""",570,true,3
+9,"""yellow""","""b6_y9""",1238,"""More than half""",508,false,6
+9,"""yellow""","""b24_y27""",750,"""Fewer than half""",1088,true,4
+9,"""blue""","""b30_y15""",2177,"""More""",748,false,9
+9,"""blue""","""b12_y16""",2502,"""Many""",805,false,8
+9,"""yellow""","""b16_y18""",929,"""Many""",926,true,3
+9,"""blue""","""b20_y24""",797,"""Few""",678,true,9
+9,"""blue""","""b30_y15""",638,"""Most""",958,true,0
+9,"""yellow""","""b30_y15""",680,"""More than half""",569,true,2
+9,"""yellow""","""b16_y18""",659,"""Few""",728,true,9
+9,"""yellow""","""b20_y24""",909,"""Many""",567,true,6
+9,"""yellow""","""b24_y27""",3004,"""More""",610,true,1
+9,"""yellow""","""b5_y10""",1458,"""Many""",708,true,0
+9,"""blue""","""b7_y8""",628,"""Fewer than half""",689,true,0
+9,"""blue""","""b18_y24""",1277,"""More""",869,false,9
+9,"""yellow""","""b27_y24""",1438,"""More""",848,true,2
+9,"""yellow""","""b24_y18""",519,"""More than half""",1517,true,6
+9,"""blue""","""b18_y27""",330,"""Many""",538,false,8
+9,"""yellow""","""b18_y27""",2474,"""Most""",67,true,0
+9,"""blue""","""b18_y12""",2655,"""Most""",79,true,9
+9,"""blue""","""b24_y21""",829,"""Fewer than half""",967,true,4
+9,"""yellow""","""b27_y18""",778,"""More than half""",908,true,7
+9,"""blue""","""b16_y14""",1208,"""Many""",837,true,0
+9,"""yellow""","""b6_y5""",1628,"""Few""",699,true,8
+9,"""yellow""","""b6_y5""",1318,"""More""",750,false,3
+9,"""yellow""","""b14_y16""",838,"""Fewer than half""",688,true,5
+9,"""blue""","""b9_y6""",848,"""Few""",1157,true,2
+9,"""blue""","""b5_y6""",1697,"""Most""",888,false,6
+9,"""yellow""","""b6_y9""",1757,"""Many""",549,true,4
+9,"""yellow""","""b18_y24""",1437,"""More""",518,true,7
+9,"""yellow""","""b9_y8""",618,"""Few""",509,true,3
+9,"""blue""","""b5_y10""",371,"""Fewer than half""",479,true,9
+9,"""blue""","""b24_y18""",670,"""Many""",599,true,7
+9,"""blue""","""b24_y18""",698,"""Fewer than half""",461,true,3
+9,"""yellow""","""b15_y18""",848,"""More""",608,true,3
+9,"""blue""","""b6_y8""",708,"""Most""",540,true,0
+9,"""yellow""","""b18_y27""",1008,"""More""",599,true,0
+9,"""blue""","""b27_y24""",1926,"""Many""",738,true,0
+9,"""blue""","""b18_y12""",459,"""Few""",752,true,2
+9,"""blue""","""b16_y12""",450,"""More than half""",479,true,2
+9,"""yellow""","""b9_y8""",380,"""Many""",466,true,5
+9,"""blue""","""b8_y9""",1038,"""More""",539,true,6
+9,"""yellow""","""b8_y6""",3522,"""More""",1089,false,0
+9,"""yellow""","""b24_y18""",918,"""More""",30,true,4
+9,"""blue""","""b18_y27""",2626,"""Many""",79,true,9
+9,"""yellow""","""b9_y8""",739,"""Fewer than half""",6530,true,1
+9,"""yellow""","""b20_y24""",259,"""More""",379,true,9
+9,"""yellow""","""b15_y30""",290,"""Few""",49,true,9
+9,"""blue""","""b9_y8""",289,"""Fewer than half""",49,false,2
+9,"""yellow""","""b18_y16""",289,"""Fewer than half""",50,true,4
+9,"""blue""","""b18_y15""",299,"""Many""",50,true,6
+9,"""yellow""","""b14_y16""",299,"""More""",60,true,1
+9,"""yellow""","""b7_y8""",339,"""Few""",49,true,0
+9,"""yellow""","""b20_y10""",369,"""Fewer than half""",50,true,1
+9,"""blue""","""b16_y18""",949,"""Fewer than half""",50,false,0
+9,"""yellow""","""b6_y8""",390,"""More than half""",49,true,7
+9,"""blue""","""b5_y10""",379,"""Few""",48,true,3
+9,"""yellow""","""b15_y30""",479,"""Few""",61,true,2
+9,"""blue""","""b24_y18""",509,"""Many""",50,false,9
+9,"""blue""","""b8_y9""",469,"""Many""",60,true,7
+9,"""blue""","""b24_y21""",1388,"""More""",50,true,7
+9,"""yellow""","""b18_y12""",538,"""More than half""",30,false,5
+9,"""yellow""","""b18_y15""",399,"""More""",39,true,8
+9,"""blue""","""b15_y18""",298,"""Most""",49,true,3
+9,"""blue""","""b24_y21""",299,"""More than half""",40,true,4
+9,"""blue""","""b24_y18""",320,"""Few""",49,true,0
+9,"""blue""","""b9_y8""",322,"""More than half""",30,true,2
+9,"""yellow""","""b15_y18""",359,"""Fewer than half""",60,true,7
+9,"""yellow""","""b9_y8""",269,"""Few""",51,false,5
+9,"""blue""","""b24_y20""",259,"""More than half""",60,true,9
+9,"""blue""","""b6_y8""",290,"""Fewer than half""",49,true,7
+9,"""blue""","""b7_y8""",289,"""Few""",50,true,5
+9,"""blue""","""b21_y24""",260,"""More than half""",59,true,3
+9,"""blue""","""b18_y15""",1167,"""Fewer than half""",60,false,0
+9,"""blue""","""b16_y18""",250,"""More""",49,true,7
+9,"""blue""","""b18_y16""",250,"""Most""",60,true,9
+9,"""blue""","""b16_y18""",231,"""Many""",40,false,7
+9,"""blue""","""b16_y18""",259,"""Most""",61,true,6
+9,"""blue""","""b24_y20""",241,"""Many""",60,true,8
+9,"""blue""","""b27_y18""",270,"""Many""",50,true,0
+9,"""yellow""","""b8_y7""",259,"""Many""",50,true,8
+9,"""blue""","""b18_y12""",257,"""Few""",60,true,5
+9,"""blue""","""b16_y12""",219,"""More than half""",41,false,6
+9,"""blue""","""b30_y15""",279,"""More than half""",78,true,1
+9,"""yellow""","""b5_y10""",270,"""More than half""",49,true,7
+9,"""blue""","""b15_y18""",268,"""More than half""",49,true,7
+9,"""yellow""","""b16_y18""",259,"""Few""",41,true,4
+9,"""yellow""","""b20_y10""",260,"""More""",60,false,9
+9,"""yellow""","""b5_y10""",270,"""Fewer than half""",50,false,9
+9,"""blue""","""b6_y5""",250,"""Few""",50,true,8
+9,"""blue""","""b18_y24""",1180,"""Many""",48,true,3
+9,"""blue""","""b6_y5""",500,"""More""",50,true,4
+9,"""yellow""","""b8_y7""",290,"""Fewer than half""",50,true,3
+9,"""yellow""","""b18_y16""",259,"""More""",49,true,0
+9,"""blue""","""b24_y27""",380,"""More""",50,true,2
+9,"""blue""","""b16_y18""",230,"""Many""",39,true,7
+9,"""blue""","""b16_y12""",200,"""More""",49,true,6
+9,"""blue""","""b10_y5""",209,"""Fewer than half""",40,true,6
+9,"""blue""","""b10_y5""",242,"""Fewer than half""",40,true,5
+9,"""yellow""","""b18_y15""",220,"""More""",50,true,2
+9,"""blue""","""b24_y27""",238,"""Many""",39,true,9
+9,"""yellow""","""b18_y27""",229,"""Most""",40,true,0
+9,"""blue""","""b20_y24""",908,"""More than half""",49,true,0
+9,"""yellow""","""b16_y12""",221,"""Most""",38,true,8
+9,"""blue""","""b24_y27""",210,"""Few""",49,true,2
+9,"""yellow""","""b18_y24""",240,"""More""",50,true,9
+9,"""blue""","""b10_y20""",231,"""More than half""",59,true,4
+9,"""blue""","""b12_y18""",259,"""More than half""",60,true,9
+9,"""yellow""","""b6_y9""",219,"""Fewer than half""",48,true,1
+9,"""yellow""","""b18_y15""",220,"""More""",59,true,6
+9,"""yellow""","""b9_y6""",310,"""Few""",50,false,7
+9,"""yellow""","""b24_y27""",238,"""More than half""",71,true,4
+9,"""blue""","""b6_y9""",220,"""Fewer than half""",50,true,6
+9,"""yellow""","""b27_y18""",219,"""More than half""",50,true,2
+9,"""yellow""","""b6_y5""",219,"""More than half""",49,true,5
+9,"""blue""","""b18_y16""",220,"""Few""",40,false,3
+9,"""yellow""","""b24_y27""",200,"""Many""",49,true,0
+9,"""yellow""","""b24_y27""",200,"""Many""",51,true,1
+9,"""yellow""","""b24_y27""",200,"""Most""",40,true,4
+9,"""yellow""","""b5_y10""",201,"""Fewer than half""",39,true,3
+9,"""yellow""","""b6_y9""",157,"""Many""",29,false,2
+9,"""blue""","""b10_y20""",190,"""Few""",50,false,4
+9,"""blue""","""b18_y27""",199,"""Most""",60,true,1
+9,"""blue""","""b16_y18""",200,"""Many""",49,true,7
+9,"""blue""","""b21_y24""",179,"""Few""",50,true,8
+9,"""yellow""","""b5_y6""",189,"""Most""",40,true,4
+9,"""blue""","""b24_y27""",191,"""Most""",49,true,6
+9,"""yellow""","""b16_y14""",189,"""Few""",40,true,7
+9,"""blue""","""b9_y8""",190,"""Few""",50,true,1
+9,"""yellow""","""b6_y8""",200,"""Most""",49,true,5
+9,"""yellow""","""b16_y12""",189,"""More than half""",50,true,5
+9,"""yellow""","""b18_y27""",195,"""Fewer than half""",49,true,4
+9,"""yellow""","""b21_y24""",180,"""Many""",51,true,6
+9,"""yellow""","""b27_y18""",189,"""Most""",49,true,4
+9,"""yellow""","""b8_y9""",181,"""More than half""",51,false,2
+9,"""blue""","""b24_y18""",977,"""Few""",59,true,6
+9,"""yellow""","""b18_y12""",229,"""Many""",50,false,6
+9,"""blue""","""b18_y24""",199,"""Most""",39,true,2
+9,"""yellow""","""b6_y9""",230,"""Fewer than half""",50,true,0
+9,"""blue""","""b24_y21""",219,"""Fewer than half""",49,true,2
+9,"""blue""","""b7_y8""",219,"""More""",47,true,7
+9,"""yellow""","""b18_y24""",220,"""Few""",59,true,8
+9,"""blue""","""b24_y18""",209,"""Many""",49,true,1
+9,"""yellow""","""b8_y7""",220,"""Most""",50,true,1
+9,"""blue""","""b24_y18""",212,"""Many""",42,true,7
+9,"""yellow""","""b20_y10""",189,"""Few""",40,true,2
+9,"""blue""","""b15_y18""",209,"""More""",48,true,7
+9,"""blue""","""b24_y20""",199,"""More""",50,false,4
+9,"""yellow""","""b8_y6""",189,"""Fewer than half""",51,true,7
+9,"""blue""","""b8_y9""",211,"""More than half""",39,true,9
+9,"""blue""","""b15_y18""",209,"""Many""",59,true,6
+9,"""blue""","""b6_y5""",219,"""Most""",48,true,5
+9,"""yellow""","""b20_y24""",221,"""More""",38,true,1
+9,"""yellow""","""b24_y18""",210,"""Most""",40,true,9
+9,"""yellow""","""b10_y20""",199,"""Few""",40,true,6
+9,"""yellow""","""b27_y24""",249,"""More""",40,true,0
+9,"""yellow""","""b10_y20""",190,"""Fewer than half""",49,false,9
+9,"""blue""","""b16_y14""",230,"""Most""",49,false,8
+9,"""yellow""","""b18_y24""",199,"""More than half""",49,true,1
+9,"""yellow""","""b18_y15""",219,"""Many""",50,true,0
+9,"""blue""","""b16_y14""",219,"""More""",32,true,2
+9,"""blue""","""b12_y18""",230,"""More than half""",40,true,7
+9,"""blue""","""b16_y14""",230,"""Many""",50,true,4
+9,"""blue""","""b16_y18""",189,"""More than half""",60,false,9
+9,"""yellow""","""b30_y15""",191,"""Fewer than half""",40,true,4
+9,"""blue""","""b16_y18""",200,"""More""",50,true,0
+9,"""blue""","""b24_y18""",190,"""Most""",50,true,1
+9,"""yellow""","""b9_y8""",220,"""Most""",40,true,0
+9,"""blue""","""b24_y18""",200,"""More than half""",40,false,6
+9,"""yellow""","""b27_y18""",200,"""Many""",49,true,1
+9,"""yellow""","""b20_y24""",189,"""Many""",40,true,7
+9,"""blue""","""b12_y18""",220,"""Most""",50,false,2
+9,"""yellow""","""b9_y6""",199,"""Fewer than half""",41,true,8
+9,"""blue""","""b18_y16""",199,"""Few""",48,true,3
+9,"""yellow""","""b27_y24""",190,"""Most""",49,true,3
+9,"""blue""","""b15_y18""",220,"""Few""",40,true,1
+9,"""blue""","""b5_y10""",201,"""Few""",40,false,0
+9,"""yellow""","""b5_y6""",191,"""More""",51,true,1
+9,"""yellow""","""b18_y27""",259,"""Many""",40,false,5
+9,"""blue""","""b9_y8""",718,"""Most""",41,true,1
+9,"""blue""","""b9_y6""",258,"""Most""",41,true,3
+9,"""yellow""","""b12_y16""",218,"""Most""",40,true,3
+9,"""yellow""","""b7_y8""",229,"""Most""",40,true,5
+9,"""blue""","""b24_y18""",220,"""Fewer than half""",38,true,0
+9,"""yellow""","""b18_y12""",220,"""Many""",49,true,0
+9,"""yellow""","""b16_y18""",200,"""More than half""",39,true,6
+9,"""yellow""","""b6_y5""",202,"""Most""",40,false,0
+9,"""yellow""","""b6_y9""",210,"""More""",40,true,2
+9,"""yellow""","""b9_y8""",220,"""More""",40,true,6
+9,"""blue""","""b6_y5""",209,"""Few""",40,true,9
+9,"""blue""","""b21_y24""",198,"""More than half""",41,true,8
+9,"""blue""","""b27_y24""",224,"""More than half""",39,true,8
+9,"""yellow""","""b18_y24""",201,"""More""",40,true,3
+9,"""blue""","""b5_y6""",200,"""Fewer than half""",50,true,8
+9,"""yellow""","""b10_y20""",928,"""Fewer than half""",40,true,1
+9,"""yellow""","""b8_y6""",210,"""Many""",41,false,1
+9,"""yellow""","""b20_y24""",409,"""Fewer than half""",50,true,5
+9,"""yellow""","""b10_y20""",193,"""More than half""",50,true,0
+9,"""yellow""","""b16_y12""",230,"""More than half""",21,true,2
+9,"""blue""","""b10_y20""",209,"""Few""",40,true,5
+9,"""blue""","""b18_y16""",221,"""Many""",40,true,5
+9,"""blue""","""b8_y7""",240,"""More than half""",49,false,9
+9,"""yellow""","""b10_y5""",209,"""More than half""",40,true,5
+9,"""yellow""","""b6_y8""",189,"""More than half""",29,true,5
+9,"""blue""","""b24_y20""",201,"""Fewer than half""",40,true,2
+9,"""yellow""","""b5_y10""",280,"""Many""",39,true,8
+9,"""blue""","""b5_y6""",240,"""Fewer than half""",40,false,1
+9,"""yellow""","""b16_y12""",200,"""Many""",46,true,8
+9,"""blue""","""b18_y15""",200,"""More than half""",50,true,2
+9,"""blue""","""b24_y18""",210,"""Most""",50,false,9
+9,"""blue""","""b27_y24""",209,"""More""",40,true,7
+9,"""blue""","""b16_y18""",180,"""More than half""",39,true,3

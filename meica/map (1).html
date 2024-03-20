@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Media Representation Map</title>
+		<meta name="viewport" content="initial-scale=1.0">
+		<meta charset="utf-8">
+		<style>
+		/* Always set the map height explicitly to define the size of the div
+		 * element that contains the map. */
+		#map {
+			height: 90%;
+			text-align: center;
+		}
+		/* Optional: Makes the sample page fill the window. */
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		</style>
+	</head>
+	<body>
+
+		<h2>Media Representation Map</h2>
+
+		<div id="map"></div>
+
+		<!--Add buttons to initiate auth sequence and sign out-->
+		<button id="authorize_button" style="display: none;">Authorize</button>
+		<button id="signout_button" style="display: none;">Sign Out</button>
+
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="map.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHXg6EJPtVmHu-kR7UfPmCBdzXXCkVggU&callback=initMap" async defer></script>
+		<script async defer src="https://apis.google.com/js/api.js"
+				    onload="this.onload=function(){};handleClientLoad()"
+				    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+		</script>
+	</body>
+</html>
