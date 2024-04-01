@@ -12,3 +12,11 @@ teaching/**/hw/*.*
 *.pptx
 sonia/*/data/
 .vscode
+
+# LaTeX
+*.aux
+*.fls
+*.log
+*.out
+*.fdb_latexmk
+*.synctex.gz
