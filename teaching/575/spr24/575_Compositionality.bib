@@ -320,7 +320,7 @@
   urldate = {2024-03-18},
   abstract = {State-of-the-art machine learning methods exhibit limited compositional generalization. At the same time, there is a lack of realistic benchmarks that comprehensively measure this ability, which makes it challenging to find and evaluate improvements. We introduce a novel method to systematically construct such benchmarks by maximizing compound divergence while guaranteeing a small atom divergence between train and test sets, and we quantitatively compare this method to other approaches for creating compositional generalization benchmarks. We present a large and realistic natural language question answering dataset that is constructed according to this method, and we use it to analyze the compositional generalization ability of three machine learning architectures. We find that they fail to generalize compositionally and that there is a surprisingly strong negative correlation between compound divergence and accuracy. We also demonstrate how our method can be used to create new compositionality benchmarks on top of the existing SCAN dataset, which confirms these findings.},
   langid = {english},
-  file = {/Users/shanest/sync/library/Keysers et al/2019/Keysers et al. - 2019 - Measuring Compositional Generalization A Comprehe.pdf}
+  file = {/Users/shanest/sync/library/Keysers et al/2019/Keysers et al. - 2020 - Measuring Compositional Generalization A Comprehe.pdf}
 }
 
 @inproceedings{kharitonovWhatTheyWhen2020,
@@ -353,6 +353,19 @@
   urldate = {2024-03-18},
   abstract = {Natural language is characterized by compositionality: the meaning of a complex expression is constructed from the meanings of its constituent parts. To facilitate the evaluation of the compositional abilities of language processing architectures, we introduce COGS, a semantic parsing dataset based on a fragment of English. The evaluation portion of COGS contains multiple systematic gaps that can only be addressed by compositional generalization; these include new combinations of familiar syntactic structures, or new combinations of familiar words and familiar structures. In experiments with Transformers and LSTMs, we found that in-distribution accuracy on the COGS test set was near-perfect (96--99\%), but generalization accuracy was substantially lower (16--35\%) and showed high sensitivity to random seed (+-6--8\%). These findings indicate that contemporary standard NLP models are limited in their compositional generalization capacity, and position COGS as a good way to measure progress.},
   file = {/Users/shanest/sync/library/Kim_Linzen/2020/Kim and Linzen - 2020 - COGS A Compositional Generalization Challenge Bas.pdf}
+}
+
+@inproceedings{kimSequencetoSequenceLearningLatent2021,
+  title = {Sequence-to-{{Sequence Learning}} with {{Latent Neural Grammars}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Kim, Yoon},
+  year = {2021},
+  volume = {34},
+  pages = {26302--26317},
+  publisher = {Curran Associates, Inc.},
+  url = {https://papers.nips.cc/paper/2021/hash/dd17e652cd2a08fdb8bf7f68e2ad3814-Abstract.html},
+  urldate = {2024-04-02},
+  abstract = {Sequence-to-sequence learning with neural networks has become the de facto standard for sequence modeling. This approach typically models the local distribution over the next element with a powerful neural network that can condition on arbitrary context. While flexible and performant, these models often require large datasets for training and can fail spectacularly on benchmarks designed to test for compositional generalization. This work explores an alternative, hierarchical approach to sequence-to-sequence learning with synchronous grammars, where each node in the target tree is transduced by a subset of nodes in the source tree. The source and target trees are treated as fully latent and marginalized out during training. We develop a neural parameterization of the grammar which enables parameter sharing over combinatorial structures without the need for manual feature engineering. We apply this latent neural grammar to various domains---a diagnostic language navigation task designed to test for compositional generalization (SCAN), style transfer, and small-scale machine translation---and find that it performs respectably compared to standard baselines.}
 }
 
 @article{kirbyCompressionCommunicationCultural2015,
@@ -472,6 +485,39 @@
   urldate = {2024-03-19},
   abstract = {Compositional generalization is a basic mechanism in human language learning, but current neural networks lack such ability. In this paper, we conduct fundamental research for encoding compositionality in neural networks. Conventional methods use a single representation for the input sentence, making it hard to apply prior knowledge of compositionality. In contrast, our approach leverages such knowledge with two representations, one generating attention maps, and the other mapping attended input words to output symbols. We reduce the entropy in each representation to improve generalization. Our experiments demonstrate significant improvements over the conventional methods in five NLP tasks including instruction learning and machine translation. In the SCAN domain, it boosts accuracies from 14.0\% to 98.8\% in Jump task, and from 92.0\% to 99.7\% in TurnLeft task. It also beats human performance on a few-shot learning task. We hope the proposed approach can help ease future research towards human-level compositional language learning.},
   file = {/Users/shanest/sync/library/Li et al/2019/Li et al. - 2019 - Compositional Generalization for Primitive Substit.pdf}
+}
+
+@inproceedings{lindemannCompositionalGeneralisationStructured2023,
+  title = {Compositional {{Generalisation}} with {{Structured Reordering}} and {{Fertility Layers}}},
+  booktitle = {Proceedings of the 17th {{Conference}} of the {{European Chapter}} of the {{Association}} for {{Computational Linguistics}}},
+  author = {Lindemann, Matthias and Koller, Alexander and Titov, Ivan},
+  editor = {Vlachos, Andreas and Augenstein, Isabelle},
+  year = {2023},
+  month = may,
+  pages = {2172--2186},
+  publisher = {Association for Computational Linguistics},
+  address = {Dubrovnik, Croatia},
+  doi = {10.18653/v1/2023.eacl-main.159},
+  url = {https://aclanthology.org/2023.eacl-main.159},
+  urldate = {2024-04-02},
+  abstract = {Seq2seq models have been shown to struggle with compositional generalisation, i.e. generalising to new and potentially more complex structures than seen during training. Taking inspiration from grammar-based models that excel at compositional generalisation, we present a flexible end-to-end differentiable neural model that composes two structural operations: a fertility step, which we introduce in this work, and a reordering step based on previous work (Wang et al., 2021). To ensure differentiability, we use the expected value of each step, which we compute using dynamic programming. Our model outperforms seq2seq models by a wide margin on challenging compositional splits of realistic semantic parsing tasks that require generalisation to longer examples. It also compares favourably to other models targeting compositional generalisation.}
+}
+
+@inproceedings{lindemannCompositionalGeneralizationTrees2023,
+  title = {Compositional {{Generalization}} without {{Trees}} Using {{Multiset Tagging}} and {{Latent Permutations}}},
+  booktitle = {Proceedings of the 61st {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}} ({{Volume}} 1: {{Long Papers}})},
+  author = {Lindemann, Matthias and Koller, Alexander and Titov, Ivan},
+  editor = {Rogers, Anna and {Boyd-Graber}, Jordan and Okazaki, Naoaki},
+  year = {2023},
+  month = jul,
+  pages = {14488--14506},
+  publisher = {Association for Computational Linguistics},
+  address = {Toronto, Canada},
+  doi = {10.18653/v1/2023.acl-long.810},
+  url = {https://aclanthology.org/2023.acl-long.810},
+  urldate = {2024-03-27},
+  abstract = {Seq2seq models have been shown to struggle with compositional generalization in semantic parsing, i.e. generalizing to unseen compositions of phenomena that the model handles correctly in isolation. We phrase semantic parsing as a two-step process: we first tag each input token with a multiset of output tokens. Then we arrange the tokens into an output sequence using a new way of parameterizing and predicting permutations. We formulate predicting a permutation as solving a regularized linear program and we backpropagate through the solver. In contrast to prior work, our approach does not place a priori restrictions on possible permutations, making it very expressive. Our model outperforms pretrained seq2seq models and prior work on realistic semantic parsing tasks that require generalization to longer examples. We also outperform non-tree-based models on structural generalization on the COGS benchmark. For the first time, we show that a model without an inductive bias provided by trees achieves high accuracy on generalization to deeper recursion depth.},
+  file = {/Users/shanest/Zotero/storage/54KQWV49/Lindemann et al. - 2023 - Compositional Generalization without Trees using M.pdf}
 }
 
 @inproceedings{liSLOGStructuralGeneralization2023,
