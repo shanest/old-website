@@ -37,10 +37,10 @@ We \textbf{strongly recommend} doing this assignment in order.  Your answers in 
 $$ L_{CE} = -\log P(1 | w, c_+) - \sum_{i=1}^k \log P(0 | w, c_{-i})$$
 In what follows, where $x$ is a vector and $f$ a function of $x$ and possibly more variables, we will define $\nabla_x f := \langle \frac{\partial f}{\partial x_1} , \frac{\partial f}{\partial x_2}, \dots , \frac{\partial f}{\partial x_n} \rangle$.
 \begin{itemize}
-  \item Rewrite this loss in terms of the parameter matrices $E$ and $C$ (i.e. replace the $P(\cdot)$s with the definition of the model). [2 pts]
+  \item Rewrite this loss in terms of the parameter matrices $E$ and $C$, i.e.\ expand the $P(\cdot)$s with the definition of the model. [2 pts]
 
         Use $w$ as the integer index of the target word, $c_+$ as the integer index of the positive context word, and $c_{-i}$ as the integer index of the $i$th negative sampled context word.
-  \item Using the chain rule, compute $\frac{d}{dx}\left(-\log\sigma(x)\right)$.  [Hint: first, show that $\sigma(x) = \frac{e^x}{e^x+1}$.  Note: $\log$ here is the natural logarithm, i.e. logarithm with base $e$.] [4 pts]
+  \item Using the chain rule, compute $\frac{d}{dx}\left(-\log\sigma(x)\right)$.  [Hint: you can also write this in terms of $\sigma(x)$, using your answer from Q2.] [4 pts]
   \item Show that $\nabla_x x \cdot y = y$ (where $x \cdot y$ is the dot product of two vectors). [2 pts]
   \item Compute (and show your work) $\nabla_{C_{c_+}} L_{CE}$. [4 pts]
   \item Compute (and show your work) $\nabla_{C_{c_{-i}}} L_{CE}$. [4 pts]
