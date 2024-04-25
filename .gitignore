@@ -20,3 +20,9 @@ sonia/*/data/
 *.out
 *.fdb_latexmk
 *.synctex.gz
+
+# 11ty
+_site/
+node_modules/
+package-lock.json
+.cache
