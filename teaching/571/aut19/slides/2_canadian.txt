@@ -1,2 +1,0 @@
-[... [NP [NP two audience members] [RelP who were Canadian]] [PP [P about] [NP the mystery]]]
-[NP [NP two audience members] [RelP [RelPron who] [VP were Canadian about the mystery]]]
