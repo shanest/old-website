@@ -1,0 +1,2581 @@
+workerid,A,B,percent,read_and_decide_time,quant,read_time_one,response
+0,"""glerb""","""fizzda""",20,1702,"""All""",93,false
+0,"""thonk""","""krangly""",82,1780,"""Some""",1067,true
+0,"""slarm""","""briddle""",11,2414,"""None""",611,true
+0,"""klong""","""nooty""",62,2468,"""All""",170,false
+0,"""dring""","""larfy""",28,1488,"""None""",474,false
+0,"""floom""","""plerful""",92,1176,"""Some""",104,true
+0,"""blek""","""orkital""",54,829,"""None""",505,false
+0,"""tenk""","""glurgy""",8,934,"""All""",152,false
+0,"""pirter""","""secent""",34,722,"""More than half""",573,false
+0,"""beckel""","""racual""",42,1172,"""Fewer than half""",891,false
+0,"""shurry""","""preser""",14,919,"""Many""",564,false
+0,"""shrile""","""athoid""",51,562,"""Most""",636,true
+0,"""boddle""","""molill""",37,1233,"""Few""",1547,true
+0,"""puctor""","""recure""",48,908,"""More than half""",234,true
+0,"""ingell""","""nalill""",99,1091,"""Few""",207,false
+0,"""coamin""","""mucond""",75,614,"""Few""",424,false
+0,"""raster""","""movell""",16,761,"""Many""",184,false
+0,"""monter""","""melelt""",71,854,"""Most""",126,true
+0,"""kustle""","""reshix""",95,1073,"""Most""",602,true
+0,"""pliper""","""sesare""",99,484,"""Few""",534,false
+0,"""bemble""","""squank""",30,807,"""Most""",589,false
+0,"""dorder""","""coggon""",63,505,"""Few""",635,true
+0,"""spunge""","""wenple""",22,873,"""Fewer than half""",563,true
+0,"""chulks""","""vulhor""",23,1208,"""Few""",148,true
+0,"""isbant""","""unairs""",9,809,"""Few""",517,true
+0,"""zetten""","""unfobs""",70,2249,"""Most""",510,false
+0,"""coppar""","""hunene""",42,542,"""More than half""",461,false
+0,"""raster""","""movell""",33,783,"""Few""",515,false
+0,"""sporer""","""firtly""",6,2221,"""Most""",603,false
+0,"""fleeve""","""scalfs""",89,1547,"""Most""",683,true
+0,"""gukbar""","""soarse""",81,530,"""More than half""",752,true
+0,"""jallem""","""sildal""",29,609,"""Most""",616,false
+0,"""spunge""","""wenple""",84,522,"""Few""",394,false
+0,"""schook""","""jabant""",55,502,"""More than half""",462,true
+0,"""cather""","""funder""",6,768,"""Few""",987,false
+0,"""shamer""","""bloifs""",57,490,"""Most""",607,true
+0,"""shamer""","""bloifs""",4,570,"""Fewer than half""",717,false
+0,"""dorder""","""coggon""",30,598,"""More than half""",799,false
+0,"""jallem""","""sildal""",32,1490,"""Fewer than half""",899,true
+0,"""cosutz""","""spover""",53,860,"""Most""",535,false
+0,"""bemble""","""squank""",78,880,"""Fewer than half""",491,false
+0,"""puggle""","""entand""",27,1114,"""Fewer than half""",667,false
+0,"""monter""","""melelt""",92,857,"""Fewer than half""",505,false
+0,"""chulks""","""vulhor""",17,643,"""Many""",185,false
+0,"""birler""","""enciad""",28,999,"""More than half""",831,true
+0,"""ingell""","""nalill""",27,664,"""Fewer than half""",579,false
+0,"""beckel""","""racual""",23,993,"""Many""",604,true
+0,"""raster""","""movell""",97,604,"""Fewer than half""",612,false
+0,"""umpond""","""marire""",10,554,"""Most""",687,false
+0,"""spunge""","""wenple""",64,496,"""More than half""",586,true
+0,"""middor""","""drooty""",46,947,"""Few""",603,true
+0,"""middor""","""drooty""",74,535,"""Most""",522,true
+0,"""boddle""","""molill""",2,580,"""Most""",585,false
+0,"""puggle""","""entand""",52,598,"""Most""",509,true
+0,"""pengyl""","""sedest""",78,477,"""Most""",435,true
+0,"""cather""","""funder""",26,2182,"""Most""",1047,false
+0,"""ingell""","""nalill""",5,527,"""Most""",475,false
+0,"""cosutz""","""spover""",75,487,"""More than half""",758,true
+0,"""chevel""","""podden""",72,771,"""Fewer than half""",522,false
+0,"""pluset""","""stubad""",6,530,"""More than half""",613,false
+0,"""hadder""","""ollidy""",91,669,"""Most""",543,true
+0,"""coppar""","""hunene""",18,1064,"""Most""",537,false
+0,"""chulks""","""vulhor""",69,3925,"""Most""",1268,true
+0,"""birler""","""enciad""",23,4381,"""Few""",844,false
+0,"""pliper""","""sesare""",25,1032,"""Many""",599,false
+0,"""tecker""","""biller""",35,1011,"""Most""",666,false
+0,"""ancits""","""smeath""",80,598,"""Most""",560,true
+0,"""padnet""","""fanely""",8,699,"""Many""",524,false
+0,"""bemble""","""squank""",7,729,"""Many""",429,false
+0,"""menner""","""nandow""",23,454,"""Most""",548,false
+0,"""dorder""","""coggon""",74,577,"""Many""",662,true
+0,"""clidge""","""hensly""",56,570,"""Few""",604,false
+0,"""chulks""","""vulhor""",66,548,"""More than half""",632,true
+0,"""schook""","""jabant""",73,501,"""Most""",611,true
+0,"""russer""","""huttle""",6,552,"""Many""",610,false
+0,"""pengyl""","""sedest""",66,914,"""Many""",556,true
+0,"""umpond""","""marire""",62,804,"""Fewer than half""",700,false
+0,"""ancits""","""smeath""",38,634,"""Many""",657,false
+0,"""cosutz""","""spover""",97,634,"""Few""",858,true
+0,"""pengyl""","""sedest""",49,632,"""Fewer than half""",565,false
+0,"""chadop""","""shaple""",52,429,"""More than half""",565,true
+0,"""padnet""","""fanely""",11,753,"""More than half""",624,false
+0,"""ingell""","""nalill""",10,657,"""More than half""",930,false
+0,"""chadop""","""shaple""",2,419,"""Few""",1312,true
+0,"""tecker""","""biller""",35,503,"""More than half""",634,false
+0,"""pengyl""","""sedest""",8,1619,"""Few""",832,true
+0,"""ingell""","""nalill""",82,714,"""Many""",519,true
+0,"""dorder""","""coggon""",62,1067,"""Fewer than half""",878,false
+0,"""russer""","""huttle""",88,691,"""Few""",519,false
+0,"""puctor""","""recure""",22,1057,"""Most""",966,false
+0,"""gukbar""","""soarse""",48,1509,"""Fewer than half""",689,true
+0,"""sporer""","""firtly""",67,574,"""Fewer than half""",950,false
+0,"""werner""","""hurmer""",88,628,"""Most""",698,true
+0,"""puggle""","""entand""",23,814,"""Few""",645,true
+0,"""bameta""","""unzast""",75,549,"""Few""",545,false
+0,"""russer""","""huttle""",11,602,"""Most""",694,false
+0,"""strant""","""potind""",59,554,"""More than half""",461,true
+0,"""werner""","""hurmer""",8,818,"""Fewer than half""",463,true
+0,"""fleeve""","""scalfs""",82,575,"""More than half""",547,true
+0,"""ancits""","""smeath""",83,443,"""More than half""",722,true
+0,"""shrile""","""athoid""",56,863,"""Fewer than half""",750,false
+0,"""strant""","""potind""",95,597,"""Many""",772,true
+0,"""tiklet""","""hullaw""",52,817,"""Fewer than half""",693,false
+0,"""pirter""","""secent""",66,820,"""Few""",971,false
+0,"""hadder""","""ollidy""",39,571,"""Few""",783,true
+0,"""monter""","""melelt""",31,414,"""Few""",639,true
+0,"""kustle""","""reshix""",63,719,"""Fewer than half""",868,false
+0,"""pengyl""","""sedest""",58,1854,"""More than half""",815,true
+0,"""chevel""","""podden""",43,713,"""More than half""",625,false
+0,"""sporer""","""firtly""",87,611,"""Few""",638,false
+0,"""beckel""","""racual""",99,448,"""Few""",633,false
+0,"""coppar""","""hunene""",24,498,"""Few""",844,true
+0,"""gukbar""","""soarse""",26,451,"""Few""",629,true
+0,"""jallem""","""sildal""",59,471,"""Many""",672,true
+0,"""russer""","""huttle""",67,732,"""Fewer than half""",1058,false
+0,"""chevel""","""podden""",16,493,"""Most""",656,false
+0,"""sporer""","""firtly""",44,791,"""Many""",727,false
+0,"""dorder""","""coggon""",31,490,"""Most""",540,false
+0,"""awplor""","""fasees""",4,867,"""Fewer than half""",750,true
+0,"""chulks""","""vulhor""",10,857,"""Fewer than half""",761,true
+0,"""sporer""","""firtly""",49,967,"""More than half""",566,false
+0,"""ancits""","""smeath""",90,487,"""Fewer than half""",780,true
+0,"""spunge""","""wenple""",11,1109,"""Many""",1053,false
+0,"""menner""","""nandow""",37,777,"""More than half""",635,false
+0,"""awplor""","""fasees""",36,548,"""Most""",743,false
+0,"""pliper""","""sesare""",40,463,"""Most""",629,false
+0,"""cosutz""","""spover""",9,622,"""Many""",624,false
+0,"""boddle""","""molill""",58,655,"""Fewer than half""",828,false
+0,"""fleeve""","""scalfs""",93,577,"""Many""",781,true
+0,"""russer""","""huttle""",23,531,"""More than half""",769,false
+0,"""fleeve""","""scalfs""",52,649,"""Few""",593,false
+0,"""pirter""","""secent""",7,529,"""Many""",730,false
+0,"""strant""","""potind""",42,868,"""Fewer than half""",711,true
+0,"""boddle""","""molill""",15,484,"""More than half""",770,false
+0,"""middor""","""drooty""",92,735,"""More than half""",1576,true
+0,"""shrile""","""athoid""",57,643,"""More than half""",801,true
+0,"""coppar""","""hunene""",20,553,"""Many""",534,false
+0,"""schook""","""jabant""",22,808,"""Fewer than half""",742,true
+0,"""middor""","""drooty""",57,997,"""Fewer than half""",840,false
+0,"""mecket""","""plumry""",93,845,"""More than half""",773,true
+0,"""jallem""","""sildal""",20,835,"""More than half""",623,false
+0,"""cather""","""funder""",40,525,"""More than half""",537,false
+0,"""puctor""","""recure""",63,749,"""Fewer than half""",592,false
+0,"""coamin""","""mucond""",68,595,"""Most""",828,true
+0,"""devole""","""sholly""",46,514,"""More than half""",594,false
+0,"""tecker""","""biller""",90,1038,"""Fewer than half""",733,false
+0,"""shamer""","""bloifs""",89,859,"""More than half""",860,true
+0,"""coamin""","""mucond""",88,554,"""Fewer than half""",682,false
+0,"""pobbit""","""spippy""",33,962,"""More than half""",1573,false
+0,"""mecket""","""plumry""",38,565,"""Few""",759,true
+0,"""chadop""","""shaple""",31,849,"""Many""",154,false
+0,"""clidge""","""hensly""",92,858,"""Many""",521,true
+0,"""tiklet""","""hullaw""",87,510,"""Most""",568,true
+0,"""pluset""","""stubad""",81,500,"""Many""",711,true
+0,"""awplor""","""fasees""",51,551,"""Many""",663,true
+0,"""birler""","""enciad""",91,930,"""Fewer than half""",877,false
+0,"""shrile""","""athoid""",86,644,"""Few""",753,false
+0,"""shrile""","""athoid""",32,765,"""Many""",654,true
+0,"""pobbit""","""spippy""",62,965,"""Few""",851,false
+0,"""umpond""","""marire""",45,797,"""Many""",614,true
+0,"""middor""","""drooty""",1,590,"""Many""",628,false
+0,"""kustle""","""reshix""",72,587,"""Many""",694,true
+0,"""kustle""","""reshix""",64,635,"""Few""",684,false
+0,"""hadder""","""ollidy""",60,1004,"""Many""",732,true
+0,"""beckel""","""racual""",73,508,"""More than half""",741,true
+0,"""pobbit""","""spippy""",4,743,"""Fewer than half""",681,true
+0,"""clidge""","""hensly""",48,569,"""Fewer than half""",665,true
+0,"""devole""","""sholly""",61,923,"""Few""",985,false
+0,"""pirter""","""secent""",20,670,"""Most""",657,false
+0,"""kustle""","""reshix""",54,611,"""More than half""",535,true
+0,"""shamer""","""bloifs""",16,1003,"""Many""",681,false
+0,"""isbant""","""unairs""",72,711,"""Fewer than half""",1529,false
+0,"""birler""","""enciad""",99,502,"""Many""",594,true
+0,"""zetten""","""unfobs""",73,620,"""Few""",891,false
+0,"""raster""","""movell""",31,631,"""More than half""",875,false
+0,"""raster""","""movell""",49,827,"""Most""",681,false
+0,"""mecket""","""plumry""",15,506,"""Fewer than half""",667,true
+0,"""pluset""","""stubad""",7,973,"""Most""",1429,false
+0,"""bemble""","""squank""",17,457,"""More than half""",506,false
+0,"""chevel""","""podden""",33,1232,"""Many""",806,true
+0,"""coppar""","""hunene""",51,988,"""Fewer than half""",1309,false
+0,"""shamer""","""bloifs""",55,1271,"""Few""",142,false
+0,"""menner""","""nandow""",27,790,"""Few""",405,true
+0,"""cosutz""","""spover""",12,596,"""Fewer than half""",665,true
+0,"""bameta""","""unzast""",21,551,"""Most""",861,false
+0,"""isbant""","""unairs""",41,1145,"""Most""",496,false
+0,"""hadder""","""ollidy""",79,520,"""More than half""",514,true
+0,"""werner""","""hurmer""",6,969,"""Few""",675,true
+0,"""boddle""","""molill""",26,1121,"""Many""",688,false
+0,"""pobbit""","""spippy""",24,1785,"""Most""",696,false
+0,"""zetten""","""unfobs""",16,630,"""Fewer than half""",681,true
+0,"""padnet""","""fanely""",25,1240,"""Few""",771,true
+0,"""isbant""","""unairs""",26,1543,"""More than half""",549,false
+0,"""tecker""","""biller""",54,1219,"""Few""",554,false
+0,"""tecker""","""biller""",11,501,"""Many""",593,false
+0,"""cather""","""funder""",8,804,"""Many""",663,false
+0,"""chadop""","""shaple""",75,541,"""Most""",476,true
+0,"""monter""","""melelt""",87,512,"""More than half""",550,true
+0,"""mecket""","""plumry""",64,914,"""Most""",600,true
+0,"""cather""","""funder""",56,704,"""Fewer than half""",769,false
+0,"""shurry""","""preser""",45,954,"""Fewer than half""",709,false
+0,"""gukbar""","""soarse""",77,997,"""Most""",712,true
+0,"""puggle""","""entand""",65,459,"""More than half""",984,true
+0,"""mecket""","""plumry""",77,460,"""Many""",509,true
+0,"""ancits""","""smeath""",27,691,"""Few""",607,false
+0,"""isbant""","""unairs""",28,1167,"""Many""",662,false
+0,"""schook""","""jabant""",77,534,"""Few""",577,true
+0,"""pobbit""","""spippy""",12,598,"""Many""",801,false
+0,"""bameta""","""unzast""",3,780,"""More than half""",821,false
+0,"""umpond""","""marire""",55,766,"""Few""",655,false
+0,"""menner""","""nandow""",74,1003,"""Fewer than half""",1168,false
+0,"""birler""","""enciad""",28,480,"""Most""",644,false
+0,"""bemble""","""squank""",74,1852,"""Few""",2368,false
+0,"""devole""","""sholly""",67,946,"""Many""",169,true
+0,"""werner""","""hurmer""",94,652,"""More than half""",3277,true
+0,"""gukbar""","""soarse""",53,578,"""Many""",841,true
+0,"""pliper""","""sesare""",89,524,"""Fewer than half""",532,false
+0,"""puctor""","""recure""",13,629,"""Few""",657,true
+0,"""shurry""","""preser""",90,575,"""More than half""",1334,true
+0,"""zetten""","""unfobs""",53,886,"""More than half""",1790,true
+0,"""spunge""","""wenple""",63,637,"""Most""",632,true
+0,"""awplor""","""fasees""",3,758,"""Few""",676,true
+0,"""strant""","""potind""",86,1003,"""Most""",995,true
+0,"""coamin""","""mucond""",78,692,"""Many""",688,true
+0,"""coamin""","""mucond""",88,2778,"""More than half""",1693,true
+0,"""menner""","""nandow""",45,1094,"""Many""",1354,true
+0,"""pluset""","""stubad""",83,2756,"""Fewer than half""",1610,false
+0,"""shurry""","""preser""",63,670,"""Few""",502,false
+0,"""beckel""","""racual""",76,514,"""Most""",1068,true
+0,"""strant""","""potind""",11,865,"""Few""",637,true
+0,"""pirter""","""secent""",48,2403,"""Fewer than half""",1422,true
+0,"""devole""","""sholly""",96,693,"""Fewer than half""",833,false
+0,"""umpond""","""marire""",39,625,"""More than half""",724,false
+0,"""clidge""","""hensly""",67,570,"""More than half""",1383,true
+0,"""shurry""","""preser""",59,896,"""Most""",1732,true
+0,"""clidge""","""hensly""",66,461,"""Most""",692,true
+0,"""tiklet""","""hullaw""",63,407,"""Many""",851,true
+0,"""bameta""","""unzast""",14,517,"""Fewer than half""",601,true
+0,"""padnet""","""fanely""",13,407,"""Fewer than half""",654,true
+0,"""puctor""","""recure""",69,1077,"""Many""",920,true
+0,"""schook""","""jabant""",30,374,"""Many""",681,true
+0,"""fleeve""","""scalfs""",64,548,"""Fewer than half""",863,false
+0,"""jallem""","""sildal""",16,569,"""Few""",770,true
+0,"""pluset""","""stubad""",11,524,"""Few""",1489,true
+0,"""chevel""","""podden""",18,496,"""Few""",614,true
+0,"""bameta""","""unzast""",81,564,"""Many""",572,true
+0,"""chadop""","""shaple""",63,664,"""Fewer than half""",700,false
+0,"""werner""","""hurmer""",95,705,"""Many""",1010,true
+0,"""monter""","""melelt""",7,939,"""Many""",623,false
+0,"""devole""","""sholly""",13,513,"""Most""",563,false
+0,"""hadder""","""ollidy""",67,666,"""Fewer than half""",669,false
+0,"""zetten""","""unfobs""",74,768,"""Many""",575,true
+0,"""padnet""","""fanely""",14,1006,"""Most""",911,false
+0,"""pliper""","""sesare""",36,847,"""More than half""",631,true
+0,"""awplor""","""fasees""",5,627,"""More than half""",864,false
+0,"""tiklet""","""hullaw""",84,2361,"""More than half""",564,true
+0,"""tiklet""","""hullaw""",89,565,"""Few""",573,false
+0,"""puggle""","""entand""",94,923,"""Many""",534,true
+1,"""glerb""","""fizzda""",20,10113,"""All""",3447,false
+1,"""thonk""","""krangly""",82,5464,"""Some""",3032,true
+1,"""slarm""","""briddle""",11,2166,"""None""",4344,true
+1,"""klong""","""nooty""",62,3572,"""All""",3447,true
+1,"""dring""","""larfy""",28,2218,"""None""",1712,false
+1,"""floom""","""plerful""",92,4184,"""Some""",1775,true
+1,"""blek""","""orkital""",54,3600,"""None""",1752,false
+1,"""tenk""","""glurgy""",8,3313,"""All""",1384,true
+1,"""ancits""","""smeath""",25,4872,"""Few""",4600,false
+1,"""umpond""","""marire""",49,3064,"""Many""",2008,true
+1,"""menner""","""nandow""",43,4216,"""Few""",2007,false
+1,"""beckel""","""racual""",92,2280,"""Fewer than half""",2472,false
+1,"""strant""","""potind""",31,2160,"""Many""",3183,false
+1,"""spunge""","""wenple""",20,1800,"""Few""",2319,true
+1,"""pobbit""","""spippy""",31,2248,"""Fewer than half""",2127,true
+1,"""werner""","""hurmer""",13,1872,"""More than half""",1905,false
+1,"""bameta""","""unzast""",60,1744,"""More than half""",2184,true
+1,"""bemble""","""squank""",81,2904,"""Most""",1815,true
+1,"""fleeve""","""scalfs""",25,5776,"""Few""",1832,true
+1,"""birler""","""enciad""",93,1784,"""Few""",1703,false
+1,"""devole""","""sholly""",66,1753,"""More than half""",1439,true
+1,"""raster""","""movell""",9,1616,"""Many""",1518,false
+1,"""pluset""","""stubad""",3,2792,"""Fewer than half""",2152,true
+1,"""schook""","""jabant""",59,3200,"""Few""",1648,false
+1,"""chadop""","""shaple""",39,2799,"""More than half""",176,false
+1,"""menner""","""nandow""",86,2392,"""Fewer than half""",1615,false
+1,"""schook""","""jabant""",43,5568,"""Many""",1287,false
+1,"""pluset""","""stubad""",64,1264,"""More than half""",1815,true
+1,"""pobbit""","""spippy""",87,1352,"""More than half""",1400,true
+1,"""pluset""","""stubad""",99,1440,"""Few""",1583,false
+1,"""cather""","""funder""",58,1632,"""Few""",1520,false
+1,"""tecker""","""biller""",69,2288,"""Most""",1280,true
+1,"""cather""","""funder""",3,7337,"""Fewer than half""",1816,false
+1,"""fleeve""","""scalfs""",47,5119,"""Many""",1912,false
+1,"""cosutz""","""spover""",40,1368,"""Most""",1056,false
+1,"""zetten""","""unfobs""",34,1184,"""Most""",1088,false
+1,"""padnet""","""fanely""",27,1407,"""Many""",1440,false
+1,"""ingell""","""nalill""",87,1297,"""Fewer than half""",1784,false
+1,"""ingell""","""nalill""",70,1248,"""Most""",1400,true
+1,"""jallem""","""sildal""",54,1328,"""Fewer than half""",1640,false
+1,"""werner""","""hurmer""",13,1728,"""Few""",1352,true
+1,"""spunge""","""wenple""",27,1304,"""Many""",1161,false
+1,"""pliper""","""sesare""",61,1576,"""Most""",1320,true
+1,"""mecket""","""plumry""",41,1273,"""More than half""",1776,false
+1,"""awplor""","""fasees""",96,1425,"""Many""",1408,true
+1,"""pliper""","""sesare""",98,1176,"""More than half""",1368,true
+1,"""puggle""","""entand""",28,855,"""More than half""",2352,false
+1,"""devole""","""sholly""",71,976,"""Most""",1536,true
+1,"""umpond""","""marire""",95,1025,"""More than half""",1376,true
+1,"""tiklet""","""hullaw""",10,1177,"""More than half""",1232,false
+1,"""gukbar""","""soarse""",20,1255,"""Few""",1329,true
+1,"""shrile""","""athoid""",21,1008,"""Fewer than half""",1088,true
+1,"""fleeve""","""scalfs""",6,1065,"""Most""",977,false
+1,"""hadder""","""ollidy""",12,1161,"""Fewer than half""",1952,true
+1,"""middor""","""drooty""",72,1153,"""Few""",1648,false
+1,"""zetten""","""unfobs""",14,855,"""Many""",1372,false
+1,"""boddle""","""molill""",68,1121,"""Most""",1032,true
+1,"""zetten""","""unfobs""",36,944,"""More than half""",1120,false
+1,"""pobbit""","""spippy""",60,824,"""Many""",1344,true
+1,"""shurry""","""preser""",48,760,"""Many""",1080,false
+1,"""kustle""","""reshix""",35,937,"""More than half""",1425,false
+1,"""spunge""","""wenple""",38,792,"""More than half""",1248,false
+1,"""shrile""","""athoid""",46,856,"""More than half""",1056,false
+1,"""clidge""","""hensly""",47,552,"""More than half""",944,false
+1,"""chadop""","""shaple""",17,721,"""Fewer than half""",1812,true
+1,"""pengyl""","""sedest""",69,711,"""Fewer than half""",1168,false
+1,"""kustle""","""reshix""",5,681,"""Fewer than half""",896,false
+1,"""puctor""","""recure""",97,4127,"""More than half""",128,true
+1,"""fleeve""","""scalfs""",29,1319,"""More than half""",1896,false
+1,"""bemble""","""squank""",24,1048,"""Few""",1200,true
+1,"""cosutz""","""spover""",90,960,"""Fewer than half""",928,false
+1,"""middor""","""drooty""",74,639,"""Many""",1047,true
+1,"""birler""","""enciad""",85,704,"""More than half""",936,true
+1,"""schook""","""jabant""",32,879,"""Most""",1135,false
+1,"""gukbar""","""soarse""",9,897,"""Many""",968,false
+1,"""hadder""","""ollidy""",41,1273,"""Most""",760,false
+1,"""umpond""","""marire""",56,1544,"""Most""",688,true
+1,"""pliper""","""sesare""",53,1344,"""Few""",2248,false
+1,"""pobbit""","""spippy""",53,8744,"""Most""",776,false
+1,"""bemble""","""squank""",90,1232,"""More than half""",928,true
+1,"""clidge""","""hensly""",85,944,"""Many""",904,true
+1,"""coppar""","""hunene""",92,808,"""More than half""",926,true
+1,"""hadder""","""ollidy""",72,919,"""Few""",967,false
+1,"""tecker""","""biller""",55,657,"""Few""",855,false
+1,"""sporer""","""firtly""",37,1959,"""Few""",687,true
+1,"""chadop""","""shaple""",28,984,"""Few""",1160,true
+1,"""monter""","""melelt""",73,1017,"""Few""",872,false
+1,"""isbant""","""unairs""",94,743,"""More than half""",824,true
+1,"""devole""","""sholly""",6,793,"""Few""",1032,false
+1,"""kustle""","""reshix""",48,1001,"""Most""",967,false
+1,"""tiklet""","""hullaw""",52,1616,"""Fewer than half""",2264,false
+1,"""shamer""","""bloifs""",15,960,"""Most""",3368,false
+1,"""pengyl""","""sedest""",7,1128,"""Few""",1016,true
+1,"""tiklet""","""hullaw""",7,815,"""Most""",840,false
+1,"""monter""","""melelt""",16,1744,"""Many""",808,false
+1,"""shrile""","""athoid""",22,1432,"""Few""",992,true
+1,"""russer""","""huttle""",15,1176,"""Many""",887,false
+1,"""kustle""","""reshix""",8,1000,"""Few""",744,true
+1,"""pirter""","""secent""",85,752,"""Few""",672,false
+1,"""clidge""","""hensly""",97,880,"""Fewer than half""",856,false
+1,"""pengyl""","""sedest""",18,764,"""Most""",768,false
+1,"""zetten""","""unfobs""",80,848,"""Fewer than half""",717,false
+1,"""pliper""","""sesare""",64,899,"""Fewer than half""",904,false
+1,"""birler""","""enciad""",51,1834,"""Most""",648,false
+1,"""mecket""","""plumry""",77,984,"""Many""",1048,true
+1,"""hadder""","""ollidy""",58,1608,"""Many""",864,true
+1,"""boddle""","""molill""",62,1088,"""Few""",1560,false
+1,"""werner""","""hurmer""",12,904,"""Fewer than half""",920,true
+1,"""coppar""","""hunene""",93,760,"""Fewer than half""",870,false
+1,"""raster""","""movell""",86,760,"""More than half""",923,true
+1,"""pluset""","""stubad""",75,752,"""Most""",888,true
+1,"""cosutz""","""spover""",48,904,"""More than half""",2192,false
+1,"""ingell""","""nalill""",68,856,"""More than half""",930,true
+1,"""monter""","""melelt""",38,705,"""Most""",888,false
+1,"""puctor""","""recure""",62,1112,"""Many""",742,true
+1,"""ancits""","""smeath""",5,792,"""Fewer than half""",1848,true
+1,"""mecket""","""plumry""",52,889,"""Few""",696,false
+1,"""chulks""","""vulhor""",94,927,"""Fewer than half""",728,false
+1,"""pobbit""","""spippy""",22,2016,"""Few""",1176,true
+1,"""shamer""","""bloifs""",11,840,"""Many""",1181,false
+1,"""russer""","""huttle""",83,920,"""Few""",770,false
+1,"""chulks""","""vulhor""",35,2051,"""Most""",632,false
+1,"""shamer""","""bloifs""",88,1841,"""Few""",767,false
+1,"""puggle""","""entand""",86,593,"""Few""",712,false
+1,"""clidge""","""hensly""",37,704,"""Most""",761,false
+1,"""middor""","""drooty""",5,689,"""Most""",710,false
+1,"""zetten""","""unfobs""",35,3072,"""Few""",856,true
+1,"""puggle""","""entand""",39,833,"""Fewer than half""",863,false
+1,"""chadop""","""shaple""",42,737,"""Many""",736,false
+1,"""russer""","""huttle""",7,1284,"""Fewer than half""",760,true
+1,"""pengyl""","""sedest""",11,656,"""More than half""",911,false
+1,"""gukbar""","""soarse""",48,1184,"""Fewer than half""",960,true
+1,"""puctor""","""recure""",62,1720,"""Most""",943,true
+1,"""middor""","""drooty""",29,1145,"""Fewer than half""",856,true
+1,"""puctor""","""recure""",71,952,"""Fewer than half""",776,false
+1,"""dorder""","""coggon""",9,1096,"""Fewer than half""",776,true
+1,"""coppar""","""hunene""",72,704,"""Most""",1011,true
+1,"""tiklet""","""hullaw""",83,680,"""Few""",864,false
+1,"""isbant""","""unairs""",85,1113,"""Few""",768,false
+1,"""birler""","""enciad""",84,584,"""Many""",856,true
+1,"""beckel""","""racual""",2,1194,"""More than half""",667,false
+1,"""chulks""","""vulhor""",96,752,"""Many""",736,true
+1,"""pirter""","""secent""",83,704,"""More than half""",792,true
+1,"""umpond""","""marire""",47,1248,"""Fewer than half""",680,true
+1,"""isbant""","""unairs""",29,1265,"""Many""",655,false
+1,"""chevel""","""podden""",49,1224,"""Many""",759,false
+1,"""mecket""","""plumry""",23,704,"""Fewer than half""",959,true
+1,"""gukbar""","""soarse""",24,640,"""More than half""",680,false
+1,"""awplor""","""fasees""",59,609,"""More than half""",968,true
+1,"""jallem""","""sildal""",90,608,"""Many""",688,true
+1,"""ancits""","""smeath""",16,688,"""More than half""",759,false
+1,"""shrile""","""athoid""",69,672,"""Many""",839,true
+1,"""spunge""","""wenple""",41,1064,"""Fewer than half""",624,true
+1,"""mecket""","""plumry""",31,2497,"""Most""",826,false
+1,"""jallem""","""sildal""",16,909,"""Few""",823,true
+1,"""chulks""","""vulhor""",42,1047,"""More than half""",384,false
+1,"""bameta""","""unzast""",84,856,"""Most""",727,true
+1,"""raster""","""movell""",81,1424,"""Few""",761,false
+1,"""pirter""","""secent""",54,935,"""Fewer than half""",759,false
+1,"""shamer""","""bloifs""",24,864,"""Fewer than half""",775,true
+1,"""puggle""","""entand""",78,600,"""Many""",721,true
+1,"""cather""","""funder""",90,552,"""Most""",736,true
+1,"""raster""","""movell""",77,881,"""Most""",824,true
+1,"""werner""","""hurmer""",20,656,"""Many""",904,false
+1,"""fleeve""","""scalfs""",99,1968,"""Fewer than half""",808,false
+1,"""bemble""","""squank""",60,984,"""Many""",888,true
+1,"""strant""","""potind""",17,1280,"""More than half""",904,false
+1,"""shurry""","""preser""",24,1049,"""Fewer than half""",792,true
+1,"""beckel""","""racual""",3,1152,"""Few""",816,true
+1,"""monter""","""melelt""",34,664,"""More than half""",784,false
+1,"""strant""","""potind""",43,920,"""Most""",752,false
+1,"""awplor""","""fasees""",71,1168,"""Few""",632,false
+1,"""sporer""","""firtly""",91,576,"""More than half""",728,true
+1,"""tecker""","""biller""",68,752,"""Many""",696,true
+1,"""werner""","""hurmer""",49,800,"""Most""",888,false
+1,"""raster""","""movell""",80,1226,"""Fewer than half""",968,false
+1,"""ancits""","""smeath""",94,705,"""Many""",688,true
+1,"""isbant""","""unairs""",84,976,"""Fewer than half""",790,false
+1,"""umpond""","""marire""",51,888,"""Few""",680,false
+1,"""coamin""","""mucond""",58,667,"""Few""",696,false
+1,"""coamin""","""mucond""",45,727,"""Most""",584,false
+1,"""sporer""","""firtly""",67,1904,"""Most""",664,true
+1,"""shurry""","""preser""",52,1208,"""Few""",1024,false
+1,"""russer""","""huttle""",84,576,"""More than half""",640,true
+1,"""bameta""","""unzast""",97,616,"""Many""",662,true
+1,"""cosutz""","""spover""",49,1376,"""Few""",680,false
+1,"""pengyl""","""sedest""",94,2009,"""Many""",784,true
+1,"""padnet""","""fanely""",70,672,"""More than half""",759,true
+1,"""puctor""","""recure""",78,927,"""Few""",721,false
+1,"""bemble""","""squank""",42,816,"""Fewer than half""",1104,true
+1,"""hadder""","""ollidy""",49,944,"""More than half""",824,false
+1,"""schook""","""jabant""",97,760,"""Fewer than half""",999,false
+1,"""padnet""","""fanely""",91,648,"""Most""",688,true
+1,"""boddle""","""molill""",48,912,"""Fewer than half""",920,true
+1,"""cather""","""funder""",59,1576,"""Many""",777,true
+1,"""menner""","""nandow""",56,1008,"""More than half""",833,true
+1,"""coamin""","""mucond""",73,726,"""Many""",728,true
+1,"""middor""","""drooty""",30,701,"""More than half""",1024,false
+1,"""pirter""","""secent""",78,664,"""Many""",688,true
+1,"""coamin""","""mucond""",40,728,"""More than half""",1040,false
+1,"""strant""","""potind""",69,1144,"""Fewer than half""",784,false
+1,"""padnet""","""fanely""",72,728,"""Few""",751,false
+1,"""chevel""","""podden""",52,744,"""More than half""",953,true
+1,"""coppar""","""hunene""",17,1072,"""Few""",768,true
+1,"""tecker""","""biller""",17,1415,"""Fewer than half""",927,true
+1,"""awplor""","""fasees""",74,940,"""Most""",681,true
+1,"""coppar""","""hunene""",88,911,"""Many""",790,true
+1,"""birler""","""enciad""",60,839,"""Fewer than half""",808,false
+1,"""chulks""","""vulhor""",7,1040,"""Few""",762,true
+1,"""monter""","""melelt""",5,1032,"""Fewer than half""",823,true
+1,"""chevel""","""podden""",20,2320,"""Fewer than half""",911,false
+1,"""pirter""","""secent""",89,696,"""Most""",624,true
+1,"""boddle""","""molill""",7,840,"""Many""",639,false
+1,"""menner""","""nandow""",87,688,"""Many""",816,true
+1,"""ancits""","""smeath""",46,801,"""Most""",689,false
+1,"""beckel""","""racual""",41,1608,"""Many""",632,false
+1,"""shamer""","""bloifs""",1,816,"""More than half""",924,false
+1,"""isbant""","""unairs""",85,871,"""Most""",704,true
+1,"""tiklet""","""hullaw""",6,1048,"""Many""",697,false
+1,"""cosutz""","""spover""",19,1200,"""Many""",744,false
+1,"""ingell""","""nalill""",63,1232,"""Many""",775,true
+1,"""jallem""","""sildal""",86,920,"""Most""",1207,true
+1,"""shrile""","""athoid""",11,832,"""Most""",648,false
+1,"""devole""","""sholly""",64,1048,"""Many""",633,true
+1,"""pliper""","""sesare""",28,791,"""Many""",728,false
+1,"""pluset""","""stubad""",40,1088,"""Many""",1640,false
+1,"""cather""","""funder""",77,640,"""More than half""",657,true
+1,"""chevel""","""podden""",69,712,"""Few""",712,false
+1,"""dorder""","""coggon""",36,1304,"""Many""",912,false
+1,"""boddle""","""molill""",54,768,"""More than half""",783,true
+1,"""shurry""","""preser""",28,776,"""Most""",984,false
+1,"""padnet""","""fanely""",8,1224,"""Fewer than half""",767,true
+1,"""coamin""","""mucond""",77,728,"""Fewer than half""",711,false
+1,"""dorder""","""coggon""",75,704,"""More than half""",634,true
+1,"""menner""","""nandow""",92,752,"""Most""",912,true
+1,"""bameta""","""unzast""",85,816,"""Fewer than half""",680,false
+1,"""strant""","""potind""",47,4296,"""Few""",968,false
+1,"""puggle""","""entand""",27,776,"""Most""",720,false
+1,"""sporer""","""firtly""",98,857,"""Many""",705,true
+1,"""dorder""","""coggon""",96,752,"""Most""",680,true
+1,"""beckel""","""racual""",36,632,"""Most""",785,false
+1,"""bameta""","""unzast""",85,1176,"""Few""",728,false
+1,"""tecker""","""biller""",73,545,"""More than half""",928,true
+1,"""spunge""","""wenple""",10,848,"""Most""",1248,false
+1,"""dorder""","""coggon""",73,850,"""Few""",743,false
+1,"""clidge""","""hensly""",57,984,"""Few""",632,false
+1,"""ingell""","""nalill""",61,904,"""Few""",616,false
+1,"""devole""","""sholly""",23,1296,"""Fewer than half""",1064,true
+1,"""shurry""","""preser""",8,784,"""More than half""",1273,false
+1,"""russer""","""huttle""",82,745,"""Most""",624,true
+1,"""kustle""","""reshix""",82,720,"""Many""",808,true
+1,"""chevel""","""podden""",52,1080,"""Most""",780,false
+1,"""jallem""","""sildal""",78,1234,"""More than half""",1703,true
+1,"""gukbar""","""soarse""",19,1056,"""Most""",760,false
+1,"""awplor""","""fasees""",83,800,"""Fewer than half""",1159,false
+1,"""sporer""","""firtly""",37,824,"""Fewer than half""",728,true
+1,"""schook""","""jabant""",26,1168,"""More than half""",872,false
+1,"""chadop""","""shaple""",14,872,"""Most""",849,false
+2,"""glerb""","""fizzda""",20,10890,"""All""",241,false
+2,"""thonk""","""krangly""",82,8622,"""Some""",87,false
+2,"""slarm""","""briddle""",11,7570,"""None""",90,false
+2,"""klong""","""nooty""",62,9282,"""All""",1857,false
+2,"""dring""","""larfy""",28,9809,"""None""",3911,true
+2,"""floom""","""plerful""",92,367,"""Some""",166,false
+2,"""blek""","""orkital""",54,354,"""None""",133,false
+2,"""tenk""","""glurgy""",8,1381,"""All""",161,true
+2,"""cather""","""funder""",10,2666,"""Many""",7978,false
+2,"""tiklet""","""hullaw""",36,5300,"""Fewer than half""",93,false
+2,"""jallem""","""sildal""",10,1510,"""Most""",1599,false
+2,"""padnet""","""fanely""",46,16531,"""Most""",4608,false
+2,"""shrile""","""athoid""",13,2158,"""Few""",3306,true
+2,"""dorder""","""coggon""",74,4851,"""Many""",103,true
+2,"""clidge""","""hensly""",14,6682,"""Few""",2137,true
+2,"""puggle""","""entand""",29,3419,"""Many""",2114,true
+2,"""coppar""","""hunene""",26,7579,"""Most""",58,true
+2,"""chulks""","""vulhor""",68,1771,"""Most""",1084,true
+2,"""sporer""","""firtly""",14,1070,"""Fewer than half""",107,true
+2,"""puctor""","""recure""",2,3530,"""Few""",1139,true
+2,"""umpond""","""marire""",40,1931,"""Fewer than half""",2640,true
+2,"""bameta""","""unzast""",77,1620,"""Few""",91,false
+2,"""shamer""","""bloifs""",60,2412,"""Few""",3001,false
+2,"""fleeve""","""scalfs""",75,2827,"""Few""",1459,false
+2,"""coppar""","""hunene""",18,2890,"""Few""",3107,true
+2,"""pobbit""","""spippy""",2,2399,"""Few""",109,false
+2,"""ancits""","""smeath""",35,1655,"""Fewer than half""",1198,true
+2,"""coamin""","""mucond""",6,2512,"""Few""",1899,true
+2,"""puggle""","""entand""",6,1294,"""Fewer than half""",98,true
+2,"""raster""","""movell""",20,1355,"""More than half""",1036,false
+2,"""isbant""","""unairs""",58,1594,"""Many""",1703,true
+2,"""tiklet""","""hullaw""",36,2280,"""Few""",1049,true
+2,"""mecket""","""plumry""",69,2536,"""Fewer than half""",1069,false
+2,"""puctor""","""recure""",87,2538,"""Many""",1342,false
+2,"""devole""","""sholly""",4,1566,"""Most""",779,false
+2,"""cather""","""funder""",24,1237,"""Most""",2424,false
+2,"""mecket""","""plumry""",48,3993,"""Few""",888,true
+2,"""awplor""","""fasees""",28,1422,"""More than half""",1320,false
+2,"""werner""","""hurmer""",22,3676,"""Few""",1616,true
+2,"""ancits""","""smeath""",98,1894,"""More than half""",1108,true
+2,"""pobbit""","""spippy""",30,1557,"""Fewer than half""",1273,false
+2,"""shurry""","""preser""",96,1316,"""Most""",1410,true
+2,"""clidge""","""hensly""",60,1465,"""More than half""",964,true
+2,"""pliper""","""sesare""",4,1327,"""Few""",1459,true
+2,"""boddle""","""molill""",13,3078,"""Fewer than half""",1020,true
+2,"""cosutz""","""spover""",93,2122,"""Fewer than half""",913,false
+2,"""shrile""","""athoid""",77,1429,"""More than half""",924,true
+2,"""spunge""","""wenple""",65,1282,"""Many""",1489,true
+2,"""pliper""","""sesare""",75,2207,"""Fewer than half""",1131,false
+2,"""zetten""","""unfobs""",68,1393,"""Fewer than half""",835,false
+2,"""bameta""","""unzast""",35,1191,"""Fewer than half""",932,true
+2,"""ancits""","""smeath""",82,1654,"""Few""",2102,false
+2,"""pluset""","""stubad""",75,972,"""Many""",1551,true
+2,"""hadder""","""ollidy""",89,1544,"""Many""",1932,true
+2,"""shurry""","""preser""",85,1643,"""Few""",1306,false
+2,"""chulks""","""vulhor""",14,1319,"""Many""",1136,false
+2,"""schook""","""jabant""",3,1312,"""Many""",1452,false
+2,"""beckel""","""racual""",44,2145,"""Many""",1313,true
+2,"""middor""","""drooty""",82,1206,"""Most""",1244,true
+2,"""mecket""","""plumry""",69,1208,"""More than half""",739,true
+2,"""pirter""","""secent""",70,1718,"""Few""",1379,true
+2,"""strant""","""potind""",80,1163,"""Fewer than half""",1063,false
+2,"""jallem""","""sildal""",24,1281,"""More than half""",1029,false
+2,"""devole""","""sholly""",21,1031,"""More than half""",1063,false
+2,"""monter""","""melelt""",67,1456,"""Many""",1200,true
+2,"""hadder""","""ollidy""",83,1104,"""Most""",773,true
+2,"""pluset""","""stubad""",86,1148,"""Few""",2280,false
+2,"""bemble""","""squank""",30,1176,"""More than half""",892,false
+2,"""strant""","""potind""",19,1204,"""Few""",775,true
+2,"""ingell""","""nalill""",29,1548,"""More than half""",642,false
+2,"""russer""","""huttle""",65,1081,"""Few""",716,false
+2,"""werner""","""hurmer""",31,2181,"""Many""",832,false
+2,"""russer""","""huttle""",15,1307,"""Most""",1133,false
+2,"""coppar""","""hunene""",23,940,"""More than half""",1143,false
+2,"""zetten""","""unfobs""",98,1142,"""Most""",1031,true
+2,"""pluset""","""stubad""",39,1426,"""Fewer than half""",1061,true
+2,"""monter""","""melelt""",18,1156,"""Few""",1254,true
+2,"""strant""","""potind""",55,1355,"""Many""",1014,true
+2,"""spunge""","""wenple""",11,3460,"""Few""",805,true
+2,"""shamer""","""bloifs""",27,2051,"""Fewer than half""",961,true
+2,"""pliper""","""sesare""",5,1348,"""Many""",1068,false
+2,"""bameta""","""unzast""",27,1592,"""More than half""",892,false
+2,"""spunge""","""wenple""",68,1674,"""Fewer than half""",945,false
+2,"""puctor""","""recure""",15,1201,"""More than half""",984,false
+2,"""padnet""","""fanely""",52,1110,"""Few""",1074,false
+2,"""beckel""","""racual""",68,1379,"""More than half""",897,true
+2,"""menner""","""nandow""",2,1357,"""More than half""",904,false
+2,"""bemble""","""squank""",91,1308,"""Many""",953,true
+2,"""middor""","""drooty""",58,1486,"""Fewer than half""",835,false
+2,"""pengyl""","""sedest""",11,2101,"""Fewer than half""",896,true
+2,"""awplor""","""fasees""",35,1537,"""Most""",1136,false
+2,"""werner""","""hurmer""",85,3249,"""More than half""",1510,true
+2,"""middor""","""drooty""",70,4234,"""More than half""",830,true
+2,"""schook""","""jabant""",83,3388,"""Few""",873,false
+2,"""birler""","""enciad""",87,1329,"""Fewer than half""",780,false
+2,"""gukbar""","""soarse""",57,2892,"""Few""",1267,false
+2,"""sporer""","""firtly""",73,1404,"""Many""",920,true
+2,"""beckel""","""racual""",99,1638,"""Fewer than half""",951,false
+2,"""cather""","""funder""",17,1345,"""More than half""",732,false
+2,"""gukbar""","""soarse""",86,3468,"""Most""",811,true
+2,"""raster""","""movell""",41,1738,"""Fewer than half""",903,true
+2,"""monter""","""melelt""",51,3902,"""More than half""",771,true
+2,"""birler""","""enciad""",31,1405,"""Most""",1000,false
+2,"""pliper""","""sesare""",35,4096,"""More than half""",796,false
+2,"""puggle""","""entand""",67,1218,"""More than half""",1050,true
+2,"""chulks""","""vulhor""",94,1187,"""Few""",913,false
+2,"""tecker""","""biller""",18,2688,"""Few""",738,true
+2,"""clidge""","""hensly""",83,1185,"""Many""",841,true
+2,"""strant""","""potind""",93,1470,"""Most""",760,true
+2,"""pengyl""","""sedest""",59,1439,"""More than half""",931,true
+2,"""devole""","""sholly""",8,1062,"""Many""",741,false
+2,"""puctor""","""recure""",28,3101,"""Most""",712,false
+2,"""pengyl""","""sedest""",62,989,"""Many""",607,true
+2,"""tiklet""","""hullaw""",59,1359,"""Many""",673,true
+2,"""pirter""","""secent""",60,1100,"""Fewer than half""",599,false
+2,"""raster""","""movell""",78,1392,"""Few""",664,false
+2,"""jallem""","""sildal""",35,1287,"""Fewer than half""",748,true
+2,"""russer""","""huttle""",89,1006,"""Fewer than half""",662,false
+2,"""awplor""","""fasees""",16,1148,"""Fewer than half""",626,true
+2,"""sporer""","""firtly""",38,1328,"""Most""",815,false
+2,"""chadop""","""shaple""",92,948,"""More than half""",713,true
+2,"""isbant""","""unairs""",39,2167,"""Most""",555,true
+2,"""pengyl""","""sedest""",59,1013,"""Most""",729,true
+2,"""devole""","""sholly""",75,1013,"""Fewer than half""",651,false
+2,"""gukbar""","""soarse""",85,1715,"""Fewer than half""",635,false
+2,"""coppar""","""hunene""",14,985,"""Fewer than half""",469,true
+2,"""clidge""","""hensly""",88,968,"""Most""",600,true
+2,"""pliper""","""sesare""",49,1968,"""Most""",575,false
+2,"""dorder""","""coggon""",38,1423,"""Fewer than half""",614,true
+2,"""schook""","""jabant""",85,1954,"""Most""",680,false
+2,"""menner""","""nandow""",9,2321,"""Fewer than half""",610,true
+2,"""padnet""","""fanely""",87,1187,"""Many""",731,true
+2,"""shamer""","""bloifs""",61,1061,"""Most""",622,true
+2,"""cosutz""","""spover""",72,999,"""Many""",602,true
+2,"""beckel""","""racual""",4,1141,"""Few""",528,true
+2,"""hadder""","""ollidy""",84,1734,"""More than half""",526,false
+2,"""menner""","""nandow""",57,988,"""Few""",692,false
+2,"""schook""","""jabant""",57,1269,"""More than half""",676,true
+2,"""bemble""","""squank""",24,1001,"""Fewer than half""",612,true
+2,"""ancits""","""smeath""",76,866,"""Most""",727,true
+2,"""ancits""","""smeath""",36,2177,"""Many""",548,false
+2,"""gukbar""","""soarse""",64,911,"""More than half""",626,true
+2,"""pobbit""","""spippy""",39,1224,"""More than half""",678,false
+2,"""tecker""","""biller""",11,2266,"""Most""",772,false
+2,"""cosutz""","""spover""",91,1172,"""More than half""",665,true
+2,"""padnet""","""fanely""",38,2418,"""More than half""",632,false
+2,"""raster""","""movell""",7,1171,"""Many""",674,false
+2,"""strant""","""potind""",88,893,"""More than half""",645,true
+2,"""zetten""","""unfobs""",8,1082,"""Many""",724,false
+2,"""shurry""","""preser""",80,995,"""More than half""",860,true
+2,"""bemble""","""squank""",1,958,"""Most""",762,false
+2,"""coppar""","""hunene""",96,1226,"""Many""",672,true
+2,"""mecket""","""plumry""",95,1018,"""Many""",605,true
+2,"""chevel""","""podden""",1,924,"""More than half""",822,false
+2,"""spunge""","""wenple""",89,2016,"""More than half""",567,true
+2,"""dorder""","""coggon""",12,869,"""More than half""",553,false
+2,"""chadop""","""shaple""",54,964,"""Most""",573,true
+2,"""mecket""","""plumry""",55,983,"""Most""",640,true
+2,"""ingell""","""nalill""",70,999,"""Many""",646,true
+2,"""chulks""","""vulhor""",46,1273,"""Fewer than half""",844,true
+2,"""raster""","""movell""",32,1123,"""Most""",710,false
+2,"""boddle""","""molill""",49,1823,"""Many""",1083,false
+2,"""shamer""","""bloifs""",73,894,"""More than half""",908,true
+2,"""shamer""","""bloifs""",14,1203,"""Many""",688,false
+2,"""shrile""","""athoid""",2,3127,"""Fewer than half""",751,true
+2,"""pobbit""","""spippy""",18,934,"""Most""",719,false
+2,"""zetten""","""unfobs""",14,2280,"""Few""",661,true
+2,"""middor""","""drooty""",93,1941,"""Few""",773,false
+2,"""chadop""","""shaple""",29,2953,"""Fewer than half""",774,true
+2,"""kustle""","""reshix""",62,1108,"""Most""",674,true
+2,"""monter""","""melelt""",60,1353,"""Fewer than half""",774,false
+2,"""dorder""","""coggon""",92,2363,"""Few""",670,false
+2,"""bameta""","""unzast""",74,1734,"""Many""",719,true
+2,"""chadop""","""shaple""",28,1171,"""Few""",800,true
+2,"""puctor""","""recure""",41,1177,"""Fewer than half""",1017,true
+2,"""ingell""","""nalill""",77,1172,"""Few""",741,false
+2,"""chevel""","""podden""",3,1355,"""Fewer than half""",730,true
+2,"""tecker""","""biller""",78,1043,"""Many""",699,true
+2,"""sporer""","""firtly""",73,1213,"""Few""",729,false
+2,"""pengyl""","""sedest""",32,1414,"""Few""",643,true
+2,"""monter""","""melelt""",72,1594,"""Most""",502,false
+2,"""coamin""","""mucond""",65,1028,"""Many""",654,true
+2,"""menner""","""nandow""",3,1030,"""Many""",566,false
+2,"""isbant""","""unairs""",18,1060,"""More than half""",813,false
+2,"""jallem""","""sildal""",97,995,"""Few""",666,false
+2,"""awplor""","""fasees""",10,1624,"""Many""",762,false
+2,"""fleeve""","""scalfs""",66,878,"""More than half""",734,true
+2,"""werner""","""hurmer""",62,954,"""Fewer than half""",671,false
+2,"""shrile""","""athoid""",99,1025,"""Many""",678,true
+2,"""sporer""","""firtly""",37,1246,"""More than half""",673,false
+2,"""bemble""","""squank""",33,1272,"""Few""",707,false
+2,"""umpond""","""marire""",47,1309,"""Most""",804,false
+2,"""middor""","""drooty""",94,982,"""Many""",904,true
+2,"""kustle""","""reshix""",95,951,"""More than half""",818,true
+2,"""menner""","""nandow""",9,1069,"""Most""",744,false
+2,"""shurry""","""preser""",26,1132,"""Many""",774,false
+2,"""isbant""","""unairs""",53,1999,"""Few""",834,false
+2,"""isbant""","""unairs""",44,1016,"""Fewer than half""",783,true
+2,"""shurry""","""preser""",76,929,"""Fewer than half""",951,false
+2,"""jallem""","""sildal""",53,1279,"""Many""",764,true
+2,"""hadder""","""ollidy""",24,1215,"""Few""",798,true
+2,"""pluset""","""stubad""",44,1098,"""Most""",973,false
+2,"""cather""","""funder""",73,976,"""Fewer than half""",959,false
+2,"""cosutz""","""spover""",56,1287,"""Few""",841,false
+2,"""fleeve""","""scalfs""",42,1234,"""Many""",776,false
+2,"""chevel""","""podden""",40,1188,"""Most""",780,false
+2,"""birler""","""enciad""",8,1101,"""More than half""",821,false
+2,"""kustle""","""reshix""",82,1007,"""Fewer than half""",772,false
+2,"""umpond""","""marire""",55,1001,"""Few""",912,false
+2,"""pirter""","""secent""",7,1035,"""Most""",835,false
+2,"""fleeve""","""scalfs""",92,2016,"""Most""",892,true
+2,"""devole""","""sholly""",76,1157,"""Few""",840,false
+2,"""hadder""","""ollidy""",58,1404,"""Fewer than half""",884,false
+2,"""tiklet""","""hullaw""",75,1093,"""More than half""",3290,true
+2,"""tecker""","""biller""",9,1099,"""Fewer than half""",1304,true
+2,"""chevel""","""podden""",9,953,"""Few""",936,true
+2,"""cosutz""","""spover""",95,1016,"""Most""",1236,true
+2,"""fleeve""","""scalfs""",89,931,"""Fewer than half""",842,false
+2,"""puggle""","""entand""",52,1311,"""Most""",832,true
+2,"""coamin""","""mucond""",13,860,"""Fewer than half""",1315,true
+2,"""boddle""","""molill""",2,1091,"""Most""",785,false
+2,"""awplor""","""fasees""",70,778,"""Few""",1947,false
+2,"""beckel""","""racual""",57,820,"""Most""",842,true
+2,"""pobbit""","""spippy""",53,1593,"""Many""",1072,true
+2,"""pirter""","""secent""",14,856,"""More than half""",1000,false
+2,"""boddle""","""molill""",46,953,"""More than half""",899,false
+2,"""ingell""","""nalill""",6,1113,"""Fewer than half""",900,true
+2,"""shrile""","""athoid""",64,1149,"""Most""",876,true
+2,"""birler""","""enciad""",3,1183,"""Many""",904,false
+2,"""dorder""","""coggon""",13,1365,"""Most""",759,false
+2,"""gukbar""","""soarse""",68,868,"""Many""",790,true
+2,"""boddle""","""molill""",96,1043,"""Few""",780,false
+2,"""bameta""","""unzast""",41,1108,"""Most""",729,false
+2,"""kustle""","""reshix""",65,928,"""Many""",812,true
+2,"""ingell""","""nalill""",3,1997,"""Most""",833,false
+2,"""schook""","""jabant""",58,1510,"""Fewer than half""",906,false
+2,"""chulks""","""vulhor""",96,855,"""More than half""",842,true
+2,"""puggle""","""entand""",45,2391,"""Few""",695,true
+2,"""tiklet""","""hullaw""",56,1065,"""Most""",706,true
+2,"""chadop""","""shaple""",13,976,"""Many""",755,false
+2,"""chevel""","""podden""",97,923,"""Many""",753,true
+2,"""tecker""","""biller""",5,882,"""More than half""",788,false
+2,"""clidge""","""hensly""",57,939,"""Fewer than half""",838,false
+2,"""padnet""","""fanely""",95,2885,"""Fewer than half""",710,false
+2,"""coamin""","""mucond""",81,888,"""Most""",868,true
+2,"""pluset""","""stubad""",11,910,"""More than half""",807,false
+2,"""russer""","""huttle""",30,1021,"""Many""",806,false
+2,"""zetten""","""unfobs""",63,718,"""More than half""",813,true
+2,"""umpond""","""marire""",26,1708,"""More than half""",739,false
+2,"""pirter""","""secent""",92,1111,"""Many""",704,true
+2,"""birler""","""enciad""",90,988,"""Few""",708,false
+2,"""coamin""","""mucond""",93,1342,"""More than half""",695,true
+2,"""werner""","""hurmer""",77,2045,"""Most""",748,true
+2,"""umpond""","""marire""",7,1518,"""Many""",698,false
+2,"""russer""","""huttle""",44,1007,"""More than half""",724,false
+2,"""cather""","""funder""",26,1404,"""Few""",732,true
+2,"""spunge""","""wenple""",87,1224,"""Most""",640,true
+2,"""kustle""","""reshix""",22,1422,"""Few""",707,true
+3,"""glerb""","""fizzda""",20,3513,"""All""",2621,false
+3,"""thonk""","""krangly""",82,1916,"""Some""",1363,true
+3,"""slarm""","""briddle""",11,1884,"""None""",2194,true
+3,"""klong""","""nooty""",62,1133,"""All""",1567,false
+3,"""dring""","""larfy""",28,817,"""None""",752,false
+3,"""floom""","""plerful""",92,716,"""Some""",838,true
+3,"""blek""","""orkital""",54,576,"""None""",793,false
+3,"""tenk""","""glurgy""",8,1974,"""All""",605,true
+3,"""chadop""","""shaple""",17,1579,"""Fewer than half""",2029,true
+3,"""tecker""","""biller""",7,696,"""Many""",827,false
+3,"""chevel""","""podden""",31,707,"""Many""",782,false
+3,"""gukbar""","""soarse""",11,1052,"""Most""",757,false
+3,"""beckel""","""racual""",52,487,"""More than half""",757,true
+3,"""coamin""","""mucond""",9,497,"""Most""",642,false
+3,"""pirter""","""secent""",58,721,"""Fewer than half""",760,true
+3,"""isbant""","""unairs""",62,511,"""Most""",685,true
+3,"""middor""","""drooty""",8,500,"""Most""",617,false
+3,"""ancits""","""smeath""",27,656,"""Most""",555,false
+3,"""werner""","""hurmer""",65,505,"""Fewer than half""",1493,true
+3,"""tiklet""","""hullaw""",55,636,"""Fewer than half""",1258,false
+3,"""kustle""","""reshix""",59,395,"""More than half""",828,true
+3,"""russer""","""huttle""",40,688,"""Few""",616,true
+3,"""tiklet""","""hullaw""",7,575,"""Most""",908,false
+3,"""gukbar""","""soarse""",98,496,"""Few""",802,true
+3,"""chevel""","""podden""",64,591,"""Most""",887,true
+3,"""shurry""","""preser""",86,397,"""More than half""",746,true
+3,"""pluset""","""stubad""",25,477,"""More than half""",776,false
+3,"""ingell""","""nalill""",64,452,"""Fewer than half""",591,false
+3,"""birler""","""enciad""",6,481,"""More than half""",635,false
+3,"""tiklet""","""hullaw""",9,523,"""Many""",577,false
+3,"""pluset""","""stubad""",58,732,"""Many""",641,true
+3,"""cather""","""funder""",72,512,"""Fewer than half""",645,false
+3,"""padnet""","""fanely""",75,605,"""Few""",3112,false
+3,"""tiklet""","""hullaw""",57,582,"""Few""",571,false
+3,"""kustle""","""reshix""",40,1798,"""Most""",862,true
+3,"""padnet""","""fanely""",10,521,"""Fewer than half""",623,true
+3,"""ancits""","""smeath""",17,451,"""Many""",893,false
+3,"""isbant""","""unairs""",18,452,"""More than half""",527,false
+3,"""pluset""","""stubad""",19,562,"""Few""",641,true
+3,"""mecket""","""plumry""",71,560,"""Fewer than half""",596,true
+3,"""chadop""","""shaple""",15,738,"""Few""",602,false
+3,"""shamer""","""bloifs""",55,989,"""Many""",701,true
+3,"""monter""","""melelt""",98,410,"""More than half""",597,true
+3,"""sporer""","""firtly""",51,585,"""Fewer than half""",677,false
+3,"""russer""","""huttle""",14,542,"""More than half""",505,false
+3,"""ingell""","""nalill""",49,643,"""More than half""",1056,true
+3,"""menner""","""nandow""",94,1339,"""Fewer than half""",2325,false
+3,"""hadder""","""ollidy""",53,431,"""More than half""",542,true
+3,"""spunge""","""wenple""",12,500,"""Many""",485,false
+3,"""pengyl""","""sedest""",93,496,"""Few""",562,false
+3,"""monter""","""melelt""",55,591,"""Few""",592,false
+3,"""ancits""","""smeath""",88,508,"""More than half""",560,true
+3,"""cather""","""funder""",75,506,"""Few""",627,false
+3,"""pengyl""","""sedest""",21,612,"""Many""",687,false
+3,"""chadop""","""shaple""",23,567,"""Many""",562,false
+3,"""umpond""","""marire""",87,521,"""Few""",33223,false
+3,"""kustle""","""reshix""",48,501,"""Few""",588,false
+3,"""zetten""","""unfobs""",8,1162,"""Few""",827,true
+3,"""menner""","""nandow""",13,421,"""More than half""",671,false
+3,"""schook""","""jabant""",15,521,"""Fewer than half""",646,true
+3,"""birler""","""enciad""",56,556,"""Fewer than half""",761,false
+3,"""ingell""","""nalill""",77,450,"""Most""",685,true
+3,"""zetten""","""unfobs""",40,642,"""Many""",488,false
+3,"""puctor""","""recure""",40,436,"""Fewer than half""",571,true
+3,"""bameta""","""unzast""",24,460,"""More than half""",586,false
+3,"""beckel""","""racual""",24,561,"""Few""",653,true
+3,"""gukbar""","""soarse""",63,586,"""More than half""",717,true
+3,"""sporer""","""firtly""",90,558,"""Many""",681,true
+3,"""zetten""","""unfobs""",26,472,"""Most""",526,false
+3,"""dorder""","""coggon""",7,811,"""Fewer than half""",582,true
+3,"""schook""","""jabant""",90,776,"""More than half""",2497,true
+3,"""awplor""","""fasees""",12,791,"""More than half""",2024,false
+3,"""pirter""","""secent""",78,581,"""Few""",1058,false
+3,"""bemble""","""squank""",4,513,"""Many""",656,false
+3,"""sporer""","""firtly""",94,1093,"""Few""",682,false
+3,"""padnet""","""fanely""",21,577,"""More than half""",747,false
+3,"""coppar""","""hunene""",33,2029,"""More than half""",1900,false
+3,"""dorder""","""coggon""",91,923,"""Few""",1914,false
+3,"""puggle""","""entand""",40,1077,"""Few""",657,true
+3,"""chulks""","""vulhor""",95,907,"""Fewer than half""",1488,false
+3,"""coppar""","""hunene""",83,983,"""Few""",959,false
+3,"""birler""","""enciad""",30,587,"""Few""",631,true
+3,"""sporer""","""firtly""",15,682,"""More than half""",531,false
+3,"""shamer""","""bloifs""",64,390,"""More than half""",591,true
+3,"""coamin""","""mucond""",30,421,"""Fewer than half""",906,true
+3,"""bameta""","""unzast""",86,1036,"""Few""",1007,false
+3,"""beckel""","""racual""",43,1739,"""Most""",15752,true
+3,"""dorder""","""coggon""",81,546,"""Most""",682,true
+3,"""pliper""","""sesare""",82,426,"""Most""",687,true
+3,"""jallem""","""sildal""",7,692,"""More than half""",670,false
+3,"""middor""","""drooty""",66,562,"""Many""",487,true
+3,"""isbant""","""unairs""",81,1252,"""Fewer than half""",567,false
+3,"""padnet""","""fanely""",28,1123,"""Many""",763,false
+3,"""werner""","""hurmer""",97,1198,"""More than half""",721,true
+3,"""boddle""","""molill""",48,1162,"""More than half""",1172,false
+3,"""bameta""","""unzast""",53,602,"""Most""",626,true
+3,"""jallem""","""sildal""",89,756,"""Fewer than half""",702,false
+3,"""cosutz""","""spover""",32,1324,"""Many""",542,false
+3,"""puctor""","""recure""",33,582,"""Few""",777,true
+3,"""boddle""","""molill""",51,515,"""Most""",541,true
+3,"""pobbit""","""spippy""",68,441,"""Fewer than half""",532,false
+3,"""coamin""","""mucond""",86,521,"""Few""",395,false
+3,"""tecker""","""biller""",56,425,"""Most""",311,true
+3,"""boddle""","""molill""",21,286,"""Few""",276,false
+3,"""schook""","""jabant""",52,1833,"""Many""",206,true
+3,"""strant""","""potind""",9,946,"""Few""",782,true
+3,"""raster""","""movell""",42,631,"""Fewer than half""",600,true
+3,"""isbant""","""unairs""",49,10545,"""Many""",721,true
+3,"""cosutz""","""spover""",69,540,"""Fewer than half""",831,false
+3,"""middor""","""drooty""",62,496,"""Fewer than half""",742,false
+3,"""coppar""","""hunene""",96,578,"""Fewer than half""",622,false
+3,"""raster""","""movell""",90,520,"""Few""",581,false
+3,"""shrile""","""athoid""",86,461,"""Fewer than half""",1032,false
+3,"""monter""","""melelt""",67,561,"""Fewer than half""",472,false
+3,"""russer""","""huttle""",78,416,"""Most""",471,true
+3,"""pengyl""","""sedest""",62,501,"""More than half""",481,true
+3,"""hadder""","""ollidy""",13,460,"""Fewer than half""",442,false
+3,"""puctor""","""recure""",59,857,"""Most""",852,true
+3,"""werner""","""hurmer""",69,622,"""Many""",806,true
+3,"""clidge""","""hensly""",70,822,"""More than half""",1066,true
+3,"""russer""","""huttle""",12,1242,"""Many""",1167,false
+3,"""werner""","""hurmer""",16,876,"""Most""",866,false
+3,"""pirter""","""secent""",46,641,"""Many""",667,true
+3,"""cather""","""funder""",39,426,"""More than half""",611,false
+3,"""shrile""","""athoid""",3,755,"""Most""",511,false
+3,"""cosutz""","""spover""",23,697,"""Few""",601,true
+3,"""pobbit""","""spippy""",3,557,"""More than half""",656,false
+3,"""boddle""","""molill""",8,686,"""Fewer than half""",522,true
+3,"""bemble""","""squank""",10,832,"""Fewer than half""",567,true
+3,"""tecker""","""biller""",45,1229,"""More than half""",3528,false
+3,"""pluset""","""stubad""",60,496,"""Most""",986,true
+3,"""umpond""","""marire""",9,556,"""Many""",470,false
+3,"""raster""","""movell""",46,521,"""More than half""",551,false
+3,"""shamer""","""bloifs""",47,521,"""Few""",546,false
+3,"""chevel""","""podden""",23,471,"""More than half""",451,false
+3,"""chulks""","""vulhor""",90,421,"""Many""",475,true
+3,"""menner""","""nandow""",58,473,"""Most""",416,true
+3,"""pengyl""","""sedest""",38,600,"""Most""",396,false
+3,"""hadder""","""ollidy""",39,471,"""Most""",416,false
+3,"""chevel""","""podden""",95,621,"""Fewer than half""",451,false
+3,"""awplor""","""fasees""",87,647,"""Fewer than half""",415,false
+3,"""cather""","""funder""",76,521,"""Many""",350,true
+3,"""clidge""","""hensly""",20,540,"""Most""",466,false
+3,"""hadder""","""ollidy""",83,567,"""Few""",441,false
+3,"""beckel""","""racual""",61,692,"""Fewer than half""",422,false
+3,"""puggle""","""entand""",91,620,"""Fewer than half""",411,false
+3,"""chadop""","""shaple""",29,567,"""Most""",372,false
+3,"""shurry""","""preser""",21,531,"""Many""",792,false
+3,"""bemble""","""squank""",60,585,"""Few""",391,false
+3,"""pirter""","""secent""",5,506,"""More than half""",396,false
+3,"""zetten""","""unfobs""",57,598,"""More than half""",372,true
+3,"""birler""","""enciad""",92,537,"""Most""",346,true
+3,"""kustle""","""reshix""",91,718,"""Fewer than half""",331,false
+3,"""strant""","""potind""",37,590,"""Many""",331,false
+3,"""pobbit""","""spippy""",63,646,"""Most""",286,true
+3,"""strant""","""potind""",34,512,"""Most""",322,false
+3,"""fleeve""","""scalfs""",35,636,"""Fewer than half""",241,true
+3,"""spunge""","""wenple""",78,499,"""More than half""",282,true
+3,"""fleeve""","""scalfs""",82,421,"""More than half""",270,true
+3,"""spunge""","""wenple""",74,566,"""Fewer than half""",145,false
+3,"""puctor""","""recure""",4,706,"""More than half""",146,false
+3,"""birler""","""enciad""",93,817,"""Many""",127,true
+3,"""strant""","""potind""",27,701,"""Fewer than half""",147,true
+3,"""awplor""","""fasees""",44,887,"""Many""",217,false
+3,"""monter""","""melelt""",36,731,"""Many""",115,false
+3,"""shamer""","""bloifs""",99,1112,"""Fewer than half""",146,false
+3,"""cosutz""","""spover""",12,570,"""Most""",180,false
+3,"""pliper""","""sesare""",42,1243,"""More than half""",195,false
+3,"""shrile""","""athoid""",67,707,"""More than half""",145,true
+3,"""boddle""","""molill""",20,916,"""Many""",461,false
+3,"""devole""","""sholly""",4,430,"""Few""",410,true
+3,"""bameta""","""unzast""",62,561,"""Fewer than half""",390,false
+3,"""beckel""","""racual""",88,512,"""Many""",500,true
+3,"""pliper""","""sesare""",28,687,"""Few""",385,true
+3,"""mecket""","""plumry""",19,571,"""Most""",432,false
+3,"""ingell""","""nalill""",45,692,"""Many""",286,false
+3,"""tecker""","""biller""",88,575,"""Few""",437,false
+3,"""werner""","""hurmer""",38,557,"""Few""",324,true
+3,"""raster""","""movell""",75,97004,"""Most""",8214,true
+3,"""shrile""","""athoid""",73,451,"""Many""",1463,true
+3,"""chulks""","""vulhor""",41,515,"""Most""",390,false
+3,"""menner""","""nandow""",68,450,"""Many""",341,true
+3,"""coppar""","""hunene""",43,507,"""Many""",366,false
+3,"""chulks""","""vulhor""",14,452,"""Few""",281,true
+3,"""dorder""","""coggon""",78,416,"""Many""",297,true
+3,"""spunge""","""wenple""",1,512,"""Most""",285,false
+3,"""coamin""","""mucond""",74,391,"""Many""",271,true
+3,"""jallem""","""sildal""",93,420,"""Most""",226,true
+3,"""mecket""","""plumry""",19,541,"""Many""",247,false
+3,"""shrile""","""athoid""",27,545,"""Few""",216,true
+3,"""shurry""","""preser""",8,551,"""Fewer than half""",256,true
+3,"""chevel""","""podden""",90,565,"""Few""",270,false
+3,"""kustle""","""reshix""",5,751,"""Many""",243,false
+3,"""jallem""","""sildal""",77,1163,"""Few""",271,false
+3,"""menner""","""nandow""",42,681,"""Few""",286,false
+3,"""ingell""","""nalill""",71,1041,"""Few""",330,false
+3,"""fleeve""","""scalfs""",95,670,"""Few""",242,false
+3,"""middor""","""drooty""",56,420,"""Few""",265,false
+3,"""hadder""","""ollidy""",71,766,"""Many""",216,true
+3,"""cather""","""funder""",65,635,"""Most""",156,true
+3,"""strant""","""potind""",95,646,"""More than half""",166,true
+3,"""fleeve""","""scalfs""",45,2244,"""Many""",206,true
+3,"""devole""","""sholly""",8,476,"""More than half""",801,false
+3,"""chadop""","""shaple""",76,521,"""More than half""",311,true
+3,"""ancits""","""smeath""",14,757,"""Fewer than half""",306,true
+3,"""sporer""","""firtly""",76,548,"""Most""",342,true
+3,"""umpond""","""marire""",97,541,"""Most""",292,true
+3,"""puggle""","""entand""",33,976,"""Most""",401,false
+3,"""spunge""","""wenple""",46,526,"""Few""",336,false
+3,"""cosutz""","""spover""",69,476,"""More than half""",287,true
+3,"""awplor""","""fasees""",16,516,"""Few""",261,true
+3,"""puctor""","""recure""",93,467,"""Many""",276,true
+3,"""bameta""","""unzast""",23,494,"""Many""",286,false
+3,"""bemble""","""squank""",43,586,"""More than half""",251,false
+3,"""clidge""","""hensly""",29,511,"""Few""",259,true
+3,"""mecket""","""plumry""",81,752,"""More than half""",207,true
+3,"""coamin""","""mucond""",74,492,"""More than half""",140,true
+3,"""devole""","""sholly""",73,511,"""Most""",112,true
+3,"""tiklet""","""hullaw""",93,762,"""More than half""",101,true
+3,"""puggle""","""entand""",16,622,"""Many""",90,false
+3,"""clidge""","""hensly""",29,616,"""Many""",117,false
+3,"""gukbar""","""soarse""",20,486,"""Fewer than half""",105,true
+3,"""umpond""","""marire""",38,561,"""Fewer than half""",95,true
+3,"""tecker""","""biller""",6,646,"""Fewer than half""",101,true
+3,"""schook""","""jabant""",49,687,"""Most""",84,false
+3,"""clidge""","""hensly""",66,735,"""Fewer than half""",90,true
+3,"""bemble""","""squank""",89,1127,"""Most""",79,true
+3,"""coppar""","""hunene""",94,1237,"""Most""",576,true
+3,"""middor""","""drooty""",96,492,"""More than half""",361,true
+3,"""zetten""","""unfobs""",67,2917,"""Fewer than half""",3274,false
+3,"""pirter""","""secent""",90,545,"""Most""",265,true
+3,"""pengyl""","""sedest""",38,546,"""Fewer than half""",246,true
+3,"""padnet""","""fanely""",52,882,"""Most""",252,true
+3,"""umpond""","""marire""",22,507,"""More than half""",320,false
+3,"""russer""","""huttle""",13,535,"""Fewer than half""",271,true
+3,"""chulks""","""vulhor""",65,497,"""More than half""",306,true
+3,"""jallem""","""sildal""",7,626,"""Many""",310,false
+3,"""puggle""","""entand""",75,826,"""More than half""",295,true
+3,"""schook""","""jabant""",20,702,"""Few""",320,true
+3,"""pobbit""","""spippy""",25,1263,"""Many""",295,false
+3,"""pluset""","""stubad""",12,595,"""Fewer than half""",496,true
+3,"""monter""","""melelt""",44,1128,"""Most""",291,false
+3,"""pobbit""","""spippy""",5,1223,"""Few""",276,true
+3,"""shurry""","""preser""",45,1243,"""Few""",300,false
+3,"""pliper""","""sesare""",52,2320,"""Fewer than half""",366,false
+3,"""devole""","""sholly""",73,407,"""Many""",336,true
+3,"""dorder""","""coggon""",11,556,"""More than half""",266,false
+3,"""shurry""","""preser""",35,5,"""Most""",286,false
+3,"""shamer""","""bloifs""",47,907,"""Most""",271,true
+3,"""pliper""","""sesare""",78,480,"""Many""",346,true
+3,"""ancits""","""smeath""",16,671,"""Few""",318,true
+3,"""awplor""","""fasees""",74,492,"""Most""",340,true
+3,"""mecket""","""plumry""",89,522,"""Few""",320,false
+3,"""fleeve""","""scalfs""",36,951,"""Most""",291,false
+3,"""gukbar""","""soarse""",79,5327,"""Many""",335,true
+3,"""raster""","""movell""",44,522,"""Many""",555,false
+3,"""isbant""","""unairs""",86,475,"""Few""",322,false
+3,"""devole""","""sholly""",80,551,"""Fewer than half""",431,false
+4,"""glerb""","""fizzda""",20,12361,"""All""",648,false
+4,"""thonk""","""krangly""",82,4436,"""Some""",2144,true
+4,"""slarm""","""briddle""",11,3075,"""None""",1879,false
+4,"""klong""","""nooty""",62,3953,"""All""",2064,false
+4,"""dring""","""larfy""",28,2792,"""None""",1296,false
+4,"""floom""","""plerful""",92,6143,"""Some""",1480,false
+4,"""blek""","""orkital""",54,1808,"""None""",1632,false
+4,"""tenk""","""glurgy""",8,1848,"""All""",1409,false
+4,"""chevel""","""podden""",46,1272,"""More than half""",1736,false
+4,"""hadder""","""ollidy""",70,1112,"""Many""",1576,true
+4,"""shamer""","""bloifs""",47,4281,"""Few""",1777,false
+4,"""coamin""","""mucond""",93,768,"""Many""",1336,true
+4,"""pluset""","""stubad""",42,977,"""More than half""",1320,false
+4,"""russer""","""huttle""",46,767,"""Most""",1377,false
+4,"""dorder""","""coggon""",11,1159,"""Few""",1249,true
+4,"""chulks""","""vulhor""",73,2289,"""Most""",1120,true
+4,"""werner""","""hurmer""",53,775,"""More than half""",1313,true
+4,"""ancits""","""smeath""",54,1137,"""Most""",1008,true
+4,"""chevel""","""podden""",66,632,"""Few""",1264,false
+4,"""devole""","""sholly""",7,2232,"""More than half""",1231,false
+4,"""boddle""","""molill""",71,1833,"""Many""",1584,true
+4,"""devole""","""sholly""",52,1919,"""Fewer than half""",1793,false
+4,"""puggle""","""entand""",23,1968,"""Few""",1440,true
+4,"""bameta""","""unzast""",16,1018,"""More than half""",2648,false
+4,"""strant""","""potind""",75,1367,"""More than half""",1472,true
+4,"""pliper""","""sesare""",35,1324,"""More than half""",1513,true
+4,"""coamin""","""mucond""",56,920,"""More than half""",1327,true
+4,"""pengyl""","""sedest""",82,649,"""More than half""",1200,true
+4,"""raster""","""movell""",11,711,"""Many""",1192,false
+4,"""coamin""","""mucond""",80,671,"""Most""",1384,true
+4,"""mecket""","""plumry""",35,1920,"""Fewer than half""",1664,true
+4,"""clidge""","""hensly""",77,975,"""Most""",1632,true
+4,"""pluset""","""stubad""",48,1504,"""Few""",3080,false
+4,"""padnet""","""fanely""",33,1359,"""More than half""",1481,false
+4,"""clidge""","""hensly""",77,1016,"""Fewer than half""",4049,false
+4,"""coppar""","""hunene""",1,2007,"""More than half""",1352,false
+4,"""devole""","""sholly""",21,2161,"""Few""",2777,true
+4,"""umpond""","""marire""",81,1791,"""Few""",1127,false
+4,"""bemble""","""squank""",39,1911,"""Fewer than half""",1551,true
+4,"""kustle""","""reshix""",64,889,"""Few""",1175,false
+4,"""gukbar""","""soarse""",6,872,"""Many""",1305,false
+4,"""menner""","""nandow""",8,1760,"""More than half""",3850,false
+4,"""bameta""","""unzast""",91,527,"""Many""",1185,true
+4,"""puctor""","""recure""",3,1822,"""Most""",1496,false
+4,"""schook""","""jabant""",73,857,"""More than half""",1337,true
+4,"""bemble""","""squank""",11,736,"""More than half""",1264,false
+4,"""shamer""","""bloifs""",32,784,"""Fewer than half""",1272,false
+4,"""padnet""","""fanely""",1,615,"""Most""",888,false
+4,"""cosutz""","""spover""",38,1351,"""Fewer than half""",1873,true
+4,"""pobbit""","""spippy""",99,799,"""Fewer than half""",1736,false
+4,"""spunge""","""wenple""",76,552,"""More than half""",1209,true
+4,"""middor""","""drooty""",89,711,"""More than half""",1071,true
+4,"""tiklet""","""hullaw""",68,768,"""Most""",913,true
+4,"""schook""","""jabant""",93,495,"""Many""",992,true
+4,"""isbant""","""unairs""",9,823,"""More than half""",1015,false
+4,"""pobbit""","""spippy""",26,911,"""Many""",838,false
+4,"""bameta""","""unzast""",13,657,"""Fewer than half""",1160,false
+4,"""coppar""","""hunene""",96,931,"""Fewer than half""",1831,false
+4,"""spunge""","""wenple""",51,904,"""Many""",863,true
+4,"""schook""","""jabant""",79,1087,"""Few""",1417,false
+4,"""chevel""","""podden""",28,1071,"""Fewer than half""",1728,true
+4,"""bameta""","""unzast""",74,785,"""Few""",1328,false
+4,"""cather""","""funder""",95,856,"""Fewer than half""",1399,false
+4,"""fleeve""","""scalfs""",24,1328,"""Fewer than half""",1408,true
+4,"""pirter""","""secent""",13,608,"""More than half""",903,false
+4,"""strant""","""potind""",81,896,"""Few""",1194,false
+4,"""bemble""","""squank""",61,897,"""Few""",1029,false
+4,"""ingell""","""nalill""",14,784,"""Most""",1128,false
+4,"""raster""","""movell""",54,1496,"""Few""",1186,false
+4,"""jallem""","""sildal""",35,975,"""Most""",1247,false
+4,"""schook""","""jabant""",46,916,"""Fewer than half""",983,true
+4,"""kustle""","""reshix""",61,712,"""Many""",848,true
+4,"""chulks""","""vulhor""",67,543,"""More than half""",857,true
+4,"""coppar""","""hunene""",12,553,"""Many""",807,false
+4,"""pliper""","""sesare""",42,1080,"""Most""",942,false
+4,"""shrile""","""athoid""",83,672,"""More than half""",808,true
+4,"""tiklet""","""hullaw""",51,920,"""Few""",736,false
+4,"""gukbar""","""soarse""",54,733,"""Few""",865,false
+4,"""cosutz""","""spover""",87,615,"""Few""",864,true
+4,"""puctor""","""recure""",42,896,"""Fewer than half""",1744,true
+4,"""middor""","""drooty""",89,1504,"""Most""",1072,true
+4,"""pluset""","""stubad""",25,848,"""Most""",928,false
+4,"""awplor""","""fasees""",39,697,"""Most""",2070,false
+4,"""jallem""","""sildal""",38,711,"""Many""",1451,false
+4,"""tecker""","""biller""",6,679,"""Most""",993,false
+4,"""pengyl""","""sedest""",52,1088,"""Most""",1049,true
+4,"""dorder""","""coggon""",37,664,"""Most""",1256,false
+4,"""clidge""","""hensly""",42,1095,"""Few""",1328,false
+4,"""clidge""","""hensly""",86,1127,"""Many""",1296,true
+4,"""monter""","""melelt""",72,1032,"""More than half""",1359,true
+4,"""umpond""","""marire""",53,1000,"""Fewer than half""",136,false
+4,"""pirter""","""secent""",13,743,"""Most""",1192,false
+4,"""dorder""","""coggon""",80,750,"""Many""",888,true
+4,"""tecker""","""biller""",15,767,"""Few""",1656,false
+4,"""chulks""","""vulhor""",71,992,"""Few""",1183,false
+4,"""chulks""","""vulhor""",66,1184,"""Many""",1112,true
+4,"""fleeve""","""scalfs""",33,1528,"""Few""",1089,true
+4,"""tecker""","""biller""",18,1528,"""More than half""",1112,false
+4,"""werner""","""hurmer""",94,736,"""Most""",1408,true
+4,"""strant""","""potind""",43,745,"""Fewer than half""",1015,false
+4,"""mecket""","""plumry""",56,1273,"""Few""",1048,false
+4,"""shamer""","""bloifs""",61,1224,"""Many""",1328,true
+4,"""chadop""","""shaple""",54,736,"""More than half""",944,true
+4,"""kustle""","""reshix""",80,825,"""Fewer than half""",1296,false
+4,"""ancits""","""smeath""",88,984,"""More than half""",1408,true
+4,"""cosutz""","""spover""",51,803,"""Most""",1272,true
+4,"""pliper""","""sesare""",64,706,"""Fewer than half""",1257,true
+4,"""tecker""","""biller""",20,713,"""Fewer than half""",1391,false
+4,"""shurry""","""preser""",10,848,"""Fewer than half""",1521,false
+4,"""raster""","""movell""",79,864,"""Fewer than half""",1340,false
+4,"""tiklet""","""hullaw""",3,801,"""Fewer than half""",1304,false
+4,"""bemble""","""squank""",71,961,"""Many""",1288,true
+4,"""devole""","""sholly""",9,617,"""Most""",1848,false
+4,"""pliper""","""sesare""",70,752,"""Few""",1369,false
+4,"""coamin""","""mucond""",96,736,"""Fewer than half""",1235,false
+4,"""mecket""","""plumry""",87,545,"""Most""",1007,true
+4,"""pliper""","""sesare""",85,665,"""Many""",1047,true
+4,"""chevel""","""podden""",31,719,"""Most""",912,false
+4,"""padnet""","""fanely""",83,536,"""Many""",1095,true
+4,"""shurry""","""preser""",98,711,"""Few""",984,false
+4,"""kustle""","""reshix""",98,535,"""More than half""",903,true
+4,"""middor""","""drooty""",82,960,"""Fewer than half""",1106,false
+4,"""shamer""","""bloifs""",71,907,"""Most""",998,true
+4,"""puctor""","""recure""",14,672,"""More than half""",1032,false
+4,"""raster""","""movell""",38,1072,"""Most""",1015,false
+4,"""zetten""","""unfobs""",26,1129,"""Fewer than half""",1200,true
+4,"""umpond""","""marire""",31,1048,"""More than half""",1380,false
+4,"""schook""","""jabant""",61,1015,"""Most""",1211,true
+4,"""dorder""","""coggon""",46,1032,"""Fewer than half""",3113,true
+4,"""padnet""","""fanely""",11,1064,"""Fewer than half""",1239,true
+4,"""coamin""","""mucond""",97,1017,"""Few""",1375,false
+4,"""jallem""","""sildal""",41,664,"""More than half""",1033,false
+4,"""devole""","""sholly""",34,848,"""Many""",1040,false
+4,"""awplor""","""fasees""",22,666,"""More than half""",992,false
+4,"""puctor""","""recure""",11,657,"""Few""",983,false
+4,"""coppar""","""hunene""",5,784,"""Most""",1200,false
+4,"""hadder""","""ollidy""",83,4145,"""Most""",1127,true
+4,"""boddle""","""molill""",11,1033,"""Most""",1241,false
+4,"""menner""","""nandow""",2,561,"""Most""",1000,false
+4,"""hadder""","""ollidy""",15,1448,"""Fewer than half""",1592,true
+4,"""tecker""","""biller""",16,688,"""Many""",1041,false
+4,"""zetten""","""unfobs""",79,1039,"""Most""",1025,true
+4,"""fleeve""","""scalfs""",51,1145,"""More than half""",1552,true
+4,"""cosutz""","""spover""",52,1449,"""Many""",1118,true
+4,"""menner""","""nandow""",62,1777,"""Fewer than half""",1702,false
+4,"""spunge""","""wenple""",59,2592,"""Most""",1003,false
+4,"""pobbit""","""spippy""",73,899,"""Few""",1569,false
+4,"""chadop""","""shaple""",81,784,"""Most""",1022,true
+4,"""shrile""","""athoid""",62,1408,"""Most""",1350,true
+4,"""spunge""","""wenple""",85,696,"""Few""",1669,false
+4,"""sporer""","""firtly""",95,633,"""Many""",1212,true
+4,"""pengyl""","""sedest""",70,680,"""Few""",1232,false
+4,"""fleeve""","""scalfs""",76,706,"""Most""",1072,true
+4,"""pirter""","""secent""",90,866,"""Few""",1535,false
+4,"""monter""","""melelt""",72,3072,"""Most""",1239,true
+4,"""beckel""","""racual""",68,3264,"""Fewer than half""",2186,false
+4,"""shrile""","""athoid""",6,863,"""Many""",1369,false
+4,"""puggle""","""entand""",98,4039,"""Fewer than half""",1650,false
+4,"""shrile""","""athoid""",20,1282,"""Fewer than half""",1935,false
+4,"""zetten""","""unfobs""",41,3984,"""Few""",1760,false
+4,"""monter""","""melelt""",93,927,"""Many""",2625,false
+4,"""awplor""","""fasees""",20,1527,"""Fewer than half""",1343,false
+4,"""tiklet""","""hullaw""",70,920,"""Many""",1209,true
+4,"""ancits""","""smeath""",24,928,"""Fewer than half""",1289,true
+4,"""spunge""","""wenple""",4,1336,"""Fewer than half""",1320,true
+4,"""ingell""","""nalill""",76,823,"""Fewer than half""",1285,false
+4,"""shurry""","""preser""",68,2727,"""More than half""",1294,true
+4,"""birler""","""enciad""",46,2769,"""Few""",1857,false
+4,"""puggle""","""entand""",81,1481,"""More than half""",159,true
+4,"""pirter""","""secent""",36,871,"""Fewer than half""",1937,true
+4,"""birler""","""enciad""",41,1097,"""Many""",1089,false
+4,"""dorder""","""coggon""",25,560,"""More than half""",1064,false
+4,"""werner""","""hurmer""",91,1031,"""Fewer than half""",1449,false
+4,"""jallem""","""sildal""",16,1464,"""Few""",1320,false
+4,"""chadop""","""shaple""",91,1849,"""Fewer than half""",1658,false
+4,"""sporer""","""firtly""",4,953,"""More than half""",1374,false
+4,"""strant""","""potind""",62,737,"""Many""",1121,true
+4,"""mecket""","""plumry""",15,568,"""Many""",1111,false
+4,"""coppar""","""hunene""",68,1160,"""Few""",1096,false
+4,"""birler""","""enciad""",24,745,"""More than half""",1543,false
+4,"""awplor""","""fasees""",10,752,"""Many""",1016,false
+4,"""ingell""","""nalill""",57,1164,"""Few""",1101,false
+4,"""jallem""","""sildal""",74,1161,"""Fewer than half""",1448,false
+4,"""middor""","""drooty""",13,2160,"""Many""",1175,false
+4,"""werner""","""hurmer""",98,674,"""Many""",952,true
+4,"""puctor""","""recure""",89,776,"""Many""",1271,true
+4,"""mecket""","""plumry""",52,912,"""More than half""",961,true
+4,"""beckel""","""racual""",96,672,"""More than half""",1058,true
+4,"""isbant""","""unairs""",24,623,"""Most""",1066,false
+4,"""ancits""","""smeath""",99,905,"""Many""",1480,true
+4,"""birler""","""enciad""",47,1576,"""Most""",1392,false
+4,"""isbant""","""unairs""",22,665,"""Many""",912,false
+4,"""isbant""","""unairs""",54,1768,"""Few""",1057,false
+4,"""sporer""","""firtly""",21,1281,"""Fewer than half""",1435,true
+4,"""pluset""","""stubad""",72,691,"""Fewer than half""",103,false
+4,"""chevel""","""podden""",42,1135,"""Many""",144,false
+4,"""cosutz""","""spover""",91,903,"""More than half""",1872,true
+4,"""cather""","""funder""",77,696,"""Many""",1024,true
+4,"""cather""","""funder""",21,501,"""More than half""",919,false
+4,"""boddle""","""molill""",58,1088,"""Fewer than half""",2176,false
+4,"""clidge""","""hensly""",69,751,"""More than half""",993,true
+4,"""russer""","""huttle""",40,737,"""More than half""",1207,false
+4,"""boddle""","""molill""",36,1914,"""Few""",1167,true
+4,"""fleeve""","""scalfs""",63,1393,"""Many""",1167,false
+4,"""gukbar""","""soarse""",29,1331,"""Fewer than half""",1711,true
+4,"""chadop""","""shaple""",25,1208,"""Many""",1351,false
+4,"""bameta""","""unzast""",29,648,"""Most""",1273,false
+4,"""pirter""","""secent""",83,609,"""Many""",1071,true
+4,"""beckel""","""racual""",93,785,"""Many""",1184,true
+4,"""awplor""","""fasees""",54,936,"""Few""",1288,false
+4,"""padnet""","""fanely""",63,1760,"""Few""",1271,false
+4,"""hadder""","""ollidy""",85,1167,"""More than half""",1608,true
+4,"""ancits""","""smeath""",36,1280,"""Few""",1658,false
+4,"""chulks""","""vulhor""",39,5504,"""Fewer than half""",2881,true
+4,"""pengyl""","""sedest""",35,3959,"""Fewer than half""",1802,true
+4,"""zetten""","""unfobs""",66,7378,"""Many""",1816,false
+4,"""chadop""","""shaple""",30,1152,"""Few""",1049,true
+4,"""cather""","""funder""",90,687,"""Few""",880,false
+4,"""puggle""","""entand""",57,854,"""Many""",966,true
+4,"""russer""","""huttle""",3,938,"""Few""",1855,true
+4,"""gukbar""","""soarse""",70,1816,"""More than half""",1336,true
+4,"""monter""","""melelt""",53,664,"""Few""",1137,false
+4,"""monter""","""melelt""",21,873,"""Fewer than half""",1743,true
+4,"""isbant""","""unairs""",94,1888,"""Fewer than half""",1824,false
+4,"""shamer""","""bloifs""",93,1568,"""More than half""",2066,true
+4,"""werner""","""hurmer""",1,1881,"""Few""",1368,true
+4,"""puggle""","""entand""",92,753,"""Most""",1055,true
+4,"""raster""","""movell""",5,885,"""More than half""",1187,false
+4,"""russer""","""huttle""",78,2249,"""Fewer than half""",1663,false
+4,"""shurry""","""preser""",46,679,"""Many""",897,false
+4,"""pengyl""","""sedest""",84,545,"""Many""",1255,true
+4,"""zetten""","""unfobs""",59,1032,"""More than half""",1200,true
+4,"""umpond""","""marire""",28,736,"""Most""",1064,false
+4,"""pobbit""","""spippy""",4,617,"""Most""",953,false
+4,"""cather""","""funder""",44,1046,"""Most""",1232,false
+4,"""gukbar""","""soarse""",70,872,"""Most""",1312,true
+4,"""strant""","""potind""",69,1031,"""Most""",1214,true
+4,"""birler""","""enciad""",35,1417,"""Fewer than half""",1551,false
+4,"""kustle""","""reshix""",90,1280,"""Most""",1232,true
+4,"""boddle""","""molill""",23,977,"""More than half""",1409,false
+4,"""beckel""","""racual""",93,1248,"""Most""",1539,true
+4,"""sporer""","""firtly""",20,912,"""Most""",3807,false
+4,"""beckel""","""racual""",9,792,"""Few""",1720,false
+4,"""russer""","""huttle""",96,2065,"""Many""",2335,true
+4,"""middor""","""drooty""",96,672,"""Few""",2410,false
+4,"""menner""","""nandow""",58,2000,"""Many""",993,true
+4,"""bemble""","""squank""",36,561,"""Most""",1054,false
+4,"""menner""","""nandow""",68,735,"""Few""",1032,false
+4,"""pluset""","""stubad""",16,572,"""Many""",911,false
+4,"""shrile""","""athoid""",29,736,"""Few""",889,true
+4,"""shurry""","""preser""",88,841,"""Most""",915,true
+4,"""tiklet""","""hullaw""",74,930,"""More than half""",1047,true
+4,"""ingell""","""nalill""",3,800,"""More than half""",1239,false
+4,"""umpond""","""marire""",43,954,"""Many""",1199,false
+4,"""sporer""","""firtly""",33,752,"""Few""",1034,false
+4,"""pobbit""","""spippy""",37,760,"""More than half""",1625,false
+4,"""ingell""","""nalill""",95,1000,"""Many""",1007,true
+4,"""hadder""","""ollidy""",63,1015,"""Few""",1359,false
+5,"""glerb""","""fizzda""",20,10519,"""All""",5389,false
+5,"""thonk""","""krangly""",82,6385,"""Some""",4620,true
+5,"""slarm""","""briddle""",11,3152,"""None""",5639,true
+5,"""klong""","""nooty""",62,3269,"""All""",129,true
+5,"""dring""","""larfy""",28,1893,"""None""",4384,false
+5,"""floom""","""plerful""",92,5390,"""Some""",3117,true
+5,"""blek""","""orkital""",54,1687,"""None""",3792,false
+5,"""tenk""","""glurgy""",8,2524,"""All""",2180,false
+5,"""shurry""","""preser""",18,4537,"""Many""",3642,false
+5,"""fleeve""","""scalfs""",53,4222,"""Many""",3268,true
+5,"""mecket""","""plumry""",95,3239,"""More than half""",9363,true
+5,"""coppar""","""hunene""",26,2600,"""Most""",3223,false
+5,"""clidge""","""hensly""",89,1925,"""More than half""",3242,true
+5,"""coamin""","""mucond""",65,1603,"""More than half""",2616,true
+5,"""sporer""","""firtly""",84,1917,"""Many""",4184,true
+5,"""chevel""","""podden""",24,1541,"""Most""",2071,false
+5,"""jallem""","""sildal""",10,887,"""Most""",2653,false
+5,"""isbant""","""unairs""",32,1157,"""Most""",2127,false
+5,"""schook""","""jabant""",4,7635,"""Fewer than half""",4539,true
+5,"""shurry""","""preser""",82,1344,"""Most""",233,true
+5,"""kustle""","""reshix""",90,2802,"""More than half""",2494,true
+5,"""boddle""","""molill""",32,6239,"""Few""",1846,true
+5,"""pluset""","""stubad""",57,2236,"""Few""",3620,false
+5,"""middor""","""drooty""",10,1295,"""Few""",1093,true
+5,"""spunge""","""wenple""",52,1009,"""Few""",1278,false
+5,"""shamer""","""bloifs""",32,1428,"""Fewer than half""",2541,true
+5,"""padnet""","""fanely""",37,803,"""More than half""",2283,false
+5,"""fleeve""","""scalfs""",34,11761,"""Few""",1657,true
+5,"""pobbit""","""spippy""",98,1044,"""Many""",1104,true
+5,"""boddle""","""molill""",89,1032,"""Many""",990,true
+5,"""pengyl""","""sedest""",73,2362,"""Many""",1323,true
+5,"""fleeve""","""scalfs""",74,1413,"""More than half""",1579,true
+5,"""shamer""","""bloifs""",97,1516,"""Most""",1214,true
+5,"""puctor""","""recure""",21,1407,"""Fewer than half""",4920,true
+5,"""shurry""","""preser""",87,985,"""Few""",1525,false
+5,"""zetten""","""unfobs""",64,3399,"""Most""",1656,false
+5,"""cather""","""funder""",94,1334,"""Fewer than half""",1608,false
+5,"""umpond""","""marire""",7,979,"""Most""",1230,false
+5,"""pliper""","""sesare""",20,753,"""More than half""",1181,false
+5,"""shrile""","""athoid""",97,4370,"""More than half""",1036,true
+5,"""puggle""","""entand""",55,1493,"""More than half""",1539,true
+5,"""pluset""","""stubad""",16,616,"""Most""",1184,false
+5,"""zetten""","""unfobs""",77,905,"""More than half""",1302,true
+5,"""tiklet""","""hullaw""",57,1001,"""More than half""",1150,true
+5,"""werner""","""hurmer""",92,1042,"""More than half""",1102,true
+5,"""mecket""","""plumry""",98,984,"""Fewer than half""",4400,false
+5,"""sporer""","""firtly""",18,1498,"""More than half""",1571,false
+5,"""pengyl""","""sedest""",42,1142,"""Fewer than half""",2160,true
+5,"""strant""","""potind""",52,1023,"""Most""",1344,false
+5,"""coppar""","""hunene""",39,1063,"""Fewer than half""",1644,true
+5,"""kustle""","""reshix""",3,1046,"""Few""",1771,true
+5,"""pobbit""","""spippy""",87,738,"""Few""",984,false
+5,"""tiklet""","""hullaw""",77,740,"""Fewer than half""",1474,false
+5,"""isbant""","""unairs""",3,787,"""Many""",1085,false
+5,"""dorder""","""coggon""",56,887,"""Few""",2170,false
+5,"""strant""","""potind""",49,1238,"""Fewer than half""",1830,true
+5,"""pirter""","""secent""",20,1389,"""Fewer than half""",1297,true
+5,"""raster""","""movell""",33,897,"""Fewer than half""",1780,true
+5,"""zetten""","""unfobs""",92,1316,"""Many""",1474,true
+5,"""middor""","""drooty""",85,660,"""Fewer than half""",1852,false
+5,"""menner""","""nandow""",41,1587,"""Few""",1938,false
+5,"""isbant""","""unairs""",33,733,"""Fewer than half""",1688,true
+5,"""gukbar""","""soarse""",71,671,"""More than half""",1076,false
+5,"""middor""","""drooty""",57,1049,"""Most""",1601,false
+5,"""strant""","""potind""",70,725,"""Many""",1529,true
+5,"""puggle""","""entand""",26,627,"""Many""",1170,false
+5,"""awplor""","""fasees""",38,713,"""Most""",2276,false
+5,"""gukbar""","""soarse""",85,572,"""Most""",1383,true
+5,"""devole""","""sholly""",7,685,"""More than half""",1438,false
+5,"""raster""","""movell""",23,987,"""Few""",1879,true
+5,"""kustle""","""reshix""",21,649,"""Fewer than half""",1451,true
+5,"""ancits""","""smeath""",49,1077,"""Few""",1760,false
+5,"""devole""","""sholly""",32,632,"""Fewer than half""",1575,true
+5,"""shrile""","""athoid""",88,560,"""Most""",2148,true
+5,"""monter""","""melelt""",82,848,"""Fewer than half""",3403,false
+5,"""isbant""","""unairs""",28,728,"""Few""",838,true
+5,"""padnet""","""fanely""",30,1596,"""Most""",994,false
+5,"""coppar""","""hunene""",15,912,"""Few""",1137,true
+5,"""pirter""","""secent""",36,1251,"""Most""",942,false
+5,"""birler""","""enciad""",16,673,"""More than half""",1576,false
+5,"""spunge""","""wenple""",71,754,"""Most""",1059,true
+5,"""puctor""","""recure""",20,740,"""Few""",998,true
+5,"""hadder""","""ollidy""",93,839,"""Many""",1537,true
+5,"""devole""","""sholly""",35,987,"""Most""",1808,false
+5,"""bemble""","""squank""",30,899,"""Fewer than half""",1469,true
+5,"""schook""","""jabant""",91,756,"""Few""",1359,false
+5,"""puctor""","""recure""",77,516,"""Many""",5423,true
+5,"""monter""","""melelt""",69,620,"""More than half""",4293,true
+5,"""sporer""","""firtly""",31,559,"""Most""",1076,false
+5,"""chulks""","""vulhor""",93,805,"""Many""",941,true
+5,"""mecket""","""plumry""",89,641,"""Few""",1299,false
+5,"""spunge""","""wenple""",78,515,"""More than half""",887,true
+5,"""clidge""","""hensly""",30,837,"""Few""",755,true
+5,"""dorder""","""coggon""",62,638,"""Many""",928,true
+5,"""bemble""","""squank""",41,772,"""More than half""",1601,false
+5,"""bameta""","""unzast""",44,1086,"""Most""",1844,false
+5,"""hadder""","""ollidy""",86,696,"""Few""",1238,false
+5,"""werner""","""hurmer""",7,1036,"""Few""",938,true
+5,"""boddle""","""molill""",29,673,"""More than half""",1042,false
+5,"""ingell""","""nalill""",84,640,"""Fewer than half""",1655,false
+5,"""monter""","""melelt""",48,1100,"""Few""",1022,false
+5,"""beckel""","""racual""",18,509,"""Few""",1165,true
+5,"""chevel""","""podden""",33,682,"""More than half""",973,false
+5,"""ancits""","""smeath""",63,526,"""Most""",798,true
+5,"""jallem""","""sildal""",42,815,"""Many""",3716,false
+5,"""awplor""","""fasees""",44,711,"""More than half""",2527,false
+5,"""jallem""","""sildal""",82,650,"""Fewer than half""",1185,false
+5,"""shamer""","""bloifs""",91,832,"""More than half""",1105,true
+5,"""chulks""","""vulhor""",88,673,"""Few""",1482,false
+5,"""ingell""","""nalill""",49,728,"""Most""",1292,false
+5,"""cather""","""funder""",41,719,"""Many""",1239,true
+5,"""jallem""","""sildal""",62,630,"""Few""",1107,false
+5,"""chulks""","""vulhor""",56,653,"""More than half""",1086,true
+5,"""menner""","""nandow""",19,674,"""Most""",870,false
+5,"""middor""","""drooty""",91,903,"""Many""",811,true
+5,"""pengyl""","""sedest""",73,1257,"""Most""",1699,true
+5,"""zetten""","""unfobs""",33,905,"""Few""",768,true
+5,"""monter""","""melelt""",51,804,"""Most""",1039,false
+5,"""ingell""","""nalill""",32,1003,"""More than half""",747,false
+5,"""shrile""","""athoid""",22,971,"""Many""",254,false
+5,"""raster""","""movell""",5,643,"""Many""",601,false
+5,"""birler""","""enciad""",90,476,"""Many""",703,true
+5,"""beckel""","""racual""",53,492,"""More than half""",546,true
+5,"""bameta""","""unzast""",48,606,"""More than half""",446,false
+5,"""chadop""","""shaple""",62,530,"""More than half""",716,true
+5,"""puggle""","""entand""",49,1037,"""Fewer than half""",169,false
+5,"""kustle""","""reshix""",9,669,"""Many""",177,false
+5,"""tecker""","""biller""",19,828,"""More than half""",883,false
+5,"""chadop""","""shaple""",77,540,"""Many""",1270,true
+5,"""werner""","""hurmer""",28,889,"""Fewer than half""",873,true
+5,"""bemble""","""squank""",40,710,"""Most""",1045,false
+5,"""cather""","""funder""",79,638,"""Few""",2937,false
+5,"""cosutz""","""spover""",83,765,"""More than half""",1873,true
+5,"""fleeve""","""scalfs""",84,678,"""Fewer than half""",882,false
+5,"""pobbit""","""spippy""",1,578,"""More than half""",927,false
+5,"""werner""","""hurmer""",98,551,"""Most""",744,true
+5,"""clidge""","""hensly""",81,585,"""Many""",844,true
+5,"""russer""","""huttle""",64,580,"""Few""",757,false
+5,"""russer""","""huttle""",14,587,"""More than half""",700,false
+5,"""coppar""","""hunene""",43,580,"""Many""",837,false
+5,"""strant""","""potind""",52,463,"""More than half""",1005,true
+5,"""pirter""","""secent""",84,439,"""Many""",732,true
+5,"""padnet""","""fanely""",5,7322,"""Fewer than half""",1037,true
+5,"""birler""","""enciad""",79,649,"""Fewer than half""",1966,false
+5,"""awplor""","""fasees""",21,707,"""Many""",1110,false
+5,"""puctor""","""recure""",1,647,"""Most""",660,false
+5,"""mecket""","""plumry""",89,500,"""Most""",771,true
+5,"""gukbar""","""soarse""",5,1372,"""Many""",738,false
+5,"""strant""","""potind""",91,636,"""Few""",767,false
+5,"""menner""","""nandow""",44,854,"""Many""",715,false
+5,"""shrile""","""athoid""",53,946,"""Fewer than half""",1451,false
+5,"""umpond""","""marire""",2,3475,"""Fewer than half""",1062,true
+5,"""bameta""","""unzast""",20,567,"""Few""",1721,true
+5,"""clidge""","""hensly""",55,1493,"""Most""",786,false
+5,"""boddle""","""molill""",14,1493,"""Most""",1423,false
+5,"""bemble""","""squank""",93,475,"""Many""",981,true
+5,"""devole""","""sholly""",84,593,"""Many""",689,true
+5,"""puggle""","""entand""",20,1233,"""Few""",819,true
+5,"""kustle""","""reshix""",95,563,"""Most""",732,true
+5,"""chevel""","""podden""",86,609,"""Fewer than half""",872,false
+5,"""pliper""","""sesare""",40,3440,"""Few""",710,true
+5,"""pliper""","""sesare""",34,632,"""Most""",666,false
+5,"""awplor""","""fasees""",34,916,"""Fewer than half""",831,true
+5,"""russer""","""huttle""",6,646,"""Fewer than half""",814,true
+5,"""cather""","""funder""",4,801,"""Most""",621,false
+5,"""birler""","""enciad""",28,848,"""Few""",532,true
+5,"""chadop""","""shaple""",79,623,"""Fewer than half""",837,false
+5,"""pluset""","""stubad""",62,1160,"""Many""",645,true
+5,"""middor""","""drooty""",93,903,"""More than half""",1049,true
+5,"""spunge""","""wenple""",40,568,"""Fewer than half""",994,true
+5,"""menner""","""nandow""",62,551,"""Fewer than half""",904,false
+5,"""pengyl""","""sedest""",86,449,"""More than half""",803,true
+5,"""cosutz""","""spover""",25,516,"""Few""",887,true
+5,"""pluset""","""stubad""",39,795,"""More than half""",862,false
+5,"""tecker""","""biller""",75,505,"""Many""",493,true
+5,"""pirter""","""secent""",34,678,"""More than half""",818,false
+5,"""sporer""","""firtly""",82,725,"""Fewer than half""",210,false
+5,"""coamin""","""mucond""",15,561,"""Few""",1356,true
+5,"""chevel""","""podden""",52,732,"""Few""",762,false
+5,"""bemble""","""squank""",25,625,"""Few""",1004,true
+5,"""beckel""","""racual""",30,852,"""Fewer than half""",865,true
+5,"""umpond""","""marire""",24,609,"""More than half""",828,false
+5,"""bameta""","""unzast""",22,485,"""Fewer than half""",785,true
+5,"""cosutz""","""spover""",56,1196,"""Most""",877,false
+5,"""chulks""","""vulhor""",76,736,"""Fewer than half""",1486,false
+5,"""schook""","""jabant""",69,794,"""Many""",5385,true
+5,"""pengyl""","""sedest""",54,703,"""Few""",906,false
+5,"""tecker""","""biller""",45,805,"""Most""",806,false
+5,"""tecker""","""biller""",70,621,"""Fewer than half""",972,false
+5,"""padnet""","""fanely""",78,804,"""Few""",1249,false
+5,"""tiklet""","""hullaw""",85,592,"""Many""",1150,true
+5,"""tecker""","""biller""",29,657,"""Few""",785,true
+5,"""shurry""","""preser""",95,558,"""Fewer than half""",1310,false
+5,"""hadder""","""ollidy""",82,763,"""More than half""",668,true
+5,"""spunge""","""wenple""",41,4066,"""Many""",621,true
+5,"""raster""","""movell""",17,554,"""Most""",855,false
+5,"""pliper""","""sesare""",60,666,"""Many""",731,true
+5,"""puggle""","""entand""",90,578,"""Most""",896,true
+5,"""isbant""","""unairs""",46,609,"""More than half""",635,false
+5,"""coamin""","""mucond""",62,600,"""Fewer than half""",431,false
+5,"""cosutz""","""spover""",79,498,"""Many""",723,true
+5,"""boddle""","""molill""",2,683,"""Fewer than half""",899,true
+5,"""shamer""","""bloifs""",13,730,"""Many""",836,false
+5,"""fleeve""","""scalfs""",70,6041,"""Most""",873,true
+5,"""hadder""","""ollidy""",71,940,"""Fewer than half""",766,false
+5,"""shurry""","""preser""",61,463,"""More than half""",654,true
+5,"""coamin""","""mucond""",46,1784,"""Many""",626,true
+5,"""ingell""","""nalill""",47,643,"""Few""",1057,false
+5,"""bameta""","""unzast""",15,769,"""Many""",709,false
+5,"""chulks""","""vulhor""",58,831,"""Most""",568,false
+5,"""beckel""","""racual""",75,601,"""Many""",635,true
+5,"""menner""","""nandow""",25,632,"""More than half""",798,false
+5,"""russer""","""huttle""",47,614,"""Most""",551,false
+5,"""umpond""","""marire""",24,1478,"""Many""",800,false
+5,"""birler""","""enciad""",13,534,"""Most""",750,false
+5,"""chevel""","""podden""",13,603,"""Many""",702,false
+5,"""ancits""","""smeath""",58,456,"""More than half""",884,true
+5,"""shrile""","""athoid""",60,679,"""Few""",630,false
+5,"""pluset""","""stubad""",30,468,"""Fewer than half""",864,true
+5,"""tiklet""","""hullaw""",54,759,"""Most""",840,false
+5,"""shamer""","""bloifs""",4,535,"""Few""",971,true
+5,"""dorder""","""coggon""",3,551,"""Most""",739,false
+5,"""pobbit""","""spippy""",6,591,"""Fewer than half""",900,true
+5,"""schook""","""jabant""",66,457,"""More than half""",802,true
+5,"""raster""","""movell""",35,687,"""More than half""",838,false
+5,"""padnet""","""fanely""",61,795,"""Many""",692,true
+5,"""awplor""","""fasees""",30,889,"""Few""",840,true
+5,"""cather""","""funder""",47,556,"""More than half""",879,false
+5,"""ingell""","""nalill""",11,720,"""Many""",1608,false
+5,"""pobbit""","""spippy""",29,553,"""Most""",972,false
+5,"""puctor""","""recure""",22,604,"""More than half""",809,false
+5,"""russer""","""huttle""",84,570,"""Many""",863,true
+5,"""werner""","""hurmer""",68,587,"""Many""",811,true
+5,"""tiklet""","""hullaw""",5,526,"""Few""",705,true
+5,"""coamin""","""mucond""",94,570,"""Most""",1028,true
+5,"""gukbar""","""soarse""",4,551,"""Fewer than half""",822,true
+5,"""coppar""","""hunene""",45,1321,"""More than half""",879,false
+5,"""hadder""","""ollidy""",68,7817,"""Most""",646,true
+5,"""umpond""","""marire""",39,530,"""Few""",1073,false
+5,"""monter""","""melelt""",68,521,"""Many""",1443,true
+5,"""pirter""","""secent""",18,758,"""Few""",894,true
+5,"""pliper""","""sesare""",58,591,"""Fewer than half""",829,false
+5,"""gukbar""","""soarse""",3,636,"""Few""",785,true
+5,"""jallem""","""sildal""",17,611,"""More than half""",741,false
+5,"""dorder""","""coggon""",12,759,"""Fewer than half""",798,true
+5,"""chadop""","""shaple""",65,1334,"""Most""",844,false
+5,"""sporer""","""firtly""",3,518,"""Few""",805,true
+5,"""clidge""","""hensly""",34,525,"""Fewer than half""",775,true
+5,"""ancits""","""smeath""",72,543,"""Fewer than half""",698,false
+5,"""dorder""","""coggon""",9,548,"""More than half""",667,false
+5,"""chadop""","""shaple""",47,914,"""Few""",822,false
+5,"""schook""","""jabant""",79,575,"""Most""",750,true
+5,"""ancits""","""smeath""",16,833,"""Many""",867,false
+5,"""beckel""","""racual""",66,4432,"""Most""",734,true
+5,"""zetten""","""unfobs""",56,628,"""Fewer than half""",801,false
+5,"""cosutz""","""spover""",2,548,"""Fewer than half""",752,true
+5,"""mecket""","""plumry""",2,619,"""Many""",694,false
+5,"""devole""","""sholly""",47,719,"""Few""",781,false
+6,"""glerb""","""fizzda""",20,3100,"""All""",5320,false
+6,"""thonk""","""krangly""",82,6511,"""Some""",1627,true
+6,"""slarm""","""briddle""",11,2239,"""None""",1584,false
+6,"""klong""","""nooty""",62,6316,"""All""",1136,false
+6,"""dring""","""larfy""",28,2672,"""None""",1084,false
+6,"""floom""","""plerful""",92,1894,"""Some""",503,false
+6,"""blek""","""orkital""",54,1575,"""None""",184,false
+6,"""tenk""","""glurgy""",8,2160,"""All""",1367,false
+6,"""bemble""","""squank""",91,2808,"""Fewer than half""",4662,false
+6,"""devole""","""sholly""",26,3360,"""Many""",1949,false
+6,"""clidge""","""hensly""",44,2627,"""Fewer than half""",2807,true
+6,"""isbant""","""unairs""",96,1832,"""Most""",1112,true
+6,"""sporer""","""firtly""",82,1472,"""Most""",1132,true
+6,"""pirter""","""secent""",92,2736,"""Most""",1080,true
+6,"""russer""","""huttle""",23,2188,"""Fewer than half""",1833,true
+6,"""birler""","""enciad""",85,1032,"""Few""",1649,false
+6,"""coamin""","""mucond""",46,1624,"""Few""",184,false
+6,"""awplor""","""fasees""",69,1704,"""Many""",1567,true
+6,"""menner""","""nandow""",7,1144,"""Many""",2535,false
+6,"""ingell""","""nalill""",2,4688,"""Fewer than half""",2448,true
+6,"""coamin""","""mucond""",19,1285,"""Fewer than half""",2009,true
+6,"""schook""","""jabant""",1,2745,"""Few""",3369,true
+6,"""beckel""","""racual""",90,1305,"""Fewer than half""",1545,false
+6,"""jallem""","""sildal""",28,1384,"""More than half""",1377,false
+6,"""shrile""","""athoid""",11,1080,"""Most""",1209,false
+6,"""puggle""","""entand""",97,903,"""Few""",1246,false
+6,"""birler""","""enciad""",12,2462,"""Fewer than half""",2975,true
+6,"""boddle""","""molill""",83,2224,"""Many""",1329,true
+6,"""ancits""","""smeath""",14,1784,"""Fewer than half""",1449,true
+6,"""pluset""","""stubad""",78,1743,"""Most""",1479,true
+6,"""middor""","""drooty""",31,1345,"""Fewer than half""",2368,true
+6,"""puggle""","""entand""",10,1076,"""Most""",1216,false
+6,"""puctor""","""recure""",11,903,"""More than half""",1355,false
+6,"""raster""","""movell""",90,888,"""Most""",1081,true
+6,"""padnet""","""fanely""",74,815,"""Fewer than half""",1182,false
+6,"""pobbit""","""spippy""",51,1168,"""Fewer than half""",1152,false
+6,"""coppar""","""hunene""",96,568,"""Fewer than half""",1170,false
+6,"""gukbar""","""soarse""",61,680,"""Fewer than half""",1031,false
+6,"""chevel""","""podden""",94,920,"""Fewer than half""",1066,false
+6,"""menner""","""nandow""",66,775,"""Few""",1511,false
+6,"""dorder""","""coggon""",15,1201,"""Few""",984,true
+6,"""awplor""","""fasees""",60,1172,"""Most""",1039,true
+6,"""coppar""","""hunene""",15,656,"""More than half""",1456,false
+6,"""umpond""","""marire""",89,777,"""Few""",952,false
+6,"""tecker""","""biller""",61,784,"""Fewer than half""",1856,false
+6,"""padnet""","""fanely""",9,1370,"""Few""",1648,true
+6,"""bemble""","""squank""",77,544,"""Most""",863,true
+6,"""padnet""","""fanely""",74,567,"""Most""",840,true
+6,"""cather""","""funder""",14,1168,"""Few""",783,true
+6,"""chulks""","""vulhor""",46,8992,"""Many""",904,false
+6,"""zetten""","""unfobs""",60,633,"""More than half""",1071,true
+6,"""pliper""","""sesare""",10,1193,"""Few""",784,true
+6,"""pengyl""","""sedest""",20,991,"""Most""",712,false
+6,"""beckel""","""racual""",7,1065,"""Most""",793,false
+6,"""chulks""","""vulhor""",41,1992,"""Most""",664,false
+6,"""chevel""","""podden""",83,1679,"""Most""",896,true
+6,"""pobbit""","""spippy""",24,616,"""More than half""",841,false
+6,"""pirter""","""secent""",17,904,"""Few""",663,true
+6,"""strant""","""potind""",33,1032,"""Few""",697,true
+6,"""devole""","""sholly""",46,768,"""More than half""",864,false
+6,"""tiklet""","""hullaw""",87,904,"""Few""",727,false
+6,"""jallem""","""sildal""",85,641,"""Few""",632,false
+6,"""coamin""","""mucond""",35,713,"""Most""",761,false
+6,"""padnet""","""fanely""",9,933,"""Many""",648,false
+6,"""padnet""","""fanely""",18,733,"""More than half""",992,false
+6,"""raster""","""movell""",30,1599,"""Few""",568,true
+6,"""awplor""","""fasees""",1,703,"""More than half""",1847,false
+6,"""spunge""","""wenple""",42,3291,"""Many""",648,true
+6,"""pobbit""","""spippy""",98,1242,"""Many""",951,true
+6,"""cosutz""","""spover""",25,711,"""Most""",871,false
+6,"""sporer""","""firtly""",1,3335,"""Fewer than half""",664,true
+6,"""bameta""","""unzast""",69,831,"""Most""",1096,true
+6,"""spunge""","""wenple""",55,1128,"""Fewer than half""",248,false
+6,"""pobbit""","""spippy""",61,1176,"""Most""",872,true
+6,"""shamer""","""bloifs""",15,1195,"""Many""",1024,false
+6,"""devole""","""sholly""",45,1355,"""Fewer than half""",1023,true
+6,"""monter""","""melelt""",28,1008,"""Few""",831,true
+6,"""cather""","""funder""",98,784,"""Most""",2384,true
+6,"""tecker""","""biller""",29,1352,"""More than half""",720,false
+6,"""werner""","""hurmer""",78,688,"""More than half""",784,true
+6,"""chulks""","""vulhor""",9,928,"""Fewer than half""",751,false
+6,"""ingell""","""nalill""",45,1101,"""More than half""",1504,false
+6,"""chadop""","""shaple""",59,1151,"""Fewer than half""",2855,false
+6,"""puctor""","""recure""",72,698,"""Most""",1672,true
+6,"""raster""","""movell""",12,1470,"""More than half""",1120,false
+6,"""shamer""","""bloifs""",62,753,"""More than half""",1032,true
+6,"""beckel""","""racual""",88,896,"""Few""",2127,false
+6,"""cather""","""funder""",86,784,"""Many""",1342,true
+6,"""boddle""","""molill""",66,560,"""Most""",721,true
+6,"""schook""","""jabant""",1,816,"""Many""",648,false
+6,"""tiklet""","""hullaw""",47,1143,"""Fewer than half""",853,true
+6,"""clidge""","""hensly""",56,607,"""More than half""",647,true
+6,"""monter""","""melelt""",97,864,"""Fewer than half""",808,false
+6,"""mecket""","""plumry""",91,864,"""More than half""",776,true
+6,"""hadder""","""ollidy""",97,1728,"""Few""",1104,false
+6,"""gukbar""","""soarse""",22,912,"""Most""",872,false
+6,"""ancits""","""smeath""",76,736,"""More than half""",927,true
+6,"""awplor""","""fasees""",34,1936,"""Fewer than half""",1160,true
+6,"""umpond""","""marire""",37,778,"""More than half""",1720,false
+6,"""mecket""","""plumry""",43,1888,"""Many""",887,true
+6,"""mecket""","""plumry""",59,960,"""Few""",1167,false
+6,"""dorder""","""coggon""",60,2105,"""Fewer than half""",1223,false
+6,"""strant""","""potind""",39,2592,"""Many""",1305,false
+6,"""tiklet""","""hullaw""",75,792,"""More than half""",1760,true
+6,"""puggle""","""entand""",74,672,"""Many""",955,true
+6,"""shrile""","""athoid""",61,849,"""More than half""",959,true
+6,"""gukbar""","""soarse""",40,4999,"""Many""",952,true
+6,"""ingell""","""nalill""",28,1051,"""Many""",999,false
+6,"""tecker""","""biller""",66,727,"""Many""",704,true
+6,"""jallem""","""sildal""",66,825,"""Many""",856,true
+6,"""chulks""","""vulhor""",59,865,"""Few""",664,false
+6,"""chadop""","""shaple""",16,1984,"""Many""",808,false
+6,"""fleeve""","""scalfs""",67,799,"""More than half""",1407,true
+6,"""umpond""","""marire""",2,1681,"""Fewer than half""",839,true
+6,"""dorder""","""coggon""",22,1343,"""More than half""",1073,false
+6,"""ancits""","""smeath""",43,1853,"""Most""",1670,false
+6,"""hadder""","""ollidy""",97,603,"""More than half""",903,true
+6,"""russer""","""huttle""",9,1095,"""Few""",984,true
+6,"""menner""","""nandow""",13,2016,"""More than half""",993,false
+6,"""pengyl""","""sedest""",29,1702,"""Few""",827,true
+6,"""tiklet""","""hullaw""",29,944,"""Most""",839,false
+6,"""spunge""","""wenple""",30,991,"""Most""",833,false
+6,"""shurry""","""preser""",49,1081,"""Few""",668,false
+6,"""isbant""","""unairs""",22,1120,"""Fewer than half""",1360,true
+6,"""birler""","""enciad""",85,864,"""Many""",1185,true
+6,"""zetten""","""unfobs""",16,1936,"""Most""",904,false
+6,"""hadder""","""ollidy""",19,896,"""Fewer than half""",1193,true
+6,"""hadder""","""ollidy""",47,1088,"""Many""",1191,true
+6,"""clidge""","""hensly""",76,743,"""Many""",968,true
+6,"""bameta""","""unzast""",16,971,"""Few""",1001,true
+6,"""gukbar""","""soarse""",69,808,"""More than half""",1143,true
+6,"""fleeve""","""scalfs""",68,863,"""Many""",944,true
+6,"""raster""","""movell""",55,935,"""Many""",1432,true
+6,"""chadop""","""shaple""",2,1057,"""Few""",848,true
+6,"""pengyl""","""sedest""",85,663,"""Many""",912,true
+6,"""coppar""","""hunene""",88,727,"""Most""",913,true
+6,"""shurry""","""preser""",24,753,"""Most""",1153,false
+6,"""pluset""","""stubad""",44,1097,"""More than half""",1041,false
+6,"""bameta""","""unzast""",43,987,"""More than half""",960,false
+6,"""dorder""","""coggon""",12,701,"""Many""",849,false
+6,"""schook""","""jabant""",81,945,"""Fewer than half""",823,false
+6,"""umpond""","""marire""",51,3081,"""Most""",760,true
+6,"""pirter""","""secent""",10,656,"""More than half""",1037,false
+6,"""pliper""","""sesare""",22,952,"""Many""",688,false
+6,"""bemble""","""squank""",84,934,"""Few""",601,false
+6,"""jallem""","""sildal""",91,840,"""Most""",640,true
+6,"""spunge""","""wenple""",24,696,"""Few""",856,true
+6,"""shamer""","""bloifs""",54,760,"""Few""",794,false
+6,"""pluset""","""stubad""",42,1185,"""Many""",759,true
+6,"""coppar""","""hunene""",25,633,"""Many""",769,false
+6,"""clidge""","""hensly""",79,856,"""Few""",697,false
+6,"""mecket""","""plumry""",10,1228,"""Fewer than half""",847,true
+6,"""cosutz""","""spover""",5,1119,"""Few""",864,true
+6,"""zetten""","""unfobs""",72,717,"""Few""",831,false
+6,"""cosutz""","""spover""",59,785,"""More than half""",831,true
+6,"""cather""","""funder""",42,840,"""More than half""",745,false
+6,"""clidge""","""hensly""",36,1418,"""Most""",800,false
+6,"""pobbit""","""spippy""",27,1291,"""Few""",672,true
+6,"""fleeve""","""scalfs""",14,838,"""Few""",680,true
+6,"""middor""","""drooty""",49,1264,"""Many""",801,true
+6,"""werner""","""hurmer""",89,688,"""Many""",784,true
+6,"""beckel""","""racual""",66,631,"""More than half""",881,true
+6,"""chadop""","""shaple""",44,960,"""Most""",680,false
+6,"""werner""","""hurmer""",68,848,"""Few""",655,false
+6,"""sporer""","""firtly""",30,2201,"""Many""",624,false
+6,"""shurry""","""preser""",22,815,"""Many""",857,false
+6,"""monter""","""melelt""",85,638,"""Many""",944,true
+6,"""chadop""","""shaple""",87,529,"""More than half""",856,true
+6,"""strant""","""potind""",88,762,"""More than half""",890,true
+6,"""coppar""","""hunene""",51,969,"""Few""",968,false
+6,"""chulks""","""vulhor""",93,625,"""More than half""",816,true
+6,"""kustle""","""reshix""",73,1123,"""Few""",752,false
+6,"""menner""","""nandow""",83,2465,"""Fewer than half""",1337,false
+6,"""ingell""","""nalill""",84,601,"""Most""",719,true
+6,"""chevel""","""podden""",39,737,"""More than half""",1496,false
+6,"""russer""","""huttle""",28,1464,"""Many""",811,false
+6,"""boddle""","""molill""",7,985,"""Fewer than half""",928,true
+6,"""fleeve""","""scalfs""",14,714,"""Most""",923,false
+6,"""shamer""","""bloifs""",45,1545,"""Most""",704,false
+6,"""strant""","""potind""",97,927,"""Fewer than half""",985,false
+6,"""gukbar""","""soarse""",51,819,"""Few""",729,false
+6,"""middor""","""drooty""",95,503,"""More than half""",773,true
+6,"""pluset""","""stubad""",44,1217,"""Fewer than half""",1032,true
+6,"""zetten""","""unfobs""",19,860,"""Fewer than half""",832,true
+6,"""birler""","""enciad""",76,1095,"""Most""",789,true
+6,"""menner""","""nandow""",63,984,"""Most""",983,true
+6,"""sporer""","""firtly""",31,861,"""More than half""",1600,false
+6,"""shamer""","""bloifs""",56,888,"""Fewer than half""",960,false
+6,"""pengyl""","""sedest""",94,515,"""More than half""",1200,true
+6,"""russer""","""huttle""",32,1416,"""More than half""",864,false
+6,"""pengyl""","""sedest""",62,816,"""Fewer than half""",1230,false
+6,"""dorder""","""coggon""",55,1868,"""Most""",697,true
+6,"""bameta""","""unzast""",90,1400,"""Fewer than half""",7656,false
+6,"""boddle""","""molill""",35,1369,"""More than half""",961,false
+6,"""isbant""","""unairs""",61,1288,"""Many""",1032,true
+6,"""puggle""","""entand""",71,736,"""More than half""",925,true
+6,"""shurry""","""preser""",72,962,"""More than half""",711,true
+6,"""cosutz""","""spover""",24,762,"""Many""",710,false
+6,"""shrile""","""athoid""",86,1919,"""Many""",600,true
+6,"""tecker""","""biller""",35,932,"""Few""",778,true
+6,"""chevel""","""podden""",42,984,"""Many""",1071,true
+6,"""zetten""","""unfobs""",93,637,"""Many""",625,true
+6,"""chevel""","""podden""",73,864,"""Few""",853,false
+6,"""strant""","""potind""",6,1023,"""Most""",614,false
+6,"""isbant""","""unairs""",89,809,"""Few""",760,false
+6,"""hadder""","""ollidy""",19,1119,"""Most""",507,false
+6,"""cosutz""","""spover""",25,856,"""Fewer than half""",976,true
+6,"""middor""","""drooty""",95,1063,"""Few""",1072,false
+6,"""jallem""","""sildal""",33,606,"""Fewer than half""",919,true
+6,"""pirter""","""secent""",39,991,"""Many""",826,false
+6,"""puctor""","""recure""",49,1320,"""Fewer than half""",1088,true
+6,"""fleeve""","""scalfs""",25,776,"""Fewer than half""",881,true
+6,"""puggle""","""entand""",74,728,"""Fewer than half""",880,false
+6,"""spunge""","""wenple""",68,545,"""More than half""",769,true
+6,"""pliper""","""sesare""",75,833,"""Fewer than half""",751,false
+6,"""schook""","""jabant""",39,816,"""Most""",872,false
+6,"""umpond""","""marire""",97,4306,"""Many""",735,true
+6,"""werner""","""hurmer""",31,1105,"""Most""",907,false
+6,"""pliper""","""sesare""",71,2103,"""Most""",582,true
+6,"""schook""","""jabant""",63,1296,"""More than half""",1168,true
+6,"""raster""","""movell""",42,754,"""Fewer than half""",2449,true
+6,"""kustle""","""reshix""",18,688,"""Most""",738,false
+6,"""coamin""","""mucond""",2,2000,"""Many""",865,false
+6,"""middor""","""drooty""",27,706,"""Most""",875,false
+6,"""bemble""","""squank""",24,641,"""Many""",672,false
+6,"""werner""","""hurmer""",15,740,"""Fewer than half""",784,true
+6,"""kustle""","""reshix""",99,1328,"""Many""",807,true
+6,"""puctor""","""recure""",87,2090,"""Few""",1410,false
+6,"""sporer""","""firtly""",44,1128,"""Few""",680,false
+6,"""kustle""","""reshix""",51,928,"""More than half""",910,true
+6,"""awplor""","""fasees""",18,1083,"""Few""",1280,true
+6,"""pirter""","""secent""",27,600,"""Fewer than half""",872,true
+6,"""coamin""","""mucond""",98,1608,"""More than half""",878,true
+6,"""bemble""","""squank""",9,792,"""More than half""",2208,false
+6,"""beckel""","""racual""",82,801,"""Many""",881,true
+6,"""puctor""","""recure""",86,591,"""Many""",784,true
+6,"""mecket""","""plumry""",33,768,"""Most""",760,false
+6,"""shurry""","""preser""",64,2104,"""Fewer than half""",931,false
+6,"""monter""","""melelt""",90,669,"""More than half""",928,true
+6,"""isbant""","""unairs""",34,568,"""More than half""",824,false
+6,"""kustle""","""reshix""",58,1568,"""Fewer than half""",904,false
+6,"""ingell""","""nalill""",59,2650,"""Few""",960,false
+6,"""tecker""","""biller""",65,5375,"""Most""",239,true
+6,"""russer""","""huttle""",67,1078,"""Most""",933,true
+6,"""shrile""","""athoid""",35,1296,"""Few""",1378,true
+6,"""devole""","""sholly""",86,1048,"""Few""",4984,false
+6,"""cather""","""funder""",56,1472,"""Fewer than half""",1090,false
+6,"""boddle""","""molill""",30,1168,"""Few""",856,true
+6,"""pluset""","""stubad""",97,1059,"""Few""",928,false
+6,"""tiklet""","""hullaw""",35,1337,"""Many""",1489,false
+6,"""birler""","""enciad""",40,1432,"""More than half""",1080,false
+6,"""bameta""","""unzast""",72,1023,"""Many""",832,true
+6,"""ancits""","""smeath""",73,534,"""Many""",983,true
+6,"""pliper""","""sesare""",25,641,"""More than half""",848,false
+6,"""shrile""","""athoid""",32,1792,"""Fewer than half""",1199,true
+6,"""ancits""","""smeath""",16,1152,"""Few""",1382,true
+6,"""monter""","""melelt""",32,800,"""Most""",983,false
+6,"""devole""","""sholly""",62,3867,"""Most""",680,true
+7,"""glerb""","""fizzda""",20,7230,"""All""",18829,false
+7,"""thonk""","""krangly""",82,5934,"""Some""",14860,true
+7,"""slarm""","""briddle""",11,23953,"""None""",188,false
+7,"""klong""","""nooty""",62,4656,"""All""",153,true
+7,"""dring""","""larfy""",28,3166,"""None""",69,true
+7,"""floom""","""plerful""",92,3509,"""Some""",6608,true
+7,"""blek""","""orkital""",54,10034,"""None""",2285,true
+7,"""tenk""","""glurgy""",8,5655,"""All""",114,false
+7,"""isbant""","""unairs""",28,15391,"""Few""",16,true
+7,"""dorder""","""coggon""",83,4445,"""Most""",3344,true
+7,"""chadop""","""shaple""",40,2103,"""Most""",150,true
+7,"""devole""","""sholly""",60,2716,"""Few""",3635,false
+7,"""ancits""","""smeath""",55,4220,"""Many""",6074,true
+7,"""kustle""","""reshix""",68,2227,"""Many""",5292,true
+7,"""jallem""","""sildal""",43,2734,"""Fewer than half""",12091,true
+7,"""cather""","""funder""",1,2277,"""More than half""",3882,false
+7,"""pengyl""","""sedest""",32,2370,"""Fewer than half""",5153,true
+7,"""fleeve""","""scalfs""",81,2078,"""Few""",8248,false
+7,"""zetten""","""unfobs""",8,2005,"""Most""",5129,false
+7,"""cather""","""funder""",3,2192,"""Fewer than half""",8945,true
+7,"""menner""","""nandow""",3,3378,"""Few""",1624,true
+7,"""coamin""","""mucond""",70,1787,"""Many""",5395,true
+7,"""boddle""","""molill""",45,2774,"""More than half""",3579,false
+7,"""werner""","""hurmer""",39,1663,"""Many""",3921,false
+7,"""strant""","""potind""",38,2415,"""Fewer than half""",4077,true
+7,"""shurry""","""preser""",51,2449,"""Few""",3845,false
+7,"""tecker""","""biller""",69,4061,"""Most""",190,false
+7,"""menner""","""nandow""",40,3657,"""More than half""",4496,false
+7,"""spunge""","""wenple""",26,1926,"""Most""",3851,false
+7,"""beckel""","""racual""",65,4633,"""Few""",3630,false
+7,"""schook""","""jabant""",9,1700,"""Many""",8303,false
+7,"""puggle""","""entand""",67,1926,"""Fewer than half""",7815,false
+7,"""menner""","""nandow""",89,2143,"""Most""",3384,true
+7,"""clidge""","""hensly""",41,2151,"""Many""",6510,false
+7,"""spunge""","""wenple""",65,1363,"""Few""",2305,false
+7,"""shamer""","""bloifs""",85,2453,"""More than half""",3907,true
+7,"""gukbar""","""soarse""",96,1603,"""Many""",5971,true
+7,"""pliper""","""sesare""",54,2600,"""Few""",5137,false
+7,"""chadop""","""shaple""",60,1401,"""Few""",4301,false
+7,"""bameta""","""unzast""",15,1739,"""Few""",4476,true
+7,"""tiklet""","""hullaw""",72,1173,"""More than half""",2632,false
+7,"""bemble""","""squank""",76,1700,"""Few""",6257,false
+7,"""awplor""","""fasees""",98,2080,"""Many""",3556,true
+7,"""awplor""","""fasees""",57,2753,"""Most""",3857,true
+7,"""ancits""","""smeath""",68,1950,"""Few""",4912,false
+7,"""kustle""","""reshix""",77,2328,"""More than half""",3392,true
+7,"""shurry""","""preser""",99,2362,"""Fewer than half""",6589,false
+7,"""jallem""","""sildal""",95,2101,"""Most""",5697,true
+7,"""shamer""","""bloifs""",72,1474,"""Fewer than half""",5012,false
+7,"""mecket""","""plumry""",83,1477,"""More than half""",3373,true
+7,"""ingell""","""nalill""",74,1777,"""Most""",3581,true
+7,"""schook""","""jabant""",19,1856,"""Few""",3311,true
+7,"""tecker""","""biller""",18,1436,"""More than half""",6083,false
+7,"""pirter""","""secent""",49,1640,"""More than half""",4254,false
+7,"""chadop""","""shaple""",97,1854,"""More than half""",14701,true
+7,"""dorder""","""coggon""",31,8825,"""Few""",11797,true
+7,"""cather""","""funder""",70,1536,"""Most""",2723,true
+7,"""gukbar""","""soarse""",98,8151,"""More than half""",3465,true
+7,"""birler""","""enciad""",88,4748,"""Fewer than half""",3657,true
+7,"""padnet""","""fanely""",9,2444,"""More than half""",5511,false
+7,"""middor""","""drooty""",33,2700,"""Most""",481,false
+7,"""schook""","""jabant""",70,2958,"""More than half""",4182,true
+7,"""ancits""","""smeath""",16,1953,"""Most""",9478,false
+7,"""mecket""","""plumry""",9,1813,"""Most""",3934,false
+7,"""boddle""","""molill""",29,1695,"""Many""",5919,false
+7,"""cosutz""","""spover""",80,1851,"""More than half""",2935,true
+7,"""bameta""","""unzast""",63,2278,"""Many""",2786,true
+7,"""dorder""","""coggon""",34,1569,"""Fewer than half""",3553,false
+7,"""shrile""","""athoid""",81,6289,"""Many""",381,true
+7,"""bameta""","""unzast""",53,1771,"""Fewer than half""",3742,false
+7,"""puggle""","""entand""",34,1458,"""Most""",2345,false
+7,"""hadder""","""ollidy""",86,4492,"""More than half""",5080,true
+7,"""gukbar""","""soarse""",1,1287,"""Most""",8267,false
+7,"""puggle""","""entand""",79,1309,"""More than half""",3039,true
+7,"""shamer""","""bloifs""",67,1222,"""Many""",2036,true
+7,"""mecket""","""plumry""",77,1027,"""Many""",2823,true
+7,"""puctor""","""recure""",90,1295,"""Few""",3145,false
+7,"""fleeve""","""scalfs""",24,1436,"""Many""",2606,false
+7,"""hadder""","""ollidy""",42,1800,"""Few""",3472,true
+7,"""shrile""","""athoid""",85,1061,"""Fewer than half""",2898,false
+7,"""puctor""","""recure""",8,2566,"""Fewer than half""",1868,true
+7,"""bemble""","""squank""",19,2172,"""Many""",2860,false
+7,"""puctor""","""recure""",7,1577,"""Many""",2194,false
+7,"""chulks""","""vulhor""",52,1398,"""More than half""",2556,true
+7,"""monter""","""melelt""",71,1196,"""Fewer than half""",2130,false
+7,"""pliper""","""sesare""",34,1379,"""More than half""",5875,false
+7,"""werner""","""hurmer""",86,1135,"""Few""",4622,false
+7,"""chadop""","""shaple""",39,1298,"""Fewer than half""",2310,false
+7,"""russer""","""huttle""",67,1248,"""Most""",3113,true
+7,"""bameta""","""unzast""",27,1241,"""More than half""",2846,false
+7,"""boddle""","""molill""",41,1689,"""Fewer than half""",3353,true
+7,"""strant""","""potind""",94,1137,"""Few""",2971,false
+7,"""umpond""","""marire""",46,2044,"""Few""",2002,true
+7,"""russer""","""huttle""",78,948,"""Many""",9597,true
+7,"""shurry""","""preser""",17,1323,"""Most""",2370,false
+7,"""spunge""","""wenple""",54,1371,"""More than half""",2609,true
+7,"""raster""","""movell""",33,1154,"""More than half""",1858,false
+7,"""schook""","""jabant""",25,1100,"""Most""",1859,false
+7,"""coamin""","""mucond""",35,1732,"""Most""",2435,false
+7,"""umpond""","""marire""",63,1156,"""Fewer than half""",2198,false
+7,"""menner""","""nandow""",8,1511,"""Fewer than half""",4628,true
+7,"""bemble""","""squank""",46,1362,"""More than half""",1558,true
+7,"""cather""","""funder""",39,1343,"""Few""",2806,true
+7,"""shrile""","""athoid""",41,2998,"""Most""",2115,false
+7,"""puggle""","""entand""",90,1784,"""Few""",1675,false
+7,"""shrile""","""athoid""",90,1286,"""More than half""",1678,true
+7,"""fleeve""","""scalfs""",87,1104,"""Fewer than half""",2200,false
+7,"""birler""","""enciad""",60,1403,"""Many""",1325,true
+7,"""pengyl""","""sedest""",9,1315,"""Many""",2136,false
+7,"""fleeve""","""scalfs""",4,1102,"""Most""",1718,false
+7,"""monter""","""melelt""",3,1361,"""Few""",5970,true
+7,"""strant""","""potind""",32,1292,"""Most""",1363,false
+7,"""raster""","""movell""",87,1324,"""Many""",1199,true
+7,"""russer""","""huttle""",34,1135,"""Fewer than half""",1464,true
+7,"""hadder""","""ollidy""",38,1362,"""Most""",1064,false
+7,"""kustle""","""reshix""",13,1343,"""Most""",1201,false
+7,"""devole""","""sholly""",7,1400,"""Many""",3099,false
+7,"""ancits""","""smeath""",65,1287,"""More than half""",1627,true
+7,"""werner""","""hurmer""",75,904,"""More than half""",2440,true
+7,"""coamin""","""mucond""",39,1908,"""Few""",1804,true
+7,"""umpond""","""marire""",94,991,"""Many""",1309,true
+7,"""pengyl""","""sedest""",15,1919,"""Few""",1537,true
+7,"""tecker""","""biller""",23,1270,"""Few""",1133,true
+7,"""shamer""","""bloifs""",73,986,"""Few""",1122,false
+7,"""sporer""","""firtly""",79,1427,"""Fewer than half""",1242,false
+7,"""devole""","""sholly""",72,1110,"""Most""",1607,true
+7,"""spunge""","""wenple""",87,1339,"""Fewer than half""",1459,false
+7,"""beckel""","""racual""",82,1153,"""More than half""",1134,true
+7,"""ingell""","""nalill""",48,1285,"""Fewer than half""",3928,true
+7,"""shurry""","""preser""",81,798,"""Many""",2058,true
+7,"""schook""","""jabant""",58,1302,"""Fewer than half""",1533,false
+7,"""puctor""","""recure""",43,1174,"""More than half""",1901,false
+7,"""isbant""","""unairs""",18,1512,"""Many""",1331,false
+7,"""coamin""","""mucond""",71,933,"""Fewer than half""",1348,false
+7,"""pobbit""","""spippy""",35,1889,"""Few""",1019,true
+7,"""clidge""","""hensly""",4,1188,"""Few""",932,true
+7,"""dorder""","""coggon""",15,1208,"""More than half""",1800,false
+7,"""strant""","""potind""",95,1187,"""More than half""",1569,true
+7,"""shamer""","""bloifs""",37,1443,"""Most""",1113,false
+7,"""coppar""","""hunene""",96,1033,"""Few""",1304,false
+7,"""mecket""","""plumry""",63,1434,"""Fewer than half""",1689,false
+7,"""chulks""","""vulhor""",44,1535,"""Most""",1940,false
+7,"""coppar""","""hunene""",61,961,"""Most""",2311,true
+7,"""chulks""","""vulhor""",71,1249,"""Many""",1524,true
+7,"""shurry""","""preser""",91,1475,"""More than half""",5062,true
+7,"""birler""","""enciad""",62,1298,"""Most""",2879,true
+7,"""tecker""","""biller""",98,752,"""Many""",2906,true
+7,"""pliper""","""sesare""",25,1308,"""Fewer than half""",4497,true
+7,"""isbant""","""unairs""",84,1292,"""Most""",1962,true
+7,"""menner""","""nandow""",90,973,"""Many""",1384,true
+7,"""ingell""","""nalill""",78,797,"""Many""",1435,true
+7,"""fleeve""","""scalfs""",84,817,"""More than half""",1496,true
+7,"""jallem""","""sildal""",85,798,"""Many""",1307,true
+7,"""pliper""","""sesare""",3,1244,"""Many""",853,false
+7,"""pirter""","""secent""",59,1824,"""Fewer than half""",1689,false
+7,"""pliper""","""sesare""",87,1169,"""Most""",1885,true
+7,"""chevel""","""podden""",64,2590,"""Most""",1305,true
+7,"""middor""","""drooty""",65,1372,"""Fewer than half""",2378,false
+7,"""raster""","""movell""",38,1321,"""Fewer than half""",1287,true
+7,"""chevel""","""podden""",5,1437,"""More than half""",1208,false
+7,"""mecket""","""plumry""",13,1814,"""Few""",970,true
+7,"""coamin""","""mucond""",59,910,"""More than half""",1271,true
+7,"""chevel""","""podden""",89,1604,"""Fewer than half""",1522,false
+7,"""monter""","""melelt""",14,1288,"""Many""",1163,false
+7,"""birler""","""enciad""",24,2723,"""More than half""",972,false
+7,"""bemble""","""squank""",75,1099,"""Most""",1047,true
+7,"""middor""","""drooty""",49,1718,"""Many""",970,false
+7,"""pobbit""","""spippy""",60,1102,"""Most""",735,true
+7,"""tiklet""","""hullaw""",83,910,"""Many""",974,true
+7,"""ancits""","""smeath""",43,1332,"""Fewer than half""",1705,false
+7,"""chevel""","""podden""",59,1320,"""Many""",1402,true
+7,"""beckel""","""racual""",54,982,"""Many""",956,true
+7,"""sporer""","""firtly""",78,1047,"""Few""",907,false
+7,"""clidge""","""hensly""",78,1303,"""More than half""",796,true
+7,"""raster""","""movell""",36,1334,"""Few""",1245,false
+7,"""bameta""","""unzast""",58,1152,"""Most""",84,false
+7,"""puggle""","""entand""",29,1627,"""Many""",1527,false
+7,"""chadop""","""shaple""",96,1071,"""Many""",1250,true
+7,"""middor""","""drooty""",92,915,"""More than half""",1230,true
+7,"""pobbit""","""spippy""",68,1362,"""Fewer than half""",2920,false
+7,"""spunge""","""wenple""",74,984,"""Many""",1047,true
+7,"""shrile""","""athoid""",51,1294,"""Few""",1723,false
+7,"""cosutz""","""spover""",28,1262,"""Most""",917,false
+7,"""tiklet""","""hullaw""",96,1614,"""Few""",1066,false
+7,"""jallem""","""sildal""",25,1591,"""Few""",1917,true
+7,"""padnet""","""fanely""",48,1301,"""Few""",889,true
+7,"""clidge""","""hensly""",42,969,"""Fewer than half""",1232,true
+7,"""pirter""","""secent""",94,1203,"""Many""",776,true
+7,"""boddle""","""molill""",7,1372,"""Few""",1307,true
+7,"""sporer""","""firtly""",6,1286,"""More than half""",1240,false
+7,"""isbant""","""unairs""",60,1134,"""Fewer than half""",1172,false
+7,"""cather""","""funder""",81,1945,"""Many""",927,true
+7,"""puctor""","""recure""",51,1023,"""Most""",1408,true
+7,"""russer""","""huttle""",19,1059,"""More than half""",852,false
+7,"""pobbit""","""spippy""",11,1216,"""More than half""",1017,false
+7,"""beckel""","""racual""",29,2401,"""Fewer than half""",1877,true
+7,"""pobbit""","""spippy""",94,1084,"""Many""",874,true
+7,"""pengyl""","""sedest""",5,829,"""Most""",1086,true
+7,"""coppar""","""hunene""",10,1396,"""More than half""",1064,false
+7,"""sporer""","""firtly""",10,1101,"""Many""",892,false
+7,"""chevel""","""podden""",40,2124,"""Few""",924,true
+7,"""gukbar""","""soarse""",85,1323,"""Few""",887,false
+7,"""jallem""","""sildal""",4,1303,"""More than half""",987,false
+7,"""padnet""","""fanely""",23,2274,"""Many""",1133,false
+7,"""dorder""","""coggon""",20,2264,"""Many""",932,false
+7,"""middor""","""drooty""",89,1201,"""Few""",912,false
+7,"""pluset""","""stubad""",13,872,"""More than half""",801,false
+7,"""chulks""","""vulhor""",74,1568,"""Fewer than half""",2007,false
+7,"""tiklet""","""hullaw""",71,893,"""Fewer than half""",1048,true
+7,"""pirter""","""secent""",93,1215,"""Few""",870,false
+7,"""pluset""","""stubad""",26,1137,"""Few""",656,true
+7,"""tecker""","""biller""",76,1330,"""Fewer than half""",772,false
+7,"""clidge""","""hensly""",39,1329,"""Most""",838,true
+7,"""padnet""","""fanely""",25,2084,"""Fewer than half""",2186,false
+7,"""zetten""","""unfobs""",51,1323,"""More than half""",3435,false
+7,"""devole""","""sholly""",49,1335,"""Fewer than half""",1320,true
+7,"""boddle""","""molill""",91,981,"""Most""",1314,true
+7,"""umpond""","""marire""",98,912,"""Most""",1503,true
+7,"""werner""","""hurmer""",53,977,"""Fewer than half""",1329,true
+7,"""chulks""","""vulhor""",56,1092,"""Few""",855,true
+7,"""beckel""","""racual""",15,986,"""Most""",2283,false
+7,"""raster""","""movell""",82,797,"""Most""",811,true
+7,"""ingell""","""nalill""",78,1286,"""Few""",813,false
+7,"""pengyl""","""sedest""",60,1336,"""More than half""",1568,true
+7,"""coppar""","""hunene""",37,948,"""Many""",1369,true
+7,"""russer""","""huttle""",83,1056,"""Few""",1336,false
+7,"""awplor""","""fasees""",43,808,"""Few""",1285,true
+7,"""cosutz""","""spover""",8,1441,"""Fewer than half""",1290,true
+7,"""zetten""","""unfobs""",7,1403,"""Many""",1095,false
+7,"""hadder""","""ollidy""",47,1404,"""Many""",1370,false
+7,"""kustle""","""reshix""",68,1621,"""Few""",924,false
+7,"""pluset""","""stubad""",25,1474,"""Many""",1342,false
+7,"""bemble""","""squank""",34,1050,"""Fewer than half""",1541,true
+7,"""cosutz""","""spover""",25,872,"""Many""",971,false
+7,"""tiklet""","""hullaw""",3,1137,"""Most""",766,false
+7,"""zetten""","""unfobs""",13,1433,"""Few""",851,true
+7,"""hadder""","""ollidy""",70,837,"""Fewer than half""",1945,false
+7,"""zetten""","""unfobs""",75,982,"""Fewer than half""",991,false
+7,"""birler""","""enciad""",93,1300,"""Few""",915,false
+7,"""umpond""","""marire""",31,1190,"""More than half""",966,false
+7,"""pluset""","""stubad""",90,1089,"""Most""",1306,true
+7,"""awplor""","""fasees""",44,1392,"""More than half""",1418,false
+7,"""monter""","""melelt""",19,1080,"""Most""",609,false
+7,"""sporer""","""firtly""",80,1228,"""Most""",887,true
+7,"""devole""","""sholly""",47,1550,"""More than half""",970,false
+7,"""coppar""","""hunene""",42,1694,"""Fewer than half""",972,true
+7,"""ingell""","""nalill""",28,1050,"""More than half""",771,false
+7,"""isbant""","""unairs""",16,1344,"""More than half""",697,false
+7,"""padnet""","""fanely""",86,941,"""Most""",821,true
+7,"""kustle""","""reshix""",33,1212,"""Fewer than half""",1128,true
+7,"""monter""","""melelt""",56,1208,"""More than half""",880,true
+7,"""pluset""","""stubad""",44,2232,"""Fewer than half""",883,false
+7,"""gukbar""","""soarse""",20,1125,"""Fewer than half""",2224,true
+7,"""pirter""","""secent""",78,842,"""Most""",1487,true
+7,"""cosutz""","""spover""",39,1305,"""Few""",897,true
+7,"""strant""","""potind""",91,989,"""Many""",932,true
+7,"""werner""","""hurmer""",29,1188,"""Most""",456,false
+7,"""awplor""","""fasees""",38,2616,"""Fewer than half""",507,false
+8,"""glerb""","""fizzda""",20,12422,"""All""",208,false
+8,"""thonk""","""krangly""",82,4884,"""Some""",4986,true
+8,"""slarm""","""briddle""",11,4927,"""None""",2545,false
+8,"""klong""","""nooty""",62,1808,"""All""",1723,false
+8,"""dring""","""larfy""",28,1609,"""None""",1870,false
+8,"""floom""","""plerful""",92,4373,"""Some""",1575,true
+8,"""blek""","""orkital""",54,1359,"""None""",1771,false
+8,"""tenk""","""glurgy""",8,1969,"""All""",1781,false
+8,"""coamin""","""mucond""",28,946,"""More than half""",2055,false
+8,"""shurry""","""preser""",96,2461,"""Fewer than half""",2957,false
+8,"""werner""","""hurmer""",43,1366,"""Many""",2877,true
+8,"""shamer""","""bloifs""",10,916,"""Fewer than half""",3081,true
+8,"""russer""","""huttle""",17,629,"""Most""",1619,false
+8,"""birler""","""enciad""",26,1019,"""Few""",1631,true
+8,"""jallem""","""sildal""",67,965,"""More than half""",1640,true
+8,"""fleeve""","""scalfs""",97,603,"""Most""",1419,true
+8,"""pobbit""","""spippy""",64,772,"""Many""",1379,true
+8,"""gukbar""","""soarse""",20,815,"""Few""",896,true
+8,"""kustle""","""reshix""",83,1043,"""Most""",1370,true
+8,"""bameta""","""unzast""",6,704,"""Most""",1450,false
+8,"""middor""","""drooty""",17,843,"""Few""",1243,true
+8,"""padnet""","""fanely""",27,561,"""Fewer than half""",1103,true
+8,"""ingell""","""nalill""",29,722,"""Few""",867,true
+8,"""bemble""","""squank""",73,418,"""Many""",848,true
+8,"""umpond""","""marire""",51,1026,"""Few""",336,false
+8,"""ancits""","""smeath""",9,938,"""More than half""",666,false
+8,"""raster""","""movell""",99,621,"""Fewer than half""",640,false
+8,"""kustle""","""reshix""",99,782,"""Few""",27084,false
+8,"""dorder""","""coggon""",29,1313,"""Fewer than half""",1677,true
+8,"""hadder""","""ollidy""",48,671,"""Fewer than half""",703,true
+8,"""gukbar""","""soarse""",47,611,"""More than half""",695,false
+8,"""devole""","""sholly""",40,11349,"""Few""",2266,true
+8,"""puctor""","""recure""",79,598,"""Fewer than half""",1012,false
+8,"""birler""","""enciad""",32,1137,"""Fewer than half""",1114,true
+8,"""mecket""","""plumry""",63,579,"""Fewer than half""",1130,false
+8,"""russer""","""huttle""",7,693,"""Fewer than half""",369,true
+8,"""chadop""","""shaple""",45,900,"""Fewer than half""",1395,false
+8,"""chadop""","""shaple""",72,559,"""Most""",28369,true
+8,"""padnet""","""fanely""",11,444,"""Few""",719,true
+8,"""beckel""","""racual""",98,517,"""Most""",701,true
+8,"""pobbit""","""spippy""",55,779,"""Few""",781,false
+8,"""pirter""","""secent""",34,640,"""Most""",1996,false
+8,"""pliper""","""sesare""",99,1308,"""Fewer than half""",13245,false
+8,"""cosutz""","""spover""",58,637,"""Most""",973,false
+8,"""strant""","""potind""",87,689,"""Most""",679,true
+8,"""tecker""","""biller""",71,549,"""Fewer than half""",717,false
+8,"""mecket""","""plumry""",19,449,"""Few""",631,false
+8,"""shurry""","""preser""",73,509,"""Many""",1005,true
+8,"""tiklet""","""hullaw""",97,833,"""Fewer than half""",585,false
+8,"""clidge""","""hensly""",21,570,"""Many""",785,false
+8,"""pirter""","""secent""",58,627,"""More than half""",562,true
+8,"""raster""","""movell""",34,684,"""Many""",658,false
+8,"""gukbar""","""soarse""",86,846,"""Fewer than half""",681,false
+8,"""clidge""","""hensly""",10,1226,"""More than half""",1017,false
+8,"""bemble""","""squank""",70,755,"""Fewer than half""",26135,false
+8,"""chevel""","""podden""",79,771,"""Few""",666,false
+8,"""shamer""","""bloifs""",37,13454,"""Few""",1017,false
+8,"""kustle""","""reshix""",43,643,"""Many""",734,false
+8,"""chadop""","""shaple""",7,676,"""Few""",1420,true
+8,"""menner""","""nandow""",67,922,"""Many""",2330,true
+8,"""beckel""","""racual""",16,559,"""More than half""",514,false
+8,"""shrile""","""athoid""",98,672,"""Few""",595,false
+8,"""coppar""","""hunene""",77,577,"""More than half""",1144,true
+8,"""umpond""","""marire""",96,557,"""Fewer than half""",697,false
+8,"""strant""","""potind""",85,671,"""Few""",596,false
+8,"""ingell""","""nalill""",27,669,"""Fewer than half""",687,true
+8,"""tecker""","""biller""",15,1049,"""Few""",212,true
+8,"""puggle""","""entand""",5,1068,"""Fewer than half""",691,false
+8,"""clidge""","""hensly""",34,1308,"""Few""",706,true
+8,"""coppar""","""hunene""",79,946,"""Fewer than half""",1211,false
+8,"""dorder""","""coggon""",59,1062,"""Many""",22686,true
+8,"""cosutz""","""spover""",95,921,"""Few""",579,false
+8,"""shrile""","""athoid""",31,1813,"""More than half""",424,false
+8,"""bameta""","""unzast""",71,730,"""Many""",1755,true
+8,"""werner""","""hurmer""",64,562,"""Most""",713,true
+8,"""chadop""","""shaple""",2,547,"""More than half""",2110,false
+8,"""cather""","""funder""",83,909,"""Many""",1747,true
+8,"""puggle""","""entand""",14,861,"""Few""",1155,true
+8,"""coamin""","""mucond""",92,845,"""Many""",812,true
+8,"""spunge""","""wenple""",98,1566,"""Many""",1187,true
+8,"""mecket""","""plumry""",82,567,"""Most""",1218,true
+8,"""pluset""","""stubad""",21,778,"""Fewer than half""",751,false
+8,"""tiklet""","""hullaw""",15,906,"""More than half""",1134,false
+8,"""cosutz""","""spover""",47,646,"""Fewer than half""",2288,false
+8,"""monter""","""melelt""",96,578,"""Many""",681,true
+8,"""chulks""","""vulhor""",61,1771,"""Fewer than half""",932,false
+8,"""menner""","""nandow""",94,872,"""More than half""",589,true
+8,"""jallem""","""sildal""",70,674,"""Fewer than half""",589,false
+8,"""puctor""","""recure""",4,944,"""Few""",864,true
+8,"""russer""","""huttle""",27,594,"""Many""",744,false
+8,"""middor""","""drooty""",69,628,"""Most""",687,true
+8,"""pengyl""","""sedest""",73,1166,"""Most""",992,true
+8,"""zetten""","""unfobs""",12,1523,"""More than half""",12333,false
+8,"""dorder""","""coggon""",70,2090,"""Few""",1935,true
+8,"""werner""","""hurmer""",37,652,"""Few""",930,false
+8,"""bemble""","""squank""",46,1359,"""Most""",1768,false
+8,"""tiklet""","""hullaw""",95,985,"""Most""",738,true
+8,"""werner""","""hurmer""",61,808,"""Fewer than half""",905,false
+8,"""umpond""","""marire""",24,687,"""Most""",851,false
+8,"""middor""","""drooty""",3,614,"""More than half""",881,false
+8,"""hadder""","""ollidy""",5,945,"""More than half""",538,false
+8,"""raster""","""movell""",87,2225,"""More than half""",1509,true
+8,"""pirter""","""secent""",74,733,"""Many""",840,true
+8,"""padnet""","""fanely""",78,663,"""More than half""",452,true
+8,"""boddle""","""molill""",76,541,"""More than half""",461,true
+8,"""puggle""","""entand""",43,823,"""More than half""",1110,false
+8,"""ancits""","""smeath""",40,1408,"""Many""",38539,false
+8,"""fleeve""","""scalfs""",89,833,"""Fewer than half""",650,false
+8,"""padnet""","""fanely""",45,4795,"""Most""",25344,false
+8,"""pobbit""","""spippy""",21,780,"""Most""",10624,false
+8,"""tiklet""","""hullaw""",29,929,"""Few""",715,true
+8,"""menner""","""nandow""",58,707,"""Fewer than half""",730,false
+8,"""devole""","""sholly""",64,577,"""More than half""",3227,true
+8,"""pluset""","""stubad""",81,673,"""More than half""",932,true
+8,"""chevel""","""podden""",84,662,"""Many""",4286,true
+8,"""beckel""","""racual""",77,605,"""Fewer than half""",665,true
+8,"""cather""","""funder""",42,3943,"""Fewer than half""",150,false
+8,"""shrile""","""athoid""",94,719,"""Most""",1706,true
+8,"""puctor""","""recure""",80,556,"""More than half""",692,true
+8,"""sporer""","""firtly""",83,724,"""Fewer than half""",695,false
+8,"""sporer""","""firtly""",35,1116,"""Many""",277,true
+8,"""coamin""","""mucond""",76,1139,"""Fewer than half""",7698,false
+8,"""sporer""","""firtly""",49,557,"""Most""",667,false
+8,"""bemble""","""squank""",63,532,"""More than half""",636,true
+8,"""hadder""","""ollidy""",48,532,"""Many""",516,false
+8,"""cather""","""funder""",72,449,"""More than half""",416,true
+8,"""beckel""","""racual""",38,588,"""Many""",800,false
+8,"""clidge""","""hensly""",14,2504,"""Fewer than half""",467,false
+8,"""pluset""","""stubad""",37,675,"""Many""",486,false
+8,"""spunge""","""wenple""",46,1343,"""Few""",49,true
+8,"""chulks""","""vulhor""",23,579,"""More than half""",592,false
+8,"""puggle""","""entand""",8,962,"""Many""",386,false
+8,"""werner""","""hurmer""",30,668,"""More than half""",401,false
+8,"""schook""","""jabant""",86,668,"""Most""",3269,true
+8,"""pluset""","""stubad""",30,587,"""Most""",1010,false
+8,"""schook""","""jabant""",11,652,"""More than half""",448,false
+8,"""bameta""","""unzast""",68,636,"""More than half""",2481,true
+8,"""gukbar""","""soarse""",93,480,"""Most""",423,true
+8,"""isbant""","""unairs""",42,791,"""Fewer than half""",634,true
+8,"""pluset""","""stubad""",36,699,"""Few""",961,true
+8,"""birler""","""enciad""",5,536,"""Most""",706,false
+8,"""cosutz""","""spover""",32,619,"""More than half""",668,false
+8,"""boddle""","""molill""",44,795,"""Many""",833,false
+8,"""russer""","""huttle""",37,818,"""Few""",837,true
+8,"""schook""","""jabant""",83,1833,"""Few""",116,true
+8,"""monter""","""melelt""",17,763,"""Few""",696,true
+8,"""zetten""","""unfobs""",99,875,"""Fewer than half""",770,false
+8,"""sporer""","""firtly""",92,449,"""More than half""",800,true
+8,"""chevel""","""podden""",3,998,"""Fewer than half""",768,true
+8,"""raster""","""movell""",41,1429,"""Few""",811,true
+8,"""pliper""","""sesare""",86,524,"""More than half""",632,true
+8,"""pirter""","""secent""",11,522,"""Fewer than half""",667,false
+8,"""puggle""","""entand""",89,1248,"""Most""",643,true
+8,"""birler""","""enciad""",25,957,"""Many""",8451,false
+8,"""monter""","""melelt""",16,934,"""Fewer than half""",1999,true
+8,"""dorder""","""coggon""",57,453,"""More than half""",419,true
+8,"""jallem""","""sildal""",52,707,"""Few""",370,false
+8,"""fleeve""","""scalfs""",39,699,"""More than half""",506,false
+8,"""chulks""","""vulhor""",62,506,"""Most""",393,true
+8,"""tecker""","""biller""",47,721,"""Most""",569,false
+8,"""boddle""","""molill""",3,1249,"""Fewer than half""",427,true
+8,"""strant""","""potind""",45,1158,"""Fewer than half""",653,false
+8,"""zetten""","""unfobs""",67,858,"""Many""",415,true
+8,"""awplor""","""fasees""",38,668,"""Many""",624,false
+8,"""tecker""","""biller""",74,612,"""Many""",479,true
+8,"""kustle""","""reshix""",12,931,"""Fewer than half""",740,true
+8,"""puctor""","""recure""",10,757,"""Many""",650,true
+8,"""zetten""","""unfobs""",81,488,"""Most""",605,true
+8,"""tiklet""","""hullaw""",15,542,"""Many""",541,false
+8,"""kustle""","""reshix""",29,551,"""More than half""",1237,false
+8,"""pengyl""","""sedest""",25,550,"""More than half""",505,false
+8,"""isbant""","""unairs""",16,423,"""Few""",577,true
+8,"""boddle""","""molill""",33,685,"""Most""",482,false
+8,"""devole""","""sholly""",65,824,"""Many""",36737,true
+8,"""spunge""","""wenple""",32,614,"""Fewer than half""",559,true
+8,"""jallem""","""sildal""",8,1100,"""Most""",534,false
+8,"""umpond""","""marire""",91,641,"""More than half""",612,true
+8,"""shrile""","""athoid""",42,1588,"""Fewer than half""",438,true
+8,"""awplor""","""fasees""",48,846,"""Fewer than half""",357,false
+8,"""pliper""","""sesare""",65,644,"""Few""",313,true
+8,"""awplor""","""fasees""",56,432,"""More than half""",842,true
+8,"""spunge""","""wenple""",24,1237,"""More than half""",946,false
+8,"""pliper""","""sesare""",38,666,"""Most""",506,false
+8,"""chevel""","""podden""",13,526,"""Most""",638,false
+8,"""isbant""","""unairs""",94,472,"""Many""",387,true
+8,"""pengyl""","""sedest""",93,570,"""Few""",292,false
+8,"""coppar""","""hunene""",12,531,"""Most""",388,false
+8,"""menner""","""nandow""",8,782,"""Few""",397,true
+8,"""padnet""","""fanely""",44,731,"""Many""",395,false
+8,"""tecker""","""biller""",73,556,"""More than half""",393,true
+8,"""coamin""","""mucond""",9,1205,"""Few""",423,false
+8,"""bameta""","""unzast""",4,844,"""Fewer than half""",368,true
+8,"""shamer""","""bloifs""",78,2640,"""Most""",420,true
+8,"""pliper""","""sesare""",98,487,"""Many""",343,true
+8,"""shamer""","""bloifs""",76,485,"""Many""",379,true
+8,"""sporer""","""firtly""",89,815,"""Few""",384,false
+8,"""dorder""","""coggon""",18,16477,"""Most""",458,false
+8,"""devole""","""sholly""",40,672,"""Most""",515,false
+8,"""shrile""","""athoid""",15,547,"""Many""",450,false
+8,"""schook""","""jabant""",90,1424,"""Many""",10589,false
+8,"""monter""","""melelt""",79,479,"""Most""",377,true
+8,"""boddle""","""molill""",11,752,"""Few""",374,true
+8,"""shurry""","""preser""",70,1733,"""Most""",561,true
+8,"""cosutz""","""spover""",47,681,"""Many""",266,false
+8,"""chevel""","""podden""",53,590,"""More than half""",367,true
+8,"""pirter""","""secent""",51,938,"""Few""",450,false
+8,"""ingell""","""nalill""",55,523,"""More than half""",376,true
+8,"""chulks""","""vulhor""",23,616,"""Many""",385,false
+8,"""fleeve""","""scalfs""",12,977,"""Many""",333,false
+8,"""coppar""","""hunene""",79,668,"""Many""",381,true
+8,"""puctor""","""recure""",44,973,"""Most""",459,false
+8,"""beckel""","""racual""",79,604,"""Few""",408,false
+8,"""ancits""","""smeath""",18,621,"""Fewer than half""",329,true
+8,"""clidge""","""hensly""",65,870,"""Most""",443,true
+8,"""isbant""","""unairs""",1,1927,"""Most""",309,false
+8,"""monter""","""melelt""",4,913,"""More than half""",280,false
+8,"""raster""","""movell""",25,1241,"""Most""",320,false
+8,"""fleeve""","""scalfs""",43,858,"""Few""",402,false
+8,"""awplor""","""fasees""",16,1089,"""Few""",259,true
+8,"""mecket""","""plumry""",53,936,"""Many""",407,true
+8,"""pobbit""","""spippy""",93,2177,"""More than half""",376,false
+8,"""strant""","""potind""",33,920,"""More than half""",1530,false
+8,"""strant""","""potind""",74,695,"""Many""",762,true
+8,"""cather""","""funder""",96,689,"""Few""",918,false
+8,"""pengyl""","""sedest""",17,701,"""Fewer than half""",372,true
+8,"""umpond""","""marire""",31,742,"""Many""",338,false
+8,"""ancits""","""smeath""",66,659,"""Most""",426,true
+8,"""ingell""","""nalill""",65,592,"""Many""",361,true
+8,"""spunge""","""wenple""",80,666,"""Most""",6037,true
+8,"""shurry""","""preser""",20,675,"""More than half""",570,false
+8,"""coamin""","""mucond""",60,602,"""Most""",542,true
+8,"""devole""","""sholly""",80,780,"""Fewer than half""",938,false
+8,"""shurry""","""preser""",7,19680,"""Few""",11749,false
+8,"""hadder""","""ollidy""",63,491,"""Few""",357,false
+8,"""chulks""","""vulhor""",51,2413,"""Few""",367,false
+8,"""middor""","""drooty""",89,693,"""Many""",634,true
+8,"""pengyl""","""sedest""",80,540,"""Many""",361,true
+8,"""shamer""","""bloifs""",37,612,"""More than half""",313,false
+8,"""bameta""","""unzast""",28,1033,"""Few""",293,true
+8,"""bemble""","""squank""",28,507,"""Few""",492,true
+8,"""coppar""","""hunene""",88,629,"""Few""",387,false
+8,"""jallem""","""sildal""",11,594,"""Many""",381,false
+8,"""chadop""","""shaple""",59,499,"""Many""",424,true
+8,"""cather""","""funder""",37,582,"""Most""",394,false
+8,"""russer""","""huttle""",51,603,"""More than half""",426,true
+8,"""hadder""","""ollidy""",91,808,"""Most""",300,true
+8,"""schook""","""jabant""",10,1038,"""Fewer than half""",442,true
+8,"""gukbar""","""soarse""",26,645,"""Many""",565,false
+8,"""birler""","""enciad""",84,1221,"""More than half""",1146,true
+8,"""menner""","""nandow""",10,538,"""Most""",522,false
+8,"""pobbit""","""spippy""",44,792,"""Fewer than half""",510,false
+8,"""isbant""","""unairs""",88,560,"""More than half""",1939,true
+8,"""ancits""","""smeath""",33,812,"""Few""",506,true
+8,"""awplor""","""fasees""",27,571,"""Most""",1697,false
+8,"""zetten""","""unfobs""",69,1294,"""Few""",311,false
+8,"""middor""","""drooty""",98,945,"""Fewer than half""",392,false
+8,"""ingell""","""nalill""",28,1054,"""Most""",355,false
+8,"""mecket""","""plumry""",8,510,"""More than half""",686,false
+9,"""glerb""","""fizzda""",20,4319,"""All""",2704,false
+9,"""thonk""","""krangly""",82,4040,"""Some""",837,true
+9,"""slarm""","""briddle""",11,6737,"""None""",127,true
+9,"""klong""","""nooty""",62,1838,"""All""",1639,false
+9,"""dring""","""larfy""",28,2605,"""None""",1954,false
+9,"""floom""","""plerful""",92,3609,"""Some""",1572,true
+9,"""blek""","""orkital""",54,2529,"""None""",1245,false
+9,"""tenk""","""glurgy""",8,1907,"""All""",71,false
+9,"""middor""","""drooty""",38,2989,"""Fewer than half""",2108,true
+9,"""coppar""","""hunene""",12,2383,"""More than half""",1778,false
+9,"""chadop""","""shaple""",93,1750,"""Few""",3671,false
+9,"""shamer""","""bloifs""",8,5108,"""Fewer than half""",2057,true
+9,"""menner""","""nandow""",62,1438,"""Few""",1865,false
+9,"""shamer""","""bloifs""",93,1782,"""Few""",1656,false
+9,"""puctor""","""recure""",14,1799,"""More than half""",1758,false
+9,"""russer""","""huttle""",1,1638,"""More than half""",1723,false
+9,"""dorder""","""coggon""",24,1505,"""Fewer than half""",2641,true
+9,"""bemble""","""squank""",38,1424,"""Most""",2014,false
+9,"""awplor""","""fasees""",73,3764,"""Many""",2444,true
+9,"""chevel""","""podden""",36,2066,"""Most""",1692,false
+9,"""raster""","""movell""",68,1168,"""Few""",1236,false
+9,"""werner""","""hurmer""",73,1116,"""Most""",1375,true
+9,"""ingell""","""nalill""",56,1292,"""Many""",1539,true
+9,"""puggle""","""entand""",16,1573,"""Few""",1367,true
+9,"""jallem""","""sildal""",65,1210,"""Fewer than half""",2973,false
+9,"""menner""","""nandow""",20,1736,"""Most""",1265,true
+9,"""cosutz""","""spover""",36,1274,"""Many""",1338,false
+9,"""dorder""","""coggon""",21,1102,"""More than half""",1443,false
+9,"""middor""","""drooty""",56,951,"""More than half""",2046,true
+9,"""werner""","""hurmer""",74,1101,"""Fewer than half""",2212,false
+9,"""puggle""","""entand""",93,1007,"""Most""",1515,true
+9,"""sporer""","""firtly""",39,1388,"""Most""",1196,false
+9,"""chadop""","""shaple""",59,1130,"""Most""",1418,true
+9,"""zetten""","""unfobs""",56,1377,"""Most""",1236,true
+9,"""middor""","""drooty""",79,1134,"""Most""",1204,true
+9,"""birler""","""enciad""",34,1048,"""More than half""",1405,false
+9,"""hadder""","""ollidy""",27,1317,"""Fewer than half""",2126,true
+9,"""spunge""","""wenple""",37,1577,"""Few""",1535,true
+9,"""chulks""","""vulhor""",53,1205,"""Most""",1807,true
+9,"""bemble""","""squank""",61,1116,"""Many""",1210,true
+9,"""raster""","""movell""",64,1035,"""Many""",1320,true
+9,"""pengyl""","""sedest""",20,1453,"""Fewer than half""",2000,true
+9,"""clidge""","""hensly""",72,912,"""Most""",1107,true
+9,"""pliper""","""sesare""",52,1407,"""Fewer than half""",1257,false
+9,"""ancits""","""smeath""",78,956,"""More than half""",1348,true
+9,"""ingell""","""nalill""",53,1103,"""Few""",997,false
+9,"""umpond""","""marire""",23,1457,"""More than half""",1521,false
+9,"""coamin""","""mucond""",70,794,"""Few""",1218,false
+9,"""chulks""","""vulhor""",48,1377,"""Many""",1288,false
+9,"""coppar""","""hunene""",6,1097,"""Most""",1438,false
+9,"""ancits""","""smeath""",36,1199,"""Many""",1129,false
+9,"""mecket""","""plumry""",75,778,"""Most""",1276,true
+9,"""raster""","""movell""",47,1048,"""Fewer than half""",1328,true
+9,"""shrile""","""athoid""",55,941,"""Few""",1048,false
+9,"""pirter""","""secent""",10,982,"""More than half""",1200,false
+9,"""awplor""","""fasees""",92,769,"""Fewer than half""",1679,false
+9,"""beckel""","""racual""",86,898,"""Few""",1407,false
+9,"""chevel""","""podden""",20,956,"""Few""",1473,true
+9,"""puctor""","""recure""",32,1008,"""Most""",942,false
+9,"""puggle""","""entand""",68,690,"""More than half""",1308,true
+9,"""clidge""","""hensly""",10,2915,"""Fewer than half""",1440,false
+9,"""pluset""","""stubad""",53,1219,"""Fewer than half""",2663,false
+9,"""hadder""","""ollidy""",63,762,"""Many""",1057,true
+9,"""pengyl""","""sedest""",39,877,"""Few""",958,true
+9,"""werner""","""hurmer""",63,811,"""More than half""",1048,true
+9,"""gukbar""","""soarse""",97,662,"""Most""",1387,true
+9,"""awplor""","""fasees""",58,636,"""Few""",976,false
+9,"""pirter""","""secent""",25,1079,"""Fewer than half""",1120,true
+9,"""cather""","""funder""",47,835,"""Fewer than half""",1381,true
+9,"""zetten""","""unfobs""",21,913,"""Many""",1134,false
+9,"""bameta""","""unzast""",5,970,"""More than half""",1190,false
+9,"""gukbar""","""soarse""",58,824,"""More than half""",1379,true
+9,"""kustle""","""reshix""",84,1021,"""Fewer than half""",1201,false
+9,"""devole""","""sholly""",15,1068,"""More than half""",1534,false
+9,"""shrile""","""athoid""",18,4443,"""Fewer than half""",1591,false
+9,"""gukbar""","""soarse""",9,1365,"""Fewer than half""",2675,false
+9,"""puggle""","""entand""",97,1621,"""Many""",1479,true
+9,"""birler""","""enciad""",54,1735,"""Fewer than half""",1290,false
+9,"""chulks""","""vulhor""",64,997,"""Fewer than half""",997,false
+9,"""ancits""","""smeath""",77,665,"""Most""",881,true
+9,"""cosutz""","""spover""",77,516,"""More than half""",1765,true
+9,"""shurry""","""preser""",65,489,"""Most""",1176,true
+9,"""shamer""","""bloifs""",62,565,"""Most""",811,true
+9,"""padnet""","""fanely""",33,2036,"""Many""",1182,false
+9,"""middor""","""drooty""",64,727,"""Few""",1239,false
+9,"""tiklet""","""hullaw""",42,1646,"""Many""",1116,true
+9,"""bemble""","""squank""",19,844,"""More than half""",1075,false
+9,"""shrile""","""athoid""",95,616,"""Many""",908,true
+9,"""raster""","""movell""",33,723,"""More than half""",869,false
+9,"""fleeve""","""scalfs""",76,724,"""Most""",1143,true
+9,"""russer""","""huttle""",25,1026,"""Most""",722,false
+9,"""puctor""","""recure""",79,777,"""Fewer than half""",1264,false
+9,"""pluset""","""stubad""",55,939,"""Few""",1111,false
+9,"""umpond""","""marire""",61,970,"""Fewer than half""",1097,false
+9,"""dorder""","""coggon""",54,1699,"""Few""",957,false
+9,"""tiklet""","""hullaw""",61,1004,"""Few""",1458,false
+9,"""tecker""","""biller""",33,1882,"""Few""",1521,true
+9,"""boddle""","""molill""",36,1521,"""Few""",1784,true
+9,"""devole""","""sholly""",64,859,"""Few""",895,false
+9,"""isbant""","""unairs""",86,1527,"""Many""",956,true
+9,"""padnet""","""fanely""",12,769,"""Fewer than half""",723,true
+9,"""kustle""","""reshix""",54,651,"""Most""",1008,true
+9,"""gukbar""","""soarse""",96,764,"""Few""",632,false
+9,"""shrile""","""athoid""",98,894,"""Most""",158,true
+9,"""raster""","""movell""",42,714,"""Most""",1198,true
+9,"""russer""","""huttle""",48,851,"""Few""",1163,false
+9,"""dorder""","""coggon""",31,1093,"""Most""",844,false
+9,"""beckel""","""racual""",70,812,"""Most""",771,true
+9,"""tiklet""","""hullaw""",59,899,"""Fewer than half""",1659,false
+9,"""pliper""","""sesare""",45,717,"""More than half""",927,false
+9,"""coamin""","""mucond""",35,1134,"""Fewer than half""",1139,true
+9,"""russer""","""huttle""",70,470,"""Many""",875,true
+9,"""umpond""","""marire""",65,578,"""Many""",836,true
+9,"""awplor""","""fasees""",2,852,"""Most""",807,false
+9,"""russer""","""huttle""",47,712,"""Fewer than half""",1236,true
+9,"""pirter""","""secent""",7,925,"""Most""",779,false
+9,"""isbant""","""unairs""",28,1022,"""Most""",698,false
+9,"""coamin""","""mucond""",74,625,"""More than half""",1422,true
+9,"""monter""","""melelt""",65,1219,"""Few""",1049,true
+9,"""spunge""","""wenple""",86,638,"""Many""",2090,true
+9,"""fleeve""","""scalfs""",8,813,"""Few""",839,true
+9,"""jallem""","""sildal""",47,2896,"""Most""",928,false
+9,"""shurry""","""preser""",4,940,"""Many""",1081,false
+9,"""clidge""","""hensly""",39,2773,"""Few""",721,false
+9,"""pengyl""","""sedest""",54,758,"""More than half""",1367,true
+9,"""bemble""","""squank""",37,842,"""Fewer than half""",1312,true
+9,"""sporer""","""firtly""",11,2133,"""Fewer than half""",1097,false
+9,"""schook""","""jabant""",57,1371,"""Many""",1215,true
+9,"""padnet""","""fanely""",43,997,"""More than half""",898,false
+9,"""chadop""","""shaple""",99,704,"""Many""",1005,true
+9,"""kustle""","""reshix""",20,1223,"""Few""",1743,true
+9,"""puggle""","""entand""",6,1236,"""Fewer than half""",646,false
+9,"""clidge""","""hensly""",51,942,"""Many""",869,true
+9,"""menner""","""nandow""",38,779,"""More than half""",1594,false
+9,"""padnet""","""fanely""",11,1900,"""Most""",1075,false
+9,"""tiklet""","""hullaw""",85,878,"""Most""",3264,true
+9,"""bameta""","""unzast""",30,3642,"""Most""",1392,false
+9,"""birler""","""enciad""",98,1347,"""Few""",1534,false
+9,"""shurry""","""preser""",72,1832,"""More than half""",796,true
+9,"""pluset""","""stubad""",35,994,"""Most""",1655,false
+9,"""jallem""","""sildal""",48,1092,"""More than half""",1595,false
+9,"""coamin""","""mucond""",76,485,"""Many""",726,true
+9,"""isbant""","""unairs""",10,1131,"""Fewer than half""",684,true
+9,"""strant""","""potind""",74,581,"""Most""",778,true
+9,"""werner""","""hurmer""",42,1347,"""Few""",1061,true
+9,"""sporer""","""firtly""",7,783,"""More than half""",1062,false
+9,"""pobbit""","""spippy""",99,1894,"""Few""",2445,false
+9,"""monter""","""melelt""",98,958,"""More than half""",1022,true
+9,"""padnet""","""fanely""",93,883,"""Few""",939,false
+9,"""pirter""","""secent""",41,1485,"""Few""",1264,true
+9,"""tecker""","""biller""",93,744,"""Fewer than half""",1155,true
+9,"""clidge""","""hensly""",69,634,"""More than half""",1033,true
+9,"""tecker""","""biller""",24,1255,"""More than half""",965,false
+9,"""jallem""","""sildal""",2,679,"""Few""",961,false
+9,"""beckel""","""racual""",65,1012,"""Many""",666,true
+9,"""middor""","""drooty""",80,529,"""Many""",1307,true
+9,"""pobbit""","""spippy""",17,886,"""Most""",768,false
+9,"""kustle""","""reshix""",62,626,"""Many""",779,true
+9,"""strant""","""potind""",59,898,"""More than half""",858,true
+9,"""fleeve""","""scalfs""",62,571,"""More than half""",875,true
+9,"""chulks""","""vulhor""",47,684,"""Few""",869,false
+9,"""mecket""","""plumry""",9,1910,"""Fewer than half""",880,false
+9,"""menner""","""nandow""",62,1340,"""Fewer than half""",758,false
+9,"""pluset""","""stubad""",15,823,"""Many""",847,false
+9,"""birler""","""enciad""",5,1050,"""Most""",697,false
+9,"""menner""","""nandow""",8,737,"""Many""",880,false
+9,"""cather""","""funder""",46,965,"""More than half""",1070,false
+9,"""strant""","""potind""",11,1038,"""Fewer than half""",737,true
+9,"""cather""","""funder""",27,1039,"""Many""",876,false
+9,"""dorder""","""coggon""",66,863,"""Many""",785,true
+9,"""spunge""","""wenple""",57,847,"""More than half""",692,true
+9,"""cosutz""","""spover""",68,1118,"""Fewer than half""",664,false
+9,"""beckel""","""racual""",29,2204,"""Fewer than half""",1306,true
+9,"""gukbar""","""soarse""",75,1306,"""Many""",939,true
+9,"""umpond""","""marire""",25,1133,"""Few""",1098,true
+9,"""ancits""","""smeath""",28,1024,"""Fewer than half""",1276,true
+9,"""schook""","""jabant""",75,1085,"""Few""",1218,false
+9,"""tecker""","""biller""",8,1115,"""Most""",1062,false
+9,"""devole""","""sholly""",12,878,"""Most""",953,false
+9,"""bameta""","""unzast""",3,868,"""Many""",969,false
+9,"""schook""","""jabant""",95,6408,"""Most""",1065,true
+9,"""chadop""","""shaple""",60,1049,"""More than half""",1233,true
+9,"""sporer""","""firtly""",4,877,"""Many""",1265,false
+9,"""pirter""","""secent""",73,674,"""Many""",810,true
+9,"""strant""","""potind""",4,695,"""Few""",705,true
+9,"""fleeve""","""scalfs""",32,1059,"""Many""",768,false
+9,"""sporer""","""firtly""",82,846,"""Few""",786,false
+9,"""chulks""","""vulhor""",67,570,"""More than half""",602,true
+9,"""shrile""","""athoid""",61,739,"""More than half""",604,true
+9,"""hadder""","""ollidy""",84,698,"""Most""",961,true
+9,"""isbant""","""unairs""",65,683,"""Few""",818,false
+9,"""tiklet""","""hullaw""",75,547,"""More than half""",846,true
+9,"""spunge""","""wenple""",87,557,"""Most""",572,true
+9,"""cosutz""","""spover""",68,614,"""Most""",515,true
+9,"""bemble""","""squank""",37,1086,"""Few""",546,true
+9,"""boddle""","""molill""",37,660,"""Many""",542,true
+9,"""spunge""","""wenple""",74,1353,"""Fewer than half""",657,false
+9,"""boddle""","""molill""",37,701,"""Most""",727,false
+9,"""cosutz""","""spover""",9,997,"""Few""",465,true
+9,"""hadder""","""ollidy""",71,719,"""More than half""",627,true
+9,"""pliper""","""sesare""",40,870,"""Most""",500,false
+9,"""shamer""","""bloifs""",93,642,"""More than half""",622,true
+9,"""tecker""","""biller""",39,871,"""Many""",552,false
+9,"""pobbit""","""spippy""",60,1074,"""Fewer than half""",1063,false
+9,"""mecket""","""plumry""",84,555,"""Many""",674,true
+9,"""coppar""","""hunene""",15,959,"""Fewer than half""",586,true
+9,"""strant""","""potind""",43,1073,"""Many""",510,false
+9,"""pobbit""","""spippy""",32,1246,"""More than half""",775,false
+9,"""schook""","""jabant""",78,1222,"""Fewer than half""",878,false
+9,"""jallem""","""sildal""",38,873,"""Many""",550,false
+9,"""pliper""","""sesare""",52,816,"""Many""",447,true
+9,"""pengyl""","""sedest""",72,811,"""Many""",859,true
+9,"""cather""","""funder""",45,1755,"""Few""",532,false
+9,"""boddle""","""molill""",27,815,"""More than half""",654,false
+9,"""puctor""","""recure""",81,540,"""Many""",640,true
+9,"""isbant""","""unairs""",30,859,"""More than half""",469,false
+9,"""ingell""","""nalill""",24,947,"""Most""",631,false
+9,"""zetten""","""unfobs""",52,728,"""More than half""",1206,true
+9,"""beckel""","""racual""",84,665,"""More than half""",618,true
+9,"""pliper""","""sesare""",36,5174,"""Few""",749,false
+9,"""coppar""","""hunene""",77,589,"""Many""",764,true
+9,"""monter""","""melelt""",81,828,"""Fewer than half""",591,false
+9,"""birler""","""enciad""",32,685,"""Many""",549,false
+9,"""werner""","""hurmer""",96,620,"""Many""",617,true
+9,"""chevel""","""podden""",25,734,"""Fewer than half""",862,true
+9,"""devole""","""sholly""",60,903,"""Fewer than half""",522,false
+9,"""hadder""","""ollidy""",93,2032,"""Few""",481,false
+9,"""shamer""","""bloifs""",94,770,"""Many""",953,true
+9,"""zetten""","""unfobs""",55,822,"""Few""",752,false
+9,"""cather""","""funder""",45,616,"""Most""",517,true
+9,"""bameta""","""unzast""",12,1520,"""Fewer than half""",963,true
+9,"""zetten""","""unfobs""",47,1372,"""Fewer than half""",513,true
+9,"""boddle""","""molill""",66,1328,"""Fewer than half""",753,false
+9,"""kustle""","""reshix""",85,604,"""More than half""",648,true
+9,"""awplor""","""fasees""",8,789,"""More than half""",420,false
+9,"""ancits""","""smeath""",35,1260,"""Few""",550,true
+9,"""monter""","""melelt""",89,687,"""Most""",430,true
+9,"""bameta""","""unzast""",37,1146,"""Few""",455,false
+9,"""ingell""","""nalill""",3,798,"""More than half""",623,false
+9,"""coppar""","""hunene""",78,824,"""Few""",675,false
+9,"""pengyl""","""sedest""",91,648,"""Most""",656,true
+9,"""pobbit""","""spippy""",29,854,"""Many""",560,false
+9,"""shurry""","""preser""",5,1050,"""Few""",445,true
+9,"""chevel""","""podden""",8,952,"""Many""",444,false
+9,"""pluset""","""stubad""",4,1100,"""More than half""",520,false
+9,"""mecket""","""plumry""",55,693,"""More than half""",570,true
+9,"""fleeve""","""scalfs""",58,909,"""Fewer than half""",558,false
+9,"""umpond""","""marire""",3,844,"""Most""",482,false
+9,"""ingell""","""nalill""",2,2162,"""Fewer than half""",475,false
+9,"""devole""","""sholly""",75,732,"""Many""",574,true
+9,"""coamin""","""mucond""",66,670,"""Most""",560,true
+9,"""monter""","""melelt""",3,762,"""Many""",407,false
+9,"""schook""","""jabant""",80,889,"""More than half""",926,true
+9,"""shurry""","""preser""",59,1096,"""Fewer than half""",557,false
+9,"""mecket""","""plumry""",16,3872,"""Few""",132,true
+9,"""puctor""","""recure""",41,1506,"""Few""",590,false
+9,"""chevel""","""podden""",37,775,"""More than half""",598,false
+9,"""chadop""","""shaple""",21,783,"""Fewer than half""",296,true

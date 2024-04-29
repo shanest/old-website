@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+
+\begin{document}
+
+\title{LING 575K HW3}
+\date{\vspace{-0.2in}Due 11PM on \textbf{Apr 23}, 2022 (note the unusual day)}
+\maketitle
+
+
+\noindent In this assignment, you will 
+\begin{itemize}
+  \item Develop your understanding of computation graphs by doing a worked example by hand and then
+  \item Implementing skip-gram with negative sampling in the edugrad library.
+  \item Using some Operations that you will implement using the forward/backward API.
+\end{itemize}
+
+
+\section{Understanding Computation Graphs [20 pts]}
+
+\noindent {\bf Q1: Worked example}  Consider the function $f(x) = x^2 \times cx$.
+\begin{itemize}
+  \item Draw a computaton graph for this expression. [5 pts]
+  \item How many nodes are there (including input and output)? [2 pts]
+  \item For $x = 2$ and $c=3$: [10 pts]
+    \begin{itemize}
+      \item Compute the value of each node in a forward pass.
+      \item Compute $\frac{df}{dn}$ for each node $n$, using backpropagation.
+    \end{itemize}
+  \item Consider the node corresponding to $x^2$ in the graph.  For each of the following, write a symbolic expression and the numerical value (at $x=2$, $c=3$) for: [3 pts]
+    \begin{itemize}
+      \item The upstream derivative.
+      \item The local derivative.
+      \item The downstream derivative(s).
+    \end{itemize}
+\end{itemize}
+
+\section{Implementing Word2Vec in Edugrad [55 pts]}
+
+Before getting started, a few notes on the implementation:
+\begin{itemize}
+  \item Always start with small data!  To test various components of the pipeline, you can use the toy files in \texttt{/dropbox/21-22/575k/data/}.
+  \item All files referenced here are in \texttt{/dropbox/21-22/575k/hw3} on patas.
+  \item The main training loop is at the bottom of \texttt{word2vec.py}.  You do not have to touch this, but can read it to see how the various components you implement are being used.
+  \item This homework relies on \texttt{data.py} from HW2. We will make a reference implementation available for use on Monday morning (after the late submission deadline); until then, you can use your own, by placing it in the same directory as your copy of the files for this assignment or by using a symbolic link.
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q1: Basic Operations} In \texttt{ops.py}, implement the forward and backward methods of the following operations: [24 pts]
+\begin{itemize}
+  \item \texttt{log}
+  \item \texttt{sigmoid}
+  \item \texttt{multiply}.  This is \emph{element-wise} multiplication of two matrices.
+\end{itemize}
+Recall: (i) you can use the list \texttt{ctx} in forward to store any values that you need when computing gradients in \texttt{backward}; (ii) backward needs to return a \emph{list} of the same size as the number of inputs to forward; each element of the list contains the gradient for the respective input.  We have provided shell lists for this purpose.
+
+\vspace{2em}
+\noindent {\bf Q2: Model and BCE Loss} In \texttt{word2vec.py} [24 pts]
+\begin{itemize}
+  \item Implement \texttt{dot\_product\_rows}.  Read the docstring for specification and hints.
+  \item Implement \texttt{Word2Vec.forward}.  This represents one ``forward pass'' of the skip-gram with negative sampling model, i.e. this computes $P(1 | w, c)$ for a batch of inputs.  You should use dot\_product\_rows here.
+  \item Implement \texttt{bce\_loss}.
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q3: Train word vectors} Run the main training loop by calling \texttt{word2vec.py} with the following command-line arguments (defined in \texttt{util.py}): [7 pts]
+\begin{itemize}
+  \item 6 epochs
+  \item Embedding dimension: 15
+  \item Learning rate: 0.2
+  \item Minimum frequency: 5
+  \item Number of negative samples: 15
+\end{itemize}
+In your readme file, please include: 
+\begin{itemize}
+  \item The total run-time of your training loop.  
+  \item The per-epoch training loss. 
+\end{itemize}
+These will be printed by the main script.
+
+
+\vspace{2em}
+\noindent {\bf Testing your code} In the dropbox folder for this assignment, there is a file \texttt{test\_all.py} with a few very simple unit tests for the methods that you need to implement.  You can verify that your code passes the tests by running \texttt{pytest} from your code's directory, with the course's conda environment activated.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Submission Instructions}
+
+In your submission, include the following:
+\begin{itemize}
+  \item readme.(txt$\mid$pdf) that includes your answers to \S1 as well as Q3 of \S2. 
+  \item \texttt{hw3.tar.gz} containing:
+  \begin{itemize}
+    \item run\_hw3.sh.  This should contain the code for activating the conda environment and your command for Q3 above.  You can use run\_hw2.sh from the previous assignment as a template.
+    \item word2vec.py
+    \item ops.py
+  \end{itemize}
+\end{itemize}
+
+
+
+
+
+\end{document}
+
+
+
