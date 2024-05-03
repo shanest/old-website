@@ -1249,7 +1249,7 @@ references:
     Speakers
   type: paper-conference
 
-- id: shapiroIconicArtificialLanguagesubmitted
+- id: shapiroIconicArtificialLanguage2024
   author:
     - family: Shapiro
       given: Naomi Tachikawa
@@ -1257,10 +1257,13 @@ references:
       given: Andrew
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: shapiroIconicArtificialLanguagesubmitted
+  citation-key: shapiroIconicArtificialLanguage2024
+  container-title: Proceedings of the 46th Annual Meeting of the Cognitive Science Society
   issued:
-    - literal: submitted
-  title: Iconic artificial language learning in the field
+    - year: 2024
+  title: >-
+    Iconic Artificial Language Learning in the Field: An Experiment with San
+    Martín Peras Mixtec Speakers
   type: paper-conference
 
 - id: shapiroMultilabelApproachMorphosyntactic2021

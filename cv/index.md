@@ -211,6 +211,9 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
 
+`2024`
+@shapiroIconicArtificialLanguage2024
+
 `2023`
 @downeyEmbeddingStructureMatters2023
 
@@ -378,9 +381,6 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 `submitted`
 @jiangWeightedMobiusScoresubmitted
-
-`submitted`
-@shapiroIconicArtificialLanguagesubmitted
 
 `under contract`
 @steinert-threlkeldComputationalExplanationsSemanticinprep
@@ -774,6 +774,7 @@ __Committee Member__
 - Angelina McMillan-Major (chair: Emily M Bender)
 - Yuanhe Tian (chair: Fei Xia)
 - Nicolas Guerin (Institut Jean Nicod, chair: Emmanuel Chemla)
+- Yuting Zhang (chair: Qi Cheng)
 
 
 __Graduate Student Representative (external member)__
