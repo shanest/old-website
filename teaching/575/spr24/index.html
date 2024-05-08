@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UW LING 575 Compositionality and Generalization</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        section {
+            padding: 150px 0;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Compositionality and Generalization (UW LING 575, Spring '24)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#information">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#policies">Policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#structure">Course Structure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reading">Curated Bibliography</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Course Description</h2>
+                    <p class="lead">
+                        Compositionality---the fact that the meaning of complex expressions is built up from the
+                        meanings of the parts and the structure of the complex---has been argued to be a unique feature
+                        of human language, explaining our ability to systematically and productively produce and
+                        understand novel utterances. At the same time, this property has played a pivotal role in
+                        debates about cognitive architecture and artificial intelligence, with many arguing that
+                        standard neural models are fundamentally incapable of the requisite kind of systematic behavior.
+                        In this seminar, we will digest a wide range of literature starting with philosophical,
+                        linguistic, and cognitive foundations around compositionality, before looking at case studies in
+                        nonhuman animals and finally a wide range of recent literature on compositionality in modern
+                        language models. Topics include how to measure and detect compositionality, whether natural
+                        language and animal communication systems are compositional, how to build neural architectures
+                        that exhibit compositionality, compositionality versus generalization more generally, and data
+                        augmentation and meta-learning approaches. This will be an active research seminar, where
+                        students will work in small groups to execute a prototype research project on a topic of their
+                        choosing in consultation with the instructor as well as guide discussions of chosen readings.
+                    </p>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mondays</td>
+                                <td>3:30 - 5:50 PM</td>
+                                <td>
+                                    <a href="http://maps.google.com/maps?q=47.6584230003,-122.308888+(DEN)&z=18">DEN</a>
+                                    258
+                                    <br />
+                                    <a
+                                        href="https://washington.zoom.us/j/92812102564">https://washington.zoom.us/j/92812102564</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Note: while lectures will be delivered live at the above time and location, they will also be
+                        recorded and posted to the course Canvas page.</p>
+
+                    <h2 class="pt-2">Teaching Staff</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Role</th>
+                                <th>Name</th>
+                                <th>Office</th>
+                                <th>Office Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Instructor</td>
+                                <td>
+                                    <a href="https://shane.st" target="_blank">Shane Steinert-Threlkeld</a>
+                                </td>
+                                <td>
+                                    GUG 415K and
+                                    <br />
+                                    <a href="https://washington.zoom.us/my/shanest"
+                                        target="_blank">https://washington.zoom.us/my/shanest</a>
+                                </td>
+                                <td>Wednesday 3-5PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <h2 class="pt-2">Preferred Prerequisites</h2>
+                    <ul>
+                        <li>LING 571</li>
+                        <li>LING 578</li>
+                        <li>LING 574 helpful</li>
+                    </ul>
+
+                    <h2 class="pt-2">Course Resources</h2>
+
+                    <ul>
+                        <li><a href="https://canvas.uw.edu/courses/1720019" target="_blank">Canvas</a>: lecture
+                            recordings, discussion board, homework submission / grading</li>
+                        <li><a href="https://vervet.ling.washington.edu/db/accountrequest-form.php"
+                                target="_blank">Patas Account Request</a></li>
+                        <li><a href="https://www.shane.st/teaching/571/aut23/computing-resources.pdf"
+                                target="_blank">Computing Resources
+                                Orientation</a></li>
+                        <li><a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/CondorClusterHomepage"
+                                target="_blank">Condor Wiki Pages</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="policies" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h1>Policies</h1>
+                    <p class="lead">As a project-oriented, student-driven, seminar-style class, active
+                        participation---in the classroom, or in Zoom, as well as on Canvas---is expected.  Primary course-time will be conducted as a "role-playing reading seminar", where each person reads a paper with a particular role / perspective and uses that to kick off discussion (see <a href="#structure">Course Structure</a> for more information).</p>
+
+                    <p>A final project will be carried out in small groups. Groups are free to divide up work as they
+                        see fit, but will be required to explain the division of labor with their final project. Except
+                        under rare circumstances, every member of a group will receive the same grades.</p>
+
+                    <p>We understand that you may face hard times as we navigate an ever-changing world due to the
+                        COVID-19 pandemic and many other world events. If you find yourself struggling with a difficult
+                        concept; stressed over politics or health; slowed by monopolistic internet providers; or annoyed
+                        at a classmate, please remember that they might feel similar. Maybe not in your very moment, but
+                        certainly recently or soon. Some of you may find the return to hybrid teaching conducive to your
+                        style of learning and personality. Others may find it stressful or difficult. These are all
+                        normal reactions. Please have compassion and empathy, and assume that everyone is doing their
+                        best.</p>
+
+                    <p>If you find yourself having trouble learning in class, please do not hesitate to let me know. My
+                        goal is to make this class a bright spot in these unprecedented times, and to do whatever we can
+                        to promote a healthy learning environment for all.</p>
+
+                    <h2 class="pt-2">A note on time zones</h2>
+                    <p>All deadlines and meeting times for this class are in "Pacific Time". Now that we are in Daylight
+                        Savings Time, this is UTC-7.</p>
+
+                    <h2 class="pt-2">Grading</h2>
+                    <ul>
+                        <li>60% weekly reading assignments</li>
+                        <li>40% final project</li>
+                    </ul>
+
+                    <h2 class="pt-2">Communication</h2>
+						<p>Any questions concerning course content and logistics should be posted on the Canvas discussion board.  If a more personal issue arises, you can email me personally; include &quot;LING575&quot; in the subject line.  You can expect responses from teaching staff within 24 hours, but only during normal business hours, and excluding weekends.</p>
+
+                    <h2 class="pt-2">Religious Accommodation</h2>
+                    <p>Washington state law requires that UW develop a policy for accommodation of student absences or
+                        significant hardship due to reasons of faith or conscience, or for organized religious
+                        activities. The UW's policy, including more information about how to request an accommodation,
+                        is available at <a
+                            href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/"
+                            target="_blank">Religious Accommodations Policy
+                            (https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/)</a>.
+                        Accommodations must be requested within the first two weeks of this course using the <a
+                            href="https://registrar.washington.edu/students/religious-accommodations-request/"
+                            target="_blank">Religious Accommodations Request form
+                            (https://registrar.washington.edu/students/religious-accommodations-request/)</a>.</p>
+
+                    <h2 class="pt-2">Access and Accommodations</h2>
+                    <p>Your experience in this class is important to me. If you have already established accommodations
+                        with Disability Resources for Students (DRS), please communicate your approved accommodations to
+                        me at your earliest convenience so we can discuss your needs in this course.</p>
+                    <p>If you have not yet established services through DRS, but have a temporary health condition or
+                        permanent disability that requires accommodations (conditions include but not limited to; mental
+                        health, attention-related, learning, vision, hearing, physical or health impacts), you are
+                        welcome to contact DRS at 206-543-8924 or uwdrs@uw.edu or disability.uw.edu. DRS offers
+                        resources and coordinates reasonable accommodations for students with disabilities and/or
+                        temporary health conditions. Reasonable accommodations are established through an interactive
+                        process between you, your instructor(s) and DRS. It is the policy and practice of the University
+                        of Washington to create inclusive and accessible learning environments consistent with federal
+                        and state law.</p>
+
+                    <h2 class="pt-2">Safety</h2>
+                    <p>Call SafeCampus at 206-685-7233 anytime---no matter where you work or study---to anonymously
+                        discuss safety and well-being concerns for yourself or others. SafeCampus's team of caring
+                        professionals will provide individualized support, while discussing short- and long-term
+                        solutions and connecting you with additional resources when requested.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="structure">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Course Structure</h2>
+                    <p class="lead">
+                        This course will function as a <a href="https://colinraffel.com/blog/role-playing-seminar.html">role-playing seminar</a>: each week, we will read and discuss two papers as a group. Each student will sign up for a role for one of the papers, and will be expected to contribute to the discussion from that perspective. Every role must have at least one student, but some roles can have more than one. (More information is on Canvas.) The roles:
+                    </p>
+                    <dl>
+                        <dt>
+                            &#x1F575; Archaeologist
+                        </dt>
+                        <dd>
+                            Determine where this paper sits in the wider landscape of previous and subsequent work. More concretely: find and report on one prior paper that substantially influenced the current paper and one newer paper that cites this current paper. (You can use Google Scholar or SemanticScholar to find papers citing the current paper.)
+                        </dd>
+                        <dt>
+                            &#x1F52C; Reproducer
+                        </dt>
+                        <dd>
+                            You are attempting to reproduce the main results of the paper, either to confirm its conclusions, or to carry out similar experiments. If you are unable to reproduce the results, try to understand why.  If you are able to, explain what helped the most.  (Note: you are not expected to <em>actually</em> reproduce papers for this class.  Rather, assume that you are trying to, and report on what you find on whether you would be able to.)
+                        </dd>
+                        <dt>
+                            &#x1F9D1;&#x200D;&#x1F52C; Researcher
+                        </dt>
+                        <dd>
+                            Based on the current paper, propose an experiment or analysis that would extend the work in a new direction.  This could be a new dataset, a new model, a new evaluation metric, etc.  In particular, try to think of something that is <em>only possible</em> thanks to the current paper, not just a simple extension.  (Note: these can serve as inspiration for your final project.)
+                        </dd>
+                        <dt>
+                            &#x2696; Reviewer
+                        </dt>
+                        <dd>
+                            Write a referee report for the current paper, following the <a href="https://aclrollingreview.org/reviewform">form for ACL Rolling Review</a> (up through the "Overall Assessment").  Aim to approach papers charitably, but critically, thinking of how the paper can be made into the best version of itself.  Their <a href="https://aclrollingreview.org/reviewertutorial#5-arr-review-form">reviewer tutorial</a> may also be helpful.
+                        </dd>
+                    </dl>
+                    <p>
+                        Each week, a shared Google Slides deck will be created, and each role-player will be expected to contribute a couple of slides, summarizing their view of the paper from their role.  The deck will be shared with the class, and will be used to guide the discussion of the paper.
+                    </p>
+                    <p>
+                        Non-presenter assignment: for the other paper that week, for which you have not signed up for one of the roles, you will be asked to (i) contribute an alternative title for the paper and (ii) at least one question about the paper (e.g. something that was confusing, or someothing that you want to hear more about).
+                    </p>
+                    <p>
+                        Because of the length of the seminar meetings, we will take a 10-minute break in the middle of each class, in between the discussion of each paper.
+                    </p>
+                    <p>
+                        One final note: in the interest of this being a student-led seminar, the reading list below can change based on the interests of the participants and everyone's projects.  If you have a paper that you would like to discuss, please let me know.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+
+                    <h2>Schedule</h2>
+
+                    <br />
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="8%">Date</th>
+                                <th>Topics</th>
+                                <th width="30%">Primary Readings</th>
+                                <th width="30%">Secondary Readings</th>
+                                <th width="15%">Additional info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mar 25</td>
+                                <td>
+                                    <a href="slides/1_Intro.pdf" target="_blank">
+                                    Introduction
+                                    <br />
+                                    Definitions + Arguments
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#szab-compositionality-2022">Compositionality</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#fodor-pylyshyn-connectionismandcognitivearchitecture-1988">Compositionality and Cognitive Architecture</a> 
+                                    </p>
+                                    <p>
+                                        <a href="#pagin-westersthl-compositionalityidefinitionsandvariants-2010">Compositionality, I. Definitions and Variants</a> (Sections 1 and 2)
+                                    </p>
+                                    <p>
+                                        <a href="#pagin-westersthl-compositionalityiiargumentsandproblems-2010">Compositionality, II. Arguments and Problems</a> 
+                                    </p>
+                                    <p>
+                                        <a href="#hupkes-giulianelli-dankers-artetxe-elazar-pimentel-christodoulopoulos-lasri-etal-ataxonomyandreviewofgeneralizationresearchinnlp-2023">A taxonomy and review of generalization research in NLP</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Group formation (out)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 1</td>
+                                <td>
+                                    Measuring compositionality
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#andreas-measuringcompositionalityinrepresentationlearning-2019">Measuring Compositionality in Representation Learning</a> 
+                                    </p>
+                                    <p>
+                                        <a href="#keysers-schrli-scales-buisman-furrer-kashubin-momchev-sinopalnikov-etal-measuringcompositionalgeneralizationacomprehensivemethodonrealisticdata-2020">Measuring Compositional Generalization: A Comprehensive Method on Realistic Data</a> 
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#chaabouni-kharitonov-bouchacourt-dupoux-baroni-compositionalityandgeneralizationinemergentlanguages-2020">Compositionality and Generalization In Emergent Languages</a> (Sections 1, 2.1, 3)
+                                    </p>
+                                    <p>
+                                        <a href="#brighton-smith-kirby-languageasanevolutionarysystem-2005">Language as an evolutionary system</a> (esp. Appendix A)
+                                    </p>
+                                </td>
+                                <td>
+                                    Group formation due
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 8</td>
+                                <td>
+                                    Benchmarks, I
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#lake-baroni-generalizationwithoutsystematicityonthecompositionalskillsofsequencetosequencerecurrentnetworks-2018">Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks</a>
+                                    </p>
+                                    <p>
+                                        <a href="#hupkes-dankers-mul-bruni-compositionalitydecomposedhowdoneuralnetworksgeneralise-2020">Compositionality Decomposed: How Do Neural Networks Generalise?</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#reymond-steinertthrelkeld-mscanadatasetformultilingualcompositionalgeneralisationevaluation-2023">mSCAN: A Dataset for Multilingual Compositional Generalisation Evaluation</a>
+                                    </p>
+                                    <p>
+                                        <a href="#lake-linzen-baroni-humanfewshotlearningofcompositionalinstructions-2019">Human few-shot learning of compositional instructions</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Proposal guidelines out
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 15</td>
+                                <td>
+                                    Benchmarks, II
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#kim-linzen-cogsacompositionalgeneralizationchallengebasedonsemanticinterpretation-2020">COGS: A Compositional Generalization Challenge Based on Semantic Interpretation</a>
+                                    </p>
+                                    <p>
+                                        <a href="#ruis-andreas-baroni-bouchacourt-lake-abenchmarkforsystematicgeneralizationingroundedlanguageunderstanding-2020">A Benchmark for Systematic Generalization in Grounded Language Understanding</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#li-donatelli-koller-linzen-yao-kim-slogastructuralgeneralizationbenchmarkforsemanticparsing-2023">SLOG: A Structural Generalization Benchmark for Semantic Parsing</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 22</td>
+                                <td>
+                                    Architectural approaches
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#li-yin-chen-zhang-oncompositionalgeneralizationofneuralmachinetranslation-2021">Span-based Semantic Parsing for Compositional Generalization</a>
+                                    </p>
+                                    <p>
+                                        <a href="#liu-an-lou-chen-lin-gao-zhou-zheng-etal-compositionalgeneralizationbylearninganalyticalexpressions-2020">Compositional generalization by learning analytical expressions</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#gordon-lopezpaz-baroni-bouchacourt-permutationequivariantmodelsforcompositionalgeneralizationinlanguage-2020">Permutation Equivariant Models for Compositional Generalization in Language</a>
+                                    </p>
+                                    <p>
+                                        <a href="#chen-liang-yu-song-zhou-compositionalgeneralizationvianeuralsymbolicstackmachines-2020">Compositional Generalization via Neural-Symbolic Stack Machines</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Proposal due
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 29</td>
+                                <td>
+                                    Other approaches
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#andreas-goodenoughcompositionaldataaugmentation-2020">Good-Enough Compositional Data Augmentation</a>
+                                    </p>
+                                    <p>
+                                        <a href="#lake-baroni-humanlikesystematicgeneralizationthroughametalearningneuralnetwork-2023">Human-like systematic generalization through a meta-learning neural network</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#csords-irie-schmidhuber-thedevilisinthedetailsimpletricksimprovesystematicgeneralizationoftransformers-2021">The Devil is in the Detail: Simple Tricks Improve Systematic Generalization of Transformers</a>
+                                    </p>
+                                    <p>
+                                        <a href="#nye-solarlezama-tenenbaum-lake-learningcompositionalrulesvianeuralprogramsynthesis-2020">Learning Compositional Rules via Neural Program Synthesis</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 6</td>
+                                <td>
+                                    Prompting approaches
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#drozdov-schrli-akyrek-scales-song-chen-bousquet-zhou-compositionalsemanticparsingwithlargelanguagemodels-2023">Compositional Semantic Parsing with Large Language Models</a>
+                                    </p>
+                                    <p>
+                                        <a href="#dziri-lu-sclar-li-jiang-lin-welleck-west-etal-faithandfatelimitsoftransformersoncompositionality-2023">Faith and Fate: Limits of Transformers on Compositionality</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#zhou-schrli-hou-wei-scales-wang-schuurmans-cui-etal-leasttomostpromptingenablescomplexreasoninginlargelanguagemodels-2023">Least-to-Most Prompting Enables Complex Reasoning in Large Language Models</a>
+                                    </p>
+                                    <p>
+                                        <a href="#hosseini-vani-bahdanau-sordoni-courville-onthecompositionalgeneralizationgapofincontextlearning-2022">On the Compositional Generalization Gap of In-Context Learning</a>
+                                    </p>
+                                    <p>
+                                        <a href="#an-lin-fu-chen-zheng-lou-zhang-howdoincontextexamplesaffectcompositionalgeneralization-2023">How Do In-Context Examples Affect Compositional Generalization?</a>
+                                    </p>
+                                    <p>
+                                        <a href="#press-zhang-min-schmidt-smith-lewis-measuringandnarrowingthecompositionalitygapinlanguagemodels-2023">Measuring and Narrowing the Compositionality Gap in Language Models</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 13</td>
+                                <td>
+                                    Emergence of compositionality
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#kirby-tamariz-cornish-smith-compressionandcommunicationintheculturalevolutionoflinguisticstructure-2015">Compression and communication in the cultural evolution of linguistic structure</a>
+                                    </p>
+                                    <p>
+                                        <a href="#chaabouni-kharitonov-bouchacourt-dupoux-baroni-compositionalityandgeneralizationinemergentlanguages-2020">Compositionality and Generalization In Emergent Languages</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#mordatch-abbeel-emergenceofgroundedcompositionallanguageinmultiagentpopulations-2018">Emergence of Grounded Compositional Language in Multi-Agent Populations</a>
+                                    </p>
+                                    <p>
+                                        <a href="#steinertthrelkeld-towardtheemergenceofnontrivialcompositionality-2020">Toward the Emergence of Nontrivial Compositionality</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 20</td>
+                                <td>
+                                    Animal communication
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#schlenker-chemla-schel-fuller-gautier-kuhn-veselinovic-arnold-etal-formalmonkeylinguistics-2016">Formal Monkey Linguistics</a> (through Section 3) 
+                                    </p>
+                                    <p>
+                                        <a href="#zuberbhler-syntaxandcompositionalityinanimalcommunication-2019">Syntax and compositionality in animal communication</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="#steinertthrelkeld-compositionalityandcompetitioninmonkeyalertcalls-2016">Compositionality and competition in monkey alert calls</a>
+                                    </p>
+                                    <p>
+                                        <a href="#gould-honeybeerecruitmentthedancelanguagecontroversy-1975">Honey Bee Recruitment: The Dance-Language Controversy</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Final paper guidelines out
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 27</td>
+                                <td colspan="4" align="center">
+                                    No Class (Memorial Day)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="reading" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Reading List</h2>
+                    <p class="lead">This is a <em>curated</em> reading list, i.e. it reflects one particular view of a large body of literature. To find other related papers, I recommend:</p>
+                    <ul>
+                        <li>The references in these papers</li>
+                        <li>Search terms in Google Scholar/SemanticScholar: compositionality, systematicity, generalization</li>
+                        <li><a href="https://genbench.org/references/">The GenBench database</a></li>
+                    </ul>
+                    <script src="https://bibbase.org/show?bib=https://www.shane.st/teaching/575/spr24/575_Compositionality.bib&jsonp=1&theme=dividers&urlLinks=URL"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Goatcounter analytics -->
+    <script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

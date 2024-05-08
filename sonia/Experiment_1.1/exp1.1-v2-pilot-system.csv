@@ -1,0 +1,11 @@
+workerid,OS,screenH,screenW,Browser
+0,"""Windows""",720,1280,"""Chrome"""
+1,"""Windows""",1080,1920,"""Chrome"""
+2,"""Linux""",1080,1920,"""Chrome"""
+3,"""Windows""",1080,1920,"""Chrome"""
+4,"""Linux""",768,1366,"""Chrome"""
+5,"""Windows""",1080,1920,"""Chrome"""
+6,"""Windows""",1440,2560,"""Firefox"""
+7,"""Windows""",1152,2048,"""Firefox"""
+8,"""Windows""",900,1600,"""Chrome"""
+9,"""Windows""",1050,1680,"""Chrome"""

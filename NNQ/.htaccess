@@ -1,0 +1,15 @@
+#Protect single file
+<Files projects.txt>
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /home/shanest/shane.st/NNQ/.htpasswd
+Require valid-user
+</Files>
+
+#Protect many files
+<FilesMatch "\.pdf$">
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /home/shanest/shane.st/NNQ/.htpasswd
+Require valid-user
+</FilesMatch>

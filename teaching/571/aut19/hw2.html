@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+		<title>UW LING 571: HW2 (Fall 2019)</title>
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/navbar-top-fixed.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '19]</a>
+				<a class="navbar-brand ml-auto" href="#">Homework 2</a>
+				<!--
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item active">
+	    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	    </li>
+	    <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	    </li>
+	    </ul>
+	    </div>
+				-->
+			</div>
+		</nav>
+
+		<main role="main" class="container">
+			<p class="lead">This assignment is due <strong>Wednesday, October 9 at 11PM</strong>.</p>
+			<ol>
+				<li><a href="#goals">Goals</a></li>
+				<li><a href="#background">Background</a></li>
+				<li><a href="#conversion">Converting a Grammar to Chomsky Normal Form</a></li>
+				<li><a href="#requirements">Requirements</a></li>
+				<li><a href="#files">Files</a></li>
+			</ol>
+			<h2><a name="goals"></a>1. Goals</h2>
+			<p>Through this assignment you will:</p>
+			<ul>
+				<li>Begin development of an automatic parser.
+					<ul>
+						<li>Homework #3 will require the implementation of the CKY algorithm.</li>
+					</ul>
+				</li>
+				<li>Develop and manipulate a representation for context-free grammars.</li>
+				<li>Improve your understanding of Chomsky Normal Form (CNF) and weak grammatical equivalence through implementaiton.</li>
+			</ul>
+			<p><a href="#top">[back to top]</a></p>
+			<h2><a name="background"></a>2. Background</h2>
+			<p>Please review the class slides and readings in the textbook on Chomsky Normal Form conversion.</p>
+			<p><a href="#top">[back to top]</a></p>
+			<h2><a name="conversion"></a>3. Converting a Grammar to Chomsky Normal Form</h2>
+			<p>As noted in the text, the CKY algorithm requires a grammar in Chomsky Normal Form (CNF). While it is not always intuitively clear how to write a grammar from scratch in CNF, it is fairly straightforward to convert a context-free grammar into a weakly equivalent grammar in CNF.</p>
+			<p>Following the approach outlined in class, implement a procedure to convert an input grammar of the form to be used for the first assignment to a new weakly equivalent grammar in CNF.</p>
+			<p>You will want to create data structures corresponding to <span style="font-family: courier;">RULE</span>, <span style="font-family: courier;">RHS</span>, <span style="font-family: courier;">LHS</span>, etc. You may use whatever programming language you like, in accordance with the <a title="Course Policy" href="http://depts.washington.edu/uwcl/clms/course-policy.pdf">Course Policy</a>. You may use existing implementations of these data structures in NLTK or other NLP toolkits (e.g. the Stanford Parser), but you <strong><em>must implement the grammar conversion algorithm yourself</em></strong>.</p>
+			<p><a href="#top">[back to top]</a></p>
+			<h2><a name="requirements"></a>4. Requirements</h2>
+			<p>The program you submit should do the following:</p>
+			<ol>
+				<li>Read in an original context-free grammar.</li>
+				<li>Convert this grammar to Chomsky Normal Form.</li>
+				<li>Print out the rules of the converted grammar to a file.</li>
+			</ol>
+			<p><a href="#top">[back to top]</a></p>
+			<h3>Programming</h3>
+			<p>Create a program named hw2_tocnf to perform the conversion described above. Your program should be able to be invoked with:</p>
+			<p><span style="font-family: courier;">hw2_tocnf.sh &lt;input_grammar_file&gt; &lt;output_grammar_file&gt;</span></p>
+			<p>where</p>
+			<ul>
+				<li><span style="font-family: courier;">&lt;input_grammar_file&gt;</span> is the name of the file holding the grammar to convert to CNF.</li>
+				<li><span style="font-family: courier;">&lt;output_grammar_file&gt;</span> is the name of the output file for the CNF conversion. The file should be in the NLTK grammar format, but now in Chomsky Normal Form.</li>
+			</ul>
+			<h3>Verification &amp; Parse Comparison</h3>
+			<p>Using your system from HW#1, you will parse a set of sentences with</p>
+			<ul>
+				<li>A General NLTK Context-Free Grammar, and&hellip;</li>
+				<li>A weakly equivalent Chomsky Normal Form context-free grammar, created by your CNF conversion program.</li>
+			</ul>
+			<p><em><strong>NOTE: </strong>You will need to run your code yourself in both these conditions with the files specified below. You will include the output parse files in your submission tar file. You do <strong>not</strong> need to run this code as part of your condor file. </em></p>
+			<p><a href="#top">[back to top]</a></p>
+			<h2><a name="files"></a>5. Files:</h2>
+			<h3>In the Dropbox</h3>
+			<p>You will find the following files in <span style="font-family: courier;">/dropbox/19-20/571/hw2</span>:</p>
+			<ul>
+				<li><span style="font-family: courier;"><strong>atis.cfg</strong></span>:
+					<ul>
+						<li>CFG grammar to test your CNF conversion program on.</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">sentences.txt</span></strong>:
+					<ul>
+						<li>Set of sentences for validation of your CNF conversion.
+							<ul>
+								<li>You will use your HW #1 system to parse these sentences both:
+									<ul>
+										<li>With the original <span style="font-family: courier;"><strong>atis.cfg</strong></span></li>
+										<li>With your CNF-convertd version of the ATIS grammar.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">toy.cfg</span></strong>:
+					<ul>
+						<li>Toy example NLTK-format grammar file.</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">other_grammars</span></strong>:
+					<ul>
+						<li>Directory with other NLTK-format CFG grammars for you to test with.</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>Submission Files</h3>
+			<ul>
+				<li><strong><span style="font-family: courier;">hw2.tar.gz</span></strong>, containing the following:
+					<ul>
+						<li><span style="font-family: courier;"><strong>hw2_tocnf.sh</strong></span>:
+							<ul>
+								<li>Primary program file.</li>
+							</ul>
+						</li>
+						<li>Your source code required for <span style="font-family: courier;">hw2_tocnf.sh</span> to run.</li>
+						<li><span style="font-family: courier;"><strong>hw2_grammar_cnf.cfg</strong></span>:
+							<ul>
+								<li>Results of running your CNF conversion program on the <span style="font-family: courier;">atis.cfg</span> grammar file.</li>
+							</ul>
+						</li>
+						<li><span style="font-family: courier;"><strong>hw2_orig_output.txt</strong></span>:
+							<ul>
+								<li>Results of parsing the test sentences using the original <span style="font-family: courier;">atis.cfg</span> grammar file.</li>
+							</ul>
+						</li>
+						<li><span style="font-family: courier;"><strong>hw2_cnf_output.txt</strong></span>:
+							<ul>
+								<li>Results of parsing the test sentences using your CNF-converted grammar file (hw2_grammar_cnf.cfg from above).</li>
+							</ul>
+						</li>
+						<li><strong><span style="font-family: courier;">hw2.cmd</span></strong>:
+							<ul>
+								<li><span style="font-family: courier;">condor_submit</span> job definition that drives your parser, by calling the <span style="font-family: courier;">hw2_tocnf.sh</span> script.</li>
+								<li>Your CNF conversion program must run on <span style="font-family: courier;">patas</span> using:
+									<p><span style="font-family: courier;">$ condor_submit hw2.cmd </span></li>
+								<li>Please see the <a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/HowToUseCondor">CLMS wiki pages</a> for help on using condor.</li>
+								<li>All files created by the condor run should appear in the top level of the directory.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><strong><span style="font-family: courier;">readme.{txt|pdf}</span></strong>:
+					<ul>
+						<li>This file should describe and discuss your work on this assignment. Include problems you came across and how (or if) you were able to solve them, any insights, special features, and what you learned. Give examples if possible. If you were not able to complete parts of the project, discuss what you tried and/or what did not work.
+							<p><strong>NOTE: </strong>Also, please review the parses generated by the original grammar and those from the CNF grammar. Provide a brief discussion of similarities and differences.</li>
+					</ul>
+				</li>
+			</ul>
+		</main>
+
+
+
+		<!-- Bootstrap core JavaScript
+	  ================================================== -->
+	  <!-- Placed at the end of the document so the pages load faster -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	  <!-- Google analytics -->
+	  <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-6353489-4', 'auto');
+ga('send', 'pageview');
+	  </script>
+	</body>
+</html>

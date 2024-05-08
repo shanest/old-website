@@ -1,0 +1,1 @@
+[NP [PreDet all] [NP [Det the] [Nom [Nom [Nom [Nom [Nom [Noun morning]] [Noun [flights]]] [PP from Denver]] [PP to Tampa]] [GerundiveVP looking for passengers]]]]
