@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath}
+
+\newcommand{\bos}{\textless s\textgreater\:}
+\newcommand{\eos}{\textless /s\textgreater\:}
+\newcommand{\pad}{PAD\:}
+
+
+\begin{document}
+
+\title{LING 574 HW9}
+\date{\vspace{-0.2in}Due 11:59PM on May 30, 2024}
+\maketitle
+
+
+\noindent In this assignment, you will 
+\begin{itemize}
+  \item Develop understanding of transformers, especially as encoders
+  \item Explain how pre-training and fine-tuning work
+  \item Implement a sentiment analysis model leveraging a pre-trained transformer model
+\end{itemize}
+All files referenced herein may be found in \texttt{/dropbox/23-24/574/hw9/} on patas.
+
+
+\section{Transformers and Pre-training [35 pts]}
+
+\noindent {\bf Q1: Parallelizability} One major cause for the development and subsequent adoption of transformers is that they are very parallelizable.
+\begin{itemize}
+  \item In your own words, why are recurrent neural networks hard/impossible to make parallel? \hfill [5 pts]
+  \item How does the transformer architecture overcome this limitation and thus enable parallelizability? \hfill [5 pts]
+  \item How is information about sequential order represented in the transformer? \hfill [3 pts]
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q2: Parameters} Let $d_e$ be the embedding/model dimension (i.e.\ $d_\text{model}$) of a transformer model.  (These can in principle be different, but are in practice made to be the same.)
+\begin{itemize}
+  \item In a self-attention layer with a single head of attention, how many parameters are there? (Note: you can ignore $W^O$ for this.) \hfill [3 pts]
+  \item In the position-wise feed-forward network in one block, how many parameters are there? You may write $d_f$ for the size of the single hidden layer of this sub-network. \hfill [2 pts]
+\end{itemize}
+
+\vspace{2em}
+\noindent {\bf Q3: Pre-training} Transformers have also helped jump-start the pre-training + fine-tuning approach to NLP tasks.
+\begin{itemize}
+  \item Provide at least two reasons as to why variants of language modeling are good pre-training tasks. \hfill [4 pts]
+  \item What are two differences between BERT (and its variants) and GPT (and its variants)? \hfill [4 pts]
+  \item Describe one method (e.g. diagnostic classifiers, adversarial data, \dots) for analyzing a pre-trained model and one example result from that method.  What do we learn from that result? \hfill [5 pts]
+  \item In your own words, describe one risk in the current approach to pre-training ever-larger language models on ever-larger datasets. \hfill [4 pts]
+\end{itemize}
+
+
+\section{Implementing a Transformer-based Sentiment Classifier [30 pts]}
+
+In the coding portion of this assignment, you will implement a model for sentiment analysis on the SST dataset, using a pretrained transformer as a text encoder.  In particular, the following paper trains and makes available several ``mini-BERTs'', i.e.\ transformer encoders trained on masked language modeling, but of significantly smaller sizes than BERT: \href{https://arxiv.org/pdf/1908.08962.pdf}{Well-Read Students Learn Better: On the Importance of Pre-training Compact Models}.  By default, we will use their smallest model, which has 2 layers and a hidden dimension of 128.
+
+\vspace{2em}
+\noindent {\bf Q1: Implement PretrainedClassifier}  In \texttt{model.py}, you will find the skeleton of a classifier that uses the representation of the special token `[CLS]' from a pretrained model (\texttt{self.encoder}) to make classification decisions.  You must:
+\begin{itemize}
+  \item In \texttt{\_\_init\_\_}, initialize \texttt{self.output} to be a linear layer of the right shape.  The comment there provides more information.
+  \item Implement \texttt{.forward}, which: extracts the top-layer `[CLS]' representation and then passes that through a linear layer to produce logits over the sentiment classes.  Please read the comments (and the docs referenced therein) closely.
+\end{itemize}
+
+
+\section{Running the Classifier [10 pts]}
+
+\texttt{run.py} contains a basic training loop for SST classification, using the final layer's representation of `[CLS]` of a pre-trained transformer encoder. It will record the training and dev loss at each epoch, and save the best model according to dev loss.  At the end, it samples 10 random dev data points and prints the review, the gold label, and the model's prediction.
+
+\vspace{2em}
+\noindent {\bf Q1: Default parameters} Execute \texttt{run.py} with its default arguments.  Please report: the best dev loss, the epoch at which the best dev loss was achieved, and the best model's dev accuracy.  Moreover, please include: the 10 random dev examples, with gold labels and model predictions here.  In 2-3 sentences, describe what you see and observe any trends in what the model gets right and what (and/or how) it gets things wrong. \hfill [5 pts]
+
+\vspace{2em}
+\noindent {\bf Q3: Comparison to RNN Classifier} In 2-3 sentences, please explain what differences you see in the classification decisions by this model using a pretrained transformer and the RNN classifier that you trained in HW6. What do you think may be causing these effects (or lack thereof)? \hfill [5 pts]
+
+
+\section{Testing your code}
+
+In the dropbox folder for this assignment, you will find a file \texttt{test\_all.py} with a few very simple unit tests for the methods that you need to implement.  You can verify that your code passes the tests by running \texttt{pytest} from your code's directory, with the course's conda environment activated.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Submission Instructions}
+
+In your submission, include the following:
+\begin{itemize}
+  \item readme.(txt$\mid$pdf) that includes your answers to \S1 and \S3. 
+  \item \texttt{hw9.tar.gz} containing:
+  \begin{itemize}
+    \item run\_hw9.sh.  This should contain the code for activating the conda environment and your run commands for \S3 above.  You can use run\_hw2.sh from the previous assignment as a template.
+    \item model.py
+  \end{itemize}
+\end{itemize}
+
+
+
+
+
+\end{document}
+
+
+
