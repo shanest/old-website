@@ -23,7 +23,7 @@ Computational Linguist and Cognitive Scientist
 </div>
 
 <div id="date">
-Last modified: 02/26/24
+Last modified: 09/16/24
 </div>
 
 
@@ -31,8 +31,10 @@ Last modified: 02/26/24
 
 #### University of Washington 
 
+- Associate Professor, Linguistics
+`2024 - now`
 - Assistant Professor, Linguistics
-`2019 - now`
+`2019 - 2024`
 - Director: Computation, Language, and Meaning Band of Researchers (CLMBR; [clmbr.shane.st](https://clmbr.shane.st))
 - Data Science Affiliate, [eScience Institute](https://escience.washington.edu/)
 
@@ -103,6 +105,15 @@ __Hodson Trust Scholar__
 Contribution: as required, for each non-single-authored publication, an esimate of my percentage contribution is included.  In addition, in parentheses, I have included the roles that I played in the publication, according to the [Contributor Role Taxonomy (CRediT)](https://doi.org/10.1002/leap.1210) system.
 
 ### Journals
+
+`forthcoming`
+@patilFilteredCorpusTrainingforthcoming
+
+`forthcoming`
+@guerinImpactSyntacticSemanticforthcoming
+
+`forthcoming`
+@schlenkerBabelThreeDegreesforthcoming
 
 `2024`
 @schlenkerMinimalCompositionalityBird2024
@@ -262,7 +273,7 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 - Contribution: 25% (conceptualization, writing --- review and editing, supervision, project administration)
 
 `2022`
-@tienBilingualAlignmentTransfers2022a
+@tienBilingualAlignmentTransfers2022
 
 - Contribution: 40% (conceptualization, methodology, writing --- review and editing, supervision, project administration)
 
@@ -376,12 +387,6 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 ### In Process
 
-`revise and resubmit`
-@guerinImpactSyntacticSemanticsubmitted
-
-`submitted`
-@jiangWeightedMobiusScoresubmitted
-
 `under contract`
 @steinert-threlkeldComputationalExplanationsSemanticinprep
 
@@ -392,8 +397,24 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 #### TBD
 
+`01/24/2025`
+Workshop on self-assembling games
+
+`11/29/2024`
+Workshop on AI and cognitive science
+
+`10/18/2024`
+Northeast Linguistics Society (NELS 55)
+
+#### Unnatural Language Semantics
+
+`06/01/2024`
+Workshop in honor of Johan van Benthem's 75th birthday
+
 `04/18/2024`
 University of Toronto Computational Linguistics Colloquium
+
+#### Degrees of Monotonicity
 
 `03/11/2024`
 Edinburgh Center for Language Evolution
