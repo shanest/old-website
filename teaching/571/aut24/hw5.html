@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+	<title>UW LING 571: HW5 (Fall 2024)</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">LING 571: Deep Processing Methods for NLP [Aut '24]</a>
+			<a class="navbar-brand ml-auto" href="#">Homework 5</a>
+			<!--
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item active">
+	    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	    </li>
+	    <li class="nav-item">
+	    <a class="nav-link" href="#">Link</a>
+	    </li>
+	    </ul>
+	    </div>
+				-->
+		</div>
+	</nav>
+
+	<main role="main" class="container">
+		<p class="lead">This assignment is due <strong>Wednesday, November 1 at 11:59PM</strong>.</p>
+		<p><a name="top"></a></p>
+
+
+		<h2>Goals</h2>
+		<p>Through this assignment you will:</p>
+		<ul>
+			<li>Explore dependency grammars and dependency parsing.</li>
+			<li>Investigate transition-based parsing approaches in dependency parsing.</li>
+			<li>Gain familiarity with representations of dependency parses.</li>
+			<li>Implement the arc-standard oracle to identify and apply the correct transition sequence associated with
+				a gold-standard dependency parse.</li>
+		</ul>
+		<h2>Background</h2>
+		<p>Please review the <a href="slides/8_Dependency-Feature-based.pdf" target="_blank">class slides</a>, homework
+			slides, and <a href="https://web.stanford.edu/~jurafsky/slp3/19.pdf" target="_blank">readings in the
+				textbook</a> on dependency parsing
+			in general and transition-based parsing in particular.&nbsp;</p>
+		<p>Dependency parsing relies on a transition set which converts the current state of the parse - referred to as
+			a "configuration" - into a new state, until some terminal state is reached. &nbsp;The arc-standard paradigm
+			employs three transitions:</p>
+		<ul>
+			<li>SHIFT</li>
+			<li>(LEFTARC,&lt;label&gt;)</li>
+			<li>(RIGHTARC,&lt;label&gt;)</li>
+		</ul>
+		<p>where &lt;label&gt; is the dependency relation that holds between the head and dependent identified by the
+			transition.</p>
+		<p>The configuration consists of the <em>stack, buffer, and arcs</em> as discussed in class and in the readings.
+			&nbsp;It may be most straightforward to represent these as lists of different types, as in [0 1], [2,3,4],[]
+			for a stack with two elements (including ROOT), a buffer with three elements, and (here) an empty set of
+			arcs. &nbsp;The elements here refer to the words in the sentence by their indexes. &nbsp;Of course,
+			alternate data structures are possible as well.</p>
+		<p>You will need to implement a function that applies a specified transition to a given configuration, and have
+			code which implements the oracle which determines which transition should be applied to the current
+			configuration, while working through each sentence with its accompanying dependency parse.</p>
+		<h3>Oracle&nbsp;</h3>
+		<p>Create a program to implement the arc-standard oracle and apply it to a set of dependency-parsed sentences.
+			Specifically, your program should:</p>
+		<ul>
+			<li>Read in a set of dependency parses of sentences, in a simplified CONLL format.</li>
+			<li>For each dependency parse, you program should output:
+				<ul>
+					<li>to one file, the ordered sequence of transitions corresponding to the parse</li>
+					<li>to another file, the dependency arcs corresponding to the application of the above transitions
+						to the sentence.</li>
+				</ul>
+			</li>
+		</ul>
+		<p><strong>Note:</strong>&nbsp;You are only responsible for implementing the oracle. &nbsp;You do not need to
+			train a model based on the oracle transitions.</p>
+		<h4>Programming</h4>
+		<p>Create a program called hw5_oracle.sh which applies the arc-standard oracle to identify and apply the correct
+			sequence of transitions from the dependency parses provided &nbsp;invoked as:<br>hw5_oracle.sh
+			&lt;input_dependency_parse_filename&gt; &lt;output_dependency_filename&gt; &lt;output_sequence_filename&gt;
+			where,</p>
+		<ul>
+			<li>&lt;input_dependency_parse_filename&gt; is the name of the file holding the gold-standard dependency
+				parses which you will use to derive the transition sequence.</li>
+			<li>&lt;output_dependency_filename&gt; is the name of the file to write the resulting dependency arcs
+				created by applying the oracle transitions.</li>
+			<li>&lt;output_sequence_filename&gt; is the name of the file to write the resulting sequence of transitions
+				derived by the arc-standard oracle, which could be used in training a full dependency parser.</li>
+		</ul>
+		<h2>Files</h2>
+		<p>Please adhere to the naming conventions below:</p>
+		<h3>Example and Test Data Files</h3>
+		<p>All data and example files may be found in <strong>/dropbox/24-25/571/hw5/</strong>.</p>
+		<ul>
+			<li><strong>conll.simple</strong>: Set of English dependency parses from the CONLL 2007 shared task, in a
+				simplified four column format,<br>
+				<ul>
+					<li>&lt;index&gt;\t&lt;word&gt;\t&lt;depenendency_relation&gt;\t&lt;head_index&gt;</li>
+					<li><strong>ROOT</strong> corresponds to head_index 0</li>
+					<li>Blank lines separate parses</li>
+				</ul>
+			</li>
+			<li><strong>toy.dep</strong>: Toy set of dependency parses.</li>
+			<li><strong>toy.seq</strong>: Oracle sequence of transitions corresponding the dependency parses in
+				<strong>toy.dep</strong>.
+			</li>
+		</ul>
+		<h3>Submission Files</h3>
+		<ul>
+			<li><strong>hw5.tar.gz</strong>: Tarball containing:
+				<ul>
+					<li><strong>hw5_oracle.sh</strong>: Primary program file with language-appropriate extension.</li>
+					<li><strong>hw5_dependencies_output.txt</strong>: This file should contain the dependency arcs
+						resulting from applying the oracle transitions. &nbsp;They should be in the simplified CONLL
+						format described above, and sorted by word index. &nbsp;Correct output should replicate the
+						original dependency parse.</li>
+					<li><strong>hw5_transitions_output.txt</strong>: The output file with the sequence of transitions
+						derived from the original dependency parses, using the arc-standard transition inventory, given
+						above.</li>
+				</ul>
+			</li>
+			<li><strong>readme.{txt|pdf}</strong>: Write-up file
+				<ul>
+					<li>This file should describe and discuss your work on this assignment. Include problems you came
+						across and how (or if) you were able to solve them, any insights, special features, and what you
+						learned. Give examples if possible. If you were not able to complete parts of the project,
+						discuss what you tried and/or what did not work. This will allow you to receive maximum credit
+						for partial work.</li>
+				</ul>
+			</li>
+		</ul>
+		<h2>Handing in your work</h2>
+		<p>All homework should be handed in using the Canvas submission tools.</p>
+	</main>
+
+
+
+	<!-- Bootstrap core JavaScript
+	  ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Goatcounter analytics -->
+	<script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+
+</html>
