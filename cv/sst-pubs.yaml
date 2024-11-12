@@ -364,6 +364,60 @@ references:
   type: paper-conference
   URL: https://aclanthology.org/2022.sigmorphon-1.5
 
+- id: downeyTargetedMultilingualAdaptation2024
+  abstract: >-
+    Massively multilingual models are known to have limited utility in any one
+    language, and to perform particularly poorly on low-resource languages. By
+    contrast, targeted multinguality has been shown to benefit low-resource
+    languages. To test this approach more rigorously, we systematically study
+    best practices for adapting a pre-trained model to a language family.
+    Focusing on the Uralic family as a test case, we adapt XLM-R under various
+    configurations to model 15 languages; we then evaluate the performance of
+    each experimental setting on two downstream tasks and 11 evaluation
+    languages. Our adapted models significantly outperform mono- and
+    multilingual baselines. A regression analysis reveals that adapted
+    vocabulary size is relatively unimportant for low-resource languages, and
+    that low-resource languages can be aggressively up-sampled during training
+    at little detriment to performance in high-resource languages. These results
+    introduce new best practices for performing language adaptation in a
+    targeted setting.
+  accessed:
+    - year: 2024
+      month: 11
+      day: 12
+  author:
+    - family: Downey
+      given: C. M.
+    - family: Blevins
+      given: Terra
+    - family: Serai
+      given: Dhwani
+    - family: Parikh
+      given: Dwija
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: downeyTargetedMultilingualAdaptation2024
+  container-title: 'Findings of the Association for Computational Linguistics: EMNLP 2024'
+  editor:
+    - family: Al-Onaizan
+      given: Yaser
+    - family: Bansal
+      given: Mohit
+    - family: Chen
+      given: Yun-Nung
+  event-place: Miami, Florida, USA
+  event-title: Findings 2024
+  issued:
+    - year: 2024
+      month: 11
+  page: 15647–15663
+  publisher: Association for Computational Linguistics
+  publisher-place: Miami, Florida, USA
+  source: ACLWeb
+  title: Targeted Multilingual Adaptation for Low-resource Language Families
+  type: paper-conference
+  URL: https://aclanthology.org/2024.findings-emnlp.918
+
 - id: geffenlanSpontaneousEmergenceDiscrete2020
   abstract: >-
     We propose a general framework to study language emergence through signaling
@@ -393,7 +447,30 @@ references:
   type: paper-conference
   URL: https://www.aclweb.org/anthology/2020.acl-main.433
 
-- id: guerinImpactSyntacticSemanticforthcoming
+- id: guerinImpactSyntacticSemantic2024
+  abstract: >-
+    Unsupervised on-the-fly back-translation, in conjunction with multilingual
+    pretraining, is the dominant method for unsupervised neural machine
+    translation. Theoretically, however, the method should not work in general.
+    We therefore conduct controlled experiments with artificial languages to
+    determine what properties of languages make back-translation an effective
+    training method, covering lexical, syntactic, and semantic properties. We
+    find, contrary to popular belief, that (i)~parallel word frequency
+    distributions, (ii)~partially shared vocabulary, and (iii)~similar syntactic
+    structure across languages are not sufficient to explain the success of
+    back-translation. We show however that even crude semantic signal (similar
+    lexical fields across languages) does improve alignment of two languages
+    through back-translation. We conjecture that rich semantic dependencies,
+    parallel across languages, are at the root of the success of unsupervised
+    methods based on back-translation. Overall, the success of unsupervised
+    machine translation was far from being analytically guaranteed. Instead, it
+    is another proof that languages of the world share deep similarities, and we
+    hope to show how to identify which of these similarities can serve the
+    development of unsupervised, cross-linguistic tools.
+  accessed:
+    - year: 2024
+      month: 11
+      day: 12
   author:
     - family: Guerin
       given: Nicolas
@@ -401,13 +478,18 @@ references:
       given: Emmanuel
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: guerinImpactSyntacticSemanticforthcoming
+  citation-key: guerinImpactSyntacticSemantic2024
   container-title: Transactions on Machine Learning Research
+  ISSN: 2835-8856
   issued:
-    - literal: forthcoming
-  title: The Impact of Syntactic and Semantic Proximity on Back-Translation
+    - year: 2024
+  language: en
+  source: openreview.net
+  title: >-
+    The Impact of Syntactic and Semantic Proximity on Machine Translation with
+    Back-Translation
   type: article-journal
-  URL: https://arxiv.org/abs/2403.18031
+  URL: https://openreview.net/forum?id=6DflIABPQP
 
 - id: guoDatabaseModalSemantic2022
   abstract: >-
@@ -853,10 +935,6 @@ references:
     measured by perplexity), both models perform equally and surprisingly well
     on linguistic generalization measures, suggesting that they are capable of
     generalizing from indirect evidence.
-  accessed:
-    - year: 2024
-      month: 9
-      day: 16
   author:
     - family: Patil
       given: Abhinav
@@ -1246,10 +1324,6 @@ references:
     possible mechanisms of evolution of these degrees of interspecies
     comprehension, and isolate predictions that distinguish the third degree
     from the second.
-  accessed:
-    - year: 2024
-      month: 9
-      day: 16
   author:
     - family: Schlenker
       given: Philippe

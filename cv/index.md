@@ -23,7 +23,7 @@ Computational Linguist and Cognitive Scientist
 </div>
 
 <div id="date">
-Last modified: 09/16/24
+Last modified: 11/12/24
 </div>
 
 
@@ -78,6 +78,10 @@ __B.A., The Johns Hopkins University__
 
 ## Awards
 
+`2023-2024`
+__Consultant (NSF)__
+- "Moving Beyond Size: Word Meanings Underlying Children's Productive Vocabulary" (co-PIs Haley Vlach and Gary Lupyan, University of Wisconsin)
+
 `2022-2024`
 __UW Linguistics Fund__
 
@@ -110,10 +114,10 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 @patilFilteredCorpusTrainingforthcoming
 
 `forthcoming`
-@guerinImpactSyntacticSemanticforthcoming
-
-`forthcoming`
 @schlenkerBabelThreeDegreesforthcoming
+
+`2024`
+@guerinImpactSyntacticSemantic2024
 
 `2024`
 @schlenkerMinimalCompositionalityBird2024
@@ -221,6 +225,9 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 ### Proceedings
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
+
+`2024`
+@downeyTargetedMultilingualAdaptation2024
 
 `2024`
 @shapiroIconicArtificialLanguage2024
@@ -401,12 +408,12 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 Workshop on self-assembling games
 
 `11/29/2024`
-Workshop on AI and cognitive science
+Workshop: At the Crossroads of AI and Cognitive Science
+
+#### Unnatural Language Semantics
 
 `10/18/2024`
 Northeast Linguistics Society (NELS 55)
-
-#### Unnatural Language Semantics
 
 `06/01/2024`
 Workshop in honor of Johan van Benthem's 75th birthday
@@ -741,15 +748,15 @@ Fifth IEEE International Conference on Semantic Computing
 
 ### Washington
 
-LING 571 Deep Processing Methods for NLP: Aut '19, '20, '21, '22
+LING 571 Deep Processing Methods for NLP: Aut '19, '20, '21, '22, '23, '24
 
 LING 572 Advanced Statistical Methods for NLP: Win '20
 
-LING 574 Deep Learning for NLP: Spr '21, '22
-
-- NB: New course development
+LING 574 Deep Learning for NLP (new course development): Spr '21, '22, '24
 
 LING 575 Analyzing Neural Language Models: Win '20, Spr '21, '22
+
+LING 575 Compositionality and Generalization: Spr '24
 
 
 ### Amsterdam
@@ -781,13 +788,17 @@ Quantification and Computation (with Jakub Szymanik): ESSLLI 2014
 
 ### PhD
 
-
 __Primary Advisor__
 
-- Naomi Tachikawa Shapiro (now: postdoc at Radbound University, Nijmegen)
-- C.M. Downey (co-advisor: Gina-Anne Levow; Fall '24: Assistant Professor in Linguistics and Data Science, University of Rochester)
 - Cassandra Maz
 - Christopher Haberland
+- Jingnong Qu
+- Amanda Popadich
+
+__Graduated PhD Students (as primary advisor)__
+
+- Naomi Tachikawa Shapiro (now: postdoc at Radbound University, Nijmegen)
+- C.M. Downey (co-advisor: Gina-Anne Levow; now: Assistant Professor in Linguistics and Data Science, University of Rochester)
 
 
 __Committee Member__
@@ -811,6 +822,15 @@ __Graduate Student Representative (external member)__
 
 
 ### MS theses 
+
+`2024`
+Abhinav Patil, "Language Models can Generalize from Indirect Evidence: Evidence from Filtered Corpus Training (FICT)"
+
+`2023`
+Yifan Jiang (PhD student, Computer Science @ Waterloo), "The Weighted Mobius Score: A Unified Framework for Feature Attribution"
+
+`2022`
+Meheresh Yeditha (Software Engineer @ Rippling), "An Investigation Into Supervision for Seq2Seq Techniques for Natural Language to Code Translation"
 
 `2022`
 Nathaniel Imel (PhD Student, Logic and Philosophy of Science @ UC Irvine), "Modals in natural language optimize the simplicity/informativeness tradeoff"
@@ -855,18 +875,32 @@ Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine T
 
 #### Journals
 
-Semantics & Pragmatics (5); Glossa Psycholinguistics; The Psychological Review; Mind; Noûs; Mind \& Language; Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (3); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology
+Semantics & Pragmatics (5); Glossa Psycholinguistics; The Psychological Review; Mind; Noûs; Mind \& Language (2); Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (4); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology; Open Mind; Journal of Pragmatics; Journal of Memory and Language
 
 #### Conferences
 
-Association for Computational Linguistics (ACL); Empirical Methods in Natural Language Processing (EMNLP); International Conference of Learning Representations (ICLR); Semantics and Linguistic Theory (SALT); North American ACL (NAACL); *SEM (Joint Conference on Lexical and Computational Semantics); Neural Information Processing Systems (NeurIPS); Experiments in Linguistic Meaning (ELM); BlackboxNLP; West Coast NLP (WeCNLP); International Conference on Machine Learning (ICML); COLING; Semantics and Philosophy in Europe (SPE); Amsterdam Colloquium; Annual Meeting of the Cognitive Science Society; AACL-IJCNLP (Asia-Pacific ACL - International Joint Conference in NLP); Joint Conference on Language Evolution (JCoLE); Experimental approaches to language universals in structure and meaning; Approaches to implicature: rational choice and/or exhaustification; WeSSLLI (Web Summer School in Logic, Language and Information) Student Session; ACL Student Research Workshop
+Association for Computational Linguistics (ACL); Empirical Methods in Natural Language Processing (EMNLP); International Conference of Learning Representations (ICLR); Semantics and Linguistic Theory (SALT); North American ACL (NAACL); *SEM (Joint Conference on Lexical and Computational Semantics); Neural Information Processing Systems (NeurIPS); Experiments in Linguistic Meaning (ELM); BlackboxNLP; West Coast NLP (WeCNLP); International Conference on Machine Learning (ICML); COLING; Semantics and Philosophy in Europe (SPE); Amsterdam Colloquium; Annual Meeting of the Cognitive Science Society; AACL-IJCNLP (Asia-Pacific ACL - International Joint Conference in NLP); Joint Conference on Language Evolution (JCoLE); Experimental approaches to language universals in structure and meaning; Approaches to implicature: rational choice and/or exhaustification; WeSSLLI (Web Summer School in Logic, Language and Information) Student Session; ACL Student Research Workshop; GenBench Workshop
+
+#### Books
+
+The MIT Press; Cambridge University Press
+
+#### Grant Agencies
+
+National Science Foundation; UW Royalty Research Fund; UW Linguistics Fund
+
 
 ### Conference Organization
 
-#### General Chair
+#### Primary organizer
 
+- North American Summer School for Logic, Language and Information (NASSLLI) @ UW, 2025
 - Computational and Experimental Explanations in Semantics and Pragmatics, at ESSLLI 2021 (with Jakub Szymanik)
 - Quantity in Language and Thought, at ESSLLI 2018 (with Jakub Szymanik)
+
+#### Organizing Committee Member 
+
+- West Coast Conference on Formal Linguistics (with Barbara Citko, Andrew Hedding, Barbara Citko)
 - Discourse in Philosophy Colloquium Series (with Thom van Gessel, Peter Hawke)
 - Cognitive Semantics and Quantities Kick-off Workshop (with Peter Hawke)
 - NASSLLI 2014 Student Session
