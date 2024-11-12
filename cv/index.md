@@ -80,6 +80,7 @@ __B.A., The Johns Hopkins University__
 
 `2023-2024`
 __Consultant (NSF)__
+
 - "Moving Beyond Size: Word Meanings Underlying Children's Productive Vocabulary" (co-PIs Haley Vlach and Gary Lupyan, University of Wisconsin)
 
 `2022-2024`
