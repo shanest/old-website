@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UW LING 575 Computational Linguistics and Cognitive Science</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        section {
+            padding: 150px 0;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Computational Linguistics and Cognitive Science (UW LING 575, Spring '25)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#information">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#policies">Policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#structure">Course Structure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reading">Curated Bibliography</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Course Description</h2>
+                    <p class="lead">
+                        Because one of the primary goals of cognitive science has been to reverse-engineer the human mind, there have been periods of intense interaction between the field and engineering developments in related fields like computational linguistics.  The recent development of (large) language models that are capable of producing large quantities of fluent text has (i) re-raised some fundamental questions about what can be learned from data alone, (ii) invited comparisons between language model processing and human language processing, and (iii) enabled new forms of controlled experimentation that can illuminate debates on acquisition.
+
+                        This seminar will be a focused reading group, where we will closely read a body of recent work at the intersection of computational linguistics and cognitive science, centered around questions like: Must certain linguistic biases be innate or can they be learned from data?  When and why are language models good predictors of human linguistic behavior?  A recurring focus will be on systematic manipulation of the training data for language models among various axes.
+                    </p>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Time</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mondays</td>
+                                <td>3:30 - 5:50 PM</td>
+                                <td>
+                                    <a href="http://maps.google.com/maps?q=47.6571279998,-122.308357+(SAV)&z=18" target="_blank">SAV</a> 130
+                                    <br />
+                                    <a
+                                        href="https://washington.zoom.us/j/99209774552">https://washington.zoom.us/j/99209774552</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Note: while the course will occur live at the above time and location, it will also be
+                        recorded and posted to the course Canvas page.</p>
+
+                    <h2 class="pt-2">Teaching Staff</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Role</th>
+                                <th>Name</th>
+                                <th>Office</th>
+                                <th>Office Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Instructor</td>
+                                <td>
+                                    <a href="https://shane.st" target="_blank">Shane Steinert-Threlkeld</a>
+                                </td>
+                                <td>
+                                    GUG 415K and
+                                    <br />
+                                    <a href="https://washington.zoom.us/my/shanest"
+                                        target="_blank">https://washington.zoom.us/my/shanest</a>
+                                </td>
+                                <td>Monday 3-5PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <!--
+                    <h2 class="pt-2">Course Resources</h2>
+
+                    <ul>
+                        <li><a href="https://canvas.uw.edu/courses/1720019" target="_blank">Canvas</a>: lecture
+                            recordings, discussion board, homework submission / grading</li>
+                        <li><a href="https://vervet.ling.washington.edu/db/accountrequest-form.php"
+                                target="_blank">Patas Account Request</a></li>
+                        <li><a href="https://www.shane.st/teaching/571/aut23/computing-resources.pdf"
+                                target="_blank">Computing Resources
+                                Orientation</a></li>
+                        <li><a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/CondorClusterHomepage"
+                                target="_blank">Condor Wiki Pages</a></li>
+                    </ul>
+                    -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="policies" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h1>Policies</h1>
+                    <p class="lead">As a project-oriented, student-driven, seminar-style class, active
+                        participation---in the classroom, or in Zoom, as well as on Canvas---is expected.  Primary course-time will be conducted as a "role-playing reading seminar", where each person reads a paper with a particular role / perspective and uses that to kick off discussion (see <a href="#structure">Course Structure</a> for more information).</p>
+
+                    <p>A final project will be carried out in small groups. Groups are free to divide up work as they
+                        see fit, but will be required to explain the division of labor with their final project. Except
+                        under rare circumstances, every member of a group will receive the same grades.</p>
+
+                    <p>We understand that you may face hard times as we navigate an ever-changing world due to the
+                        COVID-19 pandemic and many other world events. If you find yourself struggling with a difficult
+                        concept; stressed over politics or health; slowed by monopolistic internet providers; or annoyed
+                        at a classmate, please remember that they might feel similar. Maybe not in your very moment, but
+                        certainly recently or soon. Some of you may find the return to hybrid teaching conducive to your
+                        style of learning and personality. Others may find it stressful or difficult. These are all
+                        normal reactions. Please have compassion and empathy, and assume that everyone is doing their
+                        best.</p>
+
+                    <p>If you find yourself having trouble learning in class, please do not hesitate to let me know. My
+                        goal is to make this class a bright spot in these unprecedented times, and to do whatever we can
+                        to promote a healthy learning environment for all.</p>
+
+                    <h2 class="pt-2">A note on time zones</h2>
+                    <p>All deadlines and meeting times for this class are in "Pacific Time". Now that we are in Daylight
+                        Savings Time, this is UTC-7.</p>
+
+                    <h2 class="pt-2">Grading</h2>
+                    <ul>
+                        <li>60% weekly reading assignments</li>
+                        <li>40% final project</li>
+                    </ul>
+
+                    <h2 class="pt-2">Communication</h2>
+						<p>Any questions concerning course content and logistics should be posted on the Canvas discussion board.  If a more personal issue arises, you can email me personally; include &quot;LING575&quot; in the subject line.  You can expect responses from teaching staff within 24 hours, but only during normal business hours, and excluding weekends.</p>
+
+                    <h2 class="pt-2">Religious Accommodation</h2>
+                    <p>Washington state law requires that UW develop a policy for accommodation of student absences or
+                        significant hardship due to reasons of faith or conscience, or for organized religious
+                        activities. The UW's policy, including more information about how to request an accommodation,
+                        is available at <a
+                            href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/"
+                            target="_blank">Religious Accommodations Policy
+                            (https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/)</a>.
+                        Accommodations must be requested within the first two weeks of this course using the <a
+                            href="https://registrar.washington.edu/students/religious-accommodations-request/"
+                            target="_blank">Religious Accommodations Request form
+                            (https://registrar.washington.edu/students/religious-accommodations-request/)</a>.</p>
+
+                    <h2 class="pt-2">Access and Accommodations</h2>
+                    <p>Your experience in this class is important to me. If you have already established accommodations
+                        with Disability Resources for Students (DRS), please communicate your approved accommodations to
+                        me at your earliest convenience so we can discuss your needs in this course.</p>
+                    <p>If you have not yet established services through DRS, but have a temporary health condition or
+                        permanent disability that requires accommodations (conditions include but not limited to; mental
+                        health, attention-related, learning, vision, hearing, physical or health impacts), you are
+                        welcome to contact DRS at 206-543-8924 or uwdrs@uw.edu or disability.uw.edu. DRS offers
+                        resources and coordinates reasonable accommodations for students with disabilities and/or
+                        temporary health conditions. Reasonable accommodations are established through an interactive
+                        process between you, your instructor(s) and DRS. It is the policy and practice of the University
+                        of Washington to create inclusive and accessible learning environments consistent with federal
+                        and state law.</p>
+
+                    <h2 class="pt-2">Safety</h2>
+                    <p>Call SafeCampus at 206-685-7233 anytime---no matter where you work or study---to anonymously
+                        discuss safety and well-being concerns for yourself or others. SafeCampus's team of caring
+                        professionals will provide individualized support, while discussing short- and long-term
+                        solutions and connecting you with additional resources when requested.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="structure">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Course Structure</h2>
+                    <p class="lead">
+                        This course will function as a <a href="https://colinraffel.com/blog/role-playing-seminar.html">role-playing seminar</a>: each week, we will read and discuss two papers as a group. Each student will sign up for a role for one of the papers, and will be expected to contribute to the discussion from that perspective. Every role must have at least one student, but some roles can have more than one. (More information is on Canvas.) The roles:
+                    </p>
+                    <dl>
+                        <dt>
+                            &#x1F575; Archaeologist
+                        </dt>
+                        <dd>
+                            Determine where this paper sits in the wider landscape of previous and subsequent work. More concretely: find and report on one prior paper that substantially influenced the current paper and one newer paper that cites this current paper. (You can use Google Scholar or SemanticScholar to find papers citing the current paper.)
+                        </dd>
+                        <dt>
+                            &#x1F52C; Reproducer
+                        </dt>
+                        <dd>
+                            You are attempting to reproduce the main results of the paper, either to confirm its conclusions, or to carry out similar experiments. If you are unable to reproduce the results, try to understand why.  If you are able to, explain what helped the most.  (Note: you are not expected to <em>actually</em> reproduce papers for this class.  Rather, assume that you are trying to, and report on what you find on whether you would be able to.)
+                        </dd>
+                        <dt>
+                            &#x1F9D1;&#x200D;&#x1F52C; Researcher
+                        </dt>
+                        <dd>
+                            Based on the current paper, propose an experiment or analysis that would extend the work in a new direction.  This could be a new dataset, a new model, a new evaluation metric, etc.  In particular, try to think of something that is <em>only possible</em> thanks to the current paper, not just a simple extension.  (Note: these can serve as inspiration for your final project.)
+                        </dd>
+                        <dt>
+                            &#x2696; Reviewer
+                        </dt>
+                        <dd>
+                            Write a referee report for the current paper, following the <a href="https://aclrollingreview.org/reviewform">form for ACL Rolling Review</a> (up through the "Overall Assessment").  Aim to approach papers charitably, but critically, thinking of how the paper can be made into the best version of itself.  Their <a href="https://aclrollingreview.org/reviewertutorial#5-arr-review-form">reviewer tutorial</a> may also be helpful.
+                        </dd>
+                    </dl>
+                    <p>
+                        Each week, a shared Google Slides deck will be created, and each role-player will be expected to contribute a couple of slides, summarizing their view of the paper from their role.  The deck will be shared with the class, and will be used to guide the discussion of the paper.
+                    </p>
+                    <p>
+                        Non-presenter assignment: for the other paper that week, for which you have not signed up for one of the roles, you will be asked to (i) contribute an alternative title for the paper and (ii) at least one question about the paper (e.g. something that was confusing, or someothing that you want to hear more about).
+                    </p>
+                    <p>
+                        Because of the length of the seminar meetings, we will take a 10-minute break in the middle of each class, in between the discussion of each paper.
+                    </p>
+                    <p>
+                        One final note: in the interest of this being a student-led seminar, the reading list below can change based on the interests of the participants and everyone's projects.  If you have a paper that you would like to discuss, please let me know.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+
+                    <h2>Schedule</h2>
+
+                    <br />
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="8%">Date</th>
+                                <th>Topic</th>
+                                <th width="30%">Primary Readings</th>
+                                <th width="30%">Supplementary Readings</th>
+                                <th width="15%">Additional info</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Apr 2</td>
+                                <td>
+                                    Introduction
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    Group formation (out)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 9</td>
+                                <td>
+                                    Filtered corpus training, I 
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.1162/tacl_a_00720">Filtered Corpus Training (FiCT) Shows that Language Models Can Generalize from Indirect Evidence</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2024.emnlp-main.53">Language Models Learn Rare Phenomena from Less Rare Phenomena: The Case of the Missing AANNs</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://arxiv.org/abs/2208.07998">What Artificial Neural Networks Can Tell Us About Human Language Acquisition</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2021.findings-acl.439">Language Models Use Monotonicity to Assess NPI Licensing</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Group formation due
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 16</td>
+                                <td>
+                                    Filtered corpus training, II 
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="http://arxiv.org/abs/2408.05086">Generating novel experimental hypotheses from language models: A case study on cross-dative generalization</a>
+                                    </p>
+                                    <p>
+                                        <a href="http://arxiv.org/abs/2407.04593">Testing learning hypotheses using neural networks by manipulating learning data</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.1111/j.1467-9280.1991.tb00173.x">Networks and Theories: The Place of Connectionism in Cognitive Science</a>
+                                    </p>
+                                    <p>
+                                    </p>
+                                </td>
+                                <td>
+                                    Proposal guidelines out
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 23</td>
+                                <td>
+                                    Quantity of data, I
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2023.acl-long.521">How poor is the stimulus? Evaluating hierarchical generalization in neural networks trained on child-directed speech</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2024.emnlp-main.1231">Is Child-Directed Speech Effective Training Data for Language Models?</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2023.conll-babylm.1">Findings of the BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://aclanthology.org/2024.conll-babylm.1/">Findings of the Second BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr 30</td>
+                                <td>
+                                    Quantity of data, II
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2023.findings-emnlp.128">Transformer-Based Language Model Surprisal Predicts Human Reading Times Best with About Two Billion Training Tokens</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.1162/nol_a_00137">Artificial Neural Network Language Models Predict Human Brain Responses to Language Even After a Developmentally Realistic Amount of Training</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://aclanthology.org/2024.eacl-long.162/">Frequency Explains the Inverse Correlation of Large Language Models' Size, Training Data Amount, and Surprisal's Fit to Reading Times</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/4533e4a352440a32558c1c227602c323-Abstract-Conference.html">Scaling laws for language encoding models in fMRI</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Proposal due
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 7</td>
+                                <td>
+                                    Acquisition trajectories
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.1162/tacl_a_00444">Word Acquisition in Neural Language Models</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2023.findings-acl.773">Language acquisition: do children and language models follow similar learning stages?</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://wordbank.stanford.edu/">WordBank</a> and the corresponding book: <a href="https://langcog.github.io/wordbank-book/">Variability and Consistency in Early Language Learning: The Wordbank Project</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.1111/lnc3.70001">The Roles of Neural Networks in Language Acquisition</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.1016/j.tics.2023.08.007">Bridging the data gap between children and large language models</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.1111/cogs.13334">Predicting Age of Acquisition for Children's Early Vocabulary in Five Languages Using Language Model Surprisal</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 14</td>
+                                <td>
+                                    Multimodal data
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.1126/science.adi1374">Grounded language acquisition through the eyes and ears of a single child</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2024.naacl-long.71">Visual Grounding Helps Learn Word Meanings in Low-Data Regimes</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2020.emnlp-main.703">Experience Grounds Language</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://lingo.csail.mit.edu/blog/world_models/">Language Models, World Models, and Human Model-Building</a>
+                                    </p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 21</td>
+                                <td colspan="4" align="center">
+                                    No class (Shane traveling for conference)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May 28</td>
+                                <td>
+                                    Formal language pretraining
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2023.findings-emnlp.563">Injecting structural hints: Using language models to study inductive biases in language learning</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.48550/arXiv.2502.19249">Between Circuits and Chomsky: Pre-pretraining on Formal Languages Imparts Linguistic Biases</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2021.acl-long.38">Examining the Inductive Bias of Neural Language Models with Artificial Languages</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2023.blackboxnlp-1.21">Evaluating Transformer's Ability to Learn Mildly Context-Sensitive Languages</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    Final paper guidelines out
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jun 4</td>
+                                <td>
+                                    Impossible and implausible languages
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2024.acl-long.787">Mission: Impossible Language Models</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.48550/arXiv.2502.12317">Can Language Models Learn Typologically Implausible Languages?</a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a href="https://doi.org/10.1162/coli_a_00554">Kallini et al. (2024) Do Not Compare Impossible Languages with Constituency-based Ones</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://doi.org/10.18653/v1/2024.acl-long.807">What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages</a>
+                                    </p>
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--
+    <section id="reading" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h2>Reading List</h2>
+                    <p class="lead">This is a <em>curated</em> reading list, i.e. it reflects one particular view of a large body of literature. To find other related papers, I recommend:</p>
+                    <ul>
+                        <li>The references in these papers</li>
+                        <li>Papers that cite these papers  (e.g. "cited by" in Google Scholar and Semantic Scholar)</li>
+                    </ul>
+                    <script src="https://bibbase.org/show?bib=https://www.shane.st/teaching/575/spr24/575_Compositionality.bib&jsonp=1&theme=dividers&urlLinks=URL"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+
+    <!-- Goatcounter analytics -->
+    <script data-goatcounter="https://shanest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
