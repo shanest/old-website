@@ -35,7 +35,7 @@ We \textbf{strongly recommend} doing this assignment in order.  Your answers in 
 \vspace{2em}
 \noindent {\bf Q3: Loss function's gradients [20 pts]}  In the slides for lecture 3, we saw that the total loss for one positive example and $k$ negative examples is given by:
 $$ L_{CE} = -\log P(1 | w, c_+) - \sum_{i=1}^k \log P(0 | w, c_{-i})$$
-In what follows, where $x$ is a vector and $f$ a function of $x$ and possibly more variables, we will define $\nabla_x f := \langle \frac{\partial f}{\partial x_1} , \frac{\partial f}{\partial x_2}, \dots , \frac{\partial f}{\partial x_n} \rangle$.
+In what follows, where $x$ is a vector and $f$ a function of $x$ and possibly more variables, we will define $\nabla_x f := \langle \frac{\partial f}{\partial x_1} , \frac{\partial f}{\partial x_2}, \dots , \frac{\partial f}{\partial x_n} \rangle$.  You can assume here and throughout, unless otherwise specified, that $\log$ refers to the natural logarithm (i.e. base $e$).
 \begin{itemize}
   \item Rewrite this loss in terms of the parameter matrices $W$ and $C$, i.e.\ expand the $P(\cdot)$s with the definition of the model. [2 pts]
 
