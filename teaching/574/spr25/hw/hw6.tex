@@ -56,6 +56,8 @@ Note: for this problem, you can assume that the RNN cell is at the `bottom' of a
 
 In the coding portion of this assignment, you will implement (components of) a classifier for the Stanford Sentiment Treebank, using RNNs as encoders.  In particular, the model will take the final hidden state of an RNN that has read reviews as input in order to predict the sentiment labels thereof.  Here, you will implement some data pre-processing and two major types of RNN ``cell'' (i.e.\ one time-step of computation).  These are then used in other RNN modules that we provide to process entire sequences.
 
+\noindent For the modeling portion, we are now using PyTorch instead of edugrad.  While the API is similar, PyTorch is more `user-friendly', with a lot of utilities that are numpy-like as well.  You can find the PyTorch documentation at \url{https://pytorch.org/docs/stable/index.html}.  Note that common activation functions have top-level names, i.e. \texttt{torch.sigmoid} and \texttt{torch.tanh}.
+
 \vspace{2em}
 \noindent {\bf Q1: Data processing} The reviews in the SST dataset come in various lengths.  In the previous models we have looked at in the class, this has not been an issue because they rely either on a bag-of-words representation (Deep Averaging Network) or a fixed-sized window of previous tokens (Feed-Forward Language Model).  RNNs, however, require the use of \emph{padding}: given a batch of reviews of various lengths, we pad the shorter sequences with a special padding token so that all sequences are as long as the longest one.
 
