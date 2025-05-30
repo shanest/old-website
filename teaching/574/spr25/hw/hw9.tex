@@ -1,0 +1,126 @@
+\documentclass[11pt]{article}
+\usepackage{hyperref}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+\begin{document}
+
+\title{LING 574 HW9}
+\date{\vspace{-0.2in}Due 11:59PM on June 9, 2025}
+\maketitle
+
+
+\noindent In this assignment, you will 
+\begin{itemize}
+  \item Develop understanding of prompting and in-context learning
+  \item Implement some of the components of applying ICL to our sentiment analysis task
+  \item Explore the impact of those choices on task performance, and compare to previous models
+\end{itemize}
+All files referenced herein may be found in \texttt{/mnt/dropbox/24-25/574/hw9/} on patas.
+
+
+\section{Prompting and in-context learning [30 pts]}
+
+\noindent {\bf Q1: In-context learning}
+\begin{itemize}
+  \item What is the primary difference between in-context learning (ICL) and fine-tuning?  In particular, how are predictions made in the former?  Please answer in 1-2 sentences. \hfill [5 pts]
+  \item What is one unintuitive aspect of ICL that you have learned about in this course?  Please answer in 1-2 sentences. \hfill [5 pts]
+\end{itemize}
+
+\noindent {\bf Q2: Post-training}
+\begin{itemize}
+  \item What are examples of two post-training methods? \hfill [2 pts]
+  \item How do these methods differ from `traditional' fine-tuning directly on a downstream task? \hfill [3 pts]
+  \item Why has post-training been applied to base pre-trained models in recent years?  What types of behaviors does it encourage?  Please answer in 1-2 sentences. \hfill [5 pts]
+\end{itemize}
+
+\noindent {\bf Q3: Documentation of OLMo data} For the coding portion of this assignment, we will be using two models from the OLMo (Open Language Model) project, namely \texttt{OLMo-2-0425-1B} and \texttt{OLMo-2-0425-1B-SFT}.  You can find more information about these models at \href{https://allenai.org/olmo/release-notes#olmo-2-1b}{this release page}, this \href{https://allenai.org/blog/olmo2}{earlier blog post}, and \href{https://arxiv.org/abs/2501.00656}{this paper} (clickable links).  Based on these resources:
+\begin{itemize}
+  \item Provide a brief description of the \emph{pretraining data} used for the two models.  How large is it, and what types of data does it include?  Please answer in 1-2 sentences. \hfill [5 pts]
+  \item Did you find it easier or harder to answer the previous question as compared to writing a data statement for SST in HW1? Why? \hfill [5 pts]
+\end{itemize}
+
+
+
+\section{Implementing an ICL-based Sentiment Classifier [15 pts]}
+
+In the coding portion of this assignment, you will implement a model for sentiment analysis on the SST dataset, using a pretrained transformer decoder.  
+
+\vspace{2em}
+\noindent {\bf Q1: Implement a new template}  In \texttt{olmo.py}, you will find a basic template for one example of the SST task in (\texttt{template\_basic}).  Please implement a new template, of your choice, in \texttt{template\_complex}.  Please describe here what you chose to do, including one example. \hfill [5 pts]
+
+\vspace{2em}
+\noindent {\bf Q2: Implement a new prompt}  In \texttt{olmo.py}, you will find a basic prompt for the SST task (\texttt{prompt\_basic}).  This simply concatenates the template as applied to the in-context examples and the new to-be-predicted review.  Please implement a new prompt in \texttt{prompt\_complex}.  We recommend, minimally, pre-pending a task description and/or instruction to the basic prompt. Please describe here what you chose to do, including one example. \hfill [5 pts]
+
+\vspace{2em}
+\noindent {\bf Q3: Implement a rating extractor} In ICL, a model generates text in response to a prompt.  In order to use this setup as a classifier, we need to extract a label from the generated text.  Please implement \texttt{extract\_rating} in \texttt{olmo.py}.  This function should take as input the generated text and return a rating (1-5) for the sentiment of the review.  You may develop any method you like, but we suggest as a default using a regular expression to extract the first number in the text.  Please describe here what you chose to do, including one example. \hfill [5 pts]
+
+
+\section{Running the Classifier [25 pts]}
+
+\texttt{olmo.py} contains a basic loop for SST dev-set classification, by prompting a pre-trained transformer language model.  NB: we are running on a smaller subset of SST (256 randomly-selected dev examples) for speed reasons, since we will ask you to do many variations.
+
+\noindent \texttt{hw9.condor} is a job file that calls \texttt{run\_patas.sh}.  Please use this to run your homework, both to use Condor instead of the head-nodes directly, but also because it eliminates a few nodes that are not compatible with the course's new conda environment.
+
+\noindent We are using two models from the OLMo (Open Language Model) project, namely \texttt{OLMo-2-0425-1B} (0425 refers to the release date, April 25, and 1B to the number of parameters) and \texttt{OLMo-2-0425-1B-SFT}.  The latter starts from the former version, but then undergoes SFT (i.e.\ supervised fine-tuning).
+
+\vspace{2em}
+\noindent {\bf Q1: Many runs.}  Please fill out the table below with the results of running \texttt{olmo.py} with the corresponding arguments.  You can find the names for the command-line arguments in the \texttt{argparse} section of \texttt{olmo.py}.  The first row has a command already filled in for you in \texttt{run\_patas.sh}.
+
+\noindent NB: this is 12 runs.  Even with the reduced dev set, these can still take some time to run (especially with longer prompts and $k > 0$).  Because of this, we strongly recommend starting early so that all of your runs finish with enough time before the deadline to answer the questions below.  \hfill [5 pts]
+
+\begin{table}[h]
+  \centering
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Model              & Template & Prompt  & k & Accuracy \\ \midrule
+OLMo-2-0425-1B     & basic    & basic   & 0 &          \\
+OLMo-2-0425-1B     & basic    & complex & 0 &          \\
+OLMo-2-0425-1B     & complex  & basic   & 0 &          \\
+OLMo-2-0425-1B     & complex  & complex & 0 &          \\
+OLMo-2-0425-1B     & complex  & basic   & 4 &          \\
+OLMo-2-0425-1B     & complex  & complex & 4 &          \\
+OLMo-2-0425-1B-SFT & basic    & basic   & 0 &          \\
+OLMo-2-0425-1B-SFT & basic    & complex & 0 &          \\
+OLMo-2-0425-1B-SFT & complex  & basic   & 0 &          \\
+OLMo-2-0425-1B-SFT & complex  & complex & 0 &          \\
+OLMo-2-0425-1B-SFT & complex  & basic   & 4 &          \\
+OLMo-2-0425-1B-SFT & complex  & complex & 4 &          \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{2em}
+\noindent {\bf Q2: Qualitative analysis} 
+\begin{itemize}
+  \item What trends, if any, do you see in the accuracy table above (e.g. do any of the hyper-parameter choices seem to have a particularly large imapct)?  What do you think is causing these trends?  Please answer in 2-3 sentences. \hfill [7 pts]
+  \item For each run, the script also outputs the first batch of prompts, model generations, extracted labels, and true labels.  Please include the first 10 examples from (a) the run with the highest accuracy and (b) the run with the lowest accuracy in your submission, and describe in 2-3 sentences what you see in these examples.  Do you see any trends in what constitutes a good versus a bad prediction from the system?   You may also browse and reference other runs' examples as well if you'd like. \hfill [8 pts]
+\end{itemize}
+
+
+\vspace{2em}
+\noindent {\bf Q3: Comparison to Fine-tuned Classifier} In 2-3 sentences, please explain what differences you see in the classification decisions by this model using ICL and the small, fine-tuned, pretrained transformer that you trained in HW8. What do you think may be causing these effects (or lack thereof)? \hfill [5 pts]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Submission Instructions}
+
+In your submission, include the following:
+\begin{itemize}
+  \item readme.(txt$\mid$pdf) that includes your answers to \S1, \S2, and \S3. 
+  \item \texttt{hw9.tar.gz} containing:
+  \begin{itemize}
+    \item run\_hw9.sh.  This should contain your run commands for \S3 above. 
+    \item olmo.py
+  \end{itemize}
+\end{itemize}
+
+
+
+
+
+\end{document}
+
+
+
