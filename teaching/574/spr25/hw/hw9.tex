@@ -43,7 +43,7 @@ All files referenced herein may be found in \texttt{/mnt/dropbox/24-25/574/hw9/}
 
 
 
-\section{Implementing an ICL-based Sentiment Classifier [15 pts]}
+\section{Implementing an ICL-based Sentiment Classifier [20 pts]}
 
 In the coding portion of this assignment, you will implement a model for sentiment analysis on the SST dataset, using a pretrained transformer decoder.  
 
@@ -51,7 +51,7 @@ In the coding portion of this assignment, you will implement a model for sentime
 \noindent {\bf Q1: Implement a new template}  In \texttt{olmo.py}, you will find a basic template for one example of the SST task in (\texttt{template\_basic}).  Please implement a new template, of your choice, in \texttt{template\_complex}.  Please describe here what you chose to do, including one example. \hfill [5 pts]
 
 \vspace{2em}
-\noindent {\bf Q2: Implement a new prompt}  In \texttt{olmo.py}, you will find a basic prompt for the SST task (\texttt{prompt\_basic}).  This simply concatenates the template as applied to the in-context examples and the new to-be-predicted review.  Please implement a new prompt in \texttt{prompt\_complex}.  We recommend, minimally, pre-pending a task description and/or instruction to the basic prompt. Please describe here what you chose to do, including one example. \hfill [5 pts]
+\noindent {\bf Q2: Implement a new prompt}  In \texttt{olmo.py}, you will find a basic prompt for the SST task (\texttt{prompt\_basic}).  This simply concatenates the template as applied to the in-context examples and the new to-be-predicted review.  Please implement a new prompt in \texttt{prompt\_complex}.  We recommend, minimally, pre-pending a task description and/or instruction to the basic prompt. Please describe here what you chose to do, including one example. \hfill [10 pts]
 
 \vspace{2em}
 \noindent {\bf Q3: Implement a rating extractor} In ICL, a model generates text in response to a prompt.  In order to use this setup as a classifier, we need to extract a label from the generated text.  Please implement \texttt{extract\_rating} in \texttt{olmo.py}.  This function should take as input the generated text and return a rating (1-5) for the sentiment of the review.  You may develop any method you like, but we suggest as a default using a regular expression to extract the first number in the text.  Please describe here what you chose to do, including one example. \hfill [5 pts]
