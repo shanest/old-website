@@ -549,6 +549,19 @@ references:
   type: paper-conference
   URL: https://aclanthology.org/2022.sigtyp-1.6
 
+- id: haberlandQuantifiersThatAre2025
+  author:
+    - family: Haberland
+      given: Christopher
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: haberlandQuantifiersThatAre2025
+  container-title: Proceedings of Semantics and Linguistic Theory (SALT 35)
+  issued:
+    - year: 2025
+  title: Quantifiers that are More Monotone are Easier to Learn
+  type: paper-conference
+
 - id: Hawke2015
   author:
     - family: Hawke
@@ -725,6 +738,35 @@ references:
   type: paper-conference
   URL: >-
     http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/32.012
+
+- id: imelUnnaturalLanguageToolKit2025
+  abstract: "The Unnatural Language Toolkit (ULTK) is an open-source Python library for computational semantic typology research (https://clmbr.shane.st/ultk/ultk.html). ULTK's key features include unifying data structures, algorithms for generating artificial languages, and data analysis tools for related computational experiments. The\_language module organizes the basic data structures for constructing meaning spaces, expressions, and languages. A\_grammar submodule contains methods for building and enumerating expressions from custom Language of Thought (Fodor, 1975, 2008; Quilty-Dunn et al., 2022) grammars, which allows for straightforward computation of minimum length descriptions for symbolically expressible semantic representations. This approach has been used successfully in many investigations of concept learning (Feldman, 2000; Goodman et al., 2015). The second main module of ULTK, effcomm, organizes efficient communication analyses, which have become popular styles of explanation in recent functionalist accounts of semantic universals (Kemp et al., 2018). This module contains functions for defining informativity based on literal and pragmatic communicative agents and algorithms for exploring the space of artificial languages. After first elaborating on the structure of these two modules, we then provide two case studies, illustrating two major styles of explanation in computational semantic typology research: (1) an efficient communication analysis of modal semantic typology, and (2) an analysis of the relative ease of learning of monotone versus non-monotone quantifiers. ULTK’s accessible design, documentation, and open-source nature are intended to reduce barriers for researchers when implementing computational linguistic typological experiments."
+  accessed:
+    - year: 2025
+      month: 8
+      day: 8
+  author:
+    - family: Imel
+      given: Nathaniel
+    - family: Haberland
+      given: Christopher
+    - family: Steinert-Threlkeld
+      given: Shane
+  citation-key: imelUnnaturalLanguageToolKit2025
+  container-title: Society for Computation in Linguistics
+  DOI: 10.7275/scil.3144
+  ISSN: 2834-1007
+  issue: '1'
+  issued:
+    - year: 2025
+  language: eng
+  number: '1'
+  publisher: University of Massachusetts Amherst Libraries
+  source: openpublishing.library.umass.edu
+  title: The Unnatural Language ToolKit (ULTK)
+  type: article-journal
+  URL: https://openpublishing.library.umass.edu/scil/article/id/3144/
+  volume: '8'
 
 - id: jiangWeightedMobiusScoresubmitted
   abstract: >-
@@ -981,8 +1023,6 @@ references:
   ISSN: 2307-387X
   issued:
     - year: 2024
-      month: 11
-      day: 27
   page: 1597-1615
   source: Silverchair
   title: >-
@@ -1289,6 +1329,64 @@ references:
   title-short: mSCAN
   type: paper-conference
   URL: https://aclanthology.org/2023.genbench-1.11
+
+- id: schlenkerAncestralMeaningsPreludeforthcoming
+  abstract: >-
+    How did the very first meaning components arise in animals? We argue that
+    answers interact in interesting ways with data on current and ancestral
+    animal communication systems. Using standard notions of evolutionary
+    stability in biology, we develop a simple framework to analyze the emergence
+    of three meaning components: individual signals, non-trivial combinations,
+    and pragmatic principles of competition among signals. We show that for
+    elementary signals to arise, they should have null cost, or be understood
+    from the start. While this conclusion dovetails with the traditional idea
+    that signals often originate in cues, i.e. informative by-products of
+    non-communicative processes, the two scenarios (null cost vs. understanding
+    from the start) can be distinguished in case studies involving ancestral
+    meaning reconstruction. For non-trivial combinations of the form CC' (such
+    as pyow-hack sequences in putty-nosed monkeys and ABC-D sequences in
+    Japanese tits), we show that their emergence is heavily constrained because
+    they should initially give rise to some miscommunication, as CC' could also
+    be understood as the (trivial) combination of separate utterances C and C'.
+    Finally, we investigate the evolution of two pragmatic principles that were
+    posited in recent animal linguistics: the Informativity Principle and the
+    Urgency Principle. We argue that both have a clear evolutionary path,
+    especially if they start appearing in production, and then in comprehension.
+    Overall, recent work in animal linguistics can be fruitfully combined with
+    simple principles of evolutionary stability and with ancestral signal
+    reconstruction to address in a precise fashion questions about the very
+    first meaning operations in nature.
+  author:
+    - family: Schlenker
+      given: Philippe
+    - family: Pawlowitsch
+      given: Christina
+    - family: Arnal
+      given: Luc
+    - family: Chatain
+      given: Keny
+    - family: Ravaux
+      given: Lucie
+    - family: Ryder
+      given: Robin
+    - family: Salis
+      given: Ambre
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Wang
+      given: Léo
+    - family: Chemla
+      given: Emmanuel
+  citation-key: schlenkerAncestralMeaningsPreludeforthcoming
+  container-title: Linguistics and Philosophy
+  issued:
+    - literal: forthcoming
+  note: 'LingBuzz Published In: To appear in Linguistics & Philosophy'
+  source: LingBuzz
+  title: 'Ancestral Meanings: A Prelude to Evolutionary Animal Linguistics'
+  title-short: Ancestral Meanings
+  type: article-journal
+  URL: https://ling.auf.net/lingbuzz/008203
 
 - id: schlenkerAnthropocentrismComparativeCognition2022
   accessed:

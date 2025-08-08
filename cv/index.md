@@ -111,6 +111,9 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 ### Journals
 
+`forthcoming`
+@schlenkerAncestralMeaningsPreludeforthcoming
+
 `2025`
 @guerinSecondorderZipfsLaw2025
 
@@ -229,6 +232,12 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 ### Proceedings
 
 (NB: An * next to the year indicates abstract, as opposed to full paper, review.)
+
+`2025`
+@imelUnnaturalLanguageToolKit2025`
+
+`2025`
+@haberlandQuantifiersThatAre2025
 
 `2024`
 @downeyTargetedMultilingualAdaptation2024
@@ -619,6 +628,10 @@ First CSLI Workshop on Logic, Rationality and Intelligent Interaction
 
 ### Refereed
 
+#### Quantifiers that are More Monotone are Easier to Learn
+`05/21/2025`
+Semantics and Linguistic Theory (SALT 35); with Christopher Haberland
+
 #### Deontic priority: converging evidence for a semantic universal in the modal domain
 `01/26/2024`
 North East Linguistics Society (NELS 52); with Wataru Uegaki, Anne Mucha, Nathaniel Imel
@@ -757,6 +770,10 @@ Fifth IEEE International Conference on Semantic Computing
 
 ### Text Media Appearances
 
+`2025` "[In the Calls of Bonobos, Scientists Hear Hints of Language](https://www.nytimes.com/2025/04/03/science/communication-language-bonobos.html)" by Carl Zimmer in _The New York Times_
+
+`2025` "[Bonobos’ Complex Calls Share an Extraordinary Trait with Human Language](https://www.scientificamerican.com/article/bonobo-calls-are-more-like-human-language-than-we-thought/)" by Cody Cotier in _Scientific American_
+
 `2023` "[Google’s Bard Writes Convincingly About Known Conspiracy Theories](https://www.bloomberg.com/news/articles/2023-04-04/google-s-bard-writes-convincingly-about-known-conspiracy-theories?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTY4MDYyMzU3OCwiZXhwIjoxNjgxMjI4Mzc4LCJhcnRpY2xlSWQiOiJSU0xER1pEV1gyUFMwMSIsImJjb25uZWN0SWQiOiJFNzAxNENGQzIzNTI0MzU0QTVENUY2QkREMDAxOEU3NiJ9.Odn8lGbFzIufan19kvqfUUcpmUTTBpSmnQYe8E5a374)" by Davey Alba in _Bloomberg_
 
 `2023` "[Tech’s hottest new job: AI whisperer. No coding required.](https://www.washingtonpost.com/technology/2023/02/25/prompt-engineers-techs-next-big-job/)" by Drew Harwell in _The Washington Post_
@@ -769,11 +786,13 @@ LING 571 Deep Processing Methods for NLP: Aut '19, '20, '21, '22, '23, '24
 
 LING 572 Advanced Statistical Methods for NLP: Win '20
 
-LING 574 Deep Learning for NLP (new course development): Spr '21, '22, '24
+LING 574 Deep Learning for NLP (new course development): Spr '21, '22, '24, '25
 
 LING 575 Analyzing Neural Language Models: Win '20, Spr '21, '22
 
 LING 575 Compositionality and Generalization: Spr '24
+
+LING 575 Computational Linguistics and Cognitive Science: Spr '25
 
 
 ### Amsterdam
@@ -811,6 +830,7 @@ __Primary Advisor__
 - Christopher Haberland
 - Jingnong Qu
 - Amanda Popadich
+- Jeongyeob Hong
 
 __Graduated PhD Students (as primary advisor)__
 
@@ -892,7 +912,7 @@ Paige Finkelstein (Software Engineer, turn.io), "Human-Assisted Neural Machine T
 
 #### Journals
 
-Semantics & Pragmatics (5); Glossa Psycholinguistics; The Psychological Review; Mind; Noûs; Mind \& Language (2); Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (4); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology; Open Mind; Journal of Pragmatics; Journal of Memory and Language
+Semantics & Pragmatics (5); Glossa Psycholinguistics; The Psychological Review; Mind; Noûs; Mind \& Language (2); Journal of Data Science; Erkenntnis (3); Synthese (2); The Review of Symbolic Logic (2); Journal of Logic, Language and Information (4); Journal of Semantics (4); Australasion Journal of Philosophy; Ergo; Philosophical Studies; Interaction Studies (formerly known as Evolution of Communication); Frontiers in Artificial Intelligence; Frontiers in Psychology (Language Sciences); Theoria (2); Logic Journal of the IGPL; PLoS Computational Biology; Open Mind; Journal of Pragmatics; Journal of Memory and Language; Proceedings of the National Academy of Sciences (PNAS)
 
 #### Conferences
 
@@ -904,7 +924,7 @@ The MIT Press; Cambridge University Press
 
 #### Grant Agencies
 
-National Science Foundation; UW Royalty Research Fund; UW Linguistics Fund
+National Science Foundation; Israeli Science Foundation; UW Royalty Research Fund; UW Linguistics Fund
 
 
 ### Conference Organization
