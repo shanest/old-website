@@ -23,7 +23,7 @@ Computational Linguist and Cognitive Scientist
 </div>
 
 <div id="date">
-Last modified: 11/12/24
+Last modified: 08/07/25
 </div>
 
 
@@ -111,11 +111,14 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 ### Journals
 
-`forthcoming`
-@patilFilteredCorpusTrainingforthcoming
+`2025`
+@guerinSecondorderZipfsLaw2025
 
-`forthcoming`
-@schlenkerBabelThreeDegreesforthcoming
+`2025`
+@schlenkerAntiBabelThreeDegrees2025
+
+`2024`
+@patilFilteredCorpusTraining2024a
 
 `2024`
 @guerinImpactSyntacticSemantic2024
@@ -242,7 +245,7 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 @downeyLearningTranslateLearning2023
 
 `2023`
-@wangEvaluatingTransformerAbility2023
+@wangEvaluatingTransformersAbility2023
 
 `2023`
 @reymondMSCANDatasetMultilingual2023
@@ -353,7 +356,7 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 - Contribution: 45% (conceptualization, methodology, software, investigation, writing --- original draft, writing --- review and editing)
 
 `2017*`
-@steinert-threlkeldUniformDefinabilityAssertability2017a
+@steinert-threlkeldUniformDefinabilityAssertability2017
 
 `2015`
 @hawkeInformationalDynamicsMight2015
@@ -405,11 +408,24 @@ Contribution: as required, for each non-single-authored publication, an esimate 
 
 #### TBD
 
-`01/24/2025`
-Workshop on self-assembling games
+`10/31/2025`
+Georgetown University, Computational Linguistics Colloquium
+
+`09/19/2025`
+Northeastern University, Philosophy and Technology Colloquium
+
+#### Filtered Corpus Training Shows that Language Models Can Generalize from Indirect Evidence
+
+`02/18/2025`
+University of Rochester, Center for Language Science Colloquium
 
 `11/29/2024`
 Workshop: At the Crossroads of AI and Cognitive Science
+
+#### Anti-Babel: Three Degrees of Interspecies Communication
+
+`01/24/2025`
+Workshop on self-assembling games
 
 #### Unnatural Language Semantics
 

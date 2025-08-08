@@ -67,9 +67,9 @@ references:
     monotonicity universal evolve reliably in an iterated learning paradigm with
     neural networks as agents.
   accessed:
-    - year: 2023
-      month: 10
-      day: 5
+    - year: 2022
+      month: 3
+      day: 27
   author:
     - family: Carcassi
       given: Fausto
@@ -85,9 +85,6 @@ references:
   issued:
     - year: 2021
   language: en
-  license: >-
-    © 2021 The Authors. Cognitive Science published by Wiley Periodicals LLC on
-    behalf of Cognitive Science Society (CSS).
   page: e13027
   source: Wiley Online Library
   title: Monotone Quantifiers Emerge via Iterated Learning
@@ -107,9 +104,9 @@ references:
     monotonicity universal evolve reliably in an iterated learning paradigm with
     neural networks as agents.
   accessed:
-    - year: 2022
-      month: 3
-      day: 27
+    - year: 2023
+      month: 10
+      day: 5
   author:
     - family: Carcassi
       given: Fausto
@@ -125,6 +122,9 @@ references:
   issued:
     - year: 2021
   language: en
+  license: >-
+    © 2021 The Authors. Cognitive Science published by Wiley Periodicals LLC on
+    behalf of Cognitive Science Society (CSS).
   page: e13027
   source: Wiley Online Library
   title: Monotone Quantifiers Emerge via Iterated Learning
@@ -490,6 +490,24 @@ references:
     Back-Translation
   type: article-journal
   URL: https://openreview.net/forum?id=6DflIABPQP
+
+- id: guerinSecondorderZipfsLaw2025
+  author:
+    - family: Guerin
+      given: Nicolas
+    - family: Steinert-Threlkeld
+      given: Shane
+    - family: Ryder
+      given: Robin
+    - family: Chemla
+      given: Emmanuel
+  citation-key: guerinSecondorderZipfsLaw2025
+  container-title: Open Mind
+  DOI: 10.1162/opmi.a.8
+  issued:
+    - year: 2025
+  title: Second-order Zipf's Law for Word  Co-occurrences
+  type: article-journal
 
 - id: guoDatabaseModalSemantic2022
   abstract: >-
@@ -923,7 +941,7 @@ references:
   type: paper-conference
   URL: http://aclweb.org/anthology/W19-2916
 
-- id: patilFilteredCorpusTrainingforthcoming
+- id: patilFilteredCorpusTraining2024a
   abstract: >-
     This paper introduces Filtered Corpus Training, a method that trains
     language models (LMs) on corpora with certain linguistic constructions
@@ -935,6 +953,10 @@ references:
     measured by perplexity), both models perform equally and surprisingly well
     on linguistic generalization measures, suggesting that they are capable of
     generalizing from indirect evidence.
+  accessed:
+    - year: 2025
+      month: 8
+      day: 8
   author:
     - family: Patil
       given: Abhinav
@@ -952,16 +974,23 @@ references:
       given: Clevis
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: patilFilteredCorpusTrainingforthcoming
+  citation-key: patilFilteredCorpusTraining2024a
   container-title: Transactions of the Association for Computational Linguistics
+  container-title-short: Transactions of the Association for Computational Linguistics
+  DOI: 10.1162/tacl_a_00720
+  ISSN: 2307-387X
   issued:
-    - literal: forthcoming
-  source: arXiv.org
+    - year: 2024
+      month: 11
+      day: 27
+  page: 1597-1615
+  source: Silverchair
   title: >-
-    Filtered Corpus Training (FiCT) Shows that Language Models can Generalize
+    Filtered Corpus Training (FiCT) Shows that Language Models Can Generalize
     from Indirect Evidence
   type: article-journal
-  URL: http://arxiv.org/abs/2405.15750
+  URL: https://doi.org/10.1162/tacl_a_00720
+  volume: '12'
 
 - id: Pezzelle2018
   author:
@@ -1295,35 +1324,22 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/cogs.13220
   volume: '46'
 
-- id: schlenkerBabelThreeDegreesforthcoming
+- id: schlenkerAntiBabelThreeDegrees2025
   abstract: >-
-    Recent work seeking to provide a formal account of meaning in animal
-    communication took call form to be arbitrary (Schlenker et al. 2014, 2016b).
-    But a long line of research (from Marler 1955 to Magrath et al. 2020) has
-    shown that this is not always so, especially in birds: there is sometimes
-    widespread convergence among the calls of different species, to the point
-    that a species may understand the calls of another one that is
-    geographically and phylogenetically extremely distant.  This suggests that
-    there might be a natural biological code by which the calls of unrelated and
-    unfamiliar species can sometimes be understood without prior exposure. We
-    clarify this possibility by distinguishing among three degrees of
-    interspecies comprehension. In the first degree ('Understand Thy Neighbor'),
-    a species understands some of the calls of a neighboring species because it
-    is exposed to them. In the second degree ('Call Convergence'), a species may
-    understand the calls of an unrelated and unfamiliar species by virtue of
-    Marlerian convergence: a heterospecific call may globally resemble a
-    conspecific call enough to yield understanding. In the third degree
-    ('Featural Interpretation'), a species may use a rule that associates a
-    meaning to a specific acoustic feature – e.g. higher call rate signals
-    greater urgency, higher pitch signals greater arousal, greater noisiness
-    signals greater negativity. This yields a kind of featural compositionality
-    by which a species may understand a heterospecific call that does not
-    globally resemble any familiar call, but still includes the crucial,
-    interpretable feature.  There might thus be an entirely new road to the
-    emergence of compositionality in studies of meaning evolution. We lay out
-    possible mechanisms of evolution of these degrees of interspecies
-    comprehension, and isolate predictions that distinguish the third degree
-    from the second.
+    While recent “animal linguistics” treats call form as arbitrary, various
+    results suggest that some animals use a biological code to understand the
+    calls of unrelated/unfamiliar species. To clarify matters, we distinguish
+    among three degrees of interspecies comprehension. In the first (“Understand
+    thy neighbor”), a species understands the calls of a neighboring species
+    through exposure. In the second (“call convergence”), it understands the
+    calls of an unrelated/unfamiliar species through evolutionary convergence
+    and resemblance to familiar calls. In the third degree (“featural
+    interpretation”), it uses a rule associating a meaning to a specific
+    acoustic feature—hence a new road to (featural) compositionality.
+  accessed:
+    - year: 2025
+      month: 7
+      day: 9
   author:
     - family: Schlenker
       given: Philippe
@@ -1337,16 +1353,19 @@ references:
       given: Lucie
     - family: Chemla
       given: Emmanuel
-  citation-key: schlenkerBabelThreeDegreesforthcoming
+  citation-key: schlenkerAntiBabelThreeDegrees2025
   container-title: Mind & Language
+  DOI: 10.1111/mila.12529
+  ISSN: 1468-0017
   issued:
-    - literal: forthcoming
-  note: 'LingBuzz Published In:'
-  source: LingBuzz
-  title: 'Anti-Babel: Three Degrees of Interspecies Comprehension'
+    - year: 2025
+  language: en
+  license: © 2024 John Wiley & Sons Ltd.
+  source: Wiley Online Library
+  title: 'Anti-Babel: Three degrees of interspecies comprehension'
   title-short: Anti-Babel
   type: article-journal
-  URL: https://ling.auf.net/lingbuzz/007168
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/mila.12529
 
 - id: schlenkerMinimalCompositionalityBird2024
   abstract: >-
@@ -1424,6 +1443,8 @@ references:
     Iconic Artificial Language Learning: A Conceptual Replication with English
     Speakers
   type: paper-conference
+  URL: https://escholarship.org/uc/item/7b66s7c6
+  volume: '45'
 
 - id: shapiroIconicArtificialLanguage2024
   abstract: >-
@@ -1435,10 +1456,6 @@ references:
     those observed among other populations, while developing insights for future
     ALL field experiments. We show that iconic ALL offers a promising path
     forward for including understudied communities in the cognitive sciences.
-  accessed:
-    - year: 2024
-      month: 6
-      day: 11
   author:
     - family: Shapiro
       given: Naomi Tachikawa
@@ -1450,8 +1467,6 @@ references:
   container-title: Proceedings of the Annual Meeting of the Cognitive Science Society
   issued:
     - year: 2024
-  language: en
-  source: escholarship.org
   title: >-
     Iconic Artificial Language Learning in the Field: An Experiment with San
     Martín Peras Mixtec Speakers
@@ -2180,11 +2195,11 @@ references:
   URL: https://doi.org/10.3765/sp.16.1
   volume: '16'
 
-- id: steinert-threlkeldUniformDefinabilityAssertability2017a
+- id: steinert-threlkeldUniformDefinabilityAssertability2017
   author:
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: steinert-threlkeldUniformDefinabilityAssertability2017a
+  citation-key: steinert-threlkeldUniformDefinabilityAssertability2017
   container-title: Proceedings of the 21st Amsterdam Colloquium
   editor:
     - family: Cremers
@@ -2303,7 +2318,7 @@ references:
   URL: https://escholarship.org/uc/item/1vm445rp
   volume: '43'
 
-- id: wangEvaluatingTransformerAbility2023
+- id: wangEvaluatingTransformersAbility2023
   abstract: >-
     Despite the fact that Transformers perform well in NLP tasks, recent studies
     suggest that self-attention is theoretically limited in learning even some
@@ -2325,7 +2340,7 @@ references:
       given: Shunjie
     - family: Steinert-Threlkeld
       given: Shane
-  citation-key: wangEvaluatingTransformerAbility2023
+  citation-key: wangEvaluatingTransformersAbility2023
   container-title: >-
     Proceedings of the 6th BlackboxNLP Workshop: Analyzing and Interpreting
     Neural Networks for NLP
